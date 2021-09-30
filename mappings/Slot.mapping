@@ -1,0 +1,11 @@
+CLASS dk Slot
+	FIELD a slotIndex I
+	FIELD b inventory Lgh;
+	METHOD <init> (Lgh;I)V
+		ARG 1 inventory
+		ARG 2 slotIndex
+	METHOD a (Lev;)Z
+		ARG 1 itemStack
+	METHOD b (Lev;)V
+		ARG 1 itemStack
+	METHOD c getBackgroundIconIndex ()I

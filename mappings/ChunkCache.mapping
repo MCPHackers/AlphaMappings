@@ -1,0 +1,4 @@
+CLASS ci ChunkCache
+	FIELD d worldObj Lcn;
+	METHOD <init> (Lcn;IIIIII)V
+		ARG 1 worldObj

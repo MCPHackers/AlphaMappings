@@ -1,0 +1,3 @@
+CLASS mn GuiConnecting
+	FIELD a clientHandler Lgy;
+	FIELD h cancelled Z

@@ -1,0 +1,7 @@
+CLASS bd TileEntityMobSpawner
+	FIELD a delay I
+	FIELD b mobID Ljava/lang/String;
+	FIELD c yaw D
+	FIELD d yaw2 D
+	METHOD a anyPlayerInRange ()Z
+	METHOD c updateDelay ()V

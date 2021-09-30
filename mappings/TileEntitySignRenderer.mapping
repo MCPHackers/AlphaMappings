@@ -1,0 +1,2 @@
+CLASS in TileEntitySignRenderer
+	FIELD b modelSign Ljk;

@@ -1,0 +1,7 @@
+CLASS el NBTBase
+	METHOD a writeNamedTag (Lel;Ljava/io/DataOutput;)V
+	METHOD a (Ljava/io/DataInput;)V
+		ARG 1 dataInput
+	METHOD a (Ljava/io/DataOutput;)V
+		ARG 1 dataOutput
+	METHOD b readNamedTag (Ljava/io/DataInput;)Lel;

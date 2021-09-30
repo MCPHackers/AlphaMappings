@@ -1,0 +1,4 @@
+CLASS mm SlotInventory
+	FIELD e xDisplayPosition I
+	FIELD f yDisplayPosition I
+	METHOD a getIsMouseOverSlot (II)Z

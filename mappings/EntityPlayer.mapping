@@ -1,0 +1,11 @@
+CLASS dm EntityPlayer
+	FIELD b inventory Leu;
+	METHOD a dropPlayerItem (Lev;)V
+	METHOD a displayGUIChest (Lgh;)V
+	METHOD a displayGUIFurnace (Lke;)V
+	METHOD a getCurrentPlayerStrVsBlock (Lly;)F
+	METHOD a displayGUIEditSign (Lob;)V
+	METHOD b canHarvestBlock (Lly;)Z
+	METHOD l displayWorkbenchGUI ()V
+	METHOD r getScore ()I
+	METHOD w swingItem ()V

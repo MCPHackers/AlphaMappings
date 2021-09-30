@@ -1,0 +1,3 @@
+CLASS ki NBTTagList
+	METHOD a setTag (Lel;)V
+	METHOD c tagCount ()I

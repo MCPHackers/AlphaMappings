@@ -1,0 +1,11 @@
+CLASS lu GuiIngame
+	FIELD a testMessage Ljava/lang/String;
+	FIELD b damageGuiPartialTime F
+	FIELD c prevVignetteBrightness F
+	FIELD d itemRenderer Lab;
+	FIELD e chatMessageList Ljava/util/List;
+	FIELD f rand Ljava/util/Random;
+	FIELD g mc Lnet/minecraft/client/Minecraft;
+	FIELD h updateCounter I
+	FIELD i recordPlaying Ljava/lang/String;
+	FIELD j recordPlayingUpFor I

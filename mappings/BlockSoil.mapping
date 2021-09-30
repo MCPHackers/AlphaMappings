@@ -1,0 +1,3 @@
+CLASS mi BlockSoil
+	METHOD h isCropsNearby (Lcn;III)Z
+	METHOD i isWaterNearby (Lcn;III)Z

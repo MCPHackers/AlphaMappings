@@ -1,0 +1,3 @@
+CLASS b BlockChest
+	FIELD a random Ljava/util/Random;
+	METHOD h isThereANeighborChest (Lcn;III)Z

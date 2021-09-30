@@ -1,0 +1,4 @@
+CLASS km BlockStairs
+	FIELD a modelBlock Lly;
+	METHOD i isBlockSolid (Lcn;III)Z
+	METHOD j isBlockStair (Lcn;III)Z

@@ -1,0 +1,16 @@
+CLASS gb Material
+	FIELD c wood Lgb;
+	FIELD d rock Lgb;
+	FIELD e iron Lgb;
+	FIELD f water Lgb;
+	FIELD g lava Lgb;
+	FIELD k cloth Lgb;
+	FIELD m sand Lgb;
+	FIELD n circuits Lgb;
+	FIELD o glass Lgb;
+	FIELD s snow Lgb;
+	FIELD t craftedSnow Lgb;
+	METHOD a isSolid ()Z
+	METHOD c getIsSolid ()Z
+	METHOD d getIsLiquid ()Z
+	METHOD e getCanBurn ()Z

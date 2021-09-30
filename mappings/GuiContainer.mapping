@@ -1,0 +1,10 @@
+CLASS ee GuiContainer
+	FIELD a xSize I
+	FIELD h ySize I
+	FIELD i inventorySlots Ljava/util/List;
+	FIELD j itemRenderer Lab;
+	METHOD a drawGuiContainerBackgroundLayer (F)V
+	METHOD a getSlotAtPosition (II)Ldk;
+	METHOD a drawSlotInventory (Lmm;)V
+		ARG 1 slotInventory
+	METHOD j drawGuiContainerForegroundLayer ()V

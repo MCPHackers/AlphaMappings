@@ -1,0 +1,2 @@
+CLASS dr RecipesTools
+	METHOD a addRecipes (Ldw;)V

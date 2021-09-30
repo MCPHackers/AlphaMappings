@@ -1,0 +1,3 @@
+CLASS ck ChunkProviderIso
+	FIELD b chunks [Lga;
+	FIELD c worldObj Lcn;

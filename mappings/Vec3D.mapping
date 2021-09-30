@@ -1,0 +1,23 @@
+CLASS aj Vec3D
+	FIELD a xCoord D
+	FIELD b yCoord D
+	FIELD c zCoord D
+	FIELD d vectorList Ljava/util/List;
+	FIELD e nextVector I
+	METHOD a initialize ()V
+	METHOD a createVectorHelper (DDD)Laj;
+	METHOD a rotateAroundX (F)V
+	METHOD a subtract (Laj;)Laj;
+	METHOD a getIntermediateWithXValue (Laj;D)Laj;
+	METHOD b normalize ()Laj;
+	METHOD b createVector (DDD)Laj;
+	METHOD b rotateAroundY (F)V
+	METHOD b crossProduct (Laj;)Laj;
+	METHOD b getIntermediateWithYValue (Laj;D)Laj;
+	METHOD c lengthVector ()D
+	METHOD c addVector (DDD)Laj;
+	METHOD c distanceTo (Laj;)D
+	METHOD c getIntermediateWithZValue (Laj;D)Laj;
+	METHOD d squareDistanceTo (DDD)D
+	METHOD d squareDistanceTo (Laj;)D
+	METHOD e setComponents (DDD)Laj;

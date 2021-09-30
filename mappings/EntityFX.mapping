@@ -1,0 +1,5 @@
+CLASS nq EntityFX
+	FIELD l interpPosX D
+	FIELD m interpPosY D
+	FIELD n interpPosZ D
+	METHOD c getFXLayer ()I

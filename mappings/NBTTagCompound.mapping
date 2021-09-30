@@ -1,0 +1,10 @@
+CLASS hm NBTTagCompound
+	METHOD a setByte (Ljava/lang/String;B)V
+	METHOD a setInteger (Ljava/lang/String;I)V
+	METHOD a setTag (Ljava/lang/String;Lel;)V
+	METHOD a setString (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a setShort (Ljava/lang/String;S)V
+	METHOD c getByte (Ljava/lang/String;)B
+	METHOD d getShort (Ljava/lang/String;)S
+	METHOD e getInteger (Ljava/lang/String;)I
+	METHOD l getTagList (Ljava/lang/String;)Lki;

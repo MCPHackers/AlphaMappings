@@ -1,0 +1,3 @@
+CLASS i RenderHelper
+	METHOD a disableStandardItemLighting ()V
+	METHOD b enableStandardItemLighting ()V

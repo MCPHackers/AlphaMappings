@@ -1,0 +1,2 @@
+CLASS jn ItemSeeds
+	FIELD a blockType I

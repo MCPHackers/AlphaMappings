@@ -1,0 +1,9 @@
+CLASS hv BlockFlowing
+	FIELD a numAdjacentSources I
+	FIELD b isOptimalFlowDirection [Z
+	FIELD c flowCost [I
+	METHOD a calculateFlowCost (Lcn;IIIII)I
+	METHOD f getSmallestFlowDecay (Lcn;IIII)I
+	METHOD g flowIntoBlock (Lcn;IIII)V
+	METHOD j updateFlow (Lcn;III)V
+	METHOD k getOptimalFlowDirections (Lcn;III)[Z

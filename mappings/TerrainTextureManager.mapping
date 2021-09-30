@@ -1,0 +1,2 @@
+CLASS lt TerrainTextureManager
+	METHOD a render (Ljj;)V

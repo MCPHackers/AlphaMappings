@@ -1,0 +1,2 @@
+CLASS nd RecipesWeapons
+	METHOD a addRecipes (Ldw;)V

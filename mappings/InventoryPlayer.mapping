@@ -1,0 +1,2 @@
+CLASS eu InventoryPlayer
+	FIELD e draggedItemStack Lev;

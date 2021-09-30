@@ -1,0 +1,2 @@
+CLASS gf ItemReed
+	FIELD a spawnID I

@@ -1,0 +1,2 @@
+CLASS fd BlockSnow
+	METHOD h canSnowStay (Lcn;III)Z

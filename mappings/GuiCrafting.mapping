@@ -1,0 +1,2 @@
+CLASS hx GuiCrafting
+	FIELD j craftingInventory Let;

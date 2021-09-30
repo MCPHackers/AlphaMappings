@@ -1,0 +1,3 @@
+CLASS ab RenderItem
+	METHOD a renderItemIntoGUI (Lkd;Ley;Lev;II)V
+	METHOD b renderItemOverlayIntoGUI (Lkd;Ley;Lev;II)V

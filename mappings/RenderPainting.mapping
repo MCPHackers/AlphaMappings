@@ -1,0 +1,6 @@
+CLASS bw RenderPainting
+	FIELD d rand Ljava/util/Random;
+	METHOD a (Ljc;FF)V
+		ARG 1 entityPainting
+	METHOD a (Ljc;IIII)V
+		ARG 1 entityPainting

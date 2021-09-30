@@ -1,0 +1,4 @@
+CLASS cz PathFinder
+	FIELD a worldMap Lnm;
+	FIELD b path Lfx;
+	FIELD c pointMap Lfi;

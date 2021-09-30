@@ -1,0 +1,8 @@
+CLASS kx RenderManager
+	FIELD a instance Lkx;
+	FIELD e renderEngine Ley;
+	FIELD g worldObj Lcn;
+	FIELD i playerViewY F
+	FIELD k options Lfr;
+	METHOD a getFontRenderer ()Lkd;
+	METHOD a renderEntityWithPosYaw (Lkh;DDDFF)V

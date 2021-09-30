@@ -1,0 +1,3 @@
+CLASS lr BlockSign
+	FIELD a signEntityClass Ljava/lang/Class;
+	FIELD b isFreestanding Z

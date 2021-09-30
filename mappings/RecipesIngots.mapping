@@ -1,0 +1,2 @@
+CLASS lf RecipesIngots
+	METHOD a addRecipes (Ldw;)V

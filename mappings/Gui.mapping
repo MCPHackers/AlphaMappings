@@ -1,0 +1,7 @@
+CLASS lm Gui
+	FIELD k zLevel F
+	METHOD a drawRect (IIIII)V
+	METHOD a drawGradientRect (IIIIII)V
+	METHOD a drawCenteredString (Lkd;Ljava/lang/String;III)V
+	METHOD b drawTexturedModalRect (IIIIII)V
+	METHOD b drawString (Lkd;Ljava/lang/String;III)V

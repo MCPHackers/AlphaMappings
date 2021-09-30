@@ -1,0 +1,4 @@
+CLASS ip ModelRenderer
+	FIELD h showModel Z
+	METHOD a render (F)V
+	METHOD a addBox (FFFIIIF)V

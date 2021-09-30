@@ -1,0 +1,9 @@
+CLASS og BlockFire
+	FIELD a chanceToEncourageFire [I
+	FIELD b abilityToCatchFire [I
+	METHOD a initializeBlock (III)V
+	METHOD a tryToCatchBlockOnFire (Lcn;IIIILjava/util/Random;)V
+	METHOD b canBlockCatchFire (Lnm;III)Z
+	METHOD g getChanceToEncourageFire (Lcn;IIII)I
+	METHOD h canNeighborBurn (Lcn;III)Z
+	METHOD i getChanceOfNeighborsEncouragingFire (Lcn;III)I

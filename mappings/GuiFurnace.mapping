@@ -1,0 +1,2 @@
+CLASS id GuiFurnace
+	FIELD j furnaceInventory Lke;

@@ -1,0 +1,3 @@
+CLASS lo GuiInventory
+	FIELD l xSize_lo F
+	FIELD m ySize_lo F

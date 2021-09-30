@@ -1,0 +1,3 @@
+CLASS ie GuiIngameMenu
+	FIELD a updateCounter2 I
+	FIELD h updateCounter I

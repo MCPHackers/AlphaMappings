@@ -1,0 +1,3 @@
+CLASS ew EntityList
+	METHOD a createEntityInWorld (Ljava/lang/String;Lcn;)Lkh;
+	METHOD b getEntityString (Lkh;)Ljava/lang/String;

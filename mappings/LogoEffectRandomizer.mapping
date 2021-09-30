@@ -1,0 +1,6 @@
+CLASS kc LogoEffectRandomizer
+	FIELD a height D
+	FIELD b prevHeight D
+	FIELD c dropSpeed D
+	FIELD d mainMenu Lcx;
+	METHOD a updateLogoEffects ()V

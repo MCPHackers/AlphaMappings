@@ -1,0 +1,4 @@
+CLASS ge EntityLiving
+	METHOD a getCanSpawnHere ()Z
+	METHOD b heal (I)V
+	METHOD z spawnExplosionParticle ()V

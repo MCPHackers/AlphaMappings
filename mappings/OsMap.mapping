@@ -1,0 +1,2 @@
+CLASS ln OsMap
+	FIELD a osValues [I

@@ -1,0 +1,4 @@
+CLASS gy NetClientHandler
+	METHOD a processReadPackets ()V
+	METHOD a addToSendQueue (Lfn;)V
+	METHOD b disconnect ()V

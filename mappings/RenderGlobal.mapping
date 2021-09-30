@@ -1,0 +1,4 @@
+CLASS e RenderGlobal
+	FIELD k worldObj Lcn;
+	FIELD t mc Lnet/minecraft/client/Minecraft;
+	METHOD a loadRenderers ()V

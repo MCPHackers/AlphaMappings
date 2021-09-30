@@ -1,0 +1,2 @@
+CLASS fj RecipesCrafting
+	METHOD a addRecipes (Ldw;)V
