@@ -1,1 +1,6 @@
 CLASS er EnumArt
+	FIELD A sizeY I
+	FIELD B offsetX I
+	FIELD C offsetY I
+	FIELD y title Ljava/lang/String;
+	FIELD z sizeX I

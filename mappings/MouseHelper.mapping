@@ -1,1 +1,4 @@
 CLASS mp MouseHelper
+	FIELD a deltaX I
+	FIELD b deltaY I
+	METHOD c mouseXYChange ()V

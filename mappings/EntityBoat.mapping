@@ -1,1 +1,4 @@
 CLASS dc EntityBoat
+	FIELD a damageTaken I
+	FIELD b timeSinceHit I
+	FIELD c forwardDirection I

@@ -1,1 +1,3 @@
 CLASS iy ScaledResolution
+	METHOD a getScaledWidth ()I
+	METHOD b getScaledHeight ()I

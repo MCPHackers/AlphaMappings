@@ -1,1 +1,4 @@
 CLASS ff EntityFallingSand
+	FIELD a blockID I
+	FIELD b fallTime I
+	METHOD i getWorld ()Lcn;

@@ -1,1 +1,4 @@
 CLASS bl PathEntity
+	METHOD a incrementPathIndex ()V
+	METHOD a getPosition (Lkh;)Laj;
+	METHOD b isFinished ()Z

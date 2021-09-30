@@ -9,3 +9,4 @@ CLASS lu GuiIngame
 	FIELD h updateCounter I
 	FIELD i recordPlaying Ljava/lang/String;
 	FIELD j recordPlayingUpFor I
+	METHOD a renderGameOverlay (FZII)V

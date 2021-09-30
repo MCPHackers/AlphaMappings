@@ -1,1 +1,2 @@
 CLASS mv EntityPig
+	FIELD a saddled Z

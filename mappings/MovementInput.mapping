@@ -1,1 +1,6 @@
 CLASS lv MovementInput
+	FIELD a moveStrafe F
+	FIELD e sneak Z
+	METHOD a resetKeyState ()V
+	METHOD a checkKeyForMovementInput (IZ)V
+	METHOD a updatePlayerMoveState (Ldm;)V

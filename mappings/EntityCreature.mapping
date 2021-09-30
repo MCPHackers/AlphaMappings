@@ -1,1 +1,7 @@
 CLASS ek EntityCreature
+	FIELD a pathToEntity Lbl;
+	FIELD f entityToAttack Lkh;
+	FIELD g hasAttacked Z
+	METHOD a getBlockPathWeight (III)F
+	METHOD a attackEntity (Lkh;F)V
+	METHOD i findPlayerToAttack ()Lkh;

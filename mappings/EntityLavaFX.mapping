@@ -1,1 +1,2 @@
 CLASS cq EntityLavaFX
+	FIELD a lavaParticleScale F

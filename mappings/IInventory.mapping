@@ -5,3 +5,4 @@ CLASS gh IInventory
 	METHOD c getStackInSlot (I)Lev;
 	METHOD d getInvName ()Ljava/lang/String;
 	METHOD e getInventoryStackLimit ()I
+	METHOD j_ onInventoryChanged ()V

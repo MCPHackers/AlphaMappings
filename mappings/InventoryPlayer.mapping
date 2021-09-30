@@ -1,2 +1,12 @@
 CLASS eu InventoryPlayer
+	FIELD d currentItem I
 	FIELD e draggedItemStack Lev;
+	METHOD a getCurrentItem ()Lev;
+	METHOD a addItemStackToInventory (Lev;)Z
+	METHOD a getStrVsBlock (Lly;)F
+	METHOD b decrementAnimations ()V
+	METHOD b readFromNBT (Lki;)V
+	METHOD b canHarvestBlock (Lly;)Z
+	METHOD e damageArmor (I)V
+	METHOD f getTotalArmorValue ()I
+	METHOD g dropAllItems ()V

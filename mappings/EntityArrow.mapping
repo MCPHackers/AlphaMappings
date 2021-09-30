@@ -1,2 +1,11 @@
 CLASS kg EntityArrow
 	FIELD a arrowShake I
+	FIELD b xTile I
+	FIELD c yTile I
+	FIELD d zTile I
+	FIELD e inTile I
+	FIELD f inData Z
+	FIELD g shootingEntity Lge;
+	FIELD h ticksInGround I
+	FIELD i ticksInAir I
+	METHOD a setArrowHeading (DDDFF)V

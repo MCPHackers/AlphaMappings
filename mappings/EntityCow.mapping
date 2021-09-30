@@ -1,1 +1,2 @@
 CLASS am EntityCow
+	FIELD a unusedBool2 Z

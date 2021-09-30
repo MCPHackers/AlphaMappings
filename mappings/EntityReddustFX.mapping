@@ -1,1 +1,2 @@
 CLASS en EntityReddustFX
+	FIELD a reddustParticleScale F

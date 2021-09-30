@@ -6,6 +6,7 @@ CLASS cn World
 	FIELD h editingBlocks Z
 	FIELD i lightBrightness [F
 	FIELD k playerEntities Ljava/util/List;
+	FIELD l difficultySetting I
 	FIELD n rand Ljava/util/Random;
 	FIELD o spawnX I
 	FIELD p spawnY I
@@ -15,10 +16,12 @@ CLASS cn World
 	FIELD y multiplayerWorld Z
 	METHOD a getClosestPlayer (DDDD)Ldm;
 	METHOD a playSoundEffect (DDDLjava/lang/String;FF)V
+	METHOD a getChunkFromBlockCoords (II)Lga;
 	METHOD a setBlock (IIII)Z
 	METHOD a setBlockAndMetadata (IIIII)Z
 	METHOD a canBlockBePlacedAt (IIIIZ)Z
 	METHOD a setBlockTileEntity (IIILic;)V
+	METHOD a rayTraceBlocks (Laj;Laj;)Lmf;
 	METHOD a rayTraceBlocks_do (Laj;Laj;Z)Lmf;
 	METHOD a getSavedLightValue (Lby;III)I
 	METHOD a isMaterialInBB (Lcf;Lgb;)Z
@@ -27,18 +30,26 @@ CLASS cn World
 	METHOD a getEntitiesWithinAABB (Ljava/lang/Class;Lcf;)Ljava/util/List;
 	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a spawnEntityInWorld (Lkh;)Z
+	METHOD a createExplosion (Lkh;DDDF)V
+	METHOD a getEntityPathToXYZ (Lkh;IIIF)Lbl;
 	METHOD a getCollidingBoundingBoxes (Lkh;Lcf;)Ljava/util/List;
 	METHOD a playSoundAtEntity (Lkh;Ljava/lang/String;FF)V
+	METHOD a getPathToEntity (Lkh;Lkh;F)Lbl;
+	METHOD b getSkyColor (F)Laj;
 	METHOD b setBlockMetadataWithNotify (IIII)V
 	METHOD b setBlockAndMetadataWithNotify (IIIII)Z
 	METHOD b markBlocksDirty (IIIIII)V
 	METHOD b updateTileEntityChunkAndDoNothing (IIILic;)V
 	METHOD b getIsAnyLiquid (Lcf;)Z
+	METHOD b isAABBInMaterial (Lcf;Lgb;)Z
 	METHOD b deleteWorld (Ljava/io/File;Ljava/lang/String;)V
 	METHOD b getEntitiesWithinAABBExcludingEntity (Lkh;Lcf;)Ljava/util/List;
 	METHOD c isBoundingBoxBurning (Lcf;)Z
+	METHOD d getTopSolidOrLiquidBlock (II)I
 	METHOD d setBlockWithNotify (IIII)Z
 	METHOD e updatingLighting ()Z
+	METHOD e getFogColor (F)Laj;
+	METHOD e getPrecipitationHeight (II)I
 	METHOD g notifyBlocksOfNeighborChange (IIII)V
 	METHOD h markBlockNeedsUpdate (III)V
 	METHOD h scheduleBlockUpdate (IIII)V

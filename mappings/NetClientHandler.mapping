@@ -1,4 +1,9 @@
 CLASS gy NetClientHandler
+	FIELD b rand Ljava/util/Random;
+	FIELD c disconnected Z
+	FIELD d netManager Lii;
+	FIELD e mc Lnet/minecraft/client/Minecraft;
+	FIELD f worldClient Lgs;
 	METHOD a processReadPackets ()V
 	METHOD a addToSendQueue (Lfn;)V
 	METHOD b disconnect ()V

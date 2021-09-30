@@ -1,1 +1,2 @@
 CLASS jb EntityFlameFX
+	FIELD a flameScale F

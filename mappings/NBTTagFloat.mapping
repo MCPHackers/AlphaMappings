@@ -1,1 +1,2 @@
 CLASS f NBTTagFloat
+	FIELD a floatValue F

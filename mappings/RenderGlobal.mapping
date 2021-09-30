@@ -2,3 +2,6 @@ CLASS e RenderGlobal
 	FIELD k worldObj Lcn;
 	FIELD t mc Lnet/minecraft/client/Minecraft;
 	METHOD a loadRenderers ()V
+	METHOD a drawBlockBreaking (Ldm;Lmf;ILev;F)V
+	METHOD b renderClouds (F)V
+	METHOD b drawSelectionBox (Ldm;Lmf;ILev;F)V

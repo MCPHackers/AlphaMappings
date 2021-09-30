@@ -1,1 +1,2 @@
 CLASS kr NBTTagDouble
+	FIELD a doubleValue D

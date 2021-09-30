@@ -1,1 +1,2 @@
 CLASS gn NBTTagLong
+	FIELD a longValue J

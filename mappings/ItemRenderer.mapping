@@ -1,1 +1,4 @@
 CLASS jh ItemRenderer
+	METHOD a updateEquippedItem ()V
+	METHOD a renderItemInFirstPerson (F)V
+	METHOD b renderOverlays (F)V

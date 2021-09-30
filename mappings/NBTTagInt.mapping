@@ -1,1 +1,2 @@
 CLASS io NBTTagInt
+	FIELD a intValue I

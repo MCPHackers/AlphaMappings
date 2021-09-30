@@ -1,1 +1,8 @@
 CLASS nt EntityOtherPlayerMP
+	FIELD a unusedFloat F
+	FIELD bg otherPlayerMPPosRotationIncrements I
+	FIELD bh otherPlayerMPX D
+	FIELD bi otherPlayerMPY D
+	FIELD bj otherPlayerMPZ D
+	FIELD bk otherPlayerMPYaw D
+	FIELD bl otherPlayerMPPitch D
