@@ -1,4 +1,4 @@
-CLASS fi MCHash
+CLASS fi MCHashTable
 	FIELD a slots [Lmx;
 	FIELD b count I
 	FIELD c threshold I
