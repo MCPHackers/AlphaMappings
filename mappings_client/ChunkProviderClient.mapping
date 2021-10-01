@@ -1,0 +1,3 @@
+CLASS lz ChunkProviderClient
+	METHOD c unloadChunk (II)V
+	METHOD d loadChunk (II)Lga;

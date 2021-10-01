@@ -1,0 +1,6 @@
+CLASS jf NextTickListEntry
+	FIELD a xCoord I
+	FIELD b yCoord I
+	FIELD c zCoord I
+	FIELD d blockID I
+	FIELD e scheduledTime J

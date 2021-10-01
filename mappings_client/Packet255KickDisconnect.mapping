@@ -1,0 +1,2 @@
+CLASS oh Packet255KickDisconnect
+	FIELD a reason Ljava/lang/String;

@@ -1,0 +1,4 @@
+CLASS hp Packet1Login
+	FIELD a protocolVersion I
+	FIELD b username Ljava/lang/String;
+	FIELD c password Ljava/lang/String;

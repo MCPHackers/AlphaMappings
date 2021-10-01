@@ -1,0 +1,7 @@
+CLASS na Packet52MultiBlockChange
+	FIELD a xPosition I
+	FIELD b zPosition I
+	FIELD c coordinateArray [S
+	FIELD d typeArray [B
+	FIELD e metadataArray [B
+	FIELD f size I

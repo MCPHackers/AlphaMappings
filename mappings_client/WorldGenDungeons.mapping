@@ -1,0 +1,3 @@
+CLASS cg WorldGenDungeons
+	METHOD a pickCheckLootItem (Ljava/util/Random;)Lev;
+	METHOD b pickMobSpawner (Ljava/util/Random;)Ljava/lang/String;

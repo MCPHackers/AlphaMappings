@@ -1,0 +1,3 @@
+CLASS hf Packet18ArmAnimation
+	FIELD a entityId I
+	FIELD b animate I

@@ -1,2 +1,0 @@
-CLASS hq PlayerController
-	METHOD c sendBlockRemoving (IIII)V

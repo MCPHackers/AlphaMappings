@@ -1,0 +1,2 @@
+CLASS gt Packet2Handshake
+	FIELD a username Ljava/lang/String;

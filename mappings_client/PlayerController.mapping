@@ -1,0 +1,4 @@
+CLASS hq PlayerController
+	METHOD a flipPlayer (Ldm;)V
+	METHOD b createPlayer (Lcn;)Ldm;
+	METHOD c sendBlockRemoving (IIII)V

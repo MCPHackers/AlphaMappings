@@ -1,3 +1,0 @@
-CLASS nu IProgressUpdate
-	METHOD a setLoadingProgress (I)V
-	METHOD d displayLoadingString (Ljava/lang/String;)V

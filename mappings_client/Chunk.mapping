@@ -1,0 +1,19 @@
+CLASS ga Chunk
+	FIELD b blocks [B
+	METHOD a getBlockID (III)I
+	METHOD a setBlockID (IIII)Z
+	METHOD a setBlockIDWithMetadata (IIIII)Z
+	METHOD a setChunkBlockTileEntity (IIILic;)V
+	METHOD a getSavedLightValue (Lby;III)I
+	METHOD a getEntitiesOfTypeWithinAAAB (Ljava/lang/Class;Lcf;Ljava/util/List;)V
+	METHOD a removeEntityAtIndex (Lkh;)V
+	METHOD a getEntitiesWithinAABBForEntity (Lkh;Lcf;Ljava/util/List;)V
+	METHOD a setChunkData ([BIIIIIII)I
+	METHOD b getBlockMetadata (III)I
+	METHOD b setBlockMetadata (IIII)V
+	METHOD b removeEntity (Lkh;)V
+	METHOD c canBlockSeeTheSky (III)Z
+	METHOD c getBlockLightValue (IIII)I
+	METHOD d getChunkBlockTileEntity (III)Lic;
+	METHOD e removeChunkBlockTileEntity (III)V
+	METHOD f setChunkModified ()V

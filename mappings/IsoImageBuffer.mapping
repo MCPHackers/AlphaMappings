@@ -1,9 +1,0 @@
-CLASS jj IsoImageBuffer
-	FIELD a image Ljava/awt/image/BufferedImage;
-	FIELD c x I
-	FIELD d y I
-	FIELD e rendered Z
-	FIELD f noContent Z
-	FIELD g lastVisible I
-	FIELD h addedToRenderQueue Z
-	METHOD a init (II)V

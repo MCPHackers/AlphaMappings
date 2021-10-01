@@ -1,0 +1,10 @@
+CLASS ha Packet21PickupSpawn
+	FIELD a entityId I
+	FIELD b xPosition I
+	FIELD c yPosition I
+	FIELD d zPosition I
+	FIELD e rotation B
+	FIELD f pitch B
+	FIELD g roll B
+	FIELD h itemID I
+	FIELD i count I

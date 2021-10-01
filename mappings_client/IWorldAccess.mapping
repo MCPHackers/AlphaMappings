@@ -1,0 +1,4 @@
+CLASS im IWorldAccess
+	METHOD a markBlockAndNeighborsNeedsUpdate (III)V
+	METHOD a doNothingWithTileEntity (IIILic;)V
+	METHOD e updateAllRenderers ()V

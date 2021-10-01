@@ -1,0 +1,2 @@
+CLASS nn WorldGenLiquids
+	FIELD a liquidBlockId I

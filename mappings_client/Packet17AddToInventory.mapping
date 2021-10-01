@@ -1,0 +1,4 @@
+CLASS ld Packet17AddToInventory
+	FIELD a itemID I
+	FIELD b count I
+	FIELD c itemDamage I

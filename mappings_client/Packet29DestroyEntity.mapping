@@ -1,0 +1,2 @@
+CLASS ju Packet29DestroyEntity
+	FIELD a entityId I

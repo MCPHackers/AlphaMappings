@@ -1,0 +1,14 @@
+CLASS gs WorldClient
+	FIELD A sendQueue Lgy;
+	FIELD B clientChunkProvider Llz;
+	FIELD C noTileEntityUpdates Z
+	FIELD D entityHashTable Lfi;
+	FIELD E entityList Ljava/util/Set;
+	FIELD F entitySpawnQueue Ljava/util/Set;
+	FIELD z blocksToReceive Ljava/util/LinkedList;
+	METHOD a doPreChunk (IIZ)V
+	METHOD a addEntityToWorld (ILkh;)V
+	METHOD b getEntityByID (I)Lkh;
+	METHOD c removeEntityFromWorld (I)Lkh;
+	METHOD c handleBlockChange (IIIII)Z
+	METHOD c invalidateBlockReceiveRegion (IIIIII)V

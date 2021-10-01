@@ -1,2 +1,0 @@
-CLASS ga Chunk
-	METHOD b getPrecipitationHeight (II)I
