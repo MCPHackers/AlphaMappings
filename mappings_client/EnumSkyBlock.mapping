@@ -1,1 +1,2 @@
 CLASS by EnumSkyBlock
+	FIELD c defaultLightValue I

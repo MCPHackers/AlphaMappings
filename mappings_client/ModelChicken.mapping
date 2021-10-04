@@ -1,1 +1,9 @@
 CLASS kv ModelChicken
+	FIELD a head Lip;
+	FIELD b body Lip;
+	FIELD c rightLeg Lip;
+	FIELD d leftLeg Lip;
+	FIELD e rightWing Lip;
+	FIELD f leftWing Lip;
+	FIELD g bill Lip;
+	FIELD h chin Lip;

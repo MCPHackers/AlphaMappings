@@ -1,1 +1,2 @@
 CLASS gl RenderSorter
+	FIELD a baseEntity Ldm;

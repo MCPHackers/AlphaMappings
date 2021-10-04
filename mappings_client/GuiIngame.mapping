@@ -9,4 +9,9 @@ CLASS lu GuiIngame
 	FIELD h updateCounter I
 	FIELD i recordPlaying Ljava/lang/String;
 	FIELD j recordPlayingUpFor I
+	METHOD a updateTick ()V
+	METHOD a renderVignette (FII)V
 	METHOD a renderGameOverlay (FZII)V
+	METHOD a renderInventorySlot (IIIF)V
+	METHOD a splitChatMessage (Ljava/lang/String;)V
+	METHOD b setRecordPlayingMessage (Ljava/lang/String;)V

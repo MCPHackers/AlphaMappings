@@ -1,1 +1,5 @@
 CLASS cy MapGenBase
+	FIELD a range I
+	FIELD b rand Ljava/util/Random;
+	METHOD a recursiveGenerate (Lcn;IIII[B)V
+	METHOD a generate (Lnw;Lcn;II[B)V

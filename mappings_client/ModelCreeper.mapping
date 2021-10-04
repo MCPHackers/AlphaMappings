@@ -1,1 +1,8 @@
 CLASS em ModelCreeper
+	FIELD a head Lip;
+	FIELD b headwear Lip;
+	FIELD c body Lip;
+	FIELD d leg1 Lip;
+	FIELD e leg2 Lip;
+	FIELD f leg3 Lip;
+	FIELD g leg4 Lip;

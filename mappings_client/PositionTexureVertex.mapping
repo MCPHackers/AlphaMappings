@@ -1,1 +1,5 @@
 CLASS ed PositionTexureVertex
+	FIELD a vector3D Laj;
+	FIELD b texturePositionX F
+	FIELD c texturePositionY F
+	METHOD a setTexturePosition (FF)Led;

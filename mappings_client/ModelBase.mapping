@@ -1,1 +1,5 @@
 CLASS fo ModelBase
+	FIELD k onGround F
+	FIELD l isRiding Z
+	METHOD a setRotationAngles (FFFFFF)V
+	METHOD b render (FFFFFF)V

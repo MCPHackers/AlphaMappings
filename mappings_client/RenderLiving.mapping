@@ -1,1 +1,6 @@
 CLASS dn RenderLiving
+	FIELD d mainModel Lfo;
+	FIELD e renderPassModel Lfo;
+	METHOD a setRenderPassModel (Lfo;)V
+	METHOD a getDeathMaxRotation (Lge;)F
+	METHOD a preRenderCallback (Lge;F)V

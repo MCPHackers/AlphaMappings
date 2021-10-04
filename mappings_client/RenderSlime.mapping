@@ -1,1 +1,2 @@
 CLASS gq RenderSlime
+	FIELD f modelSlime Lfo;

@@ -1,1 +1,2 @@
 CLASS cp RenderBoat
+	FIELD d modelBoat Lfo;

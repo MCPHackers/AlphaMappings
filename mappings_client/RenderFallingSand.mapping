@@ -1,1 +1,2 @@
 CLASS dj RenderFallingSand
+	FIELD d sandRenderBlocks Lbc;

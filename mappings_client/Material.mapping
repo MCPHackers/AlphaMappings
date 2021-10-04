@@ -1,17 +1,30 @@
 CLASS gb Material
 	FIELD a air Lgb;
+	FIELD b grass Lgb;
 	FIELD c wood Lgb;
 	FIELD d rock Lgb;
 	FIELD e iron Lgb;
 	FIELD f water Lgb;
 	FIELD g lava Lgb;
+	FIELD h leaves Lgb;
+	FIELD i plants Lgb;
+	FIELD j sponge Lgb;
 	FIELD k cloth Lgb;
+	FIELD l fire Lgb;
 	FIELD m sand Lgb;
 	FIELD n circuits Lgb;
 	FIELD o glass Lgb;
+	FIELD p tnt Lgb;
+	FIELD q unused Lgb;
+	FIELD r ice Lgb;
 	FIELD s snow Lgb;
 	FIELD t craftedSnow Lgb;
+	FIELD u cactus Lgb;
+	FIELD v clay Lgb;
+	FIELD w canBurn Z
 	METHOD a isSolid ()Z
+	METHOD b getCanBlockGrass ()Z
 	METHOD c getIsSolid ()Z
 	METHOD d getIsLiquid ()Z
 	METHOD e getCanBurn ()Z
+	METHOD f setBurning ()Lgb;

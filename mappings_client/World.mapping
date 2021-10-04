@@ -81,6 +81,7 @@ CLASS cn World
 	METHOD a saveWorldIndirectly (Lnu;)V
 	METHOD a tickUpdates (Z)Z
 	METHOD a saveWorld (ZLnu;)V
+	METHOD a deleteWorldFiles ([Ljava/io/File;)V
 	METHOD b isDaytime ()Z
 	METHOD b getSkyColor (F)Laj;
 	METHOD b getChunkFromChunkCoords (II)Lga;
@@ -99,6 +100,7 @@ CLASS cn World
 	METHOD b getEntitiesWithinAABBExcludingEntity (Lkh;Lcf;)Ljava/util/List;
 	METHOD c updateEntities ()V
 	METHOD c getCelestialAngle (F)F
+	METHOD c getHeightValue (II)I
 	METHOD c setBlockMetadata (IIII)Z
 	METHOD c isBoundingBoxBurning (Lcf;)Z
 	METHOD c releaseEntitySkin (Lkh;)V
@@ -132,6 +134,7 @@ CLASS cn World
 	METHOD j getBlockLightValue (III)I
 	METHOD j isBlockProvidingPowerTo (IIII)Z
 	METHOD k sendQuittingDisconnectingPacket ()V
+	METHOD k canExistingBlockSeeTheSky (III)Z
 	METHOD k isBlockIndirectlyProvidingPowerTo (IIII)Z
 	METHOD l checkSessionLock ()V
 	METHOD l removeBlockTileEntity (III)V

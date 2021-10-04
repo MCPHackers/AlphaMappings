@@ -1,1 +1,2 @@
 CLASS hj ModelMinecart
+	FIELD a sideModels [Lip;

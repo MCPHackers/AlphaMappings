@@ -1,1 +1,6 @@
 CLASS bu RenderPlayer
+	FIELD f modelBipedMain Lcr;
+	FIELD g modelArmorChestplate Lcr;
+	FIELD h modelArmor Lcr;
+	FIELD i armorFilenamePrefix [Ljava/lang/String;
+	METHOD b drawFirstPersonHand ()V

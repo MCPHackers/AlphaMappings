@@ -1,1 +1,2 @@
 CLASS nl EntitySmokeFX
+	FIELD a smokeParticleScale F

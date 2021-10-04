@@ -1,1 +1,2 @@
 CLASS nk NetworkWriterThread
+	FIELD a netManager Lii;

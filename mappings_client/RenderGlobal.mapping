@@ -1,9 +1,67 @@
 CLASS e RenderGlobal
-	FIELD k worldObj Lcn;
+	FIELD A glSkyList2 I
+	FIELD B minBlockX I
+	FIELD C minBlockY I
+	FIELD D minBlockZ I
+	FIELD E maxBlockX I
+	FIELD F maxBlockY I
+	FIELD G maxBlockZ I
+	FIELD H renderDistance I
+	FIELD I renderEntitiesStartupCounter I
+	FIELD J countEntitiesTotal I
+	FIELD K countEntitiesRendered I
+	FIELD L countEntitiesHidden I
+	FIELD M renderersLoaded I
+	FIELD N renderersBeingClipped I
+	FIELD O renderersBeingOccluded I
+	FIELD P renderersBeingRendered I
+	FIELD Q renderersSkippingRenderPass I
+	FIELD R glRenderLists Ljava/util/List;
+	FIELD S allRenderLists [Lkw;
+	FIELD a tileEntities Ljava/util/List;
+	FIELD b dummyBuf50k [I
+	FIELD c occlusionResult Ljava/nio/IntBuffer;
+	FIELD d dummyRenderInt I
+	FIELD e unusedGLCallList I
+	FIELD f prevSortX D
+	FIELD g prevSortY D
+	FIELD h prevSortZ D
+	FIELD i damagePartialTime F
+	FIELD j frustumCheckOffset I
+	FIELD k theWorld Lcn;
+	FIELD l renderEngine Ley;
+	FIELD m worldRenderersToUpdate Ljava/util/List;
+	FIELD n sortedWorldRenderers [Lbn;
+	FIELD o worldRenderers [Lbn;
+	FIELD p renderChunksWide I
+	FIELD q renderChunksTall I
+	FIELD r renderChunksDeep I
+	FIELD s glRenderListBase I
 	FIELD t mc Lnet/minecraft/client/Minecraft;
+	FIELD u globalRenderBlocks Lbc;
+	FIELD v glOcclusionQueryBase Ljava/nio/IntBuffer;
+	FIELD w occlusionEnabled Z
+	FIELD x cloudTickCounter I
+	FIELD y starGLCallList I
+	FIELD z glSkyList I
 	METHOD a loadRenderers ()V
+	METHOD a renderSky (F)V
+	METHOD a renderAllRenderLists (ID)V
+	METHOD a checkOcclusionQueryResult (II)V
+	METHOD a renderSortedRenderers (IIID)I
+	METHOD a markBlocksForUpdate (IIIIII)V
+	METHOD a renderEntities (Laj;Loe;F)V
+	METHOD a drawOutlinedBoundingBox (Lcf;)V
 	METHOD a changeWorld (Lcn;)V
+	METHOD a sortAndRender (Ldm;ID)I
 	METHOD a drawBlockBreaking (Ldm;Lmf;ILev;F)V
+	METHOD a updateRenderers (Ldm;Z)Z
+	METHOD a clipRenderersByFrustum (Loe;F)V
+	METHOD b getDebugInfoRenders ()Ljava/lang/String;
 	METHOD b renderClouds (F)V
+	METHOD b markRenderersForNewPosition (III)V
 	METHOD b drawSelectionBox (Ldm;Lmf;ILev;F)V
+	METHOD c getDebugInfoEntities ()Ljava/lang/String;
+	METHOD c renderCloudsFancy (F)V
 	METHOD d updateClouds ()V
+	METHOD f renderStars ()V

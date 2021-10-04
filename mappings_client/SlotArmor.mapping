@@ -1,1 +1,3 @@
 CLASS lj SlotArmor
+	FIELD c armorType I
+	FIELD d guiInventory Llo;

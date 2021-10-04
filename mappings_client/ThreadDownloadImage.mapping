@@ -1,1 +1,4 @@
 CLASS kz ThreadDownloadImage
+	FIELD a location Ljava/lang/String;
+	FIELD b buffer Lhb;
+	FIELD c imageData Lcc;

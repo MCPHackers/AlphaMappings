@@ -1,4 +1,9 @@
 CLASS ci ChunkCache
+	FIELD a chunkX I
+	FIELD b chunkZ I
+	FIELD c chunkArray [[Lga;
 	FIELD d worldObj Lcn;
 	METHOD <init> (Lcn;IIIIII)V
 		ARG 1 worldObj
+	METHOD a getLightValueExt (IIIZ)I
+	METHOD d getLightValue (III)I

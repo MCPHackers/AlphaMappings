@@ -1,1 +1,2 @@
 CLASS fs RecipeSorter
+	FIELD a craftingManager Ldw;

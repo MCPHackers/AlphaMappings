@@ -1,1 +1,2 @@
 CLASS nh NetworkMasterThread
+	FIELD a netManager Lii;

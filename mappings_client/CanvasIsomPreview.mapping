@@ -21,3 +21,4 @@ CLASS ad CanvasIsomPreview
 	METHOD c stop ()V
 	METHOD d render ()V
 	METHOD e getPlatform ()Lfa;
+	METHOD a isRunning (Lad;)Z

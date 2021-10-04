@@ -1,1 +1,2 @@
 CLASS hw RenderTNTPrimed
+	FIELD d blockRenderer Lbc;

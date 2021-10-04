@@ -1,1 +1,2 @@
 CLASS nz RenderZombieSimple
+	FIELD f scale F

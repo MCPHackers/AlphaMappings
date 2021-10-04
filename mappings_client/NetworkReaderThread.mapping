@@ -1,1 +1,2 @@
 CLASS ni NetworkReaderThread
+	FIELD a netManager Lii;

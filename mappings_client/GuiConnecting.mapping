@@ -1,3 +1,6 @@
 CLASS mn GuiConnecting
 	FIELD a clientHandler Lgy;
 	FIELD h cancelled Z
+	METHOD a setNetClientHandler (Lmn;Lgy;)Lgy;
+	METHOD a isCancelled (Lmn;)Z
+	METHOD b getNetClientHandler (Lmn;)Lgy;

@@ -1,1 +1,2 @@
 CLASS kt RenderMinecart
+	FIELD d modelMinecart Lfo;

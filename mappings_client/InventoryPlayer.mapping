@@ -1,12 +1,30 @@
 CLASS eu InventoryPlayer
+	FIELD a mainInventory [Lev;
+	FIELD b armorInventory [Lev;
+	FIELD c craftingInventory [Lev;
 	FIELD d currentItem I
 	FIELD e draggedItemStack Lev;
+	FIELD f inventoryChanged Z
+	FIELD g player Ldm;
 	METHOD a getCurrentItem ()Lev;
+	METHOD a changeCurrentItem (I)V
+	METHOD a setCurrentItem (IZ)V
+	METHOD a getInventoryEqual (Leu;)Z
 	METHOD a addItemStackToInventory (Lev;)Z
+	METHOD a getItemStacksEqual (Lev;Lev;)Z
+	METHOD a getDamageVsEntity (Lkh;)I
+	METHOD a writeToNBT (Lki;)Lki;
 	METHOD a getStrVsBlock (Lly;)F
 	METHOD b decrementAnimations ()V
+	METHOD b consumeInventoryItem (I)Z
+	METHOD b storePartialItemStack (II)I
 	METHOD b readFromNBT (Lki;)V
 	METHOD b canHarvestBlock (Lly;)Z
+	METHOD d armorItemInSlot (I)Lev;
 	METHOD e damageArmor (I)V
 	METHOD f getTotalArmorValue ()I
+	METHOD f getInventorySlotContainItem (I)I
 	METHOD g dropAllItems ()V
+	METHOD g storeItemStack (I)I
+	METHOD i copyInventory ()Leu;
+	METHOD j getFirstEmptyStack ()I

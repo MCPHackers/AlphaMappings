@@ -1,1 +1,2 @@
 CLASS gk RenderArrow
+	METHOD a doRenderArrow (Lkg;DDDFF)V

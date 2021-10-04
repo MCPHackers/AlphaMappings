@@ -1,1 +1,12 @@
 CLASS nj PlayerControllerMP
+	FIELD c currentBlockX I
+	FIELD d currentBlockY I
+	FIELD e currentBlockZ I
+	FIELD f curBlockDamageMP F
+	FIELD g prevBlockDamageMP F
+	FIELD h stepSoundTickCounter F
+	FIELD i blockHitDelay I
+	FIELD j isHittingBlock Z
+	FIELD k netClientHandler Lgy;
+	FIELD l currentPlayerItem I
+	METHOD e syncCurrentPlayItem ()V

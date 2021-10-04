@@ -1,3 +1,4 @@
 CLASS lo GuiInventory
+	FIELD j craftingInventory Ln;
 	FIELD l xSize_lo F
 	FIELD m ySize_lo F

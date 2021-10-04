@@ -1,1 +1,7 @@
 CLASS jr ImageBufferDownload
+	FIELD a imageData [I
+	FIELD b imageWidth I
+	FIELD c imageHeight I
+	METHOD a setAreaTransparent (IIII)V
+	METHOD b setAreaOpaque (IIII)V
+	METHOD c hasTransparency (IIII)Z
