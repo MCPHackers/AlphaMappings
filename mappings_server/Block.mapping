@@ -148,8 +148,12 @@ CLASS ff Block
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a onBlcokDestroyedByPlayer (Ldy;IIII)V
+	METHOD a onBlockDestroyedByPlayer (Ldy;IIII)V
 		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 flag
 	METHOD a dropBlockAsItemWithChance (Ldy;IIIIF)V
 		ARG 1 world
 	METHOD a collisionRayTrace (Ldy;IIILaw;Law;)Lfr;

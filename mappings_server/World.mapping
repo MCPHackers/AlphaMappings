@@ -2,6 +2,7 @@ CLASS dy World
 	FIELD m rand Ljava/util/Random;
 	FIELD x multiplayerWorld Z
 	METHOD a playSoundEffect (DDDLjava/lang/String;FF)V
+	METHOD a setBlockTileEntity (IIILas;)V
 	METHOD a (Lcy;III)I
 		ARG 2 blockX
 		ARG 3 blockY
@@ -18,4 +19,8 @@ CLASS dy World
 		ARG 2 blockZ
 	METHOD d setBlockWithNotify (IIII)Z
 	METHOD g notifyBlocksOfNeighborChange (IIII)V
+	METHOD h getBlockLightValue (III)I
 	METHOD h scheduleBlockUpdate (IIII)V
+	METHOD k getBlockTileEntity (III)Las;
+	METHOD l removeBlockTileEntity (III)V
+	METHOD n isBlockIndirectlyGettingPowered (III)Z

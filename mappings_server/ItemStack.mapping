@@ -1,1 +1,4 @@
 CLASS gp ItemStack
+	FIELD a stackSize I
+	FIELD c itemID I
+	FIELD d itemDmg I

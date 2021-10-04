@@ -2,4 +2,7 @@ CLASS dj Entity
 	FIELD l posX D
 	FIELD m posY D
 	FIELD n posZ D
+	FIELD o motionX D
+	FIELD p motionY D
+	FIELD q motionZ D
 	METHOD a attackEntityFrom (Ldj;I)Z

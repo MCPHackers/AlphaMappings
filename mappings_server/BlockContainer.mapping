@@ -1,1 +1,2 @@
 CLASS cs BlockContainer
+	METHOD a_ getBlockEntity ()Las;

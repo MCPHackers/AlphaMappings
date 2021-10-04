@@ -1,3 +1,4 @@
 CLASS fc EntityPlayer
 	METHOD a getCurrentPlayerStrVsBlock (Lff;)F
+	METHOD a displayGUIChest (Liw;)V
 	METHOD b canHarvestBlock (Lff;)Z

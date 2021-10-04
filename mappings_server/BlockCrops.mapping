@@ -1,1 +1,6 @@
 CLASS m BlockCrops
+	METHOD h getGrowthRate (Ldy;III)F
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
