@@ -1,1 +1,5 @@
 CLASS dj Entity
+	FIELD l posX D
+	FIELD m posY D
+	FIELD n posZ D
+	METHOD a attackEntityFrom (Ldj;I)Z

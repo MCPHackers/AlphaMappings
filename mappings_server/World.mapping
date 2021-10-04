@@ -1,1 +1,21 @@
 CLASS dy World
+	FIELD m rand Ljava/util/Random;
+	FIELD x multiplayerWorld Z
+	METHOD a playSoundEffect (DDDLjava/lang/String;FF)V
+	METHOD a (Lcy;III)I
+		ARG 2 blockX
+		ARG 3 blockY
+		ARG 4 blockZ
+	METHOD a spawnEntityInWorld (Ldj;)Z
+	METHOD b setBlockMetadataWithNotify (IIII)V
+	METHOD b markBlocksDirty (IIIIII)V
+	METHOD b (Lcy;IIII)V
+		ARG 2 blockX
+		ARG 3 blockY
+		ARG 4 blockZ
+	METHOD c (II)I
+		ARG 1 blockX
+		ARG 2 blockZ
+	METHOD d setBlockWithNotify (IIII)Z
+	METHOD g notifyBlocksOfNeighborChange (IIII)V
+	METHOD h scheduleBlockUpdate (IIII)V

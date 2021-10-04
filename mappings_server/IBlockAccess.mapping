@@ -1,1 +1,8 @@
 CLASS hq IBlockAccess
+	METHOD a getBlockId (III)I
+		ARG 1 blockX
+		ARG 2 blockY
+		ARG 3 blockZ
+	METHOD b getBlockMetadata (III)I
+	METHOD c getBlockMaterial (III)Liq;
+	METHOD d isBlockNormalCube (III)Z

@@ -1,1 +1,3 @@
 CLASS hy ChunkProviderGenerate
+	FIELD j rand Ljava/util/Random;
+	FIELD p world Ldy;

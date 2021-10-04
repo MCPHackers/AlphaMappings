@@ -1,1 +1,2 @@
 CLASS fn EntityItem
+	FIELD ad delayBeforeCanPickup I

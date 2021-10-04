@@ -1,1 +1,2 @@
 CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
+	METHOD run run ()V

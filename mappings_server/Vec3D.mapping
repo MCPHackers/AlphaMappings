@@ -1,1 +1,10 @@
 CLASS aw Vec3D
+	FIELD a xCoord D
+	FIELD b yCoord D
+	FIELD c zCoord D
+	METHOD a distanceTo (Law;)D
+	METHOD a getIntermediateWithXValue (Law;D)Law;
+	METHOD b squareDistanceTo (Law;)D
+	METHOD b getIntermediateWithYValue (Law;D)Law;
+	METHOD c addVector (DDD)Law;
+	METHOD c getIntermediateWithZValue (Law;D)Law;

@@ -1,1 +1,2 @@
 CLASS ez Item
+	FIELD c itemsList [Lez;

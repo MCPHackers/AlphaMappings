@@ -1,1 +1,3 @@
 CLASS fc EntityPlayer
+	METHOD a getCurrentPlayerStrVsBlock (Lff;)F
+	METHOD b canHarvestBlock (Lff;)Z

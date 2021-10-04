@@ -1,1 +1,4 @@
 CLASS cr EnumMobType
+	FIELD a everything Lcr;
+	FIELD b mobs Lcr;
+	FIELD c players Lcr;
