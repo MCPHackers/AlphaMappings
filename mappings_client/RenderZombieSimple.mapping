@@ -1,2 +1,3 @@
 CLASS nz RenderZombieSimple
 	FIELD f scale F
+	METHOD a preRenderScale (Lhl;F)V

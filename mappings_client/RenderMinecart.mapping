@@ -1,2 +1,3 @@
 CLASS kt RenderMinecart
 	FIELD d modelMinecart Lfo;
+	METHOD a renderMinecart (Loc;DDDFF)V

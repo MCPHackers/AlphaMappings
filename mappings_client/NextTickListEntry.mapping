@@ -7,3 +7,4 @@ CLASS jf NextTickListEntry
 	FIELD f nextTickEntryID J
 	FIELD g tickEntryID J
 	METHOD a setScheduledTime (J)Ljf;
+	METHOD a comparer (Ljf;)I

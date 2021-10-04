@@ -1,2 +1,4 @@
 CLASS gq RenderSlime
 	FIELD f modelSlime Lfo;
+	METHOD a squishSlime (Lma;F)V
+	METHOD a renderSlimePassModel (Lma;I)Z

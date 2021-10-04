@@ -5,3 +5,4 @@ CLASS ab RenderItem
 	METHOD a renderQuad (Lho;IIIII)V
 	METHOD a renderItemIntoGUI (Lkd;Ley;Lev;II)V
 	METHOD b renderItemOverlayIntoGUI (Lkd;Ley;Lev;II)V
+	METHOD a doRenderItem (Ldx;DDDFF)V

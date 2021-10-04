@@ -17,3 +17,4 @@ CLASS mk MinecartTrackLogic
 	METHOD c canConnectFrom (III)Z
 	METHOD c handleKeyPress (Lmk;)Z
 	METHOD d connectToNeighbor (Lmk;)V
+	METHOD a getNAdjacentTracks (Lmk;)I

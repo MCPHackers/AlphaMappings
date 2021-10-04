@@ -4,3 +4,9 @@ CLASS dn RenderLiving
 	METHOD a setRenderPassModel (Lfo;)V
 	METHOD a getDeathMaxRotation (Lge;)F
 	METHOD a preRenderCallback (Lge;F)V
+	METHOD a getColorMultiplier (Lge;FF)I
+	METHOD a shouldRenderPass (Lge;I)Z
+	METHOD b renderEquippedItems (Lge;F)V
+	METHOD c renderSwingProgress (Lge;F)F
+	METHOD d handleRotationFloat (Lge;F)F
+	METHOD a doRenderLiving (Lge;DDDFF)V

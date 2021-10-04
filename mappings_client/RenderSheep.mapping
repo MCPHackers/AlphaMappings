@@ -1,1 +1,2 @@
 CLASS ns RenderSheep
+	METHOD a renderFur (Lbo;I)Z

@@ -5,3 +5,4 @@ CLASS cx GuiMainMenu
 	FIELD j updateCounter F
 	FIELD l splashString Ljava/lang/String;
 	METHOD a drawLogo (F)V
+	METHOD j getRandom ()Ljava/util/Random;

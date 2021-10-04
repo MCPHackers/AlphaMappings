@@ -4,3 +4,7 @@ CLASS bu RenderPlayer
 	FIELD h modelArmor Lcr;
 	FIELD i armorFilenamePrefix [Ljava/lang/String;
 	METHOD b drawFirstPersonHand ()V
+	METHOD a renderPlayer (Ldm;DDDFF)V
+	METHOD a renderSpecials (Ldm;F)V
+	METHOD a setArmorModel (Ldm;I)Z
+	METHOD b scalePlayer (Ldm;F)V

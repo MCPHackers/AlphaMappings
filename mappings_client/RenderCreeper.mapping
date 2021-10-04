@@ -1,1 +1,3 @@
 CLASS d RenderCreeper
+	METHOD a updateCreeperScale (Ldd;F)V
+	METHOD a updateCreeperColorMultiplier (Ldd;FF)I

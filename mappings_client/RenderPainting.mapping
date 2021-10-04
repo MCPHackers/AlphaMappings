@@ -1,6 +1,7 @@
 CLASS bw RenderPainting
 	FIELD d rand Ljava/util/Random;
-	METHOD a (Ljc;FF)V
+	METHOD a getOffset (Ljc;FF)V
 		ARG 1 entityPainting
-	METHOD a (Ljc;IIII)V
+	METHOD a setSizes (Ljc;IIII)V
 		ARG 1 entityPainting
+	METHOD a renderThePainting (Ljc;DDDFF)V

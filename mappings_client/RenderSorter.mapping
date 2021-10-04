@@ -1,2 +1,3 @@
 CLASS gl RenderSorter
 	FIELD a baseEntity Ldm;
+	METHOD a doCompare (Lbn;Lbn;)I
