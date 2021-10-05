@@ -1,1 +1,19 @@
 CLASS di EntityArrow
+	FIELD a arrowShake I
+	FIELD ad yTile I
+	FIELD ae zTile I
+	FIELD af inTile I
+	FIELD ag inData Z
+	FIELD ah entityLiving Lis;
+	FIELD ai ticksInGround I
+	FIELD aj ticksInAir I
+	FIELD b xTile I
+	METHOD <init> (Ldy;Lis;)V
+		ARG 1 world
+		ARG 2 entityLiving
+	METHOD a setArrowHeading (DDDFF)V
+		ARG 1 motionX
+		ARG 3 motionY
+		ARG 5 motionZ
+		ARG 7 offsetY
+		ARG 8 offsetX

@@ -1,1 +1,2 @@
 CLASS hm ThreadMonitorConnection
+	FIELD a networkManager Lbb;

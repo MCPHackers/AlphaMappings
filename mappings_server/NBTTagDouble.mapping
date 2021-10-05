@@ -1,1 +1,4 @@
 CLASS dt NBTTagDouble
+	FIELD a doubleValue D
+	METHOD <init> (D)V
+		ARG 1 doubleValue

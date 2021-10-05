@@ -1,1 +1,48 @@
 CLASS bb NetworkManager
+	FIELD a threadSyncObject Ljava/lang/Object;
+	FIELD b numReadThreads I
+	FIELD c numWriteThreads I
+	FIELD d sendQueueLock Ljava/lang/Object;
+	FIELD e networkSocket Ljava/net/Socket;
+	FIELD f socketInputStream Ljava/io/DataInputStream;
+	FIELD g socketOutputStream Ljava/io/DataOutputStream;
+	FIELD h isRunning Z
+	FIELD i readPackets Ljava/util/List;
+	FIELD j dataPackets Ljava/util/List;
+	FIELD k chunkDataPackets Ljava/util/List;
+	FIELD l netHandler Lej;
+	FIELD m isServerTerminating Z
+	FIELD n writeThread Ljava/lang/Thread;
+	FIELD o readThread Ljava/lang/Thread;
+	FIELD p isTerminating Z
+	FIELD q terminationReason Ljava/lang/String;
+	FIELD r timeSinceLastRead I
+	FIELD s sendQueueByteLength I
+	FIELD t chunkDataSendCounter I
+	METHOD <init> (Ljava/net/Socket;Ljava/lang/String;Lej;)V
+		ARG 1 socket
+		ARG 2 threadName
+		ARG 3 netHandler
+	METHOD a processReadPackets ()V
+	METHOD a (Lbb;)Z
+		ARG 0 networkManager
+	METHOD a (Lej;)V
+		ARG 1 netHandler
+	METHOD a addToSendQueue (Lhp;)V
+		ARG 1 packet
+	METHOD a onNetworkError (Ljava/lang/Exception;)V
+		ARG 1 exception
+	METHOD a networkShutdown (Ljava/lang/String;)V
+		ARG 1 terminationReason
+	METHOD b (Lbb;)Z
+		ARG 0 networkManager
+	METHOD c (Lbb;)V
+		ARG 0 networkManager
+	METHOD d (Lbb;)V
+		ARG 0 networkManager
+	METHOD e sendPacket ()V
+	METHOD e (Lbb;)Ljava/lang/Thread;
+		ARG 0 networkManager
+	METHOD f readPacket ()V
+	METHOD f (Lbb;)Ljava/lang/Thread;
+		ARG 0 networkManager

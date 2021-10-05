@@ -1,1 +1,8 @@
 CLASS ee WorldServer
+	FIELD A levelSaving Z
+	FIELD B monsters Z
+	FIELD C monsterSpawner Lbl;
+	FIELD D animalSpawner Lbl;
+	FIELD y chunkProviderServer Lij;
+	FIELD z disableSpawnProtection Z
+	METHOD d getTileEntityList (IIIIII)Ljava/util/List;

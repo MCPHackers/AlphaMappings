@@ -1,1 +1,25 @@
 CLASS dp MetadataChunkBlock
+	FIELD a skyBlock Lcy;
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e maxX I
+	FIELD f maxY I
+	FIELD g maxZ I
+	METHOD <init> (Lcy;IIIIII)V
+		ARG 1 skyBlock
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 maxX
+		ARG 6 maxY
+		ARG 7 maxZ
+	METHOD a getLightUpdated (IIIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
+	METHOD a updateLight (Ldy;)V
+		ARG 1 world

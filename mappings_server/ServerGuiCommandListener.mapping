@@ -1,1 +1,3 @@
 CLASS v ServerGuiCommandListener
+	FIELD a textField Ljavax/swing/JTextField;
+	FIELD b mcServerGui Lfo;

@@ -1,1 +1,5 @@
 CLASS bh ItemSword
+	FIELD a weaponDamage I
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 maxDamage

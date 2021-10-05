@@ -1,2 +1,41 @@
 CLASS gd MinecartTrackLogic
+	FIELD a minecartTrack Lav;
+	FIELD b worldObj Ldy;
+	FIELD c trackX I
+	FIELD d trackY I
+	FIELD e trackZ I
+	FIELD f trackMetadata I
+	FIELD g connectedTracks Ljava/util/List;
+	METHOD <init> (Lav;Ldy;III)V
+		ARG 1 minecartTrack
+		ARG 2 world
+		ARG 3 trackX
+		ARG 4 trackY
+		ARG 5 trackZ
+	METHOD a calculateConnectedTracks ()V
+	METHOD a isMinecartTrack (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a getAdjacentTracks (Lgd;)I
+		ARG 0 trackLogic
+	METHOD a getMinecartTrackLogic (Lgs;)Lgd;
+		ARG 1 chunkPos
 	METHOD a place (Z)V
+		ARG 1 flag
+	METHOD b refreshConnectedTracks ()V
+	METHOD b isInTrack (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b isConnectedTo (Lgd;)Z
+		ARG 1 trackLogic
+	METHOD c getAdjacentTracks ()I
+	METHOD c canConnectFrom (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c handleKeyPress (Lgd;)Z
+		ARG 1 trackLogic
+	METHOD d connectToNeighbor (Lgd;)V
+		ARG 1 trackLogic

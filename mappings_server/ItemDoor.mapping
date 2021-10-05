@@ -1,1 +1,5 @@
 CLASS ga ItemDoor
+	FIELD a material Liq;
+	METHOD <init> (ILiq;)V
+		ARG 1 itemID
+		ARG 2 material

@@ -1,1 +1,16 @@
 CLASS cf Packet34EntityTeleport
+	FIELD a entityId I
+	FIELD b xPosition I
+	FIELD c yPosition I
+	FIELD d zPosition I
+	FIELD e yaw B
+	FIELD f pitch B
+	METHOD <init> (IIIIBB)V
+		ARG 1 entityID
+		ARG 2 xPosition
+		ARG 3 yPosition
+		ARG 4 zPosition
+		ARG 5 yaw
+		ARG 6 pitch
+	METHOD <init> (Ldj;)V
+		ARG 1 entity

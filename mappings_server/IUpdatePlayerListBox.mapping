@@ -1,1 +1,2 @@
 CLASS dw IUpdatePlayerListBox
+	METHOD a addAllPlayers ()V

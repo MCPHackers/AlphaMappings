@@ -1,1 +1,30 @@
 CLASS gi WorldGenBigTree
+	FIELD a otherCoordPairs [B
+	FIELD b rand Ljava/util/Random;
+	FIELD c worldObj Ldy;
+	FIELD d basePos [I
+	FIELD e heightLimit I
+	FIELD f height I
+	FIELD g heightAttenuation D
+	FIELD h branchDensity D
+	FIELD i branchSlope D
+	FIELD j scaleWidth D
+	FIELD k leafDensity D
+	FIELD l trunkSize I
+	FIELD m heightLimitLimit I
+	FIELD n leafDistanceLimit I
+	FIELD o leafNodes [[I
+	METHOD a generateLeafNodeList ()V
+	METHOD a layerSize (I)F
+	METHOD a generateLeafNode (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a genTreeLayer (IIIFBI)V
+	METHOD a checkBlockLine ([I[I)I
+	METHOD a placeBlockLine ([I[II)V
+	METHOD b generateLeaves ()V
+	METHOD c generateTrunk ()V
+	METHOD c leafNodeNeedsBase (I)Z
+	METHOD d generateLeafNodeBases ()V
+	METHOD e validTreeLocation ()Z

@@ -1,1 +1,11 @@
 CLASS et Packet53BlockChange
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c zPosition I
+	FIELD d type I
+	FIELD e metadata I
+	METHOD <init> (IIILdy;)V
+		ARG 1 xPosition
+		ARG 2 yPosition
+		ARG 3 zPosition
+		ARG 4 world

@@ -1,1 +1,7 @@
 CLASS fh EntitySlime
+	FIELD a squishFactor F
+	FIELD ad size I
+	FIELD ae slimeJumpDelay I
+	FIELD b prevSquishFactor F
+	METHOD c setSlimeSize (I)V
+		ARG 1 size

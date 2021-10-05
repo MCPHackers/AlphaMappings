@@ -1,1 +1,3 @@
 CLASS id NetServerHandler
+	METHOD b sendPacket (Lhp;)V
+	METHOD c kickPlayer (Ljava/lang/String;)V

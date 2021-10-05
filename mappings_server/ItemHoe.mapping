@@ -1,1 +1,4 @@
 CLASS ia ItemHoe
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 maxDamage

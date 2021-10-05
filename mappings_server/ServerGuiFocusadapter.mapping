@@ -1,1 +1,2 @@
 CLASS w ServerGuiFocusadapter
+	FIELD a mcServerGui Lfo;

@@ -1,1 +1,4 @@
 CLASS gx ConsoleLogFormatter
+	FIELD a dateFormat Ljava/text/SimpleDateFormat;
+	METHOD format format (Ljava/util/logging/LogRecord;)Ljava/lang/String;
+		ARG 1 logRecord

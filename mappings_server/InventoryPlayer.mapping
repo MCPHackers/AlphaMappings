@@ -1,1 +1,34 @@
 CLASS gm InventoryPlayer
+	FIELD a mainInventory [Lgp;
+	FIELD b armorInventory [Lgp;
+	FIELD c craftingInventory [Lgp;
+	FIELD d currentItem I
+	FIELD e inventoryChanged Z
+	FIELD f player Lfc;
+	METHOD <init> (Lfc;)V
+		ARG 1 entityPlayer
+	METHOD a storePartialItemStack (II)I
+		ARG 1 itemID
+	METHOD a setInventorySlotContents (ILgp;)V
+		ARG 1 slots
+		ARG 2 stack
+	METHOD a writeToNBT (Ldm;)Ldm;
+		ARG 1 nbttaglist
+	METHOD a getStrVsBlock (Lff;)F
+		ARG 1 block
+	METHOD a addItemStackToInventory (Lgp;)Z
+		ARG 1 stack
+	METHOD b getCurrentItem ()Lgp;
+	METHOD b damageArmor (I)V
+		ARG 1 damage
+	METHOD b readFromNBT (Ldm;)V
+		ARG 1 nbttaglist
+	METHOD b canHarvestBlock (Lff;)Z
+		ARG 1 block
+	METHOD c decrementAnimations ()V
+	METHOD c storeItemStack (I)I
+		ARG 1 itemID
+	METHOD d getInventoryStackLimit ()I
+	METHOD e getTotalArmorValue ()I
+	METHOD f dropAllItems ()V
+	METHOD g getFirstEmptyStack ()I

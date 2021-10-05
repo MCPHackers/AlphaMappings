@@ -1,1 +1,6 @@
 CLASS dr Packet31RelEntityMove
+	METHOD <init> (IBBB)V
+		ARG 1 entityID
+		ARG 2 xPosition
+		ARG 3 yPosition
+		ARG 4 zPosition

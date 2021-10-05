@@ -1,1 +1,2 @@
 CLASS cj EntitySheep
+	FIELD a sheared Z

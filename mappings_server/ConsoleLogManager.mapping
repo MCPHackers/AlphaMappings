@@ -1,1 +1,3 @@
 CLASS fk ConsoleLogManager
+	FIELD a logger Ljava/util/logging/Logger;
+	METHOD a init ()V

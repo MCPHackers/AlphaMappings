@@ -1,15 +1,125 @@
 CLASS ez Item
+	FIELD A axeDiamond Lez;
+	FIELD B stick Lez;
+	FIELD C bowlEmpty Lez;
+	FIELD D bowlSoup Lez;
+	FIELD E swordGold Lez;
+	FIELD F shovelGold Lez;
+	FIELD G pickaxeGold Lez;
+	FIELD H axeGold Lez;
+	FIELD I silk Lez;
+	FIELD J feather Lez;
+	FIELD K gunpowder Lez;
+	FIELD L hoeWood Lez;
+	FIELD M hoeStone Lez;
+	FIELD N hoeSteel Lez;
+	FIELD O hoeDiamond Lez;
+	FIELD P hoeGold Lez;
 	FIELD Q seeds Lez;
 	FIELD R wheat Lez;
+	FIELD S bread Lez;
+	FIELD T helmetLeather Lez;
+	FIELD U plateLeather Lez;
+	FIELD V legsLeather Lez;
+	FIELD W bootsLeather Lez;
+	FIELD X helmetChain Lez;
+	FIELD Y plateChain Lez;
+	FIELD Z legsChain Lez;
+	FIELD aA redstone Lez;
 	FIELD aB snowball Lez;
+	FIELD aC boat Lez;
+	FIELD aD leather Lez;
+	FIELD aE bucketMilk Lez;
+	FIELD aF brick Lez;
 	FIELD aG clay Lez;
 	FIELD aH reed Lez;
+	FIELD aI paper Lez;
+	FIELD aJ book Lez;
+	FIELD aK slimeBall Lez;
+	FIELD aL minecartBox Lez;
+	FIELD aM minecartEngine Lez;
+	FIELD aN egg Lez;
+	FIELD aO compass Lez;
+	FIELD aP fishingRod Lez;
 	FIELD aQ record13 Lez;
+	FIELD aR recordCat Lez;
 	FIELD aS shiftedIndex I
+	FIELD aT maxStackSize I
+	FIELD aU maxDamage I
+	FIELD aV iconIndex I
+	FIELD aW bFull3D Z
+	FIELD aa bootsChain Lez;
+	FIELD ab helmetSteel Lez;
+	FIELD ac plateSteel Lez;
+	FIELD ad legsSteel Lez;
+	FIELD ae bootsSteel Lez;
+	FIELD af helmetDiamond Lez;
+	FIELD ag plateDiamond Lez;
+	FIELD ah legsDiamond Lez;
+	FIELD ai bootsDiamond Lez;
+	FIELD aj helmetGold Lez;
+	FIELD ak plateGold Lez;
+	FIELD al legsGold Lez;
+	FIELD am bootsGold Lez;
 	FIELD an flint Lez;
+	FIELD ao porkRaw Lez;
+	FIELD ap porkCooked Lez;
+	FIELD aq painting Lez;
+	FIELD ar appleGold Lez;
 	FIELD as sign Lez;
 	FIELD at doorWood Lez;
+	FIELD au bucketEmpty Lez;
+	FIELD av bucketWater Lez;
+	FIELD aw bucketLava Lez;
+	FIELD ax minecartEmpty Lez;
+	FIELD ay saddle Lez;
 	FIELD az doorSteel Lez;
+	FIELD b rand Ljava/util/Random;
 	FIELD c itemsList [Lez;
+	FIELD d shovel Lez;
+	FIELD e pickaxeSteel Lez;
+	FIELD f axeSteel Lez;
+	FIELD g striker Lez;
+	FIELD h appleRed Lez;
+	FIELD i bow Lez;
+	FIELD j arrow Lez;
 	FIELD k coal Lez;
 	FIELD l diamond Lez;
+	FIELD m ingotIron Lez;
+	FIELD n ingotGold Lez;
+	FIELD o swordSteel Lez;
+	FIELD p swordWood Lez;
+	FIELD q shovelWood Lez;
+	FIELD r pickaxeWood Lez;
+	FIELD s axeWood Lez;
+	FIELD t swordStone Lez;
+	FIELD u shovelStone Lez;
+	FIELD v pickaxeStone Lez;
+	FIELD w axeStone Lez;
+	FIELD x swordDiamond Lez;
+	FIELD y shovelDiamond Lez;
+	FIELD z pickaxeDiamond Lez;
+	METHOD <init> (I)V
+		ARG 1 itemID
+	METHOD a getItemStackLimit ()I
+	METHOD a setIconIndex (I)Lez;
+		ARG 1 iconIndex
+	METHOD a canHarvestBlock (Lff;)Z
+		ARG 1 block
+	METHOD a onBlockDestroyed (Lgp;IIII)V
+		ARG 1 stack
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a onItemUse (Lgp;Lfc;Ldy;IIII)Z
+		ARG 1 stack
+		ARG 2 entityPlayer
+		ARG 3 world
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+	METHOD a getStrVsBlock (Lgp;Lff;)F
+		ARG 1 stack
+		ARG 2 block
+	METHOD b getMaxDamage ()I
+	METHOD c setFull3D ()Lez;

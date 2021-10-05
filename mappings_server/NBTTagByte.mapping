@@ -1,1 +1,4 @@
 CLASS bo NBTTagByte
+	FIELD a byteValue B
+	METHOD <init> (B)V
+		ARG 1 byteValue

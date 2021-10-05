@@ -1,1 +1,13 @@
 CLASS df TileEntityFurnace
+	FIELD e furnaceItemStacks [Lgp;
+	FIELD f furnaceBurnTime I
+	FIELD g currentItemBurnTime I
+	FIELD h furnaceCookTime I
+	METHOD a getItemBurnTime (Lgp;)I
+		ARG 1 stack
+	METHOD b getCookedItem (I)I
+		ARG 1 blockID
+	METHOD d getInventoryStackLimit ()I
+	METHOD e isBurning ()Z
+	METHOD f smeltItem ()V
+	METHOD g canSmelt ()Z

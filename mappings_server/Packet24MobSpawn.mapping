@@ -1,1 +1,10 @@
 CLASS gv Packet24MobSpawn
+	FIELD a entityId I
+	FIELD b type B
+	FIELD c xPosition I
+	FIELD d yPosition I
+	FIELD e zPosition I
+	FIELD f yaw B
+	FIELD g pitch B
+	METHOD <init> (Lis;)V
+		ARG 1 entityLiving

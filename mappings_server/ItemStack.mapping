@@ -1,4 +1,52 @@
 CLASS gp ItemStack
 	FIELD a stackSize I
+	FIELD b animationsToGo I
 	FIELD c itemID I
 	FIELD d itemDmg I
+	METHOD <init> (I)V
+		ARG 1 itemID
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 stackSize
+	METHOD <init> (III)V
+		ARG 1 itemID
+		ARG 2 stackSize
+		ARG 3 itemDmg
+	METHOD <init> (Lez;)V
+		ARG 1 item
+	METHOD <init> (Lez;I)V
+		ARG 1 item
+		ARG 2 count
+	METHOD <init> (Lff;)V
+		ARG 1 block
+	METHOD <init> (Lff;I)V
+		ARG 1 block
+		ARG 2 count
+	METHOD <init> (Ls;)V
+		ARG 1 nbttagcompound
+	METHOD a getItem ()Lez;
+	METHOD a damageItem (I)V
+		ARG 1 damage
+	METHOD a onDestroyBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a onItemDestroyedByUse (Lfc;)V
+		ARG 1 entityPlayer
+	METHOD a useItem (Lfc;Ldy;IIII)Z
+		ARG 1 entityPlayer
+		ARG 2 world
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a getStrVsBlock (Lff;)F
+		ARG 1 block
+	METHOD a writeToNBT (Ls;)Ls;
+		ARG 1 nbttagcompound
+	METHOD b getMaxStackSize ()I
+	METHOD b canHarvestBlock (Lff;)Z
+		ARG 1 block
+	METHOD b readFromNBT (Ls;)V
+		ARG 1 nbttagcompound
+	METHOD c getMaxDamage ()I
+	METHOD d copy ()Lgp;

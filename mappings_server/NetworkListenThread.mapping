@@ -1,1 +1,19 @@
 CLASS dc NetworkListenThread
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b isListening Z
+	FIELD c mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD d serverSocket Ljava/net/ServerSocket;
+	FIELD e listenThread Ljava/lang/Thread;
+	FIELD g pendingConnections Ljava/util/ArrayList;
+	FIELD h playerList Ljava/util/ArrayList;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/net/InetAddress;I)V
+		ARG 1 minecraftServer
+		ARG 2 address
+		ARG 3 port
+	METHOD a handleNetworkListenThread ()V
+	METHOD a (Ldc;)Ljava/net/ServerSocket;
+		ARG 0 listenThread
+	METHOD a (Lew;)V
+		ARG 1 netLoginHandler
+	METHOD a (Lid;)V
+		ARG 1 netServerHandler

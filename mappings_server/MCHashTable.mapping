@@ -1,1 +1,19 @@
 CLASS hf MCHashTable
+	FIELD a slots [Lgw;
+	FIELD b count I
+	FIELD c threshold I
+	FIELD d growFactor F
+	FIELD e versionStamp I
+	METHOD a clearMap ()V
+	METHOD a lookup (I)Ljava/lang/Object;
+	METHOD a getSlotIndex (II)I
+	METHOD a insert (IILjava/lang/Object;I)V
+	METHOD a addKey (ILjava/lang/Object;)V
+	METHOD a copyTo ([Lgw;)V
+	METHOD b containsItem (I)Z
+	METHOD d removeObject (I)Ljava/lang/Object;
+	METHOD e removeEntry (I)Lgw;
+	METHOD f getHash (I)I
+	METHOD g computeHash (I)I
+		ARG 0 hash
+	METHOD h grow (I)V

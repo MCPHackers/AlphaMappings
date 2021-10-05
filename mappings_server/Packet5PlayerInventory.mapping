@@ -1,1 +1,6 @@
 CLASS r Packet5PlayerInventory
+	FIELD a inventoryType I
+	FIELD b inventory [Lgp;
+	METHOD <init> (I[Lgp;)V
+		ARG 1 inventoryType
+		ARG 2 stacks

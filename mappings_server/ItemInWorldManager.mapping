@@ -1,1 +1,4 @@
 CLASS in ItemInWorldManager
+	FIELD b worldObj Ldy;
+	METHOD <init> (Ldy;)V
+		ARG 1 world

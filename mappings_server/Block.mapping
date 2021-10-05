@@ -200,7 +200,7 @@ CLASS ff Block
 		ARG 5 random
 	METHOD a blockStrength (Lfc;)F
 		ARG 1 entityPlayer
-	METHOD a colorMultiplier (Lhq;III)V
+	METHOD a setBlockBoundsBasedOnState (Lhq;III)V
 		ARG 1 blockAccess
 		ARG 2 x
 		ARG 3 y

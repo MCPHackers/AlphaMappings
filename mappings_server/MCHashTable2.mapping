@@ -1,1 +1,18 @@
 CLASS el MCHashTable2
+	FIELD a slots [Lbt;
+	FIELD b count I
+	FIELD c threshold I
+	FIELD d growFactor F
+	FIELD e versionStamp I
+	METHOD a computeHash (I)I
+	METHOD a getSlotIndex (II)I
+	METHOD a insert (IJLjava/lang/Object;I)V
+	METHOD a lookup (J)Ljava/lang/Object;
+	METHOD a addKey (JLjava/lang/Object;)V
+	METHOD a copyTo ([Lbt;)V
+	METHOD b grow (I)V
+	METHOD b removeObject (J)Ljava/lang/Object;
+	METHOD c removeEntry (J)Lbt;
+	METHOD d getHash (J)I
+	METHOD e computeHash (J)I
+		ARG 0 hash

@@ -1,1 +1,6 @@
 CLASS fe Packet15Place
+	FIELD a id I
+	FIELD b xPosition I
+	FIELD c yPosition I
+	FIELD d zPosition I
+	FIELD e direction I

@@ -1,4 +1,4 @@
-CLASS dh reed
+CLASS dh BlockRedstoneWire
 	FIELD a wiresProvidePower Z
 	METHOD <init> (II)V
 		ARG 1 id

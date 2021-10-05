@@ -1,1 +1,8 @@
 CLASS hi EntityChicken
+	FIELD a unusedBool2 Z
+	FIELD ad destPos F
+	FIELD ae prevDestPos F
+	FIELD af prevWingRotation F
+	FIELD ai moveWings F
+	FIELD aj timeUntilNextEgg I
+	FIELD b wingRotation F

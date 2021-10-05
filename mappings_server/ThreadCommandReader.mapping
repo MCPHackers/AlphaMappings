@@ -1,1 +1,2 @@
 CLASS bn ThreadCommandReader
+	FIELD a minecraftServer Lnet/minecraft/server/MinecraftServer;

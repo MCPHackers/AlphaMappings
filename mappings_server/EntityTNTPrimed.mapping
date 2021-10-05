@@ -1,2 +1,8 @@
 CLASS bx EntityTNTPrimed
 	FIELD a fuse I
+	METHOD <init> (Ldy;FFF)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b createExplosion ()V

@@ -2,7 +2,7 @@ CLASS ak BlockButton
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 blockIndex
-	METHOD g dropIfCannotPlace (Ldy;III)Z
+	METHOD g checkIfAttachedToBlock (Ldy;III)Z
 		ARG 1 world
 		ARG 2 x
 		ARG 3 y

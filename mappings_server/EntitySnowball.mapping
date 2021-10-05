@@ -1,1 +1,10 @@
 CLASS az EntitySnowball
+	FIELD a throwableShake I
+	FIELD ad yTile I
+	FIELD ae zTile I
+	FIELD af inTile I
+	FIELD ag inGround Z
+	FIELD ah thrower Lis;
+	FIELD ai ticksInGround I
+	FIELD aj ticksInAir I
+	FIELD b xTile I

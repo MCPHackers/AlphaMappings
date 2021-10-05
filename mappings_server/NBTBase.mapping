@@ -1,1 +1,19 @@
 CLASS gg NBTBase
+	FIELD a key Ljava/lang/String;
+	METHOD a getType ()B
+	METHOD a createTagOfType (B)Lgg;
+		ARG 0 type
+	METHOD a writeNamedTag (Lgg;Ljava/io/DataOutput;)V
+		ARG 0 nbtbase
+		ARG 1 dataOutput
+	METHOD a readTagContents (Ljava/io/DataInput;)V
+		ARG 1 dataInput
+	METHOD a writeTagContents (Ljava/io/DataOutput;)V
+		ARG 1 dataOutput
+	METHOD b getTagName (B)Ljava/lang/String;
+		ARG 0 type
+	METHOD b readNamedTag (Ljava/io/DataInput;)Lgg;
+		ARG 0 dataInput
+	METHOD c getKey ()Ljava/lang/String;
+	METHOD m setKey (Ljava/lang/String;)Lgg;
+		ARG 1 key
