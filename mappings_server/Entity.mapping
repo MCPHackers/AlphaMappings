@@ -1,4 +1,9 @@
 CLASS dj Entity
+	FIELD B isDead Z
+	FIELD Z addedToChunk Z
+	FIELD aa chunkCoordX I
+	FIELD ab chunkCoordY I
+	FIELD ac chunkCoordZ I
 	FIELD l posX D
 	FIELD m posY D
 	FIELD n posZ D
@@ -6,3 +11,4 @@ CLASS dj Entity
 	FIELD p motionY D
 	FIELD q motionZ D
 	METHOD a attackEntityFrom (Ldj;I)Z
+	METHOD b_ onUpdate ()V

@@ -1,26 +1,67 @@
 CLASS dy World
+	FIELD A scheduledTickTreeSet Ljava/util/TreeSet;
+	FIELD C skyColor J
+	FIELD D fogColor J
+	FIELD E cloudColor J
+	FIELD L entitiesWithinAABBExcludingEntity Ljava/util/List;
+	FIELD a loadedEntityList Ljava/util/List;
+	FIELD c worldTime J
+	FIELD i lightBrightness [F
 	FIELD m rand Ljava/util/Random;
+	FIELD r worldAccesses Ljava/util/List;
 	FIELD x multiplayerWorld Z
+	FIELD z unloadedEntityList Ljava/util/List;
+	METHOD a getClosestPlayer (DDDD)Lfc;
 	METHOD a playSoundEffect (DDDLjava/lang/String;FF)V
+	METHOD a getChunkFromBlockCoords (II)Lim;
+	METHOD a setBlockAndMetadata (IIIII)Z
+	METHOD a canBlockBePlacedAt (IIIIZ)Z
 	METHOD a setBlockTileEntity (IIILas;)V
-	METHOD a (Lcy;III)I
+	METHOD a getSavedLightValue (Lcy;III)I
 		ARG 2 blockX
 		ARG 3 blockY
 		ARG 4 blockZ
+	METHOD a scheduleLightingUpdate (Lcy;IIIIII)V
 	METHOD a spawnEntityInWorld (Ldj;)Z
+	METHOD a getClosestPlayerToEntity (Ldj;D)Lfc;
+	METHOD a getEntityPathToXYZ (Ldj;IIIF)Lcd;
+	METHOD a getPathToEntity (Ldj;Ldj;F)Lcd;
+	METHOD a playSoundAtEntity (Ldj;Ljava/lang/String;FF)V
+	METHOD a countEntities (Ljava/lang/Class;)I
+	METHOD a getEntitiesWithinAABB (Ljava/lang/Class;Ldg;)Ljava/util/List;
+	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+	METHOD a playRecord (Ljava/lang/String;III)V
+	METHOD a addLoadedEntities (Ljava/util/List;)V
+	METHOD a tickUpdates (Z)Z
+	METHOD b getChunkFromChunkCoords (II)Lim;
 	METHOD b setBlockMetadataWithNotify (IIII)V
+	METHOD b setBlockAndMetadataWithNotify (IIIII)Z
 	METHOD b markBlocksDirty (IIIIII)V
+	METHOD b updateTileEntityChunkAndDoNothing (IIILas;)V
 	METHOD b (Lcy;IIII)V
 		ARG 2 blockX
 		ARG 3 blockY
 		ARG 4 blockZ
-	METHOD c (II)I
+	METHOD b obtainEntitySkin (Ldj;)V
+	METHOD b getEntitiesWithinAABBExcludingEntity (Ldj;Ldg;)Ljava/util/List;
+	METHOD b unloadEntities (Ljava/util/List;)V
+	METHOD c getHeightValue (II)I
 		ARG 1 blockX
 		ARG 2 blockZ
+	METHOD c getChunkData (IIIIII)[B
 	METHOD d setBlockWithNotify (IIII)Z
+	METHOD e blockExists (III)Z
+	METHOD f markBlockNeedsUpdate (III)V
+	METHOD f markBlockAsNeedsUpdate (IIII)V
+	METHOD g checkSessionLock ()V
+	METHOD g chunkExists (II)Z
+	METHOD g canBlockSeeTheSky (III)Z
 	METHOD g notifyBlocksOfNeighborChange (IIII)V
 	METHOD h getBlockLightValue (III)I
 	METHOD h scheduleBlockUpdate (IIII)V
+	METHOD i isBlockProvidingPowerTo (IIII)Z
+	METHOD j isBlockIndirectlyProvidingPowerTo (IIII)Z
 	METHOD k getBlockTileEntity (III)Las;
 	METHOD l removeBlockTileEntity (III)V
+	METHOD m isBlockGettingPowered (III)Z
 	METHOD n isBlockIndirectlyGettingPowered (III)Z

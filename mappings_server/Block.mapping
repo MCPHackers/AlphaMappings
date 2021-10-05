@@ -156,6 +156,9 @@ CLASS ff Block
 		ARG 5 flag
 	METHOD a dropBlockAsItemWithChance (Ldy;IIIIF)V
 		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD a collisionRayTrace (Ldy;IIILaw;Law;)Lfr;
 		ARG 1 world
 		ARG 2 x
@@ -178,6 +181,9 @@ CLASS ff Block
 		ARG 5 entity
 	METHOD a velocityToAddToEntity (Ldy;IIILdj;Law;)V
 		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 		ARG 5 entity
 		ARG 6 vector
 	METHOD a blockActivated (Ldy;IIILfc;)Z
@@ -229,6 +235,9 @@ CLASS ff Block
 		ARG 5 flag
 	METHOD b onEntityWalking (Ldy;IIILdj;)V
 		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 		ARG 5 entity
 	METHOD b onBlockClicked (Ldy;IIILfc;)V
 		ARG 1 world

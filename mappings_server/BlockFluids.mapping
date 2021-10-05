@@ -1,1 +1,28 @@
 CLASS cn BlockFluids
+	FIELD d fluidType I
+	METHOD b getFluidHeightPercent (I)F
+	METHOD b getEffectiveFlowDecay (Lhq;III)I
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c getFlowVector (Lhq;III)Law;
+		ARG 1 blockAccess
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g getFlowDecay (Ldy;III)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h triggerLavaMixEffects (Ldy;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i checkForHarden (Ldy;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

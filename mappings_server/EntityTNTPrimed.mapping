@@ -1,1 +1,2 @@
 CLASS bx EntityTNTPrimed
+	FIELD a fuse I

@@ -1,1 +1,2 @@
 CLASS gd MinecartTrackLogic
+	METHOD a place (Z)V

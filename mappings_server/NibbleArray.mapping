@@ -1,1 +1,3 @@
 CLASS gt NibbleArray
+	METHOD a get (III)I
+	METHOD a set (IIII)V

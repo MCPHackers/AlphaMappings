@@ -1,1 +1,57 @@
 CLASS im Chunk
+	FIELD a isLit Z
+	FIELD b blocks [B
+	FIELD c isChunkLoaded Z
+	FIELD d worldObj Ldy;
+	FIELD e data Lgt;
+	FIELD f skylightMap Lgt;
+	FIELD g blocklightMap Lgt;
+	FIELD h heightMap [B
+	FIELD i height I
+	FIELD j xPosition I
+	FIELD k zPosition I
+	FIELD l chunkTileEntityMap Ljava/util/Map;
+	FIELD m entities [Ljava/util/List;
+	FIELD n isTerrainPopulated Z
+	FIELD o isModified Z
+	FIELD p canAddEntities Z
+	FIELD q canRemoveEntities Z
+	FIELD r hasEntities Z
+	FIELD s lastSaveTime J
+	METHOD <init> (Ldy;II)V
+		ARG 1 world
+		ARG 2 xPosition
+		ARG 3 zPosition
+	METHOD <init> (Ldy;[BII)V
+		ARG 1 world
+		ARG 2 blocks
+		ARG 3 xPosition
+		ARG 4 zPositin
+	METHOD a isAtLocation (II)Z
+		ARG 1 xPosition
+		ARG 2 zPosition
+	METHOD a getBlockID (III)I
+	METHOD a setBlockID (IIII)Z
+	METHOD a setBlockIDWithMetadata (IIIII)Z
+	METHOD a getSavedLightValue (Lcy;III)I
+	METHOD a setLightValue (Lcy;IIII)V
+	METHOD a removeEntityAtIndex (Ldj;)V
+		ARG 1 entity
+	METHOD a (Ldj;I)V
+		ARG 1 entity
+	METHOD a getEntitiesWithinAABBForEntity (Ldj;Ldg;Ljava/util/List;)V
+	METHOD a getEntitiesOfTypeWithinAAAB (Ljava/lang/Class;Ldg;Ljava/util/List;)V
+	METHOD b getHeightValue (II)I
+	METHOD b getBlockMetadata (III)I
+	METHOD b setBlockMetadata (IIII)V
+	METHOD b removeEntity (Ldj;)V
+		ARG 1 entity
+	METHOD c updateSkylight_do (II)V
+	METHOD c canBlockSeeTheSky (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c getBlockLightValue (IIII)I
+	METHOD e setChunkModified ()V
+	METHOD f checkSkylightNeighborUpdate (III)V
+	METHOD g relightBlock (III)V

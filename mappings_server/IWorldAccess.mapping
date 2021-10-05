@@ -1,1 +1,2 @@
 CLASS be IWorldAccess
+	METHOD a doNothingWithTileEntity (IIILas;)V

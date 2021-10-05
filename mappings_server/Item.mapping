@@ -1,8 +1,15 @@
 CLASS ez Item
 	FIELD Q seeds Lez;
 	FIELD R wheat Lez;
+	FIELD aB snowball Lez;
 	FIELD aG clay Lez;
+	FIELD aH reed Lez;
+	FIELD aQ record13 Lez;
 	FIELD aS shiftedIndex I
+	FIELD an flint Lez;
+	FIELD as sign Lez;
 	FIELD at doorWood Lez;
 	FIELD az doorSteel Lez;
 	FIELD c itemsList [Lez;
+	FIELD k coal Lez;
+	FIELD l diamond Lez;

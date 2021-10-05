@@ -1,1 +1,4 @@
 CLASS cy EnumSkyBlock
+	FIELD a Sky Lcy;
+	FIELD b Block Lcy;
+	FIELD c defaultLightValue I

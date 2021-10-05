@@ -1,1 +1,2 @@
 CLASS gj MathHelper
+	METHOD b floor_double (D)I

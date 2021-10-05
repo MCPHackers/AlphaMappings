@@ -1,1 +1,17 @@
 CLASS by BlockRedstoneTorch
+	FIELD a torchActive Z
+	FIELD b torchUpdates Ljava/util/List;
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 blockIndex
+		ARG 3 torchActive
+	METHOD a checkForBurnout (Ldy;IIIZ)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g isIndirectlyPowered (Ldy;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
