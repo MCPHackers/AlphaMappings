@@ -29,7 +29,7 @@ CLASS ga Chunk
 	METHOD a setLightValue (Lby;IIII)V
 	METHOD a addEntity (Lic;)V
 	METHOD a getEntitiesOfTypeWithinAAAB (Ljava/lang/Class;Lcf;Ljava/util/List;)V
-	METHOD a removeEntityAtIndex (Lkh;)V
+	METHOD a addEntity (Lkh;)V
 	METHOD a removeEntityAtIndex (Lkh;I)V
 	METHOD a getEntitiesWithinAABBForEntity (Lkh;Lcf;Ljava/util/List;)V
 	METHOD a needsSaving (Z)Z
