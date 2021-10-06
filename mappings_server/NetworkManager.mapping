@@ -24,7 +24,7 @@ CLASS bb NetworkManager
 		ARG 2 threadName
 		ARG 3 netHandler
 	METHOD a processReadPackets ()V
-	METHOD a (Lbb;)Z
+	METHOD a isRunning (Lbb;)Z
 		ARG 0 networkManager
 	METHOD a setNetHandler (Lej;)V
 		ARG 1 netHandler
@@ -35,17 +35,17 @@ CLASS bb NetworkManager
 	METHOD a networkShutdown (Ljava/lang/String;)V
 		ARG 1 terminationReason
 	METHOD b getRemoteAddress ()Ljava/net/SocketAddress;
-	METHOD b (Lbb;)Z
+	METHOD b isServerTerminating (Lbb;)Z
 		ARG 0 networkManager
 	METHOD c serverShutdown ()V
-	METHOD c (Lbb;)V
+	METHOD c readNetworkPacket (Lbb;)V
 		ARG 0 networkManager
 	METHOD d getNumChunkDataPackets ()I
-	METHOD d (Lbb;)V
+	METHOD d sendNetworkPacket (Lbb;)V
 		ARG 0 networkManager
 	METHOD e sendPacket ()V
-	METHOD e (Lbb;)Ljava/lang/Thread;
+	METHOD e getReadThread (Lbb;)Ljava/lang/Thread;
 		ARG 0 networkManager
 	METHOD f readPacket ()V
-	METHOD f (Lbb;)Ljava/lang/Thread;
+	METHOD f getWriteThread (Lbb;)Ljava/lang/Thread;
 		ARG 0 networkManager

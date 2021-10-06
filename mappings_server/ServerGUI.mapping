@@ -4,6 +4,8 @@ CLASS fo ServerGUI
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
 		ARG 1 minecraftServer
 	METHOD a getStatsComponent ()Ljavax/swing/JComponent;
+	METHOD a getMinecraftServer (Lfo;)Lnet/minecraft/server/MinecraftServer;
+		ARG 0 gui
 	METHOD a initGui (Lnet/minecraft/server/MinecraftServer;)V
 		ARG 0 minecraftServer
 	METHOD b getPlayerListComponent ()Ljavax/swing/JComponent;

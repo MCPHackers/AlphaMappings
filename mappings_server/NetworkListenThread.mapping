@@ -12,9 +12,14 @@ CLASS dc NetworkListenThread
 		ARG 2 address
 		ARG 3 port
 	METHOD a handleNetworkListenThread ()V
-	METHOD a (Ldc;)Ljava/net/ServerSocket;
+	METHOD a getServerSocket (Ldc;)Ljava/net/ServerSocket;
 		ARG 0 listenThread
+	METHOD a addPendingConnection (Ldc;Lew;)V
+		ARG 0 listenThread
+		ARG 1 netLoginHandler
 	METHOD a addPendingConnection (Lew;)V
 		ARG 1 netLoginHandler
 	METHOD a addPlayer (Lid;)V
 		ARG 1 netServerHandler
+	METHOD b incrementConnections (Ldc;)I
+		ARG 0 listenThread

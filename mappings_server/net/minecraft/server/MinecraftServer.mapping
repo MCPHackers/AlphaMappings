@@ -16,7 +16,9 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	FIELD o commands Ljava/util/List;
 	METHOD a stopRunning ()V
 	METHOD a addToOnlinePlayerList (Ldw;)V
+		ARG 1 playerListBox
 	METHOD a getFile (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 fileName
 	METHOD a outputPercentRemaining (Ljava/lang/String;I)V
 		ARG 1 currentTask
 		ARG 2 percent
@@ -25,6 +27,7 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 		ARG 2 commandListener
 	METHOD a print (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD a isServerRunning (Lnet/minecraft/server/MinecraftServer;)Z
+		ARG 0 mcServer
 	METHOD b commandLineParser ()V
 	METHOD b parseInt (Ljava/lang/String;I)I
 		ARG 1 string
@@ -36,4 +39,6 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD f save ()V
 	METHOD g stop ()V
 	METHOD h doTick ()V
+	METHOD main main ([Ljava/lang/String;)V
+		ARG 0 args
 	METHOD run run ()V

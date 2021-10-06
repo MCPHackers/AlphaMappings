@@ -11,7 +11,15 @@ CLASS ew NetLoginHandler
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/net/Socket;Ljava/lang/String;)V
 		ARG 1 minecraftServer
 		ARG 2 socket
+		ARG 3 threadName
 	METHOD a tryLogin ()V
+	METHOD a getServerId (Lew;)Ljava/lang/String;
+		ARG 0 loginHandler
+	METHOD a setLoginPacket (Lew;Lz;)Lz;
+		ARG 0 loginHandler
+		ARG 1 loginPacket
 	METHOD b getUserAndIPString ()Ljava/lang/String;
 	METHOD b kickUser (Ljava/lang/String;)V
+		ARG 1 playerName
 	METHOD b doLogin (Lz;)V
+		ARG 1 loginPacket

@@ -3,7 +3,7 @@ CLASS hx GuiStatsComponent
 	FIELD b updateCounter I
 	FIELD c displayStrings [Ljava/lang/String;
 	METHOD a update ()V
-	METHOD a (Lhx;)V
+	METHOD a update (Lhx;)V
 		ARG 0 component
 	METHOD paint paint (Ljava/awt/Graphics;)V
 		ARG 1 graphics
