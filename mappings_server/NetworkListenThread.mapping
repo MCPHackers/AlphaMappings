@@ -4,6 +4,7 @@ CLASS dc NetworkListenThread
 	FIELD c mcServer Lnet/minecraft/server/MinecraftServer;
 	FIELD d serverSocket Ljava/net/ServerSocket;
 	FIELD e listenThread Ljava/lang/Thread;
+	FIELD f connectionNumber I
 	FIELD g pendingConnections Ljava/util/ArrayList;
 	FIELD h playerList Ljava/util/ArrayList;
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/net/InetAddress;I)V
@@ -13,7 +14,7 @@ CLASS dc NetworkListenThread
 	METHOD a handleNetworkListenThread ()V
 	METHOD a (Ldc;)Ljava/net/ServerSocket;
 		ARG 0 listenThread
-	METHOD a (Lew;)V
+	METHOD a addPendingConnection (Lew;)V
 		ARG 1 netLoginHandler
-	METHOD a (Lid;)V
+	METHOD a addPlayer (Lid;)V
 		ARG 1 netServerHandler

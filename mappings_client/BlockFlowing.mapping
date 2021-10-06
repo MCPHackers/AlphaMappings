@@ -13,3 +13,5 @@ CLASS hv BlockFlowing
 		ARG 5 metadata
 	METHOD j updateFlow (Lcn;III)V
 	METHOD k getOptimalFlowDirections (Lcn;III)[Z
+	METHOD l blockBlocksFlow (Lcn;III)Z
+	METHOD m liquidCanDisplaceBlock (Lcn;III)Z

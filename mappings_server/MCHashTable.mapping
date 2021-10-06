@@ -11,6 +11,7 @@ CLASS hf MCHashTable
 	METHOD a addKey (ILjava/lang/Object;)V
 	METHOD a copyTo ([Lgw;)V
 	METHOD b containsItem (I)Z
+	METHOD c lookupEntry (I)Lgw;
 	METHOD d removeObject (I)Ljava/lang/Object;
 	METHOD e removeEntry (I)Lgw;
 	METHOD f getHash (I)I

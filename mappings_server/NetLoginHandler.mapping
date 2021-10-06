@@ -1,7 +1,17 @@
 CLASS ew NetLoginHandler
-	FIELD b networkManager Lbb;
-	FIELD e minecraftServer Lnet/minecraft/server/MinecraftServer;
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b netManager Lbb;
+	FIELD c finishedProcessing Z
+	FIELD d rand Ljava/util/Random;
+	FIELD e mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD f loginTimer I
+	FIELD g username Ljava/lang/String;
+	FIELD h packet1login Lz;
+	FIELD i serverId Ljava/lang/String;
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/net/Socket;Ljava/lang/String;)V
 		ARG 1 minecraftServer
 		ARG 2 socket
+	METHOD a tryLogin ()V
+	METHOD b getUserAndIPString ()Ljava/lang/String;
 	METHOD b kickUser (Ljava/lang/String;)V
+	METHOD b doLogin (Lz;)V

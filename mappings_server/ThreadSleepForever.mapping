@@ -1,5 +1,5 @@
 CLASS bp ThreadSleepForever
-	FIELD a minecraftServer Lnet/minecraft/server/MinecraftServer;
+	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
 		ARG 1 minecraftServer
 	METHOD run run ()V

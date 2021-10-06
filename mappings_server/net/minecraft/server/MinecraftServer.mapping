@@ -1,5 +1,6 @@
 CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b playerList Ljava/util/HashMap;
 	FIELD c networkServer Ldc;
 	FIELD d propertyManagerObj Lcq;
 	FIELD e worldMngr Lee;
@@ -23,6 +24,7 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 		ARG 1 command
 		ARG 2 commandListener
 	METHOD a print (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a isServerRunning (Lnet/minecraft/server/MinecraftServer;)Z
 	METHOD b commandLineParser ()V
 	METHOD b parseInt (Ljava/lang/String;I)I
 		ARG 1 string

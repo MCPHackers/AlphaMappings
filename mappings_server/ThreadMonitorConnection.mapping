@@ -1,2 +1,2 @@
 CLASS hm ThreadMonitorConnection
-	FIELD a networkManager Lbb;
+	FIELD a netManager Lbb;

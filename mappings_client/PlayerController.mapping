@@ -13,4 +13,4 @@ CLASS hq PlayerController
 	METHOD b onRespawn (Ldm;)V
 	METHOD c onUpdate ()V
 	METHOD c sendBlockRemoving (IIII)V
-	METHOD d shouldDrawHUD ()Z
+	METHOD d shouldDrawHealth ()Z

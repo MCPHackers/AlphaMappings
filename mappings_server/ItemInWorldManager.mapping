@@ -1,4 +1,18 @@
 CLASS in ItemInWorldManager
+	FIELD a thisPlayer Lfc;
 	FIELD b worldObj Ldy;
+	FIELD c removeProgressUnused F
+	FIELD d removeProgress F
+	FIELD e curBlockDurability I
+	FIELD f curblockDamage F
+	FIELD g posX I
+	FIELD h posY I
+	FIELD i posZ I
 	METHOD <init> (Ldy;)V
 		ARG 1 world
+	METHOD a blockRemoving ()V
+	METHOD a onBlockClicked (III)V
+	METHOD a updateBlockRemoving (IIII)V
+	METHOD a activeBlockOrUseItem (Lfc;Ldy;Lgp;IIII)Z
+	METHOD b removeBlock (III)Z
+	METHOD c tryHarvestBlock (III)Z

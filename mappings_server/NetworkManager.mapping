@@ -26,7 +26,7 @@ CLASS bb NetworkManager
 	METHOD a processReadPackets ()V
 	METHOD a (Lbb;)Z
 		ARG 0 networkManager
-	METHOD a (Lej;)V
+	METHOD a setNetHandler (Lej;)V
 		ARG 1 netHandler
 	METHOD a addToSendQueue (Lhp;)V
 		ARG 1 packet
@@ -34,10 +34,13 @@ CLASS bb NetworkManager
 		ARG 1 exception
 	METHOD a networkShutdown (Ljava/lang/String;)V
 		ARG 1 terminationReason
+	METHOD b getRemoteAddress ()Ljava/net/SocketAddress;
 	METHOD b (Lbb;)Z
 		ARG 0 networkManager
+	METHOD c serverShutdown ()V
 	METHOD c (Lbb;)V
 		ARG 0 networkManager
+	METHOD d getNumChunkDataPackets ()I
 	METHOD d (Lbb;)V
 		ARG 0 networkManager
 	METHOD e sendPacket ()V

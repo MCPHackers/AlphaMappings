@@ -52,11 +52,14 @@ CLASS ge EntityLiving
 	FIELD x entityType Ljava/lang/String;
 	FIELD y unusedFloat1 F
 	FIELD z scoreValue I
+	METHOD A isOnLadder ()Z
 	METHOD C jump ()V
 	METHOD D onEntityDeath ()V
 	METHOD a getCanSpawnHere ()Z
 	METHOD a rayTrace (DF)Lmf;
+	METHOD a knockBack (Lkh;IDD)V
 	METHOD b getTalkInterval ()I
+	METHOD b moveEntityWithHeading (FF)V
 	METHOD b updateRotation (FFF)F
 	METHOD b heal (I)V
 	METHOD b onDeath (Lkh;)V
