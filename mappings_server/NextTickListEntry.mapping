@@ -17,3 +17,4 @@ CLASS bv NextTickListEntry
 		ARG 1 nextTickListEntry
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 object
+	METHOD a comparer (Lbv;)I
