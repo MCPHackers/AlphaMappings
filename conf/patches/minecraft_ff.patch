@@ -1,0 +1,139 @@
+diff -r -U 3 minecraft/net/minecraft/client/Minecraft.java minecraft_patched/net/minecraft/client/Minecraft.java
+--- minecraft/net/minecraft/client/Minecraft.java	2021-10-04 14:54:48.042605100 +0300
++++ minecraft_patched/net/minecraft/client/Minecraft.java	2021-10-04 15:00:37.656384300 +0300
+@@ -469,11 +469,7 @@
+                this.sndManager.setListener(this.thePlayer, this.timer.renderPartialTicks);
+                GL11.glEnable(3553 /*GL_TEXTURE_2D*/);
+                if(this.theWorld != null) {
+-                  while(true) {
+-                     if(this.theWorld.updatingLighting()) {
+-                        continue;
+-                     }
+-                  }
++                  while(this.theWorld.updatingLighting());
+                }
+ 
+                if(!this.skipRenderWorld) {
+diff -r -U 3 minecraft/net/minecraft/src/ChunkProviderIso.java minecraft_patched/net/minecraft/src/ChunkProviderIso.java
+--- minecraft/net/minecraft/src/ChunkProviderIso.java	2021-10-04 14:54:48.474629000 +0300
++++ minecraft_patched/net/minecraft/src/ChunkProviderIso.java	2021-10-04 15:01:46.781338000 +0300
+@@ -49,12 +49,7 @@
+    }
+ 
+    private synchronized Chunk getChunkAt(int var1, int var2) {
+-      try {
+-         return this.chunkLoader.loadChunk(this.worldObj, var1, var2);
+-      } catch (IOException var4) {
+-         var4.printStackTrace();
+-         return null;
+-      }
++      return this.chunkLoader.loadChunk(this.worldObj, var1, var2);
+    }
+ 
+    public void populate(IChunkProvider var1, int var2, int var3) {}
+diff -r -U 3 minecraft/net/minecraft/src/ChunkProviderLoadOrGenerate.java minecraft_patched/net/minecraft/src/ChunkProviderLoadOrGenerate.java
+--- minecraft/net/minecraft/src/ChunkProviderLoadOrGenerate.java	2021-10-04 14:54:48.475629000 +0300
++++ minecraft_patched/net/minecraft/src/ChunkProviderLoadOrGenerate.java	2021-10-04 15:01:52.307654100 +0300
+@@ -123,12 +123,8 @@
+ 
+    private void saveChunk(Chunk var1) {
+       if(this.chunkLoader != null) {
+-         try {
+-            var1.lastSaveTime = this.worldObj.worldTime;
+-            this.chunkLoader.saveChunk(this.worldObj, var1);
+-         } catch (IOException var3) {
+-            var3.printStackTrace();
+-         }
++         var1.lastSaveTime = this.worldObj.worldTime;
++		this.chunkLoader.saveChunk(this.worldObj, var1);
+ 
+       }
+    }
+diff -r -U 3 minecraft/net/minecraft/src/CodecMus.java minecraft_patched/net/minecraft/src/CodecMus.java
+--- minecraft/net/minecraft/src/CodecMus.java	2021-10-04 14:54:48.480630000 +0300
++++ minecraft_patched/net/minecraft/src/CodecMus.java	2021-10-04 15:02:24.946520900 +0300
+@@ -1,5 +1,6 @@
+ package net.minecraft.src;
+ 
++import java.io.IOException;
+ import java.io.InputStream;
+ import net.minecraft.src.MusInputStream;
+ import paulscode.sound.codecs.CodecJOrbis;
+@@ -11,6 +12,11 @@
+    }
+ 
+    protected InputStream openInputStream() {
+-      return new MusInputStream(this, this.url, this.urlConnection.getInputStream());
++      try {
++		return new MusInputStream(this, this.url, this.urlConnection.getInputStream());
++	} catch (IOException ex) {
++		ex.printStackTrace();
++		return null;
++	}
+    }
+ }
+diff -r -U 3 minecraft/net/minecraft/src/MusInputStream.java minecraft_patched/net/minecraft/src/MusInputStream.java
+--- minecraft/net/minecraft/src/MusInputStream.java	2021-10-04 14:54:48.712643000 +0300
++++ minecraft_patched/net/minecraft/src/MusInputStream.java	2021-10-04 15:02:45.734709900 +0300
+@@ -1,5 +1,6 @@
+ package net.minecraft.src;
+ 
++import java.io.IOException;
+ import java.io.InputStream;
+ import java.net.URL;
+ import net.minecraft.src.CodecMus;
+@@ -29,7 +30,11 @@
+    }
+ 
+    public int read(byte[] var1, int var2, int var3) {
+-      var3 = this.inputStream.read(var1, var2, var3);
++      try {
++		var3 = this.inputStream.read(var1, var2, var3);
++	} catch (IOException ex) {
++		ex.printStackTrace();
++	}
+ 
+       for(int var4 = 0; var4 < var3; ++var4) {
+          byte var5 = var1[var2 + var4] = (byte)(var1[var2 + var4] ^ this.hash >> 8);
+diff -r -U 3 minecraft/net/minecraft/src/NetClientHandler.java minecraft_patched/net/minecraft/src/NetClientHandler.java
+--- minecraft/net/minecraft/src/NetClientHandler.java	2021-10-04 14:54:48.731644000 +0300
++++ minecraft_patched/net/minecraft/src/NetClientHandler.java	2021-10-04 15:03:19.998669700 +0300
+@@ -75,7 +75,11 @@
+ 
+    public void processReadPackets() {
+       if(!this.disconnected) {
+-         this.netManager.processReadPackets();
++         try {
++			this.netManager.processReadPackets();
++		} catch (IOException ex) {
++			ex.printStackTrace();
++		}
+       }
+    }
+ 
+@@ -214,7 +218,11 @@
+       var1.yPosition = var2.boundingBox.minY;
+       var1.zPosition = var2.posZ;
+       var1.stance = var2.posY;
+-      this.netManager.addToSendQueue(var1);
++      try {
++		this.netManager.addToSendQueue(var1);
++	} catch (IOException ex) {
++		ex.printStackTrace();
++	}
+       if(!this.posUpdated) {
+          this.mc.thePlayer.prevPosX = this.mc.thePlayer.posX;
+          this.mc.thePlayer.prevPosY = this.mc.thePlayer.posY;
+@@ -274,7 +282,11 @@
+ 
+    public void addToSendQueue(Packet var1) {
+       if(!this.disconnected) {
+-         this.netManager.addToSendQueue(var1);
++         try {
++			this.netManager.addToSendQueue(var1);
++		} catch (IOException ex) {
++			ex.printStackTrace();
++		}
+       }
+    }
+ 
