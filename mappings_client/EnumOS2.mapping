@@ -1,5 +1,5 @@
 CLASS ih EnumOS2
-	FIELD a libux Lih;
+	FIELD a linux Lih;
 	FIELD b solaris Lih;
 	FIELD c windows Lih;
 	FIELD d macos Lih;
