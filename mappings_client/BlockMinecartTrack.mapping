@@ -1,2 +1,2 @@
-CLASS if BlockMinecartTrack
-	METHOD h refreshTrackShape (Lcn;III)V
+CLASS bm BlockMinecartTrack
+	METHOD g refreshTrackShape (Lfi;III)V

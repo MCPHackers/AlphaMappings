@@ -1,5 +1,5 @@
-CLASS bg BlockRedstoneTorch
+CLASS da BlockRedstoneTorch
 	FIELD a torchActive Z
 	FIELD b torchUpdates Ljava/util/List;
-	METHOD a checkForBurnout (Lcn;IIIZ)Z
-	METHOD h isIndirectlyPowered (Lcn;III)Z
+	METHOD a checkForBurnout (Lfi;IIIZ)Z
+	METHOD g isIndirectlyPowered (Lfi;III)Z

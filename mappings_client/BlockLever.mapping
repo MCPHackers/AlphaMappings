@@ -1,2 +1,2 @@
-CLASS no BlockLever
-	METHOD h checkIfAttachedToBlock (Lcn;III)Z
+CLASS jc BlockLever
+	METHOD g checkIfAttachedToBlock (Lfi;III)Z

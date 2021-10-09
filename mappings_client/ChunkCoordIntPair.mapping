@@ -1,3 +1,0 @@
-CLASS ol ChunkCoordIntPair
-	FIELD a chunkXPos I
-	FIELD b chunkZPos I

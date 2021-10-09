@@ -1,0 +1,23 @@
+CLASS av Minecraft
+	FIELD A sndManager Lkb;
+	FIELD L glCapabilities Lcv;
+	FIELD M timer Lcd;
+	FIELD a fullscreen Z
+	FIELD b playerController Laj;
+	FIELD c displayWidth I
+	FIELD d displayHeight I
+	FIELD e theWorld Lfi;
+	FIELD f renderGlobal Lm;
+	FIELD i session Lgl;
+	FIELD j minecraftUri Ljava/lang/String;
+	FIELD l hideQuitButton Z
+	FIELD m isGamePaused Z
+	FIELD n renderEngine Lij;
+	FIELD s loadMapUser Ljava/lang/String;
+	FIELD t loadMapID I
+	FIELD y options Lji;
+	FIELD z mcApplet Lnet/minecraft/client/MinecraftApplet;
+	METHOD a displayUnexpectedThrowable (Lg;)V
+	METHOD a setServer (Ljava/lang/String;I)V
+	METHOD c shutdownMinecraftApplet ()V
+	METHOD d shutdown ()V

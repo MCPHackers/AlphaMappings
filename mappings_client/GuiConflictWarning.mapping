@@ -1,2 +1,0 @@
-CLASS iv GuiConflictWarning
-	FIELD a updateCounter I

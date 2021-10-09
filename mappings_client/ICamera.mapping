@@ -1,3 +1,0 @@
-CLASS oe ICamera
-	METHOD a setPosition (DDD)V
-	METHOD a isBoundingBoxInFrustum (Lcf;)Z

@@ -1,2 +1,2 @@
-CLASS oi BlockStep
+CLASS ke BlockStep
 	FIELD a blockType Z

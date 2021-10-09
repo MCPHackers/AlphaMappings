@@ -1,5 +1,0 @@
-CLASS dg GuiDownloadTerrain
-	FIELD a netHandler Lgy;
-	FIELD h updateCounter I
-	METHOD <init> (Lgy;)V
-		ARG 1 netHandler

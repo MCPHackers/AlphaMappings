@@ -1,2 +1,2 @@
-CLASS jt BlockContainer
-	METHOD a_ getBlockEntity ()Lic;
+CLASS eb BlockContainer
+	METHOD a_ getBlockEntity ()Lbj;

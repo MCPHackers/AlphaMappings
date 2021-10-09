@@ -1,2 +1,0 @@
-CLASS hr RecipesFood
-	METHOD a addRecipes (Ldw;)V

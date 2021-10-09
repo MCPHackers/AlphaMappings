@@ -1,2 +1,2 @@
-CLASS mj BlockTorch
-	METHOD h checkIfAttachedToBlock (Lcn;III)Z
+CLASS hm BlockTorch
+	METHOD g checkIfAttachedToBlock (Lfi;III)Z

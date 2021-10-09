@@ -1,4 +1,2 @@
-CLASS ai BlockRedstoneOre
-	FIELD a glowing Z
-	METHOD h glow (Lcn;III)V
-	METHOD i sparkle (Lcn;III)V
+CLASS bn BlockRedstoneOre
+	METHOD g glow (Lfi;III)V

@@ -1,3 +1,0 @@
-CLASS et CraftingInventoryWorkbenchCB
-	FIELD a craftMatrix Lgu;
-	FIELD b craftResult Lgh;

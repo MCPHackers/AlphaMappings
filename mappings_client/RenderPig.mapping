@@ -1,2 +1,0 @@
-CLASS gm RenderPig
-	METHOD a renderSaddledPig (Lmv;I)Z

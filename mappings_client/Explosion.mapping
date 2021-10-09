@@ -1,2 +1,0 @@
-CLASS je Explosion
-	METHOD a doExplosion (Lcn;Lkh;DDDF)V

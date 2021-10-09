@@ -1,4 +1,4 @@
-CLASS ku BlockFurnace
+CLASS fg BlockFurnace
 	FIELD a isActive Z
-	METHOD a updateFurnaceBlockState (ZLcn;III)V
-	METHOD h setDefaultDirection (Lcn;III)V
+	METHOD a updateFurnaceBlockState (ZLfi;III)V
+	METHOD g setDefaultDirection (Lfi;III)V

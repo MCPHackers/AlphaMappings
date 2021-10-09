@@ -1,8 +1,3 @@
-CLASS iz BlockLeaves
+CLASS cu BlockLeaves
 	FIELD b leafTexIndex I
-	FIELD c decayCounter I
 	METHOD a setGraphicsLevel (Z)V
-	METHOD f updateConnectedLeaves (Lcn;IIII)V
-	METHOD g getConnectionStrength (Lcn;IIII)I
-	METHOD h updateCurrentLeaves (Lcn;III)V
-	METHOD i removeLeaves (Lcn;III)V

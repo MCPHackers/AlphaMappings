@@ -1,2 +1,2 @@
-CLASS hb ImageBuffer
+CLASS p ImageBuffer
 	METHOD a parseUserSkin (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;

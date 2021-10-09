@@ -1,3 +1,0 @@
-CLASS fs RecipeSorter
-	FIELD a craftingManager Ldw;
-	METHOD a compareRecipes (Lbv;Lbv;)I

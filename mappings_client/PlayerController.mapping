@@ -1,16 +1,1 @@
-CLASS hq PlayerController
-	FIELD a mc Lnet/minecraft/client/Minecraft;
-	FIELD b isInTestMode Z
-	METHOD a resetBlockRemoving ()V
-	METHOD a setPartialTime (F)V
-	METHOD a clickBlock (IIII)V
-	METHOD a onWorldChange (Lcn;)V
-	METHOD a flipPlayer (Ldm;)V
-	METHOD a onPlayerRightClick (Ldm;Lcn;Lev;IIII)Z
-	METHOD b getBlockReachDistance ()F
-	METHOD b sendBlockRemoved (IIII)Z
-	METHOD b createPlayer (Lcn;)Ldm;
-	METHOD b onRespawn (Ldm;)V
-	METHOD c onUpdate ()V
-	METHOD c sendBlockRemoving (IIII)V
-	METHOD d shouldDrawHealth ()Z
+CLASS aj PlayerController

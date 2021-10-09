@@ -1,2 +1,0 @@
-CLASS mw InventoryCraftResult
-	FIELD a stackResult [Lev;

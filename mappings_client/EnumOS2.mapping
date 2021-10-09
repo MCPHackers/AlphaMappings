@@ -1,6 +1,6 @@
-CLASS ih EnumOS2
-	FIELD a linux Lih;
-	FIELD b solaris Lih;
-	FIELD c windows Lih;
-	FIELD d macos Lih;
-	FIELD e unknown Lih;
+CLASS bp EnumOS2
+	FIELD a linux Lbp;
+	FIELD b solaris Lbp;
+	FIELD c windows Lbp;
+	FIELD d macos Lbp;
+	FIELD e unknown Lbp;

@@ -1,2 +1,1 @@
-CLASS av ItemBlock
-	FIELD a blockID I
+CLASS ch ItemBlock

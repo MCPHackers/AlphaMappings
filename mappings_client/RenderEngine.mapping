@@ -1,24 +1,3 @@
-CLASS ey RenderEngine
-	FIELD a useMipmaps Z
-	FIELD b textureMap Ljava/util/HashMap;
-	FIELD c textureContentsMap Ljava/util/HashMap;
-	FIELD d singleIntBuffer Ljava/nio/IntBuffer;
-	FIELD e imageData Ljava/nio/ByteBuffer;
-	FIELD f textureList Ljava/util/List;
-	FIELD g urlToImageDataMap Ljava/util/Map;
-	FIELD h options Lfr;
-	FIELD i clampTexture Z
-	METHOD a updateDynamicTextures ()V
-	METHOD a deleteTexture (I)V
-	METHOD a averageColor (II)I
+CLASS ij RenderEngine
 	METHOD a allocateAndSetupTexture (Ljava/awt/image/BufferedImage;)I
-	METHOD a setupTexture (Ljava/awt/image/BufferedImage;I)V
-	METHOD a getTexture (Ljava/lang/String;)I
-	METHOD a obtainImageData (Ljava/lang/String;Lhb;)Lcc;
-	METHOD a getTextureForDownloadableImage (Ljava/lang/String;Ljava/lang/String;)I
-	METHOD a registerTextureFX (Lz;)V
 	METHOD b refreshTextures ()V
-	METHOD b bindTexture (I)V
-	METHOD b alphaBlend (II)I
-	METHOD b unwrapImageByColumns (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
-	METHOD b releaseImageData (Ljava/lang/String;)V

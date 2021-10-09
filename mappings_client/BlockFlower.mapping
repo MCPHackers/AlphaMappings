@@ -1,3 +1,4 @@
-CLASS mq BlockFlower
+CLASS ib BlockFlower
 	METHOD b canThisPlantGrowOnThisBlockID (I)Z
-	METHOD h checkFlowerChange (Lcn;III)V
+	METHOD g canBlockStay (Lfi;III)Z
+	METHOD h checkFlowerChange (Lfi;III)V

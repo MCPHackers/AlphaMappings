@@ -1,4 +1,0 @@
-CLASS nu IProgressUpdate
-	METHOD a setLoadingProgress (I)V
-	METHOD b displayProgressMessage (Ljava/lang/String;)V
-	METHOD d resetProgresAndWorkingMessage (Ljava/lang/String;)V

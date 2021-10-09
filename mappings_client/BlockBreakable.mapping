@@ -1,2 +1,2 @@
-CLASS fc BlockBreakable
+CLASS im BlockBreakable
 	FIELD a localFlag Z

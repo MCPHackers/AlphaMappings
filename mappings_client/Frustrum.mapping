@@ -1,6 +1,0 @@
-CLASS kl Frustrum
-	FIELD a clippingHelper Lbt;
-	FIELD b xPosition D
-	FIELD c yPosition D
-	FIELD d zPosition D
-	METHOD a isBoxInFrustum (DDDDDD)Z

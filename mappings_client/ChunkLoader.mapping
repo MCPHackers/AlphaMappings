@@ -1,6 +1,0 @@
-CLASS le ChunkLoader
-	FIELD a saveDir Ljava/io/File;
-	FIELD b createIfNecessary Z
-	METHOD a chunkFileForXZ (II)Ljava/io/File;
-	METHOD a loadChunkIntoWorldFromCompound (Lcn;Lhm;)Lga;
-	METHOD a storeChunkInCompound (Lga;Lcn;Lhm;)V

@@ -1,4 +1,0 @@
-CLASS jk SignModel
-	FIELD a signBoard Lip;
-	FIELD b signStick Lip;
-	METHOD a renderSign ()V

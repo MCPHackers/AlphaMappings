@@ -1,9 +1,9 @@
-CLASS jp BlockFluids
+CLASS ds BlockFluids
 	FIELD d fluidType I
-	METHOD a getFlowDirection (Lnm;IIILgb;)D
+	METHOD a getFlowDirection (Ljb;IIILkf;)D
 	METHOD b getFluidHeightPercent (I)F
-	METHOD b getEffectiveFlowDecay (Lnm;III)I
-	METHOD e getFlowVector (Lnm;III)Laj;
-	METHOD h getFlowDecay (Lcn;III)I
-	METHOD i triggerLavaMixEffects (Lcn;III)V
-	METHOD j checkForHarden (Lcn;III)V
+	METHOD b getEffectiveFlowDecay (Ljb;III)I
+	METHOD e getFlowVector (Ljb;III)Lbo;
+	METHOD f getFlowDecay (Lfi;III)I
+	METHOD g triggerLavaMixEffects (Lfi;III)V
+	METHOD h checkForHarden (Lfi;III)V

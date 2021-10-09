@@ -1,3 +1,0 @@
-CLASS fb EntitySorter
-	FIELD a comparedEntity Lkh;
-	METHOD a sortByDistanceToEntity (Lbn;Lbn;)I

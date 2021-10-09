@@ -1,5 +1,0 @@
-CLASS f WorldGenClay
-	FIELD a clayBlockId I
-	FIELD b numberOfBlocks I
-	METHOD <init> (I)V
-		ARG 1 numberOfBlocks

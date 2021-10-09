@@ -1,0 +1,2 @@
+CLASS bs
+	METHOD a generate (Lfi;Ljava/util/Random;III)Z

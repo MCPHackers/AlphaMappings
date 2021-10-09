@@ -1,4 +1,4 @@
-CLASS lt TerrainTextureManager
+CLASS gr TerrainTextureManager
 	FIELD a texCols [F
 	FIELD b pixels [I
 	FIELD c zBuf [I
@@ -7,4 +7,4 @@ CLASS lt TerrainTextureManager
 	FIELD f yBuf [I
 	FIELD g textures [I
 	METHOD a postProcess ()V
-	METHOD a render (Ljj;)V
+	METHOD a render (Ldk;)V

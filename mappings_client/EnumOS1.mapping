@@ -1,6 +1,6 @@
-CLASS fa EnumOS1
-	FIELD a linux Lfa;
-	FIELD b solaris Lfa;
-	FIELD c windows Lfa;
-	FIELD d macos Lfa;
-	FIELD e unknown Lfa;
+CLASS ik EnumOS1
+	FIELD a linux Lik;
+	FIELD b solaris Lik;
+	FIELD c windows Lik;
+	FIELD d macos Lik;
+	FIELD e unknown Lik;

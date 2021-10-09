@@ -1,4 +1,4 @@
-CLASS kd FontRenderer
+CLASS em FontRenderer
 	FIELD a fontTextureName I
 	FIELD b charWidth [I
 	FIELD c fontDisplayLists I

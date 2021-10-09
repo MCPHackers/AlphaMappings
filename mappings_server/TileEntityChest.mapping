@@ -1,6 +1,0 @@
-CLASS hb TileEntityChest
-	FIELD e chestContents [Lgp;
-	METHOD a setInventorySlotContents (ILgp;)V
-		ARG 1 slot
-		ARG 2 stack
-	METHOD d getInventoryStackLimit ()I

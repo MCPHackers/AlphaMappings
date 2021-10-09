@@ -1,6 +1,0 @@
-CLASS ht TexureWaterFlowFX
-	FIELD g red [F
-	FIELD h green [F
-	FIELD i blue [F
-	FIELD j alpha [F
-	FIELD k tickCounter I

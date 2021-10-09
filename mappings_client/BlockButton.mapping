@@ -1,2 +1,2 @@
-CLASS hu BlockButton
-	METHOD h checkIfAttachedToBlock (Lcn;III)Z
+CLASS as BlockButton
+	METHOD g checkIfAttachedToBlock (Lfi;III)Z

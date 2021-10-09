@@ -1,8 +1,0 @@
-CLASS dm NBTTagList
-	FIELD a tagList Ljava/util/List;
-	FIELD b tagType B
-	METHOD a entities (I)Lgg;
-		ARG 1 entityIndex
-	METHOD a setTag (Lgg;)V
-		ARG 1 nbtbase
-	METHOD b tagCount ()I

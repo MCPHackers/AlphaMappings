@@ -1,2 +1,0 @@
-CLASS fm MinecraftImpl
-	FIELD a mcFrame Ljava/awt/Frame;

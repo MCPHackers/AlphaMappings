@@ -1,9 +1,3 @@
-CLASS df GLAllocation
-	FIELD a displayLists Ljava/util/List;
-	FIELD b textureNames Ljava/util/List;
-	METHOD a deleteTexturesAndDisplayLists ()V
+CLASS gf GLAllocation
 	METHOD a generateDisplayLists (I)I
-	METHOD a generateTextureNames (Ljava/nio/IntBuffer;)V
-	METHOD b createDirectByteBuffer (I)Ljava/nio/ByteBuffer;
 	METHOD c createDirectIntBuffer (I)Ljava/nio/IntBuffer;
-	METHOD d createDirectFloatBuffer (I)Ljava/nio/FloatBuffer;

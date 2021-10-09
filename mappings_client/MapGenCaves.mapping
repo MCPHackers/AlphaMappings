@@ -1,3 +1,0 @@
-CLASS kk MapGenCaves
-	METHOD a generateLargeCaveNode (II[BDDD)V
-	METHOD a generateCaveNode (II[BDDDFFFIID)V

@@ -1,3 +1,4 @@
-CLASS lr BlockSign
+CLASS gk BlockSign
 	FIELD a signEntityClass Ljava/lang/Class;
-	FIELD b isFreestanding Z
+	FIELD b itemDropID I
+	FIELD c isFreestanding Z

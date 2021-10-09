@@ -1,6 +1,6 @@
-CLASS jj IsoImageBuffer
+CLASS dk IsoImageBuffer
 	FIELD a image Ljava/awt/image/BufferedImage;
-	FIELD b level Lcn;
+	FIELD b level Lfi;
 	FIELD c x I
 	FIELD d y I
 	FIELD e rendered Z
@@ -8,4 +8,4 @@ CLASS jj IsoImageBuffer
 	FIELD g lastVisible I
 	FIELD h addedToRenderQueue Z
 	METHOD a init (II)V
-	METHOD a setLevel (Lcn;II)V
+	METHOD a setLevel (Lfi;II)V

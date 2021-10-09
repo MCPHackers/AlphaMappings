@@ -1,2 +1,0 @@
-CLASS hm ThreadMonitorConnection
-	FIELD a netManager Lbb;

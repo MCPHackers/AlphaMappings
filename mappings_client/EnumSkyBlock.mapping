@@ -1,4 +1,4 @@
-CLASS by EnumSkyBlock
-	FIELD a Sky Lby;
-	FIELD b Block Lby;
+CLASS ef EnumSkyBlock
+	FIELD a Sky Lef;
+	FIELD b Block Lef;
 	FIELD c defaultLightValue I

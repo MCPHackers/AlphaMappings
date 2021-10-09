@@ -1,6 +1,0 @@
-CLASS af IChunkLoader
-	METHOD a chunkTick ()V
-	METHOD a loadChunk (Lcn;II)Lga;
-	METHOD a saveChunk (Lcn;Lga;)V
-	METHOD b saveExtraData ()V
-	METHOD b saveExtraChunkData (Lcn;Lga;)V

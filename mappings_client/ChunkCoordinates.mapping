@@ -1,3 +1,0 @@
-CLASS hc ChunkCoordinates
-	FIELD a posX I
-	FIELD b posZ I

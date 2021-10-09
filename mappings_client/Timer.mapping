@@ -1,4 +1,4 @@
-CLASS ir Timer
+CLASS cd Timer
 	FIELD a ticksPerSecond F
 	FIELD b elapsedTicks I
 	FIELD c renderPartialTicks F

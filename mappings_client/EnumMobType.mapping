@@ -1,4 +1,4 @@
-CLASS js EnumMobType
-	FIELD a everything Ljs;
-	FIELD b mobs Ljs;
-	FIELD c players Ljs;
+CLASS ea EnumMobType
+	FIELD a everything Lea;
+	FIELD b mobs Lea;
+	FIELD c players Lea;

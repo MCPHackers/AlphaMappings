@@ -1,17 +1,11 @@
-CLASS hv BlockFlowing
+CLASS aw BlockFlowing
 	FIELD a numAdjacentSources I
 	FIELD b isOptimalFlowDirection [Z
 	FIELD c flowCost [I
-	METHOD a calculateFlowCost (Lcn;IIIII)I
-		ARG 1 world
-	METHOD f getSmallestFlowDecay (Lcn;IIII)I
-	METHOD g flowIntoBlock (Lcn;IIII)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 metadata
-	METHOD j updateFlow (Lcn;III)V
-	METHOD k getOptimalFlowDirections (Lcn;III)[Z
-	METHOD l blockBlocksFlow (Lcn;III)Z
-	METHOD m liquidCanDisplaceBlock (Lcn;III)Z
+	METHOD a calculateFlowCost (Lfi;IIIII)I
+	METHOD e getSmallestFlowDecay (Lfi;IIII)I
+	METHOD f flowIntoBlock (Lfi;IIII)V
+	METHOD h updateFlow (Lfi;III)V
+	METHOD i getOptimalFlowDirections (Lfi;III)[Z
+	METHOD j blockBlocksFlow (Lfi;III)Z
+	METHOD k liquidCanDisplaceBlock (Lfi;III)Z

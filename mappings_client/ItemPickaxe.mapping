@@ -1,3 +1,0 @@
-CLASS y ItemPickaxe
-	FIELD aX blocksEffectiveAgainst [Lly;
-	FIELD aY harvestLevel I

@@ -1,2 +1,2 @@
-CLASS lh ThreadRunIsoClient
-	FIELD a isomPreview Lad;
+CLASS fx ThreadRunIsoClient
+	FIELD a isomPreview Lbd;
