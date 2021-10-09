@@ -8,6 +8,7 @@ CLASS mk MinecartTrackLogic
 	FIELD g connectedTracks Ljava/util/List;
 	METHOD a calculateConnectedTracks ()V
 	METHOD a isMinecartTrack (III)Z
+	METHOD a getNAdjacentTracks (Lmk;)I
 	METHOD a getMinecartTrackLogic (Lmt;)Lmk;
 	METHOD a place (Z)V
 	METHOD b refreshConnectedTracks ()V
@@ -15,6 +16,5 @@ CLASS mk MinecartTrackLogic
 	METHOD b isConnectedTo (Lmk;)Z
 	METHOD c getAdjacentTracks ()I
 	METHOD c canConnectFrom (III)Z
-	METHOD c handleKeyPress (Lmk;)Z
+	METHOD c canConnectTo (Lmk;)Z
 	METHOD d connectToNeighbor (Lmk;)V
-	METHOD a getNAdjacentTracks (Lmk;)I
