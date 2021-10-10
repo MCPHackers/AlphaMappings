@@ -1,0 +1,4 @@
+CLASS ev NBTTagList
+	METHOD a tagAt (I)Lhs;
+	METHOD a setTag (Lhs;)V
+	METHOD b tagCount ()I

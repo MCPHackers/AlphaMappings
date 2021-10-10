@@ -1,0 +1,7 @@
+CLASS ia ItemArmor
+	FIELD aF armorType I
+	FIELD aG damageReduceAmount I
+	FIELD aH renderIndex I
+	FIELD a armorLevel I
+	FIELD aI damageReduceAmountArray [I
+	FIELD aJ maxDamageArray [I

@@ -1,1 +1,15 @@
 CLASS aj PlayerController
+	FIELD a mc Lav;
+	FIELD b isInTestMode Z
+	METHOD a init ()V
+	METHOD a setPartialTime (F)V
+	METHOD a clickBlock (III)V
+	METHOD a sendBlockRemoving (IIII)V
+	METHOD a onWorldChange (Lfi;)V
+	METHOD a flipPlayer (Lgn;)V
+	METHOD b resetBlockRemoving ()V
+	METHOD b sendBlockRemoved (III)Z
+	METHOD b onRespawn (Lgn;)V
+	METHOD c getBlockReachDistance ()F
+	METHOD d onUpdate ()V
+	METHOD e shouldDrawHealth ()Z

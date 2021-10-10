@@ -1,1 +1,10 @@
 CLASS ae NBTTagCompound
+	METHOD a setByte (Ljava/lang/String;B)V
+	METHOD a setInteger (Ljava/lang/String;I)V
+	METHOD a setTag (Ljava/lang/String;Lhs;)V
+	METHOD a setString (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a setShort (Ljava/lang/String;S)V
+	METHOD b getByte (Ljava/lang/String;)B
+	METHOD c getShort (Ljava/lang/String;)S
+	METHOD d getInteger (Ljava/lang/String;)I
+	METHOD g getString (Ljava/lang/String;)Ljava/lang/String;

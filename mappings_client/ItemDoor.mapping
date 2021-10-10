@@ -1,0 +1,2 @@
+CLASS hl ItemDoor
+	FIELD a material Lkf;

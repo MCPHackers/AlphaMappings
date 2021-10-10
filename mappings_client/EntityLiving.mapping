@@ -1,1 +1,11 @@
 CLASS kh EntityLiving
+	FIELD aB prevCameraPitch F
+	FIELD aC cameraPitch F
+	FIELD au health I
+	FIELD aw hurtTime I
+	FIELD ax maxHurtTime I
+	FIELD ay attackedAtYaw F
+	FIELD az deathTime I
+	METHOD A spawnExplosionParticle ()V
+	METHOD a getCanSpawnHere (DDD)Z
+	METHOD a heal (I)V

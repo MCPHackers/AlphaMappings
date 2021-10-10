@@ -1,0 +1,2 @@
+CLASS x ClippingHelperImplementation
+	METHOD a getInstance ()Ldw;

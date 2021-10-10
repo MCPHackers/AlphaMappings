@@ -1,0 +1,2 @@
+CLASS i LoadingScreenRenderer
+	METHOD a printText (Ljava/lang/String;)V

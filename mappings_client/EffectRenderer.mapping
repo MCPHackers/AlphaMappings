@@ -1,0 +1,8 @@
+CLASS dr EffectRenderer
+	METHOD a updateEffects ()V
+	METHOD a addBlockDestroyEffects (III)V
+	METHOD a addBlockHitEffects (IIII)V
+	METHOD a renderParticles (Leu;F)V
+	METHOD a addEffect (Ljf;)V
+	METHOD b getStatistics ()Ljava/lang/String;
+	METHOD b renderLitParticles (Leu;F)V

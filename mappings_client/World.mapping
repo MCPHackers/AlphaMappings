@@ -1,29 +1,51 @@
 CLASS fi World
-	FIELD D snowCovered Lae;
 	FIELD b worldTime J
 	FIELD c skylightSubtracted I
 	FIELD d editingBlocks Z
+	FIELD f playerEntity Leu;
+	FIELD g difficultySetting I
+	FIELD h fontRenderer Ljava/lang/Object;
 	FIELD i rand Ljava/util/Random;
 	FIELD j spawnX I
 	FIELD k spawnY I
 	FIELD l spawnZ I
+	FIELD m isNewWorld Z
 	FIELD n randomSeed J
 	FIELD o sizeOnDisk J
 	METHOD a playSoundEffect (DDDLjava/lang/String;FF)V
 	METHOD a setBlock (IIII)Z
 	METHOD a setBlockAndMetadata (IIIII)Z
 	METHOD a setBlockTileEntity (IIILbj;)V
+	METHOD a rayTraceBlocks_do (Lbo;Lbo;Z)Lhg;
+	METHOD a addWorldAccess (Lbw;)V
 	METHOD a spawnEntityInWorld (Leu;)V
 	METHOD a playSoundAtEntity (Leu;Ljava/lang/String;FF)V
+	METHOD a getPlayerEntity (Ljava/lang/Class;)Leu;
 	METHOD a getEntitiesWithinAABB (Ljava/lang/Class;Leq;)Ljava/util/List;
 	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+	METHOD a saveWorldIndirectly (Ljl;)V
+	METHOD b spawnPlayerWithLoadedChunks ()V
+	METHOD b getSkyColor (F)Lbo;
 	METHOD b setBlockMetadataWithNotify (IIII)V
 	METHOD b setBlockAndMetadataWithNotify (IIIII)Z
 	METHOD b markBlocksDirty (IIIIII)V
+	METHOD b removeWorldAccess (Lbw;)V
 	METHOD b getEntitiesWithinAABBExcludingEntity (Leu;Leq;)Ljava/util/List;
+	METHOD c getCelestialAngle (F)F
+	METHOD d updateEntities ()V
+	METHOD d getCloudColor (F)Lbo;
+	METHOD d getTopSolidOrLiquidBlock (II)I
 	METHOD d setBlockWithNotify (IIII)Z
+	METHOD e getDebugLoadedEntities ()Ljava/lang/String;
+	METHOD f getStarBrightness (F)F
 	METHOD f notifyBlocksOfNeighborChange (IIII)V
+	METHOD g updatingLighting ()Z
 	METHOD g scheduleBlockUpdate (IIII)V
+	METHOD h extinguishFire (IIII)V
+	METHOD i tick ()V
 	METHOD i getBlockLightValue (III)I
+	METHOD j getLoadedEntityList ()Ljava/util/List;
 	METHOD k removeBlockTileEntity (III)V
+	METHOD l randomDisplayUpdates (III)V
+	METHOD m updateTileEntityChunkAndDoNothing (III)V
 	METHOD o isBlockIndirectlyGettingPowered (III)Z

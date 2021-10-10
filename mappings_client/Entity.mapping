@@ -1,6 +1,30 @@
 CLASS eu Entity
+	FIELD C prevDistanceWalkedModified F
+	FIELD D distanceWalkedModified F
+	FIELD G lastTickPosX D
+	FIELD H lastTickPosY D
+	FIELD I lastTickPosZ D
+	FIELD W skinUrl Ljava/lang/String;
+	FIELD g prevPosX D
+	FIELD h prevPosY D
+	FIELD i prevPosZ D
+	FIELD j posX D
+	FIELD k posY D
+	FIELD l posZ D
 	FIELD m motionX D
 	FIELD n motionY D
 	FIELD o motionZ D
+	FIELD p rotationYaw F
+	FIELD q rotationPitch F
+	FIELD r prevRotationYaw F
+	FIELD s prevRotationPitch F
+	FIELD t boundingBox Leq;
 	FIELD y isDead Z
+	METHOD a getBrightness (F)F
+	METHOD a isInRangeToRenderVec3D (Lbo;)Z
+	METHOD a isInsideOfMaterial (Lkf;)Z
+	METHOD b setLocationAndAngles (DDDFF)V
 	METHOD b_ onUpdate ()V
+	METHOD c setAngles (FF)V
+	METHOD h_ canBeCollidedWith ()Z
+	METHOD k preparePlayerToSpawn ()V

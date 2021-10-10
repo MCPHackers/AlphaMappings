@@ -1,0 +1,2 @@
+CLASS ie EntityList
+	METHOD a createEntityByName (Ljava/lang/String;Lfi;)Leu;

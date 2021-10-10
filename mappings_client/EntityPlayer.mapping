@@ -1,6 +1,12 @@
 CLASS gn EntityPlayer
+	FIELD Z prevCameraYaw F
+	FIELD aa cameraYaw F
+	FIELD b inventory Lhz;
 	METHOD a displayGUIFurnace (Leo;)V
 	METHOD a getCurrentPlayerStrVsBlock (Lgx;)F
+	METHOD a dropPlayerItemWithRandomChoice (Lic;Z)V
+	METHOD a displayGUIEditSign (Ljv;)V
 	METHOD a displayGUIChest (Lkk;)V
 	METHOD b canHarvestBlock (Lgx;)Z
+	METHOD c interactWithEntity (Leu;)V
 	METHOD f_ displayWorkbenchGUI ()V

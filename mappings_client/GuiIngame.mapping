@@ -1,0 +1,3 @@
+CLASS gq GuiIngame
+	METHOD a updateTick ()V
+	METHOD a renderGameOverlay (FZII)V

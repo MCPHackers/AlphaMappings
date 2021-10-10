@@ -1,0 +1,10 @@
+CLASS de GuiScreen
+	FIELD f allowUserInput Z
+	METHOD a onGuiClosed ()V
+	METHOD a drawScreen (IIF)V
+	METHOD a setWorldAndResolution (Lav;II)V
+	METHOD c updateScreen ()V
+	METHOD d doesGuiPauseGame ()Z
+	METHOD e handleInput ()V
+	METHOD f handleMouseInput ()V
+	METHOD g handleKeyboardInput ()V

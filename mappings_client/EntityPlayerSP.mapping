@@ -1,0 +1,5 @@
+CLASS df EntityPlayerSP
+	FIELD a movementInput Lgo;
+	METHOD a handleKeyPress (IZ)V
+	METHOD a attackEntity (Leu;)V
+	METHOD e_ resetPlayerKeyState ()V

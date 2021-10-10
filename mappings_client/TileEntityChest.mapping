@@ -1,1 +1,2 @@
 CLASS io TileEntityChest
+	FIELD e chestContents [Lic;

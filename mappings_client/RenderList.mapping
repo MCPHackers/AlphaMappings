@@ -1,0 +1,6 @@
+CLASS fm RenderList
+	METHOD a render ()V
+	METHOD a render (I)V
+	METHOD a isRenderedAt (III)Z
+	METHOD a setLocation (IIIDDD)V
+	METHOD b reset ()V

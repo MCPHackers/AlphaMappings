@@ -1,0 +1,2 @@
+CLASS cx ThreadDownloadResources
+	METHOD a closeMinecraft ()V

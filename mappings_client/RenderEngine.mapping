@@ -1,3 +1,9 @@
 CLASS ij RenderEngine
+	METHOD a updateDynamicTextures ()V
+	METHOD a registerTextureFX (Lat;)V
 	METHOD a allocateAndSetupTexture (Ljava/awt/image/BufferedImage;)I
+	METHOD a getTexture (Ljava/lang/String;)I
+	METHOD a obtainImageData (Ljava/lang/String;Lp;)Lel;
 	METHOD b refreshTextures ()V
+	METHOD b bindTexture (I)V
+	METHOD b releaseImageData (Ljava/lang/String;)V

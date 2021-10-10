@@ -1,0 +1,3 @@
+CLASS jl
+	METHOD a setLoadingProgress (I)V
+	METHOD d resetProgressAndWorkingMessage (Ljava/lang/String;)V

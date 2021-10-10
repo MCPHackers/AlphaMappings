@@ -1,0 +1,2 @@
+CLASS fd ItemAxe
+	FIELD aF blocksEffectiveAgainst [Lgx;
