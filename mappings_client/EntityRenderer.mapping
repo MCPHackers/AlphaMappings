@@ -12,8 +12,8 @@ CLASS iq EntityRenderer
 	FIELD k pointedEntity Lkh;
 	FIELD l prevFrameTime J
 	FIELD m random Ljava/util/Random;
-	FIELD n fogColor2 F
-	FIELD o fogColor1 F
+	FIELD n prevFogColor F
+	FIELD o fogColor F
 	METHOD a updateRenderer ()V
 	METHOD a getMouseOver (F)V
 	METHOD a setFogColorBuffer (FFFF)Ljava/nio/FloatBuffer;
