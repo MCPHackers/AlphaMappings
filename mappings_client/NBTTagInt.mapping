@@ -1,0 +1,2 @@
+CLASS bz NBTTagInt
+	FIELD a intValue I

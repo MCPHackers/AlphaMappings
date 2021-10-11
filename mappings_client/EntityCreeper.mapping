@@ -1,1 +1,6 @@
 CLASS gc EntityCreeper
+	FIELD X fuseDuration I
+	FIELD Y creeperState I
+	FIELD a timeSinceIgnited I
+	FIELD b lastActiveTime I
+	METHOD c getCreeperFlashTime (F)F

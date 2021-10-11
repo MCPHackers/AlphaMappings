@@ -1,0 +1,5 @@
+CLASS cw GuiYesNo
+	FIELD a parentScreen Lde;
+	FIELD h message1 Ljava/lang/String;
+	FIELD j message2 Ljava/lang/String;
+	FIELD k worldNumber I

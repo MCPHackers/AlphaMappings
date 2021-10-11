@@ -1,0 +1,4 @@
+CLASS t InventoryCrafting
+	FIELD a stackList [Lic;
+	FIELD b gridSize I
+	FIELD c craftingInventory Lho;

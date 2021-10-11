@@ -1,0 +1,5 @@
+CLASS gp GuiControls
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD h parentScreen Lde;
+	FIELD j options Lji;
+	FIELD k buttonId I

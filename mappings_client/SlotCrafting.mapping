@@ -1,0 +1,2 @@
+CLASS cp SlotCrafting
+	FIELD a craftMatrix Lkk;

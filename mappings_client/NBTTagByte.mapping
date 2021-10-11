@@ -1,0 +1,2 @@
+CLASS cq NBTTagByte
+	FIELD a byteValue B

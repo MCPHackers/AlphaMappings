@@ -1,0 +1,6 @@
+CLASS bf IChunkLoader
+	METHOD a chunkTick ()V
+	METHOD a loadChunk (Lfi;II)Lkd;
+	METHOD a saveChunk (Lfi;Lkd;)V
+	METHOD b saveExtraData ()V
+	METHOD b saveExtraChunkData (Lfi;Lkd;)V

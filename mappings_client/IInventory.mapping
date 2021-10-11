@@ -5,3 +5,4 @@ CLASS kk IInventory
 	METHOD a setInventorySlotContents (ILic;)V
 	METHOD b getInvName ()Ljava/lang/String;
 	METHOD c getInventoryStackLimit ()I
+	METHOD d onInventoryChanged ()V

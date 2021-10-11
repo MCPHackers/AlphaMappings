@@ -1,0 +1,2 @@
+CLASS bg WorldGenFlowers
+	FIELD a plantBlockId I

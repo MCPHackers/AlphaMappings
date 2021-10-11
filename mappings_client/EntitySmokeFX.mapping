@@ -1,1 +1,2 @@
 CLASS iy EntitySmokeFX
+	FIELD a smokeParticleScale F

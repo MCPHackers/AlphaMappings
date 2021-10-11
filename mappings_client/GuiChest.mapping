@@ -1,0 +1,4 @@
+CLASS hi GuiChest
+	FIELD k upperChestInventory Lkk;
+	FIELD l lowerChestInventory Lkk;
+	FIELD m inventoryRows I

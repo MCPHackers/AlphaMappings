@@ -1,1 +1,3 @@
 CLASS bx GuiErrorScreen
+	FIELD a errorTitle Ljava/lang/String;
+	FIELD h errorException Ljava/lang/String;

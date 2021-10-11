@@ -1,2 +1,7 @@
 CLASS ie EntityList
+	FIELD a stringToClassMapping Ljava/util/Map;
+	FIELD b classToStringMapping Ljava/util/Map;
+	METHOD a createEntityFromNBT (Lae;Lfi;)Leu;
+	METHOD a getEntityString (Leu;)Ljava/lang/String;
+	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;)V
 	METHOD a createEntityByName (Ljava/lang/String;Lfi;)Leu;

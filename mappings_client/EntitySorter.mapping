@@ -1,1 +1,2 @@
 CLASS il EntitySorter
+	FIELD a comparedEntity Leu;

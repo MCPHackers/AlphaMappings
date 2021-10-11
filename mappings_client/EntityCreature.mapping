@@ -1,0 +1,8 @@
+CLASS ht EntityCreature
+	FIELD a pathToEntity Ldl;
+	FIELD aa entityToAttack Leu;
+	FIELD ab hasAttacked Z
+	METHOD a findPlayerToAttack ()Leu;
+	METHOD a getBlockPathWeight (III)F
+	METHOD a updateEntityActionState (Leu;)Z
+	METHOD a attackEntity (Leu;F)V

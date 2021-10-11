@@ -1,0 +1,2 @@
+CLASS aa SpawnerMonsters
+	FIELD a playerController Lba;

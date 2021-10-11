@@ -1,1 +1,5 @@
 CLASS ap CompressedStreamTools
+	METHOD a write (Lae;Ljava/io/DataOutput;)V
+	METHOD a writeCompressed (Lae;Ljava/io/OutputStream;)V
+	METHOD a read (Ljava/io/DataInput;)Lae;
+	METHOD a readCompressed (Ljava/io/InputStream;)Lae;

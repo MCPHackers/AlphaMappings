@@ -1,2 +1,3 @@
 CLASS cs RenderBlocks
+	METHOD a renderBlockOnInventory (Lgx;)V
 	METHOD a renderBlockUsingTexture (Lgx;IIII)V

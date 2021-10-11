@@ -1,0 +1,11 @@
+CLASS iw GuiButton
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c displayString Ljava/lang/String;
+	FIELD d id I
+	FIELD e enabled Z
+	FIELD f visible Z
+	FIELD g width I
+	FIELD h height I
+	METHOD a mousePressed (II)Z
+	METHOD a drawButton (Lav;II)V

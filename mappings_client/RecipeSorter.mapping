@@ -1,0 +1,2 @@
+CLASS jj RecipeSorter
+	FIELD a craftingManager Lhd;

@@ -1,1 +1,9 @@
 CLASS jx EntityMinecart
+	FIELD X forwardDirection I
+	FIELD Y cargoItems [Lic;
+	FIELD Z isInReverse Z
+	FIELD a damageTaken I
+	FIELD aa matrix [[[I
+	FIELD b timeSinceHit I
+	METHOD a getPos (DDD)Lbo;
+	METHOD a getPosOffset (DDDD)Lbo;

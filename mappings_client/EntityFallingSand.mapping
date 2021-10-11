@@ -1,1 +1,4 @@
 CLASS ip EntityFallingSand
+	FIELD a blockID I
+	FIELD b fallTime I
+	METHOD b getWorld ()Lfi;

@@ -1,4 +1,6 @@
 CLASS ev NBTTagList
+	FIELD a tagList Ljava/util/List;
+	FIELD b tagType B
 	METHOD a tagAt (I)Lhs;
 	METHOD a setTag (Lhs;)V
 	METHOD b tagCount ()I

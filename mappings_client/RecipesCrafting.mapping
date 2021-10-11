@@ -1,0 +1,2 @@
+CLASS iq RecipesCrafting
+	METHOD a addRecipes (Lhd;)V

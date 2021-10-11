@@ -1,7 +1,0 @@
-CLASS hz
-	FIELD a mainInventory [Lic;
-	FIELD c currentItem I
-	METHOD a setCurrentItem (IZ)V
-	METHOD b changeCurrentItem (I)V
-	METHOD c consumeInventoryItem (I)Z
-	METHOD e getCurrentItem ()Lic;

@@ -1,0 +1,2 @@
+CLASS gu InventoryCraftResult
+	FIELD a stackResult [Lic;

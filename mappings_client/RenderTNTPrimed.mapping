@@ -1,1 +1,2 @@
 CLASS ax RenderTNTPrimed
+	FIELD d blockRenderer Lcs;

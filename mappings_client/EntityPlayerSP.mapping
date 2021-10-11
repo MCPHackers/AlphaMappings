@@ -1,5 +1,9 @@
 CLASS df EntityPlayerSP
 	FIELD a movementInput Lgo;
+	FIELD aQ mc Lav;
 	METHOD a handleKeyPress (IZ)V
 	METHOD a attackEntity (Leu;)V
 	METHOD e_ resetPlayerKeyState ()V
+	METHOD g_ getCurrentEquippedItem ()Lic;
+	METHOD i destroyCurrentEquippedItem ()V
+	METHOD j getPlayerArmorValue ()I

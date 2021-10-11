@@ -1,0 +1,6 @@
+CLASS fc ChunkProviderIso
+	FIELD a blocks [B
+	FIELD b chunks [Lkd;
+	FIELD c worldObj Lfi;
+	FIELD d chunkLoader Lbf;
+	METHOD c getChunkAt (II)Lkd;

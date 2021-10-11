@@ -1,0 +1,11 @@
+CLASS ho GuiContainer
+	FIELD a xSize I
+	FIELD h ySize I
+	FIELD j inventorySlots Ljava/util/List;
+	FIELD k itemRenderer Laz;
+	FIELD l draggedItemStack Lic;
+	METHOD a drawGuiContainerBackgroundLayer (F)V
+	METHOD a getSlotAtPosition (II)Lgv;
+	METHOD a drawSlotInventory (Lgv;)V
+	METHOD a onCraftMatrixChanged (Lkk;)V
+	METHOD c_ drawGuiContainerForegroundLayer ()V

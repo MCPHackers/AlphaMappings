@@ -1,2 +1,8 @@
 CLASS hc EntityItem
 	FIELD X delayBeforeCanPickup I
+	FIELD Y hoverStart F
+	FIELD Z age2 I
+	FIELD a item Lic;
+	FIELD aa health I
+	FIELD b age I
+	METHOD a pushOutOfBlocks (DDD)Z
