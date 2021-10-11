@@ -1,4 +1,4 @@
-CLASS ht TexureWaterFlowFX
+CLASS ht TextureWaterFlowFX
 	FIELD g red [F
 	FIELD h green [F
 	FIELD i blue [F

@@ -1,7 +1,7 @@
 CLASS jc EntityPainting
 	FIELD a direction I
 	FIELD b art Ler;
-	FIELD c tickCounter1 I
+	FIELD c tickCounter I
 	FIELD d xPosition I
 	FIELD e yPosition I
 	FIELD f zPosition I

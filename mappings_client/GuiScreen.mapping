@@ -18,6 +18,7 @@ CLASS bh GuiScreen
 	METHOD b doesGuiPauseGame ()Z
 	METHOD b drawBackground (I)V
 	METHOD b mouseMovedOrUp (III)V
+	METHOD c getClipboardString ()Ljava/lang/String;
 	METHOD d handleInput ()V
 	METHOD e handleMouseInput ()V
 	METHOD f handleKeyboardInput ()V
