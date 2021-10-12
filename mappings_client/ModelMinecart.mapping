@@ -1,1 +1,2 @@
 CLASS z ModelMinecart
+	FIELD a sideModels [Lca;

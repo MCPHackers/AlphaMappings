@@ -1,1 +1,3 @@
 CLASS ff RenderMinecart
+	FIELD d modelMinecart Liz;
+	METHOD a renderMinecart (Ljx;DDDFF)V

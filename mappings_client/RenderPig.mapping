@@ -1,1 +1,2 @@
 CLASS f RenderPig
+	METHOD a renderSaddledPig (Lih;I)Z

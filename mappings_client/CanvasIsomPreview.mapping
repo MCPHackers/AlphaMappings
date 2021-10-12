@@ -21,3 +21,4 @@ CLASS bd CanvasIsomPreview
 	METHOD c stop ()V
 	METHOD d render ()V
 	METHOD e getPlatform ()Lik;
+	METHOD a isRunning (Lbd;)Z

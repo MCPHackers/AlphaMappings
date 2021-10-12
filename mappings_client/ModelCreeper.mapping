@@ -1,1 +1,8 @@
 CLASS hu ModelCreeper
+	FIELD a head Lca;
+	FIELD b headwear Lca;
+	FIELD c body Lca;
+	FIELD d leg1 Lca;
+	FIELD e leg2 Lca;
+	FIELD f leg3 Lca;
+	FIELD g leg4 Lca;

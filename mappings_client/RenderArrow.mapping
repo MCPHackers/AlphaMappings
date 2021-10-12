@@ -1,1 +1,2 @@
 CLASS b RenderArrow
+	METHOD a renderArrow (Les;DDDFF)V

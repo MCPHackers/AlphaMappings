@@ -24,4 +24,4 @@ CLASS jo ChunkProviderGenerate
 	METHOD a generateCaveNode (II[BDDDFFFIID)V
 	METHOD a initializeNoiseField ([DIIIIII)[D
 	METHOD b replaceSurfaceBlocks (II[B)V
-	METHOD c recursiveGenerate (II[B)V
+	METHOD c generateCaves (II[B)V

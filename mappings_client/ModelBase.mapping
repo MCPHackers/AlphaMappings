@@ -1,4 +1,4 @@
 CLASS iz ModelBase
-	FIELD l onGround F
+	FIELD l swingProgress F
 	METHOD a render (FFFFFF)V
 	METHOD b setRotationAngles (FFFFFF)V

@@ -1,1 +1,5 @@
 CLASS ec RenderPainting
+	FIELD d rand Ljava/util/Random;
+	METHOD a getOffset (Lcz;FF)V
+	METHOD a setSizes (Lcz;IIII)V
+	METHOD a renderThePainting (Lcz;DDDFF)V

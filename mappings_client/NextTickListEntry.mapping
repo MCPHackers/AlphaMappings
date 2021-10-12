@@ -7,3 +7,4 @@ CLASS db NextTickListEntry
 	FIELD f nextTickEntryID J
 	FIELD g tickEntryID J
 	METHOD a setScheduledTime (J)Ldb;
+	METHOD a comparer (Ldb;)I

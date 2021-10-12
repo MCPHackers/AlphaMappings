@@ -1,0 +1,3 @@
+CLASS jq RenderGiantZombie
+	FIELD f scale F
+	METHOD a preRenderScale (Lac;F)V

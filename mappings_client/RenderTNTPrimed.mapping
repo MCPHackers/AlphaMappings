@@ -1,2 +1,3 @@
 CLASS ax RenderTNTPrimed
 	FIELD d blockRenderer Lcs;
+	METHOD a doRenderTNT (Ldd;DDDFF)V

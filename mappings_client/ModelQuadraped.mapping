@@ -1,1 +1,7 @@
 CLASS w ModelQuadraped
+	FIELD a head Lca;
+	FIELD b body Lca;
+	FIELD c leg1 Lca;
+	FIELD d leg2 Lca;
+	FIELD e leg3 Lca;
+	FIELD f leg4 Lca;

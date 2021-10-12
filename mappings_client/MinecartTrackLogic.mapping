@@ -8,6 +8,7 @@ CLASS hp MinecartTrackLogic
 	FIELD g connectedTracks Ljava/util/List;
 	METHOD a calculateConnectedTracks ()V
 	METHOD a isMinecartTrack (III)Z
+	METHOD a getNAdjacentTracks (Lhp;)I
 	METHOD a getMinecartTrackLogic (Lig;)Lhp;
 	METHOD a place (Z)V
 	METHOD b refreshConnectedTracks ()V
