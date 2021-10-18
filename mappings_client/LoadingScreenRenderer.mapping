@@ -1,8 +1,0 @@
-CLASS gr LoadingScreenRenderer
-	FIELD a currentlyDisplayedProgress Ljava/lang/String;
-	FIELD b mc Lnet/minecraft/client/Minecraft;
-	FIELD c currentlyDisplayedText Ljava/lang/String;
-	FIELD d systemTime J
-	FIELD e printText Z
-	METHOD a printText (Ljava/lang/String;)V
-	METHOD c drawScreen (Ljava/lang/String;)V

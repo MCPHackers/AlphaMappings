@@ -1,3 +1,0 @@
-CLASS r TileEntityMobSpawnerRenderer
-	FIELD b entityHashMap Ljava/util/Map;
-	METHOD a renderTileEntityMobSpawner (Lbd;DDDF)V

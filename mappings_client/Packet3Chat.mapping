@@ -1,2 +1,0 @@
-CLASS ij Packet3Chat
-	FIELD a message Ljava/lang/String;

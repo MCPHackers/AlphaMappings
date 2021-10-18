@@ -1,0 +1,14 @@
+CLASS dk net/minecraft/src/Slot
+	FIELD a slotIndex I
+	FIELD b inventory Lgh;
+	METHOD <init> (Lgh;I)V
+		ARG 1 inventory
+		ARG 2 slotIndex
+	METHOD a onPickupFromSlot ()V
+	METHOD a isItemValid (Lev;)Z
+		ARG 1 itemStack
+	METHOD b getStack ()Lev;
+	METHOD b putStack (Lev;)V
+		ARG 1 itemStack
+	METHOD c getBackgroundIconIndex ()I
+	METHOD d onSlotChanged ()V

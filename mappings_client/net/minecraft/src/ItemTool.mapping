@@ -1,0 +1,5 @@
+CLASS bs net/minecraft/src/ItemTool
+	FIELD a toolMaterial I
+	FIELD aX blocksEffectiveAgainst [Lly;
+	FIELD aY efficiencyOnProperMaterial F
+	FIELD aZ damageVsEntity I

@@ -1,2 +1,0 @@
-CLASS ac ItemBucket
-	FIELD a isFull I

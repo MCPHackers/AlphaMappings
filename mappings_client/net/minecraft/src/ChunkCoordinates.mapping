@@ -1,0 +1,3 @@
+CLASS hc net/minecraft/src/ChunkCoordinates
+	FIELD a posX I
+	FIELD b posZ I

@@ -1,3 +1,0 @@
-CLASS n CraftingInventoryPlayerCB
-	FIELD a craftMatrix Lgu;
-	FIELD b craftResult Lgh;

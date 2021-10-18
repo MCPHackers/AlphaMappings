@@ -1,0 +1,2 @@
+CLASS cl net/minecraft/src/ModelBoat
+	FIELD a boatSides [Lip;

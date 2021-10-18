@@ -1,9 +1,0 @@
-CLASS lv MovementInput
-	FIELD a moveStrafe F
-	FIELD b moveForward F
-	FIELD c unused Z
-	FIELD d jump Z
-	FIELD e sneak Z
-	METHOD a resetKeyState ()V
-	METHOD a checkKeyForMovementInput (IZ)V
-	METHOD a updatePlayerMoveState (Ldm;)V

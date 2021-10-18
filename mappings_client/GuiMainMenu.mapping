@@ -1,8 +1,0 @@
-CLASS cx GuiMainMenu
-	FIELD a logoBlockLayers [Ljava/lang/String;
-	FIELD h rand Ljava/util/Random;
-	FIELD i logoEffects [[Lkc;
-	FIELD j updateCounter F
-	FIELD l splashString Ljava/lang/String;
-	METHOD a drawLogo (F)V
-	METHOD j getRandom ()Ljava/util/Random;

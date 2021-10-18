@@ -1,5 +1,0 @@
-CLASS mm SlotInventory
-	FIELD c guiContainer Lee;
-	FIELD e xDisplayPosition I
-	FIELD f yDisplayPosition I
-	METHOD a getIsMouseOverSlot (II)Z

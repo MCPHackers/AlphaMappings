@@ -1,0 +1,2 @@
+CLASS hr net/minecraft/src/RecipesFood
+	METHOD a addRecipes (Ldw;)V

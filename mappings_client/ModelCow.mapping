@@ -1,4 +1,0 @@
-CLASS dv ModelCow
-	FIELD a udders Lip;
-	FIELD b horn1 Lip;
-	FIELD c horn2 Lip;

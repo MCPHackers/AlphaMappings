@@ -1,8 +1,0 @@
-CLASS az SpawnerAnimals
-	FIELD a maxSpawns I
-	FIELD b entityType Ljava/lang/Class;
-	FIELD c entities [Ljava/lang/Class;
-	FIELD d eligibleChunksForSpawning Ljava/util/Set;
-	METHOD a onUpdate (Lcn;)V
-	METHOD a getRandomSpawningPointInChunk (Lcn;II)Lmt;
-	METHOD a performSpawning (Lcn;ILnu;)I

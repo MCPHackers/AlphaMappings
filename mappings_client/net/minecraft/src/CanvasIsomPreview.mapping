@@ -1,0 +1,24 @@
+CLASS ad net/minecraft/src/CanvasIsomPreview
+	FIELD a currentRender I
+	FIELD b zoomLevel I
+	FIELD c displayHelpText Z
+	FIELD d level Lcn;
+	FIELD e dataFolder Ljava/io/File;
+	FIELD f running Z
+	FIELD g zonesToRender Ljava/util/List;
+	FIELD h zoneMap [[Ljj;
+	FIELD i translateX I
+	FIELD j translateY I
+	FIELD k xPosition I
+	FIELD l yPosition I
+	METHOD a getWorkingDirectory ()Ljava/io/File;
+	METHOD a setBrightness (I)V
+	METHOD a getZone (II)Ljj;
+	METHOD a isRunning (Lad;)Z
+	METHOD a render (Ljava/awt/Graphics2D;)V
+	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+	METHOD b start ()V
+	METHOD b loadLevel (Ljava/lang/String;)V
+	METHOD c stop ()V
+	METHOD d render ()V
+	METHOD e getPlatform ()Lfa;

@@ -1,0 +1,2 @@
+CLASS dq net/minecraft/src/EntityMob
+	FIELD e attackStrength I

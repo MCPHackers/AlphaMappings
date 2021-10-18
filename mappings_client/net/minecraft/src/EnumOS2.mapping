@@ -1,0 +1,6 @@
+CLASS ih net/minecraft/src/EnumOS2
+	FIELD a linux Lih;
+	FIELD b solaris Lih;
+	FIELD c windows Lih;
+	FIELD d macos Lih;
+	FIELD e unknown Lih;

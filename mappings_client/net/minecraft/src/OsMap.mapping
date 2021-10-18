@@ -1,0 +1,2 @@
+CLASS ln net/minecraft/src/OsMap
+	FIELD a osValues [I

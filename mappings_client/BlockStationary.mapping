@@ -1,3 +1,0 @@
-CLASS hn BlockStationary
-	METHOD j setNotStationary (Lcn;III)V
-	METHOD k isFlammable (Lcn;III)Z

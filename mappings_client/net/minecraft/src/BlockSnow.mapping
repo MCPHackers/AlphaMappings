@@ -1,0 +1,2 @@
+CLASS fd net/minecraft/src/BlockSnow
+	METHOD h canSnowStay (Lcn;III)Z

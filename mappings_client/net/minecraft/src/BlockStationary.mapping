@@ -1,0 +1,3 @@
+CLASS hn net/minecraft/src/BlockStationary
+	METHOD j setNotStationary (Lcn;III)V
+	METHOD k isFlammable (Lcn;III)Z

@@ -1,0 +1,2 @@
+CLASS gn net/minecraft/src/NBTTagLong
+	FIELD a longValue J

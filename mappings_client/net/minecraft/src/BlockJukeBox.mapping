@@ -1,0 +1,2 @@
+CLASS cv net/minecraft/src/BlockJukeBox
+	METHOD e ejectRecord (Lcn;IIII)V

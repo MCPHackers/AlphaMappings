@@ -1,3 +1,0 @@
-CLASS fp GameWindowListener
-	FIELD a mc Lnet/minecraft/client/Minecraft;
-	FIELD b thread Ljava/lang/Thread;

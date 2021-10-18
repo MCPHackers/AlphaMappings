@@ -1,0 +1,2 @@
+CLASS oh net/minecraft/src/Packet255KickDisconnect
+	FIELD a reason Ljava/lang/String;

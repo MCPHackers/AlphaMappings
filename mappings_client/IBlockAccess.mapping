@@ -1,7 +1,0 @@
-CLASS nm IBlockAccess
-	METHOD a getBlockId (III)I
-	METHOD b getBlockTileEntity (III)Lic;
-	METHOD c getBrightness (III)F
-	METHOD e getBlockMetadata (III)I
-	METHOD f getBlockMaterial (III)Lgb;
-	METHOD g isBlockNormalCube (III)Z

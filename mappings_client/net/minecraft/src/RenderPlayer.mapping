@@ -1,0 +1,10 @@
+CLASS bu net/minecraft/src/RenderPlayer
+	FIELD f modelBipedMain Lcr;
+	FIELD g modelArmorChestplate Lcr;
+	FIELD h modelArmor Lcr;
+	FIELD i armorFilenamePrefix [Ljava/lang/String;
+	METHOD a renderPlayer (Ldm;DDDFF)V
+	METHOD a renderSpecials (Ldm;F)V
+	METHOD a setArmorModel (Ldm;I)Z
+	METHOD b drawFirstPersonHand ()V
+	METHOD b scalePlayer (Ldm;F)V

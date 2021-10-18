@@ -1,3 +1,0 @@
-CLASS m Packet5PlayerInventory
-	FIELD a inventoryType I
-	FIELD b inventory [Lev;

@@ -1,0 +1,4 @@
+CLASS ku net/minecraft/src/BlockFurnace
+	FIELD a isActive Z
+	METHOD a updateFurnaceBlockState (ZLcn;III)V
+	METHOD h setDefaultDirection (Lcn;III)V

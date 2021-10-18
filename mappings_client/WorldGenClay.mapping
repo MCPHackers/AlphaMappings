@@ -1,3 +1,0 @@
-CLASS gv WorldGenClay
-	FIELD a clayBlockId I
-	FIELD b numberOfBlocks I

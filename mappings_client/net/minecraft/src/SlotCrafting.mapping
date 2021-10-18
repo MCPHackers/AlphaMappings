@@ -1,0 +1,2 @@
+CLASS an net/minecraft/src/SlotCrafting
+	FIELD c craftMatrix Lgh;

@@ -1,0 +1,2 @@
+CLASS fe net/minecraft/src/TileEntityChest
+	FIELD a chestContents [Lev;

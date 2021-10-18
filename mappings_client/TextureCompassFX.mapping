@@ -1,7 +1,0 @@
-CLASS aa TextureCompassFX
-	FIELD g currentFireFrame [F
-	FIELD h lastFireFrame [F
-	FIELD i mc Lnet/minecraft/client/Minecraft;
-	FIELD j compassIconImageData [I
-	FIELD k currentAngle D
-	FIELD l angleDelta D

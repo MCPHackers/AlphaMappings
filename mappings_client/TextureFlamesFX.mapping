@@ -1,3 +1,0 @@
-CLASS jz TextureFlamesFX
-	FIELD g currentFireFrame [F
-	FIELD h lastFireFrame [F

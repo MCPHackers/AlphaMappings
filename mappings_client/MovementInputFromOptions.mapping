@@ -1,3 +1,0 @@
-CLASS gd MovementInputFromOptions
-	FIELD f movementKeyStates [Z
-	FIELD g gameSettings Lfr;

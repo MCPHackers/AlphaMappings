@@ -1,0 +1,6 @@
+CLASS li net/minecraft/src/Packet53BlockChange
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c zPosition I
+	FIELD d type I
+	FIELD e metadata I

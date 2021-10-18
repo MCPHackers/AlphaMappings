@@ -1,0 +1,6 @@
+CLASS eg net/minecraft/src/TextureLavaFlowFX
+	FIELD g red [F
+	FIELD h green [F
+	FIELD i blue [F
+	FIELD j alpha [F
+	FIELD k tickCounter I

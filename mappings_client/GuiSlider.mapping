@@ -1,4 +1,0 @@
-CLASS mo GuiSlider
-	FIELD i sliderValue F
-	FIELD j dragging Z
-	FIELD l idFloat I

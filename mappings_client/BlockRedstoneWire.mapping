@@ -1,6 +1,0 @@
-CLASS kf BlockRedstoneWire
-	FIELD a wiresProvidePower Z
-	METHOD b isPowerProviderOrWire (Lnm;III)Z
-	METHOD g getMaxCurrentStrength (Lcn;IIII)I
-	METHOD h updateAndPropagateCurrentStrength (Lcn;III)V
-	METHOD i notifyWireNeighborsOfNeighborChange (Lcn;III)V

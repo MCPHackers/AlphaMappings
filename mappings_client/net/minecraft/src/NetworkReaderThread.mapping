@@ -1,0 +1,2 @@
+CLASS ni net/minecraft/src/NetworkReaderThread
+	FIELD a netManager Lii;

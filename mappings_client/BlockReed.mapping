@@ -1,2 +1,0 @@
-CLASS jm BlockReed
-	METHOD h checkBlockCoordValid (Lcn;III)V

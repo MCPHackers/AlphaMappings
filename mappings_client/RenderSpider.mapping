@@ -1,3 +1,0 @@
-CLASS ok RenderSpider
-	METHOD a setSpiderDeathMaxRotation (Lax;)F
-	METHOD a setSpiderEyeBrightness (Lax;I)Z

@@ -1,0 +1,11 @@
+CLASS la net/minecraft/src/EntityClientPlayerMP
+	FIELD bg sendQueue Lgy;
+	FIELD bh motionUpdateCounter I
+	FIELD bi oldPosX D
+	FIELD bj oldBasePos D
+	FIELD bk oldPosY D
+	FIELD bl oldPosZ D
+	FIELD bm oldRotationYaw F
+	FIELD bn oldRotationPitch F
+	FIELD bo serverSideInventory Leu;
+	METHOD J sendMotionUpdates ()V

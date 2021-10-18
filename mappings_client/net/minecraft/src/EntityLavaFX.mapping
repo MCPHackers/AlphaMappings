@@ -1,0 +1,2 @@
+CLASS cq net/minecraft/src/EntityLavaFX
+	FIELD a lavaParticleScale F

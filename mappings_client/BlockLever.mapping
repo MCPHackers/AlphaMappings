@@ -1,2 +1,0 @@
-CLASS no BlockLever
-	METHOD h checkIfAttachedToBlock (Lcn;III)Z

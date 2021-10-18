@@ -1,2 +1,0 @@
-CLASS gk RenderArrow
-	METHOD a renderArrow (Lkg;DDDFF)V

@@ -1,3 +1,0 @@
-CLASS bm Packet22Collect
-	FIELD a collectedEntityId I
-	FIELD b collectorEntityId I

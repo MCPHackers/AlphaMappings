@@ -1,3 +1,0 @@
-CLASS it KeyBinding
-	FIELD a keyDescription Ljava/lang/String;
-	FIELD b keyCode I

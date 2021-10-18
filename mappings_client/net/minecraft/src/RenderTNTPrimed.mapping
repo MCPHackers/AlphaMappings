@@ -1,0 +1,3 @@
+CLASS hw net/minecraft/src/RenderTNTPrimed
+	FIELD d blockRenderer Lbc;
+	METHOD a doRenderTNT (Ljd;DDDFF)V

@@ -1,0 +1,2 @@
+CLASS fq net/minecraft/src/EnumOSMappingHelper
+	FIELD a osValues [I

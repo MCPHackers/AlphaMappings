@@ -1,0 +1,4 @@
+CLASS ay net/minecraft/src/GuiOptions
+	FIELD a screenTitle Ljava/lang/String;
+	FIELD h parentScreen Lbh;
+	FIELD i options Lfr;

@@ -1,0 +1,6 @@
+CLASS ck net/minecraft/src/ChunkProviderIso
+	FIELD a blocks [B
+	FIELD b chunks [Lga;
+	FIELD c worldObj Lcn;
+	FIELD d chunkLoader Laf;
+	METHOD c getChunkAt (II)Lga;

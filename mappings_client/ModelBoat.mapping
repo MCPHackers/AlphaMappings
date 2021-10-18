@@ -1,2 +1,0 @@
-CLASS cl ModelBoat
-	FIELD a boatSides [Lip;

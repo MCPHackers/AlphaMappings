@@ -1,0 +1,10 @@
+CLASS jf net/minecraft/src/NextTickListEntry
+	FIELD a xCoord I
+	FIELD b yCoord I
+	FIELD c zCoord I
+	FIELD d blockID I
+	FIELD e scheduledTime J
+	FIELD f nextTickEntryID J
+	FIELD g tickEntryID J
+	METHOD a setScheduledTime (J)Ljf;
+	METHOD a comparer (Ljf;)I

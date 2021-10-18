@@ -1,0 +1,15 @@
+CLASS bv net/minecraft/src/CraftingRecipe
+	FIELD a resultId I
+	FIELD b width I
+	FIELD c height I
+	FIELD d ingredientMap [I
+	FIELD e resultStack Lev;
+	METHOD <init> (II[ILev;)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 ingredientMap
+		ARG 4 resultStack
+	METHOD a getRecipeSize ()I
+	METHOD a matches ([I)Z
+	METHOD a checkMatch ([IIIZ)Z
+	METHOD b getCraftingResult ([I)Lev;

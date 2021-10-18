@@ -1,0 +1,10 @@
+CLASS jc net/minecraft/src/EntityPainting
+	FIELD a direction I
+	FIELD b art Ler;
+	FIELD c tickCounter I
+	FIELD d xPosition I
+	FIELD e yPosition I
+	FIELD f zPosition I
+	METHOD b setDirection (I)V
+	METHOD c getPaintingOffset (I)F
+	METHOD i onValidSurface ()Z

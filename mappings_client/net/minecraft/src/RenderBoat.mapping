@@ -1,0 +1,3 @@
+CLASS cp net/minecraft/src/RenderBoat
+	FIELD d modelBoat Lfo;
+	METHOD a renderBoat (Ldc;DDDFF)V

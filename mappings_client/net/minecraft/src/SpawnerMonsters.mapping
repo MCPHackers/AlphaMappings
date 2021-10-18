@@ -1,0 +1,2 @@
+CLASS k net/minecraft/src/SpawnerMonsters
+	FIELD a playerController Lia;

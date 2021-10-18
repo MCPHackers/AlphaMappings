@@ -1,0 +1,2 @@
+CLASS if net/minecraft/src/BlockMinecartTrack
+	METHOD h refreshTrackShape (Lcn;III)V
