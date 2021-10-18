@@ -1,2 +1,0 @@
-CLASS bn ThreadCommandReader
-	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;

@@ -1,5 +1,0 @@
-CLASS ci ItemSeeds
-	FIELD a blockType I
-	METHOD <init> (II)V
-		ARG 1 itemID
-		ARG 2 blockType

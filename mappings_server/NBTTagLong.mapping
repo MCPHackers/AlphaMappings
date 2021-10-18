@@ -1,4 +1,0 @@
-CLASS d NBTTagLong
-	FIELD a longValue J
-	METHOD <init> (J)V
-		ARG 1 longValue

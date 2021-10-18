@@ -1,0 +1,4 @@
+CLASS ar net/minecraft/src/WorldGenFlowers
+	FIELD a plantBlockId I
+	METHOD <init> (I)V
+		ARG 1 plantBlockID

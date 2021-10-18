@@ -1,5 +1,0 @@
-CLASS dk WorldGenDungeons
-	METHOD a pickCheckLootItem (Ljava/util/Random;)Lgp;
-		ARG 1 random
-	METHOD b pickMobSpawner (Ljava/util/Random;)Ljava/lang/String;
-		ARG 1 random

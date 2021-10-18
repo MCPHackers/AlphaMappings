@@ -1,0 +1,2 @@
+CLASS hm net/minecraft/src/ThreadMonitorConnection
+	FIELD a netManager Lbb;

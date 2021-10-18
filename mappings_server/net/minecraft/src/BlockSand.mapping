@@ -1,0 +1,15 @@
+CLASS ey net/minecraft/src/BlockSand
+	FIELD a fallInstantly Z
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 blockIndex
+	METHOD g canFallBelow (Ldy;III)Z
+		ARG 0 world
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h tryToFall (Ldy;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

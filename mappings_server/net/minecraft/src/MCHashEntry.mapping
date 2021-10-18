@@ -1,0 +1,14 @@
+CLASS gw net/minecraft/src/MCHashEntry
+	FIELD a hashEntry I
+	FIELD b valueEntry Ljava/lang/Object;
+	FIELD c nextEntry Lgw;
+	FIELD d slotHash I
+	METHOD <init> (IILjava/lang/Object;Lgw;)V
+		ARG 1 slotHash
+		ARG 2 hashEntry
+		ARG 3 valueEntry
+		ARG 4 nextEntry
+	METHOD a getHash ()I
+	METHOD b getValue ()Ljava/lang/Object;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 object

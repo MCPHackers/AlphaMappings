@@ -1,9 +1,0 @@
-CLASS dl Packet23VehicleSpawn
-	FIELD a entityId I
-	FIELD b xPosition I
-	FIELD c yPosition I
-	FIELD d zPosition I
-	FIELD e type I
-	METHOD <init> (Ldj;I)V
-		ARG 1 entity
-		ARG 2 type

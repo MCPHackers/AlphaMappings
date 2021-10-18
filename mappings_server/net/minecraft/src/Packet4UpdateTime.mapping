@@ -1,0 +1,4 @@
+CLASS fl net/minecraft/src/Packet4UpdateTime
+	FIELD a time J
+	METHOD <init> (J)V
+		ARG 1 time

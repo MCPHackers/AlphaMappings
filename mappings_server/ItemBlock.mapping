@@ -1,2 +1,0 @@
-CLASS bi ItemBlock
-	FIELD a blockID I

@@ -1,0 +1,298 @@
+CLASS dy net/minecraft/src/World
+	FIELD A scheduledTickTreeSet Ljava/util/TreeSet;
+	FIELD B scheduledTickSet Ljava/util/Set;
+	FIELD C skyColor J
+	FIELD D fogColor J
+	FIELD E cloudColor J
+	FIELD F lockTimestamp J
+	FIELD G chunkProvider Lbj;
+	FIELD H nbtCompoundPlayer Ls;
+	FIELD I collidingBoundingBoxes Ljava/util/ArrayList;
+	FIELD J positionsToUpdate Ljava/util/Set;
+	FIELD K soundCounter I
+	FIELD L entitiesWithinAABBExcludingEntity Ljava/util/List;
+	FIELD a loadedEntityList Ljava/util/List;
+	FIELD b loadedTileEntityList Ljava/util/List;
+	FIELD c worldTime J
+	FIELD d snowCovered Z
+	FIELD e skylightSubtracted I
+	FIELD f updateLCG I
+	FIELD g DIST_HASH_MAGIC I
+	FIELD h editingBlocks Z
+	FIELD i lightBrightness [F
+	FIELD j autosavePeriod I
+	FIELD k playerEntities Ljava/util/List;
+	FIELD l difficultySetting I
+	FIELD m rand Ljava/util/Random;
+	FIELD n spawnX I
+	FIELD o spawnY I
+	FIELD p spawnZ I
+	FIELD q isNewWorld Z
+	FIELD r worldAccesses Ljava/util/List;
+	FIELD s saveDirectory Ljava/io/File;
+	FIELD t randomSeed J
+	FIELD u sizeOnDisk J
+	FIELD v levelName Ljava/lang/String;
+	FIELD w worldChunkLoadOverride Z
+	FIELD x multiplayerWorld Z
+	FIELD y lightingToUpdate Ljava/util/List;
+	FIELD z unloadedEntityList Ljava/util/List;
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;)V
+		ARG 1 worldFile
+		ARG 2 levelName
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;J)V
+		ARG 1 baseDir
+		ARG 2 levelName
+		ARG 3 randomSeed
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 levelName
+	METHOD a isDayTime ()Z
+	METHOD a getClosestPlayer (DDDD)Lfc;
+	METHOD a playSoundEffect (DDDLjava/lang/String;FF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 soundName
+	METHOD a calculateSkylightSubtracted (F)I
+	METHOD a getChunkFromBlockCoords (II)Lim;
+		ARG 1 x
+		ARG 2 z
+	METHOD a setBlock (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setBlockAndMetadata (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a checkChunksExist (IIIIII)Z
+	METHOD a canBlockBePlacedAt (IIIIZ)Z
+		ARG 1 blockID
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a setBlockTileEntity (IIILas;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileEntity
+	METHOD a getBlockLightValue_do (IIIZ)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a rayTraceBlocks (Law;Law;)Lfr;
+		ARG 1 vector1
+		ARG 2 vector2
+	METHOD a rayTraceBlocks_do (Law;Law;Z)Lfr;
+		ARG 1 vector1
+		ARG 2 vector2
+	METHOD a getBlockDensity (Law;Ldg;)F
+		ARG 1 vector
+		ARG 2 aabb
+	METHOD a addWorldAccess (Lbe;)V
+		ARG 1 worldAccess
+	METHOD a getSavedLightValue (Lcy;III)I
+		ARG 1 skyBlock
+		ARG 2 blockX
+		ARG 3 blockY
+		ARG 4 blockZ
+	METHOD a neighborLightPropagationChanged (Lcy;IIII)V
+		ARG 1 skyBlock
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a scheduleLightingUpdate (Lcy;IIIIII)V
+		ARG 1 skyBlock
+	METHOD a scheduleLightingUpdate_do (Lcy;IIIIIIZ)V
+		ARG 1 skyBlock
+	METHOD a checkIfAABBIsClear (Ldg;)Z
+		ARG 1 aabb
+	METHOD a isMaterialInBB (Ldg;Liq;)Z
+		ARG 1 aabb
+		ARG 2 material
+	METHOD a handleMaterialAcceleration (Ldg;Liq;Ldj;)Z
+		ARG 1 aabb
+		ARG 2 material
+		ARG 3 entity
+	METHOD a spawnEntityInWorld (Ldj;)Z
+		ARG 1 entity
+	METHOD a getClosestPlayerToEntity (Ldj;D)Lfc;
+		ARG 1 entity
+	METHOD a createExplosion (Ldj;DDDF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a getEntityPathToXYZ (Ldj;IIIF)Lcd;
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a getCollidingBoundingBoxes (Ldj;Ldg;)Ljava/util/List;
+		ARG 1 entity
+		ARG 2 aabb
+	METHOD a getPathToEntity (Ldj;Ldj;F)Lcd;
+		ARG 1 entity1
+		ARG 2 entity2
+	METHOD a playSoundAtEntity (Ldj;Ljava/lang/String;FF)V
+		ARG 1 entity
+		ARG 2 soundName
+	METHOD a getChunkProvider (Ljava/io/File;)Lbj;
+		ARG 1 saveDir
+	METHOD a countEntities (Ljava/lang/Class;)I
+		ARG 1 clazz
+	METHOD a getEntitiesWithinAABB (Ljava/lang/Class;Ldg;)Ljava/util/List;
+		ARG 1 clazz
+		ARG 2 aabb
+	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
+		ARG 1 particleName
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a playRecord (Ljava/lang/String;III)V
+		ARG 1 recordName
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a addLoadedEntities (Ljava/util/List;)V
+		ARG 1 list
+	METHOD a tickUpdates (Z)Z
+	METHOD a saveWorld (ZLhw;)V
+		ARG 1 flag
+		ARG 2 progressUpdate
+	METHOD b updateEntities ()V
+	METHOD b getCelestialAngle (F)F
+	METHOD b getChunkFromChunkCoords (II)Lim;
+		ARG 1 x
+		ARG 2 z
+	METHOD b setBlockMetadataWithNotify (IIII)V
+	METHOD b setBlockAndMetadataWithNotify (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b markBlocksDirty (IIIIII)V
+	METHOD b updateTileEntityChunkAndDoNothing (IIILas;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileEntity
+	METHOD b setLightValue (Lcy;IIII)V
+		ARG 1 skyBlock
+		ARG 2 blockX
+		ARG 3 blockY
+		ARG 4 blockZ
+	METHOD b getIsAnyLiquid (Ldg;)Z
+		ARG 1 aabb
+	METHOD b isAABBInMaterial (Ldg;Liq;)Z
+		ARG 1 aabb
+		ARG 2 material
+	METHOD b obtainEntitySkin (Ldj;)V
+		ARG 1 entity
+	METHOD b getEntitiesWithinAABBExcludingEntity (Ldj;Ldg;)Ljava/util/List;
+		ARG 1 entity
+		ARG 2 aabb
+	METHOD b unloadEntities (Ljava/util/List;)V
+		ARG 1 list
+	METHOD c updatingLighting ()Z
+	METHOD c getHeightValue (II)I
+		ARG 1 blockX
+		ARG 2 blockZ
+	METHOD c setBlockMetadata (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c getChunkData (IIIIII)[B
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+	METHOD c isBoundingBoxBurning (Ldg;)Z
+		ARG 1 aabb
+	METHOD c releaseEntitySkin (Ldj;)V
+		ARG 1 entity
+	METHOD d calculateInitialSkylight ()V
+	METHOD d getTopSolidOrLiquidBlock (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD d setBlockWithNotify (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d setEntityDead (Ldj;)V
+		ARG 1 entity
+	METHOD e tick ()V
+	METHOD e getInitialSpawnLocation (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD e blockExists (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD e notifyBlockChange (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD e updateEntity (Ldj;)V
+		ARG 1 entity
+	METHOD f updateBlocksAndPlayCaveSounds ()V
+	METHOD f getFirstUncoveredBlock (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD f markBlockNeedsUpdate (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD f markBlockAsNeedsUpdate (IIII)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 y
+	METHOD g checkSessionLock ()V
+	METHOD g chunkExists (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD g canBlockSeeTheSky (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD g notifyBlocksOfNeighborChange (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h saveLevel ()V
+	METHOD h getBlockLightValue (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h scheduleBlockUpdate (IIII)V
+	METHOD i canExistingBlockSeeTheSky (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD i isBlockProvidingPowerTo (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD j getBrightness (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD j isBlockIndirectlyProvidingPowerTo (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD k getBlockTileEntity (III)Las;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD k notifyBlockOfNeighborChange (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD l removeBlockTileEntity (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m isBlockGettingPowered (III)Z
+	METHOD n isBlockIndirectlyGettingPowered (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

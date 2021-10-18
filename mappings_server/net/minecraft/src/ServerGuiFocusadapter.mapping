@@ -1,0 +1,2 @@
+CLASS w net/minecraft/src/ServerGuiFocusadapter
+	FIELD a mcServerGui Lfo;

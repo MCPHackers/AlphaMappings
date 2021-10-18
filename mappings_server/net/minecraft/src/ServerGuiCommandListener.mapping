@@ -1,0 +1,3 @@
+CLASS v net/minecraft/src/ServerGuiCommandListener
+	FIELD a textField Ljavax/swing/JTextField;
+	FIELD b mcServerGui Lfo;

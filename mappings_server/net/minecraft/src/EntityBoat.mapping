@@ -1,0 +1,4 @@
+CLASS es net/minecraft/src/EntityBoat
+	FIELD a damageTaken I
+	FIELD ad forwardDirection I
+	FIELD b timeSinceHit I

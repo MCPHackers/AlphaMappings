@@ -1,0 +1,13 @@
+CLASS fz net/minecraft/src/BlockSoil
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD g isCropsNearby (Ldy;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h isWaterNearby (Ldy;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

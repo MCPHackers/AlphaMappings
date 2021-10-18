@@ -1,0 +1,6 @@
+CLASS it net/minecraft/src/GuiStatsListener
+	FIELD a component Lhx;
+	METHOD <init> (Lhx;)V
+		ARG 1 component
+	METHOD actionPerformed (Ljava/awt/event/ActionEvent;)V
+		ARG 1 actionEvent

@@ -1,0 +1,8 @@
+CLASS da net/minecraft/src/Packet50PreChunk
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c mode Z
+	METHOD <init> (IIZ)V
+		ARG 1 xPosition
+		ARG 2 yPosition
+		ARG 3 mode

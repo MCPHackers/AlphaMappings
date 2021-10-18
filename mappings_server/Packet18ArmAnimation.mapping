@@ -1,6 +1,0 @@
-CLASS o Packet18ArmAnimation
-	FIELD a entityId I
-	FIELD b animate I
-	METHOD <init> (Ldj;I)V
-		ARG 1 entity
-		ARG 2 animate

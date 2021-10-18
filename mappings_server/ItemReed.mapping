@@ -1,5 +1,0 @@
-CLASS iv ItemReed
-	FIELD a spawnID I
-	METHOD <init> (ILff;)V
-		ARG 1 itemID
-		ARG 2 reed

@@ -1,0 +1,17 @@
+CLASS hq net/minecraft/src/IBlockAccess
+	METHOD a getBlockId (III)I
+		ARG 1 blockX
+		ARG 2 blockY
+		ARG 3 blockZ
+	METHOD b getBlockMetadata (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c getBlockMaterial (III)Liq;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d isBlockNormalCube (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

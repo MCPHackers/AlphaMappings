@@ -1,0 +1,57 @@
+CLASS ej net/minecraft/src/NetHandler
+	METHOD a handleChat (Lba;)V
+		ARG 1 packet
+	METHOD a handleNamedEntitySpawn (Lc;)V
+		ARG 1 packet
+	METHOD a handleSpawnPosition (Lcb;)V
+		ARG 1 packet
+	METHOD a handleCollect (Lce;)V
+		ARG 1 packet
+	METHOD a handleEntityTeleport (Lcf;)V
+		ARG 1 packet
+	METHOD a handleDestroyEntity (Lct;)V
+		ARG 1 packet
+	METHOD a handleMapChunk (Lcz;)V
+		ARG 1 packet
+	METHOD a handlePreChunk (Lda;)V
+		ARG 1 packet
+	METHOD a handleVehicleSpawn (Ldl;)V
+		ARG 1 packet
+	METHOD a handleHandshake (Le;)V
+		ARG 1 packet
+	METHOD a handleAddToInventory (Len;)V
+		ARG 1 packet
+	METHOD a handleBlockChange (Let;)V
+		ARG 1 packet
+	METHOD a handleEntity (Lex;)V
+		ARG 1 packet
+	METHOD a handlePlace (Lfe;)V
+		ARG 1 packet
+	METHOD a handleUpdateTime (Lfl;)V
+		ARG 1 packet
+	METHOD a handleBlockItemSwitch (Lfv;)V
+		ARG 1 packet
+	METHOD a handleFlying (Lgf;)V
+		ARG 1 packet
+	METHOD a handleMobSpawn (Lgv;)V
+		ARG 1 packet
+	METHOD a handleBlockDig (Lhd;)V
+		ARG 1 packet
+	METHOD a handleMultiBlockChange (Lhh;)V
+		ARG 1 packet
+	METHOD a registerPacket (Lhp;)V
+		ARG 1 packet
+	METHOD a handleComplexEntity (Lib;)V
+		ARG 1 packet
+	METHOD a handleKickDisconnect (Lio;)V
+		ARG 1 packet
+	METHOD a handleErrorMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD a handlePickupSpawn (Lk;)V
+		ARG 1 packet
+	METHOD a handleArmAnimation (Lo;)V
+		ARG 1 packet
+	METHOD a handlePlayerInventory (Lr;)V
+		ARG 1 packet
+	METHOD a handleLogin (Lz;)V
+		ARG 1 packet

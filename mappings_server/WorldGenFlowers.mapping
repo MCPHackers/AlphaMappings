@@ -1,4 +1,0 @@
-CLASS ar WorldGenFlowers
-	FIELD a plantBlockId I
-	METHOD <init> (I)V
-		ARG 1 plantBlockID

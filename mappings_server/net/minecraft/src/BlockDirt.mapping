@@ -1,0 +1,4 @@
+CLASS ao net/minecraft/src/BlockDirt
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 blockIndex

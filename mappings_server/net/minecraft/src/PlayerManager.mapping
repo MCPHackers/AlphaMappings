@@ -1,0 +1,31 @@
+CLASS hg net/minecraft/src/PlayerManager
+	FIELD a players Ljava/util/List;
+	FIELD b playerInstances Lel;
+	FIELD c playerInstancesToUpdate Ljava/util/List;
+	FIELD d mcServer Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 mcServer
+	METHOD a updatePlayerInstances ()V
+	METHOD a markBlockNeedsUpdate (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a getPlayerInstance (IIZ)Lae;
+	METHOD a addPlayer (Lea;)V
+		ARG 1 entityPlayerMP
+	METHOD a getMinecraftServer (Lhg;)Lnet/minecraft/server/MinecraftServer;
+		ARG 0 playerManager
+	METHOD a sendTileEntity (Lhp;III)V
+		ARG 1 packet
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b getMaxTrackingDistance ()I
+	METHOD b removePlayer (Lea;)V
+		ARG 1 entityPlayerMP
+	METHOD b getPlayerInstances (Lhg;)Lel;
+		ARG 0 playerManager
+	METHOD c updateMountedMovingPlayer (Lea;)V
+		ARG 1 entityPlayerMP
+	METHOD c getPlayerInstancesToUpdate (Lhg;)Ljava/util/List;
+		ARG 0 playerManager

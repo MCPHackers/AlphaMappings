@@ -1,0 +1,7 @@
+CLASS hw net/minecraft/src/IProgressUpdate
+	METHOD a setLoadingProgress (I)V
+		ARG 1 progress
+	METHOD a displayProgressMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD b resetProgressAndWorkingMessage (Ljava/lang/String;)V
+		ARG 1 message

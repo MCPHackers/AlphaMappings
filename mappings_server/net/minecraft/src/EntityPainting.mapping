@@ -1,0 +1,18 @@
+CLASS bu net/minecraft/src/EntityPainting
+	FIELD a direction I
+	FIELD ad tickCounter1 I
+	FIELD ae xPosition I
+	FIELD af yPosition I
+	FIELD ag zPosition I
+	FIELD b art Lgk;
+	METHOD <init> (Ldy;IIII)V
+		ARG 1 world
+		ARG 2 xPosition
+		ARG 3 yPosition
+		ARG 4 zPosition
+		ARG 5 direction
+	METHOD a setDirection (I)V
+		ARG 1 direction
+	METHOD b onValidSurface ()Z
+	METHOD c getPaintingOffset (I)F
+		ARG 1 size

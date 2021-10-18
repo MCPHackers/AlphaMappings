@@ -1,0 +1,6 @@
+CLASS hd net/minecraft/src/Packet14BlockDig
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c zPosition I
+	FIELD d face I
+	FIELD e status I

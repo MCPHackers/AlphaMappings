@@ -1,0 +1,13 @@
+CLASS hh net/minecraft/src/Packet52MultiBlockChange
+	FIELD a xPosition I
+	FIELD b zPosition I
+	FIELD c coordinateArray [S
+	FIELD d typeArray [B
+	FIELD e metadataArray [B
+	FIELD f size I
+	METHOD <init> (II[SILdy;)V
+		ARG 1 xPosition
+		ARG 2 zPosition
+		ARG 3 data
+		ARG 4 size
+		ARG 5 world

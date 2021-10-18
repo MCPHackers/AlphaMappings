@@ -1,4 +1,0 @@
-CLASS l NBTTagFloat
-	FIELD a floatValue F
-	METHOD <init> (F)V
-		ARG 1 floatValue

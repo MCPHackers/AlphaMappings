@@ -1,3 +1,0 @@
-CLASS dd ThreadLoginVerifier
-	FIELD a loginPacket Lz;
-	FIELD b loginHandler Lew;

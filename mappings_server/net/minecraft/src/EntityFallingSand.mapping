@@ -1,0 +1,9 @@
+CLASS hc net/minecraft/src/EntityFallingSand
+	FIELD a blockID I
+	FIELD b fallTime I
+	METHOD <init> (Ldy;FFFI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 blockID

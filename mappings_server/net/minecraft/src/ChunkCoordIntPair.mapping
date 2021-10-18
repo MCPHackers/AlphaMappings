@@ -1,0 +1,8 @@
+CLASS iy net/minecraft/src/ChunkCoordIntPair
+	FIELD a chunkXPos I
+	FIELD b chunkZPos I
+	METHOD <init> (II)V
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+	METHOD a (Ldj;)D
+		ARG 1 entity

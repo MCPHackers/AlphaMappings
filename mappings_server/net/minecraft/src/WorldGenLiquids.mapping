@@ -1,0 +1,4 @@
+CLASS hr net/minecraft/src/WorldGenLiquids
+	FIELD a liquidBlockId I
+	METHOD <init> (I)V
+		ARG 1 liquidBlockID

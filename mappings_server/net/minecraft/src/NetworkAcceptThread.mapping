@@ -1,0 +1,7 @@
+CLASS cu net/minecraft/src/NetworkAcceptThread
+	FIELD a minecraftServer Lnet/minecraft/server/MinecraftServer;
+	FIELD b networkListenThread Ldc;
+	METHOD <init> (Ldc;Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 thread
+		ARG 3 minecraftServer
+	METHOD run ()V
