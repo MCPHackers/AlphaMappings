@@ -3,7 +3,7 @@ CLASS mp net/minecraft/src/MouseHelper
 	FIELD b deltaY I
 	FIELD c windowComponent Ljava/awt/Component;
 	FIELD d cursor Lorg/lwjgl/input/Cursor;
-	FIELD e unusedInt I
+	FIELD e mouseInt I
 	METHOD a grabMouseCursor ()V
 	METHOD b ungrabMouseCursor ()V
 	METHOD c mouseXYChange ()V
