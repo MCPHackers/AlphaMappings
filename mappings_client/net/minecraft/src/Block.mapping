@@ -101,7 +101,7 @@ CLASS ly net/minecraft/src/Block
 	FIELD k soundGlassFootstep Lbb;
 	FIELD l soundClothFootstep Lbb;
 	FIELD m soundSandFootstep Lbb;
-	FIELD n blockList [Lly;
+	FIELD n blocksList [Lly;
 	FIELD o tickOnLoad [Z
 	FIELD p opaqueCubeLookup [Z
 	FIELD q isBlockContainer [Z
