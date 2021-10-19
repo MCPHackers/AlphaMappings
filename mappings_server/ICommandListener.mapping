@@ -1,4 +1,0 @@
-CLASS ef ICommandListener
-	METHOD b addHelpCommandMessage (Ljava/lang/String;)V
-		ARG 1 helpCommandMessage
-	METHOD c getUsername ()Ljava/lang/String;

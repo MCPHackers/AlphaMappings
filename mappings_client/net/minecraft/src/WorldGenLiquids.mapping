@@ -1,0 +1,2 @@
+CLASS nn net/minecraft/src/WorldGenLiquids
+	FIELD a liquidBlockId I

@@ -1,0 +1,2 @@
+CLASS ks net/minecraft/src/ItemAxe
+	FIELD aX blocksEffectiveAgainst [Lly;

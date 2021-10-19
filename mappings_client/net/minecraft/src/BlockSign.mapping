@@ -1,0 +1,3 @@
+CLASS lr net/minecraft/src/BlockSign
+	FIELD a signEntityClass Ljava/lang/Class;
+	FIELD b isFreestanding Z

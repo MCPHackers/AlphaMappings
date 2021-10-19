@@ -1,2 +1,0 @@
-CLASS lg ItemRecord
-	FIELD a recordName Ljava/lang/String;

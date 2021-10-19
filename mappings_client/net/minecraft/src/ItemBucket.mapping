@@ -1,0 +1,2 @@
+CLASS ac net/minecraft/src/ItemBucket
+	FIELD a isFull I

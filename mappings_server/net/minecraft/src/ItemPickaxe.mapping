@@ -1,0 +1,6 @@
+CLASS al net/minecraft/src/ItemPickaxe
+	FIELD aX blocksEffectiveAgainst [Lff;
+	FIELD aY harvestLevel I
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 harvestLevelAndMaterial

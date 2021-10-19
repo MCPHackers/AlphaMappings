@@ -1,0 +1,4 @@
+CLASS d net/minecraft/src/NBTTagLong
+	FIELD a longValue J
+	METHOD <init> (J)V
+		ARG 1 longValue

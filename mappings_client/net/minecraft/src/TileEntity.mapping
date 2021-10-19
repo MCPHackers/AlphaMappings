@@ -1,0 +1,16 @@
+CLASS ic net/minecraft/src/TileEntity
+	FIELD a nameToClassMap Ljava/util/Map;
+	FIELD b classToNameMap Ljava/util/Map;
+	FIELD e worldObj Lcn;
+	FIELD f xCoord I
+	FIELD g yCoord I
+	FIELD h zCoord I
+	METHOD a getDistanceFrom (DDD)D
+	METHOD a readFromNBT (Lhm;)V
+	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;)V
+	METHOD b updateEntity ()V
+	METHOD b writeToNBT (Lhm;)V
+	METHOD c createAndLoadEntity (Lhm;)Lic;
+	METHOD f getBlockMetadata ()I
+	METHOD g getBlockType ()Lly;
+	METHOD j_ onInventoryChanged ()V

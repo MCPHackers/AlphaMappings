@@ -1,0 +1,3 @@
+CLASS b net/minecraft/src/BlockChest
+	FIELD a random Ljava/util/Random;
+	METHOD h isThereANeighborChest (Lcn;III)Z

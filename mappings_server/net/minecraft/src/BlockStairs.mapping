@@ -1,0 +1,20 @@
+CLASS do net/minecraft/src/BlockStairs
+	FIELD a modelBlock Lff;
+	METHOD <init> (ILff;)V
+		ARG 1 id
+		ARG 2 modelBlock
+	METHOD g (Ldy;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h isBlockSolid (Ldy;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i isBlockStair (Ldy;III)Z
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

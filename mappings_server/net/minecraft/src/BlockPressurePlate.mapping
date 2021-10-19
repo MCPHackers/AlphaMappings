@@ -1,0 +1,11 @@
+CLASS ax net/minecraft/src/BlockPressurePlate
+	FIELD a triggerMobType Lcr;
+	METHOD <init> (IILcr;)V
+		ARG 1 id
+		ARG 2 blockIndex
+		ARG 3 triggerMobType
+	METHOD g setStateIfMobInteractsWithPlate (Ldy;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

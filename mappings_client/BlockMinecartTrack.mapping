@@ -1,2 +1,0 @@
-CLASS if BlockMinecartTrack
-	METHOD h refreshTrackShape (Lcn;III)V

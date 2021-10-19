@@ -1,0 +1,26 @@
+CLASS br net/minecraft/src/BlockLeaves
+	FIELD b leafTexIndex I
+	FIELD c decayCounter I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 blockIndex
+	METHOD e updateConnectedLeaves (Ldy;IIII)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD f getConnectionStrength (Ldy;IIII)I
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g updateCurrentLeaves (Ldy;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h removeLeaves (Ldy;III)V
+		ARG 1 world
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

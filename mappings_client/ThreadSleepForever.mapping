@@ -1,3 +1,0 @@
-CLASS fl ThreadSleepForever
-	FIELD a mc Lnet/minecraft/client/Minecraft;
-	METHOD run ()V

@@ -1,0 +1,3 @@
+CLASS ol net/minecraft/src/ChunkCoordIntPair
+	FIELD a chunkXPos I
+	FIELD b chunkZPos I

@@ -1,8 +1,0 @@
-CLASS ab RenderItem
-	FIELD d itemRenderBlocks Lbc;
-	FIELD e random Ljava/util/Random;
-	METHOD a renderIcon (IIIIII)V
-	METHOD a renderQuad (Lho;IIIII)V
-	METHOD a renderItemIntoGUI (Lkd;Ley;Lev;II)V
-	METHOD b renderItemOverlayIntoGUI (Lkd;Ley;Lev;II)V
-	METHOD a doRenderItem (Ldx;DDDFF)V

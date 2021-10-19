@@ -1,0 +1,2 @@
+CLASS lh net/minecraft/src/ThreadRunIsoClient
+	FIELD a isomPreview Lad;

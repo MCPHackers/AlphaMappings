@@ -1,2 +1,0 @@
-CLASS dq EntityMob
-	FIELD e attackStrength I

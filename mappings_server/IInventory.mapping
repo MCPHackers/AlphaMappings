@@ -1,4 +1,0 @@
-CLASS iw IInventory
-	METHOD a getSizeInventory ()I
-	METHOD a getStackInSlot (I)Lgp;
-		ARG 1 slot

@@ -1,0 +1,2 @@
+CLASS ec net/minecraft/src/ItemDoor
+	FIELD a material Lgb;

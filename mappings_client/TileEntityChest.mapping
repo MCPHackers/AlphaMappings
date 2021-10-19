@@ -1,2 +1,0 @@
-CLASS fe TileEntityChest
-	FIELD a chestContents [Lev;

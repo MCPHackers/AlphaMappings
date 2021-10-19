@@ -1,0 +1,27 @@
+CLASS ih net/minecraft/src/EntityMinecart
+	FIELD a damageTaken I
+	FIELD ad forwardDirection I
+	FIELD ae minecartType I
+	FIELD af fuel I
+	FIELD ag pushX D
+	FIELD ah pushZ D
+	FIELD ai cargoItems [Lgp;
+	FIELD aj isInReverse Z
+	FIELD ak matrix [[[I
+	FIELD al turnProgress I
+	FIELD am minecartX D
+	FIELD an minecartY D
+	FIELD ao minecartZ D
+	FIELD ap minecartYaw D
+	FIELD aq minecartPitch D
+	FIELD b timeSinceHit I
+	METHOD <init> (Ldy;DDDI)V
+		ARG 1 world
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 minecartType
+	METHOD g getPos (DDD)Law;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z

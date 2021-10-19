@@ -1,3 +1,0 @@
-CLASS al BlockPressurePlate
-	FIELD a triggerMobType Ljs;
-	METHOD h setStateIfMobInteractsWithPlate (Lcn;III)V

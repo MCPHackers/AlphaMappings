@@ -1,0 +1,5 @@
+CLASS km net/minecraft/src/BlockStairs
+	FIELD a modelBlock Lly;
+	METHOD h updateState (Lcn;III)V
+	METHOD i isBlockSolid (Lcn;III)Z
+	METHOD j isBlockStair (Lcn;III)Z

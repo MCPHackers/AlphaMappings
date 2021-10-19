@@ -1,9 +1,0 @@
-CLASS eb SoundPool
-	FIELD a numberOfSoundPoolEntries I
-	FIELD b isGetRandomSound Z
-	FIELD c rand Ljava/util/Random;
-	FIELD d nameToSoundPoolEntriesMapping Ljava/util/Map;
-	FIELD e allSoundPoolEntries Ljava/util/List;
-	METHOD a getRandomSound ()Lah;
-	METHOD a getRandomSoundFromSoundPool (Ljava/lang/String;)Lah;
-	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)Lah;

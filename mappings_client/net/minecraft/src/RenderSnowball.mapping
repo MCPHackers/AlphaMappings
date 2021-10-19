@@ -1,0 +1,2 @@
+CLASS ei net/minecraft/src/RenderSnowball
+	METHOD a doRenderSnowball (Lao;DDDFF)V

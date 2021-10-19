@@ -1,4 +1,0 @@
-CLASS dh BlockSand
-	FIELD a fallInstantly Z
-	METHOD a_ canFallBelow (Lcn;III)Z
-	METHOD h tryToFall (Lcn;III)V

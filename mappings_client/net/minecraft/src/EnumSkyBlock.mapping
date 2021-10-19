@@ -1,0 +1,4 @@
+CLASS by net/minecraft/src/EnumSkyBlock
+	FIELD a Sky Lby;
+	FIELD b Block Lby;
+	FIELD c defaultLightValue I

@@ -1,0 +1,2 @@
+CLASS no net/minecraft/src/BlockLever
+	METHOD h checkIfAttachedToBlock (Lcn;III)Z

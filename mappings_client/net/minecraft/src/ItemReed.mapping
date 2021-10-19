@@ -1,0 +1,2 @@
+CLASS gf net/minecraft/src/ItemReed
+	FIELD a spawnID I

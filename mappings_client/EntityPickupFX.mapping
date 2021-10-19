@@ -1,6 +1,0 @@
-CLASS cd EntityPickupFX
-	FIELD a entityToPickUp Lkh;
-	FIELD o entityPickingUp Lkh;
-	FIELD p age I
-	FIELD q maxAge I
-	FIELD r yOffs F

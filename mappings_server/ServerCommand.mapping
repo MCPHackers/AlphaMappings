@@ -1,6 +1,0 @@
-CLASS ai ServerCommand
-	FIELD a command Ljava/lang/String;
-	FIELD b commandListener Lef;
-	METHOD <init> (Ljava/lang/String;Lef;)V
-		ARG 1 command
-		ARG 2 commandListener

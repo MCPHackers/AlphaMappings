@@ -1,0 +1,8 @@
+CLASS bg net/minecraft/src/Packet33RelEntityMoveLook
+	METHOD <init> (IBBBBB)V
+		ARG 1 entityID
+		ARG 2 xPosition
+		ARG 3 yPosition
+		ARG 4 zPosition
+		ARG 5 yaw
+		ARG 6 pitch

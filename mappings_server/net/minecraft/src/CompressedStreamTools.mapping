@@ -1,0 +1,15 @@
+CLASS aj net/minecraft/src/CompressedStreamTools
+	METHOD a read (Ljava/io/DataInput;)Ls;
+		ARG 0 dataInput
+	METHOD a readCompressed (Ljava/io/InputStream;)Ls;
+		ARG 0 inputStream
+	METHOD a compress (Ls;)[B
+		ARG 0 nbttagcompound
+	METHOD a write (Ls;Ljava/io/DataOutput;)V
+		ARG 0 nbttagcompound
+		ARG 1 dataOutput
+	METHOD a writeCompressed (Ls;Ljava/io/OutputStream;)V
+		ARG 0 nbttagcompound
+		ARG 1 outputStream
+	METHOD a decompress ([B)Ls;
+		ARG 0 data

@@ -1,4 +1,0 @@
-CLASS db CanvasMajongLogo
-	FIELD a logo Ljava/awt/image/BufferedImage;
-	METHOD paint paint (Ljava/awt/Graphics;)V
-		ARG 1 graphics

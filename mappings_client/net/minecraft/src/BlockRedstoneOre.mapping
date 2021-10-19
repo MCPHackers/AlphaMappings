@@ -1,0 +1,4 @@
+CLASS ai net/minecraft/src/BlockRedstoneOre
+	FIELD a glowing Z
+	METHOD h glow (Lcn;III)V
+	METHOD i sparkle (Lcn;III)V

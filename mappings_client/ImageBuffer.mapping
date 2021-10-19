@@ -1,2 +1,0 @@
-CLASS hb ImageBuffer
-	METHOD a parseUserSkin (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;

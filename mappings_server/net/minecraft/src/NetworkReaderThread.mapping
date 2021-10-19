@@ -1,0 +1,6 @@
+CLASS hn net/minecraft/src/NetworkReaderThread
+	FIELD a netManager Lbb;
+	METHOD <init> (Lbb;Ljava/lang/String;)V
+		ARG 1 netManager
+		ARG 2 threadName
+	METHOD run ()V

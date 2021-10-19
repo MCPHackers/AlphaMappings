@@ -1,0 +1,2 @@
+CLASS ay net/minecraft/src/EntityCow
+	FIELD a unusedBool2 Z

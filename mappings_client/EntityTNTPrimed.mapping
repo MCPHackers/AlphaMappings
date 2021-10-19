@@ -1,3 +1,0 @@
-CLASS jd EntityTNTPrimed
-	FIELD a fuse I
-	METHOD i explode ()V

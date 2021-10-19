@@ -1,2 +1,0 @@
-CLASS ei RenderSnowball
-	METHOD a doRenderSnowball (Lao;DDDFF)V

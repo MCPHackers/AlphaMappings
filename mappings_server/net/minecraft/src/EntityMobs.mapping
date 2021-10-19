@@ -1,0 +1,2 @@
+CLASS fg net/minecraft/src/EntityMobs
+	FIELD af attackStrength I

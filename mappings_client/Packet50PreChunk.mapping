@@ -1,4 +1,0 @@
-CLASS ka Packet50PreChunk
-	FIELD a xPosition I
-	FIELD b yPosition I
-	FIELD c mode Z

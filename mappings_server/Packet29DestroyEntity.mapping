@@ -1,4 +1,0 @@
-CLASS ct Packet29DestroyEntity
-	FIELD a entityId I
-	METHOD <init> (I)V
-		ARG 1 entityID

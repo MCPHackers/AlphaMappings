@@ -1,0 +1,2 @@
+CLASS t net/minecraft/src/ServerWindowAdapter
+	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;

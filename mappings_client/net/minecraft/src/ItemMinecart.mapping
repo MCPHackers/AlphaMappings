@@ -1,0 +1,2 @@
+CLASS jo net/minecraft/src/ItemMinecart
+	FIELD a minecartType I

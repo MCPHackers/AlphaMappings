@@ -1,8 +1,0 @@
-CLASS bw Explosion
-	METHOD a doExplosion (Ldy;Ldj;DDDF)V
-		ARG 1 world
-		ARG 2 entity
-		ARG 3 x
-		ARG 5 y
-		ARG 7 z
-		ARG 9 power

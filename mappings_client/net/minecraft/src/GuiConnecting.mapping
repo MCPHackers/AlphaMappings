@@ -1,0 +1,6 @@
+CLASS mn net/minecraft/src/GuiConnecting
+	FIELD a clientHandler Lgy;
+	FIELD h cancelled Z
+	METHOD a isCancelled (Lmn;)Z
+	METHOD a setNetClientHandler (Lmn;Lgy;)Lgy;
+	METHOD b getNetClientHandler (Lmn;)Lgy;

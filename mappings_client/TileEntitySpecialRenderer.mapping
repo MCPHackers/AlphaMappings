@@ -1,6 +1,0 @@
-CLASS ex TileEntitySpecialRenderer
-	FIELD a tileEntityRenderer Lfz;
-	METHOD a getFontRenderer ()Lkd;
-	METHOD a setTileEntityRenderer (Lfz;)V
-	METHOD a renderTileEntityAt (Lic;DDDF)V
-	METHOD a bindTextureByName (Ljava/lang/String;)V

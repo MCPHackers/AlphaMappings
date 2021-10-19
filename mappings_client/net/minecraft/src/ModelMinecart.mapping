@@ -1,0 +1,2 @@
+CLASS hj net/minecraft/src/ModelMinecart
+	FIELD a sideModels [Lip;

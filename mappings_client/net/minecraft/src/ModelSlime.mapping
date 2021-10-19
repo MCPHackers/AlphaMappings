@@ -1,0 +1,5 @@
+CLASS hh net/minecraft/src/ModelSlime
+	FIELD a slimeBodies Lip;
+	FIELD b slimeRightEye Lip;
+	FIELD c slimeLeftEye Lip;
+	FIELD d slimeMouth Lip;

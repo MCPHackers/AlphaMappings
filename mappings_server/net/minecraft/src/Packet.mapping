@@ -1,0 +1,22 @@
+CLASS hp net/minecraft/src/Packet
+	FIELD a packetIdToClassMap Ljava/util/Map;
+	FIELD b packetClassToIdMap Ljava/util/Map;
+	FIELD j isChunkDataPacket Z
+	METHOD a getPacketSize ()I
+	METHOD a getNewPacket (I)Lhp;
+		ARG 0 id
+	METHOD a addIdClassMapping (ILjava/lang/Class;)V
+		ARG 0 id
+		ARG 1 clazz
+	METHOD a processPacket (Lej;)V
+		ARG 1 netHandler
+	METHOD a writePacket (Lhp;Ljava/io/DataOutputStream;)V
+		ARG 0 packet
+		ARG 1 dataOutputStream
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+		ARG 1 dataInputStream
+	METHOD a writePacket (Ljava/io/DataOutputStream;)V
+		ARG 1 dataOutputStream
+	METHOD b getPacketId ()I
+	METHOD b readPacket (Ljava/io/DataInputStream;)Lhp;
+		ARG 0 dataInputStream

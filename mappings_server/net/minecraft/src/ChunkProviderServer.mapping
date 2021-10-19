@@ -1,0 +1,23 @@
+CLASS ij net/minecraft/src/ChunkProviderServer
+	FIELD a droppedChunksSet Ljava/util/Set;
+	FIELD b chunk Lim;
+	FIELD c serverChunkProvider Lbj;
+	FIELD d serverChunkLoader Laq;
+	FIELD e id2ChunkMap Ljava/util/Map;
+	FIELD f loadedChunks Ljava/util/List;
+	FIELD g worldObj Lee;
+	METHOD <init> (Lee;Laq;Lbj;)V
+		ARG 1 worldServer
+		ARG 2 chunkLoader
+		ARG 3 chunkProvider
+	METHOD a saveExtraChunkData (Lim;)V
+		ARG 1 chunk
+	METHOD b saveChunk (Lim;)V
+		ARG 1 chunk
+	METHOD c dropChunk (II)V
+	METHOD d loadChunk (II)Lim;
+		ARG 1 x
+		ARG 2 z
+	METHOD e loadAndSaveChunk (II)Lim;
+		ARG 1 x
+		ARG 2 z

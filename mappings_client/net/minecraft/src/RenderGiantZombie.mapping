@@ -1,0 +1,3 @@
+CLASS nz net/minecraft/src/RenderGiantZombie
+	FIELD f scale F
+	METHOD a preRenderScale (Lhl;F)V

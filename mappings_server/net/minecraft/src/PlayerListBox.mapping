@@ -1,0 +1,5 @@
+CLASS h net/minecraft/src/PlayerListBox
+	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD b playerCount I
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 minecraftServer

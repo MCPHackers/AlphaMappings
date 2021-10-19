@@ -1,0 +1,10 @@
+CLASS kn net/minecraft/src/MetadataChunkBlock
+	FIELD a skyBlock Lby;
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e maxX I
+	FIELD f maxY I
+	FIELD g maxZ I
+	METHOD a getLightUpdated (IIIIII)Z
+	METHOD a updateLight (Lcn;)V

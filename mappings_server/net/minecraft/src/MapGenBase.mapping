@@ -1,0 +1,10 @@
+CLASS em net/minecraft/src/MapGenBase
+	FIELD a range I
+	FIELD b rand Ljava/util/Random;
+	METHOD a recursiveGenerate (Ldy;IIII[B)V
+		ARG 1 world
+		ARG 6 data
+	METHOD a generate (Lhy;Ldy;II[B)V
+		ARG 1 chunkProviderGenerate
+		ARG 2 world
+		ARG 5 data

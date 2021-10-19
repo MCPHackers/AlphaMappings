@@ -1,0 +1,20 @@
+CLASS hv net/minecraft/src/ChunkProviderLoadOrGenerate
+	FIELD a lastQueriedChunkXPos I
+	FIELD b lastQueriedChunkZPos I
+	FIELD c blankChunk Lim;
+	FIELD d chunkProvider Lbj;
+	FIELD e chunkLoader Laq;
+	FIELD f chunks [Lim;
+	FIELD g worldObj Ldy;
+	FIELD h lastQueriedChunk Lim;
+	METHOD <init> (Ldy;Laq;Lbj;)V
+		ARG 1 world
+		ARG 2 chunkLoader
+		ARG 3 chunkProvider
+	METHOD a saveExtraChunkData (Lim;)V
+		ARG 1 chunk
+	METHOD b saveChunk (Lim;)V
+		ARG 1 chunk
+	METHOD c getChunkAt (II)Lim;
+		ARG 1 x
+		ARG 2 z

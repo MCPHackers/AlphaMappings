@@ -1,0 +1,5 @@
+CLASS gq net/minecraft/src/ItemSpade
+	FIELD aX blocksEffectiveAgainst [Lff;
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 material

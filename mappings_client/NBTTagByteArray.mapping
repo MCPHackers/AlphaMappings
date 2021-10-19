@@ -1,4 +1,0 @@
-CLASS dy NBTTagByteArray
-	FIELD a byteArray [B
-	METHOD <init> ([B)V
-		ARG 1 byteArray

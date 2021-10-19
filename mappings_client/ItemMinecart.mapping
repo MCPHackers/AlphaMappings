@@ -1,2 +1,0 @@
-CLASS jo ItemMinecart
-	FIELD a minecartType I

@@ -1,7 +1,0 @@
-CLASS bq StepSound
-	FIELD a stepSoundName Ljava/lang/String;
-	FIELD b stepSoundVolume F
-	FIELD c stepSoundPitch F
-	METHOD a getVolume ()F
-	METHOD b getPitch ()F
-	METHOD c getStepSound ()Ljava/lang/String;

@@ -1,3 +1,0 @@
-CLASS eq RenderChicken
-	METHOD a renderChicken (Lmz;DDDFF)V
-	METHOD a getWingRotation (Lmz;F)F

@@ -1,0 +1,4 @@
+CLASS ka net/minecraft/src/Packet50PreChunk
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c mode Z

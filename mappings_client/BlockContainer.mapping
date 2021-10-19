@@ -1,2 +1,0 @@
-CLASS jt BlockContainer
-	METHOD a_ getBlockEntity ()Lic;

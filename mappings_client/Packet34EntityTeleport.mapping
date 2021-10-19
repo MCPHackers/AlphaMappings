@@ -1,7 +1,0 @@
-CLASS jl Packet34EntityTeleport
-	FIELD a entityId I
-	FIELD b xPosition I
-	FIELD c yPosition I
-	FIELD d zPosition I
-	FIELD e yaw B
-	FIELD f pitch B

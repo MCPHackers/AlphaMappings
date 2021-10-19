@@ -1,0 +1,7 @@
+CLASS mx net/minecraft/src/MCHashEntry
+	FIELD a hashEntry I
+	FIELD b valueEntry Ljava/lang/Object;
+	FIELD c nextEntry Lmx;
+	FIELD d slotHash I
+	METHOD a getHash ()I
+	METHOD b getValue ()Ljava/lang/Object;

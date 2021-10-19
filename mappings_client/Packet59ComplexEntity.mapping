@@ -1,6 +1,0 @@
-CLASS ny Packet59ComplexEntity
-	FIELD a xCoord I
-	FIELD b yCoord I
-	FIELD c zCoord I
-	FIELD d compressedNBT [B
-	FIELD e tileEntityNBT Lhm;

@@ -1,0 +1,7 @@
+CLASS en net/minecraft/src/Packet17AddToInventory
+	FIELD a itemID I
+	FIELD b count I
+	FIELD c itemDamage I
+	METHOD <init> (Lgp;I)V
+		ARG 1 stack
+		ARG 2 count
