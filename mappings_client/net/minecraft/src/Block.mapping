@@ -91,7 +91,7 @@ CLASS gx net/minecraft/src/Block
 	FIELD k soundGlassFootstep Lcr;
 	FIELD l soundClothFootstep Lcr;
 	FIELD m soundSandFootstep Lcr;
-	FIELD n blockList [Lgx;
+	FIELD n blocksList [Lgx;
 	FIELD o tickOnLoad [Z
 	FIELD p opaqueCubeLookup [Z
 	FIELD q lightOpacity [I
