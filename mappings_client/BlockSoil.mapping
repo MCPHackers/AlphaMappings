@@ -1,3 +1,0 @@
-CLASS hk BlockSoil
-	METHOD g isCropsNearby (Lfi;III)Z
-	METHOD h isWaterNearby (Lfi;III)Z

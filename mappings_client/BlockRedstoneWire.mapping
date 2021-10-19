@@ -1,5 +1,0 @@
-CLASS er BlockRedstoneWire
-	FIELD a wiresProvidePower Z
-	METHOD f getMaxCurrentStrength (Lfi;IIII)I
-	METHOD g updateAndPropagateCurrentStrength (Lfi;III)V
-	METHOD h notifyWireNeighborsOfNeighborChange (Lfi;III)V

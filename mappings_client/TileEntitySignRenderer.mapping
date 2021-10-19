@@ -1,3 +1,0 @@
-CLASS by TileEntitySignRenderer
-	FIELD b modelSign Ldm;
-	METHOD a renderTileEntitySignAt (Ljv;DDDF)V

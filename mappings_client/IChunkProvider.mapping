@@ -1,7 +1,0 @@
-CLASS ci IChunkProvider
-	METHOD a unload100OldestChunks ()Z
-	METHOD a chunkExists (II)Z
-	METHOD a populate (Lci;II)V
-	METHOD a saveChunks (ZLjl;)Z
-	METHOD b canSave ()Z
-	METHOD b provideChunk (II)Lkd;

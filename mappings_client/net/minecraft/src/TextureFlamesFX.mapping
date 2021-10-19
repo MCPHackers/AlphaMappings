@@ -1,0 +1,3 @@
+CLASS eh net/minecraft/src/TextureFlamesFX
+	FIELD a currentFireFrame [F
+	FIELD b lastFireFrame [F

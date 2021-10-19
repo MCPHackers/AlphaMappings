@@ -1,4 +1,0 @@
-CLASS gk BlockSign
-	FIELD a signEntityClass Ljava/lang/Class;
-	FIELD b itemDropID I
-	FIELD c isFreestanding Z

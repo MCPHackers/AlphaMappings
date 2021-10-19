@@ -1,0 +1,3 @@
+CLASS et net/minecraft/src/WorldGenDungeons
+	METHOD a pickCheckLootItem (Ljava/util/Random;)Lic;
+	METHOD b pickMobSpawner (Ljava/util/Random;)Ljava/lang/String;

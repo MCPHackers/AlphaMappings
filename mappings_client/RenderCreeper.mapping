@@ -1,3 +1,0 @@
-CLASS n RenderCreeper
-	METHOD a updateCreeperScale (Lgc;F)V
-	METHOD a updateCreeperColorMultiplier (Lgc;FF)I

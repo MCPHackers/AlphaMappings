@@ -1,0 +1,5 @@
+CLASS cc net/minecraft/src/TextureLavaFX
+	FIELD a red [F
+	FIELD b green [F
+	FIELD c blue [F
+	FIELD d alpha [F

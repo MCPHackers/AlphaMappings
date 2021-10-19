@@ -1,2 +1,0 @@
-CLASS gw EntityMob
-	FIELD Z attackStrength I

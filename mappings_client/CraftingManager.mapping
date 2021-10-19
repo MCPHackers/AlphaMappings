@@ -1,6 +1,0 @@
-CLASS hd CraftingManager
-	FIELD a instance Lhd;
-	FIELD b recipes Ljava/util/List;
-	METHOD a getInstance ()Lhd;
-	METHOD a addRecipe (Lic;[Ljava/lang/Object;)V
-	METHOD a findMatchingRecipe ([I)Lic;

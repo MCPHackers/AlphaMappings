@@ -1,2 +1,0 @@
-CLASS jd EnumOSMappingHelper
-	FIELD a osValues [I

@@ -1,2 +1,0 @@
-CLASS jc BlockLever
-	METHOD g checkIfAttachedToBlock (Lfi;III)Z

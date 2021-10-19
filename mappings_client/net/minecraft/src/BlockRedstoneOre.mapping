@@ -1,0 +1,2 @@
+CLASS bn net/minecraft/src/BlockRedstoneOre
+	METHOD g glow (Lfi;III)V

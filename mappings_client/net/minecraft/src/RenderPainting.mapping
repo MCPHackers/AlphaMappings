@@ -1,0 +1,5 @@
+CLASS ec net/minecraft/src/RenderPainting
+	FIELD d rand Ljava/util/Random;
+	METHOD a renderThePainting (Lcz;DDDFF)V
+	METHOD a getOffset (Lcz;FF)V
+	METHOD a setSizes (Lcz;IIII)V

@@ -1,8 +1,0 @@
-CLASS fk ModelBiped
-	FIELD a bipedHead Lca;
-	FIELD b bipedHeadwear Lca;
-	FIELD c bipedBody Lca;
-	FIELD d bipedRightArm Lca;
-	FIELD e bipedLeftArm Lca;
-	FIELD f bipedRightLeg Lca;
-	FIELD g bipedLeftLeg Lca;

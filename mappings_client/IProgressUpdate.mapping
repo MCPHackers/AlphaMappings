@@ -1,4 +1,0 @@
-CLASS jl IProgressUpdate
-	METHOD a setLoadingProgress (I)V
-	METHOD b displayProgressMessage (Ljava/lang/String;)V
-	METHOD d resetProgressAndWorkingMessage (Ljava/lang/String;)V

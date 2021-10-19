@@ -1,0 +1,2 @@
+CLASS u net/minecraft/src/BlockCrops
+	METHOD i getGrowthRate (Lfi;III)F

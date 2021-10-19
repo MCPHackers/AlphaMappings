@@ -1,3 +1,0 @@
-CLASS il EntitySorter
-	FIELD a comparedEntity Leu;
-	METHOD a sortByDistanceToEntity (Ldn;Ldn;)I

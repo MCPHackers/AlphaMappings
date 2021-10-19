@@ -1,2 +1,0 @@
-CLASS ja WorldGenLiquids
-	FIELD a liquidBlockId I

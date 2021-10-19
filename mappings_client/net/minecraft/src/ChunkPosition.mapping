@@ -1,0 +1,4 @@
+CLASS ig net/minecraft/src/ChunkPosition
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I

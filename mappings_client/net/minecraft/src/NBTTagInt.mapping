@@ -1,0 +1,2 @@
+CLASS bz net/minecraft/src/NBTTagInt
+	FIELD a intValue I

@@ -1,0 +1,2 @@
+CLASS jc net/minecraft/src/BlockLever
+	METHOD g checkIfAttachedToBlock (Lfi;III)Z

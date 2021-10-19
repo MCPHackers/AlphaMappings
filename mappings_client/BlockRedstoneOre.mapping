@@ -1,2 +1,0 @@
-CLASS bn BlockRedstoneOre
-	METHOD g glow (Lfi;III)V

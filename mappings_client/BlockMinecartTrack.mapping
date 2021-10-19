@@ -1,2 +1,0 @@
-CLASS bm BlockMinecartTrack
-	METHOD g refreshTrackShape (Lfi;III)V

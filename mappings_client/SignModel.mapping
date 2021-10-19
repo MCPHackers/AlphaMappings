@@ -1,4 +1,0 @@
-CLASS dm SignModel
-	FIELD a signBoard Lca;
-	FIELD b signStick Lca;
-	METHOD a renderSign ()V

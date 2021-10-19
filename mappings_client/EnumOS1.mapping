@@ -1,6 +1,0 @@
-CLASS ik EnumOS1
-	FIELD a linux Lik;
-	FIELD b solaris Lik;
-	FIELD c windows Lik;
-	FIELD d macos Lik;
-	FIELD e unknown Lik;

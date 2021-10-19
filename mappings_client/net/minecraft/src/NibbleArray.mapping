@@ -1,0 +1,5 @@
+CLASS ii net/minecraft/src/NibbleArray
+	FIELD a data [B
+	METHOD a isValid ()Z
+	METHOD a get (III)I
+	METHOD a set (IIII)V

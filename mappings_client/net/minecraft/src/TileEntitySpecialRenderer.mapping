@@ -1,0 +1,6 @@
+CLASS if net/minecraft/src/TileEntitySpecialRenderer
+	FIELD a tileEntityRenderer Ljz;
+	METHOD a getFontRenderer ()Lem;
+	METHOD a renderTileEntityAt (Lbj;DDDF)V
+	METHOD a bindTextureByName (Ljava/lang/String;)V
+	METHOD a setTileEntityRenderer (Ljz;)V

@@ -1,0 +1,10 @@
+CLASS dy net/minecraft/src/CraftingRecipe
+	FIELD a resultId I
+	FIELD b width I
+	FIELD c height I
+	FIELD d ingredientMap [I
+	FIELD e resultStack Lic;
+	METHOD a getRecipeSize ()I
+	METHOD a matches ([I)Z
+	METHOD a checkMatch ([IIIZ)Z
+	METHOD b getCraftingResult ([I)Lic;

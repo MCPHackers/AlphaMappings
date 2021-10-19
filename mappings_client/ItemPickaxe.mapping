@@ -1,3 +1,0 @@
-CLASS au ItemPickaxe
-	FIELD aF blocksEffectiveAgainst [Lgx;
-	FIELD aG harvestLevel I

@@ -1,0 +1,2 @@
+CLASS as net/minecraft/src/BlockButton
+	METHOD g checkIfAttachedToBlock (Lfi;III)Z

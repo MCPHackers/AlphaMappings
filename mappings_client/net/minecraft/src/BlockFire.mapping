@@ -1,0 +1,9 @@
+CLASS kc net/minecraft/src/BlockFire
+	FIELD a chanceToEncourageFire [I
+	FIELD b abilityToCatchFire [I
+	METHOD a initializeBlock (III)V
+	METHOD a tryToCatchBlockOnFire (Lfi;IIIILjava/util/Random;)V
+	METHOD b canBlockCatchFire (Ljb;III)Z
+	METHOD f getChanceToEncourageFire (Lfi;IIII)I
+	METHOD g canNeighborBurn (Lfi;III)Z
+	METHOD h getChanceOfNeighborsEncouragingFire (Lfi;III)I

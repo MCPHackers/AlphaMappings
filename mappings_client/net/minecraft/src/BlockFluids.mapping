@@ -1,0 +1,9 @@
+CLASS ds net/minecraft/src/BlockFluids
+	FIELD d fluidType I
+	METHOD a getFlowDirection (Ljb;IIILkf;)D
+	METHOD b getFluidHeightPercent (I)F
+	METHOD b getEffectiveFlowDecay (Ljb;III)I
+	METHOD e getFlowVector (Ljb;III)Lbo;
+	METHOD f getFlowDecay (Lfi;III)I
+	METHOD g triggerLavaMixEffects (Lfi;III)V
+	METHOD h checkForHarden (Lfi;III)V

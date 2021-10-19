@@ -1,2 +1,0 @@
-CLASS af BlockStationary
-	METHOD h setNotStationary (Lfi;III)V

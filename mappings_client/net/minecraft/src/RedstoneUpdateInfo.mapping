@@ -1,0 +1,5 @@
+CLASS je net/minecraft/src/RedstoneUpdateInfo
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d updateTime J

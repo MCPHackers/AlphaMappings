@@ -1,0 +1,3 @@
+CLASS km net/minecraft/src/RenderSpider
+	METHOD a setSpiderDeathMaxRotation (Lcj;)F
+	METHOD a setSpiderEyeBrightness (Lcj;I)Z

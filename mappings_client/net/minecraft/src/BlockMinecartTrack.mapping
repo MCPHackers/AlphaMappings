@@ -1,0 +1,2 @@
+CLASS bm net/minecraft/src/BlockMinecartTrack
+	METHOD g refreshTrackShape (Lfi;III)V

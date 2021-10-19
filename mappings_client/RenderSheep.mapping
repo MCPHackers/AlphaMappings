@@ -1,2 +1,0 @@
-CLASS jh RenderSheep
-	METHOD a renderFur (Ldp;I)Z

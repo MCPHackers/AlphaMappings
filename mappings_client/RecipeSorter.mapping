@@ -1,3 +1,0 @@
-CLASS jj RecipeSorter
-	FIELD a craftingManager Lhd;
-	METHOD a compareRecipes (Ldy;Ldy;)I

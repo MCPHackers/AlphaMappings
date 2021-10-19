@@ -1,0 +1,2 @@
+CLASS gw net/minecraft/src/EntityMob
+	FIELD Z attackStrength I

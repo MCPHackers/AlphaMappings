@@ -1,2 +1,0 @@
-CLASS ch ItemBlock
-	FIELD a blockID I

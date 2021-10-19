@@ -1,5 +1,0 @@
-CLASS hn PositionTexureVertex
-	FIELD a vector3D Lbo;
-	FIELD b texturePositionX F
-	FIELD c texturePositionY F
-	METHOD a setTexturePosition (FF)Lhn;

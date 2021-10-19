@@ -1,3 +1,0 @@
-CLASS fv RecipesIngots
-	FIELD a recipeItems [[Ljava/lang/Object;
-	METHOD a addRecipes (Lhd;)V

@@ -1,0 +1,7 @@
+CLASS ez net/minecraft/src/ChunkCache
+	FIELD a chunkX I
+	FIELD b chunkZ I
+	FIELD c chunkArray [[Lkd;
+	FIELD d worldObj Lfi;
+	METHOD a getLightValueExt (IIIZ)I
+	METHOD d getLightValue (III)I

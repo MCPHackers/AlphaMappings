@@ -1,0 +1,4 @@
+CLASS ki net/minecraft/src/GuiMainMenu
+	FIELD a updateCounter F
+	FIELD h allSplashes [Ljava/lang/String;
+	FIELD j splashString Ljava/lang/String;

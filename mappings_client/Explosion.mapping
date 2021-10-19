@@ -1,2 +1,0 @@
-CLASS dc Explosion
-	METHOD a doExplosion (Lfi;Leu;DDDF)V

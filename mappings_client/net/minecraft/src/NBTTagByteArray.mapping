@@ -1,0 +1,2 @@
+CLASS he net/minecraft/src/NBTTagByteArray
+	FIELD a byteArray [B

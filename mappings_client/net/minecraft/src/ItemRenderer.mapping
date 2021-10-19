@@ -1,0 +1,17 @@
+CLASS di net/minecraft/src/ItemRenderer
+	FIELD a mc Lav;
+	FIELD b itemToRender Lic;
+	FIELD c equippedProgress F
+	FIELD d prevEquippedProgress F
+	FIELD e swingProgress I
+	FIELD f itemSwingState Z
+	FIELD g renderBlocksInstance Lcs;
+	METHOD a updateEquippedItem ()V
+	METHOD a renderItemInFirstPerson (F)V
+	METHOD a renderInsideOfBlock (FI)V
+	METHOD b resetEquippedProgress ()V
+	METHOD b renderOverlays (F)V
+	METHOD c resetSwingProgress ()V
+	METHOD c renderWarpedTextureOverlay (F)V
+	METHOD d resetEquippedProgress2 ()V
+	METHOD d renderFireInFirstPerson (F)V

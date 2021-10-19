@@ -1,0 +1,23 @@
+CLASS fp net/minecraft/src/RenderManager
+	FIELD a instance Lfp;
+	FIELD b renderPosX D
+	FIELD c renderPosY D
+	FIELD d renderPosZ D
+	FIELD e renderEngine Lij;
+	FIELD f worldObj Lfi;
+	FIELD g player Lgn;
+	FIELD h playerViewY F
+	FIELD i playerViewX F
+	FIELD j options Lji;
+	FIELD k viewerPosX D
+	FIELD l viewerPosY D
+	FIELD m viewerPosZ D
+	FIELD n entityRenderMap Ljava/util/Map;
+	FIELD o fontRenderer Lem;
+	METHOD a getDistanceToCamera (DDD)D
+	METHOD a getEntityRenderObject (Leu;)Lbq;
+	METHOD a renderEntityWithPosYaw (Leu;DDDFF)V
+	METHOD a renderEntity (Leu;F)V
+	METHOD a set (Lfi;)V
+	METHOD a cacheActiveRenderInfo (Lfi;Lij;Lem;Lgn;Lji;F)V
+	METHOD a getEntityClassRenderObject (Ljava/lang/Class;)Lbq;

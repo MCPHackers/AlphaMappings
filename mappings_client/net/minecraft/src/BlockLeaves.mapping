@@ -1,0 +1,3 @@
+CLASS cu net/minecraft/src/BlockLeaves
+	FIELD b leafTexIndex I
+	METHOD a setGraphicsLevel (Z)V

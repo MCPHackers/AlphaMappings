@@ -1,0 +1,12 @@
+CLASS eg net/minecraft/src/ModelSpider
+	FIELD a spiderHead Lca;
+	FIELD b spiderNeck Lca;
+	FIELD c spiderBody Lca;
+	FIELD d spiderLeg1 Lca;
+	FIELD e spiderLeg2 Lca;
+	FIELD f spiderLeg3 Lca;
+	FIELD g spiderLeg4 Lca;
+	FIELD h spiderLeg5 Lca;
+	FIELD i spiderLeg6 Lca;
+	FIELD j spiderLeg7 Lca;
+	FIELD k spiderLeg8 Lca;

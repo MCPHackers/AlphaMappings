@@ -1,0 +1,3 @@
+CLASS hk net/minecraft/src/BlockFarmland
+	METHOD g isCropsNearby (Lfi;III)Z
+	METHOD h isWaterNearby (Lfi;III)Z

@@ -1,0 +1,2 @@
+CLASS iq net/minecraft/src/RecipesCrafting
+	METHOD a addRecipes (Lhd;)V

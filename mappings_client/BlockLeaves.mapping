@@ -1,3 +1,0 @@
-CLASS cu BlockLeaves
-	FIELD b leafTexIndex I
-	METHOD a setGraphicsLevel (Z)V

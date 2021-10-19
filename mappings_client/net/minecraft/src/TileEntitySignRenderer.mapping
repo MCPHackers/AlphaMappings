@@ -1,0 +1,3 @@
+CLASS by net/minecraft/src/TileEntitySignRenderer
+	FIELD b modelSign Ldm;
+	METHOD a renderTileEntitySignAt (Ljv;DDDF)V

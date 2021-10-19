@@ -1,0 +1,13 @@
+CLASS gv net/minecraft/src/SlotInventory
+	FIELD a inventoryGui Lho;
+	FIELD c slotIndex I
+	FIELD d xDisplayPosition I
+	FIELD e yDisplayPosition I
+	FIELD f inventory Lkk;
+	METHOD a onPickupFromSlot ()V
+	METHOD a getIsMouseOverSlot (II)Z
+	METHOD a isItemValid (Lic;)Z
+	METHOD b getBackgroundIconIndex ()I
+	METHOD b putStack (Lic;)V
+	METHOD c getStack ()Lic;
+	METHOD d onSlotChanged ()V

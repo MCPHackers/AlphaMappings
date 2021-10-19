@@ -1,2 +1,0 @@
-CLASS eb BlockContainer
-	METHOD a_ getBlockEntity ()Lbj;

@@ -1,4 +1,0 @@
-CLASS aq InventoryLargeChest
-	FIELD a name Ljava/lang/String;
-	FIELD b upperChest Lkk;
-	FIELD c lowerChest Lkk;

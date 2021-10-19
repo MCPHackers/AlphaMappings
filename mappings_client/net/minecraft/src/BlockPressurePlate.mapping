@@ -1,0 +1,3 @@
+CLASS br net/minecraft/src/BlockPressurePlate
+	FIELD a triggerMobType Lea;
+	METHOD g setStateIfMobInteractsWithPlate (Lfi;III)V

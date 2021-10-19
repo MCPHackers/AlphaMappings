@@ -1,0 +1,22 @@
+CLASS kf net/minecraft/src/Material
+	FIELD a air Lkf;
+	FIELD b grass Lkf;
+	FIELD c wood Lkf;
+	FIELD d rock Lkf;
+	FIELD e iron Lkf;
+	FIELD f water Lkf;
+	FIELD g lava Lkf;
+	FIELD h leaves Lkf;
+	FIELD i plants Lkf;
+	FIELD j sponge Lkf;
+	FIELD k cloth Lkf;
+	FIELD l fire Lkf;
+	FIELD m sand Lkf;
+	FIELD n circuits Lkf;
+	FIELD o glass Lkf;
+	FIELD p tnt Lkf;
+	FIELD q unused Lkf;
+	METHOD a isSolid ()Z
+	METHOD b getCanBlockGrass ()Z
+	METHOD c getIsSolid ()Z
+	METHOD d getIsLiquid ()Z

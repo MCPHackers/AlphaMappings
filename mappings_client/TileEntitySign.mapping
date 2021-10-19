@@ -1,3 +1,0 @@
-CLASS jv TileEntitySign
-	FIELD e signText [Ljava/lang/String;
-	FIELD f lineBeingEdited I

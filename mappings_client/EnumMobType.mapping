@@ -1,4 +1,0 @@
-CLASS ea EnumMobType
-	FIELD a everything Lea;
-	FIELD b mobs Lea;
-	FIELD c players Lea;

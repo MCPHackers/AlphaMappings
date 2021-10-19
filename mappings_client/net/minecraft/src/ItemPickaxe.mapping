@@ -1,0 +1,3 @@
+CLASS au net/minecraft/src/ItemPickaxe
+	FIELD aF blocksEffectiveAgainst [Lgx;
+	FIELD aG harvestLevel I

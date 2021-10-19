@@ -1,0 +1,2 @@
+CLASS aa net/minecraft/src/SpawnerMonsters
+	FIELD a playerController Lba;

@@ -1,2 +1,0 @@
-CLASS is NBTTagString
-	FIELD a stringValue Ljava/lang/String;

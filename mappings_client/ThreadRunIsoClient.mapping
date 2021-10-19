@@ -1,2 +1,0 @@
-CLASS fx ThreadRunIsoClient
-	FIELD a isomPreview Lbd;

@@ -1,4 +1,0 @@
-CLASS fq ThreadDownloadImage
-	FIELD a location Ljava/lang/String;
-	FIELD b buffer Lp;
-	FIELD c imageData Lel;

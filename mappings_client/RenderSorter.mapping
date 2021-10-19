@@ -1,3 +1,0 @@
-CLASS c RenderSorter
-	FIELD a baseEntity Lgn;
-	METHOD a doCompare (Ldn;Ldn;)I

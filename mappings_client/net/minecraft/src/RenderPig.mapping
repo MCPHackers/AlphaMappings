@@ -1,0 +1,2 @@
+CLASS f net/minecraft/src/RenderPig
+	METHOD a renderSaddledPig (Lih;I)Z

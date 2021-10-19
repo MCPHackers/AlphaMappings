@@ -1,0 +1,3 @@
+CLASS ay net/minecraft/src/GuiCrafting
+	FIELD k craftingInventory Lt;
+	FIELD l craftingResultInventory Lkk;

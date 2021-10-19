@@ -1,0 +1,3 @@
+CLASS ai net/minecraft/src/TileEntityMobSpawnerRenderer
+	FIELD b entityHashMap Ljava/util/Map;
+	METHOD a renderTileEntityMobSpawner (Lct;DDDF)V

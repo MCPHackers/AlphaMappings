@@ -1,9 +1,0 @@
-CLASS gs RenderLiving
-	FIELD d mainModel Liz;
-	FIELD e renderPassModel Liz;
-	METHOD a setRenderPassModel (Liz;)V
-	METHOD a getDeathMaxRotation (Lkh;)F
-	METHOD a preRenderCallback (Lkh;F)V
-	METHOD a getColorMultiplier (Lkh;FF)I
-	METHOD a shouldRenderPass (Lkh;I)Z
-	METHOD a doRenderLiving (Lkh;DDDFF)V

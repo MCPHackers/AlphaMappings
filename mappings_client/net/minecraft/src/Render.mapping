@@ -1,0 +1,17 @@
+CLASS bq net/minecraft/src/Render
+	FIELD a renderManager Lfp;
+	FIELD b shadowSize F
+	FIELD c shadowOpaque F
+	FIELD d modelBase Liz;
+	FIELD e renderBlocks Lcs;
+	METHOD a getWorldFromRenderManager ()Lfi;
+	METHOD a renderAABB (Leq;)V
+	METHOD a renderOffsetAABB (Leq;DDD)V
+	METHOD a renderEntityOnFire (Leu;DDDF)V
+	METHOD a doRender (Leu;DDDFF)V
+	METHOD a setRenderManager (Lfp;)V
+	METHOD a renderShadowOnBlock (Lgx;DDDIIIFFDDD)V
+	METHOD a loadTexture (Ljava/lang/String;)V
+	METHOD a loadDownloadableImageTexture (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD b doRenderShadowAndFire (Leu;DDDFF)V
+	METHOD c renderShadow (Leu;DDDFF)V

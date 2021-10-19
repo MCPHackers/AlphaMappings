@@ -1,5 +1,0 @@
-CLASS jm GuiEditSign
-	FIELD a screenTitle Ljava/lang/String;
-	FIELD h entitySign Ljv;
-	FIELD j updateCounter I
-	FIELD k editLine I

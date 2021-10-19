@@ -1,0 +1,4 @@
+CLASS ea net/minecraft/src/EnumMobType
+	FIELD a everything Lea;
+	FIELD b mobs Lea;
+	FIELD c players Lea;

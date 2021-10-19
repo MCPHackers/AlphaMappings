@@ -1,0 +1,2 @@
+CLASS io net/minecraft/src/TileEntityChest
+	FIELD e chestContents [Lic;

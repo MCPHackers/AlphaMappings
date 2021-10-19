@@ -1,0 +1,2 @@
+CLASS ih net/minecraft/src/EntityPig
+	FIELD a saddled Z

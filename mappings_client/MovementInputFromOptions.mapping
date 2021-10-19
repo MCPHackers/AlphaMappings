@@ -1,3 +1,0 @@
-CLASS kg MovementInputFromOptions
-	FIELD e movementKeyStates [Z
-	FIELD f gameSettings Lji;

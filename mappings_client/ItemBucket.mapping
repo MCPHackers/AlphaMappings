@@ -1,2 +1,0 @@
-CLASS bb ItemBucket
-	FIELD a isFull I

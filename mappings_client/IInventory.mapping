@@ -1,8 +1,0 @@
-CLASS kk IInventory
-	METHOD a getSizeInventory ()I
-	METHOD a getStackInSlot (I)Lic;
-	METHOD a decrStackSize (II)Lic;
-	METHOD a setInventorySlotContents (ILic;)V
-	METHOD b getInvName ()Ljava/lang/String;
-	METHOD c getInventoryStackLimit ()I
-	METHOD d onInventoryChanged ()V

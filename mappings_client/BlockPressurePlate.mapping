@@ -1,3 +1,0 @@
-CLASS br BlockPressurePlate
-	FIELD a triggerMobType Lea;
-	METHOD g setStateIfMobInteractsWithPlate (Lfi;III)V

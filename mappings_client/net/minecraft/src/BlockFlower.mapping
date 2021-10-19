@@ -1,0 +1,4 @@
+CLASS ib net/minecraft/src/BlockFlower
+	METHOD b canThisPlantGrowOnThisBlockID (I)Z
+	METHOD g canBlockStay (Lfi;III)Z
+	METHOD h checkFlowerChange (Lfi;III)V

@@ -1,0 +1,7 @@
+CLASS dv net/minecraft/src/GuiSelectWorld
+	FIELD a parentScreen Lde;
+	FIELD h screenTitle Ljava/lang/String;
+	FIELD j selected Z
+	METHOD a selectWorld (I)V
+	METHOD c getSaveName (I)Ljava/lang/String;
+	METHOD d_ initButtons ()V

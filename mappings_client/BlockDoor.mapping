@@ -1,4 +1,0 @@
-CLASS jt BlockDoor
-	METHOD a onPoweredBlockChange (Lfi;IIIZ)V
-	METHOD b setDoorRotation (I)V
-	METHOD d getState (I)I

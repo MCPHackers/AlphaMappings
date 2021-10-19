@@ -1,0 +1,4 @@
+CLASS gk net/minecraft/src/BlockSign
+	FIELD a signEntityClass Ljava/lang/Class;
+	FIELD b itemDropID I
+	FIELD c isFreestanding Z

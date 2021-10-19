@@ -1,0 +1,11 @@
+CLASS es net/minecraft/src/EntityArrow
+	FIELD X yTile I
+	FIELD Y zTile I
+	FIELD Z inTile I
+	FIELD a arrowShake I
+	FIELD aa inData Z
+	FIELD ab shootingEntity Lkh;
+	FIELD ac ticksInGround I
+	FIELD ad ticksInAir I
+	FIELD b xTile I
+	METHOD a setArrowHeading (DDDFF)V

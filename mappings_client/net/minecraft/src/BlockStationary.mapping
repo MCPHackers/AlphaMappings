@@ -1,0 +1,2 @@
+CLASS af net/minecraft/src/BlockStationary
+	METHOD h setNotStationary (Lfi;III)V

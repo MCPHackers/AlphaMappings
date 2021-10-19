@@ -1,5 +1,0 @@
-CLASS ex BlockStairs
-	FIELD a modelBlock Lgx;
-	METHOD g updateState (Lfi;III)V
-	METHOD h isBlockSolid (Lfi;III)Z
-	METHOD i isBlockStair (Lfi;III)Z

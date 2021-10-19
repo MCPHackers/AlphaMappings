@@ -1,0 +1,20 @@
+CLASS hp net/minecraft/src/MinecartTrackLogic
+	FIELD a minecartTrack Lbm;
+	FIELD b worldObj Lfi;
+	FIELD c trackX I
+	FIELD d trackY I
+	FIELD e trackZ I
+	FIELD f trackMetadata I
+	FIELD g connectedTracks Ljava/util/List;
+	METHOD a calculateConnectedTracks ()V
+	METHOD a isMinecartTrack (III)Z
+	METHOD a getNAdjacentTracks (Lhp;)I
+	METHOD a getMinecartTrackLogic (Lig;)Lhp;
+	METHOD a place (Z)V
+	METHOD b refreshConnectedTracks ()V
+	METHOD b isInTrack (III)Z
+	METHOD b isConnectedTo (Lhp;)Z
+	METHOD c getAdjacentTracks ()I
+	METHOD c canConnectFrom (III)Z
+	METHOD c canConnectTo (Lhp;)Z
+	METHOD d connectToNeighbor (Lhp;)V

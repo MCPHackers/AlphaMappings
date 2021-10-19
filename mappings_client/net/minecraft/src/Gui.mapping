@@ -1,0 +1,6 @@
+CLASS gb net/minecraft/src/Gui
+	FIELD i zLevel F
+	METHOD a drawGradientRect (IIIIII)V
+	METHOD a drawCenteredString (Lem;Ljava/lang/String;III)V
+	METHOD b drawTexturedModalRect (IIIIII)V
+	METHOD b drawString (Lem;Ljava/lang/String;III)V

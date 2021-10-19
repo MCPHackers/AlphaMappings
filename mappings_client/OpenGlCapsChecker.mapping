@@ -1,2 +1,0 @@
-CLASS cv OpenGlCapsChecker
-	METHOD a checkARBOcclusion ()Z

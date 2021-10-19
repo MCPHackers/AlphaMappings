@@ -1,0 +1,2 @@
+CLASS fd net/minecraft/src/ItemAxe
+	FIELD aF blocksEffectiveAgainst [Lgx;

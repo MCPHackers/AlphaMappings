@@ -1,0 +1,3 @@
+CLASS il net/minecraft/src/EntitySorter
+	FIELD a comparedEntity Leu;
+	METHOD a sortByDistanceToEntity (Ldn;Ldn;)I

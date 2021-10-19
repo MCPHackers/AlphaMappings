@@ -1,0 +1,2 @@
+CLASS do net/minecraft/src/ItemSeeds
+	FIELD a blockType I

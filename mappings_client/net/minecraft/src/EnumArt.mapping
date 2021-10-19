@@ -1,0 +1,25 @@
+CLASS hx net/minecraft/src/EnumArt
+	FIELD a Kebab Lhx;
+	FIELD b Aztec Lhx;
+	FIELD c Alban Lhx;
+	FIELD d Aztec2 Lhx;
+	FIELD e Bomb Lhx;
+	FIELD f Plant Lhx;
+	FIELD g Wasteland Lhx;
+	FIELD h Pool Lhx;
+	FIELD i Courbet Lhx;
+	FIELD j Sea Lhx;
+	FIELD k Sunset Lhx;
+	FIELD l Wanderer Lhx;
+	FIELD m Match Lhx;
+	FIELD n Bust Lhx;
+	FIELD o Stage Lhx;
+	FIELD p Void Lhx;
+	FIELD q SkullAndRoses Lhx;
+	FIELD r Fighters Lhx;
+	FIELD s Pointer Lhx;
+	FIELD t title Ljava/lang/String;
+	FIELD u sizeX I
+	FIELD v sizeY I
+	FIELD w offsetX I
+	FIELD x offsetY I

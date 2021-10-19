@@ -1,2 +1,0 @@
-CLASS do ItemSeeds
-	FIELD a blockType I

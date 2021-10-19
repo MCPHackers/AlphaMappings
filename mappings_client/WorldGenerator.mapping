@@ -1,3 +1,0 @@
-CLASS bs WorldGenerator
-	METHOD a setScale (DDD)V
-	METHOD a generate (Lfi;Ljava/util/Random;III)Z

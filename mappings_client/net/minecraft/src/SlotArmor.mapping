@@ -1,0 +1,3 @@
+CLASS fz net/minecraft/src/SlotArmor
+	FIELD a armorType I
+	FIELD b guiInventory Lge;

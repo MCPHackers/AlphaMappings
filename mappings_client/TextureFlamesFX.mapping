@@ -1,3 +1,0 @@
-CLASS eh TextureFlamesFX
-	FIELD a currentFireFrame [F
-	FIELD b lastFireFrame [F

@@ -1,0 +1,6 @@
+CLASS ep net/minecraft/src/EntityPickupFX
+	FIELD a entityToPickUp Leu;
+	FIELD aj entityPickingUp Lkh;
+	FIELD ak age I
+	FIELD al maxAge I
+	FIELD am yOffs F

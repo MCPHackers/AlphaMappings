@@ -1,0 +1,2 @@
+CLASS b net/minecraft/src/RenderArrow
+	METHOD a renderArrow (Les;DDDFF)V

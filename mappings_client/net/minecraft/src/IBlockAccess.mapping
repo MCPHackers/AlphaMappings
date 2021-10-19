@@ -1,0 +1,7 @@
+CLASS jb net/minecraft/src/IBlockAccess
+	METHOD a getBlockId (III)I
+	METHOD b getBlockTileEntity (III)Lbj;
+	METHOD c getBrightness (III)F
+	METHOD e getBlockMetadata (III)I
+	METHOD f getBlockMaterial (III)Lkf;
+	METHOD g isBlockNormalCube (III)Z

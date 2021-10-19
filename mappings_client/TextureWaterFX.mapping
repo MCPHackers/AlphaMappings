@@ -1,6 +1,0 @@
-CLASS hv TextureWaterFX
-	FIELD a red [F
-	FIELD b green [F
-	FIELD c blue [F
-	FIELD d alpha [F
-	FIELD j tickCounter I

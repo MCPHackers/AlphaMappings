@@ -1,0 +1,4 @@
+CLASS iz net/minecraft/src/ModelBase
+	FIELD l swingProgress F
+	METHOD a render (FFFFFF)V
+	METHOD b setRotationAngles (FFFFFF)V
