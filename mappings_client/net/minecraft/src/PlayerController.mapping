@@ -13,4 +13,4 @@ CLASS hq net/minecraft/src/PlayerController
 	METHOD b onRespawn (Ldm;)V
 	METHOD c onUpdate ()V
 	METHOD c sendBlockRemoving (IIII)V
-	METHOD d shouldDrawHealth ()Z
+	METHOD d shouldDrawHUD ()Z
