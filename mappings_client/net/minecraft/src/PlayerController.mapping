@@ -12,4 +12,4 @@ CLASS aj net/minecraft/src/PlayerController
 	METHOD b onRespawn (Lgn;)V
 	METHOD c getBlockReachDistance ()F
 	METHOD d onUpdate ()V
-	METHOD e shouldDrawHealth ()Z
+	METHOD e shouldDrawHUD ()Z
