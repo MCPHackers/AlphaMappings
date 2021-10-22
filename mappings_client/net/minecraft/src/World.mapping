@@ -9,7 +9,7 @@ CLASS fi net/minecraft/src/World
 	FIELD b worldTime J
 	FIELD c skylightSubtracted I
 	FIELD d editingBlocks Z
-	FIELD e lightBrightness [F
+	FIELD e lightBrightnessTable [F
 	FIELD f playerEntity Leu;
 	FIELD g difficultySetting I
 	FIELD h fontRenderer Ljava/lang/Object;
@@ -96,7 +96,7 @@ CLASS fi net/minecraft/src/World
 	METHOD d setBlockWithNotify (IIII)Z
 	METHOD e getDebugLoadedEntities ()Ljava/lang/String;
 	METHOD e getFogColor (F)Lbo;
-	METHOD e getInitialSpawnLocation (II)Z
+	METHOD e findSpawn (II)Z
 	METHOD e markBlockAsNeedsUpdate (IIII)V
 	METHOD f getPlayerEntity ()Leu;
 	METHOD f getStarBrightness (F)F

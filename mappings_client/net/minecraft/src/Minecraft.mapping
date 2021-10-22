@@ -32,7 +32,7 @@ CLASS av net/minecraft/src/Minecraft
 	FIELD i session Lgl;
 	FIELD j minecraftUri Ljava/lang/String;
 	FIELD k mcCanvas Ljava/awt/Canvas;
-	FIELD l hideQuitButton Z
+	FIELD l appletMode Z
 	FIELD m isGamePaused Z
 	FIELD n renderEngine Lij;
 	FIELD o fontRenderer Lem;
