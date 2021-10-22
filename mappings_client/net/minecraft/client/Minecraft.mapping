@@ -35,7 +35,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD i session Ldl;
 	FIELD j minecraftUri Ljava/lang/String;
 	FIELD k mcCanvas Ljava/awt/Canvas;
-	FIELD l hideQuitButton Z
+	FIELD l appletMode Z
 	FIELD m isGamePaused Z
 	FIELD n renderEngine Ley;
 	FIELD o fontRenderer Lkd;
@@ -79,12 +79,10 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD k getOpenGlCapsChecker ()Lbe;
 	METHOD l debugInfoRenders ()Ljava/lang/String;
 	METHOD m getEntityDebug ()Ljava/lang/String;
-	METHOD main ([Ljava/lang/String;)V
 	METHOD n debugInfoEntities ()Ljava/lang/String;
 	METHOD o respawn ()V
 	METHOD p loadScreen ()V
 	METHOD q getOs ()Lih;
 	METHOD r displayDebugInfo ()V
-	METHOD run ()V
 	METHOD s clickMiddleMouseButton ()V
 	METHOD t forceReload ()V

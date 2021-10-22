@@ -20,7 +20,7 @@ CLASS cn net/minecraft/src/World
 	FIELD f updateLCG I
 	FIELD g DIST_HASH_MAGIC I
 	FIELD h editingBlocks Z
-	FIELD i lightBrightness [F
+	FIELD i lightBrightnessTable [F
 	FIELD j autosavePeriod I
 	FIELD k playerEntities Ljava/util/List;
 	FIELD l difficultySetting I
@@ -117,7 +117,7 @@ CLASS cn net/minecraft/src/World
 	METHOD e updateEntity (Lkh;)V
 	METHOD f calculateInitialSkylight ()V
 	METHOD f getStarBrightness (F)F
-	METHOD f getInitialSpawnLocation (II)Z
+	METHOD f findSpawn (II)Z
 	METHOD f markBlockAsNeedsUpdate (IIII)V
 	METHOD f joinEntityInSurroundings (Lkh;)V
 	METHOD g tick ()V
