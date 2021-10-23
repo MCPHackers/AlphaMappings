@@ -19,7 +19,7 @@ CLASS dy net/minecraft/src/World
 	FIELD f updateLCG I
 	FIELD g DIST_HASH_MAGIC I
 	FIELD h editingBlocks Z
-	FIELD i lightBrightness [F
+	FIELD i lightBrightnessTable [F
 	FIELD j autosavePeriod I
 	FIELD k playerEntities Ljava/util/List;
 	FIELD l difficultySetting I
