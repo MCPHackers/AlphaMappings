@@ -1,2 +1,0 @@
-CLASS nk net/minecraft/src/NetworkWriterThread
-	FIELD a netManager Lii;

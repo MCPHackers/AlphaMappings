@@ -1,5 +1,0 @@
-CLASS bg net/minecraft/src/BlockRedstoneTorch
-	FIELD a torchActive Z
-	FIELD b torchUpdates Ljava/util/List;
-	METHOD a checkForBurnout (Lcn;IIIZ)Z
-	METHOD h isIndirectlyPowered (Lcn;III)Z

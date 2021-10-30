@@ -1,3 +1,0 @@
-CLASS ok net/minecraft/src/RenderSpider
-	METHOD a setSpiderDeathMaxRotation (Lax;)F
-	METHOD a setSpiderEyeBrightness (Lax;I)Z

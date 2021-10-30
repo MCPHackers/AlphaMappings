@@ -1,9 +1,0 @@
-CLASS bi net/minecraft/src/EntityPlayerSP
-	FIELD a movementInput Llv;
-	FIELD bg mc Lnet/minecraft/client/Minecraft;
-	METHOD a handleKeyPress (IZ)V
-	METHOD a sendChatMessage (Ljava/lang/String;)V
-	METHOD a attackEntity (Lkh;)V
-	METHOD k resetPlayerKeyState ()V
-	METHOD m getPlayerArmorValue ()I
-	METHOD n onPlayerUpdate ()V

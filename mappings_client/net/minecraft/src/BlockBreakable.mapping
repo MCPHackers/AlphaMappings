@@ -1,2 +1,0 @@
-CLASS fc net/minecraft/src/BlockBreakable
-	FIELD a localFlag Z

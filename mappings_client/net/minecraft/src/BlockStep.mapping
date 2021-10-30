@@ -1,2 +1,0 @@
-CLASS oi net/minecraft/src/BlockStep
-	FIELD a blockType Z

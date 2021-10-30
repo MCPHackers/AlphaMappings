@@ -1,3 +1,0 @@
-CLASS d net/minecraft/src/RenderCreeper
-	METHOD a updateCreeperScale (Ldd;F)V
-	METHOD a updateCreeperColorMultiplier (Ldd;FF)I

@@ -1,6 +1,0 @@
-CLASS dw net/minecraft/src/CraftingManager
-	FIELD a instance Ldw;
-	FIELD b recipes Ljava/util/List;
-	METHOD a getInstance ()Ldw;
-	METHOD a addRecipe (Lev;[Ljava/lang/Object;)V
-	METHOD a findMatchingRecipe ([I)Lev;

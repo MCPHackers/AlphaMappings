@@ -1,2 +1,0 @@
-CLASS mw net/minecraft/src/InventoryCraftResult
-	FIELD a stackResult [Lev;

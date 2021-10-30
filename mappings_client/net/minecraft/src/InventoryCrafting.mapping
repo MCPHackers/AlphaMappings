@@ -1,4 +1,0 @@
-CLASS gu net/minecraft/src/InventoryCrafting
-	FIELD a stackList [Lev;
-	FIELD b gridSize I
-	FIELD c craftingInventory Lar;

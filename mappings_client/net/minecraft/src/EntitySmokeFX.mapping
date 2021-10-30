@@ -1,2 +1,0 @@
-CLASS nl net/minecraft/src/EntitySmokeFX
-	FIELD a smokeParticleScale F

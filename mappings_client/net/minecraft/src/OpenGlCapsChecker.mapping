@@ -1,3 +1,0 @@
-CLASS be net/minecraft/src/OpenGlCapsChecker
-	FIELD a tryCheckOcclusionCapable Z
-	METHOD a checkARBOcclusion ()Z

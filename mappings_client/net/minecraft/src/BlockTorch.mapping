@@ -1,2 +1,0 @@
-CLASS mj net/minecraft/src/BlockTorch
-	METHOD h checkIfAttachedToBlock (Lcn;III)Z

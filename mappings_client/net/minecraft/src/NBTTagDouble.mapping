@@ -1,2 +1,0 @@
-CLASS kr net/minecraft/src/NBTTagDouble
-	FIELD a doubleValue D

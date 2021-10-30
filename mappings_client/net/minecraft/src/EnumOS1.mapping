@@ -1,6 +1,0 @@
-CLASS fa net/minecraft/src/EnumOS1
-	FIELD a linux Lfa;
-	FIELD b solaris Lfa;
-	FIELD c windows Lfa;
-	FIELD d macos Lfa;
-	FIELD e unknown Lfa;

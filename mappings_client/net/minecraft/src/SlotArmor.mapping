@@ -1,3 +1,0 @@
-CLASS lj net/minecraft/src/SlotArmor
-	FIELD c armorType I
-	FIELD d guiInventory Llo;

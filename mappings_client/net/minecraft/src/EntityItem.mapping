@@ -1,8 +1,0 @@
-CLASS dx net/minecraft/src/EntityItem
-	FIELD a item Lev;
-	FIELD b age I
-	FIELD c delayBeforeCanPickup I
-	FIELD d hoverStart F
-	FIELD e age2 I
-	FIELD f health I
-	METHOD g pushOutOfBlocks (DDD)Z

@@ -1,2 +1,0 @@
-CLASS nh net/minecraft/src/NetworkMasterThread
-	FIELD a netManager Lii;

@@ -1,2 +1,0 @@
-CLASS du net/minecraft/src/Packet4UpdateTime
-	FIELD a time J

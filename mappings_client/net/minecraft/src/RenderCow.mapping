@@ -1,2 +1,0 @@
-CLASS mc net/minecraft/src/RenderCow
-	METHOD a renderCow (Lam;DDDFF)V

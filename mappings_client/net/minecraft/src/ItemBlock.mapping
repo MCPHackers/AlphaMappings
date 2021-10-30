@@ -1,2 +1,0 @@
-CLASS av net/minecraft/src/ItemBlock
-	FIELD a blockID I

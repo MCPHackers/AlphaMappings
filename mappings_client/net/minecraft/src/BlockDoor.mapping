@@ -1,4 +1,0 @@
-CLASS fw net/minecraft/src/BlockDoor
-	METHOD a onPoweredBlockChange (Lcn;IIIZ)V
-	METHOD b setDoorRotation (I)V
-	METHOD c getState (I)I

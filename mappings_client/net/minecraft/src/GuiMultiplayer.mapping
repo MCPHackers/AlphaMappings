@@ -1,4 +1,0 @@
-CLASS gc net/minecraft/src/GuiMultiplayer
-	FIELD a parentScreen Lbh;
-	FIELD h updateCounter I
-	FIELD i ipText Ljava/lang/String;

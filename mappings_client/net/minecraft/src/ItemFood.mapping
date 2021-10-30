@@ -1,2 +1,0 @@
-CLASS oj net/minecraft/src/ItemFood
-	FIELD a healAmount I

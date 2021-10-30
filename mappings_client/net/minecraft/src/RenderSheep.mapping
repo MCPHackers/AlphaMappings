@@ -1,2 +1,0 @@
-CLASS ns net/minecraft/src/RenderSheep
-	METHOD a renderFur (Lbo;I)Z

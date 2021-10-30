@@ -5,7 +5,5 @@ CLASS co net/minecraft/src/GuiLogOutputHandler
 	FIELD d textArea Ljavax/swing/JTextArea;
 	METHOD <init> (Ljavax/swing/JTextArea;)V
 		ARG 1 textArea
-	METHOD close ()V
-	METHOD flush ()V
 	METHOD publish (Ljava/util/logging/LogRecord;)V
 		ARG 1 logRecord

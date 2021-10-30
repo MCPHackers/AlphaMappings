@@ -1,3 +1,0 @@
-CLASS gv net/minecraft/src/WorldGenClay
-	FIELD a clayBlockId I
-	FIELD b numberOfBlocks I

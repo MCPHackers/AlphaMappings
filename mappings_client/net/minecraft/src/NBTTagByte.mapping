@@ -1,2 +1,0 @@
-CLASS ix net/minecraft/src/NBTTagByte
-	FIELD a byteValue B

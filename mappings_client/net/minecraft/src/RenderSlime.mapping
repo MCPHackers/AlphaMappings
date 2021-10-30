@@ -1,4 +1,0 @@
-CLASS gq net/minecraft/src/RenderSlime
-	FIELD f modelSlime Lfo;
-	METHOD a squishSlime (Lma;F)V
-	METHOD a renderSlimePassModel (Lma;I)Z

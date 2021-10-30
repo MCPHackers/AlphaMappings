@@ -1,2 +1,0 @@
-CLASS gt net/minecraft/src/Packet2Handshake
-	FIELD a username Ljava/lang/String;

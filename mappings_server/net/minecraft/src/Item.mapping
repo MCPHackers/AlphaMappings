@@ -40,14 +40,13 @@ CLASS ez net/minecraft/src/Item
 	FIELD aM minecartEngine Lez;
 	FIELD aN egg Lez;
 	FIELD aO compass Lez;
-	FIELD aP fishingRod Lez;
-	FIELD aQ record13 Lez;
-	FIELD aR recordCat Lez;
-	FIELD aS shiftedIndex I
-	FIELD aT maxStackSize I
-	FIELD aU maxDamage I
-	FIELD aV iconIndex I
-	FIELD aW bFull3D Z
+	FIELD aP record13 Lez;
+	FIELD aQ recordCat Lez;
+	FIELD aR shiftedIndex I
+	FIELD aS maxStackSize I
+	FIELD aT maxDamage I
+	FIELD aU iconIndex I
+	FIELD aV bFull3D Z
 	FIELD aa bootsChain Lez;
 	FIELD ab helmetSteel Lez;
 	FIELD ac plateSteel Lez;

@@ -1,2 +1,0 @@
-CLASS ju net/minecraft/src/Packet29DestroyEntity
-	FIELD a entityId I

@@ -1,6 +1,0 @@
-CLASS kj net/minecraft/src/Packet23VehicleSpawn
-	FIELD a entityId I
-	FIELD b xPosition I
-	FIELD c yPosition I
-	FIELD d zPosition I
-	FIELD e type I

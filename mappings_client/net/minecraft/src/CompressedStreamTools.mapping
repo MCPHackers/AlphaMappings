@@ -1,7 +1,0 @@
-CLASS x net/minecraft/src/CompressedStreamTools
-	METHOD a compress (Lhm;)[B
-	METHOD a write (Lhm;Ljava/io/DataOutput;)V
-	METHOD a writeCompressed (Lhm;Ljava/io/OutputStream;)V
-	METHOD a read (Ljava/io/DataInput;)Lhm;
-	METHOD a readCompressed (Ljava/io/InputStream;)Lhm;
-	METHOD a decompress ([B)Lhm;

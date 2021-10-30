@@ -1,3 +1,0 @@
-CLASS y net/minecraft/src/ItemPickaxe
-	FIELD aX blocksEffectiveAgainst [Lly;
-	FIELD aY harvestLevel I

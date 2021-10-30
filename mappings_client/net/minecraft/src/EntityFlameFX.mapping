@@ -1,2 +1,0 @@
-CLASS jb net/minecraft/src/EntityFlameFX
-	FIELD a flameScale F

@@ -1,6 +1,0 @@
-CLASS iy net/minecraft/src/ScaledResolution
-	FIELD a scaleFactor I
-	FIELD b scaledWidth I
-	FIELD c scaledHeight I
-	METHOD a getScaledWidth ()I
-	METHOD b getScaledHeight ()I

@@ -1,2 +1,0 @@
-CLASS jm net/minecraft/src/BlockReed
-	METHOD h checkBlockCoordValid (Lcn;III)V

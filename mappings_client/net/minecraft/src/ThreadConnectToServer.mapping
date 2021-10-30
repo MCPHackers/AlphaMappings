@@ -1,5 +1,0 @@
-CLASS nc net/minecraft/src/ThreadConnectToServer
-	FIELD a mc Lnet/minecraft/client/Minecraft;
-	FIELD b ip Ljava/lang/String;
-	FIELD c port I
-	FIELD d connectingGui Lmn;

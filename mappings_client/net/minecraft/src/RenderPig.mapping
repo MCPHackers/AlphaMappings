@@ -1,2 +1,0 @@
-CLASS gm net/minecraft/src/RenderPig
-	METHOD a renderSaddledPig (Lmv;I)Z

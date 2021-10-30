@@ -1,2 +1,0 @@
-CLASS gk net/minecraft/src/RenderArrow
-	METHOD a renderArrow (Lkg;DDDFF)V

@@ -1,7 +1,4 @@
 CLASS gk net/minecraft/src/EnumArt
-	FIELD A sizeY I
-	FIELD B offsetX I
-	FIELD C offsetY I
 	FIELD a Kebab Lgk;
 	FIELD b Aztec Lgk;
 	FIELD c Alban Lgk;
@@ -13,23 +10,20 @@ CLASS gk net/minecraft/src/EnumArt
 	FIELD i Courbet Lgk;
 	FIELD j Sea Lgk;
 	FIELD k Sunset Lgk;
-	FIELD l Creebet Lgk;
-	FIELD m Wanderer Lgk;
-	FIELD n Graham Lgk;
-	FIELD o Match Lgk;
-	FIELD p Bust Lgk;
-	FIELD q Stage Lgk;
-	FIELD r Void Lgk;
-	FIELD s SkullAndRoses Lgk;
-	FIELD t Fighters Lgk;
-	FIELD u Pointer Lgk;
-	FIELD v Pigscene Lgk;
-	FIELD w Skeleton Lgk;
-	FIELD x DonkeyKong Lgk;
-	FIELD y title Ljava/lang/String;
-	FIELD z sizeX I
+	FIELD l Wanderer Lgk;
+	FIELD m Match Lgk;
+	FIELD n Bust Lgk;
+	FIELD o Stage Lgk;
+	FIELD p Void Lgk;
+	FIELD q SkullAndRoses Lgk;
+	FIELD r Fighters Lgk;
+	FIELD s Pointer Lgk;
+	FIELD t title Ljava/lang/String;
+	FIELD u sizeX I
+	FIELD v sizeY I
+	FIELD w offsetX I
+	FIELD x offsetY I
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
 		ARG 3 title
 		ARG 4 sizeX
 		ARG 5 sizeY
-	METHOD values ()[Lgk;

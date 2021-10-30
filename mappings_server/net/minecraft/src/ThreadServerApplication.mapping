@@ -3,4 +3,3 @@ CLASS bm net/minecraft/src/ThreadServerApplication
 	METHOD <init> (Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V
 		ARG 1 threadName
 		ARG 2 minecraftServer
-	METHOD run ()V

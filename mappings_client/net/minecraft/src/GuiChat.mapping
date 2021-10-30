@@ -1,3 +1,0 @@
-CLASS de net/minecraft/src/GuiChat
-	FIELD a message Ljava/lang/String;
-	FIELD h updateCounter I

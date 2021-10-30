@@ -1,2 +1,0 @@
-CLASS g net/minecraft/src/MinecraftAppletImpl
-	FIELD a mainFrame Lnet/minecraft/client/MinecraftApplet;

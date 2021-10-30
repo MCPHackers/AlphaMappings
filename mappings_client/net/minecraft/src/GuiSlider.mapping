@@ -1,4 +1,0 @@
-CLASS mo net/minecraft/src/GuiSlider
-	FIELD i sliderValue F
-	FIELD j dragging Z
-	FIELD l idFloat I

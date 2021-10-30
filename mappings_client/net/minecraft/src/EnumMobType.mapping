@@ -1,4 +1,0 @@
-CLASS js net/minecraft/src/EnumMobType
-	FIELD a everything Ljs;
-	FIELD b mobs Ljs;
-	FIELD c players Ljs;

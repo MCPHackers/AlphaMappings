@@ -1,8 +1,4 @@
 CLASS cp net/minecraft/src/ItemTool
-	FIELD a toolMaterial I
-	FIELD aX blocksEffectiveAgainst [Lff;
-	FIELD aY efficiencyOnProperMaterial F
-	FIELD aZ damageVsEntity I
 	METHOD <init> (III[Lff;)V
 		ARG 1 itemID
 		ARG 2 damage

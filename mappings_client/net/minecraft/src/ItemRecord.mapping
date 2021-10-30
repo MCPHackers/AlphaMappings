@@ -1,2 +1,0 @@
-CLASS lg net/minecraft/src/ItemRecord
-	FIELD a recordName Ljava/lang/String;

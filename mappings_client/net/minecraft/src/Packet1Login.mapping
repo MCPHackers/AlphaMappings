@@ -1,4 +1,0 @@
-CLASS hp net/minecraft/src/Packet1Login
-	FIELD a protocolVersion I
-	FIELD b username Ljava/lang/String;
-	FIELD c password Ljava/lang/String;

@@ -1,3 +1,0 @@
-CLASS gl net/minecraft/src/RenderSorter
-	FIELD a baseEntity Ldm;
-	METHOD a doCompare (Lbn;Lbn;)I
