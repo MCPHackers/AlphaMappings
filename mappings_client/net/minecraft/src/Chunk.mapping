@@ -27,7 +27,7 @@ CLASS ga net/minecraft/src/Chunk
 	METHOD a getRandomWithSeed (J)Ljava/util/Random;
 	METHOD a getSavedLightValue (Lby;III)I
 	METHOD a setLightValue (Lby;IIII)V
-	METHOD a addEntity (Lic;)V
+	METHOD a addTileEntity (Lic;)V
 	METHOD a getEntitiesOfTypeWithinAAAB (Ljava/lang/Class;Lcf;Ljava/util/List;)V
 	METHOD a addEntity (Lkh;)V
 	METHOD a removeEntityAtIndex (Lkh;I)V
