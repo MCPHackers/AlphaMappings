@@ -11,7 +11,7 @@ CLASS di net/minecraft/src/ItemRenderer
 	METHOD a renderInsideOfBlock (FI)V
 	METHOD b resetEquippedProgress ()V
 	METHOD b renderOverlays (F)V
-	METHOD c resetSwingProgress ()V
+	METHOD c swing ()V
 	METHOD c renderWarpedTextureOverlay (F)V
 	METHOD d resetEquippedProgress2 ()V
 	METHOD d renderFireInFirstPerson (F)V
