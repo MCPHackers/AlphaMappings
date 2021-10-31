@@ -46,8 +46,8 @@ CLASS eu net/minecraft/src/Entity
 	FIELD t boundingBox Leq;
 	FIELD u onGround Z
 	FIELD v isCollidedHorizontally Z
-	FIELD w isCollidedVertically Z
-	FIELD x isCollided Z
+	FIELD w isCollided Z
+	FIELD x surfaceCollision Z
 	FIELD y isDead Z
 	FIELD z yOffset F
 	METHOD a isInRangeToRenderDist (D)Z
