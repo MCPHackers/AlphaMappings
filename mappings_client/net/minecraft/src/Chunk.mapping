@@ -14,8 +14,8 @@ CLASS ga net/minecraft/src/Chunk
 	FIELD m entities [Ljava/util/List;
 	FIELD n isTerrainPopulated Z
 	FIELD o isModified Z
-	FIELD p canAddEntities Z
-	FIELD q canRemoveEntities Z
+	FIELD p neverSave Z
+	FIELD q isChunkRendered Z
 	FIELD r hasEntities Z
 	FIELD s lastSaveTime J
 	METHOD a doNothing ()V
