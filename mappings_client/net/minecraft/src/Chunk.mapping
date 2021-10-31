@@ -24,7 +24,7 @@ CLASS kd net/minecraft/src/Chunk
 	METHOD a setBlockID (IIII)Z
 	METHOD a setBlockIDWithMetadata (IIIII)Z
 	METHOD a setChunkBlockTileEntity (IIILbj;)V
-	METHOD a addEntity (Lbj;)V
+	METHOD a addTileEntity (Lbj;)V
 	METHOD a getSavedLightValue (Lef;III)I
 	METHOD a setLightValue (Lef;IIII)V
 	METHOD a addEntity (Leu;)V
