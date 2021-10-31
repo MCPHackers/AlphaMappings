@@ -5,7 +5,7 @@ CLASS gx net/minecraft/src/Block
 	FIELD D lavaStill Lgx;
 	FIELD E sand Lgx;
 	FIELD F gravel Lgx;
-	FIELD G oreIGold Lgx;
+	FIELD G oreGold Lgx;
 	FIELD H oreIron Lgx;
 	FIELD I oreCoal Lgx;
 	FIELD J wood Lgx;
