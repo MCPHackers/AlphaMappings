@@ -50,7 +50,7 @@ CLASS kh net/minecraft/src/Entity
 	FIELD aw isCollidedHorizontally Z
 	FIELD ax isCollidedVertically Z
 	FIELD ay isCollided Z
-	FIELD az bool Z
+	FIELD az surfaceCollision Z
 	FIELD b nextStepDistance I
 	FIELD ba chunkCoordX I
 	FIELD bb chunkCoordY I

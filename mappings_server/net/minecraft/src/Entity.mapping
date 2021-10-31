@@ -1,5 +1,5 @@
 CLASS dj net/minecraft/src/Entity
-	FIELD A bool Z
+	FIELD A surfaceCollision Z
 	FIELD B isDead Z
 	FIELD C yOffset F
 	FIELD D width F
