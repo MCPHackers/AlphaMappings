@@ -44,7 +44,7 @@ CLASS im net/minecraft/src/Chunk
 		ARG 3 z
 		ARG 4 tileEntity
 	METHOD a getRandomWithSeed (J)Ljava/util/Random;
-	METHOD a addEntity (Las;)V
+	METHOD a addTileEntity (Las;)V
 		ARG 1 tileEntity
 	METHOD a getSavedLightValue (Lcy;III)I
 		ARG 2 x
