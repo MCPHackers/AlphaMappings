@@ -1,4 +1,4 @@
-CLASS ds net/minecraft/src/BlockFluids
+CLASS ds net/minecraft/src/BlockFluid
 	FIELD d fluidType I
 	METHOD a getFlowDirection (Ljb;IIILkf;)D
 	METHOD b getFluidHeightPercent (I)F
