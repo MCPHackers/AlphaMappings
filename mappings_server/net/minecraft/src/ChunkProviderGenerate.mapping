@@ -5,8 +5,8 @@ CLASS hy net/minecraft/src/ChunkProviderGenerate
 	FIELD d noise3 [D
 	FIELD e noise1 [D
 	FIELD f noise2 [D
-	FIELD g noise5 [D
-	FIELD h noise6 [D
+	FIELD g noise6 [D
+	FIELD h noise7 [D
 	FIELD i unused [[I
 	FIELD j rand Ljava/util/Random;
 	FIELD k noiseGen1 Lev;
