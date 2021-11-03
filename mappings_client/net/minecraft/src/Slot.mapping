@@ -1,4 +1,4 @@
-CLASS gv net/minecraft/src/SlotInventory
+CLASS gv net/minecraft/src/Slot
 	FIELD a inventoryGui Lho;
 	FIELD c slotIndex I
 	FIELD d xDisplayPosition I
