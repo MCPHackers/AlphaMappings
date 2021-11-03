@@ -1,4 +1,4 @@
-CLASS fa net/minecraft/src/EnumOS1
+CLASS fa net/minecraft/src/EnumOSIsom
 	FIELD a linux Lfa;
 	FIELD b solaris Lfa;
 	FIELD c windows Lfa;

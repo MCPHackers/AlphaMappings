@@ -1,2 +1,2 @@
-CLASS ln net/minecraft/src/OsMap
+CLASS fq net/minecraft/src/OSMap
 	FIELD a osValues [I

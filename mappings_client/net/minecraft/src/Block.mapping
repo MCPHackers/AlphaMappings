@@ -72,7 +72,7 @@ CLASS ly net/minecraft/src/Block
 	FIELD as fire Log;
 	FIELD at mobSpawner Lly;
 	FIELD au stairCompactWood Lly;
-	FIELD av crate Lly;
+	FIELD av chest Lly;
 	FIELD aw redstoneWire Lly;
 	FIELD ax oreDiamond Lly;
 	FIELD ay blockDiamond Lly;

@@ -6,5 +6,5 @@ CLASS jc net/minecraft/src/EntityPainting
 	FIELD e yPosition I
 	FIELD f zPosition I
 	METHOD b setDirection (I)V
-	METHOD c getPaintingOffset (I)F
+	METHOD c getArtSize (I)F
 	METHOD i onValidSurface ()Z

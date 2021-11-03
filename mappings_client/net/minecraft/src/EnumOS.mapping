@@ -1,4 +1,4 @@
-CLASS ih net/minecraft/src/EnumOS2
+CLASS ih net/minecraft/src/EnumOS
 	FIELD a linux Lih;
 	FIELD b solaris Lih;
 	FIELD c windows Lih;
