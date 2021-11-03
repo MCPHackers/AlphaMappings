@@ -1,4 +1,4 @@
-CLASS ik net/minecraft/src/EnumOS1
+CLASS ik net/minecraft/src/EnumOSIsom
 	FIELD a linux Lik;
 	FIELD b solaris Lik;
 	FIELD c windows Lik;

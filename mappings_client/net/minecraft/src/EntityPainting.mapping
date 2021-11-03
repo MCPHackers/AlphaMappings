@@ -7,4 +7,4 @@ CLASS cz net/minecraft/src/EntityPainting
 	FIELD b art Lhx;
 	METHOD a setDirection (I)V
 	METHOD b onValidSurface ()Z
-	METHOD c getPaintingOffset (I)F
+	METHOD c getArtSize (I)F

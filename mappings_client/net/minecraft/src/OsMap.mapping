@@ -1,2 +1,2 @@
-CLASS gd net/minecraft/src/OsMap
+CLASS jd net/minecraft/src/OSMap
 	FIELD a osValues [I

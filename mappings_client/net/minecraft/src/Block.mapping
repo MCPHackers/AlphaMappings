@@ -71,7 +71,7 @@ CLASS gx net/minecraft/src/Block
 	FIELD ar fire Lkc;
 	FIELD as mobSpawner Lgx;
 	FIELD at stairCompactWood Lgx;
-	FIELD au crate Lgx;
+	FIELD au chest Lgx;
 	FIELD av redstoneWire Lgx;
 	FIELD aw oreDiamond Lgx;
 	FIELD ax blockDiamond Lgx;
