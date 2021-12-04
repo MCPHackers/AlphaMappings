@@ -13,5 +13,5 @@ CLASS lu net/minecraft/src/GuiIngame
 	METHOD a renderVignette (FII)V
 	METHOD a renderGameOverlay (FZII)V
 	METHOD a renderInventorySlot (IIIF)V
-	METHOD a splitChatMessage (Ljava/lang/String;)V
+	METHOD a addChatMessage (Ljava/lang/String;)V
 	METHOD b setRecordPlayingMessage (Ljava/lang/String;)V
