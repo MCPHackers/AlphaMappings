@@ -7,3 +7,4 @@ CLASS lv net/minecraft/src/MovementInput
 	METHOD a resetKeyState ()V
 	METHOD a checkKeyForMovementInput (IZ)V
 	METHOD a updatePlayerMoveState (Ldm;)V
+		ARG 1 entityPlayer

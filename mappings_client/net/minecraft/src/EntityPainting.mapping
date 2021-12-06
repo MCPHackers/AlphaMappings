@@ -5,6 +5,14 @@ CLASS jc net/minecraft/src/EntityPainting
 	FIELD d xPosition I
 	FIELD e yPosition I
 	FIELD f zPosition I
+	METHOD <init> (Lcn;IIII)V
+		ARG 1 worldObj
+		ARG 2 xPosition
+		ARG 3 yPosition
+		ARG 4 zPosition
+		ARG 5 direction
 	METHOD b setDirection (I)V
+		ARG 1 direction
 	METHOD c getArtSize (I)F
+		ARG 1 pixelSize
 	METHOD i onValidSurface ()Z

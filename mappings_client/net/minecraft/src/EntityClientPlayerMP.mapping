@@ -8,4 +8,9 @@ CLASS la net/minecraft/src/EntityClientPlayerMP
 	FIELD bm oldRotationYaw F
 	FIELD bn oldRotationPitch F
 	FIELD bo serverSideInventory Leu;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lcn;Ldl;Lgy;)V
+		ARG 1 minecraft
+		ARG 2 worldObj
+		ARG 3 session
+		ARG 4 sendQueue
 	METHOD J sendMotionUpdates ()V

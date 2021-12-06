@@ -3,5 +3,9 @@ CLASS ek net/minecraft/src/EntityCreature
 	FIELD f entityToAttack Lkh;
 	FIELD g hasAttacked Z
 	METHOD a getBlockPathWeight (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a attackEntity (Lkh;F)V
+		ARG 1 entity
 	METHOD i findPlayerToAttack ()Lkh;

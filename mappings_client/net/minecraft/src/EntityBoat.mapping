@@ -2,3 +2,8 @@ CLASS dc net/minecraft/src/EntityBoat
 	FIELD a damageTaken I
 	FIELD b timeSinceHit I
 	FIELD c forwardDirection I
+	METHOD <init> (Lcn;DDD)V
+		ARG 1 worldObj
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

@@ -28,3 +28,10 @@ CLASS er net/minecraft/src/EnumArt
 	FIELD x DonkeyKong Ler;
 	FIELD y title Ljava/lang/String;
 	FIELD z sizeX I
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+		ARG 3 title
+		ARG 4 sizeX
+		ARG 5 sizeY
+		ARG 6 offsetX
+		ARG 7 offsetY
+	METHOD values ()[Ler;

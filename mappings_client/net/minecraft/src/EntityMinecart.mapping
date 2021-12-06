@@ -15,9 +15,18 @@ CLASS oc net/minecraft/src/EntityMinecart
 	FIELD n minecartZ D
 	FIELD o minecartYaw D
 	FIELD p minecartPitch D
+	METHOD <init> (Lcn;DDDI)V
+		ARG 1 worldObj
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 minecartType
 	METHOD a getPosOffset (DDDD)Laj;
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
 		ARG 7 offset
 	METHOD g getPos (DDD)Laj;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
