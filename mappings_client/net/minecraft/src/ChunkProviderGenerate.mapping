@@ -20,6 +20,9 @@ CLASS nw net/minecraft/src/ChunkProviderGenerate
 	FIELD s gravelNoise [D
 	FIELD t stoneNoise [D
 	FIELD u caveGenerator Lcy;
+	METHOD <init> (Lcn;J)V
+		ARG 1 worldObj
+		ARG 2 seed
 	METHOD a generateTerrain (II[B)V
 	METHOD a initializeNoiseField ([DIIIIII)[D
 	METHOD b replaceSurfaceBlocks (II[B)V

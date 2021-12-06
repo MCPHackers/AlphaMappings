@@ -3,4 +3,9 @@ CLASS ck net/minecraft/src/ChunkProviderIso
 	FIELD b chunks [Lga;
 	FIELD c worldObj Lcn;
 	FIELD d chunkLoader Laf;
+	METHOD <init> (Lcn;Laf;)V
+		ARG 1 worldObj
+		ARG 2 chunkLoader
 	METHOD c getChunkAt (II)Lga;
+		ARG 1 chunkX
+		ARG 2 chunkZ
