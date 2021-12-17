@@ -1,4 +1,4 @@
-CLASS cf net/minecraft/src/AxisAlignedBB
+CLASS cn net/minecraft/src/AxisAlignedBB
 	FIELD a minX D
 	FIELD b minY D
 	FIELD c minZ D
@@ -7,72 +7,23 @@ CLASS cf net/minecraft/src/AxisAlignedBB
 	FIELD f maxZ D
 	FIELD g boundingBoxes Ljava/util/List;
 	FIELD h numBoundingBoxesInUse I
-	METHOD <init> (DDDDDD)V
-		ARG 1 minX
-		ARG 3 minY
-		ARG 5 minZ
-		ARG 7 maxX
-		ARG 9 maxY
-		ARG 11 maxZ
 	METHOD a clearBoundingBoxPool ()V
-	METHOD a addCoord (DDD)Lcf;
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD a getBoundingBox (DDDDDD)Lcf;
-		ARG 0 minX
-		ARG 2 minY
-		ARG 4 minZ
-		ARG 6 maxX
-		ARG 8 maxY
-		ARG 10 maxZ
-	METHOD a isVecInYZ (Laj;)Z
-		ARG 1 vector
-	METHOD a calculateIntercept (Laj;Laj;)Lmf;
-		ARG 1 vector1
-		ARG 2 vector2
-	METHOD a intersectsWith (Lcf;)Z
-		ARG 1 aabb
-	METHOD a calculateXOffset (Lcf;D)D
-		ARG 1 aabb
-		ARG 2 offsetX
+	METHOD a addCoord (DDD)Lcn;
+	METHOD a getBoundingBox (DDDDDD)Lcn;
+	METHOD a isVecInside (Lao;)Z
+	METHOD a func_1169_a (Lao;Lao;)Lnv;
+	METHOD a intersectsWith (Lcn;)Z
+	METHOD a func_1163_a (Lcn;D)D
 	METHOD b getAverageEdgeLength ()D
-	METHOD b expand (DDD)Lcf;
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD b getBoundingBoxFromPool (DDDDDD)Lcf;
-		ARG 0 minX
-		ARG 2 minY
-		ARG 4 minZ
-		ARG 6 maxX
-		ARG 8 maxY
-		ARG 10 maxZ
-	METHOD b isVecInXZ (Laj;)Z
-		ARG 1 vector
-	METHOD b setBB (Lcf;)V
-		ARG 1 aabb
-	METHOD b calculateYOffset (Lcf;D)D
-		ARG 1 aabb
-		ARG 2 offsetY
-	METHOD c copy ()Lcf;
-	METHOD c getOffsetBoundingBox (DDD)Lcf;
-		ARG 1 offsetX
-		ARG 3 offsetY
-		ARG 5 offsetZ
-	METHOD c setBounds (DDDDDD)Lcf;
-		ARG 1 minX
-		ARG 3 minY
-		ARG 5 minZ
-		ARG 7 maxX
-		ARG 9 maxY
-		ARG 11 maxZ
-	METHOD c isVecInXY (Laj;)Z
-		ARG 1 vector
-	METHOD c calculateZOffset (Lcf;D)D
-		ARG 1 aabb
-		ARG 2 offsetZ
-	METHOD d offset (DDD)Lcf;
-		ARG 1 offsetX
-		ARG 3 offsetY
-		ARG 5 offsetZ
+	METHOD b expand (DDD)Lcn;
+	METHOD b getBoundingBoxFromPool (DDDDDD)Lcn;
+	METHOD b isVecInYZ (Lao;)Z
+	METHOD b setBB (Lcn;)V
+	METHOD b func_1172_b (Lcn;D)D
+	METHOD c copy ()Lcn;
+	METHOD c getOffsetBoundingBox (DDD)Lcn;
+	METHOD c setBounds (DDDDDD)Lcn;
+	METHOD c isVecInXZ (Lao;)Z
+	METHOD c func_1162_c (Lcn;D)D
+	METHOD d offset (DDD)Lcn;
+	METHOD d isVecInXY (Lao;)Z

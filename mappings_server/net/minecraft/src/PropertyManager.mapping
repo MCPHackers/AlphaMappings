@@ -1,17 +1,9 @@
-CLASS cq net/minecraft/src/PropertyManager
+CLASS de net/minecraft/src/PropertyManager
 	FIELD a logger Ljava/util/logging/Logger;
 	FIELD b serverProperties Ljava/util/Properties;
-	FIELD c propertiesFile Ljava/io/File;
-	METHOD <init> (Ljava/io/File;)V
-		ARG 1 propertiesFile
-	METHOD a generateAndSaveProperties ()V
+	FIELD c serverPropertiesFile Ljava/io/File;
+	METHOD a generateNewProperties ()V
 	METHOD a getIntProperty (Ljava/lang/String;I)I
-		ARG 1 key
-		ARG 2 value
 	METHOD a getStringProperty (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-		ARG 1 key
-		ARG 2 value
 	METHOD a getBooleanProperty (Ljava/lang/String;Z)Z
-		ARG 1 key
-		ARG 2 value
 	METHOD b saveProperties ()V

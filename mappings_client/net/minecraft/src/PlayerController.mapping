@@ -1,16 +1,52 @@
-CLASS hq net/minecraft/src/PlayerController
+CLASS iu net/minecraft/src/PlayerController
 	FIELD a mc Lnet/minecraft/client/Minecraft;
-	FIELD b isInTestMode Z
-	METHOD a resetBlockRemoving ()V
+	FIELD b instaBreak Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a resetBlockClickingState ()V
 	METHOD a setPartialTime (F)V
+		ARG 1 float1
 	METHOD a clickBlock (IIII)V
-	METHOD a onWorldChange (Lcn;)V
-	METHOD a flipPlayer (Ldm;)V
-	METHOD a onPlayerRightClick (Ldm;Lcn;Lev;IIII)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 blockSide
+	METHOD a unusedMethod (Lcx;)V
+		ARG 1 world
+	METHOD a flipPlayer (Lea;)V
+		ARG 1 entityplayer
+	METHOD a sendUseItem (Lea;Lcx;Lfo;)Z
+		ARG 1 entityplayer
+		ARG 2 world
+		ARG 3 itemstack
+	METHOD a sendPlaceBlock (Lea;Lcx;Lfo;IIII)Z
+		ARG 1 entityplayer
+		ARG 2 world
+		ARG 3 itemstack
+		ARG 4 integer4
+		ARG 5 integer5
+		ARG 6 integer6
+		ARG 7 integer7
+	METHOD a useItemOnEntity (Lea;Llu;)V
+		ARG 1 entityplayer
+		ARG 2 entity
 	METHOD b getBlockReachDistance ()F
 	METHOD b sendBlockRemoved (IIII)Z
-	METHOD b createPlayer (Lcn;)Ldm;
-	METHOD b onRespawn (Ldm;)V
-	METHOD c onUpdate ()V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 blockSide
+	METHOD b createNewPlayer (Lcx;)Lea;
+		ARG 1 world
+	METHOD b addSpawnItems (Lea;)V
+		ARG 1 entityplayer
+	METHOD b attackEntityWithItem (Lea;Llu;)V
+		ARG 1 entityplayer
+		ARG 2 entity
+	METHOD c updateController ()V
 	METHOD c sendBlockRemoving (IIII)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 blockSide
 	METHOD d shouldDrawHUD ()Z

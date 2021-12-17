@@ -1,0 +1,5 @@
+CLASS m net/minecraft/src/RenderBiped
+	FIELD a modelBipedMain Ldb;
+	METHOD <init> (Ldb;F)V
+		ARG 1 modelbiped
+		ARG 2 float2

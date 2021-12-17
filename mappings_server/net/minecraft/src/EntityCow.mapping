@@ -1,2 +1,10 @@
-CLASS ay net/minecraft/src/EntityCow
-	FIELD a unusedBool2 Z
+CLASS bf net/minecraft/src/EntityCow
+	FIELD a unusedBoolean Z
+	METHOD a func_6092_a (Lfx;)Z
+	METHOD a writeEntityToNBT (Lv;)V
+	METHOD b readEntityFromNBT (Lv;)V
+	METHOD d func_6097_d ()Ljava/lang/String;
+	METHOD e func_6100_e ()Ljava/lang/String;
+	METHOD f func_6098_f ()Ljava/lang/String;
+	METHOD g func_149_g ()I
+	METHOD h func_6102_h ()F

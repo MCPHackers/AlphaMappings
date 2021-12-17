@@ -1,2 +1,1 @@
-CLASS gk net/minecraft/src/RenderArrow
-	METHOD a renderArrow (Lkg;DDDFF)V
+CLASS hm net/minecraft/src/RenderArrow

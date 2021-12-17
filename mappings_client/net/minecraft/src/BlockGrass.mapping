@@ -1,3 +1,3 @@
-CLASS my net/minecraft/src/BlockGrass
+CLASS oq net/minecraft/src/BlockGrass
 	METHOD <init> (I)V
 		ARG 1 blockID

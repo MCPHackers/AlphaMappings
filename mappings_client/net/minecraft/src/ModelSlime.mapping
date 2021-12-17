@@ -1,5 +1,7 @@
-CLASS hh net/minecraft/src/ModelSlime
-	FIELD a slimeBodies Lip;
-	FIELD b slimeRightEye Lip;
-	FIELD c slimeLeftEye Lip;
-	FIELD d slimeMouth Lip;
+CLASS ij net/minecraft/src/ModelSlime
+	FIELD a mainBody Ljz;
+	FIELD b eye1 Ljz;
+	FIELD c eye2 Ljz;
+	FIELD d mouth Ljz;
+	METHOD <init> (I)V
+		ARG 1 integer

@@ -1,1 +1,4 @@
-CLASS ii net/minecraft/src/NBTTagEnd
+CLASS jn net/minecraft/src/NBTTagEnd
+	METHOD a getType ()B
+	METHOD a readTagContents (Ljava/io/DataInput;)V
+	METHOD a writeTagContents (Ljava/io/DataOutput;)V

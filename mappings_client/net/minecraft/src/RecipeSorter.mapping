@@ -1,3 +1,7 @@
-CLASS fs net/minecraft/src/RecipeSorter
-	FIELD a craftingManager Ldw;
-	METHOD a compareRecipes (Lbv;Lbv;)I
+CLASS gq net/minecraft/src/RecipeSorter
+	FIELD a craftingManager Lem;
+	METHOD <init> (Lem;)V
+		ARG 1 craftingmanager
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 craftingrecipe1
+		ARG 2 craftingrecipe2

@@ -1,9 +1,5 @@
-CLASS cl net/minecraft/src/PlayerNBTManager
+CLASS cy net/minecraft/src/PlayerNBTManager
 	FIELD a logger Ljava/util/logging/Logger;
-	FIELD b playerNBT Ljava/io/File;
-	METHOD <init> (Ljava/io/File;)V
-		ARG 1 playerNBT
-	METHOD a writePlayerNBT (Lea;)V
-		ARG 1 entityPlayerMP
-	METHOD b readPlayerNBT (Lea;)V
-		ARG 1 entityPlayerMP
+	FIELD b worldFile Ljava/io/File;
+	METHOD a writePlayerData (Ler;)V
+	METHOD b readPlayerData (Ler;)V

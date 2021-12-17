@@ -1,3 +1,11 @@
-CLASS lj net/minecraft/src/SlotArmor
-	FIELD c armorType I
-	FIELD d guiInventory Llo;
+CLASS my net/minecraft/src/SlotArmor
+	FIELD c field_1124_c I
+	FIELD d armorGui Lnc;
+	METHOD <init> (Lnc;Lew;Lhh;IIII)V
+		ARG 1 guiinventory
+		ARG 2 guicontainer
+		ARG 3 iinventory
+		ARG 4 slotIndex
+		ARG 5 xPos
+		ARG 6 yPos
+		ARG 7 integer7

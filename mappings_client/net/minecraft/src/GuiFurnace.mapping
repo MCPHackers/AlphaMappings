@@ -1,2 +1,5 @@
-CLASS id net/minecraft/src/GuiFurnace
-	FIELD j furnaceInventory Lke;
+CLASS ji net/minecraft/src/GuiFurnace
+	FIELD j field_978_j Llr;
+	METHOD <init> (Lfn;Llr;)V
+		ARG 1 inventoryplayer
+		ARG 2 tileentityfurnace

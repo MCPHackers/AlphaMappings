@@ -1,25 +1,26 @@
-CLASS nm net/minecraft/src/IBlockAccess
+CLASS pi net/minecraft/src/IBlockAccess
+	METHOD a getWorldChunkManager ()Lpm;
 	METHOD a getBlockId (III)I
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
-	METHOD b getBlockTileEntity (III)Lic;
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
-	METHOD c getBrightness (III)F
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD b getBlockTileEntity (III)Ljh;
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD c getLightBrightness (III)F
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD e getBlockMetadata (III)I
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
-	METHOD f getBlockMaterial (III)Lgb;
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
-	METHOD g isBlockNormalCube (III)Z
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD f getBlockMaterial (III)Lha;
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD g isBlockOpaqueCube (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord

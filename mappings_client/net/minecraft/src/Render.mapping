@@ -1,18 +1,62 @@
-CLASS ak net/minecraft/src/Render
-	FIELD a renderManager Lkx;
-	FIELD b shadowSize F
-	FIELD c shadowOpaque F
-	FIELD d modelBase Lfo;
-	FIELD e renderBlocks Lbc;
-	METHOD a getFontRendererFromRenderManager ()Lkd;
-	METHOD a renderAABB (Lcf;)V
-	METHOD a renderOffsetAABB (Lcf;DDD)V
+CLASS aq net/minecraft/src/Render
+	FIELD a someModelBiped Lgl;
+	FIELD b renderManager Lml;
+	FIELD c shadowSize F
+	FIELD d field_194_c F
+	FIELD e apparentlyUnusedRenderBlocks Lbk;
+	METHOD a getFontRendererFromRenderManager ()Llq;
+	METHOD a renderAABB (Lcn;)V
+		ARG 0 axisalignedbb
+	METHOD a renderOffsetAABB (Lcn;DDD)V
+		ARG 0 axisalignedbb
+		ARG 1 double2
+		ARG 3 double3
+		ARG 5 double4
 	METHOD a loadTexture (Ljava/lang/String;)V
+		ARG 1 s
 	METHOD a loadDownloadableImageTexture (Ljava/lang/String;Ljava/lang/String;)V
-	METHOD a renderEntityOnFire (Lkh;DDDF)V
-	METHOD a doRender (Lkh;DDDFF)V
-	METHOD a setRenderManager (Lkx;)V
-	METHOD a renderShadowOnBlock (Lly;DDDIIIFFDDD)V
-	METHOD b getWorldFromRenderManager ()Lcn;
-	METHOD b doRenderShadowAndFire (Lkh;DDDFF)V
-	METHOD c renderShadow (Lkh;DDDFF)V
+		ARG 1 s1
+		ARG 2 s2
+	METHOD a renderEntityOnFire (Llu;DDDF)V
+		ARG 1 entity
+		ARG 2 modelX
+		ARG 4 modelY
+		ARG 6 modelZ
+		ARG 8 float5
+	METHOD a doRender (Llu;DDDFF)V
+		ARG 1 entity
+		ARG 2 modelX
+		ARG 4 modelY
+		ARG 6 modelZ
+		ARG 8 float5
+		ARG 9 float6
+	METHOD a setRenderManager (Lml;)V
+		ARG 1 renderManager
+	METHOD a renderShadowOnBlock (Lno;DDDIIIFFDDD)V
+		ARG 1 block
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+		ARG 8 integer5
+		ARG 9 integer6
+		ARG 10 integer7
+		ARG 11 float8
+		ARG 12 float9
+		ARG 13 double10
+		ARG 15 double11
+		ARG 17 double12
+	METHOD b getWorldFromRenderManager ()Lcx;
+	METHOD b doRenderShadowAndFire (Llu;DDDFF)V
+		ARG 1 entity
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+		ARG 8 float5
+		ARG 9 float6
+	METHOD c renderShadow (Llu;DDDFF)V
+		ARG 1 entity
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+		ARG 8 float5
+		ARG 9 float6

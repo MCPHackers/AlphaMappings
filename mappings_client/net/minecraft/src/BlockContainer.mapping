@@ -1,2 +1,2 @@
-CLASS jt net/minecraft/src/BlockContainer
-	METHOD a_ getBlockEntity ()Lic;
+CLASS lf net/minecraft/src/BlockContainer
+	METHOD a_ SetBlockEntity ()Ljh;

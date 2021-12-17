@@ -1,0 +1,7 @@
+CLASS ho net/minecraft/src/Packet38
+	FIELD a field_9016_a I
+	FIELD b field_9015_b B
+	METHOD a func_71_a ()I
+	METHOD a func_72_a (Lfa;)V
+	METHOD a func_70_a (Ljava/io/DataInputStream;)V
+	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

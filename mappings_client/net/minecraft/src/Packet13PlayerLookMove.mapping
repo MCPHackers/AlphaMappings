@@ -1,1 +1,9 @@
-CLASS ch net/minecraft/src/Packet13PlayerLookMove
+CLASS cq net/minecraft/src/Packet13PlayerLookMove
+	METHOD <init> (DDDDFFZ)V
+		ARG 1 posX
+		ARG 3 boundingBoxMinY
+		ARG 5 posY
+		ARG 7 posZ
+		ARG 9 yaw
+		ARG 10 pitch
+		ARG 11 onGround

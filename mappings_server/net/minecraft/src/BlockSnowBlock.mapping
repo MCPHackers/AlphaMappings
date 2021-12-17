@@ -1,4 +1,4 @@
-CLASS u net/minecraft/src/BlockSnowBlock
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
+CLASS x net/minecraft/src/BlockSnowBlock
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a updateTick (Leo;IIILjava/util/Random;)V
+	METHOD a quantityDropped (Ljava/util/Random;)I

@@ -1,4 +1,4 @@
-CLASS ez net/minecraft/src/Packet24MobSpawn
+CLASS fu net/minecraft/src/Packet24MobSpawn
 	FIELD a entityId I
 	FIELD b type B
 	FIELD c xPosition I
@@ -6,3 +6,5 @@ CLASS ez net/minecraft/src/Packet24MobSpawn
 	FIELD e zPosition I
 	FIELD f yaw B
 	FIELD g pitch B
+	METHOD <init> (Lhe;)V
+		ARG 1 larssonBotV3

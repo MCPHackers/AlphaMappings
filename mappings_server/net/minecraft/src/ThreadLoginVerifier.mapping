@@ -1,3 +1,4 @@
-CLASS dd net/minecraft/src/ThreadLoginVerifier
-	FIELD a loginPacket Lz;
-	FIELD b loginHandler Lew;
+CLASS dr net/minecraft/src/ThreadLoginVerifier
+	FIELD a loginPacket Lad;
+	FIELD b loginHandler Lfq;
+	METHOD run ()V

@@ -1,4 +1,5 @@
-CLASS bo net/minecraft/src/NBTTagByte
+CLASS ca net/minecraft/src/NBTTagByte
 	FIELD a byteValue B
-	METHOD <init> (B)V
-		ARG 1 byteValue
+	METHOD a getType ()B
+	METHOD a readTagContents (Ljava/io/DataInput;)V
+	METHOD a writeTagContents (Ljava/io/DataOutput;)V

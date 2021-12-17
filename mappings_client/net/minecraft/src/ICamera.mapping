@@ -1,3 +1,7 @@
-CLASS oe net/minecraft/src/ICamera
+CLASS qd net/minecraft/src/ICamera
 	METHOD a setPosition (DDD)V
-	METHOD a isBoundingBoxInFrustum (Lcf;)Z
+		ARG 1 posX
+		ARG 3 posY
+		ARG 5 posZ
+	METHOD a isBoundingBoxInFrustum (Lcn;)Z
+		ARG 1 axisalignedbb

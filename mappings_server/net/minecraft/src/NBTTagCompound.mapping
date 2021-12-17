@@ -1,59 +1,28 @@
-CLASS s net/minecraft/src/NBTTagCompound
+CLASS v net/minecraft/src/NBTTagCompound
 	FIELD a tagMap Ljava/util/Map;
-	METHOD a hasKey (Ljava/lang/String;)Z
-		ARG 1 key
-	METHOD a setByte (Ljava/lang/String;B)V
-		ARG 1 key
-		ARG 2 byteValue
-	METHOD a setDouble (Ljava/lang/String;D)V
-		ARG 1 key
-		ARG 2 doubleValue
-	METHOD a setFloat (Ljava/lang/String;F)V
-		ARG 1 key
-		ARG 2 floatValue
-	METHOD a setInteger (Ljava/lang/String;I)V
-		ARG 1 key
-		ARG 2 integerValue
-	METHOD a setLong (Ljava/lang/String;J)V
-		ARG 1 key
-		ARG 2 longValue
-	METHOD a setTag (Ljava/lang/String;Lgg;)V
-		ARG 1 key
-		ARG 2 nbtbase
-	METHOD a setString (Ljava/lang/String;Ljava/lang/String;)V
-		ARG 1 key
-		ARG 2 stringValue
-	METHOD a setCompoundTag (Ljava/lang/String;Ls;)V
-		ARG 1 key
-		ARG 2 nbttagcompound
-	METHOD a setShort (Ljava/lang/String;S)V
-		ARG 1 key
-		ARG 2 shortValue
-	METHOD a setBoolean (Ljava/lang/String;Z)V
-		ARG 1 key
-		ARG 2 booleanValue
-	METHOD a setByteArray (Ljava/lang/String;[B)V
-		ARG 1 key
-		ARG 2 byteArray
-	METHOD b getByte (Ljava/lang/String;)B
-		ARG 1 key
-	METHOD c getShort (Ljava/lang/String;)S
-		ARG 1 key
-	METHOD d getInteger (Ljava/lang/String;)I
-		ARG 1 key
-	METHOD e getLong (Ljava/lang/String;)J
-		ARG 1 key
-	METHOD f getFloat (Ljava/lang/String;)F
-		ARG 1 key
-	METHOD g getDouble (Ljava/lang/String;)D
-		ARG 1 key
-	METHOD h getString (Ljava/lang/String;)Ljava/lang/String;
-		ARG 1 key
-	METHOD i getByteArray (Ljava/lang/String;)[B
-		ARG 1 key
-	METHOD j getCompoundTag (Ljava/lang/String;)Ls;
-		ARG 1 key
-	METHOD k getTagList (Ljava/lang/String;)Ldm;
-		ARG 1 key
-	METHOD l getBoolean (Ljava/lang/String;)Z
-		ARG 1 key
+	METHOD a getType ()B
+	METHOD a readTagContents (Ljava/io/DataInput;)V
+	METHOD a writeTagContents (Ljava/io/DataOutput;)V
+	METHOD a func_410_a (Ljava/lang/String;)Z
+	METHOD a func_409_a (Ljava/lang/String;B)V
+	METHOD a func_411_a (Ljava/lang/String;D)V
+	METHOD a func_390_a (Ljava/lang/String;F)V
+	METHOD a func_405_a (Ljava/lang/String;I)V
+	METHOD a func_396_a (Ljava/lang/String;J)V
+	METHOD a func_399_a (Ljava/lang/String;Lhe;)V
+	METHOD a func_403_a (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a func_392_a (Ljava/lang/String;Lv;)V
+	METHOD a func_394_a (Ljava/lang/String;S)V
+	METHOD a func_393_a (Ljava/lang/String;Z)V
+	METHOD a func_391_a (Ljava/lang/String;[B)V
+	METHOD b func_408_b (Ljava/lang/String;)B
+	METHOD c func_406_c (Ljava/lang/String;)S
+	METHOD d func_395_d (Ljava/lang/String;)I
+	METHOD e func_404_e (Ljava/lang/String;)J
+	METHOD f func_389_f (Ljava/lang/String;)F
+	METHOD g func_398_g (Ljava/lang/String;)D
+	METHOD h func_401_h (Ljava/lang/String;)Ljava/lang/String;
+	METHOD i func_400_i (Ljava/lang/String;)[B
+	METHOD j func_397_j (Ljava/lang/String;)Lv;
+	METHOD k func_407_k (Ljava/lang/String;)Leb;
+	METHOD l func_402_l (Ljava/lang/String;)Z

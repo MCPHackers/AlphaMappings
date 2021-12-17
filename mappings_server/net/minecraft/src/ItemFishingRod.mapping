@@ -1,0 +1,2 @@
+CLASS cc net/minecraft/src/ItemFishingRod
+	METHOD a onItemRightClick (Lhl;Leo;Lfx;)Lhl;

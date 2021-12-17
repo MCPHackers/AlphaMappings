@@ -1,189 +1,182 @@
-CLASS kh net/minecraft/src/Entity
-	FIELD aA isDead Z
-	FIELD aB yOffset F
-	FIELD aC width F
-	FIELD aD height F
-	FIELD aE prevDistanceWalkedModified F
-	FIELD aF distanceWalkedModified F
-	FIELD aG canTriggerWalking Z
-	FIELD aH fallDistance F
+CLASS lu net/minecraft/src/Entity
+	FIELD aA motionY D
+	FIELD aB motionZ D
+	FIELD aC rotationYaw F
+	FIELD aD rotationPitch F
+	FIELD aE prevRotationYaw F
+	FIELD aF prevRotationPitch F
+	FIELD aG boundingBox Lcn;
+	FIELD aH onGround Z
 	FIELD a nextEntityID I
-	FIELD aI lastTickPosX D
-	FIELD aJ lastTickPosY D
-	FIELD aK lastTickPosZ D
-	FIELD aL ySize F
-	FIELD aM stepHeight F
-	FIELD aN noClip Z
-	FIELD aO entityCollisionReduction F
-	FIELD aP unusedBool Z
-	FIELD aQ rand Ljava/util/Random;
-	FIELD aR ticksExisted I
-	FIELD aS fireResistance I
-	FIELD aT fire I
-	FIELD aU maxAir I
-	FIELD aV inWater Z
-	FIELD aW heartsLife I
-	FIELD aX air I
-	FIELD aY skinUrl Ljava/lang/String;
-	FIELD aZ addedToChunk Z
-	FIELD ab entityId I
-	FIELD ac renderDistanceWeight D
-	FIELD ad preventEntitySpawning Z
-	FIELD ae riddenByEntity Lkh;
-	FIELD af ridingEntity Lkh;
-	FIELD ag worldObj Lcn;
-	FIELD ah prevPosX D
-	FIELD ai prevPosY D
-	FIELD aj prevPosZ D
-	FIELD ak posX D
-	FIELD al posY D
-	FIELD am posZ D
-	FIELD an motionX D
-	FIELD ao motionY D
-	FIELD ap motionZ D
-	FIELD aq rotationYaw F
-	FIELD ar rotationPitch F
-	FIELD as prevRotationYaw F
-	FIELD at prevRotationPitch F
-	FIELD au boundingBox Lcf;
-	FIELD av onGround Z
-	FIELD aw isCollidedHorizontally Z
-	FIELD ax isCollidedVertically Z
-	FIELD ay isCollided Z
-	FIELD az surfaceCollision Z
+	FIELD aI isCollidedHorizontally Z
+	FIELD aJ isCollidedVertically Z
+	FIELD aK isCollided Z
+	FIELD aL beenAttacked Z
+	FIELD aM field_9293_aM Z
+	FIELD aN isDead Z
+	FIELD aO yOffset F
+	FIELD aP width F
+	FIELD aQ height F
+	FIELD aR prevDistanceWalkedModified F
+	FIELD aS distanceWalkedModified F
+	FIELD aT entityWalks Z
+	FIELD aU fallDistance F
+	FIELD aV lastTickPosX D
+	FIELD aW lastTickPosY D
+	FIELD aX lastTickPosZ D
+	FIELD aY ySize F
+	FIELD aZ stepHeight F
+	FIELD an entityId I
+	FIELD ao renderDistanceWeight D
+	FIELD ap preventEntitySpawning Z
+	FIELD aq riddenByEntity Llu;
+	FIELD ar ridingEntity Llu;
+	FIELD as worldObj Lcx;
+	FIELD at prevPosX D
+	FIELD au prevPosY D
+	FIELD av prevPosZ D
+	FIELD aw posX D
+	FIELD ax posY D
+	FIELD ay posZ D
+	FIELD az motionX D
 	FIELD b nextStepDistance I
-	FIELD ba chunkCoordX I
-	FIELD bb chunkCoordY I
-	FIELD bc chunkCoordZ I
-	FIELD bd serverPosX I
-	FIELD be serverPosY I
-	FIELD bf serverPosZ I
-	FIELD c firstUpdate Z
+	FIELD ba noClip Z
+	FIELD bb entityCollisionReduction F
+	FIELD bc field_9313_bc Z
+	FIELD bd rand Ljava/util/Random;
+	FIELD be ticksExisted I
+	FIELD bf fireResistance I
+	FIELD bg fire I
+	FIELD bh maxAir I
+	FIELD bi inWater Z
+	FIELD bj field_9306_bj I
+	FIELD bk air I
+	FIELD bl skinUrl Ljava/lang/String;
+	FIELD bm isImmuneToFire Z
+	FIELD bn addedToChunk Z
+	FIELD bo chunkCoordX I
+	FIELD bp chunkCoordY I
+	FIELD bq chunkCoordZ I
+	FIELD br serverPosX I
+	FIELD bs serverPosY I
+	FIELD bt serverPosZ I
+	FIELD bu field_9300_bu Z
+	FIELD bv field_9299_bv Z
+	FIELD c someWaterRelatedBoolean Z
 	FIELD d entityRiderPitchDelta D
 	FIELD e entityRiderYawDelta D
-	METHOD <init> (Lcn;)V
+	METHOD <init> (Lcx;)V
 		ARG 1 world
-	METHOD B isEntityAlive ()Z
-	METHOD E kill ()V
-	METHOD F setEntityDead ()V
-	METHOD G handleLavaMovement ()Z
-	METHOD H getEntityString ()Ljava/lang/String;
-	METHOD I isEntityInsideOpaqueBlock ()Z
+	METHOD A func_6376_z ()Ljava/lang/String;
+	METHOD B onEntityUpdate ()V
+	METHOD E isEntityAlive ()Z
+	METHOD H kill ()V
+	METHOD I getLookVec ()Lao;
+	METHOD J setEntityDead ()V
+	METHOD K func_4038_J ()V
+	METHOD L handleLavaMovement ()Z
+	METHOD M setBeenAttacked ()V
+	METHOD N getEntityString ()Ljava/lang/String;
+	METHOD O func_345_I ()Z
+	METHOD a handleHealthUpdate (B)V
+		ARG 1 byte1
 	METHOD a isInRangeToRenderDist (D)Z
-	METHOD a setPosition (DDD)V
-		ARG 1 posX
-		ARG 3 posY
-		ARG 5 posZ
-	METHOD a setPositionAndRotation (DDDFFI)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-		ARG 7 rotationYaw
-		ARG 8 rotationPitch
-		ARG 9 newPosRotationIncrements
-	METHOD a getBrightness (F)F
-	METHOD a setSize (FF)V
-		ARG 1 width
-		ARG 2 height
-	METHOD a moveFlying (FFF)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a dealFireDamage (I)V
-		ARG 1 damage
-	METHOD a entityDropItem (IIF)Ldx;
-	METHOD a isInRangeToRenderVec3D (Laj;)Z
-		ARG 1 vector
-	METHOD a setWorld (Lcn;)V
-		ARG 1 worldObj
-	METHOD a interact (Ldm;)Z
-		ARG 1 entityPlayer
-	METHOD a isInsideOfMaterial (Lgb;)Z
-		ARG 1 material
-	METHOD a writeEntityToNBT (Lhm;)V
-		ARG 1 compoundTag
-	METHOD a attackEntityFrom (Lkh;I)Z
-		ARG 1 entity
-		ARG 2 damage
-	METHOD a newDoubleNBTList ([D)Lki;
-		ARG 1 doubleArray
-	METHOD a newFloatNBTList ([F)Lki;
-		ARG 1 floatArray
-	METHOD b isOffsetPositionInLiquid (DDD)Z
-		ARG 1 offsetX
-		ARG 3 offsetY
-		ARG 5 offsetZ
-	METHOD b setPositionAndRotation (DDDFF)V
-		ARG 1 posX
-		ARG 3 posY
-		ARG 5 posZ
-		ARG 7 rotationYaw
-		ARG 8 rotationPitch
-	METHOD b dropItem (II)Ldx;
-	METHOD b onCollideWithPlayer (Ldm;)V
-		ARG 1 entityPlayer
-	METHOD b readEntityFromNBT (Lhm;)V
-		ARG 1 compoundTag
-	METHOD b addToPlayerScore (Lkh;I)V
-		ARG 1 entity
-		ARG 2 score
-	METHOD b_ getCollisionBox (Lkh;)Lcf;
-		ARG 1 entity
-	METHOD c moveEntity (DDD)V
-		ARG 1 offsetX
-		ARG 3 offsetY
-		ARG 5 offsetZ
-	METHOD c setLocationAndAngles (DDDFF)V
-		ARG 1 posX
-		ARG 3 posY
-		ARG 5 posZ
-		ARG 7 rotationYaw
-		ARG 8 rotationPitch
-	METHOD c fall (F)V
-	METHOD c setRotation (FF)V
-		ARG 1 rotationYaw
-		ARG 2 rotationPitch
-	METHOD c addEntityID (Lhm;)Z
-		ARG 1 nbtCompound
-	METHOD c_ canBeCollidedWith ()Z
-	METHOD d getDistanceSq (DDD)D
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD d setAngles (FF)V
-	METHOD d writeToNBT (Lhm;)V
-		ARG 1 nbtCompound
-	METHOD d getDistanceToEntity (Lkh;)F
-		ARG 1 entity
-	METHOD d_ canBePushed ()Z
-	METHOD e getDistance (DDD)D
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD e readFromNBT (Lhm;)V
-		ARG 1 nbtCompound
-	METHOD e getDistanceSqToEntity (Lkh;)D
-		ARG 1 entity
-	METHOD e_ onUpdate ()V
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 entity
-	METHOD f addVelocity (DDD)V
+		ARG 1 double1
+	METHOD a setVelocity (DDD)V
 		ARG 1 motionX
 		ARG 3 motionY
 		ARG 5 motionZ
-	METHOD f applyEntityCollision (Lkh;)V
+	METHOD a setPositionAndRotationServerRelated (DDDFFI)V
+		ARG 1 someXPos
+		ARG 3 someYPos
+		ARG 5 someZPos
+		ARG 7 someYaw
+		ARG 8 somePitch
+		ARG 9 iDontEvenKnow
+	METHOD a func_9279_a (DZ)V
+	METHOD a getEntityBrightness (F)F
+		ARG 1 float1
+	METHOD a setSize (FF)V
+		ARG 1 float1
+		ARG 2 float2
+	METHOD a moveFlying (FFF)V
+	METHOD a func_355_a (I)V
+		ARG 1 damageTaken
+	METHOD a dropItemWithOffset (IIF)Len;
+		ARG 1 itemID
+		ARG 2 itemCount
+		ARG 3 yOffset
+	METHOD a func_390_a (Lao;)Z
+	METHOD a setWorld (Lcx;)V
+	METHOD a interact (Lea;)Z
+		ARG 1 entityplayer
+	METHOD a isInsideOfMaterial (Lha;)Z
+	METHOD a writeEntityToNBT (Lip;)V
+		ARG 1 nbttagcompound
+	METHOD a func_383_b_ (Llu;)Lcn;
 		ARG 1 entity
-	METHOD f_ getBoundingBox ()Lcf;
-	METHOD g mountEntity (Lkh;)V
+	METHOD a attackEntityFrom (Llu;I)Z
 		ARG 1 entity
-	METHOD g_ handleWaterMovement ()Z
-	METHOD h getMountedYOffset ()D
-	METHOD h_ getShadowSize ()F
-	METHOD i_ updateRiderPosition ()V
-	METHOD o isSneaking ()Z
-	METHOD p updateRidden ()V
-	METHOD q preparePlayerToSpawn ()V
-	METHOD s getEyeHeight ()F
-	METHOD v getYOffset ()D
-	METHOD x getTexture ()Ljava/lang/String;
-	METHOD y onEntityUpdate ()V
+		ARG 2 damageTaken
+	METHOD a func_375_a ([D)Llw;
+		ARG 1 arr
+	METHOD a func_377_a ([F)Llw;
+		ARG 1 arr
+	METHOD b setPosition (DDD)V
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+	METHOD b setPositionAndRotation (DDDFF)V
+	METHOD b dropItem (II)Len;
+		ARG 1 itemID
+		ARG 2 itemCount
+	METHOD b onCollideWithPlayer (Lea;)V
+		ARG 1 entityplayer
+	METHOD b readEntityFromNBT (Lip;)V
+		ARG 1 nbttagcompound
+	METHOD c isOffsetPositionInLiquid (DDD)Z
+	METHOD c setLocationAndAngles (DDDFF)V
+	METHOD c fall (F)V
+		ARG 1 float1
+	METHOD c setRotation (FF)V
+		ARG 1 float1
+		ARG 2 float2
+	METHOD c func_358_c (Lip;)Z
+		ARG 1 nbttagcompound
+	METHOD c addToPlayerScore (Llu;I)V
+		ARG 1 entity
+		ARG 2 integer2
+	METHOD d moveEntity (DDD)V
+	METHOD d func_346_d (FF)V
+		ARG 1 float1
+		ARG 2 float2
+	METHOD d writeToNBT (Lip;)V
+		ARG 1 nbttagcompound
+	METHOD d_ canBePushed ()Z
+	METHOD e getBoundingBox ()Lcn;
+	METHOD e getDistanceSq (DDD)D
+	METHOD e readFromNBT (Lip;)V
+		ARG 1 nbttagcompound
+	METHOD e getDistanceToEntity (Llu;)F
+	METHOD e_ onUpdate ()V
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 object
+	METHOD f getDistance (DDD)D
+	METHOD f getDistanceSqToEntity (Llu;)D
+	METHOD g performHurtAnimation ()V
+	METHOD g addVelocity (DDD)V
+	METHOD g applyEntityCollision (Llu;)V
+		ARG 1 entity
+	METHOD h mountEntity (Llu;)V
+	METHOD h_ handleWaterMovement ()Z
+	METHOD i_ getShadowSize ()F
+	METHOD j getMountedYOffset ()D
+	METHOD j_ updateRiderPosition ()V
+	METHOD k_ getCollisionBorderSize ()F
+	METHOD n_ canBeCollidedWith ()Z
+	METHOD p isSneaking ()Z
+	METHOD q setInPortal ()V
+	METHOD s updateRidden ()V
+	METHOD t preparePlayerToSpawn ()V
+	METHOD v getEyeHeight ()F
+	METHOD y func_388_v ()D

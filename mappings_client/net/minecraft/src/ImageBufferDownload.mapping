@@ -1,7 +1,7 @@
-CLASS jr net/minecraft/src/ImageBufferDownload
-	FIELD a imageData [I
-	FIELD b imageWidth I
-	FIELD c imageHeight I
-	METHOD a setAreaTransparent (IIII)V
-	METHOD b setAreaOpaque (IIII)V
-	METHOD c hasTransparency (IIII)Z
+CLASS ld net/minecraft/src/ImageBufferDownload
+	FIELD a field_1343_a [I
+	FIELD b field_1342_b I
+	FIELD c field_1344_c I
+	METHOD a func_885_a (IIII)V
+	METHOD b func_884_b (IIII)V
+	METHOD c func_886_c (IIII)Z

@@ -1,6 +1,6 @@
-CLASS kc net/minecraft/src/LogoEffectRandomizer
-	FIELD a height D
-	FIELD b prevHeight D
-	FIELD c dropSpeed D
-	FIELD d mainMenu Lcx;
-	METHOD a updateLogoEffects ()V
+CLASS lp net/minecraft/src/LogoEffectRandomizer
+	FIELD a field_1312_a D
+	FIELD b field_1311_b D
+	FIELD c field_1314_c D
+	FIELD d mainMenu Ldi;
+	METHOD a func_875_a ()V

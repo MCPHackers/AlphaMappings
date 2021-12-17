@@ -1,0 +1,5 @@
+CLASS fs net/minecraft/src/ColorizerFoliage
+	FIELD a foliagePNGColorArray [I
+	METHOD a getFoliageColor (DD)I
+		ARG 0 temperature
+		ARG 2 humidity

@@ -1,4 +1,6 @@
-CLASS gq net/minecraft/src/RenderSlime
-	FIELD f modelSlime Lfo;
-	METHOD a squishSlime (Lma;F)V
-	METHOD a renderSlimePassModel (Lma;I)Z
+CLASS hs net/minecraft/src/RenderSlime
+	FIELD a renderPassSlimeModel Lgl;
+	METHOD <init> (Lgl;Lgl;F)V
+		ARG 1 mainModel
+		ARG 2 renderPassModel
+		ARG 3 float3

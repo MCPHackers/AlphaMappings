@@ -1,7 +1,11 @@
-CLASS jq net/minecraft/src/GuiSelectWorld
-	FIELD a parentScreen Lbh;
+CLASS lc net/minecraft/src/GuiSelectWorld
+	FIELD a parentScreen Lbp;
 	FIELD h screenTitle Ljava/lang/String;
 	FIELD i selected Z
+	METHOD <init> (Lbp;)V
+		ARG 1 guiscreen
 	METHOD c selectWorld (I)V
-	METHOD d getSaveName (I)Ljava/lang/String;
-	METHOD j initButtons ()V
+		ARG 1 worldNumber
+	METHOD d getWorldName (I)Ljava/lang/String;
+		ARG 1 worldNumber
+	METHOD j initGui2 ()V

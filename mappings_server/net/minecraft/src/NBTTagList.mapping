@@ -1,8 +1,9 @@
-CLASS dm net/minecraft/src/NBTTagList
+CLASS eb net/minecraft/src/NBTTagList
 	FIELD a tagList Ljava/util/List;
 	FIELD b tagType B
-	METHOD a entities (I)Lgg;
-		ARG 1 entityIndex
-	METHOD a setTag (Lgg;)V
-		ARG 1 nbtbase
+	METHOD a getType ()B
+	METHOD a tagAt (I)Lhe;
+	METHOD a setTag (Lhe;)V
+	METHOD a readTagContents (Ljava/io/DataInput;)V
+	METHOD a writeTagContents (Ljava/io/DataOutput;)V
 	METHOD b tagCount ()I

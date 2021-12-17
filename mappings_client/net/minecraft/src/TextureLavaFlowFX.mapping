@@ -1,6 +1,6 @@
-CLASS eg net/minecraft/src/TextureLavaFlowFX
-	FIELD g red [F
-	FIELD h green [F
-	FIELD i blue [F
-	FIELD j alpha [F
-	FIELD k tickCounter I
+CLASS ey net/minecraft/src/TextureLavaFlowFX
+	FIELD g field_1143_g [F
+	FIELD h field_1142_h [F
+	FIELD i field_1141_i [F
+	FIELD j field_1140_j [F
+	FIELD k field_1139_k I

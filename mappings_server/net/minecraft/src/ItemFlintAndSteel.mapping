@@ -1,1 +1,2 @@
-CLASS hz net/minecraft/src/ItemFlintAndSteel
+CLASS jc net/minecraft/src/ItemFlintAndSteel
+	METHOD a onItemUse (Lhl;Lfx;Leo;IIII)Z

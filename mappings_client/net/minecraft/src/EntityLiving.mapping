@@ -1,88 +1,102 @@
-CLASS ge net/minecraft/src/EntityLiving
-	FIELD A unusedFloat2 F
-	FIELD B isAIEnabled Z
-	FIELD C prevSwingProgress F
-	FIELD D swingProgress F
-	FIELD E health I
-	FIELD F prevHealth I
-	FIELD G hurtTime I
-	FIELD H maxHurtTime I
-	FIELD I attackedAtYaw F
-	FIELD J deathTime I
-	FIELD K attackTime I
-	FIELD L prevCameraPitch F
-	FIELD M cameraPitch F
-	FIELD N dead Z
-	FIELD O unusedInt I
-	FIELD P unusedFloat4 F
-	FIELD Q prevLimbYaw F
-	FIELD R limbYaw F
-	FIELD S limbSwing F
-	FIELD T unusedFloat3 F
-	FIELD U entityAge I
-	FIELD V moveStrafing F
-	FIELD W moveForward F
-	FIELD X randomYawVelocity F
-	FIELD Y isJumping Z
-	FIELD Z defaultPitch F
-	FIELD a livingSoundTime I
-	FIELD aa moveSpeed F
-	FIELD b newPosRotationIncrements I
-	FIELD c newPosX D
-	FIELD d newPosY D
-	FIELD e newPosZ D
-	FIELD f newRotationYaw D
-	FIELD g newRotationPitch D
-	FIELD h currentTarget Lkh;
-	FIELD i numTicksToChaseTarget I
-	FIELD j heartsHalvesLife I
-	FIELD k unusedRotationPitch2 F
-	FIELD l unusedFloat F
-	FIELD m unusedRotationPitch F
-	FIELD n renderYawOffset F
-	FIELD o prevRenderYawOffset F
-	FIELD p ridingRotUnused F
-	FIELD q prevRidingRotUnused F
-	FIELD r rotationUnused F
-	FIELD s prevRotationUnused F
-	FIELD t unusedBool1 Z
-	FIELD u texture Ljava/lang/String;
-	FIELD v unusedBool2 Z
-	FIELD w unusedRotation F
-	FIELD x entityType Ljava/lang/String;
-	FIELD y unusedFloat1 F
-	FIELD z scoreValue I
-	METHOD A isOnLadder ()Z
-	METHOD C jump ()V
-	METHOD D onEntityDeath ()V
+CLASS he net/minecraft/src/EntityLiving
+	FIELD A field_9355_A Z
+	FIELD B field_9353_B F
+	FIELD C field_9351_C Ljava/lang/String;
+	FIELD D field_9349_D F
+	FIELD E scoreValue I
+	FIELD F field_9345_F F
+	FIELD G field_9343_G Z
+	FIELD H prevSwingProgress F
+	FIELD I swingProgress F
+	FIELD J health I
+	FIELD K prevHealth I
+	FIELD L hurtTime I
+	FIELD M maxHurtTime I
+	FIELD N attackedAtYaw F
+	FIELD O deathTime I
+	FIELD P attackTime I
+	FIELD Q field_9329_Q F
+	FIELD R field_9328_R F
+	FIELD S field_9327_S Z
+	FIELD T field_9326_T I
+	FIELD U field_9325_U F
+	FIELD V field_705_Q F
+	FIELD W field_704_R F
+	FIELD X field_703_S F
+	FIELD Y someServerMovementCounterThing I
+	FIELD Z serverClientPosX D
+	FIELD a idleSoundCompareInt I
+	FIELD aa serverClientPosY D
+	FIELD ab serverClientPosZ D
+	FIELD ac serverClientYaw D
+	FIELD ad serverClientPitch D
+	FIELD ae field_9348_ae F
+	FIELD af field_9346_af I
+	FIELD ag field_9344_ag I
+	FIELD ah moveStrafing F
+	FIELD ai moveForward F
+	FIELD aj randomYawVelocity F
+	FIELD ak isJumping Z
+	FIELD al defaultPitch F
+	FIELD am moveSpeed F
+	FIELD b entityToBeLookedAt Llu;
+	FIELD c timeLookingAtEntity I
+	FIELD o field_9366_o I
+	FIELD p field_9365_p F
+	FIELD q field_9364_q F
+	FIELD r field_9363_r F
+	FIELD s renderYawOffset F
+	FIELD t prevRenderYawOffset F
+	FIELD u field_9362_u F
+	FIELD v field_9361_v F
+	FIELD w field_9360_w F
+	FIELD x field_9359_x F
+	FIELD y field_9358_y Z
+	FIELD z texture Ljava/lang/String;
+	METHOD C spawnExplosionParticle ()V
+	METHOD D isOnLadder ()Z
+	METHOD F jump ()V
+	METHOD G func_6392_F ()V
 	METHOD a getCanSpawnHere ()Z
-	METHOD a rayTrace (DF)Lmf;
-	METHOD a knockBack (Lkh;IDD)V
+	METHOD a rayTrace (DF)Lnv;
+		ARG 1 double1
+		ARG 3 float2
+	METHOD a knockBack (Llu;IDD)V
 		ARG 1 entity
-		ARG 2 x
-		ARG 3 y
-		ARG 5 z
-	METHOD b getTalkInterval ()I
+		ARG 2 damageTaken
+		ARG 3 double3
+		ARG 5 double4
+	METHOD b func_421_b ()I
 	METHOD b moveEntityWithHeading (FF)V
-		ARG 1 x
-		ARG 2 y
+		ARG 1 float1
+		ARG 2 float2
 	METHOD b updateRotation (FFF)F
-	METHOD b heal (I)V
-		ARG 1 health
-	METHOD b onDeath (Lkh;)V
+		ARG 1 float1
+		ARG 2 float2
+		ARG 3 float3
+	METHOD b damageEntity (I)V
+		ARG 1 damageAmount
+	METHOD b onDeath (Llu;)V
 		ARG 1 entity
-	METHOD b faceEntity (Lkh;F)V
+	METHOD b faceEntity (Llu;F)V
 		ARG 1 entity
-	METHOD b_ updateEntityActionState ()V
-	METHOD c getLivingSound ()Ljava/lang/String;
-	METHOD c canEntityBeSeen (Lkh;)Z
-		ARG 1 entity
-	METHOD d getHurtSound ()Ljava/lang/String;
+		ARG 2 float2
+	METHOD b_ updatePlayerActionState ()V
+	METHOD c heal (I)V
+		ARG 1 healAmount
+	METHOD d getLivingSound ()Ljava/lang/String;
 	METHOD d getSwingProgress (F)F
-	METHOD e getDeathSound ()Ljava/lang/String;
-	METHOD e getPosition (F)Laj;
-	METHOD f getSoundVolume ()F
-	METHOD f getLook (F)Laj;
-	METHOD g getDropItemId ()I
-	METHOD j onLivingUpdate ()V
-	METHOD z spawnExplosionParticle ()V
+		ARG 1 float1
+	METHOD d func_420_c (Llu;)Z
+		ARG 1 entity
+	METHOD e getPosition (F)Lao;
+		ARG 1 float1
+	METHOD f getDeathSound ()Ljava/lang/String;
+	METHOD f getLook (F)Lao;
+		ARG 1 float1
+	METHOD f_ getHurtSound ()Ljava/lang/String;
+	METHOD g_ getDropItemId ()I
+	METHOD h getSoundVolume ()F
+	METHOD i getMaxSpawnedInChunk ()I
+	METHOD k onLivingUpdate ()V
+	METHOD l getHeldItem ()Lfo;

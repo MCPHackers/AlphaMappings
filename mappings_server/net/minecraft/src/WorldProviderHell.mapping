@@ -1,0 +1,7 @@
+CLASS hp net/minecraft/src/WorldProviderHell
+	METHOD a func_4090_a ()V
+	METHOD a canCoordinateBeSpawn (II)Z
+	METHOD a func_4089_a (JF)F
+	METHOD a getChunkLoader (Ljava/io/File;)Lav;
+	METHOD b generateLightBrightnessTable ()V
+	METHOD c getChunkProvider ()Lbu;

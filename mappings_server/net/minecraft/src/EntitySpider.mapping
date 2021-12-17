@@ -1,1 +1,10 @@
-CLASS bk net/minecraft/src/EntitySpider
+CLASS bv net/minecraft/src/EntitySpider
+	METHOD a func_157_a (Ldx;F)V
+	METHOD a writeEntityToNBT (Lv;)V
+	METHOD b readEntityFromNBT (Lv;)V
+	METHOD d func_6097_d ()Ljava/lang/String;
+	METHOD e func_6100_e ()Ljava/lang/String;
+	METHOD f func_6098_f ()Ljava/lang/String;
+	METHOD g func_149_g ()I
+	METHOD j func_130_h ()D
+	METHOD k func_158_i ()Ldx;

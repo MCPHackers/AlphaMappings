@@ -1,1 +1,2 @@
-CLASS ep net/minecraft/src/CodecMus
+CLASS fi net/minecraft/src/CodecMus
+	METHOD openInputStream ()Ljava/io/InputStream;

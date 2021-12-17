@@ -1,2 +1,4 @@
-CLASS f net/minecraft/src/NBTTagFloat
+CLASS h net/minecraft/src/NBTTagFloat
 	FIELD a floatValue F
+	METHOD <init> (F)V
+		ARG 1 dooDooFart

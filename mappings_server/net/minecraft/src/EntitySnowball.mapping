@@ -1,10 +1,15 @@
-CLASS az net/minecraft/src/EntitySnowball
-	FIELD a throwableShake I
-	FIELD ad yTile I
-	FIELD ae zTile I
-	FIELD af inTile I
-	FIELD ag inGround Z
-	FIELD ah thrower Lis;
-	FIELD ai ticksInGround I
-	FIELD aj ticksInAir I
-	FIELD b xTile I
+CLASS bg net/minecraft/src/EntitySnowball
+	FIELD a field_458_a I
+	FIELD aj field_455_ah Ljy;
+	FIELD ak field_454_ai I
+	FIELD al field_453_aj I
+	FIELD b field_456_b I
+	FIELD c field_461_ad I
+	FIELD d field_460_ae I
+	FIELD e field_459_af I
+	FIELD f field_457_ag Z
+	METHOD a func_6141_a (DDDFF)V
+	METHOD a writeEntityToNBT (Lv;)V
+	METHOD b onCollideWithPlayer (Lfx;)V
+	METHOD b readEntityFromNBT (Lv;)V
+	METHOD b_ onUpdate ()V

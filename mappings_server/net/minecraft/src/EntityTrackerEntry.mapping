@@ -1,22 +1,31 @@
-CLASS fy net/minecraft/src/EntityTrackerEntry
-	FIELD a trackedEntity Ldj;
-	FIELD b trackingDistanceThreshold I
-	FIELD c updateFrequency I
-	FIELD d encodedPosX I
-	FIELD e encodedPosY I
-	FIELD f encodedPosZ I
-	FIELD g encodedRotationYaw I
-	FIELD h encodedRotationPitch I
-	FIELD i updateCounter I
-	FIELD j playerEntitiesUpdated Z
-	FIELD k trackedPlayers Ljava/util/Set;
-	FIELD l lastTrackedEntityPosX D
-	FIELD m lastTrackedEntityPosY D
-	FIELD n lastTrackedEntityPosZ D
-	FIELD o firstUpdateDone Z
-	METHOD a removeFromTrackedPlayers ()V
-	METHOD a updatePlayerEntity (Lea;)V
-	METHOD a sendPacketToTrackedPlayers (Lhp;)V
-	METHOD a updatePlayerList (Ljava/util/List;)V
-	METHOD b getSpawnPacket ()Lhp;
-	METHOD b updatePlayerEntities (Ljava/util/List;)V
+CLASS gu net/minecraft/src/EntityTrackerEntry
+	FIELD a field_909_a Ldx;
+	FIELD b field_9237_b Z
+	FIELD c field_9236_c Z
+	FIELD d field_9235_d I
+	FIELD e field_9234_e I
+	FIELD f field_9233_f I
+	FIELD g field_9232_g I
+	FIELD h field_9231_h I
+	FIELD i field_9230_i I
+	FIELD j field_9229_j I
+	FIELD k field_9228_k D
+	FIELD l field_9227_l D
+	FIELD m field_9226_m D
+	FIELD n field_9225_n I
+	FIELD o field_900_j Z
+	FIELD p field_899_k Ljava/util/Set;
+	FIELD q field_9224_q D
+	FIELD r field_9223_r D
+	FIELD s field_9222_s D
+	FIELD t field_9221_t Z
+	FIELD u field_9220_u Z
+	METHOD a func_604_a ()V
+	METHOD a func_606_a (Ler;)V
+	METHOD a func_603_a (Lir;)V
+	METHOD a func_605_a (Ljava/util/List;)V
+	METHOD b func_602_b ()Lir;
+	METHOD b func_9219_b (Ler;)V
+	METHOD b func_601_b (Ljava/util/List;)V
+	METHOD equals (Ljava/lang/Object;)Z
+	METHOD hashCode ()I

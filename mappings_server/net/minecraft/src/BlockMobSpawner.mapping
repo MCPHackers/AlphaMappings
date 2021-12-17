@@ -1,4 +1,5 @@
-CLASS ca net/minecraft/src/BlockMobSpawner
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
+CLASS cn net/minecraft/src/BlockMobSpawner
+	METHOD a allowsAttachment ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD a_ func_294_a_ ()Lay;

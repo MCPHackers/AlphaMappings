@@ -1,0 +1,35 @@
+CLASS pm net/minecraft/src/WorldChunkManager
+	FIELD a temperature [D
+	FIELD b humidity [D
+	FIELD c subValueArray [D
+	FIELD d biomeGenArray [Lgf;
+	FIELD e temperatureNoise Lne;
+	FIELD f humidityNoise Lne;
+	FIELD g someOtherNoise Lne;
+	METHOD <init> (Lcx;)V
+		ARG 1 world
+	METHOD a getBiomeAtChunkCorner (II)Lgf;
+		ARG 1 xCoord
+		ARG 2 zCoord
+	METHOD a getBiomeGenArray (IIII)[Lgf;
+		ARG 1 xCoord
+		ARG 2 zCoord
+		ARG 3 inChunkXOffset
+		ARG 4 inChunkZOffset
+	METHOD a getBiomesForChunk (Lqk;)Lgf;
+		ARG 1 chunkcoordintpair
+	METHOD a getTemperatures ([DIIII)[D
+		ARG 1 temperatureArray
+		ARG 2 xPosition
+		ARG 3 zPosition
+		ARG 4 xArrayOffset
+		ARG 5 zArrayOffset
+	METHOD a loadBlockGeneratorData ([Lgf;IIII)[Lgf;
+		ARG 1 biomeGenArray
+		ARG 2 xCoord
+		ARG 3 zCoord
+		ARG 4 xArrayOffset
+		ARG 5 zArrayOffset
+	METHOD b getTemperatureAtChunkCorner (II)D
+		ARG 1 xCoord
+		ARG 2 zCoord

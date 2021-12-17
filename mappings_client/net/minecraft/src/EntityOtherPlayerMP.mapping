@@ -1,11 +1,7 @@
-CLASS nt net/minecraft/src/EntityOtherPlayerMP
-	FIELD a unusedFloat F
-	FIELD bg otherPlayerMPPosRotationIncrements I
-	FIELD bh otherPlayerMPX D
-	FIELD bi otherPlayerMPY D
-	FIELD bj otherPlayerMPZ D
-	FIELD bk otherPlayerMPYaw D
-	FIELD bl otherPlayerMPPitch D
-	METHOD <init> (Lcn;Ljava/lang/String;)V
-		ARG 1 worldObj
-		ARG 2 username
+CLASS pq net/minecraft/src/EntityOtherPlayerMP
+	FIELD b field_785_bg I
+	FIELD bw field_782_bj D
+	FIELD bx field_780_bk D
+	FIELD by field_786_bl D
+	FIELD c field_784_bh D
+	FIELD d field_783_bi D

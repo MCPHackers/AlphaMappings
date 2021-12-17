@@ -1,10 +1,12 @@
-CLASS eh net/minecraft/src/Packet10Flying
+CLASS ez net/minecraft/src/Packet10Flying
 	FIELD a xPosition D
-	FIELD b yPosition D
+	FIELD b boundingBoxMinY D
 	FIELD c zPosition D
-	FIELD d stance D
+	FIELD d yPosition D
 	FIELD e yaw F
 	FIELD f pitch F
 	FIELD g onGround Z
 	FIELD h moving Z
 	FIELD i rotating Z
+	METHOD <init> (Z)V
+		ARG 1 onGround

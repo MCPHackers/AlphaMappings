@@ -1,13 +1,19 @@
-CLASS el net/minecraft/src/NBTBase
+CLASS fc net/minecraft/src/NBTBase
 	FIELD a key Ljava/lang/String;
 	METHOD a getType ()B
-	METHOD a createTagOfType (B)Lel;
-	METHOD a writeNamedTag (Lel;Ljava/io/DataOutput;)V
-	METHOD a readTagContents (Ljava/io/DataInput;)V
-		ARG 1 dataInput
-	METHOD a writeTagContents (Ljava/io/DataOutput;)V
+	METHOD a createTagOfType (B)Lfc;
+		ARG 0 tagTypeIndex
+	METHOD a writeTag (Lfc;Ljava/io/DataOutput;)V
+		ARG 0 nbtbase
 		ARG 1 dataOutput
-	METHOD a setKey (Ljava/lang/String;)Lel;
+	METHOD a readTagContents (Ljava/io/DataInput;)V
+		ARG 1 datainput
+	METHOD a writeTagContents (Ljava/io/DataOutput;)V
+		ARG 1 dataoutput
+	METHOD a setKey (Ljava/lang/String;)Lfc;
+		ARG 1 key
 	METHOD b getKey ()Ljava/lang/String;
 	METHOD b getTagName (B)Ljava/lang/String;
-	METHOD b readNamedTag (Ljava/io/DataInput;)Lel;
+		ARG 0 tagTypeIndex
+	METHOD b readTag (Ljava/io/DataInput;)Lfc;
+		ARG 0 dataInput

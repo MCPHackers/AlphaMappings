@@ -1,3 +1,11 @@
-CLASS ik net/minecraft/src/WorldGenerator
-	METHOD a setScale (DDD)V
-	METHOD a generate (Lcn;Ljava/util/Random;III)Z
+CLASS jr net/minecraft/src/WorldGenerator
+	METHOD a changeOneBigTreeNumberForNoReason (DDD)V
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+	METHOD a generate (Lcx;Ljava/util/Random;III)Z
+		ARG 1 world
+		ARG 2 random
+		ARG 3 xCoord
+		ARG 4 yCoord
+		ARG 5 zCoord

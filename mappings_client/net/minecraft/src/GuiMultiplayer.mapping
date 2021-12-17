@@ -1,4 +1,9 @@
-CLASS gc net/minecraft/src/GuiMultiplayer
-	FIELD a parentScreen Lbh;
-	FIELD h updateCounter I
-	FIELD i ipText Ljava/lang/String;
+CLASS hc net/minecraft/src/GuiMultiplayer
+	FIELD a updateCounter Lbp;
+	FIELD h parentScreen I
+	FIELD i serverAddress Ljava/lang/String;
+	METHOD <init> (Lbp;)V
+		ARG 1 guiscreen
+	METHOD a func_4067_a (Ljava/lang/String;I)I
+		ARG 1 s
+		ARG 2 integer

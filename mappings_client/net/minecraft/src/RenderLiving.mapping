@@ -1,12 +1,29 @@
-CLASS dn net/minecraft/src/RenderLiving
-	FIELD d mainModel Lfo;
-	FIELD e renderPassModel Lfo;
-	METHOD a setRenderPassModel (Lfo;)V
-	METHOD a getDeathMaxRotation (Lge;)F
-	METHOD a doRenderLiving (Lge;DDDFF)V
-	METHOD a preRenderCallback (Lge;F)V
-	METHOD a getColorMultiplier (Lge;FF)I
-	METHOD a shouldRenderPass (Lge;I)Z
-	METHOD b renderEquippedItems (Lge;F)V
-	METHOD c renderSwingProgress (Lge;F)F
-	METHOD d handleRotationFloat (Lge;F)F
+CLASS eb net/minecraft/src/RenderLiving
+	FIELD e mainModel Lgl;
+	FIELD f renderPassModel Lgl;
+	METHOD <init> (Lgl;F)V
+		ARG 1 mainModel
+		ARG 2 float2
+	METHOD a setRenderPassModel (Lgl;)V
+		ARG 1 renderpassmodel
+	METHOD a func_172_a (Lhe;)F
+		ARG 1 entityliving
+	METHOD a preRenderCallback (Lhe;F)V
+		ARG 1 entityliving
+		ARG 2 float2
+	METHOD a getColorMultiplier (Lhe;FF)I
+		ARG 1 entityliving
+		ARG 2 float2
+		ARG 3 float3
+	METHOD a shouldRenderPass (Lhe;I)Z
+		ARG 1 entityliving
+		ARG 2 integer
+	METHOD b renderEquippedItems (Lhe;F)V
+		ARG 1 entityliving
+		ARG 2 float2
+	METHOD c func_167_c (Lhe;F)F
+		ARG 1 entityliving
+		ARG 2 float2
+	METHOD d func_170_d (Lhe;F)F
+		ARG 1 entityliving
+		ARG 2 float2

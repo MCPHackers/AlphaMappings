@@ -1,18 +1,17 @@
-CLASS el net/minecraft/src/MCHashTable2
-	FIELD a slots [Lbt;
-	FIELD b count I
-	FIELD c threshold I
-	FIELD d growFactor F
-	FIELD e versionStamp I
-	METHOD a computeHash (I)I
-	METHOD a getSlotIndex (II)I
-	METHOD a insert (IJLjava/lang/Object;I)V
-	METHOD a lookup (J)Ljava/lang/Object;
-	METHOD a addKey (JLjava/lang/Object;)V
-	METHOD a copyTo ([Lbt;)V
-	METHOD b grow (I)V
-	METHOD b removeObject (J)Ljava/lang/Object;
-	METHOD c removeEntry (J)Lbt;
-	METHOD d getHash (J)I
-	METHOD e computeHash (J)I
-		ARG 0 hash
+CLASS fd net/minecraft/src/MCHashTable2
+	FIELD a field_949_a [Lcg;
+	FIELD b field_948_b I
+	FIELD c field_952_c I
+	FIELD d field_951_d F
+	FIELD e field_950_e I
+	METHOD a func_676_a (I)I
+	METHOD a func_678_a (II)I
+	METHOD a func_679_a (IJLjava/lang/Object;I)V
+	METHOD a func_677_a (J)Ljava/lang/Object;
+	METHOD a func_675_a (JLjava/lang/Object;)V
+	METHOD a func_673_a ([Lcg;)V
+	METHOD b func_680_b (I)V
+	METHOD b func_670_b (J)Ljava/lang/Object;
+	METHOD c func_672_c (J)Lcg;
+	METHOD d func_674_d (J)I
+	METHOD e func_671_e (J)I

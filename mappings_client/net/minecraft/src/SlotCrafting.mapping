@@ -1,2 +1,9 @@
-CLASS an net/minecraft/src/SlotCrafting
-	FIELD c craftMatrix Lgh;
+CLASS ar net/minecraft/src/SlotCrafting
+	FIELD c craftMatrix Lhh;
+	METHOD <init> (Lew;Lhh;Lhh;III)V
+		ARG 1 guicontainer
+		ARG 2 craftMatrix
+		ARG 3 iinventory
+		ARG 4 slotIndex
+		ARG 5 xPos
+		ARG 6 yPos

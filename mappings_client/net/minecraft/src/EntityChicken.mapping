@@ -1,8 +1,8 @@
-CLASS mz net/minecraft/src/EntityChicken
-	FIELD a unusedBool2 Z
-	FIELD b wingRotation F
-	FIELD c destPos F
-	FIELD d prevDestPos F
-	FIELD e prevWingRotation F
-	FIELD h moveWings F
+CLASS os net/minecraft/src/EntityChicken
+	FIELD a unusedChickenBoolean Z
+	FIELD b field_752_b F
+	FIELD c field_758_c F
+	FIELD d field_757_d F
+	FIELD e field_756_e F
+	FIELD h field_755_h F
 	FIELD i timeUntilNextEgg I

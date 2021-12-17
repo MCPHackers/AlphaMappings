@@ -1,1 +1,10 @@
-CLASS ek net/minecraft/src/EntitySkeleton
+CLASS fb net/minecraft/src/EntitySkeleton
+	FIELD a field_4108_a Lhl;
+	METHOD E func_153_y ()V
+	METHOD a func_157_a (Ldx;F)V
+	METHOD a writeEntityToNBT (Lv;)V
+	METHOD b readEntityFromNBT (Lv;)V
+	METHOD d func_6097_d ()Ljava/lang/String;
+	METHOD e func_6100_e ()Ljava/lang/String;
+	METHOD f func_6098_f ()Ljava/lang/String;
+	METHOD g func_149_g ()I

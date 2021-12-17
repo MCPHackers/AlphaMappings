@@ -1,1 +1,2 @@
-CLASS ch net/minecraft/src/ItemSnowball
+CLASS cw net/minecraft/src/ItemSnowball
+	METHOD a onItemRightClick (Lhl;Leo;Lfx;)Lhl;

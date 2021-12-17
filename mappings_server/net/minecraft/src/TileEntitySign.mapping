@@ -1,3 +1,5 @@
-CLASS ig net/minecraft/src/TileEntitySign
+CLASS jl net/minecraft/src/TileEntitySign
 	FIELD e signText [Ljava/lang/String;
 	FIELD f lineBeingEdited I
+	METHOD a readFromNBT (Lv;)V
+	METHOD b writeToNBT (Lv;)V

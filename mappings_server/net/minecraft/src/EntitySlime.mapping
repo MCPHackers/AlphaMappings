@@ -1,7 +1,17 @@
-CLASS fh net/minecraft/src/EntitySlime
-	FIELD a squishFactor F
-	FIELD ad size I
-	FIELD ae slimeJumpDelay I
-	FIELD b prevSquishFactor F
-	METHOD c setSlimeSize (I)V
-		ARG 1 size
+CLASS gd net/minecraft/src/EntitySlime
+	FIELD a field_401_a F
+	FIELD b field_400_b F
+	FIELD c field_403_ad I
+	FIELD d field_402_ae I
+	METHOD a func_155_a ()Z
+	METHOD a writeEntityToNBT (Lv;)V
+	METHOD b onCollideWithPlayer (Lfx;)V
+	METHOD b readEntityFromNBT (Lv;)V
+	METHOD b_ onUpdate ()V
+	METHOD c func_152_d_ ()V
+	METHOD d func_160_c (I)V
+	METHOD e func_6100_e ()Ljava/lang/String;
+	METHOD f func_6098_f ()Ljava/lang/String;
+	METHOD g func_149_g ()I
+	METHOD h func_6102_h ()F
+	METHOD l setEntityDead ()V

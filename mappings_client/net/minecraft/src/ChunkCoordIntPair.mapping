@@ -1,8 +1,9 @@
-CLASS ol net/minecraft/src/ChunkCoordIntPair
+CLASS qk net/minecraft/src/ChunkCoordIntPair
 	FIELD a chunkXPos I
 	FIELD b chunkZPos I
 	METHOD <init> (II)V
-		ARG 1 chunkXPOs
-		ARG 2 chunkZPos
+		ARG 1 xPos
+		ARG 2 zPos
 	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 chunkCoordIntPair
+		ARG 1 object
+	METHOD hashCode ()I

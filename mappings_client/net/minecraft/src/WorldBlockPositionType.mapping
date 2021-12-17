@@ -1,8 +1,15 @@
-CLASS lc net/minecraft/src/WorldBlockPositionType
-	FIELD a posX I
-	FIELD b posY I
-	FIELD c posZ I
-	FIELD d acceptCountdown I
+CLASS mq net/minecraft/src/WorldBlockPositionType
+	FIELD a xCoord I
+	FIELD b yCoord I
+	FIELD c zCoord I
+	FIELD d unknown I
 	FIELD e blockID I
-	FIELD f metadata I
-	FIELD g worldClient Lgs;
+	FIELD f blockMetadata I
+	FIELD g worldClient Lhu;
+	METHOD <init> (Lhu;IIIII)V
+		ARG 1 worldclient
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
+		ARG 5 integer5
+		ARG 6 integer6

@@ -1,5 +1,16 @@
-CLASS cy net/minecraft/src/MapGenBase
-	FIELD a range I
+CLASS dk net/minecraft/src/MapGenBase
+	FIELD a field_1306_a I
 	FIELD b rand Ljava/util/Random;
-	METHOD a recursiveGenerate (Lcn;IIII[B)V
-	METHOD a generate (Lnw;Lcn;II[B)V
+	METHOD a func_867_a (Lbd;Lcx;II[B)V
+		ARG 1 ichunkprovider
+		ARG 2 world
+		ARG 3 integer3
+		ARG 4 integer4
+		ARG 5 arr
+	METHOD a func_868_a (Lcx;IIII[B)V
+		ARG 1 world
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
+		ARG 5 integer5
+		ARG 6 arr

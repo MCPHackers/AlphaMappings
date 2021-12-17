@@ -1,10 +1,3 @@
-CLASS iw net/minecraft/src/EntityDiggingFX
-	METHOD <init> (Lcn;DDDDDDLly;)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 motionX
-		ARG 10 motionY
-		ARG 12 motionZ
-		ARG 14 block
+CLASS kh net/minecraft/src/EntityDiggingFX
+	FIELD a field_4082_a Lno;
+	METHOD a func_4041_a (III)Lkh;

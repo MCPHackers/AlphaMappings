@@ -1,6 +1,6 @@
-CLASS dw net/minecraft/src/CraftingManager
-	FIELD a instance Ldw;
+CLASS em net/minecraft/src/CraftingManager
+	FIELD a instance Lem;
 	FIELD b recipes Ljava/util/List;
-	METHOD a getInstance ()Ldw;
-	METHOD a addRecipe (Lev;[Ljava/lang/Object;)V
-	METHOD a findMatchingRecipe ([I)Lev;
+	METHOD a getInstance ()Lem;
+	METHOD a addRecipe (Lfo;[Ljava/lang/Object;)V
+	METHOD a craft ([I)Lfo;

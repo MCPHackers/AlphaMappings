@@ -1,1 +1,2 @@
-CLASS ic net/minecraft/src/WorldGenTrees
+CLASS jh net/minecraft/src/WorldGenTrees
+	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z

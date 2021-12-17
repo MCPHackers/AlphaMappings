@@ -1,7 +1,4 @@
-CLASS p net/minecraft/src/BlockLeavesBase
+CLASS r net/minecraft/src/BlockLeavesBase
 	FIELD a graphicsLevel Z
-	METHOD <init> (IILiq;Z)V
-		ARG 1 id
-		ARG 2 blockIndex
-		ARG 3 material
-		ARG 4 graphicsLevel
+	METHOD a allowsAttachment ()Z
+	METHOD a isSideInsideCoordinate (Lit;IIII)Z

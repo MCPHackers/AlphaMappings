@@ -1,10 +1,10 @@
-CLASS net/minecraft/client/MinecraftApplet net/minecraft/client/MinecraftApplet
+CLASS net/minecraft/client/MinecraftApplet
 	FIELD a mcCanvas Ljava/awt/Canvas;
 	FIELD b mc Lnet/minecraft/client/Minecraft;
 	FIELD c mcThread Ljava/lang/Thread;
-	METHOD a startMainThread ()V
+	METHOD a func_6233_a ()V
 	METHOD b shutdown ()V
-	METHOD c clearApplet ()V
+	METHOD c func_6231_c ()V
 	METHOD destroy ()V
 	METHOD init ()V
 	METHOD start ()V

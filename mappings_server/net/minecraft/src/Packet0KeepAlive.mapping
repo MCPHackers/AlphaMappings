@@ -1,1 +1,5 @@
-CLASS iz net/minecraft/src/Packet0KeepAlive
+CLASS kh net/minecraft/src/Packet0KeepAlive
+	METHOD a func_71_a ()I
+	METHOD a func_72_a (Lfa;)V
+	METHOD a func_70_a (Ljava/io/DataInputStream;)V
+	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

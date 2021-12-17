@@ -1,0 +1,3 @@
+CLASS in net/minecraft/src/Packet39VehicleIDRelated
+	FIELD a entityId I
+	FIELD b vehicleEntityId I

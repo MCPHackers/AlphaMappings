@@ -1,0 +1,9 @@
+CLASS gx net/minecraft/src/EnumCreatureType
+	FIELD a monster Lgx;
+	FIELD b creature Lgx;
+	FIELD c mobClass Ljava/lang/Class;
+	FIELD d maxNumberOfEntityType I
+	FIELD e field_6518_e [Lgx;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/Class;I)V
+		ARG 3 mobClass
+		ARG 4 maxNumberOfMobType

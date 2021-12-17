@@ -1,37 +1,38 @@
-CLASS er net/minecraft/src/EnumArt
+CLASS fk net/minecraft/src/EnumArt
 	FIELD A sizeY I
-	FIELD B offsetX I
-	FIELD C offsetY I
-	FIELD a Kebab Ler;
-	FIELD b Aztec Ler;
-	FIELD c Alban Ler;
-	FIELD d Aztec2 Ler;
-	FIELD e Bomb Ler;
-	FIELD f Plant Ler;
-	FIELD g Wasteland Ler;
-	FIELD h Pool Ler;
-	FIELD i Courbet Ler;
-	FIELD j Sea Ler;
-	FIELD k Sunset Ler;
-	FIELD l Creebet Ler;
-	FIELD m Wanderer Ler;
-	FIELD n Graham Ler;
-	FIELD o Match Ler;
-	FIELD p Bust Ler;
-	FIELD q Stage Ler;
-	FIELD r Void Ler;
-	FIELD s SkullAndRoses Ler;
-	FIELD t Fighters Ler;
-	FIELD u Pointer Ler;
-	FIELD v Pigscene Ler;
-	FIELD w Skeleton Ler;
-	FIELD x DonkeyKong Ler;
+	FIELD B artImagePosX I
+	FIELD C artImagePosY I
+	FIELD D field_1630_D [Lfk;
+	FIELD a Kebab Lfk;
+	FIELD b Aztec Lfk;
+	FIELD c Alban Lfk;
+	FIELD d Aztec2 Lfk;
+	FIELD e Bomb Lfk;
+	FIELD f Plant Lfk;
+	FIELD g Wasteland Lfk;
+	FIELD h Pool Lfk;
+	FIELD i Courbet Lfk;
+	FIELD j Sea Lfk;
+	FIELD k Sunset Lfk;
+	FIELD l Creebet Lfk;
+	FIELD m Wanderer Lfk;
+	FIELD n Graham Lfk;
+	FIELD o Match Lfk;
+	FIELD p Bust Lfk;
+	FIELD q Stage Lfk;
+	FIELD r Void Lfk;
+	FIELD s SkullAndRoses Lfk;
+	FIELD t Fighters Lfk;
+	FIELD u Pointer Lfk;
+	FIELD v Pigscene Lfk;
+	FIELD w Skeleton Lfk;
+	FIELD x DonkeyKong Lfk;
 	FIELD y title Ljava/lang/String;
 	FIELD z sizeX I
 	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
 		ARG 3 title
 		ARG 4 sizeX
 		ARG 5 sizeY
-		ARG 6 offsetX
-		ARG 7 offsetY
-	METHOD values ()[Ler;
+		ARG 6 posX
+		ARG 7 posY
+	METHOD values ()[Lfk;

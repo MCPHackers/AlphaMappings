@@ -1,12 +1,20 @@
-CLASS ft net/minecraft/src/ChunkProviderLoadOrGenerate
+CLASS gr net/minecraft/src/ChunkProviderLoadOrGenerate
 	FIELD a lastQueriedChunkXPos I
 	FIELD b lastQueriedChunkZPos I
-	FIELD c blankChunk Lga;
-	FIELD d chunkProvider Law;
-	FIELD e chunkLoader Laf;
-	FIELD f chunks [Lga;
-	FIELD g worldObj Lcn;
-	FIELD h lastQueriedChunk Lga;
-	METHOD a saveExtraChunkData (Lga;)V
-	METHOD b saveChunk (Lga;)V
-	METHOD c getChunkAt (II)Lga;
+	FIELD c blankChunk Lgz;
+	FIELD d chunkProvider Lbd;
+	FIELD e chunkLoader Lai;
+	FIELD f chunks [Lgz;
+	FIELD g worldObj Lcx;
+	FIELD h lastQueriedChunk Lgz;
+	METHOD <init> (Lcx;Lai;Lbd;)V
+		ARG 1 world
+		ARG 2 ichunkloader
+		ARG 3 ichunkprovider
+	METHOD a saveExtraChunkData (Lgz;)V
+		ARG 1 chunk
+	METHOD b saveChunk (Lgz;)V
+		ARG 1 chunk
+	METHOD c func_542_c (II)Lgz;
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos

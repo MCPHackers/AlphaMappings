@@ -1,11 +1,3 @@
-CLASS bc net/minecraft/src/WorldGenerator
-	METHOD a setScale (DDD)V
-		ARG 1 scaleX
-		ARG 3 scaleY
-		ARG 5 scaleZ
-	METHOD a generate (Ldy;Ljava/util/Random;III)Z
-		ARG 1 world
-		ARG 2 rand
-		ARG 3 x
-		ARG 4 y
-		ARG 5 z
+CLASS bj net/minecraft/src/WorldGenerator
+	METHOD a func_420_a (DDD)V
+	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z

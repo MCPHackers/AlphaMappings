@@ -1,9 +1,4 @@
-CLASS dq net/minecraft/src/Packet13PlayerLookMove
-	METHOD <init> (DDDDFFZ)V
-		ARG 1 xPosition
-		ARG 3 yPosition
-		ARG 5 stance
-		ARG 7 zPosition
-		ARG 9 yaw
-		ARG 10 pitch
-		ARG 11 onGround
+CLASS ef net/minecraft/src/Packet13PlayerLookMove
+	METHOD a func_71_a ()I
+	METHOD a func_70_a (Ljava/io/DataInputStream;)V
+	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

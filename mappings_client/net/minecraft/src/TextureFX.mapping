@@ -1,9 +1,12 @@
-CLASS z net/minecraft/src/TextureFX
+CLASS ad net/minecraft/src/TextureFX
 	FIELD a imageData [B
 	FIELD b iconIndex I
 	FIELD c anaglyphEnabled Z
-	FIELD d textureId I
+	FIELD d glBindTextureInt I
 	FIELD e tileSize I
 	FIELD f tileImage I
+	METHOD <init> (I)V
+		ARG 1 iconIndex
 	METHOD a onTick ()V
-	METHOD a bindImage (Ley;)V
+	METHOD a bindImage (Lft;)V
+		ARG 1 renderengine

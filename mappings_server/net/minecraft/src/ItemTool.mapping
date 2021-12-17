@@ -1,10 +1,9 @@
-CLASS cp net/minecraft/src/ItemTool
-	FIELD a toolMaterial I
-	FIELD aX blocksEffectiveAgainst [Lff;
-	FIELD aY efficiencyOnProperMaterial F
-	FIELD aZ damageVsEntity I
-	METHOD <init> (III[Lff;)V
-		ARG 1 itemID
-		ARG 2 damage
-		ARG 3 toolMaterial
-		ARG 4 effectiveBlocks
+CLASS dc net/minecraft/src/ItemTool
+	FIELD a field_262_a I
+	FIELD bb blocksEffectiveAgainst [Lga;
+	FIELD bc field_264_aY F
+	FIELD bd field_263_aZ I
+	METHOD a func_9203_a (Ldx;)I
+	METHOD a hitBlock (Lhl;IIII)V
+	METHOD a getStrVsBlock (Lhl;Lga;)F
+	METHOD a func_9201_a (Lhl;Ljy;)V

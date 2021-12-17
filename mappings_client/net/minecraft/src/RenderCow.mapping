@@ -1,2 +1,1 @@
-CLASS mc net/minecraft/src/RenderCow
-	METHOD a renderCow (Lam;DDDFF)V
+CLASS ns net/minecraft/src/RenderCow

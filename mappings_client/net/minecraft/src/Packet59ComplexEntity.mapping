@@ -1,6 +1,11 @@
-CLASS ny net/minecraft/src/Packet59ComplexEntity
-	FIELD a xCoord I
-	FIELD b yCoord I
-	FIELD c zCoord I
-	FIELD d compressedNBT [B
-	FIELD e tileEntityNBT Lhm;
+CLASS pw net/minecraft/src/Packet59ComplexEntity
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c zPosition I
+	FIELD d entityData [B
+	FIELD e entityNBT Lip;
+	METHOD <init> (IIILjh;)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 realmMadeOfCakePorcelainDollsAndLizzieHeads

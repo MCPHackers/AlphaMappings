@@ -1,4 +1,4 @@
-CLASS fk net/minecraft/src/GuiButton
+CLASS gg net/minecraft/src/GuiButton
 	FIELD a width I
 	FIELD b height I
 	FIELD c xPosition I
@@ -6,9 +6,33 @@ CLASS fk net/minecraft/src/GuiButton
 	FIELD e displayString Ljava/lang/String;
 	FIELD f id I
 	FIELD g enabled Z
-	FIELD h visible Z
+	FIELD h enabled2 Z
+	METHOD <init> (IIIIILjava/lang/String;)V
+		ARG 1 buttonID
+		ARG 2 buttonXPos
+		ARG 3 buttonYPos
+		ARG 4 buttonWidth
+		ARG 5 buttonHeight
+		ARG 6 buttonText
+	METHOD <init> (IIILjava/lang/String;)V
+		ARG 1 buttonID
+		ARG 2 buttonXPos
+		ARG 3 buttonYPos
+		ARG 4 buttonText
 	METHOD a mouseReleased (II)V
+		ARG 1 cursorPosX
+		ARG 2 cursorPosY
 	METHOD a drawButton (Lnet/minecraft/client/Minecraft;II)V
+		ARG 1 minecraft
+		ARG 2 posX
+		ARG 3 posY
 	METHOD a getHoverState (Z)I
+		ARG 1 boolean1
 	METHOD b mouseDragged (Lnet/minecraft/client/Minecraft;II)V
+		ARG 1 minecraft
+		ARG 2 cursorPosX
+		ARG 3 cursorPosY
 	METHOD c mousePressed (Lnet/minecraft/client/Minecraft;II)Z
+		ARG 1 minecraft
+		ARG 2 cursorPosX
+		ARG 3 cursorPosY

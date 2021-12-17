@@ -1,0 +1,17 @@
+CLASS ij net/minecraft/src/WorldProvider
+	FIELD a field_4302_a Leo;
+	FIELD b field_4301_b Lix;
+	FIELD c field_6167_c Z
+	FIELD d field_6166_d Z
+	FIELD e field_4306_c Z
+	FIELD f lightBrightnessTable [F
+	FIELD g field_6165_g I
+	FIELD h field_6164_h [F
+	METHOD a func_4090_a ()V
+	METHOD a func_4091_a (I)Lij;
+	METHOD a canCoordinateBeSpawn (II)Z
+	METHOD a func_4089_a (JF)F
+	METHOD a func_4093_a (Leo;)V
+	METHOD a getChunkLoader (Ljava/io/File;)Lav;
+	METHOD b generateLightBrightnessTable ()V
+	METHOD c getChunkProvider ()Lbu;

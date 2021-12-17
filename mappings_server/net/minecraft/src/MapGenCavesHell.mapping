@@ -1,0 +1,4 @@
+CLASS bl net/minecraft/src/MapGenCavesHell
+	METHOD a func_4106_a (II[BDDD)V
+	METHOD a func_4105_a (II[BDDDFFFIID)V
+	METHOD a func_666_a (Leo;IIII[B)V

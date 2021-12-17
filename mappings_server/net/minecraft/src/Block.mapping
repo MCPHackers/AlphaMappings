@@ -1,295 +1,167 @@
-CLASS ff net/minecraft/src/Block
-	FIELD A bedrock Lff;
-	FIELD B waterMoving Lff;
-	FIELD C waterStill Lff;
-	FIELD D lavaMoving Lff;
-	FIELD E lavaStill Lff;
-	FIELD F sand Lff;
-	FIELD G gravel Lff;
-	FIELD H oreGold Lff;
-	FIELD I oreIron Lff;
-	FIELD J oreCoal Lff;
-	FIELD K wood Lff;
-	FIELD L leaves Lbr;
-	FIELD M sponge Lff;
-	FIELD N glass Lff;
-	FIELD O clothRed Lff;
-	FIELD P clothOrange Lff;
-	FIELD Q clothYellow Lff;
-	FIELD R clothChartreuse Lff;
-	FIELD S clothGreen Lff;
-	FIELD T clothSpringGreen Lff;
-	FIELD U clothCyan Lff;
-	FIELD V clothCapri Lff;
-	FIELD W clothUltramarine Lff;
-	FIELD X clothViolet Lff;
-	FIELD Y clothPurple Lff;
-	FIELD Z clothMagenta Lff;
-	FIELD aA crops Lff;
-	FIELD aB tilledField Lff;
-	FIELD aC stoneOvenIdle Lff;
-	FIELD aD stoneOvenActive Lff;
-	FIELD aE signStanding Lff;
-	FIELD aF doorWood Lff;
-	FIELD aG ladder Lff;
-	FIELD aH minecartTrack Lff;
-	FIELD aI stairCompactStone Lff;
-	FIELD aJ signWall Lff;
-	FIELD aK lever Lff;
-	FIELD aL pressurePlateStone Lff;
-	FIELD aM doorSteel Lff;
-	FIELD aN pressurePlateWood Lff;
-	FIELD aO oreRedstone Lff;
-	FIELD aP oreRedstoneGlowing Lff;
-	FIELD aQ torchRedstoneIdle Lff;
-	FIELD aR torchRedstoneActive Lff;
-	FIELD aS button Lff;
-	FIELD aT snow Lff;
-	FIELD aU ice Lff;
-	FIELD aV blockSnow Lff;
-	FIELD aW cactus Lff;
-	FIELD aX blockClay Lff;
-	FIELD aY reed Lff;
-	FIELD aZ jukebox Lff;
-	FIELD aa clothRose Lff;
-	FIELD ab clothDarkGray Lff;
-	FIELD ac cloth Lff;
-	FIELD ad clothWhite Lff;
-	FIELD ae plantYellow Lgn;
-	FIELD af plantRed Lgn;
-	FIELD ag mushroomBrown Lgn;
-	FIELD ah mushroomRed Lgn;
-	FIELD ai blockGold Lff;
-	FIELD aj blockSteel Lff;
-	FIELD ak stairDouble Lff;
-	FIELD al stairSingle Lff;
-	FIELD am brick Lff;
-	FIELD an tnt Lff;
-	FIELD ao bookshelf Lff;
-	FIELD ap cobblestoneMossy Lff;
-	FIELD aq obsidian Lff;
-	FIELD ar torch Lff;
-	FIELD as fire Lil;
-	FIELD at spawner Lff;
-	FIELD au stairCompactWood Lff;
-	FIELD av crate Lff;
-	FIELD aw redstoneWire Lff;
-	FIELD ax oreDiamond Lff;
-	FIELD ay blockDiamond Lff;
-	FIELD az workbench Lff;
-	FIELD ba fence Lff;
-	FIELD bb blockIndexInTexture I
-	FIELD bc blockID I
-	FIELD bd hardness F
-	FIELD be resistance F
-	FIELD bf minX D
-	FIELD bg minY D
-	FIELD bh minZ D
-	FIELD bi maxX D
-	FIELD bj maxY D
-	FIELD bk maxZ D
-	FIELD bl stepSound Lbq;
-	FIELD bm blockParticleGravity F
-	FIELD bn material Liq;
-	FIELD bo slipperiness F
-	FIELD e soundPowderFootstep Lbq;
-	FIELD f soundWoodFootstep Lbq;
-	FIELD g soundGravelFootstep Lbq;
-	FIELD h soundGrassFootstep Lbq;
-	FIELD i soundStoneFootstep Lbq;
-	FIELD j soundMetalFootstep Lbq;
-	FIELD k soundGlassFootstepo Lbq;
-	FIELD l soundClothFootstep Lbq;
-	FIELD m soundSandFootstep Lbq;
-	FIELD n blockList [Lff;
-	FIELD o tickOnLoad [Z
-	FIELD p opaqueCubeLookup [Z
-	FIELD q isBlockContainer [Z
-	FIELD r lightOpacity [I
-	FIELD s canBlockGrass [Z
-	FIELD t lightValue [I
-	FIELD u stone Lff;
-	FIELD v grass Lgz;
-	FIELD w dirt Lff;
-	FIELD x cobblestone Lff;
-	FIELD y planks Lff;
-	FIELD z sapling Lff;
-	METHOD <init> (IILiq;)V
-		ARG 1 id
-		ARG 2 blockIndex
-		ARG 3 material
-	METHOD <init> (ILiq;)V
-		ARG 1 id
-		ARG 2 material
-	METHOD a getRenderType ()I
-	METHOD a setLightValue (F)Lff;
-		ARG 1 lightValue
+CLASS ga net/minecraft/src/Block
+	FIELD A waterStill Lga;
+	FIELD B waterMoving Lga;
+	FIELD C lavaStill Lga;
+	FIELD D lavaMoving Lga;
+	FIELD E sand Lga;
+	FIELD F gravel Lga;
+	FIELD G oreGold Lga;
+	FIELD H oreIron Lga;
+	FIELD I oreCoal Lga;
+	FIELD J wood Lga;
+	FIELD K leaves Lce;
+	FIELD L field_9043_L Lga;
+	FIELD M glass Lga;
+	FIELD N field_9042_N Lga;
+	FIELD O field_9041_O Lga;
+	FIELD P field_9040_P Lga;
+	FIELD Q field_9039_Q Lga;
+	FIELD R field_9038_R Lga;
+	FIELD S field_9037_S Lga;
+	FIELD T field_9036_T Lga;
+	FIELD U field_9034_U Lga;
+	FIELD V field_9033_V Lga;
+	FIELD W field_9032_W Lga;
+	FIELD X field_9031_X Lga;
+	FIELD Y field_9030_Y Lga;
+	FIELD Z field_9029_Z Lga;
+	FIELD aA tilledField Lga;
+	FIELD aB stoneOvenIdle Lga;
+	FIELD aC stoneOvenActive Lga;
+	FIELD aD signPost Lga;
+	FIELD aE doorWood Lga;
+	FIELD aF ladder Lga;
+	FIELD aG minecartTrack Lga;
+	FIELD aH field_9055_aH Lga;
+	FIELD aI signWall Lga;
+	FIELD aJ field_9054_aJ Lga;
+	FIELD aK field_9053_aK Lga;
+	FIELD aL doorSteel Lga;
+	FIELD aM field_9052_aM Lga;
+	FIELD aN oreRedstone Lga;
+	FIELD aO oreRedstoneGlowing Lga;
+	FIELD aP torchRedstoneIdle Lga;
+	FIELD aQ torchRedstoneActive Lga;
+	FIELD aR field_9051_aR Lga;
+	FIELD aS snow Lga;
+	FIELD aT ice Lga;
+	FIELD aU blockSnow Lga;
+	FIELD aV cactus Lga;
+	FIELD aW blockClay Lga;
+	FIELD aX reed Lga;
+	FIELD aY jukebox Lga;
+	FIELD aZ field_9050_aZ Lga;
+	FIELD aa field_9049_aa Lga;
+	FIELD ab cloth Lga;
+	FIELD ac field_9048_ac Lga;
+	FIELD ad plantYellow Lhk;
+	FIELD ae plantRed Lhk;
+	FIELD af mushroomBrown Lhk;
+	FIELD ag mushroomRed Lhk;
+	FIELD ah blockGold Lga;
+	FIELD ai blockSteel Lga;
+	FIELD aj stairDouble Lga;
+	FIELD ak stairSingle Lga;
+	FIELD al field_9047_al Lga;
+	FIELD am tnt Lga;
+	FIELD an bookShelf Lga;
+	FIELD ao cobblestoneMossy Lga;
+	FIELD ap obsidian Lga;
+	FIELD aq field_9046_aq Lga;
+	FIELD ar fire Ljr;
+	FIELD as mobSpawner Lga;
+	FIELD at field_9045_at Lga;
+	FIELD au crate Lga;
+	FIELD av redstoneWire Lga;
+	FIELD aw oreDiamond Lga;
+	FIELD ax blockDiamond Lga;
+	FIELD ay field_9044_ay Lga;
+	FIELD az crops Lga;
+	FIELD ba pumpkin Lga;
+	FIELD bb bloodStone Lga;
+	FIELD bc slowSand Lga;
+	FIELD bd lightStone Lga;
+	FIELD be portal Lai;
+	FIELD bf field_9035_bf Lga;
+	FIELD bg blockIndexInTexture I
+	FIELD bh blockID I
+	FIELD bi blockHardness F
+	FIELD bj blockResistance F
+	FIELD bk minX D
+	FIELD bl minY D
+	FIELD bm minZ D
+	FIELD bn maxX D
+	FIELD bo maxY D
+	FIELD bp maxZ D
+	FIELD bq stepSound Lcd;
+	FIELD br field_554_bm F
+	FIELD bs blockMaterial Ljw;
+	FIELD bt slipperiness F
+	FIELD d soundPowderFootstep Lcd;
+	FIELD e field_9028_e Lcd;
+	FIELD f field_9027_f Lcd;
+	FIELD g field_9026_g Lcd;
+	FIELD h field_9025_h Lcd;
+	FIELD i field_9024_i Lcd;
+	FIELD j field_9023_j Lcd;
+	FIELD k field_9022_k Lcd;
+	FIELD l field_9021_l Lcd;
+	FIELD m blocksList [Lga;
+	FIELD n tickOnLoad [Z
+	FIELD o field_540_p [Z
+	FIELD p isBlockContainer [Z
+	FIELD q lightOpacity [I
+	FIELD r field_537_s [Z
+	FIELD s lightValue [I
+	FIELD t stone Lga;
+	FIELD u grass Lhx;
+	FIELD v dirt Lga;
+	FIELD w cobblestone Lga;
+	FIELD x planks Lga;
+	FIELD y sapling Lga;
+	FIELD z bedrock Lga;
+	METHOD a allowsAttachment ()Z
+	METHOD a setLightValue (F)Lga;
 	METHOD a setBlockBounds (FFFFFF)V
-		ARG 1 minX
-		ARG 2 minY
-		ARG 3 minZ
-		ARG 4 maxX
-		ARG 5 maxY
-		ARG 6 maxZ
 	METHOD a getBlockTextureFromSide (I)I
-		ARG 1 unusedSide
 	METHOD a idDropped (ILjava/util/Random;)I
-		ARG 1 count
-		ARG 2 random
 	METHOD a canCollideCheck (IZ)Z
-	METHOD a isVecInsideYZBounds (Law;)Z
-		ARG 1 vector
-	METHOD a setStepSound (Lbq;)Lff;
-		ARG 1 stepSound
-	METHOD a getExplosionResistance (Ldj;)F
-		ARG 1 entity
-	METHOD a canPlaceBlockAt (Ldy;III)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD a onBlockDestroyedByPlayer (Ldy;IIII)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 flag
-	METHOD a dropBlockAsItemWithChance (Ldy;IIIIF)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD a collisionRayTrace (Ldy;IIILaw;Law;)Lfr;
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 vector1
-		ARG 6 vector2
-	METHOD a getCollidingBoundingBoxes (Ldy;IIILdg;Ljava/util/ArrayList;)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 aabb
-		ARG 6 arrayList
-	METHOD a onEntityCollidedWithBlock (Ldy;IIILdj;)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 entity
-	METHOD a velocityToAddToEntity (Ldy;IIILdj;Law;)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 entity
-		ARG 6 vector
-	METHOD a blockActivated (Ldy;IIILfc;)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 entityPlayer
-	METHOD a updateTick (Ldy;IIILjava/util/Random;)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 random
-	METHOD a blockStrength (Lfc;)F
-		ARG 1 entityPlayer
-	METHOD a setBlockBoundsBasedOnState (Lhq;III)V
-		ARG 1 blockAccess
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD a shouldSideBeRendered (Lhq;IIII)Z
-		ARG 1 blockAccess
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 side
+	METHOD a isVecInsideYZBounds (Lbd;)Z
+	METHOD a setStepSound (Lcd;)Lga;
+	METHOD a func_226_a (Ldx;)F
+	METHOD a canPlaceBlockAt (Leo;III)Z
+	METHOD a onBlockDestroyedByPlayer (Leo;IIII)V
+	METHOD a dropBlockAsItemWithChance (Leo;IIIIF)V
+	METHOD a collisionRayTrace (Leo;IIILbd;Lbd;)Lgo;
+	METHOD a getCollidingBoundingBoxes (Leo;IIILdu;Ljava/util/ArrayList;)V
+	METHOD a onEntityCollidedWithBlock (Leo;IIILdx;)V
+	METHOD a velocityToAddToEntity (Leo;IIILdx;Lbd;)V
+	METHOD a blockActivated (Leo;IIILfx;)Z
+	METHOD a updateTick (Leo;IIILjava/util/Random;)V
+	METHOD a onBlockPlacedBy (Leo;IIILjy;)V
+	METHOD a func_254_a (Lfx;)F
+	METHOD a setBlockBoundsBasedOnState (Lit;III)V
+	METHOD a isSideInsideCoordinate (Lit;IIII)Z
 	METHOD a quantityDropped (Ljava/util/Random;)I
-		ARG 1 random
 	METHOD a setTickOnLoad (Z)V
-		ARG 1 doesTickOnLoad
-	METHOD a_ dropBlockAsItem (Ldy;IIII)V
-		ARG 1 world
-	METHOD b isOpaqueCube ()Z
-	METHOD b setResistance (F)Lff;
-		ARG 1 resistance
-	METHOD b isVecInsideXZBounds (Law;)Z
-		ARG 1 vector
-	METHOD b onBlockRemoval (Ldy;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD b onNeighborBlockChange (Ldy;IIII)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 flag
-	METHOD b onEntityWalking (Ldy;IIILdj;)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 entity
-	METHOD b onBlockClicked (Ldy;IIILfc;)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 entityPlayer
-	METHOD b isPoweringTo (Lhq;IIII)Z
-		ARG 1 blockAccess
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 unused
-	METHOD c tickRate ()I
-	METHOD c setHardness (F)Lff;
-		ARG 1 hardness
-	METHOD c setLightOpacity (I)Lff;
-		ARG 1 opacityValue
-	METHOD c isVecInsideXYBounds (Law;)Z
-		ARG 1 vector
-	METHOD c onBlockDestroyedByExplosion (Ldy;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD c onBlockPlaced (Ldy;IIII)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 notifyFlag
-	METHOD d canProvidePower ()Z
-	METHOD d getCollisionBoundingBoxFromPool (Ldy;III)Ldg;
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD d isIndirectlyPoweringTo (Ldy;IIII)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 flag
-	METHOD e isCollidable ()Z
-	METHOD e onBlockAdded (Ldy;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD f getCanBlockGrass ()Z
-	METHOD f canBlockStay (Ldy;III)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+	METHOD a_ dropBlockAsItem (Leo;IIII)V
+	METHOD b tickRate ()I
+	METHOD b setResistance (F)Lga;
+	METHOD b isVecInsideXZBounds (Lbd;)Z
+	METHOD b onBlockRemoval (Leo;III)V
+	METHOD b onNeighborBlockChange (Leo;IIII)V
+	METHOD b onEntityWalking (Leo;IIILdx;)V
+	METHOD b onBlockClicked (Leo;IIILfx;)V
+	METHOD b isPoweringTo (Lit;IIII)Z
+	METHOD c canProvidePower ()Z
+	METHOD c setHardness (F)Lga;
+	METHOD c setLightOpacity (I)Lga;
+	METHOD c isVecInsideXYBounds (Lbd;)Z
+	METHOD c onBlockDestroyedByExplosion (Leo;III)V
+	METHOD c onBlockPlaced (Leo;IIII)V
+	METHOD d isCollidable ()Z
+	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
+	METHOD d isIndirectlyPoweringTo (Leo;IIII)Z
+	METHOD e unusedMethod ()Z
+	METHOD e onBlockAdded (Leo;III)V
+	METHOD f canBlockStay (Leo;III)Z

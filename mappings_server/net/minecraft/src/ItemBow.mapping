@@ -1,1 +1,2 @@
-CLASS bz net/minecraft/src/ItemBow
+CLASS cm net/minecraft/src/ItemBow
+	METHOD a onItemRightClick (Lhl;Leo;Lfx;)Lhl;

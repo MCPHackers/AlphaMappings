@@ -1,10 +1,11 @@
-CLASS fw net/minecraft/src/BlockDoor
-	METHOD a onPoweredBlockChange (Lcn;IIIZ)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD b setDoorRotation (I)V
-		ARG 1 metadata
-	METHOD c getState (I)I
-		ARG 1 metadata
+CLASS gu net/minecraft/src/BlockDoor
+	METHOD a setDoorState (Lcx;IIIZ)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 isActivated
+	METHOD b setDoorBoundsBasedOnState (I)V
+		ARG 1 doorState
+	METHOD c getDoorStateFromMetadata (I)I
+		ARG 1 blockMetadata

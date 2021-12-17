@@ -1,0 +1,31 @@
+CLASS ox net/minecraft/src/WorldProvider
+	FIELD a worldObj Lcx;
+	FIELD b worldChunkMgr Lpm;
+	FIELD c hasNoSky Z
+	FIELD d isHellWorld Z
+	FIELD e noSkyLight Z
+	FIELD f lightBrightnessTable [F
+	FIELD g worldType I
+	FIELD h skyColorRGBA [F
+	METHOD a registerWorldChunkManager ()V
+	METHOD a getSkyColorVector (FF)Lao;
+		ARG 1 celestialAngle
+		ARG 2 renderPartialTicks
+	METHOD a getWorldProvider (I)Lox;
+		ARG 0 worldProviderIndex
+	METHOD a canCoordinateBeSpawn (II)Z
+		ARG 1 xCoord
+		ARG 2 zCoord
+	METHOD a calculateCelestialAngle (JF)F
+		ARG 1 worldTime
+		ARG 3 renderPartialTicks
+	METHOD a registerWorld (Lcx;)V
+		ARG 1 world
+	METHOD a getChunkLoader (Ljava/io/File;)Lai;
+		ARG 1 file
+	METHOD b generateLightBrightnessTable ()V
+	METHOD b getSkyColorFromDayNightCycle (FF)[F
+		ARG 1 celestialAngle
+		ARG 2 renderPartialTicks
+	METHOD c getChunkProvider ()Lbd;
+	METHOD d canRespawnHere ()Z

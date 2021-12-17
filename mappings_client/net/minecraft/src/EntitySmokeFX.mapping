@@ -1,2 +1,13 @@
-CLASS nl net/minecraft/src/EntitySmokeFX
-	FIELD a smokeParticleScale F
+CLASS pg net/minecraft/src/EntitySmokeFX
+	FIELD a field_671_a F
+	METHOD <init> (Lcx;DDD)V
+		ARG 1 world
+		ARG 2 posX
+		ARG 4 posY
+		ARG 6 posZ
+	METHOD <init> (Lcx;DDDF)V
+		ARG 1 world
+		ARG 2 posX
+		ARG 4 posY
+		ARG 6 posZ
+		ARG 8 particleScale

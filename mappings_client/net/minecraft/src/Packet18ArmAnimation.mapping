@@ -1,3 +1,6 @@
-CLASS hf net/minecraft/src/Packet18ArmAnimation
+CLASS ih net/minecraft/src/Packet18ArmAnimation
 	FIELD a entityId I
 	FIELD b animate I
+	METHOD <init> (Llu;I)V
+		ARG 1 entity
+		ARG 2 animateInt

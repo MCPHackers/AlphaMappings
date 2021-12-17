@@ -1,40 +1,13 @@
-CLASS am net/minecraft/src/BlockFlowing
-	FIELD a numAdjacentSources I
-	FIELD b isOptimalFlowDirection [Z
-	FIELD c flowCost [I
-	METHOD a calculateFlowCost (Ldy;IIIII)I
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD e getSmallestFlowDecay (Ldy;IIII)I
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD f flowIntoBlock (Ldy;IIII)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 metadata
-	METHOD i updateFlow (Ldy;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD j getOptimalFlowDirections (Ldy;III)[Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD k (Ldy;III)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD l (Ldy;III)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS ar net/minecraft/src/BlockFlowing
+	FIELD a field_659_a I
+	FIELD b field_658_b [Z
+	FIELD c field_660_c [I
+	METHOD a func_4034_a (Leo;IIIII)I
+	METHOD a updateTick (Leo;IIILjava/util/Random;)V
+	METHOD e onBlockAdded (Leo;III)V
+	METHOD e func_307_e (Leo;IIII)I
+	METHOD f func_311_f (Leo;IIII)V
+	METHOD i func_9058_i (Leo;III)V
+	METHOD j func_4035_j (Leo;III)[Z
+	METHOD k func_309_k (Leo;III)Z
+	METHOD l func_312_l (Leo;III)Z

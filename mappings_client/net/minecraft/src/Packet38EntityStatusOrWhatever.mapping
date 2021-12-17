@@ -1,0 +1,3 @@
+CLASS fr net/minecraft/src/Packet38EntityStatusOrWhatever
+	FIELD a entityId I
+	FIELD b entityStatus B

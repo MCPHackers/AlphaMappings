@@ -1,2 +1,6 @@
-CLASS fl net/minecraft/src/ThreadSleepForever
+CLASS gh net/minecraft/src/ThreadSleepForever
 	FIELD a mc Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;)V
+		ARG 1 minecraft
+		ARG 2 s
+	METHOD run ()V

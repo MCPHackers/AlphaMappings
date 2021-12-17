@@ -1,23 +1,54 @@
-CLASS aj net/minecraft/src/Vec3D
+CLASS ao net/minecraft/src/Vec3D
 	FIELD a xCoord D
 	FIELD b yCoord D
 	FIELD c zCoord D
 	FIELD d vectorList Ljava/util/List;
 	FIELD e nextVector I
+	METHOD <init> (DDD)V
+		ARG 1 xCoord
+		ARG 3 yCoord
+		ARG 5 zCoord
 	METHOD a initialize ()V
-	METHOD a createVectorHelper (DDD)Laj;
+	METHOD a createVectorHelper (DDD)Lao;
+		ARG 0 xCoord
+		ARG 2 yCoord
+		ARG 4 zCoord
 	METHOD a rotateAroundX (F)V
-	METHOD a subtract (Laj;)Laj;
-	METHOD a getIntermediateWithXValue (Laj;D)Laj;
-	METHOD b normalize ()Laj;
-	METHOD b createVector (DDD)Laj;
+		ARG 1 someAngle
+	METHOD a subtract (Lao;)Lao;
+		ARG 1 vec3d
+	METHOD a getIntermediateWithXValue (Lao;D)Lao;
+		ARG 1 vec3d
+		ARG 2 xCoord
+	METHOD b normalize ()Lao;
+	METHOD b createVector (DDD)Lao;
+		ARG 0 xCoord
+		ARG 2 yCoord
+		ARG 4 zCoord
 	METHOD b rotateAroundY (F)V
-	METHOD b crossProduct (Laj;)Laj;
-	METHOD b getIntermediateWithYValue (Laj;D)Laj;
+		ARG 1 someAngle
+	METHOD b crossProduct (Lao;)Lao;
+		ARG 1 vec3d
+	METHOD b getIntermediateWithYValue (Lao;D)Lao;
+		ARG 1 vec3d
+		ARG 2 yCoord
 	METHOD c lengthVector ()D
-	METHOD c addVector (DDD)Laj;
-	METHOD c distanceTo (Laj;)D
-	METHOD c getIntermediateWithZValue (Laj;D)Laj;
+	METHOD c addVector (DDD)Lao;
+		ARG 1 xCoord
+		ARG 3 yCoord
+		ARG 5 zCoord
+	METHOD c distanceTo (Lao;)D
+		ARG 1 vec3d
+	METHOD c getIntermediateWithZValue (Lao;D)Lao;
+		ARG 1 vec3d
+		ARG 2 zCoord
 	METHOD d squareDistanceTo (DDD)D
-	METHOD d squareDistanceTo (Laj;)D
-	METHOD e setComponents (DDD)Laj;
+		ARG 1 xCoord
+		ARG 3 yCoord
+		ARG 5 zCoord
+	METHOD d squareDistanceTo (Lao;)D
+		ARG 1 vec3d
+	METHOD e setComponents (DDD)Lao;
+		ARG 1 xCoord
+		ARG 3 yCoord
+		ARG 5 zCoord

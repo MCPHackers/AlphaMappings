@@ -1,3 +1,3 @@
-CLASS ng net/minecraft/src/BlockSponge
+CLASS pb net/minecraft/src/BlockSponge
 	METHOD <init> (I)V
 		ARG 1 blockID

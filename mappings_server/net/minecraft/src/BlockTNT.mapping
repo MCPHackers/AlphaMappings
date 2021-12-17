@@ -1,4 +1,6 @@
-CLASS y net/minecraft/src/BlockTNT
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
+CLASS ab net/minecraft/src/BlockTNT
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a onBlockDestroyedByPlayer (Leo;IIII)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD b onNeighborBlockChange (Leo;IIII)V
+	METHOD c onBlockDestroyedByExplosion (Leo;III)V

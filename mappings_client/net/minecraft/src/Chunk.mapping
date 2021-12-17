@@ -1,13 +1,13 @@
-CLASS ga net/minecraft/src/Chunk
+CLASS gz net/minecraft/src/Chunk
 	FIELD a isLit Z
 	FIELD b blocks [B
 	FIELD c isChunkLoaded Z
-	FIELD d worldObj Lcn;
-	FIELD e data Lmu;
-	FIELD f skylightMap Lmu;
-	FIELD g blocklightMap Lmu;
+	FIELD d worldObj Lcx;
+	FIELD e data Lom;
+	FIELD f skylightMap Lom;
+	FIELD g blocklightMap Lom;
 	FIELD h heightMap [B
-	FIELD i height I
+	FIELD i lowestHeightMapValue I
 	FIELD j xPosition I
 	FIELD k zPosition I
 	FIELD l chunkTileEntityMap Ljava/util/Map;
@@ -15,59 +15,126 @@ CLASS ga net/minecraft/src/Chunk
 	FIELD n isTerrainPopulated Z
 	FIELD o isModified Z
 	FIELD p neverSave Z
-	FIELD q isChunkRendered Z
+	FIELD q notReadyForEntities Z
 	FIELD r hasEntities Z
 	FIELD s lastSaveTime J
-	METHOD <init> (Lcn;II)V
-		ARG 1 worldObj
-		ARG 2 xPosition
-		ARG 3 zPosition
-	METHOD <init> (Lcn;[BII)V
-		ARG 1 worldObj
-		ARG 2 blocks
-		ARG 3 xPosition
-		ARG 4 zPosition
-	METHOD a doNothing ()V
+	METHOD <init> (Lcx;II)V
+		ARG 1 world
+		ARG 2 chunkXPos
+		ARG 3 chunkZPos
+	METHOD <init> (Lcx;[BII)V
+		ARG 1 world
+		ARG 2 blockArray
+		ARG 3 chunkXPos
+		ARG 4 chunkZPos
+	METHOD a blankMethod ()V
 	METHOD a isAtLocation (II)Z
-		ARG 1 xPosition
-		ARG 2 zPosition
-	METHOD a getBlockID (III)I
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+	METHOD a getBlockId (III)I
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD a setBlockID (IIII)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 blockID
 	METHOD a setBlockIDWithMetadata (IIIII)Z
-	METHOD a setChunkBlockTileEntity (IIILic;)V
-	METHOD a getRandomWithSeed (J)Ljava/util/Random;
-	METHOD a getSavedLightValue (Lby;III)I
-	METHOD a setLightValue (Lby;IIII)V
-	METHOD a addTileEntity (Lic;)V
-	METHOD a getEntitiesOfTypeWithinAAAB (Ljava/lang/Class;Lcf;Ljava/util/List;)V
-	METHOD a addEntity (Lkh;)V
-	METHOD a removeEntityAtIndex (Lkh;I)V
-	METHOD a getEntitiesWithinAABBForEntity (Lkh;Lcf;Ljava/util/List;)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 blockID
+		ARG 5 blockMetadata
+	METHOD a setChunkBlockTileEntity (IIILjh;)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 tileentity
+	METHOD a getSlimeChunkRandom (J)Ljava/util/Random;
+		ARG 1 slimeSeed
+	METHOD a getSavedLightValue (Lcg;III)I
+		ARG 1 enumskyblock
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD a setLightValue (Lcg;IIII)V
+		ARG 1 enumskyblock
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 lightValue
+	METHOD a getEntitiesOfTypeWithinAABB (Ljava/lang/Class;Lcn;Ljava/util/List;)V
+		ARG 1 entityClass
+		ARG 2 axisalignedbb
+		ARG 3 entityList
+	METHOD a func_1001_a (Ljh;)V
+		ARG 1 tileentity
+	METHOD a addEntity (Llu;)V
+		ARG 1 entity
+	METHOD a removeEntityFromChunkSection (Llu;I)V
+		ARG 1 entity
+		ARG 2 chunkCoordY
+	METHOD a getEntitiesWithinAABBForEntity (Llu;Lcn;Ljava/util/List;)V
+		ARG 1 entity
+		ARG 2 axisalignedbb
+		ARG 3 entityList
 	METHOD a needsSaving (Z)Z
+		ARG 1 boolean1
 	METHOD a setChunkData ([BIIIIIII)I
+		ARG 1 arrayOfSomeType
+		ARG 2 minXCoord
+		ARG 3 minYCoord
+		ARG 4 minZCoord
+		ARG 5 maxXCoord
+		ARG 6 maxYCoord
+		ARG 7 maxZCoord
+		ARG 8 maybeArrayIndex
 	METHOD b generateHeightMap ()V
 	METHOD b getHeightValue (II)I
-		ARG 1 blockX
-		ARG 2 blockZ
+		ARG 1 xCoord
+		ARG 2 zCoord
 	METHOD b getBlockMetadata (III)I
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD b setBlockMetadata (IIII)V
-	METHOD b removeEntity (Lkh;)V
-	METHOD c generateSkylightMap ()V
-	METHOD c updateSkylight_do (II)V
-		ARG 1 blockX
-		ARG 2 blockZ
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 blockMetadata
+	METHOD b removeEntity (Llu;)V
+		ARG 1 entity
+	METHOD c maybeUpdateHeightMap ()V
+	METHOD c compareHeightMapNeighbors (II)V
+		ARG 1 integer1
+		ARG 2 integer2
 	METHOD c canBlockSeeTheSky (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD c getBlockLightValue (IIII)I
-	METHOD d onChunkLoad ()V
-	METHOD d getChunkBlockTileEntity (III)Lic;
-	METHOD e onChunkUnload ()V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 skyLightSubtracted
+	METHOD d updateBlockLight ()V
+	METHOD d getChunkBlockTileEntity (III)Ljh;
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD e onChunkLoad ()V
 	METHOD e removeChunkBlockTileEntity (III)V
-	METHOD f setChunkModified ()V
-	METHOD f checkSkylightNeighborHeight (III)V
-		ARG 1 blockX
-		ARG 2 blockZ
-		ARG 3 blockY
-	METHOD g relightBlock (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD f onChunkUnload ()V
+	METHOD f compareHeightMapNeighborForLighting (III)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+	METHOD g setChunkModified ()V
+	METHOD g func_1003_g (III)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3

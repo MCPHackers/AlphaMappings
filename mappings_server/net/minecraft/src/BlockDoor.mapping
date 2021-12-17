@@ -1,11 +1,13 @@
-CLASS ie net/minecraft/src/BlockDoor
-	METHOD a onPoweredBlockChange (Ldy;IIIZ)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 flag
-	METHOD b setBlockBoundsFromState (I)V
-		ARG 1 state
-	METHOD d getState (I)I
-		ARG 1 flag
+CLASS jj net/minecraft/src/BlockDoor
+	METHOD a allowsAttachment ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a canPlaceBlockAt (Leo;III)Z
+	METHOD a collisionRayTrace (Leo;IIILbd;Lbd;)Lgo;
+	METHOD a blockActivated (Leo;IIILfx;)Z
+	METHOD a func_272_a (Leo;IIIZ)V
+	METHOD a setBlockBoundsBasedOnState (Lit;III)V
+	METHOD b func_273_b (I)V
+	METHOD b onNeighborBlockChange (Leo;IIII)V
+	METHOD b onBlockClicked (Leo;IIILfx;)V
+	METHOD d func_271_d (I)I
+	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;

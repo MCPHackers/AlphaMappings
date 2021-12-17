@@ -1,5 +1,16 @@
-CLASS mu net/minecraft/src/NibbleArray
+CLASS om net/minecraft/src/NibbleArray
 	FIELD a data [B
+	METHOD <init> (I)V
+		ARG 1 arraySize
+	METHOD <init> ([B)V
+		ARG 1 nibbleArrayData
 	METHOD a isValid ()Z
-	METHOD a get (III)I
-	METHOD a set (IIII)V
+	METHOD a getNibble (III)I
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD a setNibble (IIII)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 value

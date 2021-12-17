@@ -1,1 +1,2 @@
-CLASS bd net/minecraft/src/ItemSoup
+CLASS bk net/minecraft/src/ItemSoup
+	METHOD a onItemRightClick (Lhl;Leo;Lfx;)Lhl;

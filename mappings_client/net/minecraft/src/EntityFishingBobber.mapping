@@ -1,0 +1,36 @@
+CLASS hi net/minecraft/src/EntityFishingBobber
+	FIELD a shake I
+	FIELD b thePlayer Lea;
+	FIELD c hookedEntity Llu;
+	FIELD d xTile I
+	FIELD e yTile I
+	FIELD f zTile I
+	FIELD g inTile I
+	FIELD h inGround Z
+	FIELD i field_4090_i I
+	FIELD j field_4089_j I
+	FIELD k field_4088_k I
+	FIELD l atThisPointThisProbablyIsAboutAsparagus I
+	FIELD m serverClientPosX D
+	FIELD n serverClientPosY D
+	FIELD o serverClientPosZ D
+	FIELD p serverClientYaw D
+	FIELD q serverClientPitch D
+	FIELD r maybeServerMotionX D
+	FIELD s maybeServerMotionY D
+	FIELD t maybeServerMotionZ D
+	METHOD <init> (Lcx;DDD)V
+		ARG 1 world
+		ARG 2 posX
+		ARG 4 posY
+		ARG 6 posZ
+	METHOD <init> (Lcx;Lea;)V
+		ARG 1 world
+		ARG 2 entityplayer
+	METHOD a func_4042_a (DDDFF)V
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+		ARG 7 float4
+		ARG 8 float5
+	METHOD k getFishingRodDamageAmount ()I

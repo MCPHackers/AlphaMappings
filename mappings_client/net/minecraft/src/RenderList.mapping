@@ -1,15 +1,25 @@
-CLASS kw net/minecraft/src/RenderList
-	FIELD a posX I
-	FIELD b posY I
-	FIELD c posZ I
-	FIELD d playerPosX F
-	FIELD e playerPosY F
-	FIELD f playerPosZ F
-	FIELD g buffer Ljava/nio/IntBuffer;
-	FIELD h render Z
-	FIELD i isCached Z
-	METHOD a render ()V
-	METHOD a render (I)V
-	METHOD a isRenderedAt (III)Z
-	METHOD a setLocation (IIIDDD)V
+CLASS mk net/minecraft/src/RenderList
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c zPosition I
+	FIELD d xOffset F
+	FIELD e yOffset F
+	FIELD f zOffset F
+	FIELD g intBuffer Ljava/nio/IntBuffer;
+	FIELD h arePosValuesSet Z
+	FIELD i writeOutBuffer Z
+	METHOD a outputRenderPosFromBuffer ()V
+	METHOD a putInListIntBuffer (I)V
+		ARG 1 glCallListInt
+	METHOD a isRenderChunkAtCoords (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD a setPosAndOffset (IIIDDD)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 xOffset
+		ARG 6 yOffset
+		ARG 8 zOffset
 	METHOD b reset ()V

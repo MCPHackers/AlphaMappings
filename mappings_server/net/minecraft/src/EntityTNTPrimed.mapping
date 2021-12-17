@@ -1,8 +1,7 @@
-CLASS bx net/minecraft/src/EntityTNTPrimed
+CLASS cj net/minecraft/src/EntityTNTPrimed
 	FIELD a fuse I
-	METHOD <init> (Ldy;FFF)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD b createExplosion ()V
+	METHOD a writeEntityToNBT (Lv;)V
+	METHOD b readEntityFromNBT (Lv;)V
+	METHOD b_ onUpdate ()V
+	METHOD c func_178_b ()V
+	METHOD c_ func_129_c_ ()Z

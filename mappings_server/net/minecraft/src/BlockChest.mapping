@@ -1,9 +1,8 @@
-CLASS b net/minecraft/src/BlockChest
-	FIELD a rand Ljava/util/Random;
-	METHOD <init> (I)V
-		ARG 1 id
-	METHOD g isThereANeighborChest (Ldy;III)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS c net/minecraft/src/BlockChest
+	FIELD a field_656_a Ljava/util/Random;
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a canPlaceBlockAt (Leo;III)Z
+	METHOD a blockActivated (Leo;IIILfx;)Z
+	METHOD a_ func_294_a_ ()Lay;
+	METHOD b onBlockRemoval (Leo;III)V
+	METHOD g isThereANeighborChest (Leo;III)Z

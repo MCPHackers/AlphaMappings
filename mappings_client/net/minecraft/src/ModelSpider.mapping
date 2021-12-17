@@ -1,12 +1,12 @@
-CLASS jy net/minecraft/src/ModelSpider
-	FIELD a spiderHead Lip;
-	FIELD b spiderNeck Lip;
-	FIELD c spiderBody Lip;
-	FIELD d spiderLeg1 Lip;
-	FIELD e spiderLeg2 Lip;
-	FIELD f spiderLeg3 Lip;
-	FIELD g spiderLeg4 Lip;
-	FIELD h spiderLeg5 Lip;
-	FIELD i spiderLeg6 Lip;
-	FIELD j spiderLeg7 Lip;
-	FIELD m spiderLeg8 Lip;
+CLASS lk net/minecraft/src/ModelSpider
+	FIELD a field_1255_a Ljz;
+	FIELD b field_1254_b Ljz;
+	FIELD c field_1253_c Ljz;
+	FIELD d field_1252_d Ljz;
+	FIELD e field_1251_e Ljz;
+	FIELD f field_1250_f Ljz;
+	FIELD g field_1249_g Ljz;
+	FIELD h field_1248_h Ljz;
+	FIELD i field_1247_i Ljz;
+	FIELD j field_1246_j Ljz;
+	FIELD m field_1245_m Ljz;

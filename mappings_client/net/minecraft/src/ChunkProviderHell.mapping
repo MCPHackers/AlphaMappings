@@ -1,0 +1,39 @@
+CLASS ki net/minecraft/src/ChunkProviderHell
+	FIELD a field_4177_a Lnd;
+	FIELD b field_4176_b Lnd;
+	FIELD c field_4175_c [D
+	FIELD d field_4174_d [D
+	FIELD e field_4173_e [D
+	FIELD f field_4172_f [D
+	FIELD g field_4171_g [D
+	FIELD h rand Ljava/util/Random;
+	FIELD i highNoise Lnd;
+	FIELD j lowNoise Lnd;
+	FIELD k selectorNoise Lnd;
+	FIELD l netherBeachNoise Lnd;
+	FIELD m field_4165_m Lnd;
+	FIELD n worldObj Lcx;
+	FIELD o field_4163_o [D
+	FIELD p soulSandNoiseArray [D
+	FIELD q gravelNoiseArray [D
+	FIELD r field_4160_r [D
+	FIELD s netherChunkCaveGen Ldk;
+	METHOD <init> (Lcx;J)V
+		ARG 1 world
+		ARG 2 worldSeed
+	METHOD a func_4059_a (II[B)V
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+		ARG 3 chunkBlockArray
+	METHOD a func_4057_a ([DIIIIII)[D
+		ARG 1 arr
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 integer5
+		ARG 6 integer6
+		ARG 7 integer7
+	METHOD b func_4058_b (II[B)V
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+		ARG 3 chunkBlockArray

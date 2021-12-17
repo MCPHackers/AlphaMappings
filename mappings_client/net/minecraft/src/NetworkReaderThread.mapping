@@ -1,2 +1,6 @@
-CLASS ni net/minecraft/src/NetworkReaderThread
-	FIELD a netManager Lii;
+CLASS pd net/minecraft/src/NetworkReaderThread
+	FIELD a netManager Ljp;
+	METHOD <init> (Ljp;Ljava/lang/String;)V
+		ARG 1 networkmanager
+		ARG 2 s
+	METHOD run ()V

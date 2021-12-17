@@ -1,0 +1,9 @@
+CLASS ob net/minecraft/src/TexturePackCustom
+	FIELD e texturePackZipFile Ljava/util/zip/ZipFile;
+	FIELD f texturePackIndex I
+	FIELD g texturePackThumbnail Ljava/awt/image/BufferedImage;
+	FIELD h texturePackFile Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file
+	METHOD b truncateString (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 s

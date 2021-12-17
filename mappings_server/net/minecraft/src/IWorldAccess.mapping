@@ -1,33 +1,10 @@
-CLASS be net/minecraft/src/IWorldAccess
-	METHOD a updateAllRenderers ()V
-	METHOD a markBlockAndNeighborsNeedsUpdate (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a markBlockRangeNeedsUpdate (IIIIII)V
-	METHOD a doNothingWithTileEntity (IIILas;)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 tileEntity
-	METHOD a obtainEntitySkin (Ldj;)V
-		ARG 1 entity
-	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
-		ARG 1 name
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD a playSound (Ljava/lang/String;DDDFF)V
-		ARG 1 name
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 volume
-		ARG 9 pitch
-	METHOD a playRecord (Ljava/lang/String;III)V
-		ARG 1 name
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD b releaseEntitySkin (Ldj;)V
-		ARG 1 entity
+CLASS bm net/minecraft/src/IWorldAccess
+	METHOD a func_684_a ()V
+	METHOD a func_683_a (III)V
+	METHOD a func_685_a (IIIIII)V
+	METHOD a func_686_a (IIILay;)V
+	METHOD a func_681_a (Ldx;)V
+	METHOD a func_687_a (Ljava/lang/String;DDDDDD)V
+	METHOD a func_689_a (Ljava/lang/String;DDDFF)V
+	METHOD a func_682_a (Ljava/lang/String;III)V
+	METHOD b func_688_b (Ldx;)V

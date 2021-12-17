@@ -1,46 +1,14 @@
-CLASS ep net/minecraft/src/Pathfinder
-	FIELD a worldMap Lhq;
-	FIELD b path Lif;
-	FIELD c pointMap Lhf;
-	FIELD d pathOptions [La;
-	METHOD <init> (Lhq;)V
-		ARG 1 worldMap
-	METHOD a openPoint (III)La;
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a createEntityPath (La;La;)Lcd;
-		ARG 1 pathPoint1
-		ARG 2 pathPoint2
-	METHOD a createEntityPathTo (Ldj;DDDF)Lcd;
-		ARG 1 entity
-		ARG 2 x
-		ARG 4 boundingBoxY
-		ARG 6 z
-	METHOD a createEntityPathTo (Ldj;IIIF)Lcd;
-		ARG 1 entity
-		ARG 2 x
-		ARG 3 boundingBoxY
-		ARG 4 z
-	METHOD a getVerticalOffset (Ldj;IIILa;)I
-		ARG 1 entity
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 pathPoint
-	METHOD a getSafePoint (Ldj;IIILa;I)La;
-		ARG 1 entity
-		ARG 5 pathPoint
-	METHOD a addToPath (Ldj;La;La;La;F)Lcd;
-		ARG 1 entity
-		ARG 2 pathPoint1
-		ARG 3 pathPoint2
-		ARG 4 pathPoint3
-	METHOD a createEntityPathTo (Ldj;Ldj;F)Lcd;
-		ARG 1 entity1
-		ARG 2 entity2
-	METHOD b findPathOptions (Ldj;La;La;La;F)I
-		ARG 1 entity
-		ARG 2 pathPoint1
-		ARG 3 pathPoint2
-		ARG 4 pathPoint3
+CLASS fg net/minecraft/src/Pathfinder
+	FIELD a worldMap Lit;
+	FIELD b path Ljk;
+	FIELD c pointMap Lie;
+	FIELD d pathOptions [Lb;
+	METHOD a openPoint (III)Lb;
+	METHOD a createEntityPath (Lb;Lb;)Lcq;
+	METHOD a createEntityPathTo (Ldx;DDDF)Lcq;
+	METHOD a createEntityPathTo (Ldx;IIIF)Lcq;
+	METHOD a getVerticalOffset (Ldx;IIILb;)I
+	METHOD a getSafePoint (Ldx;IIILb;I)Lb;
+	METHOD a addToPath (Ldx;Lb;Lb;Lb;F)Lcq;
+	METHOD a createEntityPathTo (Ldx;Ldx;F)Lcq;
+	METHOD b findPathOptions (Ldx;Lb;Lb;Lb;F)I

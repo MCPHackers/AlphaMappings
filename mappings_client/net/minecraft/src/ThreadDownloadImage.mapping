@@ -1,4 +1,9 @@
-CLASS kz net/minecraft/src/ThreadDownloadImage
+CLASS mo net/minecraft/src/ThreadDownloadImage
 	FIELD a location Ljava/lang/String;
-	FIELD b buffer Lhb;
-	FIELD c imageData Lcc;
+	FIELD b buffer Lid;
+	FIELD c imageData Lck;
+	METHOD <init> (Lck;Ljava/lang/String;Lid;)V
+		ARG 1 imageData
+		ARG 2 location
+		ARG 3 imageBuffer
+	METHOD run ()V

@@ -1,4 +1,3 @@
-CLASS ar net/minecraft/src/WorldGenFlowers
+CLASS aw net/minecraft/src/WorldGenFlowers
 	FIELD a plantBlockId I
-	METHOD <init> (I)V
-		ARG 1 plantBlockID
+	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z

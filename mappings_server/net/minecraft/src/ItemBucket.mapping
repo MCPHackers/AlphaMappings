@@ -1,5 +1,3 @@
-CLASS ap net/minecraft/src/ItemBucket
-	FIELD a isFull I
-	METHOD <init> (II)V
-		ARG 1 itemID
-		ARG 2 isFull
+CLASS au net/minecraft/src/ItemBucket
+	FIELD a field_274_a I
+	METHOD a onItemRightClick (Lhl;Leo;Lfx;)Lhl;

@@ -1,43 +1,19 @@
-CLASS aw net/minecraft/src/Vec3D
-	FIELD a xCoord D
+CLASS bd net/minecraft/src/Vec3D
+	FIELD a points D
 	FIELD b yCoord D
 	FIELD c zCoord D
 	FIELD d vectorList Ljava/util/List;
 	FIELD e nextVector I
-	METHOD <init> (DDD)V
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
 	METHOD a initialize ()V
-	METHOD a createVectorHelper (DDD)Law;
-		ARG 0 x
-		ARG 2 y
-		ARG 4 z
-	METHOD a distanceTo (Law;)D
-		ARG 1 vector
-	METHOD a getIntermediateWithXValue (Law;D)Law;
-		ARG 1 vector
-	METHOD b normalize ()Law;
-	METHOD b createVector (DDD)Law;
-		ARG 0 x
-		ARG 2 y
-		ARG 4 z
-	METHOD b squareDistanceTo (Law;)D
-		ARG 1 vector
-	METHOD b getIntermediateWithYValue (Law;D)Law;
-		ARG 1 vector
+	METHOD a createVectorHelper (DDD)Lbd;
+	METHOD a distanceTo (Lbd;)D
+	METHOD a getIntermediateWithXValue (Lbd;D)Lbd;
+	METHOD b normalize ()Lbd;
+	METHOD b createVector (DDD)Lbd;
+	METHOD b squareDistanceTo (Lbd;)D
+	METHOD b getIntermediateWithYValue (Lbd;D)Lbd;
 	METHOD c lengthVector ()D
-	METHOD c addVector (DDD)Law;
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD c getIntermediateWithZValue (Law;D)Law;
-		ARG 1 vector
+	METHOD c addVector (DDD)Lbd;
+	METHOD c getIntermediateWithZValue (Lbd;D)Lbd;
 	METHOD d squareDistanceTo (DDD)D
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD e setComponents (DDD)Law;
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
+	METHOD e setComponents (DDD)Lbd;

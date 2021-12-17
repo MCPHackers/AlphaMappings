@@ -1,0 +1,5 @@
+CLASS oj net/minecraft/src/ItemShovel
+	FIELD bb blocksEffectiveAgainst [Lno;
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 toolTier

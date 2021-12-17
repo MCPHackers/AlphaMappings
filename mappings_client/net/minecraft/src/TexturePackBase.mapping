@@ -1,0 +1,15 @@
+CLASS d net/minecraft/src/TexturePackBase
+	FIELD a texturePackFileName Ljava/lang/String;
+	FIELD b firstDescriptionLine Ljava/lang/String;
+	FIELD c secondDescriptionLine Ljava/lang/String;
+	FIELD d mapKeyName Ljava/lang/String;
+	METHOD a createZipFile ()V
+	METHOD a getInputStreamFromZipFile (Ljava/lang/String;)Ljava/io/InputStream;
+		ARG 1 s
+	METHOD a loadFromZipFileInputStream (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD b closeTexturePackFile ()V
+	METHOD b deleteThumbnail (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD c createThumbnail (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft

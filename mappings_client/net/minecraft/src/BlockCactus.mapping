@@ -1,4 +1,4 @@
-CLASS hy net/minecraft/src/BlockCactus
+CLASS jd net/minecraft/src/BlockCactus
 	METHOD <init> (II)V
 		ARG 1 blockID
-		ARG 2 tex
+		ARG 2 blockTextureIndex

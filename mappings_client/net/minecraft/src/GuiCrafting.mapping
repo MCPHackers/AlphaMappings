@@ -1,2 +1,4 @@
-CLASS hx net/minecraft/src/GuiCrafting
-	FIELD j craftingInventory Let;
+CLASS jb net/minecraft/src/GuiCrafting
+	FIELD j craftingInventory Lfm;
+	METHOD <init> (Lfn;)V
+		ARG 1 inventoryplayer

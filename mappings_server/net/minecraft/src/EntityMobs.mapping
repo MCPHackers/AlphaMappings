@@ -1,2 +1,11 @@
-CLASS fg net/minecraft/src/EntityMobs
-	FIELD af attackStrength I
+CLASS gb net/minecraft/src/EntityMobs
+	FIELD e field_404_af I
+	METHOD E func_153_y ()V
+	METHOD a func_155_a ()Z
+	METHOD a func_159_a (III)F
+	METHOD a func_157_a (Ldx;F)V
+	METHOD a attackEntity (Ldx;I)Z
+	METHOD a writeEntityToNBT (Lv;)V
+	METHOD b readEntityFromNBT (Lv;)V
+	METHOD b_ onUpdate ()V
+	METHOD k func_158_i ()Ldx;

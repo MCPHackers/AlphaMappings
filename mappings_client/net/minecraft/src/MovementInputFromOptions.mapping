@@ -1,3 +1,3 @@
-CLASS gd net/minecraft/src/MovementInputFromOptions
-	FIELD f movementKeyStates [Z
-	FIELD g gameSettings Lfr;
+CLASS hd net/minecraft/src/MovementInputFromOptions
+	FIELD f field_1179_f [Z
+	FIELD g field_1178_g Lgp;

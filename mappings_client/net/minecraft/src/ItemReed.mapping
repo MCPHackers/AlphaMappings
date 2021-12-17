@@ -1,2 +1,5 @@
-CLASS gf net/minecraft/src/ItemReed
-	FIELD a spawnID I
+CLASS hg net/minecraft/src/ItemReed
+	FIELD a reedBlock I
+	METHOD <init> (ILno;)V
+		ARG 1 itemID
+		ARG 2 reedBlock

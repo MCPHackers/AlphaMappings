@@ -1,5 +1,10 @@
-CLASS np net/minecraft/src/RedstoneUpdateInfo
+CLASS pl net/minecraft/src/RedstoneUpdateInfo
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I
 	FIELD d updateTime J
+	METHOD <init> (IIIJ)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 updateTime

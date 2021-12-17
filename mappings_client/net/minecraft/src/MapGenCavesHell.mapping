@@ -1,0 +1,21 @@
+CLASS jt net/minecraft/src/MapGenCavesHell
+	METHOD a func_4129_a (II[BDDD)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 arr
+		ARG 4 double4
+		ARG 6 double5
+		ARG 8 double6
+	METHOD a func_4128_a (II[BDDDFFFIID)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 arr
+		ARG 4 double4
+		ARG 6 double5
+		ARG 8 double6
+		ARG 10 float7
+		ARG 11 float8
+		ARG 12 float9
+		ARG 13 integer10
+		ARG 14 integer11
+		ARG 15 double12

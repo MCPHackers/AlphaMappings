@@ -1,7 +1,9 @@
-CLASS fa net/minecraft/src/BlockSign
-	FIELD a signEntityClass Ljava/lang/Class;
-	FIELD b isFreestanding Z
-	METHOD <init> (ILjava/lang/Class;Z)V
-		ARG 1 id
-		ARG 2 signEntityClass
-		ARG 3 isFreestanding
+CLASS fv net/minecraft/src/BlockSign
+	FIELD a field_654_a Ljava/lang/Class;
+	FIELD b field_653_b Z
+	METHOD a allowsAttachment ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a setBlockBoundsBasedOnState (Lit;III)V
+	METHOD a_ func_294_a_ ()Lay;
+	METHOD b onNeighborBlockChange (Leo;IIII)V
+	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;

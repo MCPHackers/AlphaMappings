@@ -1,0 +1,25 @@
+CLASS aw net/minecraft/src/NoiseGeneratorSimplexBiome
+	FIELD a xCoord D
+	FIELD b zCoord D
+	FIELD c unused D
+	FIELD d valueMultiplierArray [[I
+	FIELD e permutations [I
+	FIELD f constant1 D
+	FIELD g constant2 D
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 random
+	METHOD a wrap (D)I
+		ARG 0 double1
+	METHOD a generateOctave ([DDDIIDDD)V
+		ARG 1 biomeValueArray
+		ARG 2 xPosition
+		ARG 4 zPosition
+		ARG 6 xBlockOffset
+		ARG 7 zBlockOffset
+		ARG 8 xMultiplier
+		ARG 10 zMultiplier
+		ARG 12 otherMultiplier
+	METHOD a sumMultipliedByArrayValues ([IDD)D
+		ARG 0 valueMultiplier
+		ARG 1 double2
+		ARG 3 double3

@@ -1,1 +1,3 @@
-CLASS cw net/minecraft/src/ItemSaddle
+CLASS dj net/minecraft/src/ItemSaddle
+	METHOD a func_9201_a (Lhl;Ljy;)V
+	METHOD b func_9202_b (Lhl;Ljy;)V

@@ -1,2 +1,5 @@
-CLASS gm net/minecraft/src/RenderPig
-	METHOD a renderSaddledPig (Lmv;I)Z
+CLASS ho net/minecraft/src/RenderPig
+	METHOD <init> (Lgl;Lgl;F)V
+		ARG 1 mainModel
+		ARG 2 renderPassModel
+		ARG 3 float3

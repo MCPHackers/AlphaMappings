@@ -1,1 +1,4 @@
-CLASS iu net/minecraft/src/MaterialTransparent
+CLASS kb net/minecraft/src/MaterialTransparent
+	METHOD a func_216_a ()Z
+	METHOD b func_219_b ()Z
+	METHOD c func_218_c ()Z

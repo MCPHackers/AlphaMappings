@@ -1,10 +1,10 @@
-CLASS ff net/minecraft/src/EntityFallingSand
+CLASS ga net/minecraft/src/EntityFallingSand
 	FIELD a blockID I
 	FIELD b fallTime I
-	METHOD <init> (Lcn;FFFI)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+	METHOD <init> (Lcx;FFFI)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 3 yPos
+		ARG 4 zPos
 		ARG 5 blockID
-	METHOD i getWorld ()Lcn;
+	METHOD k getWorldForRender ()Lcx;

@@ -1,9 +1,7 @@
-CLASS hx net/minecraft/src/GuiStatsComponent
+CLASS jb net/minecraft/src/GuiStatsComponent
 	FIELD a memoryUse [I
 	FIELD b updateCounter I
 	FIELD c displayStrings [Ljava/lang/String;
-	METHOD a update ()V
-	METHOD a update (Lhx;)V
-		ARG 0 component
+	METHOD a updateStats ()V
+	METHOD a update (Ljb;)V
 	METHOD paint (Ljava/awt/Graphics;)V
-		ARG 1 graphics

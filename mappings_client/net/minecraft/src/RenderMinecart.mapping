@@ -1,3 +1,2 @@
-CLASS kt net/minecraft/src/RenderMinecart
-	FIELD d modelMinecart Lfo;
-	METHOD a renderMinecart (Loc;DDDFF)V
+CLASS mg net/minecraft/src/RenderMinecart
+	FIELD a modelMinecart Lgl;

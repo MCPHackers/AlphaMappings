@@ -1,32 +1,50 @@
-CLASS iq net/minecraft/src/EntityRenderer
-	FIELD a itemRenderer Ljh;
-	FIELD b unusedInt1 I
-	FIELD c unusedInt2 I
-	FIELD d fogColorBuffer Ljava/nio/FloatBuffer;
+CLASS ka net/minecraft/src/EntityRenderer
+	FIELD a itemRenderer Lkt;
+	FIELD b unusedVolatileInt1 I
+	FIELD c unusedVolatileInt2 I
+	FIELD d colorFloatBuffer Ljava/nio/FloatBuffer;
 	FIELD e fogColorRed F
 	FIELD f fogColorGreen F
 	FIELD g fogColorBlue F
 	FIELD h mc Lnet/minecraft/client/Minecraft;
 	FIELD i farPlaneDistance F
-	FIELD j rendererUpdateCount I
-	FIELD k pointedEntity Lkh;
-	FIELD l prevFrameTime J
+	FIELD j unusedCounter I
+	FIELD k mouseOverEntity Llu;
+	FIELD l currentTimeMilliseconds J
 	FIELD m random Ljava/util/Random;
-	FIELD n prevFogColor F
-	FIELD o fogColor F
+	FIELD n prevFogBrightness F
+	FIELD o fogBrightness F
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
 	METHOD a updateRenderer ()V
 	METHOD a getMouseOver (F)V
-	METHOD a setFogColorBuffer (FFFF)Ljava/nio/FloatBuffer;
+		ARG 1 renderPartialTicks
+	METHOD a loadColorFloatBuffer (FFFF)Ljava/nio/FloatBuffer;
+		ARG 1 redValue
+		ARG 2 greenValue
+		ARG 3 blueValue
+		ARG 4 alphaValue
 	METHOD a setupCameraTransform (FI)V
-	METHOD a setupFog (I)V
-	METHOD b setupOverlayRendering ()V
-	METHOD b updateCameraAndRender (F)V
-	METHOD b renderHand (FI)V
-	METHOD c addRainParticles ()V
+		ARG 1 renderPartialTicks
+		ARG 2 integer
+	METHOD a updateFog (I)V
+		ARG 1 integer
+	METHOD b func_905_b ()V
+	METHOD b updateScaledResolution (F)V
+		ARG 1 renderPartialTicks
+	METHOD b func_4135_b (FI)V
+		ARG 1 renderPartialTicks
+		ARG 2 integer
+	METHOD c renderFancyGraphics ()V
 	METHOD c renderWorld (F)V
-	METHOD d getFOVModifier (F)F
+		ARG 1 renderPartialTicks
+	METHOD d somethingAboutDeathCamera (F)F
+		ARG 1 renderPartialTicks
 	METHOD e hurtCameraEffect (F)V
+		ARG 1 renderPartialTicks
 	METHOD f setupViewBobbing (F)V
+		ARG 1 renderPartialTicks
 	METHOD g orientCamera (F)V
-	METHOD h renderSnow (F)V
-	METHOD i updateFogColor (F)V
+		ARG 1 renderPartialTicks
+	METHOD h updateFogColor (F)V
+		ARG 1 renderPartialTicks

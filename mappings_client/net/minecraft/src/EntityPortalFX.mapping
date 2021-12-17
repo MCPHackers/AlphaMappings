@@ -1,0 +1,5 @@
+CLASS jc net/minecraft/src/EntityPortalFX
+	FIELD a field_4083_a F
+	FIELD o field_4086_p D
+	FIELD p field_4085_q D
+	FIELD q field_4084_r D

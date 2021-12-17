@@ -1,2 +1,0 @@
-CLASS hu net/minecraft/src/SpawnerMonsters
-	FIELD a worldServer Lee;

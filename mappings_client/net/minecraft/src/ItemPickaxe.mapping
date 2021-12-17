@@ -1,3 +1,6 @@
-CLASS y net/minecraft/src/ItemPickaxe
-	FIELD aX blocksEffectiveAgainst [Lly;
-	FIELD aY harvestLevel I
+CLASS ac net/minecraft/src/ItemPickaxe
+	FIELD bb blocksEffectiveAgainst [Lno;
+	FIELD bc pickaxeTier I
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 toolTier

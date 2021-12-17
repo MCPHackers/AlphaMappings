@@ -1,4 +1,4 @@
-CLASS ha net/minecraft/src/Packet21PickupSpawn
+CLASS ic net/minecraft/src/Packet21PickupSpawn
 	FIELD a entityId I
 	FIELD b xPosition I
 	FIELD c yPosition I
@@ -6,5 +6,7 @@ CLASS ha net/minecraft/src/Packet21PickupSpawn
 	FIELD e rotation B
 	FIELD f pitch B
 	FIELD g roll B
-	FIELD h itemID I
+	FIELD h itemId I
 	FIELD i count I
+	METHOD <init> (Len;)V
+		ARG 1 vikkiHatesAnime

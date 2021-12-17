@@ -1,2 +1,2 @@
-CLASS fe net/minecraft/src/TileEntityChest
-	FIELD a chestContents [Lev;
+CLASS fz net/minecraft/src/TileEntityChest
+	FIELD a chestContents [Lfo;

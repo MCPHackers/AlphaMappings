@@ -1,4 +1,11 @@
-CLASS mo net/minecraft/src/GuiSlider
+CLASS of net/minecraft/src/GuiSlider
 	FIELD i sliderValue F
 	FIELD j dragging Z
 	FIELD l idFloat I
+	METHOD <init> (IIIILjava/lang/String;F)V
+		ARG 1 buttonID
+		ARG 2 sliderXPos
+		ARG 3 sliderYPos
+		ARG 4 sliderID
+		ARG 5 sliderText
+		ARG 6 sliderValue

@@ -1,134 +1,147 @@
-CLASS di net/minecraft/src/Item
-	FIELD A axeDiamond Ldi;
-	FIELD B stick Ldi;
-	FIELD C bowlEmpty Ldi;
-	FIELD D bowlSoup Ldi;
-	FIELD E swordGold Ldi;
-	FIELD F shovelGold Ldi;
-	FIELD G pickaxeGold Ldi;
-	FIELD H axeGold Ldi;
-	FIELD I silk Ldi;
-	FIELD J feather Ldi;
-	FIELD K gunpowder Ldi;
-	FIELD L hoeWood Ldi;
-	FIELD M hoeStone Ldi;
-	FIELD N hoeSteel Ldi;
-	FIELD O hoeDiamond Ldi;
-	FIELD P hoeGold Ldi;
-	FIELD Q seeds Ldi;
-	FIELD R wheat Ldi;
-	FIELD S bread Ldi;
-	FIELD T helmetLeather Ldi;
-	FIELD U plateLeather Ldi;
-	FIELD V legsLeather Ldi;
-	FIELD W bootsLeather Ldi;
-	FIELD X helmetChain Ldi;
-	FIELD Y plateChain Ldi;
-	FIELD Z legsChain Ldi;
-	FIELD aA redstone Ldi;
-	FIELD aB snowball Ldi;
-	FIELD aC boat Ldi;
-	FIELD aD leather Ldi;
-	FIELD aE bucketMilk Ldi;
-	FIELD aF brick Ldi;
-	FIELD aG clay Ldi;
-	FIELD aH reed Ldi;
-	FIELD aI paper Ldi;
-	FIELD aJ book Ldi;
-	FIELD aK slimeBall Ldi;
-	FIELD aL minecartBox Ldi;
-	FIELD aM minecartEngine Ldi;
-	FIELD aN egg Ldi;
-	FIELD aO compass Ldi;
-	FIELD aP fishingRod Ldi;
-	FIELD aQ record13 Ldi;
-	FIELD aR recordCat Ldi;
-	FIELD aS shiftedIndex I
-	FIELD aT maxStackSize I
-	FIELD aU maxDamage I
-	FIELD aV iconIndex I
-	FIELD aW bFull3D Z
-	FIELD aa bootsChain Ldi;
-	FIELD ab helmetSteel Ldi;
-	FIELD ac plateSteel Ldi;
-	FIELD ad legsSteel Ldi;
-	FIELD ae bootsSteel Ldi;
-	FIELD af helmetDiamond Ldi;
-	FIELD ag plateDiamond Ldi;
-	FIELD ah legsDiamond Ldi;
-	FIELD ai bootsDiamond Ldi;
-	FIELD aj helmetGold Ldi;
-	FIELD ak plateGold Ldi;
-	FIELD al legsGold Ldi;
-	FIELD am bootsGold Ldi;
-	FIELD an flint Ldi;
-	FIELD ao porkRaw Ldi;
-	FIELD ap porkCooked Ldi;
-	FIELD aq painting Ldi;
-	FIELD ar appleGold Ldi;
-	FIELD as sign Ldi;
-	FIELD at doorWood Ldi;
-	FIELD au bucketEmpty Ldi;
-	FIELD av bucketWater Ldi;
-	FIELD aw bucketLava Ldi;
-	FIELD ax minecartEmpty Ldi;
-	FIELD ay saddle Ldi;
-	FIELD az doorSteel Ldi;
-	FIELD b rand Ljava/util/Random;
-	FIELD c itemsList [Ldi;
-	FIELD d shovel Ldi;
-	FIELD e pickaxeSteel Ldi;
-	FIELD f axeSteel Ldi;
-	FIELD g striker Ldi;
-	FIELD h appleRed Ldi;
-	FIELD i bow Ldi;
-	FIELD j arrow Ldi;
-	FIELD k coal Ldi;
-	FIELD l diamond Ldi;
-	FIELD m ingotIron Ldi;
-	FIELD n ingotGold Ldi;
-	FIELD o swordSteel Ldi;
-	FIELD p swordWood Ldi;
-	FIELD q shovelWood Ldi;
-	FIELD r pickaxeWood Ldi;
-	FIELD s axeWood Ldi;
-	FIELD t swordStone Ldi;
-	FIELD u shovelStone Ldi;
-	FIELD v pickaxeStone Ldi;
-	FIELD w axeStone Ldi;
-	FIELD x swordDiamond Ldi;
-	FIELD y shovelDiamond Ldi;
-	FIELD z pickaxeDiamond Ldi;
+CLASS dw net/minecraft/src/Item
+	FIELD A axeDiamond Ldw;
+	FIELD B stick Ldw;
+	FIELD C bowlEmpty Ldw;
+	FIELD D bowlSoup Ldw;
+	FIELD E swordGold Ldw;
+	FIELD F shovelGold Ldw;
+	FIELD G pickaxeGold Ldw;
+	FIELD H axeGold Ldw;
+	FIELD I silk Ldw;
+	FIELD J feather Ldw;
+	FIELD K gunpowder Ldw;
+	FIELD L hoeWood Ldw;
+	FIELD M hoeStone Ldw;
+	FIELD N hoeIron Ldw;
+	FIELD O hoeDiamond Ldw;
+	FIELD P hoeGold Ldw;
+	FIELD Q seeds Ldw;
+	FIELD R wheat Ldw;
+	FIELD S bread Ldw;
+	FIELD T helmetLeather Ldw;
+	FIELD U plateLeather Ldw;
+	FIELD V legsLeather Ldw;
+	FIELD W bootsLeather Ldw;
+	FIELD X helmetChain Ldw;
+	FIELD Y plateChain Ldw;
+	FIELD Z legsChain Ldw;
+	FIELD aA redstone Ldw;
+	FIELD aB snowball Ldw;
+	FIELD aC boat Ldw;
+	FIELD aD leather Ldw;
+	FIELD aE bucketMilk Ldw;
+	FIELD aF brick Ldw;
+	FIELD aG clay Ldw;
+	FIELD aH reed Ldw;
+	FIELD aI paper Ldw;
+	FIELD aJ book Ldw;
+	FIELD aK slimeBall Ldw;
+	FIELD aL minecartChest Ldw;
+	FIELD aM minecartPowered Ldw;
+	FIELD aN egg Ldw;
+	FIELD aO compass Ldw;
+	FIELD aP fishingRod Ldw;
+	FIELD aQ clock Ldw;
+	FIELD aR glowstoneDust Ldw;
+	FIELD aS fishRaw Ldw;
+	FIELD aT fishCooked Ldw;
+	FIELD aU record13 Ldw;
+	FIELD aV recordCat Ldw;
+	FIELD aW shiftedIndex I
+	FIELD aX maxStackSize I
+	FIELD aY maxDamage I
+	FIELD aZ iconIndex I
+	FIELD aa bootsChain Ldw;
+	FIELD ab helmetIron Ldw;
+	FIELD ac plateIron Ldw;
+	FIELD ad legsIron Ldw;
+	FIELD ae bootsIron Ldw;
+	FIELD af helmetDiamond Ldw;
+	FIELD ag plateDiamond Ldw;
+	FIELD ah legsDiamond Ldw;
+	FIELD ai bootsDiamond Ldw;
+	FIELD aj helmetGold Ldw;
+	FIELD ak plateGold Ldw;
+	FIELD al legsGold Ldw;
+	FIELD am bootsGold Ldw;
+	FIELD an flint Ldw;
+	FIELD ao porkRaw Ldw;
+	FIELD ap porkCooked Ldw;
+	FIELD aq painting Ldw;
+	FIELD ar appleGold Ldw;
+	FIELD as sign Ldw;
+	FIELD at doorWood Ldw;
+	FIELD au bucketEmpty Ldw;
+	FIELD av bucketWater Ldw;
+	FIELD aw bucketLava Ldw;
+	FIELD ax minecartEmpty Ldw;
+	FIELD ay saddle Ldw;
+	FIELD az doorSteel Ldw;
+	FIELD b itemRand Ljava/util/Random;
+	FIELD ba bFull3D Z
+	FIELD c itemsList [Ldw;
+	FIELD d shovelIron Ldw;
+	FIELD e pickaxeIron Ldw;
+	FIELD f axeIron Ldw;
+	FIELD g flintAndSteel Ldw;
+	FIELD h appleRed Ldw;
+	FIELD i bow Ldw;
+	FIELD j arrow Ldw;
+	FIELD k coal Ldw;
+	FIELD l diamond Ldw;
+	FIELD m ingotIron Ldw;
+	FIELD n ingotGold Ldw;
+	FIELD o swordIron Ldw;
+	FIELD p swordWood Ldw;
+	FIELD q shovelWood Ldw;
+	FIELD r pickaxeWood Ldw;
+	FIELD s axeWood Ldw;
+	FIELD t swordStone Ldw;
+	FIELD u shovelStone Ldw;
+	FIELD v pickaxeStone Ldw;
+	FIELD w axeStone Ldw;
+	FIELD x swordDiamond Ldw;
+	FIELD y shovelDiamond Ldw;
+	FIELD z pickaxeDiamond Ldw;
 	METHOD <init> (I)V
 		ARG 1 itemID
 	METHOD a isFull3D ()Z
-	METHOD a setIconIndex (I)Ldi;
+	METHOD a setIconIndex (I)Ldw;
 		ARG 1 iconIndex
-	METHOD a getIconIndex (Lev;)I
-		ARG 1 itemStack
-	METHOD a onBlockDestroyed (Lev;IIII)V
-		ARG 1 itemStack
-	METHOD a onItemRightClick (Lev;Lcn;Ldm;)Lev;
-		ARG 1 itemStack
-		ARG 2 worldObj
-		ARG 3 entityPlayer
-	METHOD a onItemUse (Lev;Ldm;Lcn;IIII)Z
-		ARG 1 itemStack
-		ARG 2 entityPlayer
-		ARG 3 worldObj
-	METHOD a hitEntity (Lev;Lge;)V
-		ARG 1 itemStack
-		ARG 2 entityLiving
-	METHOD a getStrVsBlock (Lev;Lly;)F
-		ARG 1 itemStack
+	METHOD a getIconIndex (Lfo;)I
+		ARG 1 itemstack
+	METHOD a hitBlock (Lfo;IIII)V
+		ARG 1 itemstack
+		ARG 2 blockID
+		ARG 3 xCoord
+		ARG 4 yCoord
+		ARG 5 zCoord
+	METHOD a onItemRightClick (Lfo;Lcx;Lea;)Lfo;
+		ARG 1 itemstack
+		ARG 2 world
+		ARG 3 entityplayer
+	METHOD a onItemUse (Lfo;Lea;Lcx;IIII)Z
+		ARG 1 itemstack
+		ARG 2 entityplayer
+		ARG 3 world
+		ARG 4 xCoord
+		ARG 5 yCoord
+		ARG 6 zCoord
+		ARG 7 blockSide
+	METHOD a hitEntity (Lfo;Lhe;)V
+		ARG 1 itemstack
+		ARG 2 entityliving
+	METHOD a getStrVsBlock (Lfo;Lno;)F
+		ARG 1 itemstack
 		ARG 2 block
-	METHOD a getDamageVsEntity (Lkh;)I
+	METHOD a getDamageVsEntity (Llu;)I
 		ARG 1 entity
-	METHOD a canHarvestBlock (Lly;)Z
+	METHOD a canHarvestBlock (Lno;)Z
 		ARG 1 block
-	METHOD b getItemStackLimit ()I
-	METHOD b saddleEntity (Lev;Lge;)V
-		ARG 1 itemStack
-		ARG 2 entityLiving
-	METHOD c getMaxDamage ()I
-	METHOD d setFull3D ()Ldi;
+	METHOD b shouldRotateAroundWhenRendering ()Z
+	METHOD b saddleEntity (Lfo;Lhe;)V
+		ARG 1 itemstack
+		ARG 2 entityliving
+	METHOD c getItemStackLimit ()I
+	METHOD d getMaxDamage ()I
+	METHOD e setFull3D ()Ldw;

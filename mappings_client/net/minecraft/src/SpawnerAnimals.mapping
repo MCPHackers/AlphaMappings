@@ -1,8 +1,4 @@
-CLASS az net/minecraft/src/SpawnerAnimals
-	FIELD a maxSpawns I
-	FIELD b entityType Ljava/lang/Class;
-	FIELD c entities [Ljava/lang/Class;
-	FIELD d eligibleChunksForSpawning Ljava/util/Set;
-	METHOD a onUpdate (Lcn;)V
-	METHOD a getRandomSpawningPointInChunk (Lcn;II)Lmt;
-	METHOD a performSpawning (Lcn;ILnu;)I
+CLASS bg net/minecraft/src/SpawnerAnimals
+	FIELD a eligibleChunksForSpawning Ljava/util/Set;
+	METHOD a performSpawning (Lcx;)I
+	METHOD a getRandomSpawningPointInChunk (Lcx;II)Lol;

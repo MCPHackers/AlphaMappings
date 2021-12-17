@@ -1,4 +1,7 @@
-CLASS lo net/minecraft/src/GuiInventory
-	FIELD j craftingInventory Ln;
+CLASS nc net/minecraft/src/GuiInventory
+	FIELD j playerInventory Lq;
 	FIELD l xSize_lo F
 	FIELD m ySize_lo F
+	METHOD <init> (Lhh;[Lfo;)V
+		ARG 1 iinventory
+		ARG 2 inventoryContents

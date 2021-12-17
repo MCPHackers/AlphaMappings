@@ -1,6 +1,6 @@
-CLASS hd net/minecraft/src/BlockCrops
-	METHOD i getGrowthRate (Lcn;III)F
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS if net/minecraft/src/BlockCrops
+	METHOD i getGrowthRate (Lcx;III)F
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

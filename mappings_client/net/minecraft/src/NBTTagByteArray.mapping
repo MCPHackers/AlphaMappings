@@ -1,4 +1,4 @@
-CLASS dy net/minecraft/src/NBTTagByteArray
+CLASS eo net/minecraft/src/NBTTagByteArray
 	FIELD a byteArray [B
 	METHOD <init> ([B)V
 		ARG 1 byteArray

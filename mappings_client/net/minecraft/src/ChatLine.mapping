@@ -1,4 +1,4 @@
-CLASS ko net/minecraft/src/ChatLine
+CLASS mc net/minecraft/src/ChatLine
 	FIELD a message Ljava/lang/String;
 	FIELD b updateCounter I
 	METHOD <init> (Ljava/lang/String;)V

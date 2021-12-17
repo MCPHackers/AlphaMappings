@@ -1,38 +1,43 @@
-CLASS dm net/minecraft/src/EntityPlayer
+CLASS ea net/minecraft/src/EntityPlayer
 	FIELD a damageRemainder I
-	FIELD b inventory Leu;
-	FIELD c unusedMiningCooldown B
-	FIELD d score I
-	FIELD e prevCameraYaw F
-	FIELD f cameraYaw F
-	FIELD g isSwinging Z
-	FIELD h swingProgressInt I
-	FIELD i username Ljava/lang/String;
-	METHOD a joinEntityItemWithWorld (Ldx;)V
-		ARG 1 entityItem
-	METHOD a dropPlayerItem (Lev;)V
-		ARG 1 itemStack
-	METHOD a dropPlayerItemWithRandomChoice (Lev;Z)V
-		ARG 1 itemStack
-		ARG 2 isRandom
-	METHOD a displayGUIChest (Lgh;)V
-		ARG 1 inventory
-	METHOD a displayGUIFurnace (Lke;)V
-		ARG 1 furnaceTileEntity
-	METHOD a getCurrentPlayerStrVsBlock (Lly;)F
+	FIELD e inventory Lfn;
+	FIELD f field_9371_f B
+	FIELD g score I
+	FIELD h field_775_e F
+	FIELD i field_774_f F
+	FIELD j isSwinging Z
+	FIELD k swingProgressInt I
+	FIELD l username Ljava/lang/String;
+	FIELD m dimension I
+	FIELD n fishingBobberEntity Lhi;
+	METHOD a func_446_a (Len;)V
+		ARG 1 entityitem
+	METHOD a func_449_a (Lfo;)V
+		ARG 1 itemstack
+	METHOD a func_444_a (Lfo;Z)V
+		ARG 1 itemstack
+		ARG 2 boolean2
+	METHOD a displayGUIChest (Lhh;)V
+		ARG 1 iinventory
+	METHOD a displayGUIFurnace (Llr;)V
+		ARG 1 tileentityfurnace
+	METHOD a getCurrentPlayerStrVsBlock (Lno;)F
 		ARG 1 block
-	METHOD a displayGUIEditSign (Lob;)V
-		ARG 1 signTileEntity
-	METHOD a_ interactWithEntity (Lkh;)V
+	METHOD a displayGUIEditSign (Lqa;)V
+		ARG 1 tileentitysign
+	METHOD a_ useCurrentItemOnEntity (Llu;)V
 		ARG 1 entity
-	METHOD a_ onItemPickup (Lkh;I)V
+	METHOD b onItemPickup (Llu;I)V
 		ARG 1 entity
-	METHOD b canHarvestBlock (Lly;)Z
+		ARG 2 integer
+	METHOD b canHarvestBlock (Lno;)Z
 		ARG 1 block
-	METHOD h collideWithPlayer (Lkh;)V
+	METHOD c attackTargetEntityWithCurrentItem (Llu;)V
+	METHOD i func_451_h (Llu;)V
 		ARG 1 entity
-	METHOD l displayWorkbenchGUI ()V
-	METHOD r getScore ()I
-	METHOD t getCurrentEquippedItem ()Lev;
-	METHOD u destroyCurrentEquippedItem ()V
-	METHOD w swingItem ()V
+	METHOD m displayGUICrafting ()V
+	METHOD r respawnPlayer ()V
+	METHOD u func_6417_t ()I
+	METHOD w getCurrentEquippedItem ()Lfo;
+	METHOD x destroyCurrentEquippedItem ()V
+	METHOD z swingItem ()V

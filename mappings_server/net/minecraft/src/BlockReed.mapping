@@ -1,9 +1,9 @@
-CLASS cg net/minecraft/src/BlockReed
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
-	METHOD g fallInstantly (Ldy;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS ct net/minecraft/src/BlockReed
+	METHOD a allowsAttachment ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a canPlaceBlockAt (Leo;III)Z
+	METHOD a updateTick (Leo;IIILjava/util/Random;)V
+	METHOD b onNeighborBlockChange (Leo;IIII)V
+	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
+	METHOD f canBlockStay (Leo;III)Z
+	METHOD g func_4037_g (Leo;III)V

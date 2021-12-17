@@ -1,4 +1,4 @@
-CLASS dv net/minecraft/src/ModelCow
-	FIELD a udders Lip;
-	FIELD b horn1 Lip;
-	FIELD c horn2 Lip;
+CLASS ek net/minecraft/src/ModelCow
+	FIELD a udders Ljz;
+	FIELD b horn1 Ljz;
+	FIELD c horn2 Ljz;

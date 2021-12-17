@@ -1,1 +1,2 @@
-CLASS fs net/minecraft/src/ItemBoat
+CLASS gn net/minecraft/src/ItemBoat
+	METHOD a onItemRightClick (Lhl;Leo;Lfx;)Lhl;

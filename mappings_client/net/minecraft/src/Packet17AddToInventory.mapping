@@ -1,4 +1,4 @@
-CLASS ld net/minecraft/src/Packet17AddToInventory
-	FIELD a itemID I
+CLASS mr net/minecraft/src/Packet17AddToInventory
+	FIELD a id I
 	FIELD b count I
-	FIELD c itemDamage I
+	FIELD c durability I

@@ -1,11 +1,11 @@
-CLASS gy net/minecraft/src/NetClientHandler
-	FIELD a loginProgress Ljava/lang/String;
+CLASS ia net/minecraft/src/NetClientHandler
+	FIELD a field_1209_a Ljava/lang/String;
 	FIELD b rand Ljava/util/Random;
 	FIELD c disconnected Z
-	FIELD d netManager Lii;
+	FIELD d netManager Ljp;
 	FIELD e mc Lnet/minecraft/client/Minecraft;
-	FIELD f worldClient Lgs;
-	FIELD g posUpdated Z
+	FIELD f field_1211_f Lhu;
+	FIELD g field_1210_g Z
 	METHOD a processReadPackets ()V
-	METHOD a addToSendQueue (Lfn;)V
-	METHOD b disconnect ()V
+	METHOD a addToSendQueue (Lgj;)V
+	METHOD b func_849_b ()V

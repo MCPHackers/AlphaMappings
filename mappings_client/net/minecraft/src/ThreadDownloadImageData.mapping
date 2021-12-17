@@ -1,5 +1,8 @@
-CLASS cc net/minecraft/src/ThreadDownloadImageData
+CLASS ck net/minecraft/src/ThreadDownloadImageData
 	FIELD a image Ljava/awt/image/BufferedImage;
 	FIELD b referenceCount I
 	FIELD c textureName I
 	FIELD d textureSetupComplete Z
+	METHOD <init> (Ljava/lang/String;Lid;)V
+		ARG 1 location
+		ARG 2 imageBuffer

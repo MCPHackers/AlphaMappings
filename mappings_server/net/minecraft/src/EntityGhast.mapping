@@ -1,0 +1,18 @@
+CLASS ba net/minecraft/src/EntityGhast
+	FIELD a field_4099_a I
+	FIELD aj field_4097_ai Ldx;
+	FIELD ak field_4103_aj I
+	FIELD b field_4098_b D
+	FIELD c field_4104_c D
+	FIELD d field_4102_d D
+	FIELD e field_4101_e I
+	FIELD f field_4100_f I
+	METHOD a func_155_a ()Z
+	METHOD a func_4046_a (DDDD)Z
+	METHOD c func_152_d_ ()V
+	METHOD d func_6097_d ()Ljava/lang/String;
+	METHOD e func_6100_e ()Ljava/lang/String;
+	METHOD f func_6098_f ()Ljava/lang/String;
+	METHOD g func_149_g ()I
+	METHOD h func_6102_h ()F
+	METHOD i func_4045_i ()I

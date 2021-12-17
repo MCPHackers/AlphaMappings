@@ -1,15 +1,22 @@
-CLASS ea net/minecraft/src/EntityPlayerMP
-	FIELD a playerNetServerHandler Lid;
-	FIELD ad theItemInWorldManager Lin;
-	FIELD ae managedPosX D
-	FIELD af managedPosZ D
-	FIELD ag loadedChunks Ljava/util/List;
-	FIELD ah loadChunks Ljava/util/Set;
-	FIELD ai managedPosY D
+CLASS er net/minecraft/src/EntityPlayerMP
+	FIELD a field_421_a Ljg;
+	FIELD aj field_420_ah Ljava/util/Set;
+	FIELD ak field_418_ai D
 	FIELD b mcServer Lnet/minecraft/server/MinecraftServer;
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ldy;Ljava/lang/String;Lin;)V
-		ARG 1 minecraftServer
-		ARG 2 world
-		ARG 3 username
-		ARG 4 itemManager
-	METHOD i onUpdateEntity ()V
+	FIELD bu field_9156_bu I
+	FIELD c field_425_ad Ljt;
+	FIELD d field_9155_d D
+	FIELD e field_9154_e D
+	FIELD f field_422_ag Ljava/util/List;
+	METHOD E func_153_y ()V
+	METHOD F func_168_z ()V
+	METHOD a interact (DZ)V
+	METHOD a func_137_a (I)V
+	METHOD a attackEntity (Ldx;I)Z
+	METHOD b func_9153_b (DZ)V
+	METHOD b_ onUpdate ()V
+	METHOD c func_163_c (Ldx;I)V
+	METHOD e func_6094_e (Ldx;)V
+	METHOD f func_142_f (Ldx;)V
+	METHOD k func_175_i ()V
+	METHOD s func_104_p ()F

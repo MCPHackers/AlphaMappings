@@ -1,1 +1,2 @@
-CLASS ge net/minecraft/src/ItemRedstone
+CLASS ha net/minecraft/src/ItemRedstone
+	METHOD a onItemUse (Lhl;Lfx;Leo;IIII)Z

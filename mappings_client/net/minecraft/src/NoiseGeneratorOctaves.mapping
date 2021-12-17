@@ -1,5 +1,29 @@
-CLASS lp net/minecraft/src/NoiseGeneratorOctaves
-	FIELD a generatorCollection [Lv;
-	FIELD b octaves I
-	METHOD a generateNoiseOctaves (DD)D
+CLASS nd net/minecraft/src/NoiseGeneratorOctaves
+	FIELD a generatorCollection [Lz;
+	FIELD b octaveCount I
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 random
+		ARG 2 numOctaves
+	METHOD a generateOctavesNoZ (DD)D
+		ARG 1 xPosition
+		ARG 3 yPosition
 	METHOD a generateNoiseOctaves ([DDDDIIIDDD)[D
+		ARG 1 noiseValueArray
+		ARG 2 xPosition
+		ARG 4 yPosition
+		ARG 6 zPosition
+		ARG 8 xBlockOffset
+		ARG 9 yBlockOffset
+		ARG 10 zBlockOffset
+		ARG 11 xMultiplier
+		ARG 13 yMultiplier
+		ARG 15 zMultiplier
+	METHOD a generateNoiseOctavesSimple ([DIIIIDDD)[D
+		ARG 1 noiseValueArray
+		ARG 2 xPosition
+		ARG 3 zPosition
+		ARG 4 xBlockOffset
+		ARG 5 zBlockOffset
+		ARG 6 xMultiplier
+		ARG 8 zMultiplier
+		ARG 10 unusedParam

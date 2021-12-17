@@ -1,25 +1,15 @@
-CLASS dc net/minecraft/src/NetworkListenThread
+CLASS dq net/minecraft/src/NetworkListenThread
 	FIELD a logger Ljava/util/logging/Logger;
-	FIELD b isListening Z
+	FIELD b field_973_b Z
 	FIELD c mcServer Lnet/minecraft/server/MinecraftServer;
-	FIELD d serverSocket Ljava/net/ServerSocket;
-	FIELD e listenThread Ljava/lang/Thread;
-	FIELD f connectionNumber I
-	FIELD g pendingConnections Ljava/util/ArrayList;
-	FIELD h playerList Ljava/util/ArrayList;
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/net/InetAddress;I)V
-		ARG 1 minecraftServer
-		ARG 2 address
-		ARG 3 port
-	METHOD a handleNetworkListenThread ()V
-	METHOD a getServerSocket (Ldc;)Ljava/net/ServerSocket;
-		ARG 0 listenThread
-	METHOD a addPendingConnection (Ldc;Lew;)V
-		ARG 0 listenThread
-		ARG 1 netLoginHandler
-	METHOD a addPendingConnection (Lew;)V
-		ARG 1 netLoginHandler
-	METHOD a addPlayer (Lid;)V
-		ARG 1 netServerHandler
-	METHOD b incrementConnections (Ldc;)I
-		ARG 0 listenThread
+	FIELD d field_979_d Ljava/net/ServerSocket;
+	FIELD e field_978_e Ljava/lang/Thread;
+	FIELD f field_977_f I
+	FIELD g field_976_g Ljava/util/ArrayList;
+	FIELD h field_975_h Ljava/util/ArrayList;
+	METHOD a func_715_a ()V
+	METHOD a func_713_a (Ldq;)Ljava/net/ServerSocket;
+	METHOD a func_716_a (Ldq;Lfq;)V
+	METHOD a func_717_a (Lfq;)V
+	METHOD a func_4108_a (Ljg;)V
+	METHOD b func_712_b (Ldq;)I

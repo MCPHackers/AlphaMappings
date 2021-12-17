@@ -1,7 +1,9 @@
-CLASS jl net/minecraft/src/Packet34EntityTeleport
+CLASS kx net/minecraft/src/Packet34EntityTeleport
 	FIELD a entityId I
 	FIELD b xPosition I
 	FIELD c yPosition I
 	FIELD d zPosition I
 	FIELD e yaw B
 	FIELD f pitch B
+	METHOD <init> (Llu;)V
+		ARG 1 lizzieInTimsDreams

@@ -1,11 +1,10 @@
-CLASS ib net/minecraft/src/Packet59ComplexEntity
-	FIELD a xCoord I
-	FIELD b yCoord I
-	FIELD c zCoord I
-	FIELD d compressedNBT [B
-	FIELD e tileEntityNBT Ls;
-	METHOD <init> (IIILas;)V
-		ARG 1 xCoord
-		ARG 2 yCoord
-		ARG 3 zCoord
-		ARG 4 tileEntity
+CLASS jf net/minecraft/src/Packet59ComplexEntity
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c zPosition I
+	FIELD d entityData [B
+	FIELD e entityNBT Lv;
+	METHOD a func_71_a ()I
+	METHOD a func_72_a (Lfa;)V
+	METHOD a func_70_a (Ljava/io/DataInputStream;)V
+	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

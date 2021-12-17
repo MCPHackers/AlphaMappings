@@ -1,2 +1,2 @@
-CLASS fq net/minecraft/src/OSMap
-	FIELD a osValues [I
+CLASS nb net/minecraft/src/OsMap
+	FIELD a osMapArray [I

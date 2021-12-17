@@ -1,2 +1,6 @@
-CLASS lk net/minecraft/src/WorldIso
-	FIELD z isomPreview Lad;
+CLASS mx net/minecraft/src/WorldIso
+	FIELD A canvasIsomPreview Lah;
+	METHOD <init> (Lah;Ljava/io/File;Ljava/lang/String;)V
+		ARG 1 canvasisompreview
+		ARG 2 file
+		ARG 3 s

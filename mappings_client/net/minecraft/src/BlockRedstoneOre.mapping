@@ -1,16 +1,16 @@
-CLASS ai net/minecraft/src/BlockRedstoneOre
-	FIELD a glowing Z
+CLASS an net/minecraft/src/BlockRedstoneOre
+	FIELD a isGlowing Z
 	METHOD <init> (IIZ)V
 		ARG 1 blockID
-		ARG 2 tex
-		ARG 3 glowing
-	METHOD h glow (Lcn;III)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD i sparkle (Lcn;III)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+		ARG 2 blockTextureIndex
+		ARG 3 isGlowing
+	METHOD h activateRedstoneOre (Lcx;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD i spawnRedstoneOreParticles (Lcx;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

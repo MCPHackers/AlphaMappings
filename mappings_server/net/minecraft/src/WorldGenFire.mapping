@@ -1,0 +1,2 @@
+CLASS iv net/minecraft/src/WorldGenFire
+	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z

@@ -1,5 +1,11 @@
-CLASS nc net/minecraft/src/ThreadConnectToServer
+CLASS ow net/minecraft/src/ThreadConnectToServer
 	FIELD a mc Lnet/minecraft/client/Minecraft;
-	FIELD b ip Ljava/lang/String;
+	FIELD b hostName Ljava/lang/String;
 	FIELD c port I
-	FIELD d connectingGui Lmn;
+	FIELD d connectingGui Loe;
+	METHOD <init> (Loe;Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 guiconnecting
+		ARG 2 minecraft
+		ARG 3 hostName
+		ARG 4 port
+	METHOD run ()V

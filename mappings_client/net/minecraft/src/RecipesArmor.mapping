@@ -1,4 +1,5 @@
-CLASS l net/minecraft/src/RecipesArmor
+CLASS o net/minecraft/src/RecipesArmor
 	FIELD a recipePatterns [[Ljava/lang/String;
 	FIELD b recipeItems [[Ljava/lang/Object;
-	METHOD a addRecipes (Ldw;)V
+	METHOD a addRecipes (Lem;)V
+		ARG 1 craftingmanager

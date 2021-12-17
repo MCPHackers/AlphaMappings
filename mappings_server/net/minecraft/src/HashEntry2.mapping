@@ -1,0 +1,9 @@
+CLASS cg net/minecraft/src/HashEntry2
+	FIELD a field_1025_a J
+	FIELD b field_1024_b Ljava/lang/Object;
+	FIELD c field_1027_c Lcg;
+	FIELD d field_1026_d I
+	METHOD a func_736_a ()J
+	METHOD b func_735_b ()Ljava/lang/Object;
+	METHOD equals (Ljava/lang/Object;)Z
+	METHOD hashCode ()I

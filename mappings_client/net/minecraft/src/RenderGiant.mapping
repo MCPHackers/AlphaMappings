@@ -1,0 +1,6 @@
+CLASS px net/minecraft/src/RenderGiant
+	FIELD a scale F
+	METHOD <init> (Lgl;FF)V
+		ARG 1 modelbase
+		ARG 2 float2
+		ARG 3 scale

@@ -1,2 +1,2 @@
-CLASS ec net/minecraft/src/ItemDoor
-	FIELD a material Lgb;
+CLASS et net/minecraft/src/ItemDoor
+	FIELD a field_321_a Lha;

@@ -1,8 +1,8 @@
-CLASS da net/minecraft/src/Packet50PreChunk
+CLASS do net/minecraft/src/Packet50PreChunk
 	FIELD a xPosition I
 	FIELD b yPosition I
 	FIELD c mode Z
-	METHOD <init> (IIZ)V
-		ARG 1 xPosition
-		ARG 2 yPosition
-		ARG 3 mode
+	METHOD a func_71_a ()I
+	METHOD a func_72_a (Lfa;)V
+	METHOD a func_70_a (Ljava/io/DataInputStream;)V
+	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

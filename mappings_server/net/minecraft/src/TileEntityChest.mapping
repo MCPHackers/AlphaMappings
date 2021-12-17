@@ -1,6 +1,8 @@
-CLASS hb net/minecraft/src/TileEntityChest
-	FIELD e chestContents [Lgp;
-	METHOD a setInventorySlotContents (ILgp;)V
-		ARG 1 slot
-		ARG 2 stack
-	METHOD d getInventoryStackLimit ()I
+CLASS ia net/minecraft/src/TileEntityChest
+	FIELD e field_494_e [Lhl;
+	METHOD a func_83_a ()I
+	METHOD a getStackInSlot (I)Lhl;
+	METHOD a func_197_a (ILhl;)V
+	METHOD a readFromNBT (Lv;)V
+	METHOD b writeToNBT (Lv;)V
+	METHOD d func_198_d ()I

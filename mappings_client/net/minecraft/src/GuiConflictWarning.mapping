@@ -1,2 +1,2 @@
-CLASS iv net/minecraft/src/GuiConflictWarning
+CLASS kg net/minecraft/src/GuiConflictWarning
 	FIELD a updateCounter I

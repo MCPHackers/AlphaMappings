@@ -1,32 +1,35 @@
-CLASS oc net/minecraft/src/EntityMinecart
-	FIELD a damageTaken I
-	FIELD b timeSinceHit I
-	FIELD c forwardDirection I
+CLASS qb net/minecraft/src/EntityMinecart
+	FIELD a damageSpinCumulativeFactor I
+	FIELD b damageSpinBaseFactor I
+	FIELD c damageSpinDirection I
 	FIELD d minecartType I
 	FIELD e fuel I
 	FIELD f pushX D
 	FIELD g pushZ D
-	FIELD h cargoItems [Lev;
-	FIELD i isInReverse Z
-	FIELD j matrix [[[I
-	FIELD k turnProgress I
-	FIELD l minecartX D
-	FIELD m minecartY D
-	FIELD n minecartZ D
-	FIELD o minecartYaw D
-	FIELD p minecartPitch D
-	METHOD <init> (Lcn;DDDI)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
+	FIELD h cargoItems [Lfo;
+	FIELD i field_856_i Z
+	FIELD j field_855_j [[[I
+	FIELD k thisCounterThingAgain I
+	FIELD l serverClientPosX D
+	FIELD m serverClientPosY D
+	FIELD n serverClientPosZ D
+	FIELD o serverClientYaw D
+	FIELD p serverClientPitch D
+	FIELD q maybeServerMotionX D
+	FIELD r maybeServerMotionY D
+	FIELD s maybeServerMotionZ D
+	METHOD <init> (Lcx;DDDI)V
+		ARG 1 world
+		ARG 2 posX
+		ARG 4 posY
+		ARG 6 posZ
 		ARG 8 minecartType
-	METHOD a getPosOffset (DDDD)Laj;
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-		ARG 7 offset
-	METHOD g getPos (DDD)Laj;
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
+	METHOD a func_515_a (DDDD)Lao;
+		ARG 1 posX
+		ARG 3 posY
+		ARG 5 posZ
+		ARG 7 double4
+	METHOD h func_514_g (DDD)Lao;
+		ARG 1 posX
+		ARG 3 posY
+		ARG 5 posZ

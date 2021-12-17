@@ -1,0 +1,5 @@
+CLASS fo net/minecraft/src/NoiseGeneratorOctaves2
+	FIELD a field_4308_a [Lbn;
+	FIELD b field_4307_b I
+	METHOD a func_4101_a ([DDDIIDDD)[D
+	METHOD a func_4100_a ([DDDIIDDDD)[D

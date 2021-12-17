@@ -1,2 +1,5 @@
-CLASS lh net/minecraft/src/ThreadRunIsoClient
-	FIELD a isomPreview Lad;
+CLASS mw net/minecraft/src/ThreadRunIsoClient
+	FIELD a canvasIsomPreview Lah;
+	METHOD <init> (Lah;)V
+		ARG 1 canvasisompreview
+	METHOD run ()V

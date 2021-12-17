@@ -1,5 +1,4 @@
-CLASS dk net/minecraft/src/WorldGenDungeons
-	METHOD a pickCheckLootItem (Ljava/util/Random;)Lgp;
-		ARG 1 random
-	METHOD b pickMobSpawner (Ljava/util/Random;)Ljava/lang/String;
-		ARG 1 random
+CLASS dy net/minecraft/src/WorldGenDungeons
+	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z
+	METHOD a func_434_a (Ljava/util/Random;)Lhl;
+	METHOD b func_433_b (Ljava/util/Random;)Ljava/lang/String;

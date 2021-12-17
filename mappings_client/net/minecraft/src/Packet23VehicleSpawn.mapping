@@ -1,4 +1,4 @@
-CLASS kj net/minecraft/src/Packet23VehicleSpawn
+CLASS lx net/minecraft/src/Packet23VehicleSpawn
 	FIELD a entityId I
 	FIELD b xPosition I
 	FIELD c yPosition I

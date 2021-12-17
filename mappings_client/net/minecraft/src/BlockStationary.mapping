@@ -1,11 +1,11 @@
-CLASS hn net/minecraft/src/BlockStationary
-	METHOD j setNotStationary (Lcn;III)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD k isFlammable (Lcn;III)Z
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS iq net/minecraft/src/BlockStationary
+	METHOD j setFlowing (Lcx;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD k isNeighborFlammable (Lcx;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

@@ -1,4 +1,3 @@
-CLASS hr net/minecraft/src/WorldGenLiquids
+CLASS is net/minecraft/src/WorldGenLiquids
 	FIELD a liquidBlockId I
-	METHOD <init> (I)V
-		ARG 1 liquidBlockID
+	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z

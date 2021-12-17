@@ -1,23 +1,41 @@
-CLASS bh net/minecraft/src/GuiScreen
-	FIELD a selectedButton Lfk;
+CLASS bp net/minecraft/src/GuiScreen
+	FIELD a selectedButton Lgg;
 	FIELD b mc Lnet/minecraft/client/Minecraft;
 	FIELD c width I
 	FIELD d height I
 	FIELD e controlList Ljava/util/List;
-	FIELD f allowUserInput Z
-	FIELD g fontRenderer Lkd;
+	FIELD f isPlayerInventory Z
+	FIELD g fontRenderer Llq;
 	METHOD a initGui ()V
 	METHOD a keyTyped (CI)V
-	METHOD a drawWorldBackground (I)V
+		ARG 1 character
+		ARG 2 integer
+	METHOD a drawBackgroundBasedOnWorldState (I)V
+		ARG 1 integer
 	METHOD a drawScreen (IIF)V
+		ARG 1 buttonPosX
+		ARG 2 buttonPosY
+		ARG 3 float3
 	METHOD a mouseClicked (III)V
-	METHOD a actionPerformed (Lfk;)V
-		ARG 1 button
+		ARG 1 xPosition
+		ARG 2 yPosition
+		ARG 3 integer3
+	METHOD a actionPerformed (Lgg;)V
+		ARG 1 guibutton
 	METHOD a setWorldAndResolution (Lnet/minecraft/client/Minecraft;II)V
+		ARG 1 minecraft
+		ARG 2 width
+		ARG 3 height
 	METHOD a deleteWorld (ZI)V
+		ARG 1 boolean1
+		ARG 2 integer
 	METHOD b doesGuiPauseGame ()Z
 	METHOD b drawBackground (I)V
+		ARG 1 integer
 	METHOD b mouseMovedOrUp (III)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
 	METHOD c getClipboardString ()Ljava/lang/String;
 	METHOD d handleInput ()V
 	METHOD e handleMouseInput ()V

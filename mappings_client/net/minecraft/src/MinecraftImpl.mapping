@@ -1,2 +1,2 @@
-CLASS fm net/minecraft/src/MinecraftImpl
-	FIELD a mcFrame Ljava/awt/Frame;
+CLASS gi net/minecraft/src/MinecraftImpl
+	FIELD a mainFrame Ljava/awt/Frame;

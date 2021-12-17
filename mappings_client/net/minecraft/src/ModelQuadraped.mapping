@@ -1,7 +1,10 @@
-CLASS hg net/minecraft/src/ModelQuadraped
-	FIELD d head Lip;
-	FIELD e body Lip;
-	FIELD f leg1 Lip;
-	FIELD g leg2 Lip;
-	FIELD h leg3 Lip;
-	FIELD i leg4 Lip;
+CLASS ii net/minecraft/src/ModelQuadraped
+	FIELD d head Ljz;
+	FIELD e body Ljz;
+	FIELD f leg1 Ljz;
+	FIELD g leg2 Ljz;
+	FIELD h leg3 Ljz;
+	FIELD i leg4 Ljz;
+	METHOD <init> (IF)V
+		ARG 1 integer
+		ARG 2 float2

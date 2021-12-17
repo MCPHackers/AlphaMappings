@@ -1,4 +1,4 @@
-CLASS k net/minecraft/src/Packet21PickupSpawn
+CLASS l net/minecraft/src/Packet21PickupSpawn
 	FIELD a entityId I
 	FIELD b xPosition I
 	FIELD c yPosition I
@@ -6,7 +6,9 @@ CLASS k net/minecraft/src/Packet21PickupSpawn
 	FIELD e rotation B
 	FIELD f pitch B
 	FIELD g roll B
-	FIELD h itemID I
+	FIELD h itemId I
 	FIELD i count I
-	METHOD <init> (Lfn;)V
-		ARG 1 entityItem
+	METHOD a func_71_a ()I
+	METHOD a func_72_a (Lfa;)V
+	METHOD a func_70_a (Ljava/io/DataInputStream;)V
+	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

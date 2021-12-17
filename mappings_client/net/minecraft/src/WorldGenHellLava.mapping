@@ -1,0 +1,4 @@
+CLASS ke net/minecraft/src/WorldGenHellLava
+	FIELD a field_4158_a I
+	METHOD <init> (I)V
+		ARG 1 integer

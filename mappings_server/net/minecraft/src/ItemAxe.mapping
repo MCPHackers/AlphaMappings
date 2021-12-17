@@ -1,5 +1,2 @@
-CLASS du net/minecraft/src/ItemAxe
-	FIELD aX blocksEffectiveAgainst [Lff;
-	METHOD <init> (II)V
-		ARG 1 itemID
-		ARG 2 material
+CLASS ej net/minecraft/src/ItemAxe
+	FIELD bb field_4207_bb [Lga;

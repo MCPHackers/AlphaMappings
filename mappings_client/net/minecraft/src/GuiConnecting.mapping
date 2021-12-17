@@ -1,6 +1,10 @@
-CLASS mn net/minecraft/src/GuiConnecting
-	FIELD a clientHandler Lgy;
+CLASS oe net/minecraft/src/GuiConnecting
+	FIELD a clientHandler Lia;
 	FIELD h cancelled Z
-	METHOD a isCancelled (Lmn;)Z
-	METHOD a setNetClientHandler (Lmn;Lgy;)Lgy;
-	METHOD b getNetClientHandler (Lmn;)Lgy;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 s
+		ARG 3 integer
+	METHOD a isCancelled (Loe;)Z
+	METHOD a setNetClientHandler (Loe;Lia;)Lia;
+	METHOD b getNetClientHandler (Loe;)Lia;

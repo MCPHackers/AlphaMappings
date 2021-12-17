@@ -1,4 +1,4 @@
-CLASS nq net/minecraft/src/EntityFX
+CLASS pn net/minecraft/src/EntityFX
 	FIELD b particleTextureIndex I
 	FIELD c particleTextureJitterX F
 	FIELD d particleTextureJitterY F
@@ -12,18 +12,24 @@ CLASS nq net/minecraft/src/EntityFX
 	FIELD l interpPosX D
 	FIELD m interpPosY D
 	FIELD n interpPosZ D
-	METHOD <init> (Lcn;DDDDDD)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 motionX
-		ARG 10 motionY
-		ARG 12 motionZ
-	METHOD a renderParticle (Lho;FFFFFF)V
+	METHOD <init> (Lcx;DDDDDD)V
+		ARG 1 world
+		ARG 2 posX
+		ARG 4 posY
+		ARG 6 posZ
+		ARG 8 double5
+		ARG 10 double6
+		ARG 12 double7
+	METHOD a renderParticle (Lir;FFFFFF)V
 		ARG 1 tessellator
-	METHOD b multiplyVelocity (F)Lnq;
-		ARG 1 velocityMultiplier
-	METHOD c getFXLayer ()I
-	METHOD d multipleParticleScaleBy (F)Lnq;
-		ARG 1 particleScaleMultiplier
+		ARG 2 float2
+		ARG 3 float3
+		ARG 4 float4
+		ARG 5 float5
+		ARG 6 float6
+		ARG 7 float7
+	METHOD b updateParticleMotion (F)Lpn;
+		ARG 1 float1
+	METHOD d setParticleSizeWithFactor (F)Lpn;
+		ARG 1 float1
+	METHOD l_ getFXLayer ()I

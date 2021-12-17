@@ -1,3 +1,4 @@
-CLASS lf net/minecraft/src/RecipesIngots
+CLASS mt net/minecraft/src/RecipesIngots
 	FIELD a recipeItems [[Ljava/lang/Object;
-	METHOD a addRecipes (Ldw;)V
+	METHOD a addRecipes (Lem;)V
+		ARG 1 craftingmanager

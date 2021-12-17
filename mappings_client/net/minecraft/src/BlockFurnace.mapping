@@ -1,16 +1,16 @@
-CLASS ku net/minecraft/src/BlockFurnace
+CLASS mh net/minecraft/src/BlockFurnace
 	FIELD a isActive Z
 	METHOD <init> (IZ)V
 		ARG 1 blockID
 		ARG 2 isActive
-	METHOD a updateFurnaceBlockState (ZLcn;III)V
-		ARG 0 isActive
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD h setDefaultDirection (Lcn;III)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+	METHOD a updateFurnaceBlockState (ZLcx;III)V
+		ARG 0 isFurnaceActivated
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD h func_284_h (Lcx;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

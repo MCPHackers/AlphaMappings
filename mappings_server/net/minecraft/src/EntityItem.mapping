@@ -1,17 +1,15 @@
-CLASS fn net/minecraft/src/EntityItem
-	FIELD a item Lgp;
-	FIELD ad delayBeforeCanPickup I
-	FIELD ae hoverStart F
-	FIELD af age2 I
-	FIELD ag health I
-	FIELD b age I
-	METHOD <init> (Ldy;DDDLgp;)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 item
-	METHOD g pushOutOfBlocks (DDD)Z
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
+CLASS gj net/minecraft/src/EntityItem
+	FIELD a item Lhl;
+	FIELD b field_9169_b I
+	FIELD c field_433_ad I
+	FIELD d field_432_ae F
+	FIELD e field_9170_e I
+	FIELD f health I
+	METHOD a attackEntity (Ldx;I)Z
+	METHOD a writeEntityToNBT (Lv;)V
+	METHOD b func_125_b (I)V
+	METHOD b onCollideWithPlayer (Lfx;)V
+	METHOD b readEntityFromNBT (Lv;)V
+	METHOD b_ onUpdate ()V
+	METHOD g func_176_g (DDD)Z
+	METHOD r handleWaterMovement ()Z

@@ -1,30 +1,50 @@
-CLASS eu net/minecraft/src/InventoryPlayer
-	FIELD a mainInventory [Lev;
-	FIELD b armorInventory [Lev;
-	FIELD c craftingInventory [Lev;
+CLASS fn net/minecraft/src/InventoryPlayer
+	FIELD a mainInventory [Lfo;
+	FIELD b armorInventory [Lfo;
+	FIELD c craftingInventory [Lfo;
 	FIELD d currentItem I
-	FIELD e draggedItemStack Lev;
-	FIELD f inventoryChanged Z
-	FIELD g player Ldm;
-	METHOD a getCurrentItem ()Lev;
+	FIELD e draggingItemStack Lfo;
+	FIELD f field_845_f Z
+	FIELD g player Lea;
+	METHOD <init> (Lea;)V
+		ARG 1 entityplayer
+	METHOD a getCurrentItem ()Lfo;
 	METHOD a changeCurrentItem (I)V
+		ARG 1 integer
 	METHOD a setCurrentItem (IZ)V
-	METHOD a getInventoryEqual (Leu;)Z
-	METHOD a addItemStackToInventory (Lev;)Z
-	METHOD a getItemStacksEqual (Lev;Lev;)Z
-	METHOD a getDamageVsEntity (Lkh;)I
-	METHOD a writeToNBT (Lki;)Lki;
-	METHOD a getStrVsBlock (Lly;)F
-	METHOD b decrementAnimations ()V
+		ARG 1 integer
+		ARG 2 boolean2
+	METHOD a func_500_a (Lfn;)Z
+		ARG 1 inventoryplayer
+	METHOD a func_504_a (Lfo;)Z
+		ARG 1 itemstack
+	METHOD a func_501_a (Lfo;Lfo;)Z
+		ARG 1 itemstack1
+		ARG 2 itemstack2
+	METHOD a getDamageVsEntity (Llu;)I
+		ARG 1 entity
+	METHOD a writeToNBT (Llw;)Llw;
+		ARG 1 nbttaglist
+	METHOD a func_508_a (Lno;)F
+		ARG 1 block
+	METHOD b func_511_b ()V
 	METHOD b consumeInventoryItem (I)Z
-	METHOD b storePartialItemStack (II)I
-	METHOD b readFromNBT (Lki;)V
-	METHOD b canHarvestBlock (Lly;)Z
-	METHOD d armorItemInSlot (I)Lev;
-	METHOD e damageArmor (I)V
+		ARG 1 integer
+	METHOD b addItemsToInventory (II)I
+		ARG 1 integer1
+		ARG 2 integer2
+	METHOD b readFromNBT (Llw;)V
+		ARG 1 nbttaglist
+	METHOD b func_509_b (Lno;)Z
+		ARG 1 block
+	METHOD d armorItemInSlot (I)Lfo;
+		ARG 1 integer
+	METHOD e func_507_e (I)V
+		ARG 1 integer
 	METHOD f getTotalArmorValue ()I
 	METHOD f getInventorySlotContainItem (I)I
-	METHOD g dropAllItems ()V
-	METHOD g storeItemStack (I)I
-	METHOD i copyInventory ()Leu;
+		ARG 1 integer
+	METHOD g func_503_g ()V
+	METHOD g getFirstPartialMatchingStack (I)I
+	METHOD i func_512_i ()Lfn;
 	METHOD j getFirstEmptyStack ()I

@@ -1,12 +1,12 @@
-CLASS do net/minecraft/src/Packet15Place
+CLASS ec net/minecraft/src/Packet15Place
 	FIELD a id I
 	FIELD b xPosition I
 	FIELD c yPosition I
 	FIELD d zPosition I
 	FIELD e direction I
 	METHOD <init> (IIIII)V
-		ARG 1 id
-		ARG 2 xPosition
-		ARG 3 yPosition
-		ARG 4 zPosition
+		ARG 1 blockID
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 		ARG 5 direction

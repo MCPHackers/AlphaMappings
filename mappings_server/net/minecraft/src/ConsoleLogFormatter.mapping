@@ -1,4 +1,3 @@
-CLASS gx net/minecraft/src/ConsoleLogFormatter
+CLASS hv net/minecraft/src/ConsoleLogFormatter
 	FIELD a dateFormat Ljava/text/SimpleDateFormat;
 	METHOD format (Ljava/util/logging/LogRecord;)Ljava/lang/String;
-		ARG 1 logRecord

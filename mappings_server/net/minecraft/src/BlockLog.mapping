@@ -1,3 +1,4 @@
-CLASS fu net/minecraft/src/BlockLog
-	METHOD <init> (I)V
-		ARG 1 id
+CLASS gq net/minecraft/src/BlockLog
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a quantityDropped (Ljava/util/Random;)I

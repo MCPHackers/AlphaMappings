@@ -1,4 +1,4 @@
-CLASS he net/minecraft/src/BlockFence
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
+CLASS id net/minecraft/src/BlockFence
+	METHOD a allowsAttachment ()Z
+	METHOD a canPlaceBlockAt (Leo;III)Z
+	METHOD a getCollidingBoundingBoxes (Leo;IIILdu;Ljava/util/ArrayList;)V

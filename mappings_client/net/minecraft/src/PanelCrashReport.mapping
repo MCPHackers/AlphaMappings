@@ -1,1 +1,3 @@
-CLASS aq net/minecraft/src/PanelCrashReport
+CLASS av net/minecraft/src/PanelCrashReport
+	METHOD <init> (Lhq;)V
+		ARG 1 unexpectedthrowable

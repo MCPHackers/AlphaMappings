@@ -1,5 +1,6 @@
-CLASS fr net/minecraft/src/GameSettings
-	FIELD A optionsFile Ljava/io/File;
+CLASS gp net/minecraft/src/GameSettings
+	FIELD A DIFFICULTY_LEVELS [Ljava/lang/String;
+	FIELD B optionsFile Ljava/io/File;
 	FIELD a musicVolume F
 	FIELD b soundVolume F
 	FIELD c mouseSensitivity F
@@ -9,30 +10,44 @@ CLASS fr net/minecraft/src/GameSettings
 	FIELD g anaglyph Z
 	FIELD h limitFramerate Z
 	FIELD i fancyGraphics Z
-	FIELD j keyBindForward Lit;
-	FIELD k keyBindLeft Lit;
-	FIELD l keyBindBack Lit;
-	FIELD m keyBindRight Lit;
-	FIELD n keyBindJump Lit;
-	FIELD o keyBindInventory Lit;
-	FIELD p keyBindDrop Lit;
-	FIELD q keyBindChat Lit;
-	FIELD r keyBindToggleFog Lit;
-	FIELD s keyBindSneak Lit;
-	FIELD t keyBindings [Lit;
-	FIELD u mc Lnet/minecraft/client/Minecraft;
-	FIELD v numberOfOptions I
-	FIELD w difficulty I
-	FIELD x thirdPersonView Z
-	FIELD y RENDER_DISTANCES [Ljava/lang/String;
-	FIELD z DIFFICULTY_LEVELS [Ljava/lang/String;
+	FIELD j skin Ljava/lang/String;
+	FIELD k keyBindForward Lkd;
+	FIELD l keyBindLeft Lkd;
+	FIELD m keyBindBack Lkd;
+	FIELD n keyBindRight Lkd;
+	FIELD o keyBindJump Lkd;
+	FIELD p keyBindInventory Lkd;
+	FIELD q keyBindDrop Lkd;
+	FIELD r keyBindChat Lkd;
+	FIELD s keyBindToggleFog Lkd;
+	FIELD t keyBindSneak Lkd;
+	FIELD u keyBindings [Lkd;
+	FIELD v mc Lnet/minecraft/client/Minecraft;
+	FIELD w numberOfOptions I
+	FIELD x difficulty I
+	FIELD y thirdPersonView Z
+	FIELD z RENDER_DISTANCES [Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+		ARG 1 minecraft
+		ARG 2 file
 	METHOD a loadOptions ()V
 	METHOD a getKeyBindingDescription (I)Ljava/lang/String;
+		ARG 1 keyIndex
 	METHOD a setOptionFloatValue (IF)V
+		ARG 1 optionIndex
+		ARG 2 optionFloatValue
 	METHOD a setKeyBinding (II)V
+		ARG 1 keyIndex
+		ARG 2 integer2
 	METHOD a parseFloat (Ljava/lang/String;)F
+		ARG 1 s
 	METHOD b saveOptions ()V
-	METHOD b isSlider (I)I
+	METHOD b getOptionFloatValueButReturnOneBecauseObviously (I)I
+		ARG 1 optionIndex
 	METHOD b setOptionValue (II)V
+		ARG 1 optionIndex
+		ARG 2 optionValue
 	METHOD c getOptionFloatValue (I)F
-	METHOD d getOptionDisplayString (I)Ljava/lang/String;
+		ARG 1 optionIndex
+	METHOD d getOptionDisplayText (I)Ljava/lang/String;
+		ARG 1 optionIndex

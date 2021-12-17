@@ -1,4 +1,5 @@
-CLASS fb net/minecraft/src/NBTTagShort
+CLASS fw net/minecraft/src/NBTTagShort
 	FIELD a shortValue S
-	METHOD <init> (S)V
-		ARG 1 shortValue
+	METHOD a getType ()B
+	METHOD a readTagContents (Ljava/io/DataInput;)V
+	METHOD a writeTagContents (Ljava/io/DataOutput;)V

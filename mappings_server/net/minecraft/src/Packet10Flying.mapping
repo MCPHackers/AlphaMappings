@@ -1,4 +1,4 @@
-CLASS gf net/minecraft/src/Packet10Flying
+CLASS hb net/minecraft/src/Packet10Flying
 	FIELD a xPosition D
 	FIELD b yPosition D
 	FIELD c zPosition D
@@ -8,3 +8,7 @@ CLASS gf net/minecraft/src/Packet10Flying
 	FIELD g onGround Z
 	FIELD h moving Z
 	FIELD i rotating Z
+	METHOD a func_71_a ()I
+	METHOD a func_72_a (Lfa;)V
+	METHOD a func_70_a (Ljava/io/DataInputStream;)V
+	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

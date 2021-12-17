@@ -1,4 +1,4 @@
-CLASS ii net/minecraft/src/NetworkManager
+CLASS jp net/minecraft/src/NetworkManager
 	FIELD a threadSyncObject Ljava/lang/Object;
 	FIELD b numReadThreads I
 	FIELD c numWriteThreads I
@@ -10,7 +10,7 @@ CLASS ii net/minecraft/src/NetworkManager
 	FIELD i readPackets Ljava/util/List;
 	FIELD j dataPackets Ljava/util/List;
 	FIELD k chunkDataPackets Ljava/util/List;
-	FIELD l netHandler Llb;
+	FIELD l netHandler Lmm;
 	FIELD m isServerTerminating Z
 	FIELD n writeThread Ljava/lang/Thread;
 	FIELD o readThread Ljava/lang/Thread;
@@ -19,15 +19,22 @@ CLASS ii net/minecraft/src/NetworkManager
 	FIELD r timeSinceLastRead I
 	FIELD s sendQueueByteLength I
 	FIELD t chunkDataSendCounter I
+	METHOD <init> (Ljava/net/Socket;Ljava/lang/String;Lmm;)V
+		ARG 1 socket
+		ARG 2 s
+		ARG 3 nethandler
 	METHOD a processReadPackets ()V
-	METHOD a addToSendQueue (Lfn;)V
-	METHOD a isRunning (Lii;)Z
+	METHOD a addToSendQueue (Lgj;)V
+		ARG 1 packet
 	METHOD a onNetworkError (Ljava/lang/Exception;)V
+		ARG 1 exception
 	METHOD a networkShutdown (Ljava/lang/String;)V
+		ARG 1 shutdownReason
+	METHOD a func_971_a (Ljp;)Z
 	METHOD b sendPacket ()V
-	METHOD b isServerTerminating (Lii;)Z
+	METHOD b func_968_b (Ljp;)Z
 	METHOD c readPacket ()V
-	METHOD c readNetworkPacket (Lii;)V
-	METHOD d sendNetworkPacket (Lii;)V
-	METHOD e getReadThread (Lii;)Ljava/lang/Thread;
-	METHOD f getWriteThread (Lii;)Ljava/lang/Thread;
+	METHOD c func_966_c (Ljp;)V
+	METHOD d func_965_d (Ljp;)V
+	METHOD e func_969_e (Ljp;)Ljava/lang/Thread;
+	METHOD f func_963_f (Ljp;)Ljava/lang/Thread;

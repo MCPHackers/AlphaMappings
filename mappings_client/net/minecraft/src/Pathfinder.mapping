@@ -1,14 +1,55 @@
-CLASS cz net/minecraft/src/Pathfinder
-	FIELD a worldMap Lnm;
-	FIELD b path Lfx;
-	FIELD c pointMap Lfi;
-	FIELD d pathOptions [La;
-	METHOD a openPoint (III)La;
-	METHOD a createEntityPath (La;La;)Lbl;
-	METHOD a createEntityPathTo (Lkh;DDDF)Lbl;
-	METHOD a createEntityPathTo (Lkh;IIIF)Lbl;
-	METHOD a getVerticalOffset (Lkh;IIILa;)I
-	METHOD a getSafePoint (Lkh;IIILa;I)La;
-	METHOD a addToPath (Lkh;La;La;La;F)Lbl;
-	METHOD a createEntityPathTo (Lkh;Lkh;F)Lbl;
-	METHOD b findPathOptions (Lkh;La;La;La;F)I
+CLASS dl net/minecraft/src/PathFinder
+	FIELD a worldMap Lpi;
+	FIELD b path Lgv;
+	FIELD c pointMap Lgd;
+	FIELD d pathOptions [Lb;
+	METHOD <init> (Lpi;)V
+		ARG 1 iblockaccess
+	METHOD a openPoint (III)Lb;
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD a createEntityPath (Lb;Lb;)Lbt;
+		ARG 1 pathpoint1
+		ARG 2 pathpoint2
+	METHOD a createEntityPathTo (Llu;DDDF)Lbt;
+		ARG 1 entity
+		ARG 2 posX
+		ARG 4 posY
+		ARG 6 posZ
+		ARG 8 float5
+	METHOD a createEntityPathTo (Llu;IIIF)Lbt;
+		ARG 1 entity
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 float5
+	METHOD a getVerticalOffset (Llu;IIILb;)I
+		ARG 1 entity
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 pathpoint
+	METHOD a getSafePoint (Llu;IIILb;I)Lb;
+		ARG 1 entity
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 pathpoint
+		ARG 6 yOffset
+	METHOD a addToPath (Llu;Lb;Lb;Lb;F)Lbt;
+		ARG 1 entity
+		ARG 2 pathpoint1
+		ARG 3 pathpoint2
+		ARG 4 pathpoint3
+		ARG 5 float5
+	METHOD a createEntityPathTo (Llu;Llu;F)Lbt;
+		ARG 1 entity1
+		ARG 2 entity2
+		ARG 3 float3
+	METHOD b findPathOptions (Llu;Lb;Lb;Lb;F)I
+		ARG 1 entity
+		ARG 2 pathpoint1
+		ARG 3 pathpoint2
+		ARG 4 pathpoint3
+		ARG 5 float5

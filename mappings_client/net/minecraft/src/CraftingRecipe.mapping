@@ -1,15 +1,21 @@
-CLASS bv net/minecraft/src/CraftingRecipe
+CLASS cd net/minecraft/src/CraftingRecipe
 	FIELD a resultId I
 	FIELD b width I
 	FIELD c height I
 	FIELD d ingredientMap [I
-	FIELD e resultStack Lev;
-	METHOD <init> (II[ILev;)V
+	FIELD e resultStack Lfo;
+	METHOD <init> (II[ILfo;)V
 		ARG 1 width
 		ARG 2 height
-		ARG 3 ingredientMap
-		ARG 4 resultStack
+		ARG 3 arr
+		ARG 4 itemstack
 	METHOD a getRecipeSize ()I
-	METHOD a matches ([I)Z
-	METHOD a checkMatch ([IIIZ)Z
-	METHOD b getCraftingResult ([I)Lev;
+	METHOD a matchRecipe ([I)Z
+		ARG 1 arr
+	METHOD a matches ([IIIZ)Z
+		ARG 1 arr
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 boolean4
+	METHOD b createResult ([I)Lfo;
+		ARG 1 arr

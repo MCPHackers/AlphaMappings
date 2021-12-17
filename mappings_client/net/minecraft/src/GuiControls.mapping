@@ -1,5 +1,8 @@
-CLASS lw net/minecraft/src/GuiControls
+CLASS nk net/minecraft/src/GuiControls
 	FIELD a screenTitle Ljava/lang/String;
-	FIELD h parentScreen Lbh;
-	FIELD i options Lfr;
+	FIELD h parentScreen Lbp;
+	FIELD i options Lgp;
 	FIELD j buttonId I
+	METHOD <init> (Lbp;Lgp;)V
+		ARG 1 guiscreen
+		ARG 2 gamesettings

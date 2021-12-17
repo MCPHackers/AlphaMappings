@@ -1,4 +1,4 @@
-CLASS li net/minecraft/src/Packet53BlockChange
+CLASS mv net/minecraft/src/Packet53BlockChange
 	FIELD a xPosition I
 	FIELD b yPosition I
 	FIELD c zPosition I

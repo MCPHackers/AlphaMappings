@@ -1,9 +1,9 @@
-CLASS mj net/minecraft/src/BlockTorch
+CLASS nz net/minecraft/src/BlockTorch
 	METHOD <init> (II)V
 		ARG 1 blockID
-		ARG 2 tex
-	METHOD h checkIfAttachedToBlock (Lcn;III)Z
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+		ARG 2 blockTextureIndex
+	METHOD h canTorchExist (Lcx;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

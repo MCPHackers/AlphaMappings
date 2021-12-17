@@ -1,2 +1,4 @@
-CLASS je net/minecraft/src/Explosion
-	METHOD a doExplosion (Lcn;Lkh;DDDF)V
+CLASS kr net/minecraft/src/Explosion
+	FIELD a field_4267_a Z
+	FIELD b field_4266_b Ljava/util/Random;
+	METHOD a func_901_a (Lcx;Llu;DDDF)V

@@ -1,9 +1,27 @@
-CLASS kd net/minecraft/src/FontRenderer
-	FIELD a fontTextureName I
-	FIELD b charWidth [I
-	FIELD c fontDisplayLists I
+CLASS lq net/minecraft/src/FontRenderer
+	FIELD a field_1308_a I
+	FIELD b field_1307_b [I
+	FIELD c field_1310_c I
 	FIELD d buffer Ljava/nio/IntBuffer;
+	METHOD <init> (Lgp;Ljava/lang/String;Lft;)V
+		ARG 1 gamesettings
+		ARG 2 s
+		ARG 3 renderengine
 	METHOD a getStringWidth (Ljava/lang/String;)I
+		ARG 1 s
 	METHOD a drawStringWithShadow (Ljava/lang/String;III)V
+		ARG 1 s
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
 	METHOD a renderString (Ljava/lang/String;IIIZ)V
+		ARG 1 s
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4
+		ARG 5 boolean5
 	METHOD b drawString (Ljava/lang/String;III)V
+		ARG 1 s
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 integer4

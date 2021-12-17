@@ -1,0 +1,4 @@
+CLASS hy net/minecraft/src/EntityFlying
+	METHOD a fall (F)V
+	METHOD c func_148_c (FF)V
+	METHOD d_ func_144_E ()Z

@@ -1,15 +1,15 @@
-CLASS dh net/minecraft/src/BlockSand
+CLASS dv net/minecraft/src/BlockSand
 	FIELD a fallInstantly Z
 	METHOD <init> (II)V
 		ARG 1 blockID
-		ARG 2 tex
-	METHOD a_ canFallBelow (Lcn;III)Z
-		ARG 0 worldObj
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD h tryToFall (Lcn;III)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+		ARG 2 blockTextureIndex
+	METHOD b_ canFallBelow (Lcx;III)Z
+		ARG 0 world
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD h tryToFall (Lcx;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

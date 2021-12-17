@@ -1,10 +1,13 @@
-CLASS ee net/minecraft/src/GuiContainer
+CLASS ew net/minecraft/src/GuiContainer
 	FIELD a xSize I
 	FIELD h ySize I
 	FIELD i inventorySlots Ljava/util/List;
-	FIELD j itemRenderer Lab;
+	FIELD j itemRenderer Laf;
 	METHOD a drawGuiContainerBackgroundLayer (F)V
-	METHOD a getSlotAtPosition (II)Ldk;
-	METHOD a drawSlotInventory (Lmm;)V
-		ARG 1 slotInventory
+		ARG 1 float1
+	METHOD a getSlotAtPosition (II)Ldy;
+		ARG 1 xPosition
+		ARG 2 yPosition
+	METHOD a drawSlotInventory (Lod;)V
+		ARG 1 slotinventory
 	METHOD j drawGuiContainerForegroundLayer ()V

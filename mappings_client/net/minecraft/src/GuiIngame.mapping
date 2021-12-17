@@ -1,17 +1,39 @@
-CLASS lu net/minecraft/src/GuiIngame
-	FIELD a testMessage Ljava/lang/String;
-	FIELD b damageGuiPartialTime F
-	FIELD c prevVignetteBrightness F
-	FIELD d itemRenderer Lab;
+CLASS nj net/minecraft/src/GuiIngame
+	FIELD a field_933_a Ljava/lang/String;
+	FIELD b field_6446_b F
+	FIELD c field_931_c F
+	FIELD d itemRenderer Laf;
 	FIELD e chatMessageList Ljava/util/List;
-	FIELD f rand Ljava/util/Random;
-	FIELD g mc Lnet/minecraft/client/Minecraft;
-	FIELD h updateCounter I
-	FIELD i recordPlaying Ljava/lang/String;
-	FIELD j recordPlayingUpFor I
-	METHOD a updateTick ()V
-	METHOD a renderVignette (FII)V
+	FIELD f field_9423_f Ljava/util/Random;
+	FIELD g field_9422_g Lnet/minecraft/client/Minecraft;
+	FIELD h field_9421_h I
+	FIELD i jukeboxMessage Ljava/lang/String;
+	FIELD j field_9419_j I
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a func_555_a ()V
+	METHOD a func_4064_a (FII)V
+		ARG 1 float1
+		ARG 2 integer2
+		ARG 3 integer3
 	METHOD a renderGameOverlay (FZII)V
-	METHOD a renderInventorySlot (IIIF)V
-	METHOD a addChatMessage (Ljava/lang/String;)V
-	METHOD b setRecordPlayingMessage (Ljava/lang/String;)V
+		ARG 1 float1
+		ARG 2 boolean2
+		ARG 3 integer3
+		ARG 4 integer4
+	METHOD a func_4063_a (II)V
+		ARG 1 integer1
+		ARG 2 integer2
+	METHOD a func_554_a (IIIF)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 integer3
+		ARG 4 float4
+	METHOD a func_552_a (Ljava/lang/String;)V
+		ARG 1 s
+	METHOD b func_4065_b (FII)V
+		ARG 1 float1
+		ARG 2 integer2
+		ARG 3 integer3
+	METHOD b displayJukeboxMessage (Ljava/lang/String;)V
+		ARG 1 recordName

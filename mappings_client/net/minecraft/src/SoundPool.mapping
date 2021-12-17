@@ -1,9 +1,12 @@
-CLASS eb net/minecraft/src/SoundPool
+CLASS er net/minecraft/src/SoundPool
 	FIELD a numberOfSoundPoolEntries I
-	FIELD b isGetRandomSound Z
+	FIELD b field_1657_b Z
 	FIELD c rand Ljava/util/Random;
 	FIELD d nameToSoundPoolEntriesMapping Ljava/util/Map;
 	FIELD e allSoundPoolEntries Ljava/util/List;
-	METHOD a getRandomSound ()Lah;
-	METHOD a getRandomSoundFromSoundPool (Ljava/lang/String;)Lah;
-	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)Lah;
+	METHOD a getRandomSound ()Lal;
+	METHOD a getRandomSoundFromSoundPool (Ljava/lang/String;)Lal;
+		ARG 1 soundName
+	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)Lal;
+		ARG 1 soundName
+		ARG 2 file

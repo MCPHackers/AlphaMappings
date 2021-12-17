@@ -1,9 +1,10 @@
-CLASS cv net/minecraft/src/BlockJukeBox
+CLASS df net/minecraft/src/BlockJukeBox
 	METHOD <init> (II)V
 		ARG 1 blockID
-		ARG 2 tex
-	METHOD e ejectRecord (Lcn;IIII)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+		ARG 2 blockTextureIndex
+	METHOD e ejectRecord (Lcx;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 blockMetadata

@@ -1,4 +1,4 @@
-CLASS lq net/minecraft/src/Packet30Entity
+CLASS nf net/minecraft/src/Packet30Entity
 	FIELD a entityId I
 	FIELD b xPosition B
 	FIELD c yPosition B

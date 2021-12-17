@@ -1,2 +1,2 @@
-CLASS mv net/minecraft/src/EntityPig
-	FIELD a saddled Z
+CLASS on net/minecraft/src/EntityPig
+	FIELD a rideable Z

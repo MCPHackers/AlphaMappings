@@ -1,22 +1,22 @@
-CLASS ew net/minecraft/src/EntityList
+CLASS fp net/minecraft/src/EntityList
 	FIELD a stringToClassMapping Ljava/util/Map;
 	FIELD b classToStringMapping Ljava/util/Map;
 	FIELD c IDtoClassMapping Ljava/util/Map;
 	FIELD d classToIDMapping Ljava/util/Map;
-	METHOD a createEntityByID (ILcn;)Lkh;
+	METHOD a createEntity (ILcx;)Llu;
 		ARG 0 entityID
-		ARG 1 worldObj
-	METHOD a createEntityFromNBT (Lhm;Lcn;)Lkh;
-		ARG 0 nbtCompound
-		ARG 1 worldObj
+		ARG 1 world
+	METHOD a createEntityFromNBT (Lip;Lcx;)Llu;
+		ARG 0 nbttagcompound
+		ARG 1 world
 	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;I)V
-		ARG 0 entityClass
-		ARG 1 entityName
+		ARG 0 class1
+		ARG 1 s
 		ARG 2 entityID
-	METHOD a createEntityByName (Ljava/lang/String;Lcn;)Lkh;
-		ARG 0 entityName
-		ARG 1 worldObj
-	METHOD a getEntityID (Lkh;)I
+	METHOD a createEntityInWorld (Ljava/lang/String;Lcx;)Llu;
+		ARG 0 s
+		ARG 1 world
+	METHOD a getEntityID (Llu;)I
 		ARG 0 entity
-	METHOD b getEntityString (Lkh;)Ljava/lang/String;
+	METHOD b getEntityString (Llu;)Ljava/lang/String;
 		ARG 0 entity

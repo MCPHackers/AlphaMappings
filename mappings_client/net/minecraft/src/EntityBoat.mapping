@@ -1,9 +1,18 @@
-CLASS dc net/minecraft/src/EntityBoat
-	FIELD a damageTaken I
-	FIELD b timeSinceHit I
-	FIELD c forwardDirection I
-	METHOD <init> (Lcn;DDD)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
+CLASS do net/minecraft/src/EntityBoat
+	FIELD a damageSpinCumulativeFactor I
+	FIELD b damageSpinBaseFactor I
+	FIELD c damageSpinDirection I
+	FIELD d seriouslyWhatEvenIsThis I
+	FIELD e serverClientPosX D
+	FIELD f serverClientPosY D
+	FIELD g serverClientPosZ D
+	FIELD h serverClientYaw D
+	FIELD i serverClientPitch D
+	FIELD j maybeServerMotionX D
+	FIELD k maybeServerMotionY D
+	FIELD l maybeServerMotionZ D
+	METHOD <init> (Lcx;DDD)V
+		ARG 1 world
+		ARG 2 posX
+		ARG 4 posY
+		ARG 6 posZ

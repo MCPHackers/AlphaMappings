@@ -1,30 +1,33 @@
-CLASS ad net/minecraft/src/CanvasIsomPreview
-	FIELD a currentRender I
+CLASS ah net/minecraft/src/CanvasIsomPreview
+	FIELD a field_1793_a I
 	FIELD b zoomLevel I
 	FIELD c displayHelpText Z
-	FIELD d level Lcn;
+	FIELD d worldObj Lcx;
 	FIELD e dataFolder Ljava/io/File;
 	FIELD f running Z
-	FIELD g zonesToRender Ljava/util/List;
-	FIELD h zoneMap [[Ljj;
-	FIELD i translateX I
-	FIELD j translateY I
+	FIELD g imageBufferList Ljava/util/List;
+	FIELD h imageBuffers [[Lkv;
+	FIELD i field_1785_i I
+	FIELD j field_1784_j I
 	FIELD k xPosition I
 	FIELD l yPosition I
-	METHOD a getWorkingDirectory ()Ljava/io/File;
-	METHOD a setBrightness (I)V
-		ARG 1 brightnessValue
-	METHOD a getZone (II)Ljj;
-	METHOD a isRunning (Lad;)Z
-	METHOD a render (Ljava/awt/Graphics2D;)V
+	METHOD a getMinecraftDir ()Ljava/io/File;
+	METHOD a setTimeOfDay (I)V
+		ARG 1 skyLightSubtracted
+	METHOD a getImageBuffer (II)Lkv;
+		ARG 1 imageXPos
+		ARG 2 imageYPos
+	METHOD a func_1271_a (Lah;)Z
+	METHOD a drawScreen (Ljava/awt/Graphics2D;)V
 		ARG 1 graphics2D
-	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
-	METHOD b start ()V
-	METHOD b loadLevel (Ljava/lang/String;)V
-		ARG 1 levelName
-	METHOD c stop ()V
-	METHOD d render ()V
-	METHOD e getPlatform ()Lfa;
+	METHOD a getAppDir (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 mainMinecraftFolder
+	METHOD b startIsoThread ()V
+	METHOD b loadWorld (Ljava/lang/String;)V
+		ARG 1 path
+	METHOD c exit ()V
+	METHOD d showNextBuffer ()V
+	METHOD e getOS ()Lfv;
 	METHOD keyPressed (Ljava/awt/event/KeyEvent;)V
 		ARG 1 keyEvent
 	METHOD keyReleased (Ljava/awt/event/KeyEvent;)V

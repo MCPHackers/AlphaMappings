@@ -1,4 +1,4 @@
-CLASS gp net/minecraft/src/Packet20NamedEntitySpawn
+CLASS hr net/minecraft/src/Packet20NamedEntitySpawn
 	FIELD a entityId I
 	FIELD b name Ljava/lang/String;
 	FIELD c xPosition I
@@ -7,3 +7,5 @@ CLASS gp net/minecraft/src/Packet20NamedEntitySpawn
 	FIELD f rotation B
 	FIELD g pitch B
 	FIELD h currentItem I
+	METHOD <init> (Lea;)V
+		ARG 1 vikkiHatesMustard

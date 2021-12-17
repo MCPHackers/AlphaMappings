@@ -1,7 +1,7 @@
-CLASS cq net/minecraft/src/EntityLavaFX
-	FIELD a lavaParticleScale F
-	METHOD <init> (Lcn;DDD)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
+CLASS da net/minecraft/src/EntityLavaFX
+	FIELD a field_674_a F
+	METHOD <init> (Lcx;DDD)V
+		ARG 1 world
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4

@@ -1,7 +1,8 @@
-CLASS en net/minecraft/src/Packet17AddToInventory
-	FIELD a itemID I
+CLASS ff net/minecraft/src/Packet17AddToInventory
+	FIELD a id I
 	FIELD b count I
-	FIELD c itemDamage I
-	METHOD <init> (Lgp;I)V
-		ARG 1 stack
-		ARG 2 count
+	FIELD c durability I
+	METHOD a func_71_a ()I
+	METHOD a func_72_a (Lfa;)V
+	METHOD a func_70_a (Ljava/io/DataInputStream;)V
+	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

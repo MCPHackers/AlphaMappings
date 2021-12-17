@@ -1,3 +1,4 @@
-CLASS v net/minecraft/src/ServerGuiCommandListener
+CLASS y net/minecraft/src/ServerGuiCommandListener
 	FIELD a textField Ljavax/swing/JTextField;
-	FIELD b mcServerGui Lfo;
+	FIELD b mcServerGui Lgk;
+	METHOD actionPerformed (Ljava/awt/event/ActionEvent;)V

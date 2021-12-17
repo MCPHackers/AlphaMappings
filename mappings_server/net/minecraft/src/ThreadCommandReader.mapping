@@ -1,2 +1,3 @@
-CLASS bn net/minecraft/src/ThreadCommandReader
+CLASS bz net/minecraft/src/ThreadCommandReader
 	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;
+	METHOD run ()V

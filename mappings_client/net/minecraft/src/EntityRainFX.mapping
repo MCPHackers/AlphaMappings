@@ -1,1 +1,6 @@
-CLASS nf net/minecraft/src/EntityRainFX
+CLASS pa net/minecraft/src/EntityRainFX
+	METHOD <init> (Lcx;DDD)V
+		ARG 1 world
+		ARG 2 posX
+		ARG 4 posY
+		ARG 6 posZ

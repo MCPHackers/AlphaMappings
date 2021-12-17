@@ -1,4 +1,6 @@
-CLASS fl net/minecraft/src/Packet4UpdateTime
+CLASS gh net/minecraft/src/Packet4UpdateTime
 	FIELD a time J
-	METHOD <init> (J)V
-		ARG 1 time
+	METHOD a func_71_a ()I
+	METHOD a func_72_a (Lfa;)V
+	METHOD a func_70_a (Ljava/io/DataInputStream;)V
+	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

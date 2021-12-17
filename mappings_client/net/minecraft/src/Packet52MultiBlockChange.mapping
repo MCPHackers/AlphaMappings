@@ -1,4 +1,4 @@
-CLASS na net/minecraft/src/Packet52MultiBlockChange
+CLASS ot net/minecraft/src/Packet52MultiBlockChange
 	FIELD a xPosition I
 	FIELD b zPosition I
 	FIELD c coordinateArray [S

@@ -1,6 +1,7 @@
-CLASS fv net/minecraft/src/Packet16BlockItemSwitch
-	FIELD a entityId I
+CLASS gr net/minecraft/src/Packet16BlockItemSwitch
+	FIELD a unused I
 	FIELD b id I
-	METHOD <init> (II)V
-		ARG 1 entityID
-		ARG 2 id
+	METHOD a func_71_a ()I
+	METHOD a func_72_a (Lfa;)V
+	METHOD a func_70_a (Ljava/io/DataInputStream;)V
+	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

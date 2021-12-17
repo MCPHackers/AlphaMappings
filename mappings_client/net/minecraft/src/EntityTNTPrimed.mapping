@@ -1,3 +1,8 @@
-CLASS jd net/minecraft/src/EntityTNTPrimed
+CLASS kq net/minecraft/src/EntityTNTPrimed
 	FIELD a fuse I
-	METHOD i explode ()V
+	METHOD <init> (Lcx;DDD)V
+		ARG 1 world
+		ARG 2 double2
+		ARG 4 double3
+		ARG 6 double4
+	METHOD k explode ()V

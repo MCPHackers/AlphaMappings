@@ -1,30 +1,30 @@
-CLASS gi net/minecraft/src/WorldGenBigTree
-	FIELD a otherCoordPairs [B
-	FIELD b rand Ljava/util/Random;
-	FIELD c worldObj Ldy;
-	FIELD d basePos [I
-	FIELD e heightLimit I
-	FIELD f height I
-	FIELD g heightAttenuation D
-	FIELD h branchDensity D
-	FIELD i branchSlope D
-	FIELD j scaleWidth D
-	FIELD k leafDensity D
-	FIELD l trunkSize I
-	FIELD m heightLimitLimit I
-	FIELD n leafDistanceLimit I
-	FIELD o leafNodes [[I
-	METHOD a generateLeafNodeList ()V
-	METHOD a layerSize (I)F
-	METHOD a generateLeafNode (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a genTreeLayer (IIIFBI)V
-	METHOD a checkBlockLine ([I[I)I
-	METHOD a placeBlockLine ([I[II)V
-	METHOD b generateLeaves ()V
-	METHOD c generateTrunk ()V
-	METHOD c leafNodeNeedsBase (I)Z
-	METHOD d generateLeafNodeBases ()V
-	METHOD e validTreeLocation ()Z
+CLASS hc net/minecraft/src/WorldGenBigTree
+	FIELD a field_760_a [B
+	FIELD b field_759_b Ljava/util/Random;
+	FIELD c worldObj Leo;
+	FIELD d field_757_d [I
+	FIELD e field_756_e I
+	FIELD f field_755_f I
+	FIELD g field_754_g D
+	FIELD h field_753_h D
+	FIELD i field_752_i D
+	FIELD j field_751_j D
+	FIELD k field_750_k D
+	FIELD l field_749_l I
+	FIELD m field_748_m I
+	FIELD n field_747_n I
+	FIELD o field_746_o [[I
+	METHOD a func_424_a ()V
+	METHOD a func_420_a (DDD)V
+	METHOD a func_431_a (I)F
+	METHOD a func_423_a (III)V
+	METHOD a func_426_a (IIIFBI)V
+	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z
+	METHOD a func_427_a ([I[I)I
+	METHOD a func_425_a ([I[II)V
+	METHOD b func_421_b ()V
+	METHOD b func_429_b (I)F
+	METHOD c func_432_c ()V
+	METHOD c func_430_c (I)Z
+	METHOD d func_428_d ()V
+	METHOD e func_422_e ()Z

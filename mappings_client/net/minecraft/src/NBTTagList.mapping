@@ -1,6 +1,8 @@
-CLASS ki net/minecraft/src/NBTTagList
+CLASS lw net/minecraft/src/NBTTagList
 	FIELD a tagList Ljava/util/List;
 	FIELD b tagType B
-	METHOD a tagAt (I)Lel;
-	METHOD a setTag (Lel;)V
+	METHOD a tagAt (I)Lfc;
+		ARG 1 tagIndex
+	METHOD a setTag (Lfc;)V
+		ARG 1 nbtbase
 	METHOD c tagCount ()I

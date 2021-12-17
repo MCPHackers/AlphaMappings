@@ -1,6 +1,7 @@
-CLASS o net/minecraft/src/Packet18ArmAnimation
+CLASS q net/minecraft/src/Packet18ArmAnimation
 	FIELD a entityId I
 	FIELD b animate I
-	METHOD <init> (Ldj;I)V
-		ARG 1 entity
-		ARG 2 animate
+	METHOD a func_71_a ()I
+	METHOD a func_72_a (Lfa;)V
+	METHOD a func_70_a (Ljava/io/DataInputStream;)V
+	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

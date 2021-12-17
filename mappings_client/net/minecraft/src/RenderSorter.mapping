@@ -1,3 +1,2 @@
-CLASS gl net/minecraft/src/RenderSorter
-	FIELD a baseEntity Ldm;
-	METHOD a doCompare (Lbn;Lbn;)I
+CLASS hn net/minecraft/src/RenderSorter
+	FIELD a field_4274_a Lea;

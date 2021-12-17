@@ -1,17 +1,18 @@
-CLASS bg net/minecraft/src/BlockRedstoneTorch
+CLASS bo net/minecraft/src/BlockRedstoneTorch
 	FIELD a torchActive Z
 	FIELD b torchUpdates Ljava/util/List;
 	METHOD <init> (IIZ)V
 		ARG 1 blockID
-		ARG 2 tex
-		ARG 3 torchActive
-	METHOD a checkForBurnout (Lcn;IIIZ)Z
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD h isIndirectlyPowered (Lcn;III)Z
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+		ARG 2 blockTextureIndex
+		ARG 3 isActive
+	METHOD a checkForBurnout (Lcx;IIIZ)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 addTorchUpdate
+	METHOD h isTorchAcceptingPower (Lcx;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

@@ -1,0 +1,39 @@
+CLASS gf net/minecraft/src/BiomeGenBase
+	FIELD a rainforest Lgf;
+	FIELD b swampland Lgf;
+	FIELD c seasonalForest Lgf;
+	FIELD d forest Lgf;
+	FIELD e savanna Lgf;
+	FIELD f shrubland Lgf;
+	FIELD g taiga Lgf;
+	FIELD h desert Lgf;
+	FIELD i plains Lgf;
+	FIELD j iceDesert Lgf;
+	FIELD k tundra Lgf;
+	FIELD l hell Lgf;
+	FIELD m biomeName Ljava/lang/String;
+	FIELD n unusedColorValue I
+	FIELD o topBlock B
+	FIELD p fillerBlock B
+	FIELD q someValue I
+	FIELD r biomeMonsters [Ljava/lang/Class;
+	FIELD s biomeCreatures [Ljava/lang/Class;
+	FIELD t biomeLookupTable [Lgf;
+	METHOD a generateBiomeLookup ()V
+	METHOD a getBiomeFromLookup (DD)Lgf;
+		ARG 0 double1
+		ARG 2 double2
+	METHOD a getSkyColorByTemp (F)I
+		ARG 1 float1
+	METHOD a getBiome (FF)Lgf;
+		ARG 0 float1
+		ARG 1 float2
+	METHOD a setSomethingIDK (I)Lgf;
+		ARG 1 integer
+	METHOD a getEntitiesForType (Lgx;)[Ljava/lang/Class;
+		ARG 1 enumcreaturetype
+	METHOD a setBiomeName (Ljava/lang/String;)Lgf;
+		ARG 1 s
+	METHOD b doNothingAndSitHereAndTakeUpSpaceLikeADunce ()Lgf;
+	METHOD b setUnusedColor (I)Lgf;
+		ARG 1 integer

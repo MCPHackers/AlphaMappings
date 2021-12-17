@@ -1,38 +1,18 @@
-CLASS il net/minecraft/src/BlockFire
+CLASS jr net/minecraft/src/BlockFire
 	FIELD a chanceToEncourageFire [I
 	FIELD b abilityToCatchFire [I
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
-	METHOD a initializeBlock (III)V
-		ARG 1 blockID
-		ARG 2 chance
-		ARG 3 ability
-	METHOD a tryToCatchBlockOnFire (Ldy;IIIILjava/util/Random;)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 chance
-		ARG 6 random
-	METHOD b canBlockCatchFire (Lhq;III)Z
-		ARG 1 blockAccess
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD f getChanceToEncourageFire (Ldy;IIII)I
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 flag
-	METHOD g canNeighborBurn (Ldy;III)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD h getChanceOfNeighborsEncouragingFire (Ldy;III)I
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+	METHOD a allowsAttachment ()Z
+	METHOD a setBurnRate (III)V
+	METHOD a canPlaceBlockAt (Leo;III)Z
+	METHOD a tryToCatchBlockOnFire (Leo;IIIILjava/util/Random;)V
+	METHOD a updateTick (Leo;IIILjava/util/Random;)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD b tickRate ()I
+	METHOD b onNeighborBlockChange (Leo;IIII)V
+	METHOD b canBlockCatchFire (Lit;III)Z
+	METHOD d isCollidable ()Z
+	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
+	METHOD e onBlockAdded (Leo;III)V
+	METHOD f getChanceToEncourageFire (Leo;IIII)I
+	METHOD g func_268_g (Leo;III)Z
+	METHOD h getChanceOfNeighborsEncouragingFire (Leo;III)I

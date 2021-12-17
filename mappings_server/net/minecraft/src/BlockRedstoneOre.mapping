@@ -1,16 +1,11 @@
-CLASS au net/minecraft/src/BlockRedstoneOre
-	FIELD a glowing Z
-	METHOD <init> (IIZ)V
-		ARG 1 id
-		ARG 2 blockIndex
-		ARG 3 glowing
-	METHOD g glow (Ldy;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD h sparkle (Ldy;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS bc net/minecraft/src/BlockRedstoneOre
+	FIELD a field_665_a Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a blockActivated (Leo;IIILfx;)Z
+	METHOD a updateTick (Leo;IIILjava/util/Random;)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD b tickRate ()I
+	METHOD b onEntityWalking (Leo;IIILdx;)V
+	METHOD b onBlockClicked (Leo;IIILfx;)V
+	METHOD g func_321_g (Leo;III)V
+	METHOD h func_320_h (Leo;III)V

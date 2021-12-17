@@ -1,41 +1,20 @@
-CLASS gd net/minecraft/src/MinecartTrackLogic
-	FIELD a minecartTrack Lav;
-	FIELD b worldObj Ldy;
-	FIELD c trackX I
-	FIELD d trackY I
-	FIELD e trackZ I
-	FIELD f trackMetadata I
-	FIELD g connectedTracks Ljava/util/List;
-	METHOD <init> (Lav;Ldy;III)V
-		ARG 1 minecartTrack
-		ARG 2 world
-		ARG 3 trackX
-		ARG 4 trackY
-		ARG 5 trackZ
-	METHOD a calculateConnectedTracks ()V
-	METHOD a isMinecartTrack (III)Z
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a getAdjacentTracks (Lgd;)I
-		ARG 0 trackLogic
-	METHOD a getMinecartTrackLogic (Lgs;)Lgd;
-		ARG 1 chunkPos
-	METHOD a place (Z)V
-		ARG 1 flag
-	METHOD b refreshConnectedTracks ()V
-	METHOD b isInTrack (III)Z
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD b isConnectedTo (Lgd;)Z
-		ARG 1 trackLogic
-	METHOD c getAdjacentTracks ()I
-	METHOD c canConnectFrom (III)Z
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD c handleKeyPress (Lgd;)Z
-		ARG 1 trackLogic
-	METHOD d connectToNeighbor (Lgd;)V
-		ARG 1 trackLogic
+CLASS gz net/minecraft/src/MinecartTrackLogic
+	FIELD a field_888_a Lbb;
+	FIELD b worldObj Leo;
+	FIELD c field_893_c I
+	FIELD d field_892_d I
+	FIELD e field_891_e I
+	FIELD f field_890_f I
+	FIELD g field_889_g Ljava/util/List;
+	METHOD a func_593_a ()V
+	METHOD a func_589_a (III)Z
+	METHOD a func_600_a (Lgz;)I
+	METHOD a func_595_a (Lhq;)Lgz;
+	METHOD a func_596_a (Z)V
+	METHOD b func_591_b ()V
+	METHOD b func_599_b (III)Z
+	METHOD b func_590_b (Lgz;)Z
+	METHOD c func_594_c ()I
+	METHOD c func_592_c (III)Z
+	METHOD c func_597_c (Lgz;)Z
+	METHOD d func_598_d (Lgz;)V

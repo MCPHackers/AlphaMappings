@@ -1,0 +1,8 @@
+CLASS go net/minecraft/src/TextureWatchFX
+	FIELD g mc Lnet/minecraft/client/Minecraft;
+	FIELD h field_4224_h [I
+	FIELD i field_4223_i [I
+	FIELD j field_4222_j D
+	FIELD k field_4221_k D
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft

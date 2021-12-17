@@ -1,0 +1,8 @@
+CLASS eh net/minecraft/src/WorldChunkManagerHell
+	FIELD e netherBiome Lgf;
+	FIELD f netherTemperature D
+	FIELD g netherHumidity D
+	METHOD <init> (Lgf;DD)V
+		ARG 1 netherBiome
+		ARG 2 temperature
+		ARG 4 humidity

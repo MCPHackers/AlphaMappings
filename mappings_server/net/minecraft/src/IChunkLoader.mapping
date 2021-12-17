@@ -1,13 +1,6 @@
-CLASS aq net/minecraft/src/IChunkLoader
-	METHOD a chunkTick ()V
-	METHOD a loadChunk (Ldy;II)Lim;
-		ARG 1 world
-		ARG 2 x
-		ARG 3 z
-	METHOD a saveChunk (Ldy;Lim;)V
-		ARG 1 world
-		ARG 2 chunk
-	METHOD b saveExtraData ()V
-	METHOD b saveExtraChunkData (Ldy;Lim;)V
-		ARG 1 world
-		ARG 2 chunk
+CLASS av net/minecraft/src/IChunkLoader
+	METHOD a func_661_a ()V
+	METHOD a func_659_a (Leo;II)Ljs;
+	METHOD a func_662_a (Leo;Ljs;)V
+	METHOD b func_660_b ()V
+	METHOD b func_4104_b (Leo;Ljs;)V

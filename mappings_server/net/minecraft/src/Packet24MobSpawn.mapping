@@ -1,4 +1,4 @@
-CLASS gv net/minecraft/src/Packet24MobSpawn
+CLASS ht net/minecraft/src/Packet24MobSpawn
 	FIELD a entityId I
 	FIELD b type B
 	FIELD c xPosition I
@@ -6,5 +6,7 @@ CLASS gv net/minecraft/src/Packet24MobSpawn
 	FIELD e zPosition I
 	FIELD f yaw B
 	FIELD g pitch B
-	METHOD <init> (Lis;)V
-		ARG 1 entityLiving
+	METHOD a func_71_a ()I
+	METHOD a func_72_a (Lfa;)V
+	METHOD a func_70_a (Ljava/io/DataInputStream;)V
+	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

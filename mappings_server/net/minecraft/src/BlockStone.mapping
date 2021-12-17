@@ -1,4 +1,2 @@
-CLASS de net/minecraft/src/BlockStone
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
+CLASS ds net/minecraft/src/BlockStone
+	METHOD a idDropped (ILjava/util/Random;)I

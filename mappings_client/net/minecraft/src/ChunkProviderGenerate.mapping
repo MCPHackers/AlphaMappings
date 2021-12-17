@@ -1,28 +1,46 @@
-CLASS nw net/minecraft/src/ChunkProviderGenerate
-	FIELD a noiseGen6 Llp;
-	FIELD b noiseGen7 Llp;
-	FIELD c mobSpawnerNoise Llp;
-	FIELD d noise3 [D
-	FIELD e noise1 [D
-	FIELD f noise2 [D
-	FIELD g noise6 [D
-	FIELD h noise7 [D
-	FIELD i unused [[I
+CLASS pv net/minecraft/src/ChunkProviderGenerate
+	FIELD a field_922_a Lnd;
+	FIELD b field_921_b Lnd;
+	FIELD c treeNoise Lnd;
+	FIELD d field_4185_d [D
+	FIELD e field_4184_e [D
+	FIELD f field_4183_f [D
+	FIELD g field_4182_g [D
+	FIELD h field_4181_h [D
+	FIELD i field_914_i [[I
 	FIELD j rand Ljava/util/Random;
-	FIELD k noiseGen1 Llp;
-	FIELD l noiseGen2 Llp;
-	FIELD m noiseGen3 Llp;
-	FIELD n noiseGen4 Llp;
-	FIELD o noiseGen5 Llp;
-	FIELD p worldObj Lcn;
-	FIELD q noiseArray [D
-	FIELD r sandNoise [D
-	FIELD s gravelNoise [D
-	FIELD t stoneNoise [D
-	FIELD u caveGenerator Lcy;
-	METHOD <init> (Lcn;J)V
-		ARG 1 worldObj
-		ARG 2 seed
-	METHOD a generateTerrain (II[B)V
-	METHOD a initializeNoiseField ([DIIIIII)[D
-	METHOD b replaceSurfaceBlocks (II[B)V
+	FIELD k highNoise Lnd;
+	FIELD l lowNoise Lnd;
+	FIELD m selectorNoise Lnd;
+	FIELD n beachNoise Lnd;
+	FIELD o dirtThicknessNoise Lnd;
+	FIELD p worldObj Lcx;
+	FIELD q field_4180_q [D
+	FIELD r sandNoiseArray [D
+	FIELD s gravelNoiseArray [D
+	FIELD t stoneNoiseArray [D
+	FIELD u chunkCaveGen Ldk;
+	FIELD v biomesForGeneration [Lgf;
+	FIELD w generatedTemperatures [D
+	METHOD <init> (Lcx;J)V
+		ARG 1 world
+		ARG 2 worldSeed
+	METHOD a replaceBlocksForBiome (II[B[Lgf;)V
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+		ARG 3 chunkBlockArray
+		ARG 4 biomeGenArray
+	METHOD a generateTerrain (II[B[Lgf;[D)V
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+		ARG 3 chunkBlockArray
+		ARG 4 biomeGenArray
+		ARG 5 temperatureArray
+	METHOD a func_4061_a ([DIIIIII)[D
+		ARG 1 arr
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 integer5
+		ARG 6 integer6
+		ARG 7 integer7

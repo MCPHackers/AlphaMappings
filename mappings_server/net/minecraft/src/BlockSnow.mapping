@@ -1,9 +1,10 @@
-CLASS ha net/minecraft/src/BlockSnow
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
-	METHOD g canSnowStay (Ldy;III)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS hz net/minecraft/src/BlockSnow
+	METHOD a allowsAttachment ()Z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a canPlaceBlockAt (Leo;III)Z
+	METHOD a updateTick (Leo;IIILjava/util/Random;)V
+	METHOD a isSideInsideCoordinate (Lit;IIII)Z
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD b onNeighborBlockChange (Leo;IIII)V
+	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
+	METHOD g func_275_g (Leo;III)Z

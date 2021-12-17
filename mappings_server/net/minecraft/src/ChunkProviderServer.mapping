@@ -1,23 +1,19 @@
-CLASS ij net/minecraft/src/ChunkProviderServer
-	FIELD a droppedChunksSet Ljava/util/Set;
-	FIELD b chunk Lim;
-	FIELD c serverChunkProvider Lbj;
-	FIELD d serverChunkLoader Laq;
-	FIELD e id2ChunkMap Ljava/util/Map;
-	FIELD f loadedChunks Ljava/util/List;
-	FIELD g worldObj Lee;
-	METHOD <init> (Lee;Laq;Lbj;)V
-		ARG 1 worldServer
-		ARG 2 chunkLoader
-		ARG 3 chunkProvider
-	METHOD a saveExtraChunkData (Lim;)V
-		ARG 1 chunk
-	METHOD b saveChunk (Lim;)V
-		ARG 1 chunk
-	METHOD c dropChunk (II)V
-	METHOD d loadChunk (II)Lim;
-		ARG 1 x
-		ARG 2 z
-	METHOD e loadAndSaveChunk (II)Lim;
-		ARG 1 x
-		ARG 2 z
+CLASS jo net/minecraft/src/ChunkProviderServer
+	FIELD a field_725_a Ljava/util/Set;
+	FIELD b field_724_b Ljs;
+	FIELD c field_730_c Lbu;
+	FIELD d field_729_d Lav;
+	FIELD e field_728_e Ljava/util/Map;
+	FIELD f field_727_f Ljava/util/List;
+	FIELD g field_726_g Lev;
+	METHOD a func_361_a ()Z
+	METHOD a chunkExists (II)Z
+	METHOD a populate (Lbu;II)V
+	METHOD a func_375_a (Ljs;)V
+	METHOD a func_360_a (ZLja;)Z
+	METHOD b func_364_b ()Z
+	METHOD b func_363_b (II)Ljs;
+	METHOD b func_373_b (Ljs;)V
+	METHOD c func_374_c (II)V
+	METHOD d func_376_d (II)Ljs;
+	METHOD e func_4063_e (II)Ljs;

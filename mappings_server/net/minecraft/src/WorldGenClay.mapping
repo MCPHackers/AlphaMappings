@@ -1,5 +1,4 @@
-CLASS f net/minecraft/src/WorldGenClay
+CLASS g net/minecraft/src/WorldGenClay
 	FIELD a clayBlockId I
 	FIELD b numberOfBlocks I
-	METHOD <init> (I)V
-		ARG 1 numberOfBlocks
+	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z

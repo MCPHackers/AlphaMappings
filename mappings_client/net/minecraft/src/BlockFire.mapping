@@ -1,36 +1,38 @@
-CLASS og net/minecraft/src/BlockFire
+CLASS qf net/minecraft/src/BlockFire
 	FIELD a chanceToEncourageFire [I
 	FIELD b abilityToCatchFire [I
 	METHOD <init> (II)V
 		ARG 1 blockID
-		ARG 2 tex
-	METHOD a initializeBlock (III)V
+		ARG 2 blockTextureIndex
+	METHOD a setBurnRate (III)V
 		ARG 1 blockID
-		ARG 2 fireChance
-		ARG 3 fireAbility
-	METHOD a tryToCatchBlockOnFire (Lcn;IIIILjava/util/Random;)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 6 rand
-	METHOD b canBlockCatchFire (Lnm;III)Z
-		ARG 1 blockAccess
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD g getChanceToEncourageFire (Lcn;IIII)I
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD h canNeighborBurn (Lcn;III)Z
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD i getChanceOfNeighborsEncouragingFire (Lcn;III)I
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+		ARG 2 chanceToEncourageFire
+		ARG 3 abilityToCatchFire
+	METHOD a tryToCatchBlockOnFire (Lcx;IIIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 integer5
+		ARG 6 random
+	METHOD c canBlockCatchFire (Lpi;III)Z
+		ARG 1 iblockaccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD g getChanceToEncourageFire (Lcx;IIII)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 integer5
+	METHOD h canNeighboringBlocksCatchFire (Lcx;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD i getChanceOfNeighborsEncouragingFire (Lcx;III)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

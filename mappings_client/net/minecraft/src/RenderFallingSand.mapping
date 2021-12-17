@@ -1,3 +1,2 @@
-CLASS dj net/minecraft/src/RenderFallingSand
-	FIELD d sandRenderBlocks Lbc;
-	METHOD a doRenderFallingSand (Lff;DDDFF)V
+CLASS dx net/minecraft/src/RenderFallingSand
+	FIELD a field_197_d Lbk;

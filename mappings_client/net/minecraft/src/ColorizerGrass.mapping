@@ -1,0 +1,5 @@
+CLASS eu net/minecraft/src/ColorizerGrass
+	FIELD a grassPNGColorArray [I
+	METHOD a getGrassColor (DD)I
+		ARG 0 temperature
+		ARG 2 humidity

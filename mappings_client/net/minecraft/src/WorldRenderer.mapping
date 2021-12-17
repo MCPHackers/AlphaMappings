@@ -1,44 +1,58 @@
-CLASS bn net/minecraft/src/WorldRenderer
+CLASS bv net/minecraft/src/WorldRenderer
 	FIELD A isChunkLit Z
-	FIELD B tileEntityRenderers Ljava/util/List;
-	FIELD C glRenderList I
-	FIELD D tessellator Lho;
+	FIELD B tileEntityRenderList Ljava/util/List;
+	FIELD C glRenderListInt I
+	FIELD D tessellator Lir;
 	FIELD E isInitialized Z
-	FIELD F tileEntities Ljava/util/List;
-	FIELD a worldObj Lcn;
-	FIELD b chunksUpdated I
-	FIELD c posX I
-	FIELD d posY I
-	FIELD e posZ I
-	FIELD f sizeWidth I
-	FIELD g sizeHeight I
-	FIELD h sizeDepth I
-	FIELD i posXMinus I
-	FIELD j posYMinus I
-	FIELD k posZMinus I
-	FIELD l posXClip I
-	FIELD m posYClip I
-	FIELD n posZClip I
+	FIELD F loadedTileEntityList Ljava/util/List;
+	FIELD a worldObj Lcx;
+	FIELD b field_1762_b I
+	FIELD c renderChunkBlockXCoord I
+	FIELD d renderChunkBlockYCoord I
+	FIELD e renderChunkBlockZCoord I
+	FIELD f renderChunkXLength I
+	FIELD g renderChunkYHeight I
+	FIELD h renderChunkZWidth I
+	FIELD i renderChunkXMinusModulo I
+	FIELD j renderChunkYMinusModulo I
+	FIELD k renderChunkZMinusModulo I
+	FIELD l renderChunkXModulo I
+	FIELD m renderChunkYModulo I
+	FIELD n renderChunkZModulo I
 	FIELD o isInFrustum Z
 	FIELD p skipRenderPass [Z
-	FIELD q posXPlus I
-	FIELD r posYPlus I
-	FIELD s posZPlus I
-	FIELD t rendererRadius F
+	FIELD q renderChunkCenterXCoord I
+	FIELD r renderChunkCenterYCoord I
+	FIELD s renderChunkCenterZCoord I
+	FIELD t field_1740_t F
 	FIELD u needsUpdate Z
-	FIELD v rendererBoundingBox Lcf;
-	FIELD w chunkIndex I
+	FIELD v renderChunkBoundingBox Lcn;
+	FIELD w field_1735_w I
 	FIELD x isVisible Z
 	FIELD y isWaitingOnOcclusionQuery Z
-	FIELD z glOcclusionQuery I
-	METHOD a updateRenderer ()V
-	METHOD a getGLCallListForPass (I)I
-	METHOD a setPosition (III)V
-	METHOD a distanceToEntitySquared (Lkh;)F
-	METHOD a updateInFrustrum (Loe;)V
-	METHOD b setDontDraw ()V
-	METHOD c stopRendering ()V
+	FIELD z field_1732_z I
+	METHOD <init> (Lcx;Ljava/util/List;IIIII)V
+		ARG 1 world
+		ARG 2 list
+		ARG 3 xCoord
+		ARG 4 yCoord
+		ARG 5 zCoord
+		ARG 6 blockLength
+		ARG 7 integer7
+	METHOD a renderCurrentRenderChunk ()V
+	METHOD a func_1200_a (I)I
+		ARG 1 integer
+	METHOD a setupRenderChunkParams (III)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD a distanceToEntity (Llu;)F
+		ARG 1 entity
+	METHOD a func_1199_a (Lqd;)V
+		ARG 1 icamera
+	METHOD b func_1195_b ()V
+	METHOD c func_1204_c ()V
 	METHOD d callOcclusionQueryList ()V
-	METHOD e skipAllRenderPasses ()Z
-	METHOD f markDirty ()V
-	METHOD g setupGLTranslation ()V
+	METHOD e canRender ()Z
+	METHOD f MarkDirty ()V
+	METHOD g func_1203_g ()V

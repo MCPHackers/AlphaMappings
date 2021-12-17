@@ -1,4 +1,4 @@
-CLASS c net/minecraft/src/Packet20NamedEntitySpawn
+CLASS d net/minecraft/src/Packet20NamedEntitySpawn
 	FIELD a entityId I
 	FIELD b name Ljava/lang/String;
 	FIELD c xPosition I
@@ -7,5 +7,7 @@ CLASS c net/minecraft/src/Packet20NamedEntitySpawn
 	FIELD f rotation B
 	FIELD g pitch B
 	FIELD h currentItem I
-	METHOD <init> (Lfc;)V
-		ARG 1 entityPlayer
+	METHOD a func_71_a ()I
+	METHOD a func_72_a (Lfa;)V
+	METHOD a func_70_a (Ljava/io/DataInputStream;)V
+	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

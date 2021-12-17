@@ -1,0 +1,21 @@
+CLASS ev net/minecraft/src/PositionTextureVertex
+	FIELD a vector3D Lao;
+	FIELD b texturePositionX F
+	FIELD c texturePositionY F
+	METHOD <init> (FFFFF)V
+		ARG 1 float1
+		ARG 2 float2
+		ARG 3 float3
+		ARG 4 texPosX
+		ARG 5 texPosY
+	METHOD <init> (Lao;FF)V
+		ARG 1 vec3d
+		ARG 2 texPosX
+		ARG 3 texPosY
+	METHOD <init> (Lev;FF)V
+		ARG 1 positiontexturevertex
+		ARG 2 texPosX
+		ARG 3 texPosY
+	METHOD a setTexturePosition (FF)Lev;
+		ARG 1 texPosX
+		ARG 2 texPosY

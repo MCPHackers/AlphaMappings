@@ -1,5 +1,13 @@
-CLASS eu net/minecraft/src/EntityCreeper
-	FIELD a timeSinceIgnited I
-	FIELD ad fuseDuration I
-	FIELD ae creeperState I
-	FIELD b lastActiveTime I
+CLASS fm net/minecraft/src/EntityCreeper
+	FIELD a field_406_a I
+	FIELD b field_405_b I
+	FIELD c field_408_ad I
+	FIELD d field_407_ae I
+	METHOD a func_157_a (Ldx;F)V
+	METHOD a writeEntityToNBT (Lv;)V
+	METHOD b readEntityFromNBT (Lv;)V
+	METHOD c func_152_d_ ()V
+	METHOD e func_6100_e ()Ljava/lang/String;
+	METHOD f func_6098_f ()Ljava/lang/String;
+	METHOD f func_142_f (Ldx;)V
+	METHOD g func_149_g ()I

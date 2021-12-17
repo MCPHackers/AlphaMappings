@@ -1,9 +1,10 @@
-CLASS av net/minecraft/src/BlockMinecartTrack
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
-	METHOD g refreshTrackShape (Ldy;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS bb net/minecraft/src/BlockMinecartTrack
+	METHOD a allowsAttachment ()Z
+	METHOD a canPlaceBlockAt (Leo;III)Z
+	METHOD a collisionRayTrace (Leo;IIILbd;Lbd;)Lgo;
+	METHOD a setBlockBoundsBasedOnState (Lit;III)V
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD b onNeighborBlockChange (Leo;IIII)V
+	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
+	METHOD e onBlockAdded (Leo;III)V
+	METHOD g func_4038_g (Leo;III)V

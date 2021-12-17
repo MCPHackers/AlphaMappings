@@ -1,1 +1,2 @@
-CLASS eq net/minecraft/src/WorldGenCactus
+CLASS fi net/minecraft/src/WorldGenCactus
+	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z

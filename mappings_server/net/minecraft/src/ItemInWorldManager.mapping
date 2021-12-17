@@ -1,18 +1,17 @@
-CLASS in net/minecraft/src/ItemInWorldManager
-	FIELD a thisPlayer Lfc;
-	FIELD b worldObj Ldy;
-	FIELD c removeProgressUnused F
-	FIELD d removeProgress F
-	FIELD e curBlockDurability I
-	FIELD f curblockDamage F
-	FIELD g posX I
-	FIELD h posY I
-	FIELD i posZ I
-	METHOD <init> (Ldy;)V
-		ARG 1 world
-	METHOD a blockRemoving ()V
-	METHOD a onBlockClicked (III)V
-	METHOD a updateBlockRemoving (IIII)V
-	METHOD a activeBlockOrUseItem (Lfc;Ldy;Lgp;IIII)Z
-	METHOD b removeBlock (III)Z
-	METHOD c tryHarvestBlock (III)Z
+CLASS jt net/minecraft/src/ItemInWorldManager
+	FIELD a field_675_a Lfx;
+	FIELD b field_674_b Leo;
+	FIELD c field_673_c F
+	FIELD d field_672_d F
+	FIELD e field_671_e I
+	FIELD f field_670_f F
+	FIELD g field_669_g I
+	FIELD h field_668_h I
+	FIELD i field_667_i I
+	METHOD a func_328_a ()V
+	METHOD a func_324_a (III)V
+	METHOD a func_326_a (IIII)V
+	METHOD a func_6154_a (Lfx;Leo;Lhl;)Z
+	METHOD a func_327_a (Lfx;Leo;Lhl;IIII)Z
+	METHOD b func_323_b (III)Z
+	METHOD c func_325_c (III)Z

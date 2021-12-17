@@ -1,0 +1,2 @@
+CLASS kg net/minecraft/src/BlockLightStone
+	METHOD a idDropped (ILjava/util/Random;)I

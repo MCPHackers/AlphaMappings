@@ -1,67 +1,112 @@
-CLASS e net/minecraft/src/RenderGlobal
-	FIELD A glSkyList2 I
-	FIELD B minBlockX I
-	FIELD C minBlockY I
-	FIELD D minBlockZ I
-	FIELD E maxBlockX I
-	FIELD F maxBlockY I
-	FIELD G maxBlockZ I
-	FIELD H renderDistance I
-	FIELD I renderEntitiesStartupCounter I
-	FIELD J countEntitiesTotal I
-	FIELD K countEntitiesRendered I
-	FIELD L countEntitiesHidden I
-	FIELD M renderersLoaded I
-	FIELD N renderersBeingClipped I
-	FIELD O renderersBeingOccluded I
-	FIELD P renderersBeingRendered I
-	FIELD Q renderersSkippingRenderPass I
-	FIELD R glRenderLists Ljava/util/List;
-	FIELD S allRenderLists [Lkw;
-	FIELD a tileEntities Ljava/util/List;
-	FIELD b dummyBuf50k [I
-	FIELD c occlusionResult Ljava/nio/IntBuffer;
-	FIELD d dummyRenderInt I
-	FIELD e unusedGLCallList I
-	FIELD f prevSortX D
-	FIELD g prevSortY D
-	FIELD h prevSortZ D
-	FIELD i damagePartialTime F
-	FIELD j frustumCheckOffset I
-	FIELD k theWorld Lcn;
-	FIELD l renderEngine Ley;
+CLASS f net/minecraft/src/RenderGlobal
+	FIELD A field_1432_A I
+	FIELD B renderChunkXPos1 I
+	FIELD C renderChunkYPos1 I
+	FIELD D renderChunkZPos1 I
+	FIELD E renderChunkXPos2 I
+	FIELD F renderChunkYPos2 I
+	FIELD G renderChunkZPos2 I
+	FIELD H renderDistanceIndex I
+	FIELD I field_1424_I I
+	FIELD J totalLoadedEntities I
+	FIELD K visibleEntities I
+	FIELD L unusedAlwaysZeroVariable I
+	FIELD M totalRenderChunks I
+	FIELD N nonVisibleRenderChunks I
+	FIELD O field_1418_O I
+	FIELD P visibleRenderChunks I
+	FIELD Q field_1416_Q I
+	FIELD R field_1415_R Ljava/util/List;
+	FIELD S renderListArray [Lmk;
+	FIELD a loadedTileEntityList Ljava/util/List;
+	FIELD b field_1457_b [I
+	FIELD c sortedWorldRenderIntBufferThing Ljava/nio/IntBuffer;
+	FIELD d field_1455_d I
+	FIELD e unusedGLDisplayListInt I
+	FIELD f playerPosX D
+	FIELD g playerPosY D
+	FIELD h playerPosZ D
+	FIELD i blockCurrentDamage F
+	FIELD j field_1449_j I
+	FIELD k worldObj Lcx;
+	FIELD l renderEngine Lft;
 	FIELD m worldRenderersToUpdate Ljava/util/List;
-	FIELD n sortedWorldRenderers [Lbn;
-	FIELD o worldRenderers [Lbn;
-	FIELD p renderChunksWide I
-	FIELD q renderChunksTall I
-	FIELD r renderChunksDeep I
-	FIELD s glRenderListBase I
+	FIELD n sortedWorldRenderers [Lbv;
+	FIELD o renderChunkArray1 [Lbv;
+	FIELD p renderDistanceXLength I
+	FIELD q renderDistanceYHeight I
+	FIELD r renderDistanceZWidth I
+	FIELD s worldRenderGLDisplayListInt I
 	FIELD t mc Lnet/minecraft/client/Minecraft;
-	FIELD u globalRenderBlocks Lbc;
-	FIELD v glOcclusionQueryBase Ljava/nio/IntBuffer;
-	FIELD w occlusionEnabled Z
-	FIELD x cloudTickCounter I
-	FIELD y starGLCallList I
-	FIELD z glSkyList I
+	FIELD u renderBlocks Lbk;
+	FIELD v someWorldRenderIntBuffer Ljava/nio/IntBuffer;
+	FIELD w useHardwareAcceleratedOcclusionCulling Z
+	FIELD x cloudOffsetPosition I
+	FIELD y someOtherGLDisplayListInt I
+	FIELD z field_1433_z I
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lft;)V
+		ARG 1 minecraft
+		ARG 2 renderengine
 	METHOD a loadRenderers ()V
 	METHOD a renderSky (F)V
-	METHOD a renderAllRenderLists (ID)V
-	METHOD a checkOcclusionQueryResult (II)V
-	METHOD a renderSortedRenderers (IIID)I
-	METHOD a markBlocksForUpdate (IIIIII)V
-	METHOD a renderEntities (Laj;Loe;F)V
-	METHOD a drawOutlinedBoundingBox (Lcf;)V
-	METHOD a changeWorld (Lcn;)V
-	METHOD a sortAndRender (Ldm;ID)I
-	METHOD a drawBlockBreaking (Ldm;Lmf;ILev;F)V
-	METHOD a updateRenderers (Ldm;Z)Z
-	METHOD a clipRenderersByFrustum (Loe;F)V
-	METHOD b getDebugInfoRenders ()Ljava/lang/String;
+		ARG 1 renderPartialTicks
+	METHOD a func_944_a (ID)V
+		ARG 1 integer
+		ARG 2 double2
+	METHOD a func_962_a (II)V
+		ARG 1 integer1
+		ARG 2 integer2
+	METHOD a func_952_a (IIID)I
+		ARG 1 sortedListLowerBound
+		ARG 2 sortedListUpperBound
+		ARG 3 integer3
+		ARG 4 double4
+	METHOD a markChunkNeedsUpdate (IIIIII)V
+		ARG 1 minXCoord
+		ARG 2 minYCoord
+		ARG 3 minZCoord
+		ARG 4 maxXCoord
+		ARG 5 maxYCoord
+		ARG 6 maxZCoord
+	METHOD a setupEntityRenderingNearPlayer (Lao;Lqd;F)V
+		ARG 1 vec3d
+		ARG 2 icamera
+		ARG 3 float3
+	METHOD a drawOutlinedBoundingBox (Lcn;)V
+		ARG 1 axisalignedbb
+	METHOD a changeWorld (Lcx;)V
+		ARG 1 world
+	METHOD a loadWorldRenderersWithOcclusion (Lea;ID)I
+		ARG 1 entityplayer
+		ARG 2 integer
+		ARG 3 double3
+	METHOD a drawBlockBreaking (Lea;Lnv;ILfo;F)V
+		ARG 1 entityplayer
+		ARG 2 movingobjectposition
+		ARG 3 integer
+		ARG 4 itemstack
+		ARG 5 float5
+	METHOD a updateRenderers (Lea;Z)Z
+		ARG 1 entityplayer
+		ARG 2 boolean2
+	METHOD a func_960_a (Lqd;F)V
+		ARG 1 icamera
+		ARG 2 float2
+	METHOD b getLoadedChunksForDebug ()Ljava/lang/String;
 	METHOD b renderClouds (F)V
-	METHOD b markRenderersForNewPosition (III)V
-	METHOD b drawSelectionBox (Ldm;Lmf;ILev;F)V
-	METHOD c getDebugInfoEntities ()Ljava/lang/String;
+		ARG 1 float1
+	METHOD b loadRenderChunkPosRelativeToPlayerPos (III)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD b drawSelectionBox (Lea;Lnv;ILfo;F)V
+		ARG 1 entityplayer
+		ARG 2 movingobjectposition
+		ARG 3 integer
+		ARG 4 itemstack
+		ARG 5 float5
+	METHOD c getLoadedEntitiesForDebug ()Ljava/lang/String;
 	METHOD c renderCloudsFancy (F)V
-	METHOD d updateClouds ()V
-	METHOD f renderStars ()V
+		ARG 1 float1
+	METHOD d incrementCloudOffset ()V
+	METHOD f setupSomethingAboutTitleScreen ()V

@@ -1,4 +1,4 @@
-CLASS bb net/minecraft/src/NetworkManager
+CLASS bi net/minecraft/src/NetworkManager
 	FIELD a threadSyncObject Ljava/lang/Object;
 	FIELD b numReadThreads I
 	FIELD c numWriteThreads I
@@ -10,7 +10,7 @@ CLASS bb net/minecraft/src/NetworkManager
 	FIELD i readPackets Ljava/util/List;
 	FIELD j dataPackets Ljava/util/List;
 	FIELD k chunkDataPackets Ljava/util/List;
-	FIELD l netHandler Lej;
+	FIELD l netHandler Lfa;
 	FIELD m isServerTerminating Z
 	FIELD n writeThread Ljava/lang/Thread;
 	FIELD o readThread Ljava/lang/Thread;
@@ -19,33 +19,19 @@ CLASS bb net/minecraft/src/NetworkManager
 	FIELD r timeSinceLastRead I
 	FIELD s sendQueueByteLength I
 	FIELD t chunkDataSendCounter I
-	METHOD <init> (Ljava/net/Socket;Ljava/lang/String;Lej;)V
-		ARG 1 socket
-		ARG 2 threadName
-		ARG 3 netHandler
-	METHOD a processReadPackets ()V
-	METHOD a isRunning (Lbb;)Z
-		ARG 0 networkManager
-	METHOD a setNetHandler (Lej;)V
-		ARG 1 netHandler
-	METHOD a addToSendQueue (Lhp;)V
-		ARG 1 packet
-	METHOD a onNetworkError (Ljava/lang/Exception;)V
-		ARG 1 exception
-	METHOD a networkShutdown (Ljava/lang/String;)V
-		ARG 1 terminationReason
-	METHOD b getRemoteAddress ()Ljava/net/SocketAddress;
-	METHOD b isServerTerminating (Lbb;)Z
-		ARG 0 networkManager
-	METHOD c serverShutdown ()V
-	METHOD c readNetworkPacket (Lbb;)V
-		ARG 0 networkManager
-	METHOD d getNumChunkDataPackets ()I
-	METHOD d sendNetworkPacket (Lbb;)V
-		ARG 0 networkManager
-	METHOD e sendPacket ()V
-	METHOD e getReadThread (Lbb;)Ljava/lang/Thread;
-		ARG 0 networkManager
-	METHOD f readPacket ()V
-	METHOD f getWriteThread (Lbb;)Ljava/lang/Thread;
-		ARG 0 networkManager
+	METHOD a func_747_a ()V
+	METHOD a func_743_a (Lbi;)Z
+	METHOD a func_754_a (Lfa;)V
+	METHOD a func_745_a (Lir;)V
+	METHOD a func_750_a (Ljava/lang/Exception;)V
+	METHOD a func_753_a (Ljava/lang/String;)V
+	METHOD b func_755_b ()Ljava/net/SocketAddress;
+	METHOD b func_740_b (Lbi;)Z
+	METHOD c func_752_c ()V
+	METHOD c func_751_c (Lbi;)V
+	METHOD d func_744_d ()I
+	METHOD d func_749_d (Lbi;)V
+	METHOD e func_746_e ()V
+	METHOD e func_742_e (Lbi;)Ljava/lang/Thread;
+	METHOD f func_741_f ()V
+	METHOD f func_748_f (Lbi;)Ljava/lang/Thread;

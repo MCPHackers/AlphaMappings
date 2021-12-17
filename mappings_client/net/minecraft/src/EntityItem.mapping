@@ -1,17 +1,17 @@
-CLASS dx net/minecraft/src/EntityItem
-	FIELD a item Lev;
+CLASS en net/minecraft/src/EntityItem
+	FIELD a item Lfo;
 	FIELD b age I
-	FIELD c delayBeforeCanPickup I
-	FIELD d hoverStart F
-	FIELD e age2 I
+	FIELD c pickupDelay I
+	FIELD d field_804_d F
+	FIELD e field_803_e I
 	FIELD f health I
-	METHOD <init> (Lcn;DDDLev;)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 item
-	METHOD g pushOutOfBlocks (DDD)Z
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
+	METHOD <init> (Lcx;DDDLfo;)V
+		ARG 1 world
+		ARG 2 posX
+		ARG 4 posY
+		ARG 6 posZ
+		ARG 8 itemstack
+	METHOD h func_466_g (DDD)Z
+		ARG 1 posX
+		ARG 3 posY
+		ARG 5 posZ

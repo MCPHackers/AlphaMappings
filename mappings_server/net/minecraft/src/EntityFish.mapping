@@ -1,0 +1,19 @@
+CLASS ke net/minecraft/src/EntityFish
+	FIELD a field_4134_a I
+	FIELD aj field_4132_ai I
+	FIELD ak field_4129_aj Z
+	FIELD al field_6150_ak I
+	FIELD am field_4125_al I
+	FIELD an field_4124_am I
+	FIELD ao field_6149_an I
+	FIELD ap field_6148_ao D
+	FIELD aq field_6147_ap D
+	FIELD ar field_6146_aq D
+	FIELD as field_6145_ar D
+	FIELD at field_6144_as D
+	FIELD f field_4126_f I
+	METHOD a func_6142_a (DDDFF)V
+	METHOD a writeEntityToNBT (Lv;)V
+	METHOD b readEntityFromNBT (Lv;)V
+	METHOD b_ onUpdate ()V
+	METHOD c func_6143_c ()I

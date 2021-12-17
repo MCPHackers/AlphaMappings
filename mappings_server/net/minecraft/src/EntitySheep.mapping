@@ -1,2 +1,8 @@
-CLASS cj net/minecraft/src/EntitySheep
+CLASS cu net/minecraft/src/EntitySheep
 	FIELD a sheared Z
+	METHOD a attackEntity (Ldx;I)Z
+	METHOD a writeEntityToNBT (Lv;)V
+	METHOD b readEntityFromNBT (Lv;)V
+	METHOD d func_6097_d ()Ljava/lang/String;
+	METHOD e func_6100_e ()Ljava/lang/String;
+	METHOD f func_6098_f ()Ljava/lang/String;

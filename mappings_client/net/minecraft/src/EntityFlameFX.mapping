@@ -1,2 +1,2 @@
-CLASS jb net/minecraft/src/EntityFlameFX
-	FIELD a flameScale F
+CLASS kn net/minecraft/src/EntityFlameFX
+	FIELD a field_672_a F

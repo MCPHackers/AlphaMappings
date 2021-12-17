@@ -1,0 +1,25 @@
+CLASS ne net/minecraft/src/NoiseGeneratorOctavesBiome
+	FIELD a generatorCollection [Law;
+	FIELD b octaveCount I
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 random
+		ARG 2 numOctaves
+	METHOD a generateNoiseOctaves ([DDDIIDDD)[D
+		ARG 1 biomeValueArray
+		ARG 2 xPosition
+		ARG 4 zPosition
+		ARG 6 xBlockOffset
+		ARG 7 zBlockOffset
+		ARG 8 xMultiplier
+		ARG 10 zMultiplier
+		ARG 12 double8
+	METHOD a generateNoiseOctavesImplicit ([DDDIIDDDD)[D
+		ARG 1 biomeValueArray
+		ARG 2 xPosition
+		ARG 4 zPosition
+		ARG 6 xBlockOffset
+		ARG 7 zBlockOffset
+		ARG 8 xMultiplier
+		ARG 10 zMultiplier
+		ARG 12 double8
+		ARG 14 double9

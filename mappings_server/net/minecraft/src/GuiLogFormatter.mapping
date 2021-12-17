@@ -1,6 +1,3 @@
-CLASS gb net/minecraft/src/GuiLogFormatter
-	FIELD a handler Lco;
-	METHOD <init> (Lco;)V
-		ARG 1 handler
+CLASS gx net/minecraft/src/GuiLogFormatter
+	FIELD a outputHandler Ldb;
 	METHOD format (Ljava/util/logging/LogRecord;)Ljava/lang/String;
-		ARG 1 logRecord

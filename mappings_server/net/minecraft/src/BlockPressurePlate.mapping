@@ -1,11 +1,16 @@
-CLASS ax net/minecraft/src/BlockPressurePlate
-	FIELD a triggerMobType Lcr;
-	METHOD <init> (IILcr;)V
-		ARG 1 id
-		ARG 2 blockIndex
-		ARG 3 triggerMobType
-	METHOD g setStateIfMobInteractsWithPlate (Ldy;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS be net/minecraft/src/BlockPressurePlate
+	FIELD a triggerMobType Ldd;
+	METHOD a allowsAttachment ()Z
+	METHOD a canPlaceBlockAt (Leo;III)Z
+	METHOD a onEntityCollidedWithBlock (Leo;IIILdx;)V
+	METHOD a updateTick (Leo;IIILjava/util/Random;)V
+	METHOD a setBlockBoundsBasedOnState (Lit;III)V
+	METHOD b tickRate ()I
+	METHOD b onBlockRemoval (Leo;III)V
+	METHOD b onNeighborBlockChange (Leo;IIII)V
+	METHOD b isPoweringTo (Lit;IIII)Z
+	METHOD c canProvidePower ()Z
+	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
+	METHOD d isIndirectlyPoweringTo (Leo;IIII)Z
+	METHOD e onBlockAdded (Leo;III)V
+	METHOD g func_318_g (Leo;III)V

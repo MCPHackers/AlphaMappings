@@ -1,17 +1,19 @@
-CLASS kg net/minecraft/src/EntityArrow
+CLASS lt net/minecraft/src/EntityArrow
 	FIELD a arrowShake I
-	FIELD b xTile I
-	FIELD c yTile I
-	FIELD d zTile I
-	FIELD e inTile I
-	FIELD f inData Z
-	FIELD g shootingEntity Lge;
-	FIELD h ticksInGround I
-	FIELD i ticksInAir I
-	METHOD <init> (Lcn;Lge;)V
-		ARG 1 worldObj
-		ARG 2 entityLiving
-	METHOD a setArrowHeading (DDDFF)V
-		ARG 1 motionX
-		ARG 3 motionY
-		ARG 5 motionZ
+	FIELD b field_682_g Lhe;
+	FIELD c xTile I
+	FIELD d yTile I
+	FIELD e zTile I
+	FIELD f inTile I
+	FIELD g inGround Z
+	FIELD h field_681_h I
+	FIELD i field_680_i I
+	METHOD <init> (Lcx;Lhe;)V
+		ARG 1 world
+		ARG 2 entityliving
+	METHOD a func_408_a (DDDFF)V
+		ARG 1 double1
+		ARG 3 double2
+		ARG 5 double3
+		ARG 7 float4
+		ARG 8 float5

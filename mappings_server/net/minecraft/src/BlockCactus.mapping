@@ -1,4 +1,9 @@
-CLASS an net/minecraft/src/BlockCactus
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
+CLASS as net/minecraft/src/BlockCactus
+	METHOD a allowsAttachment ()Z
+	METHOD a getBlockTextureFromSide (I)I
+	METHOD a canPlaceBlockAt (Leo;III)Z
+	METHOD a onEntityCollidedWithBlock (Leo;IIILdx;)V
+	METHOD a updateTick (Leo;IIILjava/util/Random;)V
+	METHOD b onNeighborBlockChange (Leo;IIII)V
+	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
+	METHOD f canBlockStay (Leo;III)Z

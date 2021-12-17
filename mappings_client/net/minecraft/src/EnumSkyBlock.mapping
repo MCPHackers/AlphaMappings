@@ -1,4 +1,7 @@
-CLASS by net/minecraft/src/EnumSkyBlock
-	FIELD a Sky Lby;
-	FIELD b Block Lby;
-	FIELD c defaultLightValue I
+CLASS cg net/minecraft/src/EnumSkyBlock
+	FIELD a Sky Lcg;
+	FIELD b Block Lcg;
+	FIELD c skyBrightness I
+	FIELD d field_1721_d [Lcg;
+	METHOD <init> (Ljava/lang/String;II)V
+		ARG 3 skyBrightness

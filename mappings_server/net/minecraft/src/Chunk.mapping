@@ -1,109 +1,52 @@
-CLASS im net/minecraft/src/Chunk
-	FIELD a isLit Z
+CLASS js net/minecraft/src/Chunk
+	FIELD a field_694_a Z
 	FIELD b blocks [B
-	FIELD c isChunkLoaded Z
-	FIELD d worldObj Ldy;
-	FIELD e data Lgt;
-	FIELD f skylightMap Lgt;
-	FIELD g blocklightMap Lgt;
+	FIELD c field_692_c Z
+	FIELD d worldObj Leo;
+	FIELD e data Lhr;
+	FIELD f skylightMap Lhr;
+	FIELD g blocklightMap Lhr;
 	FIELD h heightMap [B
-	FIELD i height I
+	FIELD i field_686_i I
 	FIELD j xPosition I
 	FIELD k zPosition I
-	FIELD l chunkTileEntityMap Ljava/util/Map;
+	FIELD l field_683_l Ljava/util/Map;
 	FIELD m entities [Ljava/util/List;
 	FIELD n isTerrainPopulated Z
 	FIELD o isModified Z
-	FIELD p neverSave Z
-	FIELD q isChunkRendered Z
-	FIELD r hasEntities Z
-	FIELD s lastSaveTime J
-	METHOD <init> (Ldy;II)V
-		ARG 1 world
-		ARG 2 xPosition
-		ARG 3 zPosition
-	METHOD <init> (Ldy;[BII)V
-		ARG 1 world
-		ARG 2 blocks
-		ARG 3 xPosition
-		ARG 4 zPositin
-	METHOD a doNothing ()V
-	METHOD a isAtLocation (II)Z
-		ARG 1 xPosition
-		ARG 2 zPosition
-	METHOD a getBlockID (III)I
-	METHOD a setBlockID (IIII)Z
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 id
-	METHOD a setBlockIDWithMetadata (IIIII)Z
-	METHOD a setChunkBlockTileEntity (IIILas;)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 tileEntity
-	METHOD a getRandomWithSeed (J)Ljava/util/Random;
-	METHOD a addTileEntity (Las;)V
-		ARG 1 tileEntity
-	METHOD a getSavedLightValue (Lcy;III)I
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD a setLightValue (Lcy;IIII)V
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 lightValue
-	METHOD a removeEntityAtIndex (Ldj;)V
-		ARG 1 entity
-	METHOD a removeEntityAtIndex (Ldj;I)V
-		ARG 1 entity
-		ARG 2 index
-	METHOD a getEntitiesWithinAABBForEntity (Ldj;Ldg;Ljava/util/List;)V
-		ARG 1 entity
-		ARG 2 aabb
-		ARG 3 list
-	METHOD a getEntitiesOfTypeWithinAAAB (Ljava/lang/Class;Ldg;Ljava/util/List;)V
-		ARG 1 clazz
-		ARG 2 aabb
-		ARG 3 list
-	METHOD a needsSaving (Z)Z
-		ARG 1 unused
-	METHOD a setChunkData ([BIIIIIII)I
-	METHOD b generateHeightMap ()V
-	METHOD b getHeightValue (II)I
-	METHOD b getBlockMetadata (III)I
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD b setBlockMetadata (IIII)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 metadata
-	METHOD b removeEntity (Ldj;)V
-		ARG 1 entity
-	METHOD c onChunkLoad ()V
-	METHOD c updateSkylight_do (II)V
-	METHOD c canBlockSeeTheSky (III)Z
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD c getBlockLightValue (IIII)I
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD d onChunkUnload ()V
-	METHOD d getChunkBlockTileEntity (III)Las;
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD e setChunkModified ()V
-	METHOD e removeChunkBlockTileEntity (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD f checkSkylightNeighborUpdate (III)V
-	METHOD g relightBlock (III)V
+	FIELD p field_679_p Z
+	FIELD q field_678_q Z
+	FIELD r field_677_r Z
+	FIELD s field_676_s J
+	METHOD a func_348_a ()V
+	METHOD a func_351_a (II)Z
+	METHOD a func_344_a (III)I
+	METHOD a func_357_a (IIII)Z
+	METHOD a func_346_a (IIIII)Z
+	METHOD a func_352_a (IIILay;)V
+	METHOD a func_334_a (J)Ljava/util/Random;
+	METHOD a func_349_a (Lay;)V
+	METHOD a func_341_a (Ldl;III)I
+	METHOD a func_330_a (Ldl;IIII)V
+	METHOD a func_335_a (Ldx;)V
+	METHOD a func_332_a (Ldx;I)V
+	METHOD a func_329_a (Ldx;Ldu;Ljava/util/List;)V
+	METHOD a func_342_a (Ljava/lang/Class;Ldu;Ljava/util/List;)V
+	METHOD a func_347_a (Z)Z
+	METHOD a func_340_a ([BIIIIIII)I
+	METHOD b func_353_b ()V
+	METHOD b func_337_b (II)I
+	METHOD b func_356_b (III)I
+	METHOD b func_345_b (IIII)V
+	METHOD b func_350_b (Ldx;)V
+	METHOD c func_4053_c ()V
+	METHOD c func_333_c (II)V
+	METHOD c func_343_c (III)Z
+	METHOD c func_354_c (IIII)I
+	METHOD d func_358_c ()V
+	METHOD d func_338_d (III)Lay;
+	METHOD e func_331_d ()V
+	METHOD e func_359_e (III)V
+	METHOD f func_336_e ()V
+	METHOD f func_355_f (III)V
+	METHOD g func_339_g (III)V

@@ -1,0 +1,13 @@
+CLASS ix net/minecraft/src/WorldChunkManager
+	FIELD a temperature [D
+	FIELD b humidity [D
+	FIELD c field_4257_c [D
+	FIELD d field_4256_d [Lim;
+	FIELD e field_4255_e Lfo;
+	FIELD f field_4254_f Lfo;
+	FIELD g field_4253_g Lfo;
+	METHOD a func_4067_a (II)Lim;
+	METHOD a func_4065_a (IIII)[Lim;
+	METHOD a func_4066_a (Lkf;)Lim;
+	METHOD a getTemperatures ([DIIII)[D
+	METHOD a loadBlockGeneratorData ([Lim;IIII)[Lim;

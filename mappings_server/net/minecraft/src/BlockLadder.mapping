@@ -1,4 +1,7 @@
-CLASS cm net/minecraft/src/BlockLadder
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
+CLASS da net/minecraft/src/BlockLadder
+	METHOD a allowsAttachment ()Z
+	METHOD a canPlaceBlockAt (Leo;III)Z
+	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD b onNeighborBlockChange (Leo;IIII)V
+	METHOD c onBlockPlaced (Leo;IIII)V
+	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;

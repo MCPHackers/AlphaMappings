@@ -1,0 +1,19 @@
+CLASS az net/minecraft/src/EntityFireball
+	FIELD a shake I
+	FIELD b offsetMotionX D
+	FIELD c offsetMotionY D
+	FIELD d offsetMotionZ D
+	FIELD e xTile I
+	FIELD f yTile I
+	FIELD g zTile I
+	FIELD h inTile I
+	FIELD i inGround Z
+	FIELD j entityLiving Lhe;
+	FIELD k field_9396_k I
+	FIELD l field_9395_l I
+	METHOD <init> (Lcx;Lhe;DDD)V
+		ARG 1 world
+		ARG 2 entityliving
+		ARG 3 double3
+		ARG 5 double4
+		ARG 7 double5

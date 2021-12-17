@@ -1,4 +1,7 @@
-CLASS ea net/minecraft/src/GuiChest
-	FIELD j upperChestInventory Lgh;
-	FIELD l lowerChestInventory Lgh;
-	FIELD m inventoryRows I
+CLASS eq net/minecraft/src/GuiChest
+	FIELD j upperChestInventory Lhh;
+	FIELD l lowerChestInventory Lhh;
+	FIELD m field_980_m I
+	METHOD <init> (Lhh;Lhh;)V
+		ARG 1 iinventory1
+		ARG 2 iinventory2

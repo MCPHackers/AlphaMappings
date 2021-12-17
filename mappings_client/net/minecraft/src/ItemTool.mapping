@@ -1,5 +1,10 @@
-CLASS bs net/minecraft/src/ItemTool
-	FIELD a toolMaterial I
-	FIELD aX blocksEffectiveAgainst [Lly;
-	FIELD aY efficiencyOnProperMaterial F
-	FIELD aZ damageVsEntity I
+CLASS ca net/minecraft/src/ItemTool
+	FIELD a toolTier I
+	FIELD bb blocksEffectiveAgainst [Lno;
+	FIELD bc efficiencyOnProperMaterial F
+	FIELD bd damageVsEntity I
+	METHOD <init> (III[Lno;)V
+		ARG 1 itemID
+		ARG 2 toolType
+		ARG 3 toolTier
+		ARG 4 validBlocksForTool

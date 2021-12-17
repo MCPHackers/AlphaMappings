@@ -1,1 +1,2 @@
-CLASS ed net/minecraft/src/BlockGlass
+CLASS eu net/minecraft/src/BlockGlass
+	METHOD a quantityDropped (Ljava/util/Random;)I

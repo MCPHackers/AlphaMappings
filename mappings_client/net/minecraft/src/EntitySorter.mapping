@@ -1,3 +1,7 @@
-CLASS fb net/minecraft/src/EntitySorter
-	FIELD a comparedEntity Lkh;
-	METHOD a sortByDistanceToEntity (Lbn;Lbn;)I
+CLASS fw net/minecraft/src/EntitySorter
+	FIELD a currentEntity Llu;
+	METHOD <init> (Llu;)V
+		ARG 1 entity
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 worldrenderer1
+		ARG 2 worldrenderer2

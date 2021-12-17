@@ -1,2 +1,5 @@
-CLASS nh net/minecraft/src/NetworkMasterThread
-	FIELD a netManager Lii;
+CLASS pc net/minecraft/src/NetworkMasterThread
+	FIELD a netManager Ljp;
+	METHOD <init> (Ljp;)V
+		ARG 1 networkmanager
+	METHOD run ()V

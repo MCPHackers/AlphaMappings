@@ -1,20 +1,19 @@
-CLASS hf net/minecraft/src/MCHashTable
-	FIELD a slots [Lgw;
+CLASS ie net/minecraft/src/MCHashTable
+	FIELD a slots [Lhu;
 	FIELD b count I
 	FIELD c threshold I
 	FIELD d growFactor F
 	FIELD e versionStamp I
-	METHOD a clearMap ()V
-	METHOD a lookup (I)Ljava/lang/Object;
-	METHOD a getSlotIndex (II)I
-	METHOD a insert (IILjava/lang/Object;I)V
-	METHOD a addKey (ILjava/lang/Object;)V
-	METHOD a copyTo ([Lgw;)V
+	METHOD a func_551_a ()V
+	METHOD a func_550_a (I)Ljava/lang/Object;
+	METHOD a func_555_a (II)I
+	METHOD a func_547_a (IILjava/lang/Object;I)V
+	METHOD a func_554_a (ILjava/lang/Object;)V
+	METHOD a func_549_a ([Lhu;)V
 	METHOD b containsItem (I)Z
-	METHOD c lookupEntry (I)Lgw;
-	METHOD d removeObject (I)Ljava/lang/Object;
-	METHOD e removeEntry (I)Lgw;
-	METHOD f getHash (I)I
-	METHOD g computeHash (I)I
-		ARG 0 hash
-	METHOD h grow (I)V
+	METHOD c lookupEntry (I)Lhu;
+	METHOD d func_553_d (I)Ljava/lang/Object;
+	METHOD e func_557_e (I)Lhu;
+	METHOD f func_546_f (I)I
+	METHOD g func_545_g (I)I
+	METHOD h func_552_h (I)V

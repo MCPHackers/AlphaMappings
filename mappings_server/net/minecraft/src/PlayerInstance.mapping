@@ -1,29 +1,19 @@
-CLASS ae net/minecraft/src/PlayerInstance
-	FIELD a playerManager Lhg;
-	FIELD b players Ljava/util/List;
-	FIELD c chunkX I
-	FIELD d chunkZ I
-	FIELD e currentChunk Liy;
-	FIELD f blocksToUpdate [S
-	FIELD g numBlocksToUpdate I
-	FIELD h minX I
-	FIELD i maxX I
-	FIELD j minY I
-	FIELD k maxY I
-	FIELD l minZ I
-	FIELD m maxZ I
-	METHOD <init> (Lhg;II)V
-		ARG 1 playerManager
-		ARG 2 x
-		ARG 3 z
-	METHOD a onUpdate ()V
-	METHOD a markBlockNeedsUpdate (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a addPlayer (Lea;)V
-		ARG 1 entityPlayerMP
-	METHOD a sendTileEntity (Lhp;)V
-		ARG 1 packet
-	METHOD b removePlayer (Lea;)V
-		ARG 1 entityPlayerMP
+CLASS aj net/minecraft/src/PlayerInstance
+	FIELD a field_1073_a Lif;
+	FIELD b field_1072_b Ljava/util/List;
+	FIELD c field_1071_c I
+	FIELD d field_1070_d I
+	FIELD e field_1069_e Lkf;
+	FIELD f field_1068_f [S
+	FIELD g field_1067_g I
+	FIELD h field_1066_h I
+	FIELD i field_1065_i I
+	FIELD j field_1064_j I
+	FIELD k field_1063_k I
+	FIELD l field_1062_l I
+	FIELD m field_1061_m I
+	METHOD a func_777_a ()V
+	METHOD a func_775_a (III)V
+	METHOD a func_779_a (Ler;)V
+	METHOD a func_776_a (Lir;)V
+	METHOD b func_778_b (Ler;)V

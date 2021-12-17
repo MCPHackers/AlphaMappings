@@ -1,1 +1,2 @@
-CLASS ik net/minecraft/src/ItemPainting
+CLASS jp net/minecraft/src/ItemPainting
+	METHOD a onItemUse (Lhl;Lfx;Leo;IIII)Z

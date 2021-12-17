@@ -1,2 +1,4 @@
-CLASS cs net/minecraft/src/BlockContainer
-	METHOD a_ getBlockEntity ()Las;
+CLASS df net/minecraft/src/BlockContainer
+	METHOD a_ func_294_a_ ()Lay;
+	METHOD b onBlockRemoval (Leo;III)V
+	METHOD e onBlockAdded (Leo;III)V

@@ -1,4 +1,5 @@
-CLASS hj net/minecraft/src/NBTTagString
+CLASS ik net/minecraft/src/NBTTagString
 	FIELD a stringValue Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;)V
-		ARG 1 stringValue
+	METHOD a getType ()B
+	METHOD a readTagContents (Ljava/io/DataInput;)V
+	METHOD a writeTagContents (Ljava/io/DataOutput;)V

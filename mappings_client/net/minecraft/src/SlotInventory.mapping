@@ -1,5 +1,13 @@
-CLASS mm net/minecraft/src/SlotInventory
-	FIELD c guiContainer Lee;
-	FIELD e xDisplayPosition I
-	FIELD f yDisplayPosition I
-	METHOD a getIsMouseOverSlot (II)Z
+CLASS od net/minecraft/src/SlotInventory
+	FIELD c guiHandler Lew;
+	FIELD e xPos I
+	FIELD f yPos I
+	METHOD <init> (Lew;Lhh;III)V
+		ARG 1 guicontainer
+		ARG 2 iinventory
+		ARG 3 slotIndex
+		ARG 4 xPos
+		ARG 5 yPos
+	METHOD a isAtCursorPos (II)Z
+		ARG 1 cursorXPos
+		ARG 2 cursorYPos

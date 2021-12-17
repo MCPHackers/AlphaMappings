@@ -1,8 +1,4 @@
-CLASS bl net/minecraft/src/SpawnerAnimals
-	FIELD a maxSpawns I
-	FIELD b entityType Ljava/lang/Class;
-	FIELD c entities [Ljava/lang/Class;
-	FIELD d eligibleChunksForSpawning Ljava/util/Set;
-	METHOD a onUpdate (Ldy;)V
-	METHOD a getRandomSpawningPointInChunk (Ldy;II)Lgs;
-	METHOD a performSpawning (Ldy;ILhw;)I
+CLASS bw net/minecraft/src/SpawnerAnimals
+	FIELD a field_4311_a Ljava/util/Set;
+	METHOD a func_4111_a (Leo;)I
+	METHOD a func_4112_a (Leo;II)Lhq;

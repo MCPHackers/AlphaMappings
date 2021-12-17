@@ -1,1 +1,2 @@
-CLASS fj net/minecraft/src/BlockSapling
+CLASS gf net/minecraft/src/BlockSapling
+	METHOD a updateTick (Leo;IIILjava/util/Random;)V

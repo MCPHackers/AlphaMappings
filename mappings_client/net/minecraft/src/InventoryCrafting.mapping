@@ -1,4 +1,11 @@
-CLASS gu net/minecraft/src/InventoryCrafting
-	FIELD a stackList [Lev;
-	FIELD b gridSize I
-	FIELD c craftingInventory Lar;
+CLASS hw net/minecraft/src/InventoryCrafting
+	FIELD a stackList [Lfo;
+	FIELD b nbrSlots I
+	FIELD c eventHandler Lax;
+	METHOD <init> (Lax;II)V
+		ARG 1 craftinginventorycb
+		ARG 2 integer2
+		ARG 3 integer3
+	METHOD <init> (Lax;[Lfo;)V
+		ARG 1 craftinginventorycb
+		ARG 2 arr

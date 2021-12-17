@@ -1,20 +1,29 @@
-CLASS bq net/minecraft/src/EffectRenderer
-	FIELD a worldObj Lcn;
-	FIELD b fxLayers [Ljava/util/List;
-	FIELD c renderEngine Ley;
+CLASS by net/minecraft/src/EffectRenderer
+	FIELD a worldObj Lcx;
+	FIELD b field_1728_b [Ljava/util/List;
+	FIELD c field_1731_c Lft;
 	FIELD d rand Ljava/util/Random;
-	METHOD <init> (Lcn;Ley;)V
+	METHOD <init> (Lcx;Lft;)V
 		ARG 1 world
-		ARG 2 renderEngine
-	METHOD a updateEffects ()V
-	METHOD a addBlockDestroyEffects (III)V
-	METHOD a addBlockHitEffects (IIII)V
-	METHOD a clearEffects (Lcn;)V
-		ARG 1 worldObj
-	METHOD a renderParticles (Lkh;F)V
+		ARG 2 renderengine
+	METHOD a func_1193_a ()V
+	METHOD a spawnBlockBreakingParticles (III)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD a func_1191_a (IIII)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 blockSide
+	METHOD a func_1188_a (Lcx;)V
+		ARG 1 world
+	METHOD a func_1189_a (Llu;F)V
 		ARG 1 entity
-	METHOD a addEffect (Lnq;)V
-		ARG 1 entityFX
-	METHOD b getStatistics ()Ljava/lang/String;
-	METHOD b renderLitParticles (Lkh;F)V
+		ARG 2 float2
+	METHOD a addEffect (Lpn;)V
+		ARG 1 entityfx
+	METHOD b func_1190_b ()Ljava/lang/String;
+	METHOD b func_1187_b (Llu;F)V
 		ARG 1 entity
+		ARG 2 float2

@@ -1,13 +1,13 @@
-CLASS af net/minecraft/src/IChunkLoader
-	METHOD a chunkTick ()V
-	METHOD a loadChunk (Lcn;II)Lga;
-		ARG 1 worldObj
-		ARG 2 chunkX
-		ARG 3 chunkZ
-	METHOD a saveChunk (Lcn;Lga;)V
-		ARG 1 worldObj
+CLASS ai net/minecraft/src/IChunkLoader
+	METHOD a func_814_a ()V
+	METHOD a loadChunk (Lcx;II)Lgz;
+		ARG 1 world
+		ARG 2 chunkXPos
+		ARG 3 chunkZPos
+	METHOD a saveChunk (Lcx;Lgz;)V
+		ARG 1 world
 		ARG 2 chunk
 	METHOD b saveExtraData ()V
-	METHOD b saveExtraChunkData (Lcn;Lga;)V
-		ARG 1 worldObj
+	METHOD b saveExtraChunkData (Lcx;Lgz;)V
+		ARG 1 world
 		ARG 2 chunk

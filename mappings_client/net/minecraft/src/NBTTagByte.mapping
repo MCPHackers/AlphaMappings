@@ -1,2 +1,4 @@
-CLASS ix net/minecraft/src/NBTTagByte
+CLASS kj net/minecraft/src/NBTTagByte
 	FIELD a byteValue B
+	METHOD <init> (B)V
+		ARG 1 byteValue

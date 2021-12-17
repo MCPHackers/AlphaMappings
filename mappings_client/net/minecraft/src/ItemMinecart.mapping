@@ -1,2 +1,5 @@
-CLASS jo net/minecraft/src/ItemMinecart
+CLASS la net/minecraft/src/ItemMinecart
 	FIELD a minecartType I
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 minecartType

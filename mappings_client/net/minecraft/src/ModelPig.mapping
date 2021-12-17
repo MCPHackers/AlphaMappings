@@ -1,1 +1,3 @@
-CLASS ca net/minecraft/src/ModelPig
+CLASS ci net/minecraft/src/ModelPig
+	METHOD <init> (F)V
+		ARG 1 float1

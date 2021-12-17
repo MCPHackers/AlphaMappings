@@ -1,20 +1,18 @@
-CLASS hv net/minecraft/src/ChunkProviderLoadOrGenerate
-	FIELD a lastQueriedChunkXPos I
-	FIELD b lastQueriedChunkZPos I
-	FIELD c blankChunk Lim;
-	FIELD d chunkProvider Lbj;
-	FIELD e chunkLoader Laq;
-	FIELD f chunks [Lim;
-	FIELD g worldObj Ldy;
-	FIELD h lastQueriedChunk Lim;
-	METHOD <init> (Ldy;Laq;Lbj;)V
-		ARG 1 world
-		ARG 2 chunkLoader
-		ARG 3 chunkProvider
-	METHOD a saveExtraChunkData (Lim;)V
-		ARG 1 chunk
-	METHOD b saveChunk (Lim;)V
-		ARG 1 chunk
-	METHOD c getChunkAt (II)Lim;
-		ARG 1 x
-		ARG 2 z
+CLASS iz net/minecraft/src/ChunkProviderLoadOrGenerate
+	FIELD a field_717_a I
+	FIELD b field_716_b I
+	FIELD c field_723_c Ljs;
+	FIELD d field_722_d Lbu;
+	FIELD e field_721_e Lav;
+	FIELD f chunks [Ljs;
+	FIELD g worldObj Leo;
+	FIELD h field_718_h Ljs;
+	METHOD a func_361_a ()Z
+	METHOD a chunkExists (II)Z
+	METHOD a populate (Lbu;II)V
+	METHOD a func_371_a (Ljs;)V
+	METHOD a func_360_a (ZLja;)Z
+	METHOD b func_364_b ()Z
+	METHOD b func_363_b (II)Ljs;
+	METHOD b func_370_b (Ljs;)V
+	METHOD c func_4059_c (II)Ljs;

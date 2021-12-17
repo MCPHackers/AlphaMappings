@@ -1,0 +1,17 @@
+CLASS dj net/minecraft/src/GuiTexturePacks
+	FIELD a guiScreen Lbp;
+	FIELD h yOffsetInTexture I
+	FIELD i minYPos I
+	FIELD j maxYPos I
+	FIELD l minXPos I
+	FIELD m maxXPos I
+	FIELD n field_6455_n I
+	FIELD o field_6454_o I
+	FIELD p texturePackPath Ljava/lang/String;
+	METHOD <init> (Lbp;)V
+		ARG 1 guiscreen
+	METHOD a drawSurroundingBackground (IIII)V
+		ARG 1 yPos1
+		ARG 2 yPos2
+		ARG 3 alphaValue1
+		ARG 4 alphaValue2

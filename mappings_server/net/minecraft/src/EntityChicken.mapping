@@ -1,8 +1,16 @@
-CLASS hi net/minecraft/src/EntityChicken
-	FIELD a unusedBool2 Z
-	FIELD ad destPos F
-	FIELD ae prevDestPos F
-	FIELD af prevWingRotation F
-	FIELD ai moveWings F
-	FIELD aj timeUntilNextEgg I
-	FIELD b wingRotation F
+CLASS ig net/minecraft/src/EntityChicken
+	FIELD a field_392_a Z
+	FIELD ak field_390_ai F
+	FIELD al field_396_aj I
+	FIELD b field_391_b F
+	FIELD c field_395_ad F
+	FIELD d field_394_ae F
+	FIELD e field_393_af F
+	METHOD E func_153_y ()V
+	METHOD a fall (F)V
+	METHOD a writeEntityToNBT (Lv;)V
+	METHOD b readEntityFromNBT (Lv;)V
+	METHOD d func_6097_d ()Ljava/lang/String;
+	METHOD e func_6100_e ()Ljava/lang/String;
+	METHOD f func_6098_f ()Ljava/lang/String;
+	METHOD g func_149_g ()I

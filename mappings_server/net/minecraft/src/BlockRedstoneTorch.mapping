@@ -1,17 +1,14 @@
-CLASS by net/minecraft/src/BlockRedstoneTorch
+CLASS cl net/minecraft/src/BlockRedstoneTorch
 	FIELD a torchActive Z
 	FIELD b torchUpdates Ljava/util/List;
-	METHOD <init> (IIZ)V
-		ARG 1 id
-		ARG 2 blockIndex
-		ARG 3 torchActive
-	METHOD a checkForBurnout (Ldy;IIIZ)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD g isIndirectlyPowered (Ldy;III)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+	METHOD a idDropped (ILjava/util/Random;)I
+	METHOD a updateTick (Leo;IIILjava/util/Random;)V
+	METHOD a func_280_a (Leo;IIIZ)Z
+	METHOD b tickRate ()I
+	METHOD b onBlockRemoval (Leo;III)V
+	METHOD b onNeighborBlockChange (Leo;IIII)V
+	METHOD b isPoweringTo (Lit;IIII)Z
+	METHOD c canProvidePower ()Z
+	METHOD d isIndirectlyPoweringTo (Leo;IIII)Z
+	METHOD e onBlockAdded (Leo;III)V
+	METHOD g func_9056_g (Leo;III)Z

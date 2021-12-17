@@ -1,6 +1,7 @@
-CLASS ma net/minecraft/src/EntitySlime
-	FIELD a squishFactor F
-	FIELD b prevSquishFactor F
-	FIELD c size I
-	FIELD d slimeJumpDelay I
-	METHOD c setSlimeSize (I)V
+CLASS nq net/minecraft/src/EntitySlime
+	FIELD a maybeBounceFactor F
+	FIELD b maybePrevBounceFactor F
+	FIELD c slimeSize I
+	FIELD d movementTimer I
+	METHOD d setSlimeSize (I)V
+		ARG 1 slimeSize

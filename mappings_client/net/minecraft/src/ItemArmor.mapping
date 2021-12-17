@@ -1,7 +1,12 @@
-CLASS mr net/minecraft/src/ItemArmor
+CLASS oh net/minecraft/src/ItemArmor
 	FIELD a armorLevel I
-	FIELD aX armorType I
-	FIELD aY damageReduceAmount I
-	FIELD aZ renderIndex I
-	FIELD ba damageReduceAmountArray [I
-	FIELD bb maxDamageArray [I
+	FIELD bb armorType I
+	FIELD bc damageReduceAmount I
+	FIELD bd renderIndex I
+	FIELD be damageReduceAmountArray [I
+	FIELD bf maxDamageArray [I
+	METHOD <init> (IIII)V
+		ARG 1 itemID
+		ARG 2 armorLevel
+		ARG 3 renderIndex
+		ARG 4 armorType

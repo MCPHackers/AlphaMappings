@@ -1,0 +1,15 @@
+CLASS op net/minecraft/src/HashEntry
+	FIELD a hashEntry I
+	FIELD b valueEntry Ljava/lang/Object;
+	FIELD c nextEntry Lop;
+	FIELD d slotHash I
+	METHOD <init> (IILjava/lang/Object;Lop;)V
+		ARG 1 integer1
+		ARG 2 integer2
+		ARG 3 object
+		ARG 4 hashentry
+	METHOD a getHash ()I
+	METHOD b getValue ()Ljava/lang/Object;
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 object
+	METHOD hashCode ()I

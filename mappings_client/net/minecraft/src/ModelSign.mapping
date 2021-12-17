@@ -1,0 +1,4 @@
+CLASS kw net/minecraft/src/ModelSign
+	FIELD a signHead Ljz;
+	FIELD b signBody Ljz;
+	METHOD a render ()V
