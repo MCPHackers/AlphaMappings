@@ -1,27 +1,28 @@
 CLASS jy net/minecraft/src/EntityLiving
-	FIELD aA field_9125_aA F
+	FIELD aA prevRenderYawOffset F
 	FIELD aB field_9124_aB F
 	FIELD aC field_9123_aC F
 	FIELD aD field_9122_aD F
 	FIELD aE field_9121_aE F
 	FIELD aF field_9120_aF Z
-	FIELD aG field_9119_aG Ljava/lang/String;
+	FIELD aG texture Ljava/lang/String;
 	FIELD aH field_9118_aH Z
+	FIELD a idleSoundCompareInt I
 	FIELD aI field_9117_aI F
 	FIELD aJ field_9116_aJ Ljava/lang/String;
 	FIELD aK field_9115_aK F
-	FIELD aL field_9114_aL I
+	FIELD aL scoreValue I
 	FIELD aM field_9113_aM F
 	FIELD aN field_9112_aN Z
-	FIELD aO field_9111_aO F
-	FIELD aP field_9110_aP F
-	FIELD aQ field_9109_aQ I
-	FIELD aR field_9108_aR I
-	FIELD aS field_9107_aS I
-	FIELD aT field_9106_aT I
-	FIELD aU field_9105_aU F
-	FIELD aV field_9104_aV I
-	FIELD aW field_9103_aW I
+	FIELD aO prevSwingProgress F
+	FIELD aP swingProgress F
+	FIELD aQ health I
+	FIELD aR prevHealth I
+	FIELD aS hurtTime I
+	FIELD aT maxHurtTime I
+	FIELD aU attackedAtYaw F
+	FIELD aV deathTime I
+	FIELD aW attackTime I
 	FIELD aX field_9102_aX F
 	FIELD aY field_9101_aY F
 	FIELD aZ field_9100_aZ Z
@@ -29,61 +30,55 @@ CLASS jy net/minecraft/src/EntityLiving
 	FIELD aw field_9098_aw F
 	FIELD ax field_9097_ax F
 	FIELD ay field_9096_ay F
-	FIELD az field_9095_az F
+	FIELD az renderYawOffset F
+	FIELD b entityToBeLookedAt Ldx;
 	FIELD ba field_9144_ba I
 	FIELD bb field_9143_bb F
 	FIELD bc field_9142_bc F
 	FIELD bd field_9141_bd F
 	FIELD be field_386_ba F
-	FIELD bf field_9140_bf I
-	FIELD bg field_9139_bg D
-	FIELD bh field_9138_bh D
-	FIELD bi field_9137_bi D
-	FIELD bj field_9136_bj D
-	FIELD bk field_9135_bk D
+	FIELD bf someServerMovementCounterThing I
+	FIELD bg serverPosX D
+	FIELD bh serverPosY D
+	FIELD bi serverPosZ D
+	FIELD bj serverRotationYaw D
+	FIELD bk serverRotationPitch D
 	FIELD bl field_9134_bl F
 	FIELD bm field_9133_bm I
-	FIELD bn field_9132_bn I
-	FIELD bo field_9131_bo F
-	FIELD bp field_9130_bp F
-	FIELD bq field_9129_bq F
-	FIELD br field_9128_br Z
-	FIELD bs field_9127_bs F
-	FIELD bt field_9126_bt F
-	METHOD C func_4039_B ()Lbd;
-	METHOD E func_153_y ()V
+	FIELD bn mobDespawnTimer I
+	FIELD bo moveStrafing F
+	FIELD bp moveForward F
+	FIELD bq randomYawVelocity F
+	FIELD br isJumping Z
+	FIELD bs defaultPitch F
+	FIELD bt moveSpeed F
+	FIELD c timeLookingAtEntity I
+	METHOD E onLivingUpdate ()V
 	METHOD J func_156_D ()V
 	METHOD K func_154_F ()V
 	METHOD L func_6101_K ()V
-	METHOD a func_155_a ()Z
-	METHOD a fall (F)V
-	METHOD a setSize (FF)V
-	METHOD a func_137_a (I)V
-	METHOD a attackEntity (Ldx;I)Z
+	METHOD a getCanSpawnHere ()Z
+	METHOD a heal (I)V
+		ARG 1 healAmount
 	METHOD a func_143_a (Ldx;IDD)V
-	METHOD a writeEntityToNBT (Lv;)V
 	METHOD b func_146_b ()I
 	METHOD b func_140_b (FFF)F
-	METHOD b func_147_b (Ldx;F)V
-	METHOD b readEntityFromNBT (Lv;)V
-	METHOD b_ onUpdate ()V
-	METHOD c func_152_d_ ()V
+	METHOD b faceEntity (Ldx;F)V
+	METHOD c updatePlayerActionState ()V
 	METHOD c func_141_d (F)Lbd;
-	METHOD c func_148_c (FF)V
-	METHOD c func_6099_c (I)V
-	METHOD c_ func_129_c_ ()Z
-	METHOD d func_6097_d ()Ljava/lang/String;
-	METHOD d_ func_144_E ()Z
-	METHOD e func_6100_e ()Ljava/lang/String;
-	METHOD f func_6098_f ()Ljava/lang/String;
-	METHOD f func_142_f (Ldx;)V
-	METHOD g func_149_g ()I
-	METHOD h func_6102_h ()F
+	METHOD c moveEntityWithHeading (FF)V
+		ARG 1 moveStrafing
+		ARG 2 moveForward
+	METHOD c damageEntity (I)V
+		ARG 1 damageAmount
+	METHOD d getLivingSound ()Ljava/lang/String;
+	METHOD d_ isOnLadder ()Z
+	METHOD e getHurtSound ()Ljava/lang/String;
+	METHOD f getDeathSound ()Ljava/lang/String;
+	METHOD f onDeath (Ldx;)V
+		ARG 1 entity
+	METHOD g getDropItemId ()I
+	METHOD h getSoundVolume ()F
 	METHOD i func_4045_i ()I
-	METHOD i func_145_g (Ldx;)Z
-	METHOD m func_84_k ()V
-	METHOD o func_4043_o ()V
-	METHOD s func_104_p ()F
-	METHOD v func_124_r ()Z
-	METHOD x func_120_t ()Z
-	METHOD z func_115_v ()V
+	METHOD i canMobSeePlayer (Ldx;)Z
+		ARG 1 entity

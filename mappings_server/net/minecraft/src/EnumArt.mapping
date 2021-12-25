@@ -1,5 +1,5 @@
 CLASS hg net/minecraft/src/EnumArt
-	FIELD A field_869_A I
+	FIELD A sizeY I
 	FIELD B field_867_B I
 	FIELD C field_865_C I
 	FIELD D field_863_D [Lhg;
@@ -27,5 +27,6 @@ CLASS hg net/minecraft/src/EnumArt
 	FIELD v Pigscene Lhg;
 	FIELD w Skeleton Lhg;
 	FIELD x DonkeyKong Lhg;
-	FIELD y field_857_y Ljava/lang/String;
-	FIELD z field_856_z I
+	FIELD y title Ljava/lang/String;
+	FIELD z sizeX I
+	METHOD values ()[Lhg;

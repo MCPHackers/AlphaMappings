@@ -1,4 +1,4 @@
-CLASS pw net/minecraft/src/Packet59ComplexEntity
+CLASS pw net/minecraft/src/Packet59TileEntity
 	FIELD a xPosition I
 	FIELD b yPosition I
 	FIELD c zPosition I

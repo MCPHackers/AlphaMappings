@@ -1,3 +1,2 @@
 CLASS aw net/minecraft/src/WorldGenFlowers
 	FIELD a plantBlockId I
-	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z

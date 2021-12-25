@@ -5,9 +5,9 @@ CLASS np net/minecraft/src/ChunkProviderClient
 	FIELD d worldObj Lcx;
 	METHOD <init> (Lcx;)V
 		ARG 1 world
-	METHOD c func_539_c (II)V
+	METHOD c removeChunkMapping (II)V
 		ARG 1 chunkXPos
 		ARG 2 chunkZPos
-	METHOD d func_538_d (II)Lgz;
+	METHOD d addChunkMapping (II)Lgz;
 		ARG 1 chunkXPos
 		ARG 2 chunkZPos

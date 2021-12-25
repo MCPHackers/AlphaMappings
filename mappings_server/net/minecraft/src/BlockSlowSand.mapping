@@ -1,3 +1,0 @@
-CLASS ac net/minecraft/src/BlockSlowSand
-	METHOD a onEntityCollidedWithBlock (Leo;IIILdx;)V
-	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;

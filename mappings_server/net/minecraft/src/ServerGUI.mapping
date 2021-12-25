@@ -5,6 +5,4 @@ CLASS gk net/minecraft/src/ServerGUI
 	METHOD a getMinecraftServer (Lgk;)Lnet/minecraft/server/MinecraftServer;
 	METHOD a initGui (Lnet/minecraft/server/MinecraftServer;)V
 	METHOD b getPlayerListComponent ()Ljavax/swing/JComponent;
-	METHOD b log (Ljava/lang/String;)V
-	METHOD c getUsername ()Ljava/lang/String;
 	METHOD d getLogComponent ()Ljavax/swing/JComponent;

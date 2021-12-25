@@ -1,13 +1,28 @@
 CLASS ce net/minecraft/src/BlockLeaves
 	FIELD b baseIndexInPNG I
-	FIELD c field_663_c I
-	METHOD a allowsAttachment ()Z
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a updateTick (Leo;IIILjava/util/Random;)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD b onNeighborBlockChange (Leo;IIII)V
-	METHOD b onEntityWalking (Leo;IIILdx;)V
-	METHOD e func_6089_e (Leo;IIII)V
-	METHOD f func_6090_f (Leo;IIII)I
-	METHOD g func_316_g (Leo;III)V
-	METHOD h func_6091_h (Leo;III)V
+	FIELD c leafUpdatesCount I
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+	METHOD e checkIfLeafNeedsUpdating (Leo;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 neighborBlockMetadata
+	METHOD f getHighestPotentialMetadata (Leo;IIII)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 leafMetadata
+	METHOD g updateLeafMetadata (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD h thanosSnapLeaf (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

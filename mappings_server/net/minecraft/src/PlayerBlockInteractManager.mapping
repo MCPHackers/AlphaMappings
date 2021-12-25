@@ -1,0 +1,42 @@
+CLASS jt net/minecraft/src/PlayerBlockInteractManager
+	FIELD a thePlayer Lfx;
+	FIELD b theWorld Leo;
+	FIELD c prevBlockDamage F
+	FIELD d currentBlockDamage F
+	FIELD e miningDelay I
+	FIELD f miningSoundTimer F
+	FIELD g currentXCoord I
+	FIELD h currentYCoord I
+	FIELD i currentZCoord I
+	METHOD <init> (Leo;)V
+		ARG 1 world
+	METHOD a resetMiningState ()V
+	METHOD a clickBlock (III)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD a sendBlockRemoving (IIII)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 integer4
+	METHOD a sendUseItem (Lfx;Leo;Lhl;)Z
+		ARG 1 entityplayer
+		ARG 2 world
+		ARG 3 itemstack
+	METHOD a sendPlaceBlock (Lfx;Leo;Lhl;IIII)Z
+		ARG 1 entityplayer
+		ARG 2 world
+		ARG 3 itemstack
+		ARG 4 xCoord
+		ARG 5 yCoord
+		ARG 6 zCoord
+		ARG 7 integer7
+	METHOD b removeBlock (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD c sendBlockRemoved (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord

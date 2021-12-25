@@ -1,3 +1,6 @@
 CLASS gx net/minecraft/src/GuiLogFormatter
 	FIELD a outputHandler Ldb;
+	METHOD <init> (Ldb;)V
+		ARG 1 guilogoutputhandler
 	METHOD format (Ljava/util/logging/LogRecord;)Ljava/lang/String;
+		ARG 1 logRecord

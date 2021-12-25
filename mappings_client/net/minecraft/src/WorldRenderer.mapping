@@ -40,7 +40,7 @@ CLASS bv net/minecraft/src/WorldRenderer
 		ARG 6 blockLength
 		ARG 7 integer7
 	METHOD a renderCurrentRenderChunk ()V
-	METHOD a func_1200_a (I)I
+	METHOD a getGLCallListForPass (I)I
 		ARG 1 integer
 	METHOD a setupRenderChunkParams (III)V
 		ARG 1 xCoord
@@ -48,9 +48,9 @@ CLASS bv net/minecraft/src/WorldRenderer
 		ARG 3 zCoord
 	METHOD a distanceToEntity (Llu;)F
 		ARG 1 entity
-	METHOD a func_1199_a (Lqd;)V
+	METHOD a updateInFrustum (Lqd;)V
 		ARG 1 icamera
-	METHOD b func_1195_b ()V
+	METHOD b setDontDraw ()V
 	METHOD c func_1204_c ()V
 	METHOD d callOcclusionQueryList ()V
 	METHOD e canRender ()Z

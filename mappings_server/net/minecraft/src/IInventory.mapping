@@ -1,3 +1,4 @@
 CLASS kc net/minecraft/src/IInventory
-	METHOD a func_83_a ()I
+	METHOD a getSizeInventory ()I
 	METHOD a getStackInSlot (I)Lhl;
+		ARG 1 slotIndex

@@ -1,5 +1,5 @@
 CLASS iz net/minecraft/src/BlockFlowing
-	FIELD a field_460_a I
+	FIELD a neighborSourceBlocks I
 	FIELD b field_459_b [Z
 	FIELD c field_461_c [I
 	METHOD a func_300_a (Lcx;IIIII)I

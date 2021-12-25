@@ -1,4 +1,3 @@
 CLASS g net/minecraft/src/WorldGenClay
 	FIELD a clayBlockId I
 	FIELD b numberOfBlocks I
-	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z

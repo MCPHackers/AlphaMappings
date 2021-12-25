@@ -25,9 +25,9 @@ CLASS fn net/minecraft/src/InventoryPlayer
 		ARG 1 entity
 	METHOD a writeToNBT (Llw;)Llw;
 		ARG 1 nbttaglist
-	METHOD a func_508_a (Lno;)F
+	METHOD a getStrVsBlock (Lno;)F
 		ARG 1 block
-	METHOD b func_511_b ()V
+	METHOD b decrementAnimations ()V
 	METHOD b consumeInventoryItem (I)Z
 		ARG 1 integer
 	METHOD b addItemsToInventory (II)I
@@ -35,16 +35,16 @@ CLASS fn net/minecraft/src/InventoryPlayer
 		ARG 2 integer2
 	METHOD b readFromNBT (Llw;)V
 		ARG 1 nbttaglist
-	METHOD b func_509_b (Lno;)Z
+	METHOD b canHarvestBlock (Lno;)Z
 		ARG 1 block
 	METHOD d armorItemInSlot (I)Lfo;
 		ARG 1 integer
-	METHOD e func_507_e (I)V
+	METHOD e damageArmor (I)V
 		ARG 1 integer
 	METHOD f getTotalArmorValue ()I
 	METHOD f getInventorySlotContainItem (I)I
 		ARG 1 integer
-	METHOD g func_503_g ()V
+	METHOD g dropAllItems ()V
 	METHOD g getFirstPartialMatchingStack (I)I
 	METHOD i func_512_i ()Lfn;
 	METHOD j getFirstEmptyStack ()I

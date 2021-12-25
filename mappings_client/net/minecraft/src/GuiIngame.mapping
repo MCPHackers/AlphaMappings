@@ -29,7 +29,7 @@ CLASS nj net/minecraft/src/GuiIngame
 		ARG 2 integer2
 		ARG 3 integer3
 		ARG 4 float4
-	METHOD a func_552_a (Ljava/lang/String;)V
+	METHOD a addChatMessage (Ljava/lang/String;)V
 		ARG 1 s
 	METHOD b func_4065_b (FII)V
 		ARG 1 float1

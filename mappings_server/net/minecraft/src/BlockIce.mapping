@@ -1,5 +1,4 @@
 CLASS o net/minecraft/src/BlockIce
-	METHOD a updateTick (Leo;IIILjava/util/Random;)V
-	METHOD a isSideInsideCoordinate (Lit;IIII)Z
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD b onBlockRemoval (Leo;III)V
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex

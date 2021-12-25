@@ -1,4 +1,4 @@
 CLASS bw net/minecraft/src/SpawnerAnimals
 	FIELD a field_4311_a Ljava/util/Set;
-	METHOD a func_4111_a (Leo;)I
+	METHOD a performSpawning (Leo;)I
 	METHOD a func_4112_a (Leo;II)Lhq;

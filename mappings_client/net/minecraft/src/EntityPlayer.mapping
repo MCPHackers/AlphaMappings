@@ -3,18 +3,18 @@ CLASS ea net/minecraft/src/EntityPlayer
 	FIELD e inventory Lfn;
 	FIELD f field_9371_f B
 	FIELD g score I
-	FIELD h field_775_e F
-	FIELD i field_774_f F
+	FIELD h prevViewBobbingFloatThing F
+	FIELD i viewBobbingFloatThing F
 	FIELD j isSwinging Z
 	FIELD k swingProgressInt I
 	FIELD l username Ljava/lang/String;
 	FIELD m dimension I
 	FIELD n fishingBobberEntity Lhi;
-	METHOD a func_446_a (Len;)V
+	METHOD a joinEntityItemInWorld (Len;)V
 		ARG 1 entityitem
-	METHOD a func_449_a (Lfo;)V
+	METHOD a dropPlayerItem (Lfo;)V
 		ARG 1 itemstack
-	METHOD a func_444_a (Lfo;Z)V
+	METHOD a dropPlayerItemWithRandomChoice (Lfo;Z)V
 		ARG 1 itemstack
 		ARG 2 boolean2
 	METHOD a displayGUIChest (Lhh;)V
@@ -33,11 +33,12 @@ CLASS ea net/minecraft/src/EntityPlayer
 	METHOD b canHarvestBlock (Lno;)Z
 		ARG 1 block
 	METHOD c attackTargetEntityWithCurrentItem (Llu;)V
-	METHOD i func_451_h (Llu;)V
+		ARG 1 entity
+	METHOD i collideWithEntity (Llu;)V
 		ARG 1 entity
 	METHOD m displayGUICrafting ()V
 	METHOD r respawnPlayer ()V
-	METHOD u func_6417_t ()I
+	METHOD u getScore ()I
 	METHOD w getCurrentEquippedItem ()Lfo;
 	METHOD x destroyCurrentEquippedItem ()V
 	METHOD z swingItem ()V

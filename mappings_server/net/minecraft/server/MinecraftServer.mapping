@@ -4,7 +4,7 @@ CLASS net/minecraft/server/MinecraftServer
 	FIELD c field_6036_c Ldq;
 	FIELD d propertyManagerObj Lde;
 	FIELD e worldMngr Lev;
-	FIELD f field_6033_f Lgp;
+	FIELD f serverConfigMngr Lgp;
 	FIELD g field_6032_g Z
 	FIELD h field_9014_h I
 	FIELD i field_9013_i Ljava/lang/String;
@@ -24,13 +24,10 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD a func_6014_a (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD a func_6015_a (Lnet/minecraft/server/MinecraftServer;)Z
 	METHOD b commandLineParser ()V
-	METHOD b log (Ljava/lang/String;)V
 	METHOD b func_6020_b (Ljava/lang/String;I)I
-	METHOD c getUsername ()Ljava/lang/String;
 	METHOD c func_6017_c (Ljava/lang/String;)V
 	METHOD d func_6008_d ()Z
 	METHOD e func_6011_e ()V
 	METHOD f func_6012_f ()V
 	METHOD g func_6013_g ()V
 	METHOD h func_6018_h ()V
-	METHOD run ()V

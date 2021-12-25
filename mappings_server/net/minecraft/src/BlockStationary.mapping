@@ -1,5 +1,11 @@
 CLASS z net/minecraft/src/BlockStationary
-	METHOD a updateTick (Leo;IIILjava/util/Random;)V
-	METHOD b onNeighborBlockChange (Leo;IIII)V
-	METHOD i func_9057_i (Leo;III)V
-	METHOD j func_4033_j (Leo;III)Z
+	METHOD i setFlowing (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD j isNeighborFlammable (Leo;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

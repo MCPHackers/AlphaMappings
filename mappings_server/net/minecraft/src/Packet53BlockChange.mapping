@@ -2,9 +2,10 @@ CLASS fl net/minecraft/src/Packet53BlockChange
 	FIELD a xPosition I
 	FIELD b yPosition I
 	FIELD c zPosition I
-	FIELD d type I
+	FIELD d blockID I
 	FIELD e metadata I
-	METHOD a func_71_a ()I
-	METHOD a func_72_a (Lfa;)V
-	METHOD a func_70_a (Ljava/io/DataInputStream;)V
-	METHOD a func_68_a (Ljava/io/DataOutputStream;)V
+	METHOD <init> (IIILeo;)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 world

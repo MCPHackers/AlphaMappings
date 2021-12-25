@@ -7,8 +7,8 @@ CLASS qb net/minecraft/src/EntityMinecart
 	FIELD f pushX D
 	FIELD g pushZ D
 	FIELD h cargoItems [Lfo;
-	FIELD i field_856_i Z
-	FIELD j field_855_j [[[I
+	FIELD i isFlipped Z
+	FIELD j minecartTrackDirectionMotionArray [[[I
 	FIELD k thisCounterThingAgain I
 	FIELD l serverClientPosX D
 	FIELD m serverClientPosY D
@@ -24,12 +24,12 @@ CLASS qb net/minecraft/src/EntityMinecart
 		ARG 4 posY
 		ARG 6 posZ
 		ARG 8 minecartType
-	METHOD a func_515_a (DDDD)Lao;
+	METHOD a getVec3dFromPositionForRender (DDDD)Lao;
 		ARG 1 posX
 		ARG 3 posY
 		ARG 5 posZ
 		ARG 7 double4
-	METHOD h func_514_g (DDD)Lao;
+	METHOD h getVec3dFromPosition (DDD)Lao;
 		ARG 1 posX
 		ARG 3 posY
 		ARG 5 posZ

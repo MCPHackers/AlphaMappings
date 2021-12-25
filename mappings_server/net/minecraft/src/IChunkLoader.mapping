@@ -1,6 +1,13 @@
 CLASS av net/minecraft/src/IChunkLoader
-	METHOD a func_661_a ()V
-	METHOD a func_659_a (Leo;II)Ljs;
-	METHOD a func_662_a (Leo;Ljs;)V
-	METHOD b func_660_b ()V
-	METHOD b func_4104_b (Leo;Ljs;)V
+	METHOD a doAbsolutelyNothing ()V
+	METHOD a loadChunk (Leo;II)Ljs;
+		ARG 1 world
+		ARG 2 chunkXPos
+		ARG 3 chunkZPos
+	METHOD a saveChunk (Leo;Ljs;)V
+		ARG 1 world
+		ARG 2 chunk
+	METHOD b saveExtraData ()V
+	METHOD b saveExtraChunkData (Leo;Ljs;)V
+		ARG 1 world
+		ARG 2 chunk

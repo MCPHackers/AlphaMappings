@@ -1,6 +1,6 @@
 CLASS em net/minecraft/src/BlockPumpkin
-	FIELD a field_4086_a Z
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a canPlaceBlockAt (Leo;III)Z
-	METHOD a onBlockPlacedBy (Leo;IIILjy;)V
-	METHOD e onBlockAdded (Leo;III)V
+	FIELD a isLitUp Z
+	METHOD <init> (IIZ)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+		ARG 3 isLit

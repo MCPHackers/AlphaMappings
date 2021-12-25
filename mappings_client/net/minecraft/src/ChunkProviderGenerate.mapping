@@ -37,10 +37,10 @@ CLASS pv net/minecraft/src/ChunkProviderGenerate
 		ARG 4 biomeGenArray
 		ARG 5 temperatureArray
 	METHOD a func_4061_a ([DIIIIII)[D
-		ARG 1 arr
+		ARG 1 someNoiseArray
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-		ARG 5 integer5
-		ARG 6 integer6
-		ARG 7 integer7
+		ARG 5 xSize
+		ARG 6 ySize
+		ARG 7 zSize

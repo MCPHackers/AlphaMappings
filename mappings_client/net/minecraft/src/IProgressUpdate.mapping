@@ -1,4 +1,7 @@
 CLASS ps net/minecraft/src/IProgressUpdate
-	METHOD a func_593_a (I)V
-	METHOD b func_594_b (Ljava/lang/String;)V
-	METHOD d func_595_d (Ljava/lang/String;)V
+	METHOD a setLoadingProgress (I)V
+		ARG 1 integer
+	METHOD b printText (Ljava/lang/String;)V
+		ARG 1 s
+	METHOD d displayLoadingString (Ljava/lang/String;)V
+		ARG 1 s

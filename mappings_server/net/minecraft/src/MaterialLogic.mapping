@@ -1,4 +1,1 @@
 CLASS al net/minecraft/src/MaterialLogic
-	METHOD a func_216_a ()Z
-	METHOD b func_219_b ()Z
-	METHOD c func_218_c ()Z

@@ -1,6 +1,10 @@
 CLASS hq net/minecraft/src/ChunkPosition
-	FIELD a field_846_a I
-	FIELD b field_845_b I
-	FIELD c field_847_c I
+	FIELD a xCoord I
+	FIELD b yCoord I
+	FIELD c zCoord I
+	METHOD <init> (III)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD equals (Ljava/lang/Object;)Z
-	METHOD hashCode ()I
+		ARG 1 object

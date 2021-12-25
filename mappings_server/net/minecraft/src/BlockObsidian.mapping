@@ -1,3 +1,1 @@
 CLASS en net/minecraft/src/BlockObsidian
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a quantityDropped (Ljava/util/Random;)I

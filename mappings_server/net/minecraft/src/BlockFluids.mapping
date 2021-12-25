@@ -1,19 +1,28 @@
 CLASS cz net/minecraft/src/BlockFluids
-	METHOD a allowsAttachment ()Z
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a canCollideCheck (IZ)Z
-	METHOD a velocityToAddToEntity (Leo;IIILdx;Lbd;)V
-	METHOD a updateTick (Leo;IIILjava/util/Random;)V
-	METHOD a isSideInsideCoordinate (Lit;IIII)Z
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD b tickRate ()I
-	METHOD b func_299_b (I)F
-	METHOD b onNeighborBlockChange (Leo;IIII)V
-	METHOD b func_303_b (Lit;III)I
+	METHOD b setFluidHeight (I)F
+		ARG 0 blockMetadata
+	METHOD b getFlowingMetadata (Lit;III)I
+		ARG 1 iblockaccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD c func_298_c (Lit;III)Lbd;
-	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
-	METHOD e onBlockAdded (Leo;III)V
-	METHOD g func_301_g (Leo;III)I
-	METHOD h func_300_h (Leo;III)V
-	METHOD i func_302_i (Leo;III)V
+		ARG 1 iblockaccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD g getFluidMetadata (Leo;III)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD h extraHardenEffects (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD i checkForHarden (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

@@ -1,0 +1,4 @@
+CLASS ed net/minecraft/src/Packet8PlayerHealth
+	FIELD a healthMP I
+	METHOD <init> (I)V
+		ARG 1 healthAmount

@@ -1,7 +1,6 @@
 CLASS n net/minecraft/src/BlockCrops
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a onBlockDestroyedByPlayer (Leo;IIII)V
-	METHOD a updateTick (Leo;IIILjava/util/Random;)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD b canThisPlantGrowOnThisBlockID (I)Z
 	METHOD h func_278_h (Leo;III)F
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

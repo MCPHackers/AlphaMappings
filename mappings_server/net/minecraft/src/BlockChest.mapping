@@ -1,8 +1,9 @@
 CLASS c net/minecraft/src/BlockChest
-	FIELD a field_656_a Ljava/util/Random;
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a canPlaceBlockAt (Leo;III)Z
-	METHOD a blockActivated (Leo;IIILfx;)Z
-	METHOD a_ func_294_a_ ()Lay;
-	METHOD b onBlockRemoval (Leo;III)V
+	FIELD a random Ljava/util/Random;
+	METHOD <init> (I)V
+		ARG 1 blockID
 	METHOD g isThereANeighborChest (Leo;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

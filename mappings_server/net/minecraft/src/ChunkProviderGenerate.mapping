@@ -1,7 +1,7 @@
 CLASS jd net/minecraft/src/ChunkProviderGenerate
 	FIELD a field_715_a Lfp;
 	FIELD b field_714_b Lfp;
-	FIELD c field_713_c Lfp;
+	FIELD c treeNoise Lfp;
 	FIELD d field_4229_d [D
 	FIELD e field_4228_e [D
 	FIELD f field_4227_f [D
@@ -9,25 +9,38 @@ CLASS jd net/minecraft/src/ChunkProviderGenerate
 	FIELD h field_4225_h [D
 	FIELD i field_707_i [[I
 	FIELD j rand Ljava/util/Random;
-	FIELD k field_705_k Lfp;
-	FIELD l field_704_l Lfp;
-	FIELD m field_703_m Lfp;
-	FIELD n field_702_n Lfp;
-	FIELD o field_701_o Lfp;
+	FIELD k highNoise Lfp;
+	FIELD l lowNoise Lfp;
+	FIELD m selectorNoise Lfp;
+	FIELD n beachNoise Lfp;
+	FIELD o dirtThicknessNoise Lfp;
 	FIELD p worldObj Leo;
 	FIELD q field_4224_q [D
-	FIELD r field_698_r [D
-	FIELD s field_697_s [D
-	FIELD t field_696_t [D
-	FIELD u field_695_u Lfe;
+	FIELD r sandNoiseArray [D
+	FIELD s gravelNoiseArray [D
+	FIELD t stoneNoiseArray [D
+	FIELD u chunkCaveGen Lfe;
 	FIELD v biomesForGeneration [Lim;
-	FIELD w field_4222_w [D
-	METHOD a func_361_a ()Z
-	METHOD a chunkExists (II)Z
+	FIELD w generatedTemperatures [D
+	METHOD <init> (Leo;J)V
+		ARG 1 world
+		ARG 2 worldSeed
 	METHOD a replaceBlocksForBiome (II[B[Lim;)V
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+		ARG 3 chunkBlockArray
+		ARG 4 biomeGenArray
 	METHOD a generateTerrain (II[B[Lim;[D)V
-	METHOD a populate (Lbu;II)V
-	METHOD a func_360_a (ZLja;)Z
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+		ARG 3 chunkBlockArray
+		ARG 4 biomeGenArray
+		ARG 5 temperatureArray
 	METHOD a func_4058_a ([DIIIIII)[D
-	METHOD b func_364_b ()Z
-	METHOD b func_363_b (II)Ljs;
+		ARG 1 someNoiseArray
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 xSize
+		ARG 6 ySize
+		ARG 7 zSize

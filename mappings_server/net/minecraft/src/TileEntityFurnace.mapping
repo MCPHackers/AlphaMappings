@@ -3,13 +3,8 @@ CLASS dt net/minecraft/src/TileEntityFurnace
 	FIELD f field_488_f I
 	FIELD g field_487_g I
 	FIELD h field_486_h I
-	METHOD a func_83_a ()I
-	METHOD a getStackInSlot (I)Lhl;
 	METHOD a func_194_a (Lhl;)I
-	METHOD a readFromNBT (Lv;)V
-	METHOD b updateEntity ()V
 	METHOD b func_192_b (I)I
-	METHOD b writeToNBT (Lv;)V
 	METHOD d func_190_d ()I
 	METHOD e func_191_e ()Z
 	METHOD f func_189_f ()V

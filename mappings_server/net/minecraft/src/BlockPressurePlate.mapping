@@ -1,16 +1,11 @@
 CLASS be net/minecraft/src/BlockPressurePlate
 	FIELD a triggerMobType Ldd;
-	METHOD a allowsAttachment ()Z
-	METHOD a canPlaceBlockAt (Leo;III)Z
-	METHOD a onEntityCollidedWithBlock (Leo;IIILdx;)V
-	METHOD a updateTick (Leo;IIILjava/util/Random;)V
-	METHOD a setBlockBoundsBasedOnState (Lit;III)V
-	METHOD b tickRate ()I
-	METHOD b onBlockRemoval (Leo;III)V
-	METHOD b onNeighborBlockChange (Leo;IIII)V
-	METHOD b isPoweringTo (Lit;IIII)Z
-	METHOD c canProvidePower ()Z
-	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
-	METHOD d isIndirectlyPoweringTo (Leo;IIII)Z
-	METHOD e onBlockAdded (Leo;III)V
-	METHOD g func_318_g (Leo;III)V
+	METHOD <init> (IILdd;)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+		ARG 3 enummobtype
+	METHOD g setStateIfMobInteractsWithPlate (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

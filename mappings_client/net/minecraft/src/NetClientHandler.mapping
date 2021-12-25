@@ -4,8 +4,13 @@ CLASS ia net/minecraft/src/NetClientHandler
 	FIELD c disconnected Z
 	FIELD d netManager Ljp;
 	FIELD e mc Lnet/minecraft/client/Minecraft;
-	FIELD f field_1211_f Lhu;
+	FIELD f worldClient Lhu;
 	FIELD g field_1210_g Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 s
+		ARG 3 integer
 	METHOD a processReadPackets ()V
 	METHOD a addToSendQueue (Lgj;)V
-	METHOD b func_849_b ()V
+		ARG 1 packet
+	METHOD b disconnect ()V

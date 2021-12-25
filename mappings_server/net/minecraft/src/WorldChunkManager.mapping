@@ -1,13 +1,32 @@
 CLASS ix net/minecraft/src/WorldChunkManager
 	FIELD a temperature [D
 	FIELD b humidity [D
-	FIELD c field_4257_c [D
-	FIELD d field_4256_d [Lim;
-	FIELD e field_4255_e Lfo;
-	FIELD f field_4254_f Lfo;
-	FIELD g field_4253_g Lfo;
-	METHOD a func_4067_a (II)Lim;
-	METHOD a func_4065_a (IIII)[Lim;
-	METHOD a func_4066_a (Lkf;)Lim;
+	FIELD c subValueArray [D
+	FIELD d biomeGenArray [Lim;
+	FIELD e temperatureNoise Lfo;
+	FIELD f humidityNoise Lfo;
+	FIELD g someOtherNoise Lfo;
+	METHOD <init> (Leo;)V
+		ARG 1 world
+	METHOD a getBiomeAtChunkCorner (II)Lim;
+		ARG 1 xCoord
+		ARG 2 zCoord
+	METHOD a getBiomeGenArray (IIII)[Lim;
+		ARG 1 xCoord
+		ARG 2 zCoord
+		ARG 3 inChunkXOffset
+		ARG 4 inChunkZOffset
+	METHOD a getBiomesForChunk (Lkf;)Lim;
+		ARG 1 chunkcoordintpair
 	METHOD a getTemperatures ([DIIII)[D
+		ARG 1 temperatureArray
+		ARG 2 xPosition
+		ARG 3 zPosition
+		ARG 4 xSize
+		ARG 5 zSize
 	METHOD a loadBlockGeneratorData ([Lim;IIII)[Lim;
+		ARG 1 biomeGenArray
+		ARG 2 xCoord
+		ARG 3 zCoord
+		ARG 4 xSize
+		ARG 5 zSize

@@ -22,7 +22,7 @@ CLASS no net/minecraft/src/Block
 	FIELD U unusedClassicBlueCloth Lno;
 	FIELD V unusedClassicBluePurpleCloth Lno;
 	FIELD W unusedClassicPurpleCloth Lno;
-	FIELD X unusedClassicPalePurpleCloth Lno;
+	FIELD X unusedClassicLavenderCloth Lno;
 	FIELD Y unusedClassicMagentaCloth Lno;
 	FIELD Z unusedClassicFuchsiaCloth Lno;
 	FIELD aA tilledField Lno;

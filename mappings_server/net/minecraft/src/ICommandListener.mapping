@@ -1,3 +1,4 @@
 CLASS ew net/minecraft/src/ICommandListener
 	METHOD b log (Ljava/lang/String;)V
+		ARG 1 chatMessage
 	METHOD c getUsername ()Ljava/lang/String;

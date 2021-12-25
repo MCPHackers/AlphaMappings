@@ -1,9 +1,0 @@
-CLASS gv net/minecraft/src/BlockSoil
-	METHOD a allowsAttachment ()Z
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a updateTick (Leo;IIILjava/util/Random;)V
-	METHOD b onNeighborBlockChange (Leo;IIII)V
-	METHOD b onEntityWalking (Leo;IIILdx;)V
-	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
-	METHOD g func_282_g (Leo;III)Z
-	METHOD h func_283_h (Leo;III)Z

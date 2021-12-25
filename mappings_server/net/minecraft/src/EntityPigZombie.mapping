@@ -2,15 +2,4 @@ CLASS iy net/minecraft/src/EntityPigZombie
 	FIELD a field_4106_a I
 	FIELD b field_4105_b I
 	FIELD c field_4107_c Lhl;
-	METHOD E func_153_y ()V
-	METHOD a func_155_a ()Z
-	METHOD a attackEntity (Ldx;I)Z
-	METHOD a writeEntityToNBT (Lv;)V
-	METHOD b readEntityFromNBT (Lv;)V
-	METHOD b_ onUpdate ()V
-	METHOD d func_6097_d ()Ljava/lang/String;
-	METHOD e func_6100_e ()Ljava/lang/String;
-	METHOD f func_6098_f ()Ljava/lang/String;
-	METHOD g func_149_g ()I
 	METHOD g func_4047_h (Ldx;)V
-	METHOD k func_158_i ()Ldx;

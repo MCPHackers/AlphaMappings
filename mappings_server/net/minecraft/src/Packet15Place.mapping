@@ -4,7 +4,3 @@ CLASS fz net/minecraft/src/Packet15Place
 	FIELD c yPosition I
 	FIELD d zPosition I
 	FIELD e direction I
-	METHOD a func_71_a ()I
-	METHOD a func_72_a (Lfa;)V
-	METHOD a func_70_a (Ljava/io/DataInputStream;)V
-	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

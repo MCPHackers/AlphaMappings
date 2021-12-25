@@ -1,3 +1,2 @@
 CLASS br net/minecraft/src/WorldGenHellLava
 	FIELD a field_4250_a I
-	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z

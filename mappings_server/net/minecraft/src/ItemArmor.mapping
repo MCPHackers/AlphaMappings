@@ -1,7 +1,12 @@
 CLASS hj net/minecraft/src/ItemArmor
-	FIELD a field_254_a I
-	FIELD bb field_257_aX I
-	FIELD bc field_256_aY I
-	FIELD bd field_255_aZ I
-	FIELD be field_259_ba [I
-	FIELD bf field_258_bb [I
+	FIELD a armorLevel I
+	FIELD bb armorType I
+	FIELD bc damageReduceAmount I
+	FIELD bd renderIndex I
+	FIELD be damageReduceAmountArray [I
+	FIELD bf maxDamageArray [I
+	METHOD <init> (IIII)V
+		ARG 1 itemID
+		ARG 2 armorLevel
+		ARG 3 renderIndex
+		ARG 4 armorType

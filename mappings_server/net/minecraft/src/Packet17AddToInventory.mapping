@@ -2,7 +2,6 @@ CLASS ff net/minecraft/src/Packet17AddToInventory
 	FIELD a id I
 	FIELD b count I
 	FIELD c durability I
-	METHOD a func_71_a ()I
-	METHOD a func_72_a (Lfa;)V
-	METHOD a func_70_a (Ljava/io/DataInputStream;)V
-	METHOD a func_68_a (Ljava/io/DataOutputStream;)V
+	METHOD <init> (Lhl;I)V
+		ARG 1 itemstack
+		ARG 2 stackSize

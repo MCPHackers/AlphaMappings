@@ -1,0 +1,11 @@
+CLASS jf net/minecraft/src/Packet59TileEntity
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c zPosition I
+	FIELD d entityData [B
+	FIELD e entityNBT Lv;
+	METHOD <init> (IIILay;)V
+		ARG 1 xPos
+		ARG 2 yPos
+		ARG 3 zPos
+		ARG 4 tileentity

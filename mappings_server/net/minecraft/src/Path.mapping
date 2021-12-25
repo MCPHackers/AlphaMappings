@@ -1,10 +1,15 @@
 CLASS jk net/minecraft/src/Path
 	FIELD a pathPoints [Lb;
 	FIELD b count I
-	METHOD a func_417_a ()V
-	METHOD a func_412_a (I)V
-	METHOD a func_413_a (Lb;)Lb;
-	METHOD a func_414_a (Lb;F)V
-	METHOD b func_415_b ()Lb;
-	METHOD b func_416_b (I)V
-	METHOD c func_418_c ()Z
+	METHOD a clearPath ()V
+	METHOD a sortBack (I)V
+		ARG 1 pathPointIndexThing
+	METHOD a addPoint (Lb;)Lb;
+		ARG 1 pathpoint
+	METHOD a changeDistance (Lb;F)V
+		ARG 1 pathpoint
+		ARG 2 distanceToTarget
+	METHOD b dequeue ()Lb;
+	METHOD b sortForward (I)V
+		ARG 1 pathPointIndexThing
+	METHOD c isPathEmpty ()Z

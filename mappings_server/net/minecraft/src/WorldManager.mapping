@@ -1,11 +1,2 @@
 CLASS es net/minecraft/src/WorldManager
 	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;
-	METHOD a func_684_a ()V
-	METHOD a func_683_a (III)V
-	METHOD a func_685_a (IIIIII)V
-	METHOD a func_686_a (IIILay;)V
-	METHOD a func_681_a (Ldx;)V
-	METHOD a func_687_a (Ljava/lang/String;DDDDDD)V
-	METHOD a func_689_a (Ljava/lang/String;DDDFF)V
-	METHOD a func_682_a (Ljava/lang/String;III)V
-	METHOD b func_688_b (Ldx;)V

@@ -1,16 +1,26 @@
 CLASS dv net/minecraft/src/BlockRedstoneWire
-	FIELD a field_652_a Z
-	METHOD a allowsAttachment ()Z
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a canPlaceBlockAt (Leo;III)Z
-	METHOD b onBlockRemoval (Leo;III)V
-	METHOD b onNeighborBlockChange (Leo;IIII)V
-	METHOD b func_293_b (Lit;III)Z
-	METHOD b isPoweringTo (Lit;IIII)Z
-	METHOD c canProvidePower ()Z
-	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
-	METHOD d isIndirectlyPoweringTo (Leo;IIII)Z
-	METHOD e onBlockAdded (Leo;III)V
-	METHOD f func_290_f (Leo;IIII)I
-	METHOD g func_292_g (Leo;III)V
-	METHOD h func_291_h (Leo;III)V
+	FIELD a wiresProvidePower Z
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+	METHOD b isPowerProviderOrWire (Lit;III)Z
+		ARG 0 iblockaccess
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD f getMaxCurrentStrength (Leo;IIII)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 blockMetadata
+	METHOD g updateAndPropagateCurrentStrength (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD h notifyWireNeighborsOfNeighborChange (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

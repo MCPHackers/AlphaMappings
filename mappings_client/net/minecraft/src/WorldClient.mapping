@@ -3,11 +3,12 @@ CLASS hu net/minecraft/src/WorldClient
 	FIELD B sendQueue Lia;
 	FIELD C chunkProviderClient Lnp;
 	FIELD D unusedBoolean Z
-	FIELD E field_1055_D Lgd;
+	FIELD E mcHashTable Lgd;
 	FIELD F entityHashSet Ljava/util/Set;
 	FIELD G unloadedEntityHashSet Ljava/util/Set;
 	METHOD <init> (Lia;JI)V
 		ARG 1 netclienthandler
+		ARG 2 worldSeed
 		ARG 4 worldProviderIndex
 	METHOD a func_713_a (IIZ)V
 		ARG 1 chunkXPos
@@ -16,8 +17,10 @@ CLASS hu net/minecraft/src/WorldClient
 	METHOD a func_712_a (ILlu;)V
 		ARG 1 entityID
 		ARG 2 entity
-	METHOD b func_709_b (I)Llu;
+	METHOD b getEntityByID (I)Llu;
+		ARG 1 entityID
 	METHOD c removeEntityFromWorld (I)Llu;
+		ARG 1 entityID
 	METHOD c func_714_c (IIIII)Z
 		ARG 1 xCoord
 		ARG 2 yCoord

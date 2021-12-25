@@ -1,2 +1,2 @@
 CLASS ee net/minecraft/src/EntityMobs
-	FIELD e field_762_e I
+	FIELD e attackStrength I

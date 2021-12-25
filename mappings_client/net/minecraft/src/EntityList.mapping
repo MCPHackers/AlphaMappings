@@ -1,7 +1,7 @@
 CLASS fp net/minecraft/src/EntityList
 	FIELD a stringToClassMapping Ljava/util/Map;
 	FIELD b classToStringMapping Ljava/util/Map;
-	FIELD c IDtoClassMapping Ljava/util/Map;
+	FIELD c IDToClassMapping Ljava/util/Map;
 	FIELD d classToIDMapping Ljava/util/Map;
 	METHOD a createEntity (ILcx;)Llu;
 		ARG 0 entityID
@@ -10,11 +10,11 @@ CLASS fp net/minecraft/src/EntityList
 		ARG 0 nbttagcompound
 		ARG 1 world
 	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;I)V
-		ARG 0 class1
-		ARG 1 s
+		ARG 0 entityClass
+		ARG 1 entityName
 		ARG 2 entityID
 	METHOD a createEntityInWorld (Ljava/lang/String;Lcx;)Llu;
-		ARG 0 s
+		ARG 0 entityName
 		ARG 1 world
 	METHOD a getEntityID (Llu;)I
 		ARG 0 entity

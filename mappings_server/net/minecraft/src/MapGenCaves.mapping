@@ -1,4 +1,3 @@
 CLASS dz net/minecraft/src/MapGenCaves
 	METHOD a func_669_a (II[BDDD)V
 	METHOD a func_668_a (II[BDDDFFFIID)V
-	METHOD a func_666_a (Leo;IIII[B)V

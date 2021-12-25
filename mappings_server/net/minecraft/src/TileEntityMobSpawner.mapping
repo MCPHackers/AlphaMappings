@@ -4,7 +4,4 @@ CLASS cf net/minecraft/src/TileEntityMobSpawner
 	FIELD g field_491_g D
 	FIELD h field_490_h D
 	METHOD a func_195_a ()Z
-	METHOD a readFromNBT (Lv;)V
-	METHOD b updateEntity ()V
-	METHOD b writeToNBT (Lv;)V
 	METHOD d updateDelay ()V

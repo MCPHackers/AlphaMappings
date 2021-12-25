@@ -1,11 +1,16 @@
 CLASS fh net/minecraft/src/ChunkLoader
-	FIELD a field_945_a Ljava/io/File;
-	FIELD b field_944_b Z
-	METHOD a func_661_a ()V
-	METHOD a func_665_a (II)Ljava/io/File;
-	METHOD a func_659_a (Leo;II)Ljs;
-	METHOD a func_662_a (Leo;Ljs;)V
-	METHOD a func_664_a (Leo;Lv;)Ljs;
-	METHOD a func_663_a (Ljs;Leo;Lv;)V
-	METHOD b func_660_b ()V
-	METHOD b func_4104_b (Leo;Ljs;)V
+	FIELD a saveDir Ljava/io/File;
+	FIELD b createIfNecessary Z
+	METHOD <init> (Ljava/io/File;Z)V
+		ARG 1 saveDirectory
+		ARG 2 shouldCreate
+	METHOD a chunkFileForXZ (II)Ljava/io/File;
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+	METHOD a loadChunkIntoWorldFromCompound (Leo;Lv;)Ljs;
+		ARG 0 world
+		ARG 1 nbttagcompound
+	METHOD a storeChunkInCompound (Ljs;Leo;Lv;)V
+		ARG 1 chunk
+		ARG 2 world
+		ARG 3 nbttagcompound

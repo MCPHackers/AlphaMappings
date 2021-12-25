@@ -12,7 +12,7 @@ CLASS fu net/minecraft/src/Item
 	FIELD K gunpowder Lfu;
 	FIELD L hoeWood Lfu;
 	FIELD M hoeStone Lfu;
-	FIELD N hoeSteel Lfu;
+	FIELD N hoeIron Lfu;
 	FIELD O hoeDiamond Lfu;
 	FIELD P hoeGold Lfu;
 	FIELD Q seeds Lfu;
@@ -36,26 +36,26 @@ CLASS fu net/minecraft/src/Item
 	FIELD aI paper Lfu;
 	FIELD aJ book Lfu;
 	FIELD aK slimeBall Lfu;
-	FIELD aL minecartCrate Lfu;
+	FIELD aL minecartChest Lfu;
 	FIELD aM minecartPowered Lfu;
 	FIELD aN egg Lfu;
 	FIELD aO compass Lfu;
 	FIELD aP fishingRod Lfu;
-	FIELD aQ pocketSundial Lfu;
-	FIELD aR lightStoneDust Lfu;
+	FIELD aQ clock Lfu;
+	FIELD aR glowstoneDust Lfu;
 	FIELD aS fishRaw Lfu;
 	FIELD aT fishCooked Lfu;
 	FIELD aU record13 Lfu;
 	FIELD aV recordCat Lfu;
-	FIELD aW swiftedIndex I
+	FIELD aW shiftedIndex I
 	FIELD aX maxStackSize I
 	FIELD aY maxDamage I
 	FIELD aZ iconIndex I
 	FIELD aa bootsChain Lfu;
-	FIELD ab helmetSteel Lfu;
-	FIELD ac plateSteel Lfu;
-	FIELD ad legsSteel Lfu;
-	FIELD ae bootsSteel Lfu;
+	FIELD ab helmetIron Lfu;
+	FIELD ac plateIron Lfu;
+	FIELD ad legsIron Lfu;
+	FIELD ae bootsIron Lfu;
 	FIELD af helmetDiamond Lfu;
 	FIELD ag plateDiamond Lfu;
 	FIELD ah legsDiamond Lfu;
@@ -76,13 +76,13 @@ CLASS fu net/minecraft/src/Item
 	FIELD aw bucketLava Lfu;
 	FIELD ax minecartEmpty Lfu;
 	FIELD ay saddle Lfu;
-	FIELD az doorSteel Lfu;
+	FIELD az doorIron Lfu;
 	FIELD b rand Ljava/util/Random;
 	FIELD ba bFull3D Z
 	FIELD c itemsList [Lfu;
-	FIELD d shovelSteel Lfu;
-	FIELD e pickaxeSteel Lfu;
-	FIELD f axeSteel Lfu;
+	FIELD d shovelIron Lfu;
+	FIELD e pickaxeIron Lfu;
+	FIELD f axeIron Lfu;
 	FIELD g flintAndSteel Lfu;
 	FIELD h appleRed Lfu;
 	FIELD i bow Lfu;
@@ -91,7 +91,7 @@ CLASS fu net/minecraft/src/Item
 	FIELD l diamond Lfu;
 	FIELD m ingotIron Lfu;
 	FIELD n ingotGold Lfu;
-	FIELD o swordSteel Lfu;
+	FIELD o swordIron Lfu;
 	FIELD p swordWood Lfu;
 	FIELD q shovelWood Lfu;
 	FIELD r pickaxeWood Lfu;
@@ -103,15 +103,41 @@ CLASS fu net/minecraft/src/Item
 	FIELD x swordDiamond Lfu;
 	FIELD y shovelDiamond Lfu;
 	FIELD z pickaxeDiamond Lfu;
+	METHOD <init> (I)V
+		ARG 1 itemID
 	METHOD a getItemStackLimit ()I
 	METHOD a setIconIndex (I)Lfu;
-	METHOD a func_9203_a (Ldx;)I
+		ARG 1 iconIndex
+	METHOD a getDamageVsEntity (Ldx;)I
+		ARG 1 entity
 	METHOD a canHarvestBlock (Lga;)Z
+		ARG 1 block
 	METHOD a hitBlock (Lhl;IIII)V
+		ARG 1 itemstack
+		ARG 2 blockID
+		ARG 3 xCoord
+		ARG 4 yCoord
+		ARG 5 zCoord
 	METHOD a onItemRightClick (Lhl;Leo;Lfx;)Lhl;
+		ARG 1 itemstack
+		ARG 2 world
+		ARG 3 entityplayer
 	METHOD a onItemUse (Lhl;Lfx;Leo;IIII)Z
+		ARG 1 itemstack
+		ARG 2 entityplayer
+		ARG 3 world
+		ARG 4 xCoord
+		ARG 5 yCoord
+		ARG 6 zCoord
+		ARG 7 blockSide
 	METHOD a getStrVsBlock (Lhl;Lga;)F
-	METHOD a func_9201_a (Lhl;Ljy;)V
+		ARG 1 itemstack
+		ARG 2 block
+	METHOD a hitEntity (Lhl;Ljy;)V
+		ARG 1 itemstack
+		ARG 2 entityliving
 	METHOD b getMaxDamage ()I
-	METHOD b func_9202_b (Lhl;Ljy;)V
+	METHOD b saddleEntity (Lhl;Ljy;)V
+		ARG 1 itemstack
+		ARG 2 entityliving
 	METHOD c setFull3D ()Lfu;

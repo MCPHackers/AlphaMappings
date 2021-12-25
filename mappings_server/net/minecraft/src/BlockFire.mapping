@@ -1,18 +1,38 @@
 CLASS jr net/minecraft/src/BlockFire
 	FIELD a chanceToEncourageFire [I
 	FIELD b abilityToCatchFire [I
-	METHOD a allowsAttachment ()Z
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
 	METHOD a setBurnRate (III)V
-	METHOD a canPlaceBlockAt (Leo;III)Z
+		ARG 1 blockID
+		ARG 2 chanceToEncourageFire
+		ARG 3 abilityToCatchFire
 	METHOD a tryToCatchBlockOnFire (Leo;IIIILjava/util/Random;)V
-	METHOD a updateTick (Leo;IIILjava/util/Random;)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD b tickRate ()I
-	METHOD b onNeighborBlockChange (Leo;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 integer5
+		ARG 6 random
 	METHOD b canBlockCatchFire (Lit;III)Z
-	METHOD d isCollidable ()Z
-	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
-	METHOD e onBlockAdded (Leo;III)V
+		ARG 1 iblockaccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD f getChanceToEncourageFire (Leo;IIII)I
-	METHOD g func_268_g (Leo;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 integer5
+	METHOD g canNeighboringBlocksCatchFire (Leo;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD h getChanceOfNeighborsEncouragingFire (Leo;III)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

@@ -1,15 +1,19 @@
 CLASS dw net/minecraft/src/EntityArrow
-	FIELD a field_9184_a I
-	FIELD aj field_9181_aj Z
+	FIELD a arrowShake I
+	FIELD aj inGround Z
 	FIELD ak field_438_ai I
 	FIELD al field_437_aj I
-	FIELD b field_439_ah Ljy;
-	FIELD c field_9183_c I
-	FIELD d field_9182_d I
-	FIELD e field_9180_e I
-	FIELD f field_9179_f I
+	FIELD b entityOfOrigin Ljy;
+	FIELD c xTile I
+	FIELD d yTile I
+	FIELD e zTile I
+	FIELD f inTile I
+	METHOD <init> (Leo;Ljy;)V
+		ARG 1 world
+		ARG 2 entityliving
 	METHOD a func_177_a (DDDFF)V
-	METHOD a writeEntityToNBT (Lv;)V
-	METHOD b onCollideWithPlayer (Lfx;)V
-	METHOD b readEntityFromNBT (Lv;)V
-	METHOD b_ onUpdate ()V
+		ARG 1 motionX
+		ARG 3 motionY
+		ARG 5 motionZ
+		ARG 7 float4
+		ARG 8 float5

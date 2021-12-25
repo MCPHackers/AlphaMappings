@@ -1,4 +1,4 @@
-CLASS im net/minecraft/src/MobSpawnerBase
+CLASS im net/minecraft/src/BiomeGenBase
 	FIELD a rainforest Lim;
 	FIELD b swampland Lim;
 	FIELD c seasonalForest Lim;
@@ -12,18 +12,26 @@ CLASS im net/minecraft/src/MobSpawnerBase
 	FIELD k tundra Lim;
 	FIELD l hell Lim;
 	FIELD m biomeName Ljava/lang/String;
-	FIELD n field_6162_n I
+	FIELD n unusedColorValue I
 	FIELD o topBlock B
 	FIELD p fillerBlock B
-	FIELD q field_6161_q I
+	FIELD q someValue I
 	FIELD r biomeMonsters [Ljava/lang/Class;
 	FIELD s biomeCreatures [Ljava/lang/Class;
 	FIELD t biomeLookupTable [Lim;
 	METHOD a generateBiomeLookup ()V
 	METHOD a getBiomeFromLookup (DD)Lim;
+		ARG 0 temperature
+		ARG 2 humidity
 	METHOD a getBiome (FF)Lim;
-	METHOD a func_4080_a (I)Lim;
+		ARG 0 temperature
+		ARG 1 humidity
+	METHOD a setSomethingIDK (I)Lim;
+		ARG 1 integer
 	METHOD a setBiomeName (Ljava/lang/String;)Lim;
+		ARG 1 biomeName
 	METHOD a getEntitiesForType (Ljq;)[Ljava/lang/Class;
-	METHOD b func_4083_b ()Lim;
-	METHOD b func_4079_b (I)Lim;
+		ARG 1 enumcreaturetype
+	METHOD b doNothingAndSitHereAndTakeUpSpaceLikeADunce ()Lim;
+	METHOD b setUnusedColor (I)Lim;
+		ARG 1 integer

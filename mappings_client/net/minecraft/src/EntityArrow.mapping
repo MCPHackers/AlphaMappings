@@ -1,6 +1,6 @@
 CLASS lt net/minecraft/src/EntityArrow
 	FIELD a arrowShake I
-	FIELD b field_682_g Lhe;
+	FIELD b entityOfOrigin Lhe;
 	FIELD c xTile I
 	FIELD d yTile I
 	FIELD e zTile I

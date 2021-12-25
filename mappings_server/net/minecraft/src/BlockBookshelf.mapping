@@ -1,3 +1,4 @@
 CLASS gc net/minecraft/src/BlockBookshelf
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex

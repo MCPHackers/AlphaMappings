@@ -6,9 +6,12 @@ CLASS gd net/minecraft/src/MCHashTable
 	FIELD e versionStamp I
 	METHOD a clearMap ()V
 	METHOD a lookup (I)Ljava/lang/Object;
+		ARG 1 hashKey
 	METHOD a func_1062_a (II)I
 	METHOD a func_1053_a (IILjava/lang/Object;I)V
 	METHOD a addKey (ILjava/lang/Object;)V
+		ARG 1 hashKey
+		ARG 2 hashValue
 	METHOD a func_1059_a ([Lop;)V
 	METHOD b func_1052_b (I)Ljava/lang/Object;
 	METHOD c func_1054_c (I)Lop;

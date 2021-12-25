@@ -1,8 +1,15 @@
 CLASS ft net/minecraft/src/BlockSand
 	FIELD a fallInstantly Z
-	METHOD a updateTick (Leo;IIILjava/util/Random;)V
-	METHOD b tickRate ()I
-	METHOD b onNeighborBlockChange (Leo;IIII)V
-	METHOD e onBlockAdded (Leo;III)V
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
 	METHOD g canFallBelow (Leo;III)Z
+		ARG 0 world
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD h tryToFall (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

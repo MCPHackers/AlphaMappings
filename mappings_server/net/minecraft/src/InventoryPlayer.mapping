@@ -5,23 +5,21 @@ CLASS hi net/minecraft/src/InventoryPlayer
 	FIELD d currentItem I
 	FIELD e field_498_e Z
 	FIELD f player Lfx;
-	METHOD a func_83_a ()I
-	METHOD a getStackInSlot (I)Lhl;
 	METHOD a addItemsToInventory (II)I
 	METHOD a setInventorySlotContents (ILhl;)V
-	METHOD a func_9157_a (Ldx;)I
+	METHOD a getDamageVsEntity (Ldx;)I
 	METHOD a writeToNBT (Leb;)Leb;
-	METHOD a func_208_a (Lga;)F
+	METHOD a getStrVsBlock (Lga;)F
 	METHOD a func_201_a (Lhl;)Z
 	METHOD b getCurrentItem ()Lhl;
 	METHOD b func_6127_b (I)Z
-	METHOD b func_203_b (Leb;)V
-	METHOD b func_207_b (Lga;)Z
+	METHOD b readFromNBT (Leb;)V
+	METHOD b canHarvestBlock (Lga;)Z
 	METHOD c func_210_c ()V
-	METHOD c func_211_b (I)V
+	METHOD c damageArmor (I)V
 	METHOD d getInventoryStackLimit ()I
 	METHOD d func_6126_d (I)I
-	METHOD e func_212_e ()I
+	METHOD e getTotalArmorValue ()I
 	METHOD e getFirstPartialMatchingStack (I)I
-	METHOD f func_199_f ()V
+	METHOD f dropAllItems ()V
 	METHOD g getFirstEmptyStack ()I

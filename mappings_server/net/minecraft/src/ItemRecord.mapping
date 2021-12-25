@@ -1,3 +1,5 @@
 CLASS fj net/minecraft/src/ItemRecord
 	FIELD a recordName Ljava/lang/String;
-	METHOD a onItemUse (Lhl;Lfx;Leo;IIII)Z
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 itemID
+		ARG 2 recordName

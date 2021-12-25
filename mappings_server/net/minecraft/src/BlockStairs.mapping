@@ -1,27 +1,5 @@
 CLASS ec net/minecraft/src/BlockStairs
-	FIELD a field_651_a Lga;
-	METHOD a allowsAttachment ()Z
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a canCollideCheck (IZ)Z
-	METHOD a func_226_a (Ldx;)F
-	METHOD a canPlaceBlockAt (Leo;III)Z
-	METHOD a onBlockDestroyedByPlayer (Leo;IIII)V
-	METHOD a dropBlockAsItemWithChance (Leo;IIIIF)V
-	METHOD a getCollidingBoundingBoxes (Leo;IIILdu;Ljava/util/ArrayList;)V
-	METHOD a velocityToAddToEntity (Leo;IIILdx;Lbd;)V
-	METHOD a blockActivated (Leo;IIILfx;)Z
-	METHOD a updateTick (Leo;IIILjava/util/Random;)V
-	METHOD a onBlockPlacedBy (Leo;IIILjy;)V
-	METHOD a setBlockBoundsBasedOnState (Lit;III)V
-	METHOD a isSideInsideCoordinate (Lit;IIII)Z
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a_ dropBlockAsItem (Leo;IIII)V
-	METHOD b tickRate ()I
-	METHOD b onBlockRemoval (Leo;III)V
-	METHOD b onEntityWalking (Leo;IIILdx;)V
-	METHOD b onBlockClicked (Leo;IIILfx;)V
-	METHOD c onBlockDestroyedByExplosion (Leo;III)V
-	METHOD d isCollidable ()Z
-	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
-	METHOD e onBlockAdded (Leo;III)V
+	FIELD a stairTypeBlock Lga;
+	METHOD <init> (ILga;)V
+		ARG 1 blockID
+		ARG 2 stairTypeBlock

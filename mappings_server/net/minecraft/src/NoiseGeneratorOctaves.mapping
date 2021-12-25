@@ -1,6 +1,6 @@
 CLASS fp net/minecraft/src/NoiseGeneratorOctaves
 	FIELD a field_939_a [Lak;
 	FIELD b field_938_b I
-	METHOD a func_647_a (DD)D
-	METHOD a func_648_a ([DDDDIIIDDD)[D
-	METHOD a func_4103_a ([DIIIIDDD)[D
+	METHOD a generateOctavesNoZ (DD)D
+	METHOD a generateNoiseOctaves ([DDDDIIIDDD)[D
+	METHOD a generateNoiseOctavesSimple ([DIIIIDDD)[D

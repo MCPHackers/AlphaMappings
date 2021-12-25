@@ -1,5 +1,5 @@
 CLASS bd net/minecraft/src/IChunkProvider
-	METHOD a func_532_a ()Z
+	METHOD a alwaysReturnsFalse ()Z
 	METHOD a chunkExists (II)Z
 		ARG 1 chunkXPos
 		ARG 2 chunkZPos
@@ -10,7 +10,7 @@ CLASS bd net/minecraft/src/IChunkProvider
 	METHOD a saveChunks (ZLps;)Z
 		ARG 1 boolean1
 		ARG 2 iprogressupdate
-	METHOD b func_536_b ()Z
+	METHOD b isWorldLocal ()Z
 	METHOD b provideChunk (II)Lgz;
 		ARG 1 chunkXPos
 		ARG 2 chunkZPos

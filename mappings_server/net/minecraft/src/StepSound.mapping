@@ -1,7 +1,11 @@
 CLASS cd net/minecraft/src/StepSound
-	FIELD a field_1029_a Ljava/lang/String;
-	FIELD b field_1028_b F
-	FIELD c field_1030_c F
-	METHOD a func_738_a ()F
-	METHOD b func_739_b ()F
-	METHOD c func_737_c ()Ljava/lang/String;
+	FIELD a soundName Ljava/lang/String;
+	FIELD b soundVolume F
+	FIELD c soundPitch F
+	METHOD <init> (Ljava/lang/String;FF)V
+		ARG 1 soundName
+		ARG 2 volume
+		ARG 3 pitch
+	METHOD a getSoundVolume ()F
+	METHOD b getSoundPitch ()F
+	METHOD c getSoundNameAgain ()Ljava/lang/String;

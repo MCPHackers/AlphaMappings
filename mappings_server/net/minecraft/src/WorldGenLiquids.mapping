@@ -1,3 +1,2 @@
 CLASS is net/minecraft/src/WorldGenLiquids
 	FIELD a liquidBlockId I
-	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z

@@ -1,4 +1,9 @@
 CLASS ef net/minecraft/src/Packet13PlayerLookMove
-	METHOD a func_71_a ()I
-	METHOD a func_70_a (Ljava/io/DataInputStream;)V
-	METHOD a func_68_a (Ljava/io/DataOutputStream;)V
+	METHOD <init> (DDDDFFZ)V
+		ARG 1 posX
+		ARG 3 boundBoxMinY
+		ARG 5 posY
+		ARG 7 posZ
+		ARG 9 yaw
+		ARG 10 pitch
+		ARG 11 onGround

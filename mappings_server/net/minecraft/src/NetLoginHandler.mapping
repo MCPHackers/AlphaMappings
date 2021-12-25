@@ -9,12 +9,8 @@ CLASS fq net/minecraft/src/NetLoginHandler
 	FIELD h field_9004_h Lad;
 	FIELD i serverId Ljava/lang/String;
 	METHOD a tryLogin ()V
-	METHOD a handleLogin (Lad;)V
-	METHOD a handleHandshake (Lf;)V
 	METHOD a getServerId (Lfq;)Ljava/lang/String;
 	METHOD a setLoginPacket (Lfq;Lad;)Lad;
-	METHOD a func_6001_a (Lir;)V
-	METHOD a handleErrorMessage (Ljava/lang/String;)V
 	METHOD b getUserAndIPString ()Ljava/lang/String;
 	METHOD b doLogin (Lad;)V
 	METHOD b kickUser (Ljava/lang/String;)V

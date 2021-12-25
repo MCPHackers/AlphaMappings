@@ -1,8 +1,8 @@
 CLASS nf net/minecraft/src/Packet30Entity
 	FIELD a entityId I
-	FIELD b xPosition B
-	FIELD c yPosition B
-	FIELD d zPosition B
+	FIELD b xPosOffset B
+	FIELD c yPosOffset B
+	FIELD d zPosOffset B
 	FIELD e yaw B
 	FIELD f pitch B
 	FIELD g rotating Z

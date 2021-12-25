@@ -1,9 +1,0 @@
-CLASS fs net/minecraft/src/Packet28
-	FIELD a field_6040_a I
-	FIELD b field_6039_b I
-	FIELD c field_6042_c I
-	FIELD d field_6041_d I
-	METHOD a func_71_a ()I
-	METHOD a func_72_a (Lfa;)V
-	METHOD a func_70_a (Ljava/io/DataInputStream;)V
-	METHOD a func_68_a (Ljava/io/DataOutputStream;)V

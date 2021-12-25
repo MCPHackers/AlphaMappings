@@ -17,13 +17,13 @@ CLASS dl net/minecraft/src/PathFinder
 		ARG 2 posX
 		ARG 4 posY
 		ARG 6 posZ
-		ARG 8 float5
+		ARG 8 maxDistance
 	METHOD a createEntityPathTo (Llu;IIIF)Lbt;
 		ARG 1 entity
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-		ARG 5 float5
+		ARG 5 maxDistance
 	METHOD a getVerticalOffset (Llu;IIILb;)I
 		ARG 1 entity
 		ARG 2 xCoord
@@ -42,14 +42,14 @@ CLASS dl net/minecraft/src/PathFinder
 		ARG 2 pathpoint1
 		ARG 3 pathpoint2
 		ARG 4 pathpoint3
-		ARG 5 float5
+		ARG 5 maxDistance
 	METHOD a createEntityPathTo (Llu;Llu;F)Lbt;
 		ARG 1 entity1
 		ARG 2 entity2
-		ARG 3 float3
+		ARG 3 maxDistance
 	METHOD b findPathOptions (Llu;Lb;Lb;Lb;F)I
 		ARG 1 entity
 		ARG 2 pathpoint1
 		ARG 3 pathpoint2
 		ARG 4 pathpoint3
-		ARG 5 float5
+		ARG 5 maxDistance

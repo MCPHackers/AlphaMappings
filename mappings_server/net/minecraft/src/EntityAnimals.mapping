@@ -1,6 +1,1 @@
 CLASS ax net/minecraft/src/EntityAnimals
-	METHOD a func_155_a ()Z
-	METHOD a func_159_a (III)F
-	METHOD a writeEntityToNBT (Lv;)V
-	METHOD b func_146_b ()I
-	METHOD b readEntityFromNBT (Lv;)V

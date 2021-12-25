@@ -1,2 +1,4 @@
 CLASS je net/minecraft/src/ItemHoe
-	METHOD a onItemUse (Lhl;Lfx;Leo;IIII)Z
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 toolTier

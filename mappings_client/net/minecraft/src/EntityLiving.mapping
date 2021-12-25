@@ -32,7 +32,7 @@ CLASS he net/minecraft/src/EntityLiving
 	FIELD ad serverClientPitch D
 	FIELD ae field_9348_ae F
 	FIELD af field_9346_af I
-	FIELD ag field_9344_ag I
+	FIELD ag mobDespawnTimer I
 	FIELD ah moveStrafing F
 	FIELD ai moveForward F
 	FIELD aj randomYawVelocity F
@@ -68,8 +68,8 @@ CLASS he net/minecraft/src/EntityLiving
 		ARG 5 double4
 	METHOD b func_421_b ()I
 	METHOD b moveEntityWithHeading (FF)V
-		ARG 1 float1
-		ARG 2 float2
+		ARG 1 moveStrafing
+		ARG 2 moveForward
 	METHOD b updateRotation (FFF)F
 		ARG 1 float1
 		ARG 2 float2
@@ -87,7 +87,7 @@ CLASS he net/minecraft/src/EntityLiving
 	METHOD d getLivingSound ()Ljava/lang/String;
 	METHOD d getSwingProgress (F)F
 		ARG 1 float1
-	METHOD d func_420_c (Llu;)Z
+	METHOD d canMobSeePlayer (Llu;)Z
 		ARG 1 entity
 	METHOD e getPosition (F)Lao;
 		ARG 1 float1

@@ -1,4 +1,10 @@
 CLASS kr net/minecraft/src/Explosion
-	FIELD a field_4267_a Z
-	FIELD b field_4266_b Ljava/util/Random;
-	METHOD a func_901_a (Lcx;Llu;DDDF)V
+	FIELD a spawnFire Z
+	FIELD b explosionRand Ljava/util/Random;
+	METHOD a createExplosion (Lcx;Llu;DDDF)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 xPos
+		ARG 5 yPos
+		ARG 7 zPos
+		ARG 9 explosionSize

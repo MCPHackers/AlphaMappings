@@ -1,5 +1,5 @@
 CLASS p net/minecraft/src/Packet5PlayerInventory
-	FIELD a type I
+	FIELD a inventoryType I
 	FIELD b stacks [Lfo;
 	METHOD <init> (I[Lfo;)V
 		ARG 1 type

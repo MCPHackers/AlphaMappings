@@ -1,5 +1,2 @@
 CLASS bo net/minecraft/src/NBTTagInt
 	FIELD a intValue I
-	METHOD a getType ()B
-	METHOD a readTagContents (Ljava/io/DataInput;)V
-	METHOD a writeTagContents (Ljava/io/DataOutput;)V

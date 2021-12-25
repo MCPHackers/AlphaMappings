@@ -1,11 +1,10 @@
 CLASS ol net/minecraft/src/ChunkPosition
-	FIELD a x I
-	FIELD b y I
-	FIELD c z I
+	FIELD a xCoord I
+	FIELD b yCoord I
+	FIELD c zCoord I
 	METHOD <init> (III)V
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 object
-	METHOD hashCode ()I

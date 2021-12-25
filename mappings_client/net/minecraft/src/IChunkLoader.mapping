@@ -1,5 +1,5 @@
 CLASS ai net/minecraft/src/IChunkLoader
-	METHOD a func_814_a ()V
+	METHOD a doAbsolutelyNothing ()V
 	METHOD a loadChunk (Lcx;II)Lgz;
 		ARG 1 world
 		ARG 2 chunkXPos

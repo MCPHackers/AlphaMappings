@@ -1,9 +1,8 @@
 CLASS ge net/minecraft/src/WorldChunkManagerHell
-	FIELD e field_4262_e Lim;
-	FIELD f field_4261_f D
-	FIELD g field_4260_g D
-	METHOD a func_4067_a (II)Lim;
-	METHOD a func_4065_a (IIII)[Lim;
-	METHOD a func_4066_a (Lkf;)Lim;
-	METHOD a getTemperatures ([DIIII)[D
-	METHOD a loadBlockGeneratorData ([Lim;IIII)[Lim;
+	FIELD e netherBiome Lim;
+	FIELD f netherTemperature D
+	FIELD g netherHumidity D
+	METHOD <init> (Lim;DD)V
+		ARG 1 netherBiome
+		ARG 2 temperature
+		ARG 4 humidity

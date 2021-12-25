@@ -1,6 +1,10 @@
 CLASS kf net/minecraft/src/ChunkCoordIntPair
-	FIELD a field_152_a I
-	FIELD b field_151_b I
+	FIELD a chunkXPos I
+	FIELD b chunkZPos I
+	METHOD <init> (II)V
+		ARG 1 xPos
+		ARG 2 zPos
 	METHOD a func_73_a (Ldx;)D
+		ARG 1 entity
 	METHOD equals (Ljava/lang/Object;)Z
-	METHOD hashCode ()I
+		ARG 1 object

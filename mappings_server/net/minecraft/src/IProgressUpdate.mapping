@@ -1,4 +1,4 @@
 CLASS ja net/minecraft/src/IProgressUpdate
-	METHOD a func_437_a (I)V
-	METHOD a func_438_a (Ljava/lang/String;)V
-	METHOD b func_439_b (Ljava/lang/String;)V
+	METHOD a setSavingChunksProgress (I)V
+	METHOD a printText (Ljava/lang/String;)V
+	METHOD b displayLoadingString (Ljava/lang/String;)V

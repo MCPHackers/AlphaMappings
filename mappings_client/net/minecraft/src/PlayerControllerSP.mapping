@@ -4,5 +4,5 @@ CLASS jf net/minecraft/src/PlayerControllerSP
 	FIELD e currentZCoord I
 	FIELD f currentBlockDamage F
 	FIELD g prevBlockDamage F
-	FIELD h field_1069_h F
-	FIELD i field_1068_i I
+	FIELD h miningSoundTimer F
+	FIELD i miningDelay I

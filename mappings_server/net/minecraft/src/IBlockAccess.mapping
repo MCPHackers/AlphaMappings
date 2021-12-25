@@ -1,5 +1,17 @@
 CLASS it net/minecraft/src/IBlockAccess
 	METHOD a getBlockId (III)I
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD b getBlockMetadata (III)I
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD c getBlockMaterial (III)Ljw;
-	METHOD d doesBlockAllowAttachment (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD d isBlockOpaqueCube (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord

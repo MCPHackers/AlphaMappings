@@ -15,11 +15,9 @@ CLASS hc net/minecraft/src/WorldGenBigTree
 	FIELD n field_747_n I
 	FIELD o field_746_o [[I
 	METHOD a func_424_a ()V
-	METHOD a func_420_a (DDD)V
 	METHOD a func_431_a (I)F
 	METHOD a func_423_a (III)V
 	METHOD a func_426_a (IIIFBI)V
-	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z
 	METHOD a func_427_a ([I[I)I
 	METHOD a func_425_a ([I[II)V
 	METHOD b func_421_b ()V

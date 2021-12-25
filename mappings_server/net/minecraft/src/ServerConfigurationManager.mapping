@@ -3,32 +3,43 @@ CLASS gp net/minecraft/src/ServerConfigurationManager
 	FIELD b playerEntities Ljava/util/List;
 	FIELD c mcServer Lnet/minecraft/server/MinecraftServer;
 	FIELD d playerManagerObj Lif;
-	FIELD e field_9253_e I
-	FIELD f field_9252_f Ljava/util/Set;
+	FIELD e maxPlayerCount I
+	FIELD f bannedUsers Ljava/util/Set;
 	FIELD g bannedIPs Ljava/util/Set;
 	FIELD h ops Ljava/util/Set;
 	FIELD i bannedPlayersFile Ljava/io/File;
-	FIELD j field_9251_j Ljava/io/File;
-	FIELD k field_9250_k Ljava/io/File;
+	FIELD j bannedIPsFile Ljava/io/File;
+	FIELD k opsFile Ljava/io/File;
 	FIELD l playerNBTManagerObj Lcy;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 minecraftServer
 	METHOD a func_640_a ()I
 	METHOD a func_622_a (III)V
 	METHOD a func_636_a (IIILay;)V
 	METHOD a playerLoggedIn (Ler;)V
+		ARG 1 entityplayermp
 	METHOD a func_618_a (Lev;)V
+		ARG 1 worldserver
 	METHOD a login (Lfq;Ljava/lang/String;Ljava/lang/String;)Ler;
-	METHOD a func_631_a (Lir;)V
+		ARG 1 netloginhandler
+		ARG 2 username
+		ARG 3 string3
+	METHOD a sendPacketToAllPlayers (Lir;)V
+		ARG 1 packet
 	METHOD a func_9241_a (Ljava/lang/String;)V
 	METHOD a func_621_a (Ljava/lang/String;Lir;)Z
 	METHOD a func_628_a (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD b func_637_b ()V
 	METHOD b func_613_b (Ler;)V
+		ARG 1 entityplayermp
 	METHOD b func_9244_b (Ljava/lang/String;)V
 	METHOD c func_633_c ()Ljava/lang/String;
 	METHOD c playerLoggedOut (Ler;)V
+		ARG 1 entityplayermp
 	METHOD c func_9247_c (Ljava/lang/String;)V
 	METHOD d func_617_d ()V
 	METHOD d func_9242_d (Ler;)Ler;
+		ARG 1 entityplayermp
 	METHOD d func_9240_d (Ljava/lang/String;)V
 	METHOD e readBannedPlayers ()V
 	METHOD e func_9243_e (Ljava/lang/String;)V

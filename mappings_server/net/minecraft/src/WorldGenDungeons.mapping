@@ -1,4 +1,3 @@
 CLASS dy net/minecraft/src/WorldGenDungeons
-	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z
 	METHOD a func_434_a (Ljava/util/Random;)Lhl;
 	METHOD b func_433_b (Ljava/util/Random;)Ljava/lang/String;

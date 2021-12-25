@@ -9,7 +9,12 @@ CLASS b net/minecraft/src/PathPoint
 	FIELD h distanceToTarget F
 	FIELD i previous Lb;
 	FIELD j isFirst Z
+	METHOD <init> (III)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD a isAssigned ()Z
 	METHOD a distanceTo (Lb;)F
+		ARG 1 pathpoint
 	METHOD equals (Ljava/lang/Object;)Z
-	METHOD hashCode ()I
+		ARG 1 object

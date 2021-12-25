@@ -93,31 +93,37 @@ CLASS lu net/minecraft/src/Entity
 		ARG 7 someYaw
 		ARG 8 somePitch
 		ARG 9 iDontEvenKnow
-	METHOD a func_9279_a (DZ)V
+	METHOD a somethingWithFalling (DZ)V
+		ARG 1 yOffset
+		ARG 3 isOnGround
 	METHOD a getEntityBrightness (F)F
 		ARG 1 float1
 	METHOD a setSize (FF)V
 		ARG 1 float1
 		ARG 2 float2
 	METHOD a moveFlying (FFF)V
-	METHOD a func_355_a (I)V
+		ARG 1 moveStrafing
+		ARG 2 moveForward
+	METHOD a damageEntityFromFire (I)V
 		ARG 1 damageTaken
 	METHOD a dropItemWithOffset (IIF)Len;
 		ARG 1 itemID
 		ARG 2 itemCount
 		ARG 3 yOffset
 	METHOD a func_390_a (Lao;)Z
+		ARG 1 vec3d
 	METHOD a setWorld (Lcx;)V
 	METHOD a interact (Lea;)Z
 		ARG 1 entityplayer
 	METHOD a isInsideOfMaterial (Lha;)Z
+		ARG 1 material
 	METHOD a writeEntityToNBT (Lip;)V
 		ARG 1 nbttagcompound
-	METHOD a func_383_b_ (Llu;)Lcn;
+	METHOD a getCollidingBoundingBox (Llu;)Lcn;
 		ARG 1 entity
 	METHOD a attackEntityFrom (Llu;I)Z
 		ARG 1 entity
-		ARG 2 damageTaken
+		ARG 2 damageAmount
 	METHOD a func_375_a ([D)Llw;
 		ARG 1 arr
 	METHOD a func_377_a ([F)Llw;
@@ -137,7 +143,7 @@ CLASS lu net/minecraft/src/Entity
 	METHOD c isOffsetPositionInLiquid (DDD)Z
 	METHOD c setLocationAndAngles (DDDFF)V
 	METHOD c fall (F)V
-		ARG 1 float1
+		ARG 1 fallDistance
 	METHOD c setRotation (FF)V
 		ARG 1 float1
 		ARG 2 float2
@@ -145,8 +151,11 @@ CLASS lu net/minecraft/src/Entity
 		ARG 1 nbttagcompound
 	METHOD c addToPlayerScore (Llu;I)V
 		ARG 1 entity
-		ARG 2 integer2
+		ARG 2 scoreToAdd
 	METHOD d moveEntity (DDD)V
+		ARG 1 xOffset
+		ARG 3 yOffset
+		ARG 5 zOffset
 	METHOD d func_346_d (FF)V
 		ARG 1 float1
 		ARG 2 float2
@@ -179,4 +188,4 @@ CLASS lu net/minecraft/src/Entity
 	METHOD s updateRidden ()V
 	METHOD t preparePlayerToSpawn ()V
 	METHOD v getEyeHeight ()F
-	METHOD y func_388_v ()D
+	METHOD y getYOffset ()D

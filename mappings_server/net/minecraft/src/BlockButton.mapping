@@ -1,17 +1,9 @@
 CLASS ap net/minecraft/src/BlockButton
-	METHOD a allowsAttachment ()Z
-	METHOD a canPlaceBlockAt (Leo;III)Z
-	METHOD a blockActivated (Leo;IIILfx;)Z
-	METHOD a updateTick (Leo;IIILjava/util/Random;)V
-	METHOD a setBlockBoundsBasedOnState (Lit;III)V
-	METHOD b tickRate ()I
-	METHOD b onBlockRemoval (Leo;III)V
-	METHOD b onNeighborBlockChange (Leo;IIII)V
-	METHOD b onBlockClicked (Leo;IIILfx;)V
-	METHOD b isPoweringTo (Lit;IIII)Z
-	METHOD c canProvidePower ()Z
-	METHOD c onBlockPlaced (Leo;IIII)V
-	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
-	METHOD d isIndirectlyPoweringTo (Leo;IIII)Z
-	METHOD e onBlockAdded (Leo;III)V
-	METHOD g func_322_g (Leo;III)Z
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+	METHOD g canButtonStay (Leo;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

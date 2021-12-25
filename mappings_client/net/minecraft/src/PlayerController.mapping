@@ -3,7 +3,7 @@ CLASS iu net/minecraft/src/PlayerController
 	FIELD b instaBreak Z
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
-	METHOD a resetBlockClickingState ()V
+	METHOD a resetMiningState ()V
 	METHOD a setPartialTime (F)V
 		ARG 1 float1
 	METHOD a clickBlock (IIII)V

@@ -1,5 +1,8 @@
 CLASS jx net/minecraft/src/ChunkCoordinates
-	FIELD a field_529_a I
-	FIELD b field_528_b I
+	FIELD a chunkXPos I
+	FIELD b chunkZPos I
+	METHOD <init> (II)V
+		ARG 1 xPos
+		ARG 2 zPos
 	METHOD equals (Ljava/lang/Object;)Z
-	METHOD hashCode ()I
+		ARG 1 object

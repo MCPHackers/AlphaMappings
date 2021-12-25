@@ -1,3 +1,1 @@
 CLASS ez net/minecraft/src/BlockMushroom
-	METHOD b canThisPlantGrowOnThisBlockID (I)Z
-	METHOD f canBlockStay (Leo;III)Z

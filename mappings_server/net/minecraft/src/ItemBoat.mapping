@@ -1,2 +1,1 @@
 CLASS gn net/minecraft/src/ItemBoat
-	METHOD a onItemRightClick (Lhl;Leo;Lfx;)Lhl;

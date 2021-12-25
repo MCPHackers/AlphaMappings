@@ -1,18 +1,19 @@
 CLASS bp net/minecraft/src/EntityFireball
-	FIELD a field_9200_a I
-	FIELD aj field_9197_aj I
-	FIELD ak field_9194_ak I
-	FIELD al field_9192_al Z
-	FIELD am field_9191_am Ljy;
+	FIELD a shake I
+	FIELD aj zTile I
+	FIELD ak inTile I
+	FIELD al inGround Z
+	FIELD am entityliving Ljy;
 	FIELD an field_9190_an I
 	FIELD ao field_9189_ao I
-	FIELD b field_9199_b D
-	FIELD c field_9198_c D
-	FIELD d field_9196_d D
-	FIELD e field_9195_e I
-	FIELD f field_9193_f I
-	METHOD a attackEntity (Ldx;I)Z
-	METHOD a writeEntityToNBT (Lv;)V
-	METHOD b readEntityFromNBT (Lv;)V
-	METHOD b_ onUpdate ()V
-	METHOD c_ func_129_c_ ()Z
+	FIELD b offsetMotionX D
+	FIELD c offsetMotionY D
+	FIELD d offsetMotionZ D
+	FIELD e xTile I
+	FIELD f yTile I
+	METHOD <init> (Leo;Ljy;DDD)V
+		ARG 1 world
+		ARG 2 entityliving
+		ARG 3 double3
+		ARG 5 double4
+		ARG 7 double5

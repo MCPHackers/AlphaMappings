@@ -10,4 +10,4 @@ CLASS ay net/minecraft/src/TileEntity
 	METHOD b updateEntity ()V
 	METHOD b writeToNBT (Lv;)V
 	METHOD c func_183_c ()V
-	METHOD c func_185_c (Lv;)Lay;
+	METHOD c createAndLoadTileEntity (Lv;)Lay;

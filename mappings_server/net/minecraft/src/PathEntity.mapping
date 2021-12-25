@@ -1,7 +1,10 @@
 CLASS cq net/minecraft/src/PathEntity
 	FIELD a pathLength I
-	FIELD b field_1004_b [Lb;
+	FIELD b points [Lb;
 	FIELD c pathIndex I
+	METHOD <init> ([Lb;)V
+		ARG 1 pointsArray
 	METHOD a incrementPathIndex ()V
 	METHOD a getPosition (Ldx;)Lbd;
+		ARG 1 entity
 	METHOD b isFinished ()Z

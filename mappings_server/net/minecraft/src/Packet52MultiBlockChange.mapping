@@ -5,7 +5,9 @@ CLASS ih net/minecraft/src/Packet52MultiBlockChange
 	FIELD d typeArray [B
 	FIELD e metadataArray [B
 	FIELD f size I
-	METHOD a func_71_a ()I
-	METHOD a func_72_a (Lfa;)V
-	METHOD a func_70_a (Ljava/io/DataInputStream;)V
-	METHOD a func_68_a (Ljava/io/DataOutputStream;)V
+	METHOD <init> (II[SILeo;)V
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+		ARG 3 someBlockCoordArray
+		ARG 4 sizeOfVikkisDollCollection
+		ARG 5 world

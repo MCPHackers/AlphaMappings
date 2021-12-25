@@ -1,3 +1,5 @@
 CLASS ka net/minecraft/src/ItemReed
-	FIELD a field_253_a I
-	METHOD a onItemUse (Lhl;Lfx;Leo;IIII)Z
+	FIELD a reedBlock I
+	METHOD <init> (ILga;)V
+		ARG 1 itemID
+		ARG 2 reedBlock

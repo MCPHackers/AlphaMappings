@@ -1,10 +1,19 @@
 CLASS hf net/minecraft/src/MathHelper
-	FIELD a field_886_a [F
+	FIELD a SIN_TABLE [F
 	METHOD a sqrt_double (D)F
+		ARG 0 double1
 	METHOD a abs_max (DD)D
+		ARG 0 double1
+		ARG 2 double2
 	METHOD a sin (F)F
-	METHOD b convertToBlockCoord_double (D)I
+		ARG 0 float1
+	METHOD b floor_double (D)I
+		ARG 0 double1
 	METHOD b cos (F)F
+		ARG 0 float1
 	METHOD c sqrt_float (F)F
-	METHOD d convertToBlockCoord_float (F)I
+		ARG 0 float1
+	METHOD d floor_float (F)I
+		ARG 0 float1
 	METHOD e abs (F)F
+		ARG 0 float1

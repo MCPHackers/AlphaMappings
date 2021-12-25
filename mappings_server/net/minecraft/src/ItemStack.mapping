@@ -3,18 +3,59 @@ CLASS hl net/minecraft/src/ItemStack
 	FIELD b animationsToGo I
 	FIELD c itemID I
 	FIELD d itemDamage I
-	METHOD a func_569_a ()Lfu;
-	METHOD a func_579_a (I)V
-	METHOD a func_568_a (IIII)V
-	METHOD a func_9218_a (Ldx;)I
-	METHOD a func_6168_a (Leo;Lfx;)Lhl;
-	METHOD a func_577_a (Lfx;)V
-	METHOD a func_572_a (Lfx;Leo;IIII)Z
-	METHOD a func_574_a (Lga;)F
-	METHOD a func_9217_a (Ljy;)V
-	METHOD a func_570_a (Lv;)Lv;
-	METHOD b func_576_b ()I
-	METHOD b func_573_b (Lga;)Z
-	METHOD b func_575_b (Lv;)V
-	METHOD c func_571_c ()I
-	METHOD d func_578_d ()Lhl;
+	METHOD <init> (I)V
+		ARG 1 itemID
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 stackSize
+	METHOD <init> (III)V
+		ARG 1 itemID
+		ARG 2 stackSize
+		ARG 3 itemDamage
+	METHOD <init> (Lfu;)V
+		ARG 1 item
+	METHOD <init> (Lfu;I)V
+		ARG 1 item
+		ARG 2 stackSize
+	METHOD <init> (Lga;)V
+		ARG 1 block
+	METHOD <init> (Lga;I)V
+		ARG 1 block
+		ARG 2 stackSize
+	METHOD <init> (Lv;)V
+		ARG 1 nbttagcompound
+	METHOD a getItem ()Lfu;
+	METHOD a damageItem (I)V
+		ARG 1 damageAmount
+	METHOD a hitBlock (IIII)V
+		ARG 1 blockID
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD a getDamageVsEntity (Ldx;)I
+		ARG 1 entity
+	METHOD a useItemRightClick (Leo;Lfx;)Lhl;
+		ARG 1 world
+		ARG 2 entityplayer
+	METHOD a doNothingWhenStackSizeHitsZero (Lfx;)V
+		ARG 1 entityplayer
+	METHOD a useItem (Lfx;Leo;IIII)Z
+		ARG 1 entityplayer
+		ARG 2 world
+		ARG 3 xCoord
+		ARG 4 yCoord
+		ARG 5 zCoord
+		ARG 6 blockSide
+	METHOD a getStrVsBlock (Lga;)F
+		ARG 1 block
+	METHOD a hitEntity (Ljy;)V
+		ARG 1 entityliving
+	METHOD a writeToNBT (Lv;)Lv;
+		ARG 1 nbttagcompound
+	METHOD b getMaxStackSize ()I
+	METHOD b canHarvestBlock (Lga;)Z
+		ARG 1 block
+	METHOD b readFromNBT (Lv;)V
+		ARG 1 nbttagcompound
+	METHOD c getMaxDamage ()I
+	METHOD d copy ()Lhl;

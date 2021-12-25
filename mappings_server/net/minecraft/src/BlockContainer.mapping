@@ -1,4 +1,2 @@
 CLASS df net/minecraft/src/BlockContainer
-	METHOD a_ func_294_a_ ()Lay;
-	METHOD b onBlockRemoval (Leo;III)V
-	METHOD e onBlockAdded (Leo;III)V
+	METHOD a_ getBlockEntity ()Lay;

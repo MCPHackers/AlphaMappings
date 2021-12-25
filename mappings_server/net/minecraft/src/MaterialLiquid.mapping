@@ -1,4 +1,1 @@
 CLASS dn net/minecraft/src/MaterialLiquid
-	METHOD a func_216_a ()Z
-	METHOD c func_218_c ()Z
-	METHOD d func_217_d ()Z

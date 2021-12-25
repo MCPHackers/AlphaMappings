@@ -1,2 +1,1 @@
 CLASS hh net/minecraft/src/WorldGenReed
-	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z

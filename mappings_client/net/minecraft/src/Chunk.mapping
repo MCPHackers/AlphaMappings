@@ -68,7 +68,7 @@ CLASS gz net/minecraft/src/Chunk
 		ARG 1 entityClass
 		ARG 2 axisalignedbb
 		ARG 3 entityList
-	METHOD a func_1001_a (Ljh;)V
+	METHOD a setChunkBlockTileEntityIndirectly (Ljh;)V
 		ARG 1 tileentity
 	METHOD a addEntity (Llu;)V
 		ARG 1 entity
@@ -107,8 +107,8 @@ CLASS gz net/minecraft/src/Chunk
 		ARG 1 entity
 	METHOD c maybeUpdateHeightMap ()V
 	METHOD c compareHeightMapNeighbors (II)V
-		ARG 1 integer1
-		ARG 2 integer2
+		ARG 1 xCoord
+		ARG 2 zCoord
 	METHOD c canBlockSeeTheSky (III)Z
 		ARG 1 xCoord
 		ARG 2 yCoord
@@ -130,11 +130,11 @@ CLASS gz net/minecraft/src/Chunk
 		ARG 3 zCoord
 	METHOD f onChunkUnload ()V
 	METHOD f compareHeightMapNeighborForLighting (III)V
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
+		ARG 1 xCoord
+		ARG 2 zCoord
+		ARG 3 oldYCoord
 	METHOD g setChunkModified ()V
 	METHOD g func_1003_g (III)V
-		ARG 1 integer1
-		ARG 2 integer2
-		ARG 3 integer3
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord

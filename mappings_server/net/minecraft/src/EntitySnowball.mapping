@@ -9,7 +9,3 @@ CLASS bg net/minecraft/src/EntitySnowball
 	FIELD e field_459_af I
 	FIELD f field_457_ag Z
 	METHOD a func_6141_a (DDDFF)V
-	METHOD a writeEntityToNBT (Lv;)V
-	METHOD b onCollideWithPlayer (Lfx;)V
-	METHOD b readEntityFromNBT (Lv;)V
-	METHOD b_ onUpdate ()V

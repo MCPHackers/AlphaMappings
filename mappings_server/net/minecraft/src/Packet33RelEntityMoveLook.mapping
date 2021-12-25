@@ -1,4 +1,8 @@
 CLASS bq net/minecraft/src/Packet33RelEntityMoveLook
-	METHOD a func_71_a ()I
-	METHOD a func_70_a (Ljava/io/DataInputStream;)V
-	METHOD a func_68_a (Ljava/io/DataOutputStream;)V
+	METHOD <init> (IBBBBB)V
+		ARG 1 entityId
+		ARG 2 xOffset
+		ARG 3 yOffset
+		ARG 4 zOffset
+		ARG 5 yaw
+		ARG 6 pitch

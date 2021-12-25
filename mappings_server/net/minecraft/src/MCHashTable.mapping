@@ -5,10 +5,10 @@ CLASS ie net/minecraft/src/MCHashTable
 	FIELD d growFactor F
 	FIELD e versionStamp I
 	METHOD a func_551_a ()V
-	METHOD a func_550_a (I)Ljava/lang/Object;
+	METHOD a lookup (I)Ljava/lang/Object;
 	METHOD a func_555_a (II)I
 	METHOD a func_547_a (IILjava/lang/Object;I)V
-	METHOD a func_554_a (ILjava/lang/Object;)V
+	METHOD a addKey (ILjava/lang/Object;)V
 	METHOD a func_549_a ([Lhu;)V
 	METHOD b containsItem (I)Z
 	METHOD c lookupEntry (I)Lhu;

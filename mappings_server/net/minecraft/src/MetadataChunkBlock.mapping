@@ -1,5 +1,5 @@
 CLASS ee net/minecraft/src/MetadataChunkBlock
-	FIELD a field_957_a Ldl;
+	FIELD a thisEnumSkyBlock Ldl;
 	FIELD b field_956_b I
 	FIELD c field_962_c I
 	FIELD d field_961_d I
@@ -7,4 +7,4 @@ CLASS ee net/minecraft/src/MetadataChunkBlock
 	FIELD f field_959_f I
 	FIELD g field_958_g I
 	METHOD a func_692_a (IIIIII)Z
-	METHOD a func_4107_a (Leo;)V
+	METHOD a updateBlockLight (Leo;)V

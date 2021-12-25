@@ -1,12 +1,10 @@
 CLASS fr net/minecraft/src/Packet30Entity
 	FIELD a entityId I
-	FIELD b xPosition B
-	FIELD c yPosition B
-	FIELD d zPosition B
+	FIELD b xPosOffset B
+	FIELD c yPosOffset B
+	FIELD d zPosOffset B
 	FIELD e yaw B
 	FIELD f pitch B
 	FIELD g rotating Z
-	METHOD a func_71_a ()I
-	METHOD a func_72_a (Lfa;)V
-	METHOD a func_70_a (Ljava/io/DataInputStream;)V
-	METHOD a func_68_a (Ljava/io/DataOutputStream;)V
+	METHOD <init> (I)V
+		ARG 1 entityId

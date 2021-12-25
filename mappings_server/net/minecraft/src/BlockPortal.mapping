@@ -1,9 +1,9 @@
 CLASS ai net/minecraft/src/BlockPortal
-	METHOD a allowsAttachment ()Z
-	METHOD a onEntityCollidedWithBlock (Leo;IIILdx;)V
-	METHOD a setBlockBoundsBasedOnState (Lit;III)V
-	METHOD a isSideInsideCoordinate (Lit;IIII)Z
-	METHOD a quantityDropped (Ljava/util/Random;)I
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
 	METHOD a_ tryToCreatePortal (Leo;III)Z
-	METHOD b onNeighborBlockChange (Leo;IIII)V
-	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

@@ -1,2 +1,1 @@
 CLASS k net/minecraft/src/BlockGravel
-	METHOD a idDropped (ILjava/util/Random;)I

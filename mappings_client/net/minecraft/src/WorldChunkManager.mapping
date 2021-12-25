@@ -22,14 +22,14 @@ CLASS pm net/minecraft/src/WorldChunkManager
 		ARG 1 temperatureArray
 		ARG 2 xPosition
 		ARG 3 zPosition
-		ARG 4 xArrayOffset
-		ARG 5 zArrayOffset
+		ARG 4 xSize
+		ARG 5 zSize
 	METHOD a loadBlockGeneratorData ([Lgf;IIII)[Lgf;
 		ARG 1 biomeGenArray
 		ARG 2 xCoord
 		ARG 3 zCoord
-		ARG 4 xArrayOffset
-		ARG 5 zArrayOffset
+		ARG 4 xSize
+		ARG 5 zSize
 	METHOD b getTemperatureAtChunkCorner (II)D
 		ARG 1 xCoord
 		ARG 2 zCoord

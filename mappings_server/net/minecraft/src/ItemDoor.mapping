@@ -1,3 +1,5 @@
 CLASS gw net/minecraft/src/ItemDoor
-	FIELD a field_260_a Ljw;
-	METHOD a onItemUse (Lhl;Lfx;Leo;IIII)Z
+	FIELD a doorMaterial Ljw;
+	METHOD <init> (ILjw;)V
+		ARG 1 itemID
+		ARG 2 doorMaterial

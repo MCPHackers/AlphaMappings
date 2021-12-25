@@ -1,4 +1,7 @@
 CLASS hw net/minecraft/src/BlockBreakable
 	FIELD a field_6084_a Z
-	METHOD a allowsAttachment ()Z
-	METHOD a isSideInsideCoordinate (Lit;IIII)Z
+	METHOD <init> (IILjw;Z)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+		ARG 3 material
+		ARG 4 boolean4

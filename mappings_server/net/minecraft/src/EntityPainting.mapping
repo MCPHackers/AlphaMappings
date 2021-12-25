@@ -1,15 +1,18 @@
 CLASS ch net/minecraft/src/EntityPainting
-	FIELD a field_448_a I
-	FIELD b field_9185_b Lhg;
-	FIELD c field_452_ad I
-	FIELD d field_9188_d I
-	FIELD e field_9187_e I
-	FIELD f field_9186_f I
+	FIELD a direction I
+	FIELD b art Lhg;
+	FIELD c validStateCheckCounter I
+	FIELD d xPosition I
+	FIELD e yPosition I
+	FIELD f zPosition I
+	METHOD <init> (Leo;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 paintingDirection
 	METHOD a func_179_a (I)V
-	METHOD a attackEntity (Ldx;I)Z
-	METHOD a writeEntityToNBT (Lv;)V
-	METHOD b readEntityFromNBT (Lv;)V
-	METHOD b_ onUpdate ()V
-	METHOD c func_181_b ()Z
-	METHOD c func_180_c (I)F
-	METHOD c_ func_129_c_ ()Z
+		ARG 1 paintingDirection
+	METHOD c canPaintingStay ()Z
+	METHOD c offsetPaintingBySize (I)F
+		ARG 1 artSize

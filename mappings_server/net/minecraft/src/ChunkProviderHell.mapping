@@ -6,24 +6,34 @@ CLASS by net/minecraft/src/ChunkProviderHell
 	FIELD e field_4244_e [D
 	FIELD f field_4243_f [D
 	FIELD g field_4242_g [D
-	FIELD h field_4241_h Ljava/util/Random;
-	FIELD i field_4240_i Lfp;
-	FIELD j field_4239_j Lfp;
-	FIELD k field_4238_k Lfp;
-	FIELD l field_4237_l Lfp;
+	FIELD h rand Ljava/util/Random;
+	FIELD i highNoise Lfp;
+	FIELD j lowNoise Lfp;
+	FIELD k selectorNoise Lfp;
+	FIELD l netherBeachNoise Lfp;
 	FIELD m field_4236_m Lfp;
-	FIELD n field_4235_n Leo;
+	FIELD n worldObj Leo;
 	FIELD o field_4234_o [D
-	FIELD p field_4233_p [D
-	FIELD q field_4232_q [D
+	FIELD p soulSandNoiseArray [D
+	FIELD q gravelNoiseArray [D
 	FIELD r field_4231_r [D
-	FIELD s field_4230_s Lfe;
-	METHOD a func_361_a ()Z
-	METHOD a chunkExists (II)Z
-	METHOD a func_4062_a (II[B)V
-	METHOD a populate (Lbu;II)V
-	METHOD a func_360_a (ZLja;)Z
+	FIELD s netherChunkCaveGen Lfe;
+	METHOD <init> (Leo;J)V
+		ARG 1 world
+		ARG 2 worldSeed
+	METHOD a generateTerrain (II[B)V
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+		ARG 3 chunkBlockArray
 	METHOD a func_4060_a ([DIIIIII)[D
-	METHOD b func_364_b ()Z
-	METHOD b func_363_b (II)Ljs;
-	METHOD b func_4061_b (II[B)V
+		ARG 1 someChunkArray
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 xSize
+		ARG 6 ySize
+		ARG 7 zSize
+	METHOD b replaceBlocksForSurface (II[B)V
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+		ARG 3 chunkBlockArray

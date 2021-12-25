@@ -2,8 +2,8 @@ CLASS ms net/minecraft/src/ChunkLoader
 	FIELD a saveDir Ljava/io/File;
 	FIELD b createIfNecessary Z
 	METHOD <init> (Ljava/io/File;Z)V
-		ARG 1 file
-		ARG 2 boolean2
+		ARG 1 saveDirectory
+		ARG 2 shouldCreate
 	METHOD a chunkFileForXZ (II)Ljava/io/File;
 		ARG 1 chunkXPos
 		ARG 2 chunkZPos

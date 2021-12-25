@@ -1,5 +1,10 @@
 CLASS iw net/minecraft/src/RedstoneUpdateInfo
-	FIELD a field_775_a I
-	FIELD b field_774_b I
-	FIELD c field_777_c I
-	FIELD d field_776_d J
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d updateTime J
+	METHOD <init> (IIIJ)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 updateTime

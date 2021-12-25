@@ -1,7 +1,6 @@
 CLASS cs net/minecraft/src/Packet22Collect
 	FIELD a collectedEntityId I
 	FIELD b collectorEntityId I
-	METHOD a func_71_a ()I
-	METHOD a func_72_a (Lfa;)V
-	METHOD a func_70_a (Ljava/io/DataInputStream;)V
-	METHOD a func_68_a (Ljava/io/DataOutputStream;)V
+	METHOD <init> (II)V
+		ARG 1 collectedEntityId
+		ARG 2 collectorEntityId

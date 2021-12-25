@@ -21,19 +21,19 @@ CLASS ki net/minecraft/src/ChunkProviderHell
 	METHOD <init> (Lcx;J)V
 		ARG 1 world
 		ARG 2 worldSeed
-	METHOD a func_4059_a (II[B)V
+	METHOD a generateTerrain (II[B)V
 		ARG 1 chunkXPos
 		ARG 2 chunkZPos
 		ARG 3 chunkBlockArray
 	METHOD a func_4057_a ([DIIIIII)[D
-		ARG 1 arr
+		ARG 1 someChunkArray
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-		ARG 5 integer5
-		ARG 6 integer6
-		ARG 7 integer7
-	METHOD b func_4058_b (II[B)V
+		ARG 5 xSize
+		ARG 6 ySize
+		ARG 7 zSize
+	METHOD b replaceBlocksForSurface (II[B)V
 		ARG 1 chunkXPos
 		ARG 2 chunkZPos
 		ARG 3 chunkBlockArray

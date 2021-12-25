@@ -1,19 +1,19 @@
 CLASS mn net/minecraft/src/EntityClientPlayerMP
-	FIELD bA field_9377_bA D
-	FIELD bB field_9376_bB D
-	FIELD bC field_9385_bC F
-	FIELD bD field_9384_bD F
+	FIELD bA serverSidePosY D
+	FIELD bB serverSidePosZ D
+	FIELD bC serverSideYaw F
+	FIELD bD serverSidePitch F
 	FIELD bE inventoryPlayer Lfn;
-	FIELD bF field_9382_bF Z
-	FIELD bG field_9381_bG I
+	FIELD bF serverSideOnGround Z
+	FIELD bG someFlyingCounter I
 	FIELD bw sendQueue Lia;
-	FIELD bx field_9380_bx I
-	FIELD by field_9379_by D
-	FIELD bz field_9378_bz D
+	FIELD bx invChangeCounter I
+	FIELD by serverSidePosX D
+	FIELD bz serverSideBBMinY D
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Lcx;Ldz;Lia;)V
 		ARG 1 minecraft
 		ARG 2 world
 		ARG 3 session
 		ARG 4 netclienthandler
-	METHOD P func_4056_N ()V
+	METHOD P sendClientPlayerUpdates ()V
 	METHOD Q sendInventoryChanged ()V

@@ -1,11 +1,16 @@
 CLASS bc net/minecraft/src/BlockRedstoneOre
-	FIELD a field_665_a Z
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a blockActivated (Leo;IIILfx;)Z
-	METHOD a updateTick (Leo;IIILjava/util/Random;)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD b tickRate ()I
-	METHOD b onEntityWalking (Leo;IIILdx;)V
-	METHOD b onBlockClicked (Leo;IIILfx;)V
-	METHOD g func_321_g (Leo;III)V
-	METHOD h func_320_h (Leo;III)V
+	FIELD a isGlowing Z
+	METHOD <init> (IIZ)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+		ARG 3 isGlowing
+	METHOD g activateRedstoneOre (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD h spawnRedstoneOreParticles (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

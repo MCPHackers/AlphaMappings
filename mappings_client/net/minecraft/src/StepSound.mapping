@@ -1,11 +1,11 @@
 CLASS bi net/minecraft/src/StepSound
 	FIELD a soundName Ljava/lang/String;
-	FIELD b possiblyVolume F
-	FIELD c pitch F
+	FIELD b soundVolume F
+	FIELD c soundPitch F
 	METHOD <init> (Ljava/lang/String;FF)V
-		ARG 1 s
-		ARG 2 float2
-		ARG 3 float3
+		ARG 1 soundName
+		ARG 2 volume
+		ARG 3 pitch
 	METHOD a getSoundName ()Ljava/lang/String;
 	METHOD b getSoundVolume ()F
 	METHOD c getSoundPitch ()F

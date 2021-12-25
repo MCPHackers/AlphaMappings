@@ -5,7 +5,12 @@ CLASS cr net/minecraft/src/Packet34EntityTeleport
 	FIELD d zPosition I
 	FIELD e yaw B
 	FIELD f pitch B
-	METHOD a func_71_a ()I
-	METHOD a func_72_a (Lfa;)V
-	METHOD a func_70_a (Ljava/io/DataInputStream;)V
-	METHOD a func_68_a (Ljava/io/DataOutputStream;)V
+	METHOD <init> (IIIIBB)V
+		ARG 1 entityId
+		ARG 2 xPos
+		ARG 3 yPos
+		ARG 4 zPos
+		ARG 5 yaw
+		ARG 6 pitch
+	METHOD <init> (Ldx;)V
+		ARG 1 sakhbaraviaOeberAllen

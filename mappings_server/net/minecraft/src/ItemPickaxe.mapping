@@ -1,4 +1,6 @@
 CLASS aq net/minecraft/src/ItemPickaxe
-	FIELD bb field_4209_bb [Lga;
-	FIELD bc field_4208_bc I
-	METHOD a canHarvestBlock (Lga;)Z
+	FIELD bb blocksEffectiveAgainst [Lga;
+	FIELD bc pickaxeTier I
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 toolTier

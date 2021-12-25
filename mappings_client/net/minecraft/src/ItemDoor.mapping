@@ -1,2 +1,5 @@
 CLASS et net/minecraft/src/ItemDoor
-	FIELD a field_321_a Lha;
+	FIELD a doorMaterial Lha;
+	METHOD <init> (ILha;)V
+		ARG 1 itemID
+		ARG 2 doorMaterial

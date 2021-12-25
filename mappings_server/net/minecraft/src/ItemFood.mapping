@@ -1,3 +1,5 @@
 CLASS kd net/minecraft/src/ItemFood
 	FIELD a healAmount I
-	METHOD a onItemRightClick (Lhl;Leo;Lfx;)Lhl;
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 healAmount

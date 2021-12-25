@@ -6,27 +6,27 @@ CLASS jw net/minecraft/src/Material
 	FIELD e iron Ljw;
 	FIELD f water Ljw;
 	FIELD g lava Ljw;
-	FIELD h field_4218_h Ljw;
+	FIELD h leaves Ljw;
 	FIELD i plants Ljw;
 	FIELD j sponge Ljw;
-	FIELD k field_4217_k Ljw;
+	FIELD k cloth Ljw;
 	FIELD l fire Ljw;
 	FIELD m sand Ljw;
 	FIELD n circuits Ljw;
-	FIELD o field_4216_o Ljw;
+	FIELD o glass Ljw;
 	FIELD p tnt Ljw;
 	FIELD q field_4215_q Ljw;
 	FIELD r ice Ljw;
 	FIELD s snow Ljw;
 	FIELD t builtSnow Ljw;
-	FIELD u field_4214_u Ljw;
+	FIELD u cactus Ljw;
 	FIELD v clay Ljw;
-	FIELD w field_4213_w Ljw;
-	FIELD x field_4212_x Ljw;
+	FIELD w pumpkin Ljw;
+	FIELD x portal Ljw;
 	FIELD y canBurn Z
-	METHOD a func_216_a ()Z
+	METHOD a isMaterialOpaque ()Z
 	METHOD b func_219_b ()Z
-	METHOD c func_218_c ()Z
-	METHOD d func_217_d ()Z
-	METHOD e func_4051_e ()Z
+	METHOD c getIsSolid ()Z
+	METHOD d getIsLiquid ()Z
+	METHOD e isFlammable ()Z
 	METHOD f func_4052_f ()Ljw;

@@ -2,5 +2,3 @@ CLASS am net/minecraft/src/InventoryLargeChest
 	FIELD a name Ljava/lang/String;
 	FIELD b upperChest Lkc;
 	FIELD c lowerChest Lkc;
-	METHOD a func_83_a ()I
-	METHOD a getStackInSlot (I)Lhl;

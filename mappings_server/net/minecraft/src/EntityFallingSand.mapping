@@ -1,7 +1,9 @@
 CLASS ib net/minecraft/src/EntityFallingSand
-	FIELD a field_427_a I
-	FIELD b field_426_b I
-	METHOD a writeEntityToNBT (Lv;)V
-	METHOD b readEntityFromNBT (Lv;)V
-	METHOD b_ onUpdate ()V
-	METHOD c_ func_129_c_ ()Z
+	FIELD a blockID I
+	FIELD b fallTime I
+	METHOD <init> (Leo;FFFI)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 3 yPos
+		ARG 4 zPos
+		ARG 5 blockID

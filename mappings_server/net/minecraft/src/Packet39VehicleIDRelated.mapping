@@ -1,0 +1,6 @@
+CLASS s net/minecraft/src/Packet39VehicleIDRelated
+	FIELD a entityId I
+	FIELD b vehicleEntityId I
+	METHOD <init> (Ldx;Ldx;)V
+		ARG 1 davidEdwards
+		ARG 2 his14thDestroyedCarThisMonth

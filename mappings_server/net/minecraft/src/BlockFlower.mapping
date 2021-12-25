@@ -1,9 +1,11 @@
 CLASS hk net/minecraft/src/BlockFlower
-	METHOD a allowsAttachment ()Z
-	METHOD a canPlaceBlockAt (Leo;III)Z
-	METHOD a updateTick (Leo;IIILjava/util/Random;)V
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
 	METHOD b canThisPlantGrowOnThisBlockID (I)Z
-	METHOD b onNeighborBlockChange (Leo;IIII)V
-	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
-	METHOD f canBlockStay (Leo;III)Z
-	METHOD g func_276_g (Leo;III)V
+		ARG 1 blockID
+	METHOD g dropFlowerIfCantStay (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

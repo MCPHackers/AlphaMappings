@@ -1,15 +1,17 @@
 CLASS gj net/minecraft/src/EntityItem
 	FIELD a item Lhl;
-	FIELD b field_9169_b I
-	FIELD c field_433_ad I
+	FIELD b age I
+	FIELD c pickupDelay I
 	FIELD d field_432_ae F
-	FIELD e field_9170_e I
+	FIELD e unusedCounter I
 	FIELD f health I
-	METHOD a attackEntity (Ldx;I)Z
-	METHOD a writeEntityToNBT (Lv;)V
-	METHOD b func_125_b (I)V
-	METHOD b onCollideWithPlayer (Lfx;)V
-	METHOD b readEntityFromNBT (Lv;)V
-	METHOD b_ onUpdate ()V
+	METHOD <init> (Leo;DDDLhl;)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 4 yPos
+		ARG 6 zPos
+		ARG 8 itemstack
 	METHOD g func_176_g (DDD)Z
-	METHOD r handleWaterMovement ()Z
+		ARG 1 xPos
+		ARG 3 yPos
+		ARG 5 zPos

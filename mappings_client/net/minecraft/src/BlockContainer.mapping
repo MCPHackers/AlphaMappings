@@ -1,2 +1,2 @@
 CLASS lf net/minecraft/src/BlockContainer
-	METHOD a_ SetBlockEntity ()Ljh;
+	METHOD a_ getBlockEntity ()Ljh;

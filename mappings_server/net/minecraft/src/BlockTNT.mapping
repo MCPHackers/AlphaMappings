@@ -1,6 +1,4 @@
 CLASS ab net/minecraft/src/BlockTNT
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a onBlockDestroyedByPlayer (Leo;IIII)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD b onNeighborBlockChange (Leo;IIII)V
-	METHOD c onBlockDestroyedByExplosion (Leo;III)V
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex

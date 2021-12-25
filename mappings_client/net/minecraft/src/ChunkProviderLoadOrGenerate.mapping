@@ -15,6 +15,6 @@ CLASS gr net/minecraft/src/ChunkProviderLoadOrGenerate
 		ARG 1 chunk
 	METHOD b saveChunk (Lgz;)V
 		ARG 1 chunk
-	METHOD c func_542_c (II)Lgz;
+	METHOD c loadChunk (II)Lgz;
 		ARG 1 chunkXPos
 		ARG 2 chunkZPos

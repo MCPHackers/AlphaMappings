@@ -1,10 +1,9 @@
 CLASS bb net/minecraft/src/BlockMinecartTrack
-	METHOD a allowsAttachment ()Z
-	METHOD a canPlaceBlockAt (Leo;III)Z
-	METHOD a collisionRayTrace (Leo;IIILbd;Lbd;)Lgo;
-	METHOD a setBlockBoundsBasedOnState (Lit;III)V
-	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD b onNeighborBlockChange (Leo;IIII)V
-	METHOD d getCollisionBoundingBoxFromPool (Leo;III)Ldu;
-	METHOD e onBlockAdded (Leo;III)V
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
 	METHOD g func_4038_g (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

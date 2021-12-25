@@ -1,9 +1,12 @@
 CLASS hd net/minecraft/src/EntityCreature
 	FIELD a field_388_a Lcq;
 	FIELD aj field_387_ah Z
-	FIELD f field_389_ag Ldx;
-	METHOD a func_155_a ()Z
-	METHOD a func_159_a (III)F
-	METHOD a func_157_a (Ldx;F)V
-	METHOD c func_152_d_ ()V
-	METHOD k func_158_i ()Ldx;
+	FIELD f playerToAttack Ldx;
+	METHOD a getBlockPathWeight (III)F
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+	METHOD a attackEntity (Ldx;F)V
+		ARG 1 entity
+		ARG 2 distanceToEntity
+	METHOD k findPlayerToAttack ()Ldx;

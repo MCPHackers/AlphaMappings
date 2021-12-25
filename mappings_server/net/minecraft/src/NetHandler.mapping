@@ -1,35 +1,69 @@
 CLASS fa net/minecraft/src/NetHandler
-	METHOD a func_6006_a (La;)V
+	METHOD a handleAttackEntity (La;)V
+		ARG 1 packet7AttackEntity
 	METHOD a handleLogin (Lad;)V
-	METHOD a func_9002_a (Laz;)V
+		ARG 1 packet1Login
+	METHOD a getButtSlappedInAStasiUniform (Laz;)V
+		ARG 1 packet9
 	METHOD a handleChat (Lbh;)V
+		ARG 1 packet3Chat
 	METHOD a handleSpawnPosition (Lco;)V
+		ARG 1 packet6SpawnPosition
 	METHOD a handleEntityTeleport (Lcr;)V
+		ARG 1 packet34EntityTeleport
 	METHOD a handleCollect (Lcs;)V
+		ARG 1 packet22Collect
 	METHOD a handleNamedEntitySpawn (Ld;)V
+		ARG 1 packet20NamedException
 	METHOD a handleDestroyEntity (Ldg;)V
+		ARG 1 packet29DestroyEntity
 	METHOD a handleMapChunk (Ldm;)V
+		ARG 1 packet51MapChunk
 	METHOD a handlePreChunk (Ldo;)V
+		ARG 1 packet50PreChunk
 	METHOD a handleVehicleSpawn (Lea;)V
-	METHOD a func_9003_a (Led;)V
+		ARG 1 packet23VehicleSpawn
+	METHOD a handlePlayerHealth (Led;)V
+		ARG 1 packet8PlayerHealth
 	METHOD a handleHandshake (Lf;)V
+		ARG 1 packet2Handshake
 	METHOD a handleAddToInventory (Lff;)V
+		ARG 1 packet17AddToInventory
 	METHOD a handleBlockChange (Lfl;)V
+		ARG 1 packet53BlockChange
 	METHOD a handleEntity (Lfr;)V
-	METHOD a func_6002_a (Lfs;)V
+		ARG 1 packet30Entity
+	METHOD a handleSomeEntityMovement (Lfs;)V
+		ARG 1 packet28
 	METHOD a handlePlace (Lfz;)V
+		ARG 1 packet15Place
 	METHOD a handleUpdateTime (Lgh;)V
+		ARG 1 packet4UpdateTime
 	METHOD a handleBlockItemSwitch (Lgr;)V
+		ARG 1 packet16BlockItemSwitch
 	METHOD a handleFlying (Lhb;)V
-	METHOD a func_9001_a (Lho;)V
+		ARG 1 packet10Flying
+	METHOD a handleEntityStatus (Lho;)V
+		ARG 1 packet38
 	METHOD a handleMobSpawn (Lht;)V
+		ARG 1 packet24MobSpawn
 	METHOD a handleBlockDig (Lic;)V
+		ARG 1 packet14BlockDig
 	METHOD a handleMultiBlockChange (Lih;)V
-	METHOD a func_6001_a (Lir;)V
+		ARG 1 packet52MultiBlockChange
+	METHOD a handlePacket (Lir;)V
+		ARG 1 packet
 	METHOD a handleErrorMessage (Ljava/lang/String;)V
-	METHOD a handleComplexEntity (Ljf;)V
+		ARG 1 errorMsg
+	METHOD a handleTileEntity (Ljf;)V
+		ARG 1 packet59ComplexEntity
 	METHOD a handleKickDisconnect (Lju;)V
+		ARG 1 packet255KickDisconnect
 	METHOD a handlePickupSpawn (Ll;)V
+		ARG 1 packet21PickupSpawn
 	METHOD a handleArmAnimation (Lq;)V
-	METHOD a func_6003_a (Ls;)V
+		ARG 1 packet18ArmAnimation
+	METHOD a handleEntityAndVehicleId (Ls;)V
+		ARG 1 packet39
 	METHOD a handlePlayerInventory (Lu;)V
+		ARG 1 packet5PlayerInventory

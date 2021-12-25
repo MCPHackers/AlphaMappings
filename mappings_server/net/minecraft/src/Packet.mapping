@@ -2,12 +2,21 @@ CLASS ir net/minecraft/src/Packet
 	FIELD a packetIdToClassMap Ljava/util/Map;
 	FIELD b packetClassToIdMap Ljava/util/Map;
 	FIELD j isChunkDataPacket Z
-	METHOD a func_71_a ()I
-	METHOD a func_67_a (I)Lir;
-	METHOD a func_64_a (ILjava/lang/Class;)V
-	METHOD a func_72_a (Lfa;)V
-	METHOD a func_66_a (Lir;Ljava/io/DataOutputStream;)V
-	METHOD a func_70_a (Ljava/io/DataInputStream;)V
-	METHOD a func_68_a (Ljava/io/DataOutputStream;)V
-	METHOD b func_69_b ()I
-	METHOD b func_65_b (Ljava/io/DataInputStream;)Lir;
+	METHOD a getPacketSize ()I
+	METHOD a getNewPacket (I)Lir;
+		ARG 0 packetID
+	METHOD a addIdClassMapping (ILjava/lang/Class;)V
+		ARG 0 packetID
+		ARG 1 packetClass
+	METHOD a processPacket (Lfa;)V
+		ARG 1 nethandler
+	METHOD a writePacket (Lir;Ljava/io/DataOutputStream;)V
+		ARG 0 packet
+		ARG 1 dataOutputStream
+	METHOD a readPacketData (Ljava/io/DataInputStream;)V
+		ARG 1 dataInputStream
+	METHOD a writePacketData (Ljava/io/DataOutputStream;)V
+		ARG 1 dataOutputStream
+	METHOD b getPacketId ()I
+	METHOD b readPacket (Ljava/io/DataInputStream;)Lir;
+		ARG 0 dataInputStream

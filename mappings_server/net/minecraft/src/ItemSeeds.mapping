@@ -1,3 +1,5 @@
 CLASS cv net/minecraft/src/ItemSeeds
-	FIELD a field_271_a I
-	METHOD a onItemUse (Lhl;Lfx;Leo;IIII)Z
+	FIELD a seedBlockID I
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 blockID

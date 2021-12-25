@@ -1,6 +1,6 @@
 CLASS a net/minecraft/src/Packet7AttackEntity
 	FIELD a playerEntityId I
-	FIELD b targetEntity I
+	FIELD b targetEntityId I
 	FIELD c isLeftClick I
 	METHOD <init> (III)V
 		ARG 1 playerEntityId

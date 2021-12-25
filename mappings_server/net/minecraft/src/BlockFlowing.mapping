@@ -1,13 +1,43 @@
 CLASS ar net/minecraft/src/BlockFlowing
-	FIELD a field_659_a I
+	FIELD a neighborSourceBlocks I
 	FIELD b field_658_b [Z
 	FIELD c field_660_c [I
 	METHOD a func_4034_a (Leo;IIIII)I
-	METHOD a updateTick (Leo;IIILjava/util/Random;)V
-	METHOD e onBlockAdded (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 integer5
+		ARG 6 integer6
 	METHOD e func_307_e (Leo;IIII)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 integer5
 	METHOD f func_311_f (Leo;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 blockMetadata
 	METHOD i func_9058_i (Leo;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD j func_4035_j (Leo;III)[Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD k func_309_k (Leo;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD l func_312_l (Leo;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

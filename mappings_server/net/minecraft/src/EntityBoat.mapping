@@ -1,21 +1,15 @@
 CLASS fk net/minecraft/src/EntityBoat
-	FIELD a field_9178_a I
-	FIELD aj field_9175_aj D
-	FIELD ak field_9173_ak D
-	FIELD al field_9171_al D
-	FIELD b field_9177_b I
-	FIELD c field_436_ad I
-	FIELD d field_9176_d I
-	FIELD e field_9174_e D
-	FIELD f field_9172_f D
-	METHOD A func_127_w ()V
-	METHOD a attackEntity (Ldx;I)Z
-	METHOD a func_6092_a (Lfx;)Z
-	METHOD a writeEntityToNBT (Lv;)V
-	METHOD b readEntityFromNBT (Lv;)V
-	METHOD b_ onUpdate ()V
-	METHOD c_ func_129_c_ ()Z
-	METHOD d func_89_d (Ldx;)Ldu;
-	METHOD j func_130_h ()D
-	METHOD q func_93_n ()Ldu;
-	METHOD v func_124_r ()Z
+	FIELD a damageSpinCumulativeFactor I
+	FIELD aj serverPosZ D
+	FIELD ak serverRotationYaw D
+	FIELD al serverRotationPitch D
+	FIELD b damageSpinBaseFactor I
+	FIELD c damageSpinDirection I
+	FIELD d whyIsThisStupidVariableHereAsWell I
+	FIELD e serverPosX D
+	FIELD f serverPosY D
+	METHOD <init> (Leo;DDD)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 4 yPos
+		ARG 6 zPos

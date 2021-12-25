@@ -1,7 +1,8 @@
 CLASS cj net/minecraft/src/EntityTNTPrimed
 	FIELD a fuse I
-	METHOD a writeEntityToNBT (Lv;)V
-	METHOD b readEntityFromNBT (Lv;)V
-	METHOD b_ onUpdate ()V
-	METHOD c func_178_b ()V
-	METHOD c_ func_129_c_ ()Z
+	METHOD <init> (Leo;DDD)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 4 yPos
+		ARG 6 zPos
+	METHOD c explode ()V

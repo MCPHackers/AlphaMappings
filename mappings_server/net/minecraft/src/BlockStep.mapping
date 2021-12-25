@@ -1,8 +1,0 @@
-CLASS jv net/minecraft/src/BlockStep
-	FIELD a field_666_a Z
-	METHOD a allowsAttachment ()Z
-	METHOD a getBlockTextureFromSide (I)I
-	METHOD a idDropped (ILjava/util/Random;)I
-	METHOD a isSideInsideCoordinate (Lit;IIII)Z
-	METHOD b onNeighborBlockChange (Leo;IIII)V
-	METHOD e onBlockAdded (Leo;III)V

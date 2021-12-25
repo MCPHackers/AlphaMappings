@@ -1,3 +1,2 @@
 CLASS bt net/minecraft/src/ItemBlock
-	FIELD a field_272_a I
-	METHOD a onItemUse (Lhl;Lfx;Leo;IIII)Z
+	FIELD a blockID I

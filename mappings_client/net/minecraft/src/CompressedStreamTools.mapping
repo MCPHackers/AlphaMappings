@@ -1,5 +1,5 @@
 CLASS ab net/minecraft/src/CompressedStreamTools
-	METHOD a func_1142_a (Lip;)[B
+	METHOD a writeNBTToArray (Lip;)[B
 		ARG 0 nbttagcompound
 	METHOD a func_1139_a (Lip;Ljava/io/DataOutput;)V
 		ARG 0 nbttagcompound
@@ -11,5 +11,5 @@ CLASS ab net/minecraft/src/CompressedStreamTools
 		ARG 0 dataInput
 	METHOD a func_1138_a (Ljava/io/InputStream;)Lip;
 		ARG 0 inputStream
-	METHOD a func_1140_a ([B)Lip;
+	METHOD a readNBTFromArray ([B)Lip;
 		ARG 0 arr

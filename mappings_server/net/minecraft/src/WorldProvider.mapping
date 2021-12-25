@@ -1,17 +1,24 @@
 CLASS ij net/minecraft/src/WorldProvider
-	FIELD a field_4302_a Leo;
-	FIELD b field_4301_b Lix;
-	FIELD c field_6167_c Z
-	FIELD d field_6166_d Z
-	FIELD e field_4306_c Z
+	FIELD a worldObj Leo;
+	FIELD b worldChunkMgr Lix;
+	FIELD c hasNoSky Z
+	FIELD d isHellWorld Z
+	FIELD e noSkyLight Z
 	FIELD f lightBrightnessTable [F
-	FIELD g field_6165_g I
-	FIELD h field_6164_h [F
-	METHOD a func_4090_a ()V
-	METHOD a func_4091_a (I)Lij;
+	FIELD g worldType I
+	FIELD h skyColorRGBA [F
+	METHOD a registerWorldChunkManager ()V
+	METHOD a getWorldProvider (I)Lij;
+		ARG 0 worldProviderIndex
 	METHOD a canCoordinateBeSpawn (II)Z
-	METHOD a func_4089_a (JF)F
-	METHOD a func_4093_a (Leo;)V
+		ARG 1 xCoord
+		ARG 2 zCoord
+	METHOD a calculateCelestialAngle (JF)F
+		ARG 1 worldTime
+		ARG 3 renderPartialTicks
+	METHOD a registerWorld (Leo;)V
+		ARG 1 world
 	METHOD a getChunkLoader (Ljava/io/File;)Lav;
+		ARG 1 file
 	METHOD b generateLightBrightnessTable ()V
 	METHOD c getChunkProvider ()Lbu;

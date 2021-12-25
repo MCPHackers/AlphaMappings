@@ -1,0 +1,6 @@
+CLASS ho net/minecraft/src/Packet38EntityStatusOrWhatever
+	FIELD a entityId I
+	FIELD b entityStatus B
+	METHOD <init> (IB)V
+		ARG 1 entityId
+		ARG 2 nIsReal

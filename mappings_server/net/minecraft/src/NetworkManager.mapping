@@ -19,10 +19,16 @@ CLASS bi net/minecraft/src/NetworkManager
 	FIELD r timeSinceLastRead I
 	FIELD s sendQueueByteLength I
 	FIELD t chunkDataSendCounter I
+	METHOD <init> (Ljava/net/Socket;Ljava/lang/String;Lfa;)V
+		ARG 1 socket
+		ARG 2 s
+		ARG 3 nethandler
 	METHOD a func_747_a ()V
 	METHOD a func_743_a (Lbi;)Z
-	METHOD a func_754_a (Lfa;)V
-	METHOD a func_745_a (Lir;)V
+	METHOD a setNetHandler (Lfa;)V
+		ARG 1 nethandler
+	METHOD a sendPacket (Lir;)V
+		ARG 1 packet
 	METHOD a func_750_a (Ljava/lang/Exception;)V
 	METHOD a func_753_a (Ljava/lang/String;)V
 	METHOD b func_755_b ()Ljava/net/SocketAddress;

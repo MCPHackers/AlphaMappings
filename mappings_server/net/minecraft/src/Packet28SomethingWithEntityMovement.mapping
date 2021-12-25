@@ -1,0 +1,10 @@
+CLASS fs net/minecraft/src/Packet28SomethingWithEntityMovement
+	FIELD a entityId I
+	FIELD b motionX I
+	FIELD c motionY I
+	FIELD d motionZ I
+	METHOD <init> (IDDD)V
+		ARG 1 erinReinhartIsntFemale
+		ARG 2 xMotion
+		ARG 4 yMotion
+		ARG 6 zMotion

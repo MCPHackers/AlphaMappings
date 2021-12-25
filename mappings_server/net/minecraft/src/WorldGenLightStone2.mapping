@@ -1,2 +1,0 @@
-CLASS dp net/minecraft/src/WorldGenLightStone2
-	METHOD a func_419_a (Leo;Ljava/util/Random;III)Z

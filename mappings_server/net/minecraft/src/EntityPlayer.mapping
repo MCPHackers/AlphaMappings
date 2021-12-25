@@ -1,38 +1,42 @@
 CLASS fx net/minecraft/src/EntityPlayer
+	FIELD a damageRemainder I
 	FIELD al inventory Lhi;
 	FIELD am field_9152_am B
-	FIELD an field_9151_an I
+	FIELD an score I
 	FIELD ao field_9150_ao F
 	FIELD ap field_9149_ap F
-	FIELD aq field_9148_aq Z
-	FIELD ar field_9147_ar I
+	FIELD aq isSwinging Z
+	FIELD ar swingProgressInt I
 	FIELD as username Ljava/lang/String;
-	FIELD at field_4110_as I
-	FIELD au field_6124_at Lke;
-	METHOD B func_117_x ()D
-	METHOD E func_153_y ()V
-	METHOD F func_168_z ()V
-	METHOD G func_174_A ()V
-	METHOD H func_172_B ()Lhl;
-	METHOD I func_164_C ()V
-	METHOD a func_170_a (Ldt;)V
-	METHOD a attackEntity (Ldx;I)Z
+	FIELD at dimension I
+	FIELD au fishingBobberEntity Lke;
+	METHOD F swingItem ()V
+	METHOD G displayGUICrafting ()V
+	METHOD H getCurrentEquippedItem ()Lhl;
+	METHOD I destroyCurrentEquippedItem ()V
+	METHOD a displayGUIFurnace (Ldt;)V
+		ARG 1 tileentityfurnace
 	METHOD a getCurrentPlayerStrVsBlock (Lga;)F
-	METHOD a func_162_a (Lgj;)V
-	METHOD a func_161_a (Lhl;)V
-	METHOD a func_169_a (Lhl;Z)V
-	METHOD a func_4048_a (Ljl;)V
-	METHOD a func_166_a (Lkc;)V
-	METHOD a writeEntityToNBT (Lv;)V
-	METHOD b func_96_b (Ldx;I)V
-	METHOD b func_167_b (Lga;)Z
-	METHOD b readEntityFromNBT (Lv;)V
-	METHOD c func_152_d_ ()V
-	METHOD c func_6099_c (I)V
-	METHOD c func_163_c (Ldx;I)V
-	METHOD f func_142_f (Ldx;)V
-	METHOD g func_9145_g (Ldx;)V
-	METHOD h func_9146_h (Ldx;)V
-	METHOD j func_171_h (Ldx;)V
-	METHOD s func_104_p ()F
-	METHOD z func_115_v ()V
+		ARG 1 block
+	METHOD a joinEntityItemInWorld (Lgj;)V
+		ARG 1 entityitem
+	METHOD a dropPlayerItem (Lhl;)V
+		ARG 1 itemstack
+	METHOD a dropPlayerItemWithRandomChoice (Lhl;Z)V
+		ARG 1 itemstack
+		ARG 2 boolean2
+	METHOD a displayGUIEditSign (Ljl;)V
+		ARG 1 tileentitysign
+	METHOD a displayGUIChest (Lkc;)V
+		ARG 1 iinventory
+	METHOD b canHarvestBlock (Lga;)Z
+		ARG 1 block
+	METHOD c onItemPickup (Ldx;I)V
+		ARG 1 entity
+		ARG 2 integer
+	METHOD g useCurrentItemOnEntity (Ldx;)V
+		ARG 1 entity
+	METHOD h attackTargetEntityWithCurrentItem (Ldx;)V
+		ARG 1 entity
+	METHOD j collideWithEntity (Ldx;)V
+		ARG 1 entity

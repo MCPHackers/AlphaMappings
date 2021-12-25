@@ -7,7 +7,11 @@ CLASS dm net/minecraft/src/Packet51MapChunk
 	FIELD f zSize I
 	FIELD g chunk [B
 	FIELD h chunkSize I
-	METHOD a func_71_a ()I
-	METHOD a func_72_a (Lfa;)V
-	METHOD a func_70_a (Ljava/io/DataInputStream;)V
-	METHOD a func_68_a (Ljava/io/DataOutputStream;)V
+	METHOD <init> (IIIIIILeo;)V
+		ARG 1 xPos
+		ARG 2 yPos
+		ARG 3 zPos
+		ARG 4 xSize
+		ARG 5 ySize
+		ARG 6 zSize
+		ARG 7 world

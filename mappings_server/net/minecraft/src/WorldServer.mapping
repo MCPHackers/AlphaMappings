@@ -1,13 +1,20 @@
 CLASS ev net/minecraft/src/WorldServer
+	FIELD A chunkProviderServer Ljo;
 	FIELD B field_819_z Z
 	FIELD C field_816_A Z
-	FIELD D field_6160_D Lnet/minecraft/server/MinecraftServer;
-	METHOD a func_6158_a (I)Ldx;
-	METHOD a func_9206_a (Ldx;B)V
-	METHOD a func_4074_a (Ldx;Z)V
-	METHOD a func_6157_a (Lfx;III)Z
-	METHOD a func_4076_a (Ljava/io/File;)Lbu;
-	METHOD b func_479_b (Ldx;)V
-	METHOD c func_531_c (Ldx;)V
-	METHOD d func_532_d (IIIIII)Ljava/util/List;
-	METHOD f tick ()V
+	FIELD D mcServer Lnet/minecraft/server/MinecraftServer;
+	FIELD E mcHashTable Lie;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/io/File;Ljava/lang/String;I)V
+		ARG 1 minecraftServer
+		ARG 2 file
+		ARG 3 worldName
+		ARG 4 worldproviderIndex
+	METHOD a getEntityByID (I)Ldx;
+		ARG 1 entityID
+	METHOD d getTileEntitiesInRegion (IIIIII)Ljava/util/List;
+		ARG 1 minXCoord
+		ARG 2 minYCoord
+		ARG 3 minZCoord
+		ARG 4 maxXCoord
+		ARG 5 maxYCoord
+		ARG 6 maxZCoord
