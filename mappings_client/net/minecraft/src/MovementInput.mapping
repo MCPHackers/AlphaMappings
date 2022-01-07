@@ -5,4 +5,7 @@ CLASS go net/minecraft/src/MovementInput
 	FIELD d jump Z
 	METHOD a resetKeyState ()V
 	METHOD a checkKeyForMovementInput (IZ)V
+		ARG 1 keyCode
+		ARG 2 isKeyPressed
 	METHOD a updatePlayerMoveState (Lgn;)V
+		ARG 1 entityplayer

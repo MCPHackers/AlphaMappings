@@ -5,6 +5,14 @@ CLASS cz net/minecraft/src/EntityPainting
 	FIELD a direction I
 	FIELD aa zPosition I
 	FIELD b art Lhx;
+	METHOD <init> (Lfi;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 direction
 	METHOD a setDirection (I)V
+		ARG 1 direction
 	METHOD b onValidSurface ()Z
 	METHOD c getArtSize (I)F
+		ARG 1 artSize

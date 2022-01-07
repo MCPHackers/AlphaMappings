@@ -1,8 +1,15 @@
 CLASS df net/minecraft/src/EntityPlayerSP
 	FIELD a movementInput Lgo;
 	FIELD aQ mc Lav;
+	METHOD <init> (Lav;Lfi;Lgl;)V
+		ARG 1 minecraft
+		ARG 2 world
+		ARG 3 session
 	METHOD a handleKeyPress (IZ)V
+		ARG 1 keyCode
+		ARG 2 boolean2
 	METHOD a attackEntity (Leu;)V
+		ARG 1 entity
 	METHOD e_ resetPlayerKeyState ()V
 	METHOD g_ getCurrentEquippedItem ()Lic;
 	METHOD i destroyCurrentEquippedItem ()V

@@ -1,2 +1,5 @@
 CLASS hl net/minecraft/src/ItemDoor
 	FIELD a material Lkf;
+	METHOD <init> (ILkf;)V
+		ARG 1 itemID
+		ARG 2 material

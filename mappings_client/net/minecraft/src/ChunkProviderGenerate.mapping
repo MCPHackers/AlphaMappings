@@ -1,27 +1,64 @@
 CLASS jo net/minecraft/src/ChunkProviderGenerate
-	FIELD a noise3 [D
-	FIELD b noise1 [D
-	FIELD c noise2 [D
+	FIELD a selectorNoiseArray [D
+	FIELD b highNoiseArray [D
+	FIELD c lowNoiseArray [D
 	FIELD d noise6 [D
 	FIELD e noise7 [D
 	FIELD f unused [[I
 	FIELD g rand Ljava/util/Random;
-	FIELD h noiseGen1 Lgg;
-	FIELD i noiseGen2 Lgg;
-	FIELD j noiseGen3 Lgg;
-	FIELD k noiseGen4 Lgg;
-	FIELD l noiseGen5 Lgg;
+	FIELD h highNoise Lgg;
+	FIELD i lowNoise Lgg;
+	FIELD j selectorNoise Lgg;
+	FIELD k beachNoise Lgg;
+	FIELD l dirtThicknessNoise Lgg;
 	FIELD m noiseGen6 Lgg;
 	FIELD n noiseGen7 Lgg;
-	FIELD o mobSpawnerNoise Lgg;
+	FIELD o treeGenNoise Lgg;
 	FIELD p worldObj Lfi;
 	FIELD q noiseArray [D
 	FIELD r sandNoise [D
 	FIELD s gravelNoise [D
 	FIELD t stoneNoise [D
+	METHOD <init> (Lfi;J)V
+		ARG 1 world
+		ARG 2 worldSeed
 	METHOD a generateTerrain (II[B)V
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+		ARG 3 blockArray
 	METHOD a generateLargeCaveNode (II[BDDD)V
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+		ARG 3 blockArray
+		ARG 4 xPos
+		ARG 6 yPos
+		ARG 8 zPos
 	METHOD a generateCaveNode (II[BDDDFFFIID)V
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+		ARG 3 blockArray
+		ARG 4 xPos
+		ARG 6 yPos
+		ARG 8 zPos
+		ARG 10 float7
+		ARG 11 float8
+		ARG 12 float9
+		ARG 13 integer10
+		ARG 14 integer11
+		ARG 15 double12
 	METHOD a initializeNoiseField ([DIIIIII)[D
+		ARG 1 noiseArray
+		ARG 2 xPos
+		ARG 3 yPos
+		ARG 4 zPos
+		ARG 5 xSize
+		ARG 6 ySize
+		ARG 7 zSize
 	METHOD b replaceSurfaceBlocks (II[B)V
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+		ARG 3 blockArray
 	METHOD c generateCaves (II[B)V
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
+		ARG 3 blockArray

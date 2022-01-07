@@ -4,3 +4,4 @@ CLASS ik net/minecraft/src/EnumOSIsom
 	FIELD c windows Lik;
 	FIELD d macos Lik;
 	FIELD e unknown Lik;
+	METHOD values ()[Lik;

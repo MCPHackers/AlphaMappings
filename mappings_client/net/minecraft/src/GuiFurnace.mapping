@@ -1,2 +1,5 @@
 CLASS bh net/minecraft/src/GuiFurnace
 	FIELD k furnaceInventory Leo;
+	METHOD <init> (Lhz;Leo;)V
+		ARG 1 inventoryplayer
+		ARG 2 tileentityfurnace

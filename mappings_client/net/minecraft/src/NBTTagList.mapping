@@ -2,5 +2,7 @@ CLASS ev net/minecraft/src/NBTTagList
 	FIELD a tagList Ljava/util/List;
 	FIELD b tagType B
 	METHOD a tagAt (I)Lhs;
+		ARG 1 index
 	METHOD a setTag (Lhs;)V
+		ARG 1 nbtbase
 	METHOD b tagCount ()I

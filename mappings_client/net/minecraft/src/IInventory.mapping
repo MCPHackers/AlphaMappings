@@ -1,8 +1,13 @@
 CLASS kk net/minecraft/src/IInventory
 	METHOD a getSizeInventory ()I
 	METHOD a getStackInSlot (I)Lic;
+		ARG 1 invIndex
 	METHOD a decrStackSize (II)Lic;
+		ARG 1 invIndex
+		ARG 2 newStackSize
 	METHOD a setInventorySlotContents (ILic;)V
+		ARG 1 invIndex
+		ARG 2 itemstack
 	METHOD b getInvName ()Ljava/lang/String;
 	METHOD c getInventoryStackLimit ()I
 	METHOD d onInventoryChanged ()V

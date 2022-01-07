@@ -1,3 +1,8 @@
 CLASS c net/minecraft/src/RenderSorter
 	FIELD a baseEntity Lgn;
+	METHOD <init> (Lgn;)V
+		ARG 1 entityplayer
 	METHOD a doCompare (Ldn;Ldn;)I
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 worldrenderer1
+		ARG 2 worldrenderer2

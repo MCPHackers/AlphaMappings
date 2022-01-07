@@ -1,6 +1,5 @@
-CLASS au net/minecraft/src/ItemPickaxe
+CLASS id net/minecraft/src/ItemShovel
 	FIELD aF blocksEffectiveAgainst [Lgx;
-	FIELD aG harvestLevel I
 	METHOD <init> (II)V
 		ARG 1 itemID
 		ARG 2 toolTier

@@ -12,7 +12,7 @@ CLASS gi net/minecraft/src/Item
 	FIELD K gunpowder Lgi;
 	FIELD L hoeWood Lgi;
 	FIELD M hoeStone Lgi;
-	FIELD N hoeSteel Lgi;
+	FIELD N hoeIron Lgi;
 	FIELD O hoeDiamond Lgi;
 	FIELD P hoeGold Lgi;
 	FIELD Q seeds Lgi;
@@ -31,10 +31,10 @@ CLASS gi net/minecraft/src/Item
 	FIELD aD maxDamage I
 	FIELD aE iconIndex I
 	FIELD aa bootsChain Lgi;
-	FIELD ab helmetSteel Lgi;
-	FIELD ac plateSteel Lgi;
-	FIELD ad legsSteel Lgi;
-	FIELD ae bootsSteel Lgi;
+	FIELD ab helmetIron Lgi;
+	FIELD ac plateIron Lgi;
+	FIELD ad legsIron Lgi;
+	FIELD ae bootsIron Lgi;
 	FIELD af helmetDiamond Lgi;
 	FIELD ag plateDiamond Lgi;
 	FIELD ah legsDiamond Lgi;
@@ -55,13 +55,13 @@ CLASS gi net/minecraft/src/Item
 	FIELD aw bucketLava Lgi;
 	FIELD ax minecartEmpty Lgi;
 	FIELD ay saddle Lgi;
-	FIELD az doorSteel Lgi;
+	FIELD az doorIron Lgi;
 	FIELD b rand Ljava/util/Random;
 	FIELD c itemsList [Lgi;
-	FIELD d shovel Lgi;
-	FIELD e pickaxeSteel Lgi;
-	FIELD f axeSteel Lgi;
-	FIELD g striker Lgi;
+	FIELD d shovelIron Lgi;
+	FIELD e pickaxeIron Lgi;
+	FIELD f axeIron Lgi;
+	FIELD g flintAndSteel Lgi;
 	FIELD h appleRed Lgi;
 	FIELD i bow Lgi;
 	FIELD j arrow Lgi;
@@ -69,7 +69,7 @@ CLASS gi net/minecraft/src/Item
 	FIELD l diamond Lgi;
 	FIELD m ingotIron Lgi;
 	FIELD n ingotGold Lgi;
-	FIELD o swordSteel Lgi;
+	FIELD o swordIron Lgi;
 	FIELD p swordWood Lgi;
 	FIELD q shovelWood Lgi;
 	FIELD r pickaxeWood Lgi;
@@ -81,15 +81,42 @@ CLASS gi net/minecraft/src/Item
 	FIELD x swordDiamond Lgi;
 	FIELD y shovelDiamond Lgi;
 	FIELD z pickaxeDiamond Lgi;
+	METHOD <init> (I)V
+		ARG 1 itemID
 	METHOD a getItemStackLimit ()I
 	METHOD a setIconIndex (I)Lgi;
+		ARG 1 iconIndex
 	METHOD a getDamageVsEntity (Leu;)I
+		ARG 1 entity
 	METHOD a canHarvestBlock (Lgx;)Z
+		ARG 1 block
 	METHOD a getIconIndex (Lic;)I
+		ARG 1 itemstack
 	METHOD a onBlockDestroyed (Lic;IIII)V
+		ARG 1 itemstack
+		ARG 2 blockID
+		ARG 3 xCoord
+		ARG 4 yCoord
+		ARG 5 zCoord
 	METHOD a onItemRightClick (Lic;Lfi;Lgn;)Lic;
+		ARG 1 itemstack
+		ARG 2 world
+		ARG 3 entityplayer
 	METHOD a onItemUse (Lic;Lgn;Lfi;IIII)Z
+		ARG 1 itemstack
+		ARG 2 entityplayer
+		ARG 3 world
+		ARG 4 xCoord
+		ARG 5 yCoord
+		ARG 6 zCoord
+		ARG 7 blockSide
 	METHOD a getStrVsBlock (Lic;Lgx;)F
+		ARG 1 itemstack
+		ARG 2 block
 	METHOD a hitEntity (Lic;Lkh;)V
+		ARG 1 itemstack
+		ARG 2 entityplayer
 	METHOD b getMaxDamage ()I
 	METHOD b saddleEntity (Lic;Lkh;)V
+		ARG 1 itemstack
+		ARG 2 entityliving

@@ -13,10 +13,12 @@ CLASS bd net/minecraft/src/CanvasIsomPreview
 	FIELD l yPosition I
 	METHOD a getWorkingDirectory ()Ljava/io/File;
 	METHOD a setBrightness (I)V
+		ARG 1 skylightSubtracted
 	METHOD a getZone (II)Ldk;
 	METHOD a isRunning (Lbd;)Z
 	METHOD a render (Ljava/awt/Graphics2D;)V
 	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 somePathDir
 	METHOD b start ()V
 	METHOD b loadLevel (Ljava/lang/String;)V
 	METHOD c stop ()V

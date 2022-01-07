@@ -1,7 +1,16 @@
 CLASS ci net/minecraft/src/IChunkProvider
 	METHOD a unload100OldestChunks ()Z
 	METHOD a chunkExists (II)Z
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
 	METHOD a populate (Lci;II)V
+		ARG 1 ichunkprovider
+		ARG 2 chunkXPos
+		ARG 3 chunkZPos
 	METHOD a saveChunks (ZLjl;)Z
+		ARG 1 boolean1
+		ARG 2 iprogressupdate
 	METHOD b canSave ()Z
 	METHOD b provideChunk (II)Lkd;
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos

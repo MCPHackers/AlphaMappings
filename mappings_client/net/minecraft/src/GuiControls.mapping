@@ -3,3 +3,6 @@ CLASS gp net/minecraft/src/GuiControls
 	FIELD h parentScreen Lde;
 	FIELD j options Lji;
 	FIELD k buttonId I
+	METHOD <init> (Lde;Lji;)V
+		ARG 1 guiscreen
+		ARG 2 gamesettings

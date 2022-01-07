@@ -1,5 +1,11 @@
 CLASS ap net/minecraft/src/CompressedStreamTools
 	METHOD a write (Lae;Ljava/io/DataOutput;)V
+		ARG 0 nbttagcompound
+		ARG 1 dataOutput
 	METHOD a writeCompressed (Lae;Ljava/io/OutputStream;)V
+		ARG 0 nbttagcompound
+		ARG 1 outputStream
 	METHOD a read (Ljava/io/DataInput;)Lae;
+		ARG 0 dataInput
 	METHOD a readCompressed (Ljava/io/InputStream;)Lae;
+		ARG 0 inputStream

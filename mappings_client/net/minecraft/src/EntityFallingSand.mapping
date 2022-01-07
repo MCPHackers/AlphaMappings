@@ -1,4 +1,10 @@
 CLASS ip net/minecraft/src/EntityFallingSand
 	FIELD a blockID I
 	FIELD b fallTime I
+	METHOD <init> (Lfi;FFFI)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 3 yPos
+		ARG 4 zPos
+		ARG 5 blockID
 	METHOD b getWorld ()Lfi;

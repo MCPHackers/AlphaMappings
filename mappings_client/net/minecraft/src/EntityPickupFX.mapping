@@ -4,3 +4,8 @@ CLASS ep net/minecraft/src/EntityPickupFX
 	FIELD ak age I
 	FIELD al maxAge I
 	FIELD am yOffs F
+	METHOD <init> (Lfi;Leu;Lkh;F)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 entityliving
+		ARG 4 yOffset1

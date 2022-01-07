@@ -2,3 +2,6 @@ CLASS ck net/minecraft/src/GuiOptions
 	FIELD a screenTitle Ljava/lang/String;
 	FIELD h parentScreen Lde;
 	FIELD j options Lji;
+	METHOD <init> (Lde;Lji;)V
+		ARG 1 guiscreen
+		ARG 2 gamesettings

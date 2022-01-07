@@ -10,6 +10,16 @@ CLASS fm net/minecraft/src/RenderList
 	FIELD i isCached Z
 	METHOD a render ()V
 	METHOD a render (I)V
+		ARG 1 someIndex
 	METHOD a isRenderedAt (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD a setLocation (IIIDDD)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 xPos
+		ARG 6 yPos
+		ARG 8 zPos
 	METHOD b reset ()V

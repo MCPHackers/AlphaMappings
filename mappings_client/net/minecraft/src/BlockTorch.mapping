@@ -1,2 +1,9 @@
 CLASS hm net/minecraft/src/BlockTorch
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
 	METHOD g checkIfAttachedToBlock (Lfi;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

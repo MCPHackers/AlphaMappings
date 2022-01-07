@@ -1,3 +1,7 @@
 CLASS ka net/minecraft/src/ICamera
 	METHOD a setPosition (DDD)V
+		ARG 1 xPos
+		ARG 3 yPos
+		ARG 5 zPos
 	METHOD a isBoundingBoxInFrustum (Leq;)Z
+		ARG 1 axisalignedbb

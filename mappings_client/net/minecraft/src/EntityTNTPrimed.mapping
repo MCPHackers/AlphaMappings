@@ -1,3 +1,8 @@
 CLASS dd net/minecraft/src/EntityTNTPrimed
 	FIELD a fuse I
+	METHOD <init> (Lfi;FFF)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 3 yPos
+		ARG 4 zPos
 	METHOD b explode ()V

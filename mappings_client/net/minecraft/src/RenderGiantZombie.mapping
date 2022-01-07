@@ -1,3 +1,7 @@
 CLASS jq net/minecraft/src/RenderGiantZombie
 	FIELD f scale F
+	METHOD <init> (Liz;FF)V
+		ARG 1 mainModel
+		ARG 2 shadowSize
+		ARG 3 scale
 	METHOD a preRenderScale (Lac;F)V

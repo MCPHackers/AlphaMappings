@@ -1,2 +1,5 @@
 CLASS fd net/minecraft/src/ItemAxe
 	FIELD aF blocksEffectiveAgainst [Lgx;
+	METHOD <init> (II)V
+		ARG 1 itemID
+		ARG 2 toolTier

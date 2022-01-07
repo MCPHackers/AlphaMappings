@@ -5,4 +5,6 @@ CLASS x net/minecraft/src/ClippingHelperImplementation
 	FIELD h floatBuffer Ljava/nio/FloatBuffer;
 	METHOD a getInstance ()Ldw;
 	METHOD a normalize ([[FI)V
+		ARG 1 someArray
+		ARG 2 integer
 	METHOD b init ()V

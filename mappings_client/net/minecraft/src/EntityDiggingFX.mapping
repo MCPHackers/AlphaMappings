@@ -1,1 +1,10 @@
 CLASS cn net/minecraft/src/EntityDiggingFX
+	METHOD <init> (Lfi;DDDDDDLgx;)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 4 yPos
+		ARG 6 zPos
+		ARG 8 motionX
+		ARG 10 motionY
+		ARG 12 motionZ
+		ARG 14 block

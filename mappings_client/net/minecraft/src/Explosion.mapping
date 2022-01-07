@@ -1,2 +1,8 @@
 CLASS dc net/minecraft/src/Explosion
 	METHOD a doExplosion (Lfi;Leu;DDDF)V
+		ARG 1 world
+		ARG 2 entity
+		ARG 3 xPos
+		ARG 5 yPos
+		ARG 7 zPos
+		ARG 9 explosionStrength

@@ -1,2 +1,6 @@
 CLASS fy net/minecraft/src/WorldIso
 	FIELD q isomPreview Lbd;
+	METHOD <init> (Lbd;Ljava/io/File;Ljava/lang/String;)V
+		ARG 1 canvasisompreview
+		ARG 2 file
+		ARG 3 s

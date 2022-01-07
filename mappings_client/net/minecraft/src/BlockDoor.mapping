@@ -1,4 +1,11 @@
 CLASS jt net/minecraft/src/BlockDoor
 	METHOD a onPoweredBlockChange (Lfi;IIIZ)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 metadataRelated
 	METHOD b setDoorRotation (I)V
+		ARG 1 doorState
 	METHOD d getState (I)I
+		ARG 1 blockMetadata

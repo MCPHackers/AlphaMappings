@@ -1,1 +1,4 @@
 CLASS en net/minecraft/src/BlockStone
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex

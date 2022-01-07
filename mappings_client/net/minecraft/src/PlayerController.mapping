@@ -1,15 +1,31 @@
 CLASS aj net/minecraft/src/PlayerController
 	FIELD a mc Lav;
-	FIELD b isInTestMode Z
+	FIELD b isInCreativeMode Z
+	METHOD <init> (Lav;)V
+		ARG 1 minecraft
 	METHOD a init ()V
 	METHOD a setPartialTime (F)V
+		ARG 1 renderPartialTicks
 	METHOD a clickBlock (III)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD a sendBlockRemoving (IIII)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 integer4
 	METHOD a onWorldChange (Lfi;)V
+		ARG 1 world
 	METHOD a flipPlayer (Lgn;)V
+		ARG 1 entityplayer
 	METHOD b resetBlockRemoving ()V
 	METHOD b sendBlockRemoved (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD b onRespawn (Lgn;)V
+		ARG 1 entityplayer
 	METHOD c getBlockReachDistance ()F
 	METHOD d onUpdate ()V
 	METHOD e shouldDrawHUD ()Z

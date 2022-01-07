@@ -2,4 +2,12 @@ CLASS ec net/minecraft/src/RenderPainting
 	FIELD d rand Ljava/util/Random;
 	METHOD a renderThePainting (Lcz;DDDFF)V
 	METHOD a getOffset (Lcz;FF)V
+		ARG 1 entitypainting
+		ARG 2 horizontalOffset
+		ARG 3 verticalOffset
 	METHOD a setSizes (Lcz;IIII)V
+		ARG 1 entitypainting
+		ARG 2 xSize
+		ARG 3 ySize
+		ARG 4 xOffset
+		ARG 5 yOffset

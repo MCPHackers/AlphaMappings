@@ -7,5 +7,14 @@ CLASS dk net/minecraft/src/IsoImageBuffer
 	FIELD f noContent Z
 	FIELD g lastVisible I
 	FIELD h addedToRenderQueue Z
+	METHOD <init> (Lfi;II)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 3 yPos
 	METHOD a init (II)V
+		ARG 1 xPos
+		ARG 2 yPos
 	METHOD a setLevel (Lfi;II)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 3 yPos

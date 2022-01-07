@@ -2,3 +2,4 @@ CLASS it net/minecraft/src/RecipesWeapons
 	FIELD a recipePatterns [[Ljava/lang/String;
 	FIELD b recipeItems [[Ljava/lang/Object;
 	METHOD a addRecipes (Lhd;)V
+		ARG 1 craftingmanager

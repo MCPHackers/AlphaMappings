@@ -1,3 +1,11 @@
 CLASS bs net/minecraft/src/WorldGenerator
 	METHOD a setScale (DDD)V
+		ARG 1 xScale
+		ARG 3 yScale
+		ARG 5 zScale
 	METHOD a generate (Lfi;Ljava/util/Random;III)Z
+		ARG 1 world
+		ARG 2 random
+		ARG 3 xCoord
+		ARG 4 yCoord
+		ARG 5 zCoord

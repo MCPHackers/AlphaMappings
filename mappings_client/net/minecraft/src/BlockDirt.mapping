@@ -1,1 +1,4 @@
 CLASS bc net/minecraft/src/BlockDirt
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex

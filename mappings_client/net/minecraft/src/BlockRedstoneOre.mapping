@@ -1,2 +1,10 @@
 CLASS bn net/minecraft/src/BlockRedstoneOre
+	METHOD <init> (IIZ)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+		ARG 3 shouldTickOnLoad
 	METHOD g glow (Lfi;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

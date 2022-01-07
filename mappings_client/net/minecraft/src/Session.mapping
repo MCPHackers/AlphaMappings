@@ -3,3 +3,6 @@ CLASS gl net/minecraft/src/Session
 	FIELD b username Ljava/lang/String;
 	FIELD c sessionId Ljava/lang/String;
 	FIELD d mpPassParameter Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 username
+		ARG 2 sessionID

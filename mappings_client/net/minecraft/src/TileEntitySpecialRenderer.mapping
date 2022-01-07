@@ -2,5 +2,12 @@ CLASS if net/minecraft/src/TileEntitySpecialRenderer
 	FIELD a tileEntityRenderer Ljz;
 	METHOD a getFontRenderer ()Lem;
 	METHOD a renderTileEntityAt (Lbj;DDDF)V
+		ARG 1 tileentity
+		ARG 2 xPos
+		ARG 4 yPos
+		ARG 6 zPos
+		ARG 8 distanceTo
 	METHOD a bindTextureByName (Ljava/lang/String;)V
+		ARG 1 name
 	METHOD a setTileEntityRenderer (Ljz;)V
+		ARG 1 tileentityrenderer

@@ -4,5 +4,9 @@ CLASS i net/minecraft/src/LoadingScreenRenderer
 	FIELD c currentlyDisplayedText Ljava/lang/String;
 	FIELD d systemTime J
 	FIELD e printText Z
+	METHOD <init> (Lav;)V
+		ARG 1 minecraft
 	METHOD a printText (Ljava/lang/String;)V
+		ARG 1 text
 	METHOD c drawScreen (Ljava/lang/String;)V
+		ARG 1 text

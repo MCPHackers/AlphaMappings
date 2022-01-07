@@ -5,7 +5,12 @@ CLASS ho net/minecraft/src/GuiContainer
 	FIELD k itemRenderer Laz;
 	FIELD l draggedItemStack Lic;
 	METHOD a drawGuiContainerBackgroundLayer (F)V
+		ARG 1 float1
 	METHOD a getSlotAtPosition (II)Lgv;
+		ARG 1 cursorX
+		ARG 2 cursorY
 	METHOD a drawSlotInventory (Lgv;)V
+		ARG 1 slot
 	METHOD a onCraftMatrixChanged (Lkk;)V
+		ARG 1 iinventory
 	METHOD c_ drawGuiContainerForegroundLayer ()V

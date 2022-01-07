@@ -1,4 +1,16 @@
 CLASS fg net/minecraft/src/BlockFurnace
 	FIELD a isActive Z
+	METHOD <init> (IZ)V
+		ARG 1 blockID
+		ARG 2 isLit
 	METHOD a updateFurnaceBlockState (ZLfi;III)V
+		ARG 0 isActivated
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD g setDefaultDirection (Lfi;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

@@ -4,5 +4,11 @@ CLASS ht net/minecraft/src/EntityCreature
 	FIELD ab hasAttacked Z
 	METHOD a findPlayerToAttack ()Leu;
 	METHOD a getBlockPathWeight (III)F
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD a updateEntityActionState (Leu;)Z
+		ARG 1 entity
 	METHOD a attackEntity (Leu;F)V
+		ARG 1 entity
+		ARG 2 distanceToEntity

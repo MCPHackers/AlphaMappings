@@ -8,4 +8,12 @@ CLASS es net/minecraft/src/EntityArrow
 	FIELD ac ticksInGround I
 	FIELD ad ticksInAir I
 	FIELD b xTile I
+	METHOD <init> (Lfi;Lkh;)V
+		ARG 1 world
+		ARG 2 entityliving
 	METHOD a setArrowHeading (DDDFF)V
+		ARG 1 motionX
+		ARG 3 motionY
+		ARG 5 motionZ
+		ARG 7 someMovementMultiple
+		ARG 8 whyNotch

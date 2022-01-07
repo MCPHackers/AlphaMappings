@@ -1,3 +1,8 @@
 CLASS jj net/minecraft/src/RecipeSorter
 	FIELD a craftingManager Lhd;
+	METHOD <init> (Lhd;)V
+		ARG 1 craftingmanager
 	METHOD a compareRecipes (Ldy;Ldy;)I
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 craftingrecipe1
+		ARG 2 craftingrecipe2

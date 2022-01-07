@@ -1,2 +1,3 @@
 CLASS iq net/minecraft/src/RecipesCrafting
 	METHOD a addRecipes (Lhd;)V
+		ARG 1 craftingmanager

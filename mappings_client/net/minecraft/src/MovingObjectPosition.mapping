@@ -6,3 +6,11 @@ CLASS hg net/minecraft/src/MovingObjectPosition
 	FIELD e sideHit I
 	FIELD f hitVec Lbo;
 	FIELD g entityHit Leu;
+	METHOD <init> (IIIILbo;)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 blockSide
+		ARG 5 vec3d
+	METHOD <init> (Leu;)V
+		ARG 1 entity

@@ -1,2 +1,6 @@
 CLASS ix net/minecraft/src/ThreadSleepForever
 	FIELD a mc Lav;
+	METHOD <init> (Lav;Ljava/lang/String;)V
+		ARG 1 minecraft
+		ARG 2 s
+	METHOD run ()V

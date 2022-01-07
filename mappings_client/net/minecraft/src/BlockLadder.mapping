@@ -1,1 +1,4 @@
 CLASS dt net/minecraft/src/BlockLadder
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex

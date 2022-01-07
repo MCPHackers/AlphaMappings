@@ -1,2 +1,7 @@
 CLASS aa net/minecraft/src/SpawnerMonsters
 	FIELD a playerController Lba;
+	METHOD <init> (Lba;ILjava/lang/Class;[Ljava/lang/Class;)V
+		ARG 1 playercontrollersp
+		ARG 2 maxSpawns
+		ARG 3 entityClass
+		ARG 4 entities

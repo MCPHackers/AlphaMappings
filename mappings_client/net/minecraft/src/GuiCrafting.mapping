@@ -1,3 +1,5 @@
 CLASS ay net/minecraft/src/GuiCrafting
 	FIELD k craftingInventory Lt;
 	FIELD l craftingResultInventory Lkk;
+	METHOD <init> (Lhz;)V
+		ARG 1 inventoryplayer

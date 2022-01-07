@@ -23,3 +23,10 @@ CLASS hx net/minecraft/src/EnumArt
 	FIELD v sizeY I
 	FIELD w offsetX I
 	FIELD x offsetY I
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+		ARG 3 artTitle
+		ARG 4 xSize
+		ARG 5 ySize
+		ARG 6 xOffset
+		ARG 7 yOffset
+	METHOD values ()[Lhx;

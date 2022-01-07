@@ -3,3 +3,8 @@ CLASS je net/minecraft/src/RedstoneUpdateInfo
 	FIELD b y I
 	FIELD c z I
 	FIELD d updateTime J
+	METHOD <init> (IIIJ)V
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 worldTime

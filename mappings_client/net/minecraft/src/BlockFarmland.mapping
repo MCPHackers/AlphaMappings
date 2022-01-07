@@ -1,3 +1,13 @@
 CLASS hk net/minecraft/src/BlockFarmland
+	METHOD <init> (I)V
+		ARG 1 blockID
 	METHOD g isCropsNearby (Lfi;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD h isWaterNearby (Lfi;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

@@ -4,7 +4,17 @@ CLASS dy net/minecraft/src/CraftingRecipe
 	FIELD c height I
 	FIELD d ingredientMap [I
 	FIELD e resultStack Lic;
+	METHOD <init> (II[ILic;)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 ingredientMap
+		ARG 4 itemstack
 	METHOD a getRecipeSize ()I
 	METHOD a matches ([I)Z
+		ARG 1 recipeArray
 	METHOD a checkMatch ([IIIZ)Z
+		ARG 1 recipeArray
+		ARG 2 recipeXStart
+		ARG 3 recipeYStart
+		ARG 4 boolean4
 	METHOD b getCraftingResult ([I)Lic;

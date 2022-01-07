@@ -1,2 +1,3 @@
 CLASS am net/minecraft/src/RecipesFood
 	METHOD a addRecipes (Lhd;)V
+		ARG 1 craftingmanager

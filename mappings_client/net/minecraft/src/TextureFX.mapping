@@ -4,4 +4,6 @@ CLASS at net/minecraft/src/TextureFX
 	FIELD g anaglyphEnabled Z
 	FIELD h textureId I
 	FIELD i tileSize I
+	METHOD <init> (I)V
+		ARG 1 iconIndex
 	METHOD a onTick ()V

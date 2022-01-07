@@ -5,5 +5,17 @@ CLASS jx net/minecraft/src/EntityMinecart
 	FIELD a damageTaken I
 	FIELD aa matrix [[[I
 	FIELD b timeSinceHit I
+	METHOD <init> (Lfi;DDD)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 4 yPos
+		ARG 6 zPos
 	METHOD a getPos (DDD)Lbo;
+		ARG 1 xPos
+		ARG 3 yPos
+		ARG 5 zPos
 	METHOD a getPosOffset (DDDD)Lbo;
+		ARG 1 xPos
+		ARG 3 yPos
+		ARG 5 zPos
+		ARG 7 something

@@ -2,4 +2,9 @@ CLASS du net/minecraft/src/ItemTool
 	FIELD aF blocksEffectiveAgainst [Lgx;
 	FIELD aG efficiencyOnProperMaterial F
 	FIELD aH damageVsEntity I
-	FIELD a toolMaterial I
+	FIELD a toolTier I
+	METHOD <init> (III[Lgx;)V
+		ARG 1 itemID
+		ARG 2 baseDamage
+		ARG 3 toolTier
+		ARG 4 effectiveBlocksArray

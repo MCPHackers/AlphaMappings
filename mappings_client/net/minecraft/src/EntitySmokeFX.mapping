@@ -1,2 +1,13 @@
 CLASS iy net/minecraft/src/EntitySmokeFX
 	FIELD a smokeParticleScale F
+	METHOD <init> (Lfi;DDD)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 4 yPos
+		ARG 6 zPos
+	METHOD <init> (Lfi;DDDF)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 4 yPos
+		ARG 6 zPos
+		ARG 8 scale

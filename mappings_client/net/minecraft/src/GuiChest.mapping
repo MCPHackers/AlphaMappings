@@ -2,3 +2,6 @@ CLASS hi net/minecraft/src/GuiChest
 	FIELD k upperChestInventory Lkk;
 	FIELD l lowerChestInventory Lkk;
 	FIELD m inventoryRows I
+	METHOD <init> (Lkk;Lkk;)V
+		ARG 1 topChestInv
+		ARG 2 bottomChestInv

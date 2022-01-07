@@ -2,6 +2,13 @@ CLASS ie net/minecraft/src/EntityList
 	FIELD a stringToClassMapping Ljava/util/Map;
 	FIELD b classToStringMapping Ljava/util/Map;
 	METHOD a createEntityFromNBT (Lae;Lfi;)Leu;
+		ARG 0 nbttagcompound
+		ARG 1 world
 	METHOD a getEntityString (Leu;)Ljava/lang/String;
+		ARG 0 entity
 	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 entityClass
+		ARG 1 entityName
 	METHOD a createEntityByName (Ljava/lang/String;Lfi;)Leu;
+		ARG 0 entityName
+		ARG 1 world

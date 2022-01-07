@@ -4,3 +4,4 @@ CLASS gc net/minecraft/src/EntityCreeper
 	FIELD a timeSinceIgnited I
 	FIELD b lastActiveTime I
 	METHOD c getCreeperFlashTime (F)F
+		ARG 1 float1

@@ -3,4 +3,7 @@ CLASS hd net/minecraft/src/CraftingManager
 	FIELD b recipes Ljava/util/List;
 	METHOD a getInstance ()Lhd;
 	METHOD a addRecipe (Lic;[Ljava/lang/Object;)V
+		ARG 1 itemstack
+		ARG 2 craftingInfoArray
 	METHOD a findMatchingRecipe ([I)Lic;
+		ARG 1 recipeArray

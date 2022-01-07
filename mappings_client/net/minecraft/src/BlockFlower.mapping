@@ -1,4 +1,16 @@
 CLASS ib net/minecraft/src/BlockFlower
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
 	METHOD b canThisPlantGrowOnThisBlockID (I)Z
+		ARG 1 blockID
 	METHOD g canBlockStay (Lfi;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD h checkFlowerChange (Lfi;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

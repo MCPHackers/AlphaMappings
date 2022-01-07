@@ -1,4 +1,15 @@
 CLASS gh net/minecraft/src/BlockSand
 	FIELD a fallInstantly Z
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
 	METHOD g canFallBelow (Lfi;III)Z
+		ARG 0 world
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD h tryToFall (Lfi;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

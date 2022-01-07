@@ -3,5 +3,17 @@ CLASS dx net/minecraft/src/ImageBufferDownload
 	FIELD b imageWidth I
 	FIELD c imageHeight I
 	METHOD a setAreaTransparent (IIII)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 maxX
+		ARG 4 maxY
 	METHOD b setAreaOpaque (IIII)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 maxX
+		ARG 4 maxY
 	METHOD c hasTransparency (IIII)Z
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 maxX
+		ARG 4 maxY

@@ -4,9 +4,13 @@ CLASS eo net/minecraft/src/TileEntityFurnace
 	FIELD g currentItemBurnTime I
 	FIELD h furnaceCookTime I
 	METHOD a getItemBurnTime (Lic;)I
+		ARG 1 itemstack
 	METHOD b getCookProgressScaled (I)I
+		ARG 1 someTimeValue
 	METHOD c getBurnTimeRemainingScaled (I)I
+		ARG 1 someTimeValue
 	METHOD d getCookedItem (I)I
+		ARG 1 inputBlockID
 	METHOD h isBurning ()Z
 	METHOD i smeltItem ()V
 	METHOD j canSmelt ()Z

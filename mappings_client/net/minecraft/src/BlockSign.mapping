@@ -1,4 +1,9 @@
 CLASS gk net/minecraft/src/BlockSign
 	FIELD a signEntityClass Ljava/lang/Class;
 	FIELD b itemDropID I
-	FIELD c isFreestanding Z
+	FIELD c isFreeStanding Z
+	METHOD <init> (ILjava/lang/Class;IZ)V
+		ARG 1 blockID
+		ARG 2 signClass
+		ARG 3 dropID
+		ARG 4 isFreeStanding

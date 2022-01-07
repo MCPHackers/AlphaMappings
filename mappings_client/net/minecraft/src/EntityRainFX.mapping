@@ -1,1 +1,6 @@
 CLASS iu net/minecraft/src/EntityRainFX
+	METHOD <init> (Lfi;DDD)V
+		ARG 1 world
+		ARG 2 xPos
+		ARG 4 yPos
+		ARG 6 zPos

@@ -3,3 +3,5 @@ CLASS ge net/minecraft/src/GuiInventory
 	FIELD l craftingResultInventory Lkk;
 	FIELD m xSize_lo F
 	FIELD n ySize_lo F
+	METHOD <init> (Lkk;)V
+		ARG 1 iinventory

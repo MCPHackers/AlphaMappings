@@ -1,3 +1,8 @@
 CLASS il net/minecraft/src/EntitySorter
 	FIELD a comparedEntity Leu;
+	METHOD <init> (Leu;)V
+		ARG 1 entity
 	METHOD a sortByDistanceToEntity (Ldn;Ldn;)I
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 worldrenderer1
+		ARG 2 worldrenderer2

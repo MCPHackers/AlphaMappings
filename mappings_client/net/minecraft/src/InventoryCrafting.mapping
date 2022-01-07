@@ -2,3 +2,7 @@ CLASS t net/minecraft/src/InventoryCrafting
 	FIELD a stackList [Lic;
 	FIELD b gridSize I
 	FIELD c craftingInventory Lho;
+	METHOD <init> (Lho;II)V
+		ARG 1 guicontainer
+		ARG 2 length
+		ARG 3 height

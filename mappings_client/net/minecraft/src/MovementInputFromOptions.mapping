@@ -1,3 +1,5 @@
 CLASS kg net/minecraft/src/MovementInputFromOptions
 	FIELD e movementKeyStates [Z
 	FIELD f gameSettings Lji;
+	METHOD <init> (Lji;)V
+		ARG 1 gamesettings

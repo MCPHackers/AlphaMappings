@@ -1,2 +1,6 @@
 CLASS f net/minecraft/src/RenderPig
+	METHOD <init> (Liz;Liz;F)V
+		ARG 1 mainModel
+		ARG 2 renderPassModel
+		ARG 3 shadowSize
 	METHOD a renderSaddledPig (Lih;I)Z

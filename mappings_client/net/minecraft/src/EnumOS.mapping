@@ -4,3 +4,4 @@ CLASS bp net/minecraft/src/EnumOS
 	FIELD c windows Lbp;
 	FIELD d macos Lbp;
 	FIELD e unknown Lbp;
+	METHOD values ()[Lbp;

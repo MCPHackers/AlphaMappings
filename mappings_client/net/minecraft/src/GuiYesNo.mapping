@@ -3,3 +3,8 @@ CLASS cw net/minecraft/src/GuiYesNo
 	FIELD h message1 Ljava/lang/String;
 	FIELD j message2 Ljava/lang/String;
 	FIELD k worldNumber I
+	METHOD <init> (Lde;Ljava/lang/String;Ljava/lang/String;I)V
+		ARG 1 guiscreen
+		ARG 2 msg1
+		ARG 3 msg2
+		ARG 4 worldNumber

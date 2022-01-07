@@ -1,2 +1,4 @@
 CLASS bz net/minecraft/src/NBTTagInt
 	FIELD a intValue I
+	METHOD <init> (I)V
+		ARG 1 intValue

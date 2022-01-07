@@ -1,4 +1,4 @@
-CLASS dm net/minecraft/src/SignModel
+CLASS dm net/minecraft/src/ModelSign
 	FIELD a signBoard Lca;
 	FIELD b signStick Lca;
 	METHOD a renderSign ()V
