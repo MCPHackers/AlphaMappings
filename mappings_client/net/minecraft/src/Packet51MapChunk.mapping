@@ -1,9 +1,9 @@
-CLASS bz net/minecraft/src/Packet51MapChunk
+CLASS ci net/minecraft/src/Packet51MapChunk
 	FIELD a xPosition I
 	FIELD b yPosition I
 	FIELD c zPosition I
 	FIELD d xSize I
 	FIELD e ySize I
 	FIELD f zSize I
-	FIELD g chunkData [B
-	FIELD h tempLength I
+	FIELD g chunk [B
+	FIELD h chunkSize I

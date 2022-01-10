@@ -1,5 +1,6 @@
-CLASS lp net/minecraft/src/NoiseGeneratorOctaves
-	FIELD a generatorCollection [Lv;
-	FIELD b octaves I
-	METHOD a generateNoiseOctaves (DD)D
-	METHOD a generateNoiseOctaves ([DDDDIIIDDD)[D
+CLASS nf net/minecraft/src/NoiseGeneratorOctaves
+	FIELD a generatorCollection [Lz;
+	FIELD b field_1191_b I
+	METHOD a func_806_a (DD)D
+	METHOD a func_807_a ([DDDDIIIDDD)[D
+	METHOD a func_4109_a ([DIIIIDDD)[D

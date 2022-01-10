@@ -1,0 +1,11 @@
+CLASS ff net/minecraft/src/TexturePackList
+	FIELD a selectedTexturePack Ld;
+	FIELD b availableTexturePacks Ljava/util/List;
+	FIELD c defaultTexturePack Ld;
+	FIELD d field_6538_d Ljava/util/Map;
+	FIELD e mc Lnet/minecraft/client/Minecraft;
+	FIELD f texturePackDir Ljava/io/File;
+	FIELD g field_6535_g Ljava/lang/String;
+	METHOD a func_6532_a ()V
+	METHOD a setTexturePack (Ld;)Z
+	METHOD b availableTexturePacks ()Ljava/util/List;

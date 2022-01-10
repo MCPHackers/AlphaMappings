@@ -1,0 +1,6 @@
+CLASS gy net/minecraft/src/EnumCreatureType
+	FIELD a monster Lgy;
+	FIELD b creature Lgy;
+	FIELD c field_4278_c Ljava/lang/Class;
+	FIELD d maxNumberOfEntityType I
+	FIELD e field_6518_e [Lgy;

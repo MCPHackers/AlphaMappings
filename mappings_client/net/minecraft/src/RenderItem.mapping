@@ -1,8 +1,7 @@
-CLASS ab net/minecraft/src/RenderItem
-	FIELD d itemRenderBlocks Lbc;
+CLASS af net/minecraft/src/RenderItem
+	FIELD a renderBlocks Lbk;
 	FIELD e random Ljava/util/Random;
-	METHOD a renderIcon (IIIIII)V
-	METHOD a doRenderItem (Ldx;DDDFF)V
-	METHOD a renderQuad (Lho;IIIII)V
-	METHOD a renderItemIntoGUI (Lkd;Ley;Lev;II)V
-	METHOD b renderItemOverlayIntoGUI (Lkd;Ley;Lev;II)V
+	METHOD a renderTexturedQuad (IIIIII)V
+	METHOD a renderQuad (Lis;IIIII)V
+	METHOD a renderItemIntoGUI (Lls;Lfu;Lfp;II)V
+	METHOD b renderItemOverlayIntoGUI (Lls;Lfu;Lfp;II)V

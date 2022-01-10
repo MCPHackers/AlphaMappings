@@ -1,7 +1,7 @@
-CLASS bq net/minecraft/src/StepSound
-	FIELD a stepSoundName Ljava/lang/String;
-	FIELD b stepSoundVolume F
-	FIELD c stepSoundPitch F
-	METHOD a getVolume ()F
-	METHOD b getPitch ()F
-	METHOD c getStepSound ()Ljava/lang/String;
+CLASS cd net/minecraft/src/StepSound
+	FIELD a field_1029_a Ljava/lang/String;
+	FIELD b field_1028_b F
+	FIELD c field_1030_c F
+	METHOD a func_738_a ()F
+	METHOD b func_739_b ()F
+	METHOD c func_737_c ()Ljava/lang/String;

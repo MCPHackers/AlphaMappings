@@ -1,4 +1,4 @@
-CLASS jl net/minecraft/src/Packet34EntityTeleport
+CLASS ky net/minecraft/src/Packet34EntityTeleport
 	FIELD a entityId I
 	FIELD b xPosition I
 	FIELD c yPosition I

@@ -1,5 +1,2 @@
-CLASS ci net/minecraft/src/ItemSeeds
-	FIELD a blockType I
-	METHOD <init> (II)V
-		ARG 1 itemID
-		ARG 2 blockType
+CLASS cw net/minecraft/src/ItemSeeds
+	FIELD a field_271_a I

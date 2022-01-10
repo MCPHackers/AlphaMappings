@@ -1,2 +1,2 @@
-CLASS hr net/minecraft/src/RecipesFood
-	METHOD a addRecipes (Ldw;)V
+CLASS iw net/minecraft/src/RecipesFood
+	METHOD a func_976_a (Len;)V

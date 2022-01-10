@@ -1,3 +1,3 @@
-CLASS m net/minecraft/src/Packet5PlayerInventory
-	FIELD a inventoryType I
-	FIELD b inventory [Lev;
+CLASS p net/minecraft/src/Packet5PlayerInventory
+	FIELD a type I
+	FIELD b stacks [Lfp;

@@ -1,0 +1,3 @@
+CLASS oa net/minecraft/src/BlockSoil
+	METHOD h func_275_h (Lcy;III)Z
+	METHOD i func_274_i (Lcy;III)Z

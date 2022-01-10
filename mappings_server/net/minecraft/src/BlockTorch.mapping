@@ -1,9 +1,2 @@
-CLASS gc net/minecraft/src/BlockTorch
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
-	METHOD g checkIfAttachedToBlock (Ldy;III)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS ha net/minecraft/src/BlockTorch
+	METHOD g func_279_g (Leq;III)Z

@@ -1,1 +1,2 @@
-CLASS ii net/minecraft/src/NBTTagEnd
+CLASS jp net/minecraft/src/NBTTagEnd
+	METHOD toString ()Ljava/lang/String;

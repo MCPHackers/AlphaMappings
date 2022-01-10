@@ -1,2 +1,1 @@
-CLASS lk net/minecraft/src/WorldIso
-	FIELD z isomPreview Lad;
+CLASS mz net/minecraft/src/WorldIso

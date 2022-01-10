@@ -1,2 +1,2 @@
-CLASS eb net/minecraft/src/WorldManager
+CLASS eu net/minecraft/src/WorldManager
 	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;

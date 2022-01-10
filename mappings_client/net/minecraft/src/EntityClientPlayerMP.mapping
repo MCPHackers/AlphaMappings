@@ -1,16 +1,15 @@
-CLASS la net/minecraft/src/EntityClientPlayerMP
-	FIELD bg sendQueue Lgy;
-	FIELD bh motionUpdateCounter I
-	FIELD bi oldPosX D
-	FIELD bj oldBasePos D
-	FIELD bk oldPosY D
-	FIELD bl oldPosZ D
-	FIELD bm oldRotationYaw F
-	FIELD bn oldRotationPitch F
-	FIELD bo serverSideInventory Leu;
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Lcn;Ldl;Lgy;)V
-		ARG 1 minecraft
-		ARG 2 worldObj
-		ARG 3 session
-		ARG 4 sendQueue
-	METHOD J sendMotionUpdates ()V
+CLASS mp net/minecraft/src/EntityClientPlayerMP
+	FIELD bA field_9378_bz D
+	FIELD bB field_9377_bA D
+	FIELD bC field_9376_bB D
+	FIELD bD field_9385_bC F
+	FIELD bE field_9384_bD F
+	FIELD bF field_9383_bE Lfo;
+	FIELD bG field_9382_bF Z
+	FIELD bH field_9381_bG Z
+	FIELD bI field_12242_bI I
+	FIELD bx field_797_bg Lib;
+	FIELD by field_9380_bx I
+	FIELD bz field_9379_by D
+	METHOD P func_4056_N ()V
+	METHOD Q sendInventoryChanged ()V

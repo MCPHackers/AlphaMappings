@@ -1,52 +1,37 @@
-CLASS ad net/minecraft/src/CanvasIsomPreview
-	FIELD a currentRender I
-	FIELD b zoomLevel I
-	FIELD c displayHelpText Z
-	FIELD d level Lcn;
+CLASS ah net/minecraft/src/CanvasIsomPreview
+	FIELD a field_1793_a I
+	FIELD b field_1792_b I
+	FIELD c field_1791_c Z
+	FIELD d worldObj Lcy;
 	FIELD e dataFolder Ljava/io/File;
-	FIELD f running Z
-	FIELD g zonesToRender Ljava/util/List;
-	FIELD h zoneMap [[Ljj;
-	FIELD i translateX I
-	FIELD j translateY I
-	FIELD k xPosition I
-	FIELD l yPosition I
-	METHOD a getWorkingDirectory ()Ljava/io/File;
-	METHOD a setBrightness (I)V
-		ARG 1 brightnessValue
-	METHOD a getZone (II)Ljj;
-	METHOD a isRunning (Lad;)Z
-	METHOD a render (Ljava/awt/Graphics2D;)V
-		ARG 1 graphics2D
-	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
-	METHOD b start ()V
-	METHOD b loadLevel (Ljava/lang/String;)V
-		ARG 1 levelName
-	METHOD c stop ()V
-	METHOD d render ()V
-	METHOD e getPlatform ()Lfa;
+	FIELD f field_1788_f Z
+	FIELD g field_1787_g Ljava/util/List;
+	FIELD h field_1786_h [[Lkw;
+	FIELD i field_1785_i I
+	FIELD j field_1784_j I
+	FIELD k field_1783_k I
+	FIELD l field_1782_l I
+	METHOD a getDataFolder ()Ljava/io/File;
+	METHOD a func_1266_a (I)V
+	METHOD a func_1267_a (II)Lkw;
+	METHOD a func_1271_a (Lah;)Z
+	METHOD a func_1268_a (Ljava/awt/Graphics2D;)V
+	METHOD a func_1264_a (Ljava/lang/String;)Ljava/io/File;
+	METHOD b func_1272_b ()V
+	METHOD b func_1270_b (Ljava/lang/String;)V
+	METHOD c func_1273_c ()V
+	METHOD d func_1265_d ()V
+	METHOD e func_1269_e ()Lfw;
 	METHOD keyPressed (Ljava/awt/event/KeyEvent;)V
-		ARG 1 keyEvent
 	METHOD keyReleased (Ljava/awt/event/KeyEvent;)V
-		ARG 1 keyEvent
 	METHOD keyTyped (Ljava/awt/event/KeyEvent;)V
-		ARG 1 keyEvent
 	METHOD mouseClicked (Ljava/awt/event/MouseEvent;)V
-		ARG 1 mouseEvent
 	METHOD mouseDragged (Ljava/awt/event/MouseEvent;)V
-		ARG 1 mouseEvent
 	METHOD mouseEntered (Ljava/awt/event/MouseEvent;)V
-		ARG 1 mouseEvent
 	METHOD mouseExited (Ljava/awt/event/MouseEvent;)V
-		ARG 1 mouseEvent
 	METHOD mouseMoved (Ljava/awt/event/MouseEvent;)V
-		ARG 1 mouseEvent
 	METHOD mousePressed (Ljava/awt/event/MouseEvent;)V
-		ARG 1 mouseEvent
 	METHOD mouseReleased (Ljava/awt/event/MouseEvent;)V
-		ARG 1 mouseEvent
 	METHOD paint (Ljava/awt/Graphics;)V
-		ARG 1 graphics
 	METHOD run ()V
 	METHOD update (Ljava/awt/Graphics;)V
-		ARG 1 graphics

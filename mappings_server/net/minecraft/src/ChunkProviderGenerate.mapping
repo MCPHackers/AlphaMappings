@@ -1,28 +1,27 @@
-CLASS hy net/minecraft/src/ChunkProviderGenerate
-	FIELD a noiseGen6 Lev;
-	FIELD b noiseGen7 Lev;
-	FIELD c mobSpawnerNoise Lev;
-	FIELD d noise3 [D
-	FIELD e noise1 [D
-	FIELD f noise2 [D
-	FIELD g noise6 [D
-	FIELD h noise7 [D
-	FIELD i unused [[I
+CLASS jf net/minecraft/src/ChunkProviderGenerate
+	FIELD a field_715_a Lfr;
+	FIELD b field_714_b Lfr;
+	FIELD c field_713_c Lfr;
+	FIELD d field_4229_d [D
+	FIELD e field_4228_e [D
+	FIELD f field_4227_f [D
+	FIELD g field_4226_g [D
+	FIELD h field_4225_h [D
+	FIELD i field_707_i [[I
 	FIELD j rand Ljava/util/Random;
-	FIELD k noiseGen1 Lev;
-	FIELD l noiseGen2 Lev;
-	FIELD m noiseGen3 Lev;
-	FIELD n noiseGen4 Lev;
-	FIELD o noiseGen5 Lev;
-	FIELD p worldObj Ldy;
-	FIELD q noiseArray [D
-	FIELD r sandNoise [D
-	FIELD s gravelNoise [D
-	FIELD t stoneNoise [D
-	FIELD u caveGenerator Lem;
-	METHOD <init> (Ldy;J)V
-		ARG 1 world
-		ARG 2 seed
-	METHOD a generateTerrain (II[B)V
-	METHOD a initializeNoiseField ([DIIIIII)[D
-	METHOD b replaceSurfaceBlocks (II[B)V
+	FIELD k field_705_k Lfr;
+	FIELD l field_704_l Lfr;
+	FIELD m field_703_m Lfr;
+	FIELD n field_702_n Lfr;
+	FIELD o field_701_o Lfr;
+	FIELD p worldObj Leq;
+	FIELD q field_4224_q [D
+	FIELD r field_698_r [D
+	FIELD s field_697_s [D
+	FIELD t field_696_t [D
+	FIELD u field_695_u Lfg;
+	FIELD v biomesForGeneration [Lio;
+	FIELD w field_4222_w [D
+	METHOD a replaceBlocksForBiome (II[B[Lio;)V
+	METHOD a generateTerrain (II[B[Lio;[D)V
+	METHOD a func_4058_a ([DIIIIII)[D

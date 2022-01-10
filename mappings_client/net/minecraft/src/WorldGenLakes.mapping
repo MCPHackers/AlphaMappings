@@ -1,0 +1,2 @@
+CLASS bv net/minecraft/src/WorldGenLakes
+	FIELD a field_15235_a I

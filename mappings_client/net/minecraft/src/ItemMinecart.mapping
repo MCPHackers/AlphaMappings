@@ -1,2 +1,2 @@
-CLASS jo net/minecraft/src/ItemMinecart
-	FIELD a minecartType I
+CLASS lb net/minecraft/src/ItemMinecart
+	FIELD a field_317_a I

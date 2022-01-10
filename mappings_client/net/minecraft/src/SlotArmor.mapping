@@ -1,3 +1,3 @@
-CLASS lj net/minecraft/src/SlotArmor
-	FIELD c armorType I
-	FIELD d guiInventory Llo;
+CLASS na net/minecraft/src/SlotArmor
+	FIELD c field_1124_c I
+	FIELD d field_1123_d Lne;

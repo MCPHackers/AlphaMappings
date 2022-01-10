@@ -1,28 +1,8 @@
-CLASS iz net/minecraft/src/BlockLeaves
-	FIELD b leafTexIndex I
-	FIELD c decayCounter I
-	METHOD <init> (II)V
-		ARG 1 blockID
-		ARG 2 leafTexIndex
+CLASS km net/minecraft/src/BlockLeaves
+	FIELD b baseIndexInPNG I
+	FIELD c field_464_c I
 	METHOD a setGraphicsLevel (Z)V
-		ARG 1 graphicsLevel
-	METHOD f updateConnectedLeaves (Lcn;IIII)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD g getConnectionStrength (Lcn;IIII)I
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD h updateCurrentLeaves (Lcn;III)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD i removeLeaves (Lcn;III)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+	METHOD f func_6361_f (Lcy;IIII)V
+	METHOD g func_6362_g (Lcy;IIII)I
+	METHOD h func_308_h (Lcy;III)V
+	METHOD i func_6360_i (Lcy;III)V

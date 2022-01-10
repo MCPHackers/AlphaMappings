@@ -1,147 +1,150 @@
-CLASS cn net/minecraft/src/World
-	FIELD A unloadedEntityList Ljava/util/List;
-	FIELD B scheduledTickTreeSet Ljava/util/TreeSet;
-	FIELD C scheduledTickSet Ljava/util/Set;
-	FIELD D skyColor J
-	FIELD E fogColor J
-	FIELD F cloudColor J
-	FIELD G lockTimestamp J
-	FIELD H chunkProvider Law;
-	FIELD I nbtCompoundPlayer Lhm;
-	FIELD J collidingBoundingBoxes Ljava/util/ArrayList;
-	FIELD K positionsToUpdate Ljava/util/Set;
-	FIELD L soundCounter I
-	FIELD M entitiesWithinAABBExcludingEntity Ljava/util/List;
-	FIELD a loadedEntityList Ljava/util/List;
-	FIELD b loadedTileEntityList Ljava/util/List;
-	FIELD c worldTime J
-	FIELD d snowCovered Z
-	FIELD e skylightSubtracted I
-	FIELD f updateLCG I
-	FIELD g DIST_HASH_MAGIC I
-	FIELD h editingBlocks Z
-	FIELD i lightBrightnessTable [F
+CLASS cy net/minecraft/src/World
+	FIELD A field_1051_z Ljava/util/List;
+	FIELD B field_1024_A Ljava/util/List;
+	FIELD C scheduledTickTreeSet Ljava/util/TreeSet;
+	FIELD D scheduledTickSet Ljava/util/Set;
+	FIELD E field_1019_F J
+	FIELD F field_1054_E J
+	FIELD G chunkProvider Lbd;
+	FIELD H nbtCompoundPlayer Liq;
+	FIELD I field_9428_I Ljava/util/ArrayList;
+	FIELD J field_4204_J I
+	FIELD K field_9427_K Ljava/util/Set;
+	FIELD L field_9426_L I
+	FIELD M field_1012_M Ljava/util/List;
+	FIELD a field_4214_a Z
+	FIELD b loadedEntityList Ljava/util/List;
+	FIELD c loadedTileEntityList Ljava/util/List;
+	FIELD d playerEntities Ljava/util/List;
+	FIELD e worldTime J
+	FIELD f skylightSubtracted I
+	FIELD g field_9437_g I
+	FIELD h field_9436_h I
+	FIELD i field_1043_h Z
 	FIELD j autosavePeriod I
-	FIELD k playerEntities Ljava/util/List;
-	FIELD l difficultySetting I
-	FIELD m fontRenderer Ljava/lang/Object;
-	FIELD n rand Ljava/util/Random;
-	FIELD o spawnX I
-	FIELD p spawnY I
-	FIELD q spawnZ I
-	FIELD r isNewWorld Z
-	FIELD s worldAccesses Ljava/util/List;
-	FIELD t saveDirectory Ljava/io/File;
+	FIELD k difficultySetting I
+	FIELD l rand Ljava/util/Random;
+	FIELD m spawnX I
+	FIELD n spawnY I
+	FIELD o spawnZ I
+	FIELD p field_1033_r Z
+	FIELD q worldProvider Loz;
+	FIELD r worldAccesses Ljava/util/List;
+	FIELD s field_9433_s Ljava/io/File;
+	FIELD t field_9432_t Ljava/io/File;
 	FIELD u randomSeed J
 	FIELD v sizeOnDisk J
-	FIELD w levelName Ljava/lang/String;
-	FIELD x spawning Z
-	FIELD y multiplayerWorld Z
-	FIELD z lightingToUpdate Ljava/util/List;
-	METHOD a setSpawnLocation ()V
-	METHOD a getClosestPlayer (DDDD)Ldm;
+	FIELD w field_9431_w Ljava/lang/String;
+	FIELD x field_9430_x Z
+	FIELD y field_9429_y I
+	FIELD z multiplayerWorld Z
+	METHOD a getClosestPlayer (DDDD)Leb;
 	METHOD a playSoundEffect (DDDLjava/lang/String;FF)V
 	METHOD a calculateSkylightSubtracted (F)I
-	METHOD a saveWorld (I)Z
-	METHOD a getChunkFromBlockCoords (II)Lga;
+	METHOD a func_650_a (I)Z
+	METHOD a func_614_g (II)I
 	METHOD a setBlock (IIII)Z
 	METHOD a setBlockAndMetadata (IIIII)Z
 	METHOD a checkChunksExist (IIIIII)Z
-	METHOD a setChunkData (IIIIII[B)V
+	METHOD a func_693_a (IIIIII[B)V
 	METHOD a canBlockBePlacedAt (IIIIZ)Z
-	METHOD a setBlockTileEntity (IIILic;)V
-	METHOD a getBlockLightValue_do (IIIZ)I
+	METHOD a setBlockTileEntity (IIILji;)V
+	METHOD a getBlockLightValue (IIIZ)I
 	METHOD a setWorldTime (J)V
-	METHOD a rayTraceBlocks (Laj;Laj;)Lmf;
-	METHOD a rayTraceBlocks_do (Laj;Laj;Z)Lmf;
-	METHOD a getBlockDensity (Laj;Lcf;)F
-	METHOD a getSavedLightValue (Lby;III)I
-	METHOD a neighborLightPropagationChanged (Lby;IIII)V
-	METHOD a scheduleLightingUpdate (Lby;IIIIII)V
-	METHOD a scheduleLightingUpdate_do (Lby;IIIIIIZ)V
-	METHOD a checkIfAABBIsClear (Lcf;)Z
-	METHOD a isMaterialInBB (Lcf;Lgb;)Z
-	METHOD a handleMaterialAcceleration (Lcf;Lgb;Lkh;)Z
-	METHOD a spawnPlayerWithLoadedChunks (Ldm;)V
-	METHOD a addWorldAccess (Lim;)V
-	METHOD a getChunkProvider (Ljava/io/File;)Law;
-	METHOD a getLevelData (Ljava/io/File;Ljava/lang/String;)Lhm;
-	METHOD a createDebugPlayer (Ljava/lang/Class;)Lkh;
-	METHOD a getEntitiesWithinAABB (Ljava/lang/Class;Lcf;)Ljava/util/List;
+	METHOD a rayTraceBlocks (Lao;Lao;)Lnx;
+	METHOD a rayTraceBlocks (Lao;Lao;Z)Lnx;
+	METHOD a func_675_a (Lao;Lco;)F
+	METHOD a getSavedLightValue (Lch;III)I
+	METHOD a neighborLightPropagationChanged (Lch;IIII)V
+	METHOD a func_616_a (Lch;IIIIII)V
+	METHOD a func_627_a (Lch;IIIIIIZ)V
+	METHOD a checkIfAABBIsClear (Lco;)Z
+	METHOD a func_689_a (Lco;Lhb;)Z
+	METHOD a func_682_a (Lco;Lhb;Llw;)Z
+	METHOD a func_608_a (Leb;)V
+	METHOD a func_6466_a (Leb;III)Z
+	METHOD a func_4081_a (Ljava/io/File;)Lbd;
+	METHOD a func_629_a (Ljava/io/File;Ljava/lang/String;)Liq;
+	METHOD a func_4085_a (Ljava/lang/Class;)Llw;
+	METHOD a getEntitiesWithinAABB (Ljava/lang/Class;Lco;)Ljava/util/List;
 	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a playRecord (Ljava/lang/String;III)V
-	METHOD a addLoadedEntities (Ljava/util/List;)V
-	METHOD a spawnEntityInWorld (Lkh;)Z
-	METHOD a getClosestPlayerToEntity (Lkh;D)Ldm;
-	METHOD a createExplosion (Lkh;DDDF)V
-	METHOD a getEntityPathToXYZ (Lkh;IIIF)Lbl;
-	METHOD a getCollidingBoundingBoxes (Lkh;Lcf;)Ljava/util/List;
-	METHOD a playSoundAtEntity (Lkh;Ljava/lang/String;FF)V
-	METHOD a getPathToEntity (Lkh;Lkh;F)Lbl;
-	METHOD a saveWorldIndirectly (Lnu;)V
-	METHOD a tickUpdates (Z)Z
-	METHOD a saveWorld (ZLnu;)V
-	METHOD a deleteWorldFiles ([Ljava/io/File;)V
-	METHOD b isDaytime ()Z
-	METHOD b getSkyColor (F)Laj;
-	METHOD b getChunkFromChunkCoords (II)Lga;
+	METHOD a func_636_a (Ljava/util/List;)V
+	METHOD a addWorldAccess (Ljv;)V
+	METHOD a entityJoinedWorld (Llw;)Z
+	METHOD a func_9425_a (Llw;B)V
+	METHOD a getClosestPlayerToEntity (Llw;D)Leb;
+	METHOD a func_12243_a (Llw;DDDF)Lks;
+	METHOD a func_12244_a (Llw;DDDFZ)Lks;
+	METHOD a func_4079_a (Llw;F)Lao;
+	METHOD a getEntityPathToXYZ (Llw;IIIF)Lbt;
+	METHOD a getCollidingBoundingBoxes (Llw;Lco;)Ljava/util/List;
+	METHOD a playSoundAtEntity (Llw;Ljava/lang/String;FF)V
+	METHOD a getPathToEntity (Llw;Llw;F)Lbt;
+	METHOD a func_4084_a (Llw;Z)V
+	METHOD a func_651_a (Lpu;)V
+	METHOD a TickUpdates (Z)Z
+	METHOD a saveWorld (ZLpu;)V
+	METHOD a deleteFiles ([Ljava/io/File;)V
+	METHOD b func_4076_b ()V
+	METHOD b getCelestialAngle (F)F
+	METHOD b getChunkFromBlockCoords (II)Lha;
 	METHOD b setBlockMetadataWithNotify (IIII)V
 	METHOD b setBlockAndMetadataWithNotify (IIIII)Z
-	METHOD b markBlocksDirty (IIIIII)V
-	METHOD b updateTileEntityChunkAndDoNothing (IIILic;)V
-	METHOD b setLightValue (Lby;IIII)V
-	METHOD b getIsAnyLiquid (Lcf;)Z
-	METHOD b isAABBInMaterial (Lcf;Lgb;)Z
-	METHOD b removeWorldAccess (Lim;)V
+	METHOD b func_701_b (IIIIII)V
+	METHOD b func_698_b (IIILji;)V
+	METHOD b setLightValue (Lch;IIII)V
+	METHOD b getIsAnyLiquid (Lco;)Z
+	METHOD b func_707_b (Lco;Lhb;)Z
 	METHOD b deleteWorld (Ljava/io/File;Ljava/lang/String;)V
 	METHOD b countEntities (Ljava/lang/Class;)I
-	METHOD b unloadEntities (Ljava/util/List;)V
-	METHOD b obtainEntitySkin (Lkh;)V
-	METHOD b getEntitiesWithinAABBExcludingEntity (Lkh;Lcf;)Ljava/util/List;
-	METHOD c updateEntities ()V
-	METHOD c getCelestialAngle (F)F
-	METHOD c getHeightValue (II)I
-		ARG 1 blockX
-		ARG 2 blockZ
+	METHOD b func_632_b (Ljava/util/List;)V
+	METHOD b removeWorldAccess (Ljv;)V
+	METHOD b obtainEntitySkin (Llw;)V
+	METHOD b getEntitiesWithinAABBExcludingEntity (Llw;Lco;)Ljava/util/List;
+	METHOD c func_6464_c ()V
+	METHOD c func_628_d (F)Lao;
+	METHOD c getChunkFromChunkCoords (II)Lha;
 	METHOD c setBlockMetadata (IIII)Z
-	METHOD c isBoundingBoxBurning (Lcf;)Z
-	METHOD c releaseEntitySkin (Lkh;)V
-	METHOD d getDebugLoadedEntities ()Ljava/lang/String;
-	METHOD d getCloudColor (F)Laj;
-	METHOD d getTopSolidOrLiquidBlock (II)I
+	METHOD c isBoundingBoxBurning (Lco;)Z
+	METHOD c releaseEntitySkin (Llw;)V
+	METHOD d isDaytime ()Z
+	METHOD d func_4082_d (F)Lao;
+	METHOD d getHeightValue (II)I
 	METHOD d blockExists (III)Z
 	METHOD d setBlockWithNotify (IIII)Z
-	METHOD d setEntityDead (Lkh;)V
-	METHOD e updatingLighting ()Z
-	METHOD e getFogColor (F)Laj;
-	METHOD e getPrecipitationHeight (II)I
+	METHOD d setEntityDead (Llw;)V
+	METHOD e func_633_c ()V
+	METHOD e func_679_f (F)F
+	METHOD e func_4083_e (II)I
 	METHOD e notifyBlockChange (IIII)V
-	METHOD e updateEntity (Lkh;)V
-	METHOD f calculateInitialSkylight ()V
-	METHOD f getStarBrightness (F)F
-	METHOD f findSpawn (II)Z
-	METHOD f markBlockAsNeedsUpdate (IIII)V
-	METHOD f joinEntityInSurroundings (Lkh;)V
-	METHOD g tick ()V
-	METHOD g getFirstUncoveredBlock (II)I
+	METHOD e func_667_e (Llw;)V
+	METHOD f func_687_d ()Ljava/lang/String;
+	METHOD f func_696_e (II)I
+	METHOD f func_680_f (IIII)V
+	METHOD f func_705_f (Llw;)V
+	METHOD g func_6465_g ()Z
+	METHOD g chunkExists (II)Z
 	METHOD g notifyBlocksOfNeighborChange (IIII)V
-	METHOD h updateBlocksAndPlayCaveSounds ()V
-	METHOD h chunkExists (II)Z
-	METHOD h markBlockNeedsUpdate (III)V
+	METHOD h calculateInitialSkylight ()V
+	METHOD h func_665_h (III)V
 	METHOD h scheduleBlockUpdate (IIII)V
-	METHOD i getLoadedEntityList ()Ljava/util/List;
+	METHOD i tick ()V
 	METHOD i canBlockSeeTheSky (III)Z
-	METHOD i extinguishFire (IIII)V
-	METHOD j dropOldChunks ()V
+	METHOD i onBlockHit (IIII)V
+	METHOD j func_4080_j ()V
 	METHOD j getBlockLightValue (III)I
 	METHOD j isBlockProvidingPowerTo (IIII)Z
-	METHOD k sendQuittingDisconnectingPacket ()V
+	METHOD k func_658_i ()Ljava/util/List;
 	METHOD k canExistingBlockSeeTheSky (III)Z
 	METHOD k isBlockIndirectlyProvidingPowerTo (IIII)Z
-	METHOD l checkSessionLock ()V
+	METHOD l func_656_j ()V
 	METHOD l removeBlockTileEntity (III)V
 	METHOD l notifyBlockOfNeighborChange (IIII)V
-	METHOD m saveLevel ()V
+	METHOD m sendQuittingDisconnectingPacket ()V
 	METHOD m randomDisplayUpdates (III)V
+	METHOD n func_663_l ()V
 	METHOD n isBlockGettingPowered (III)Z
+	METHOD o func_9424_o ()V
 	METHOD o isBlockIndirectlyGettingPowered (III)Z
+	METHOD p saveLevel ()V

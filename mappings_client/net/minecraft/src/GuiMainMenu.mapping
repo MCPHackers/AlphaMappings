@@ -1,8 +1,8 @@
-CLASS cx net/minecraft/src/GuiMainMenu
-	FIELD a logoBlockLayers [Ljava/lang/String;
+CLASS dj net/minecraft/src/GuiMainMenu
+	FIELD a minecraftLogo [Ljava/lang/String;
 	FIELD h rand Ljava/util/Random;
-	FIELD i logoEffects [[Lkc;
+	FIELD i logoEffects [[Llr;
 	FIELD j updateCounter F
-	FIELD l splashString Ljava/lang/String;
+	FIELD l splashText Ljava/lang/String;
 	METHOD a drawLogo (F)V
-	METHOD j getRandom ()Ljava/util/Random;
+	METHOD j getRand ()Ljava/util/Random;

@@ -1,10 +1,5 @@
-CLASS ht net/minecraft/src/RedstoneUpdateInfo
-	FIELD a x I
-	FIELD b y I
-	FIELD c z I
-	FIELD d updateTime J
-	METHOD <init> (IIIJ)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 updateTime
+CLASS iy net/minecraft/src/RedstoneUpdateInfo
+	FIELD a field_775_a I
+	FIELD b field_774_b I
+	FIELD c field_777_c I
+	FIELD d field_776_d J

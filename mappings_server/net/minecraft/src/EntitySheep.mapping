@@ -1,2 +1,2 @@
-CLASS cj net/minecraft/src/EntitySheep
+CLASS cv net/minecraft/src/EntitySheep
 	FIELD a sheared Z

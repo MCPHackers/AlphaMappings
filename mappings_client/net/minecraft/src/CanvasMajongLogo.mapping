@@ -1,0 +1,3 @@
+CLASS do net/minecraft/src/CanvasMajongLogo
+	FIELD a logo Ljava/awt/image/BufferedImage;
+	METHOD paint (Ljava/awt/Graphics;)V

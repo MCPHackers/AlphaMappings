@@ -1,14 +1,6 @@
-CLASS ev net/minecraft/src/NoiseGeneratorOctaves
-	FIELD a generatorCollection [Laf;
-	FIELD b octaves I
-	METHOD <init> (Ljava/util/Random;I)V
-		ARG 1 random
-		ARG 2 octaves
-	METHOD a generateNoiseOctaves (DD)D
-		ARG 1 x
-		ARG 3 z
-	METHOD a generateNoiseOctaves ([DDDDIIIDDD)[D
-		ARG 1 data
-		ARG 8 x
-		ARG 9 y
-		ARG 10 z
+CLASS fr net/minecraft/src/NoiseGeneratorOctaves
+	FIELD a field_939_a [Lak;
+	FIELD b field_938_b I
+	METHOD a func_647_a (DD)D
+	METHOD a func_648_a ([DDDDIIIDDD)[D
+	METHOD a func_4103_a ([DIIIIDDD)[D

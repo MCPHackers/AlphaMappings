@@ -1,4 +1,4 @@
-CLASS nu net/minecraft/src/IProgressUpdate
+CLASS pu net/minecraft/src/IProgressUpdate
 	METHOD a setLoadingProgress (I)V
-	METHOD b displayProgressMessage (Ljava/lang/String;)V
+	METHOD b func_594_b (Ljava/lang/String;)V
 	METHOD d displayLoadingString (Ljava/lang/String;)V

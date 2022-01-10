@@ -1,14 +1,10 @@
-CLASS dk net/minecraft/src/Slot
+CLASS dz net/minecraft/src/Slot
 	FIELD a slotIndex I
-	FIELD b inventory Lgh;
-	METHOD <init> (Lgh;I)V
-		ARG 1 inventory
-		ARG 2 slotIndex
+	FIELD b inventory Lhi;
 	METHOD a onPickupFromSlot ()V
-	METHOD a isItemValid (Lev;)Z
-		ARG 1 itemStack
-	METHOD b getStack ()Lev;
-	METHOD b putStack (Lev;)V
-		ARG 1 itemStack
-	METHOD c getBackgroundIconIndex ()I
+	METHOD a isItemValid (Lfp;)Z
+	METHOD b getStack ()Lfp;
+	METHOD b putStack (Lfp;)V
+	METHOD c func_775_c ()I
 	METHOD d onSlotChanged ()V
+	METHOD e getSlotStackLimit ()I

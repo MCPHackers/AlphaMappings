@@ -1,5 +1,3 @@
-CLASS hl net/minecraft/src/NetworkMasterThread
-	FIELD a netManager Lbb;
-	METHOD <init> (Lbb;)V
-		ARG 1 netManager
+CLASS ip net/minecraft/src/NetworkMasterThread
+	FIELD a netManager Lbi;
 	METHOD run ()V

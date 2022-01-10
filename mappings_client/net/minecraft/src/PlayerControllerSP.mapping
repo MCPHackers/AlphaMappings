@@ -1,10 +1,8 @@
-CLASS ia net/minecraft/src/PlayerControllerSP
-	FIELD c curBlockX I
-	FIELD d curBlockY I
-	FIELD e curBlockZ I
-	FIELD f curBlockDamage F
-	FIELD g prevBlockDamage F
-	FIELD h blockDestroySoundCounter F
-	FIELD i blockHitWait I
-	FIELD j monsterSpawner Laz;
-	FIELD k animalSpawner Laz;
+CLASS jg net/minecraft/src/PlayerControllerSP
+	FIELD c field_1074_c I
+	FIELD d field_1073_d I
+	FIELD e field_1072_e I
+	FIELD f field_1071_f F
+	FIELD g field_1070_g F
+	FIELD h field_1069_h F
+	FIELD i field_1068_i I

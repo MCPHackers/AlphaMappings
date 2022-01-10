@@ -1,15 +1,13 @@
-CLASS bi net/minecraft/src/EntityPlayerSP
-	FIELD a movementInput Llv;
-	FIELD bg mc Lnet/minecraft/client/Minecraft;
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Lcn;Ldl;)V
-		ARG 1 mc
-		ARG 2 worldObj
-		ARG 3 session
-	METHOD a handleKeyPress (IZ)V
+CLASS bq net/minecraft/src/EntityPlayerSP
+	FIELD a field_787_a Lnn;
+	FIELD b field_9373_b I
+	FIELD bx mc Lnet/minecraft/client/Minecraft;
+	FIELD by field_9374_bx Z
+	FIELD c field_4134_c F
+	FIELD d field_4133_d F
+	METHOD a func_460_a (IZ)V
 	METHOD a sendChatMessage (Ljava/lang/String;)V
-		ARG 1 chatMessage
-	METHOD a attackEntity (Lkh;)V
-		ARG 1 entity
-	METHOD k resetPlayerKeyState ()V
-	METHOD m getPlayerArmorValue ()I
-	METHOD n onPlayerUpdate ()V
+	METHOD a_ setHealth (I)V
+	METHOD m_ func_458_k ()V
+	METHOD n getPlayerArmorValue ()I
+	METHOD o func_6420_o ()V

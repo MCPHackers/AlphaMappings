@@ -1,0 +1,2 @@
+CLASS cx net/minecraft/src/BlockPumpkin
+	FIELD a field_4072_a Z

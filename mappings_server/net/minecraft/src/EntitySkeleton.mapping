@@ -1,1 +1,2 @@
-CLASS ek net/minecraft/src/EntitySkeleton
+CLASS fd net/minecraft/src/EntitySkeleton
+	FIELD a field_4108_a Lhn;

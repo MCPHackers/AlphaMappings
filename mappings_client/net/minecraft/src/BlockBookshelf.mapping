@@ -1,4 +1,1 @@
-CLASS ds net/minecraft/src/BlockBookshelf
-	METHOD <init> (II)V
-		ARG 1 blockID
-		ARG 2 tex
+CLASS eh net/minecraft/src/BlockBookshelf

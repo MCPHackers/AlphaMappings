@@ -1,5 +1,6 @@
-CLASS eu net/minecraft/src/EntityCreeper
-	FIELD a timeSinceIgnited I
-	FIELD ad fuseDuration I
-	FIELD ae creeperState I
-	FIELD b lastActiveTime I
+CLASS fo net/minecraft/src/EntityCreeper
+	FIELD a field_406_a I
+	FIELD b field_405_b I
+	FIELD c field_408_ad I
+	FIELD d field_407_ae I
+	FIELD e field_12011_e I

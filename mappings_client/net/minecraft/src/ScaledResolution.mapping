@@ -1,4 +1,4 @@
-CLASS iy net/minecraft/src/ScaledResolution
+CLASS kl net/minecraft/src/ScaledResolution
 	FIELD a scaleFactor I
 	FIELD b scaledWidth I
 	FIELD c scaledHeight I

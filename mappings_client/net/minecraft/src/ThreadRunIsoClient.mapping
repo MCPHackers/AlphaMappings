@@ -1,2 +1,3 @@
-CLASS lh net/minecraft/src/ThreadRunIsoClient
-	FIELD a isomPreview Lad;
+CLASS my net/minecraft/src/ThreadRunIsoClient
+	FIELD a field_1197_a Lah;
+	METHOD run ()V

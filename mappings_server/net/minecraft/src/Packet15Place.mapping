@@ -1,4 +1,4 @@
-CLASS fe net/minecraft/src/Packet15Place
+CLASS gb net/minecraft/src/Packet15Place
 	FIELD a id I
 	FIELD b xPosition I
 	FIELD c yPosition I

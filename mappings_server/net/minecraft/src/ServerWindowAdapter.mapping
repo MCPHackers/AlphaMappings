@@ -1,2 +1,3 @@
-CLASS t net/minecraft/src/ServerWindowAdapter
+CLASS w net/minecraft/src/ServerWindowAdapter
 	FIELD a mcServer Lnet/minecraft/server/MinecraftServer;
+	METHOD windowClosing (Ljava/awt/event/WindowEvent;)V

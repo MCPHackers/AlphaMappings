@@ -1,2 +1,2 @@
-CLASS cs net/minecraft/src/BlockContainer
-	METHOD a_ getBlockEntity ()Las;
+CLASS dh net/minecraft/src/BlockContainer
+	METHOD a_ func_294_a_ ()Lay;

@@ -1,9 +1,5 @@
-CLASS ds net/minecraft/src/ChunkCache
-	FIELD a chunkX I
-	FIELD b chunkZ I
-	FIELD c chunkArray [[Lim;
-	FIELD d worldObj Ldy;
-	METHOD <init> (Ldy;IIIIII)V
-		ARG 1 world
-		ARG 2 x
-		ARG 4 z
+CLASS ei net/minecraft/src/ChunkCache
+	FIELD a field_823_a I
+	FIELD b field_822_b I
+	FIELD c field_825_c [[Lju;
+	FIELD d worldObj Leq;

@@ -1,3 +1,3 @@
-CLASS fs net/minecraft/src/RecipeSorter
-	FIELD a craftingManager Ldw;
-	METHOD a compareRecipes (Lbv;Lbv;)I
+CLASS gr net/minecraft/src/RecipeSorter
+	FIELD a field_1557_a Len;
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I

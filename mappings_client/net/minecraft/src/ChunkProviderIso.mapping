@@ -1,11 +1,6 @@
-CLASS ck net/minecraft/src/ChunkProviderIso
-	FIELD a blocks [B
-	FIELD b chunks [Lga;
-	FIELD c worldObj Lcn;
-	FIELD d chunkLoader Laf;
-	METHOD <init> (Lcn;Laf;)V
-		ARG 1 worldObj
-		ARG 2 chunkLoader
-	METHOD c getChunkAt (II)Lga;
-		ARG 1 chunkX
-		ARG 2 chunkZ
+CLASS cu net/minecraft/src/ChunkProviderIso
+	FIELD a field_899_a [B
+	FIELD b chunks [Lha;
+	FIELD c worldObj Lcy;
+	FIELD d chunkLoader Lai;
+	METHOD c func_543_c (II)Lha;

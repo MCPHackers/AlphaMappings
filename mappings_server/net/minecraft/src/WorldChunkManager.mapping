@@ -1,0 +1,13 @@
+CLASS iz net/minecraft/src/WorldChunkManager
+	FIELD a temperature [D
+	FIELD b humidity [D
+	FIELD c field_4257_c [D
+	FIELD d field_4256_d [Lio;
+	FIELD e field_4255_e Lfq;
+	FIELD f field_4254_f Lfq;
+	FIELD g field_4253_g Lfq;
+	METHOD a func_4067_a (II)Lio;
+	METHOD a func_4065_a (IIII)[Lio;
+	METHOD a func_4066_a (Lkh;)Lio;
+	METHOD a getTemperatures ([DIIII)[D
+	METHOD a loadBlockGeneratorData ([Lio;IIII)[Lio;

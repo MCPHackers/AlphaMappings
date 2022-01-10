@@ -1,6 +1,3 @@
-CLASS fv net/minecraft/src/Packet16BlockItemSwitch
-	FIELD a entityId I
+CLASS gt net/minecraft/src/Packet16BlockItemSwitch
+	FIELD a unused I
 	FIELD b id I
-	METHOD <init> (II)V
-		ARG 1 entityID
-		ARG 2 id

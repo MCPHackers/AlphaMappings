@@ -1,4 +1,1 @@
-CLASS n net/minecraft/src/BlockIce
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
+CLASS o net/minecraft/src/BlockIce

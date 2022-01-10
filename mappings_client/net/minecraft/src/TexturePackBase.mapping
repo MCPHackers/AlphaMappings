@@ -1,0 +1,11 @@
+CLASS d net/minecraft/src/TexturePackBase
+	FIELD a texturePackFileName Ljava/lang/String;
+	FIELD b firstDescriptionLine Ljava/lang/String;
+	FIELD c secondDescriptionLine Ljava/lang/String;
+	FIELD d field_6488_d Ljava/lang/String;
+	METHOD a func_6482_a ()V
+	METHOD a func_6481_a (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD a func_6485_a (Lnet/minecraft/client/Minecraft;)V
+	METHOD b closeTexturePackFile ()V
+	METHOD b func_6484_b (Lnet/minecraft/client/Minecraft;)V
+	METHOD c func_6483_c (Lnet/minecraft/client/Minecraft;)V

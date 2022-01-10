@@ -1,4 +1,4 @@
-CLASS jf net/minecraft/src/NextTickListEntry
+CLASS kq net/minecraft/src/NextTickListEntry
 	FIELD a xCoord I
 	FIELD b yCoord I
 	FIELD c zCoord I
@@ -6,5 +6,7 @@ CLASS jf net/minecraft/src/NextTickListEntry
 	FIELD e scheduledTime J
 	FIELD f nextTickEntryID J
 	FIELD g tickEntryID J
-	METHOD a setScheduledTime (J)Ljf;
-	METHOD a comparer (Ljf;)I
+	METHOD a setScheduledTime (J)Lkq;
+	METHOD compareTo (Ljava/lang/Object;)I
+	METHOD equals (Ljava/lang/Object;)Z
+	METHOD hashCode ()I

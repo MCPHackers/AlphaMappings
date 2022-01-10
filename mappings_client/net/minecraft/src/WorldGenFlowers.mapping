@@ -1,2 +1,2 @@
-CLASS ae net/minecraft/src/WorldGenFlowers
+CLASS aj net/minecraft/src/WorldGenFlowers
 	FIELD a plantBlockId I

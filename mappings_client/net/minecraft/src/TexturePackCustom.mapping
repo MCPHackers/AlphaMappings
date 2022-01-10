@@ -1,0 +1,6 @@
+CLASS od net/minecraft/src/TexturePackCustom
+	FIELD e field_6496_e Ljava/util/zip/ZipFile;
+	FIELD f texturePackName I
+	FIELD g field_6494_g Ljava/awt/image/BufferedImage;
+	FIELD h field_6493_h Ljava/io/File;
+	METHOD b func_6492_b (Ljava/lang/String;)Ljava/lang/String;

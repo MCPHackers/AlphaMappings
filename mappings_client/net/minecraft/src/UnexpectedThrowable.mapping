@@ -1,3 +1,3 @@
-CLASS go net/minecraft/src/UnexpectedThrowable
+CLASS hr net/minecraft/src/UnexpectedThrowable
 	FIELD a description Ljava/lang/String;
 	FIELD b exception Ljava/lang/Throwable;

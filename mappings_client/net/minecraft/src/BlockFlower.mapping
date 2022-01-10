@@ -1,11 +1,3 @@
-CLASS mq net/minecraft/src/BlockFlower
-	METHOD <init> (II)V
-		ARG 1 blockID
-		ARG 2 tex
+CLASS ok net/minecraft/src/BlockFlower
 	METHOD b canThisPlantGrowOnThisBlockID (I)Z
-		ARG 1 blockID
-	METHOD h checkFlowerChange (Lcn;III)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+	METHOD h func_268_h (Lcy;III)V

@@ -1,10 +1,10 @@
-CLASS fx net/minecraft/src/Path
-	FIELD a pathPoints [La;
+CLASS gw net/minecraft/src/Path
+	FIELD a pathPoints [Lb;
 	FIELD b count I
 	METHOD a clearPath ()V
 	METHOD a sortBack (I)V
-	METHOD a addPoint (La;)La;
-	METHOD a changeDistance (La;F)V
-	METHOD b dequeue ()La;
+	METHOD a addPoint (Lb;)Lb;
+	METHOD a changeDistance (Lb;F)V
+	METHOD b dequeue ()Lb;
 	METHOD b sortForward (I)V
 	METHOD c isPathEmpty ()Z

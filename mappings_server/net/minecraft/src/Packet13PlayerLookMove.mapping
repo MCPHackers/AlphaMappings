@@ -1,9 +1,1 @@
-CLASS dq net/minecraft/src/Packet13PlayerLookMove
-	METHOD <init> (DDDDFFZ)V
-		ARG 1 xPosition
-		ARG 3 yPosition
-		ARG 5 stance
-		ARG 7 zPosition
-		ARG 9 yaw
-		ARG 10 pitch
-		ARG 11 onGround
+CLASS eh net/minecraft/src/Packet13PlayerLookMove

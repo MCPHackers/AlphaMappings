@@ -1,51 +1,38 @@
-CLASS bb net/minecraft/src/NetworkManager
+CLASS bi net/minecraft/src/NetworkManager
 	FIELD a threadSyncObject Ljava/lang/Object;
 	FIELD b numReadThreads I
 	FIELD c numWriteThreads I
 	FIELD d sendQueueLock Ljava/lang/Object;
 	FIELD e networkSocket Ljava/net/Socket;
-	FIELD f socketInputStream Ljava/io/DataInputStream;
-	FIELD g socketOutputStream Ljava/io/DataOutputStream;
-	FIELD h isRunning Z
-	FIELD i readPackets Ljava/util/List;
-	FIELD j dataPackets Ljava/util/List;
-	FIELD k chunkDataPackets Ljava/util/List;
-	FIELD l netHandler Lej;
-	FIELD m isServerTerminating Z
-	FIELD n writeThread Ljava/lang/Thread;
-	FIELD o readThread Ljava/lang/Thread;
-	FIELD p isTerminating Z
-	FIELD q terminationReason Ljava/lang/String;
-	FIELD r timeSinceLastRead I
-	FIELD s sendQueueByteLength I
-	FIELD t chunkDataSendCounter I
-	METHOD <init> (Ljava/net/Socket;Ljava/lang/String;Lej;)V
-		ARG 1 socket
-		ARG 2 threadName
-		ARG 3 netHandler
+	FIELD f field_12032_f Ljava/net/SocketAddress;
+	FIELD g socketInputStream Ljava/io/DataInputStream;
+	FIELD h socketOutputStream Ljava/io/DataOutputStream;
+	FIELD i isRunning Z
+	FIELD j readPackets Ljava/util/List;
+	FIELD k dataPackets Ljava/util/List;
+	FIELD l chunkDataPackets Ljava/util/List;
+	FIELD m netHandler Lfc;
+	FIELD n isServerTerminating Z
+	FIELD o writeThread Ljava/lang/Thread;
+	FIELD p readThread Ljava/lang/Thread;
+	FIELD q isTerminating Z
+	FIELD r terminationReason Ljava/lang/String;
+	FIELD s timeSinceLastRead I
+	FIELD t sendQueueByteLength I
+	FIELD u chunkDataSendCounter I
 	METHOD a processReadPackets ()V
-	METHOD a isRunning (Lbb;)Z
-		ARG 0 networkManager
-	METHOD a setNetHandler (Lej;)V
-		ARG 1 netHandler
-	METHOD a addToSendQueue (Lhp;)V
-		ARG 1 packet
+	METHOD a isRunning (Lbi;)Z
+	METHOD a setNetHandler (Lfc;)V
+	METHOD a addToSendQueue (Lit;)V
 	METHOD a onNetworkError (Ljava/lang/Exception;)V
-		ARG 1 exception
 	METHOD a networkShutdown (Ljava/lang/String;)V
-		ARG 1 terminationReason
 	METHOD b getRemoteAddress ()Ljava/net/SocketAddress;
-	METHOD b isServerTerminating (Lbb;)Z
-		ARG 0 networkManager
+	METHOD b isServerTerminating (Lbi;)Z
 	METHOD c serverShutdown ()V
-	METHOD c readNetworkPacket (Lbb;)V
-		ARG 0 networkManager
+	METHOD c readNetworkPacket (Lbi;)V
 	METHOD d getNumChunkDataPackets ()I
-	METHOD d sendNetworkPacket (Lbb;)V
-		ARG 0 networkManager
+	METHOD d sendNetworkPacket (Lbi;)V
 	METHOD e sendPacket ()V
-	METHOD e getReadThread (Lbb;)Ljava/lang/Thread;
-		ARG 0 networkManager
+	METHOD e getReadThread (Lbi;)Ljava/lang/Thread;
 	METHOD f readPacket ()V
-	METHOD f getWriteThread (Lbb;)Ljava/lang/Thread;
-		ARG 0 networkManager
+	METHOD f getWriteThread (Lbi;)Ljava/lang/Thread;

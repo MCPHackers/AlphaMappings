@@ -1,4 +1,3 @@
-CLASS l net/minecraft/src/NBTTagFloat
+CLASS m net/minecraft/src/NBTTagFloat
 	FIELD a floatValue F
-	METHOD <init> (F)V
-		ARG 1 floatValue
+	METHOD toString ()Ljava/lang/String;

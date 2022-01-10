@@ -1,4 +1,5 @@
-CLASS js net/minecraft/src/EnumMobType
-	FIELD a everything Ljs;
-	FIELD b mobs Ljs;
-	FIELD c players Ljs;
+CLASS lg net/minecraft/src/EnumMobType
+	FIELD a everything Llg;
+	FIELD b mobs Llg;
+	FIELD c players Llg;
+	FIELD d field_1340_d [Llg;

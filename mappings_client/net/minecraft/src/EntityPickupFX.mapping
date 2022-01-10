@@ -1,11 +1,6 @@
-CLASS cd net/minecraft/src/EntityPickupFX
-	FIELD a entityToPickUp Lkh;
-	FIELD o entityPickingUp Lkh;
-	FIELD p age I
-	FIELD q maxAge I
-	FIELD r yOffs F
-	METHOD <init> (Lcn;Lkh;Lkh;F)V
-		ARG 1 worldObj
-		ARG 2 entityToPickUp
-		ARG 3 entityPickingUp
-		ARG 4 yOffset
+CLASS cm net/minecraft/src/EntityPickupFX
+	FIELD a field_675_a Llw;
+	FIELD o field_679_o Llw;
+	FIELD p field_678_p I
+	FIELD q field_677_q I
+	FIELD r field_676_r F

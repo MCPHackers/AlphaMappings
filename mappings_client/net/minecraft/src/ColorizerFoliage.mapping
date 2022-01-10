@@ -1,0 +1,3 @@
+CLASS ft net/minecraft/src/ColorizerFoliage
+	FIELD a field_6529_a [I
+	METHOD a func_4146_a (DD)I

@@ -1,7 +1,4 @@
-CLASS bw net/minecraft/src/RenderPainting
-	FIELD d rand Ljava/util/Random;
-	METHOD a renderThePainting (Ljc;DDDFF)V
-	METHOD a getOffset (Ljc;FF)V
-		ARG 1 entityPainting
-	METHOD a setSizes (Ljc;IIII)V
-		ARG 1 entityPainting
+CLASS cf net/minecraft/src/RenderPainting
+	FIELD a rand Ljava/util/Random;
+	METHOD a func_160_a (Lkp;FF)V
+	METHOD a func_159_a (Lkp;IIII)V

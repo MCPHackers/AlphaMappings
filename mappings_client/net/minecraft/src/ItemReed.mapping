@@ -1,2 +1,2 @@
-CLASS gf net/minecraft/src/ItemReed
-	FIELD a spawnID I
+CLASS hh net/minecraft/src/ItemReed
+	FIELD a field_320_a I

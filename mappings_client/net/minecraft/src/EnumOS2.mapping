@@ -1,0 +1,3 @@
+CLASS jp net/minecraft/src/EnumOS2
+	FIELD e unknown Ljp;
+	FIELD f field_6511_f [Ljp;

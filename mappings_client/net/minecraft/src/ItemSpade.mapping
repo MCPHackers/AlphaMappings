@@ -1,2 +1,2 @@
-CLASS ms net/minecraft/src/ItemSpade
-	FIELD aX blocksEffectiveAgainst [Lly;
+CLASS ol net/minecraft/src/ItemSpade
+	FIELD bb blocksEffectiveAgainst [Lnq;

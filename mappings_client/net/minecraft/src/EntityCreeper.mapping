@@ -1,6 +1,7 @@
-CLASS dd net/minecraft/src/EntityCreeper
+CLASS dq net/minecraft/src/EntityCreeper
 	FIELD a timeSinceIgnited I
 	FIELD b lastActiveTime I
-	FIELD c fuseDuration I
+	FIELD c fuseTime I
 	FIELD d creeperState I
-	METHOD b getCreeperFlashTime (F)F
+	FIELD e field_12241_e I
+	METHOD b func_440_b (F)F

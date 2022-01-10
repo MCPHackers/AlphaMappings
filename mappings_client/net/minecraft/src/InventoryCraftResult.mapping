@@ -1,2 +1,2 @@
-CLASS mw net/minecraft/src/InventoryCraftResult
-	FIELD a stackResult [Lev;
+CLASS oq net/minecraft/src/InventoryCraftResult
+	FIELD a stackResult [Lfp;

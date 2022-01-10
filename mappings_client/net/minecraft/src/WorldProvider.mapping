@@ -1,0 +1,20 @@
+CLASS oz net/minecraft/src/WorldProvider
+	FIELD a worldObj Lcy;
+	FIELD b worldChunkMgr Lpo;
+	FIELD c field_4220_c Z
+	FIELD d field_6479_d Z
+	FIELD e field_6478_e Z
+	FIELD f lightBrightnessTable [F
+	FIELD g field_4218_e I
+	FIELD h field_4217_f [F
+	METHOD a registerWorldChunkManager ()V
+	METHOD a func_4096_a (FF)Lao;
+	METHOD a func_4101_a (I)Loz;
+	METHOD a canCoordinateBeSpawn (II)Z
+	METHOD a calculateCelestialAngle (JF)F
+	METHOD a registerWorld (Lcy;)V
+	METHOD a getChunkLoader (Ljava/io/File;)Lai;
+	METHOD b generateLightBrightnessTable ()V
+	METHOD b func_4097_b (FF)[F
+	METHOD c getChunkProvider ()Lbd;
+	METHOD d func_6477_d ()Z

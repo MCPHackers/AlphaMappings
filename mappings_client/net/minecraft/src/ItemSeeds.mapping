@@ -1,2 +1,2 @@
-CLASS jn net/minecraft/src/ItemSeeds
-	FIELD a blockType I
+CLASS la net/minecraft/src/ItemSeeds
+	FIELD a field_318_a I

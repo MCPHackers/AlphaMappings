@@ -1,5 +1,5 @@
-CLASS hh net/minecraft/src/ModelSlime
-	FIELD a slimeBodies Lip;
-	FIELD b slimeRightEye Lip;
-	FIELD c slimeLeftEye Lip;
-	FIELD d slimeMouth Lip;
+CLASS ik net/minecraft/src/ModelSlime
+	FIELD a field_1258_a Lka;
+	FIELD b field_1257_b Lka;
+	FIELD c field_1260_c Lka;
+	FIELD d field_1259_d Lka;

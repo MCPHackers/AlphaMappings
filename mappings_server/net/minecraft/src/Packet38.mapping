@@ -1,0 +1,3 @@
+CLASS hq net/minecraft/src/Packet38
+	FIELD a field_9016_a I
+	FIELD b field_9015_b B

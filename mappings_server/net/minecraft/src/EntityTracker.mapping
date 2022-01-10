@@ -1,12 +1,13 @@
-CLASS fw net/minecraft/src/EntityTracker
-	FIELD a trackedEntitySet Ljava/util/Set;
-	FIELD b trackedEntityHashTable Lhf;
+CLASS gv net/minecraft/src/EntityTracker
+	FIELD a field_911_a Ljava/util/Set;
+	FIELD b field_910_b Lig;
 	FIELD c mcServer Lnet/minecraft/server/MinecraftServer;
-	FIELD d maxTrackingDistanceThreshold I
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
-		ARG 1 minecraftServer
-	METHOD a updateTrackedEntities ()V
-	METHOD a trackEntity (Ldj;)V
-	METHOD a trackEntity (Ldj;II)V
-	METHOD a sendPacketToTrackedPlayers (Ldj;Lhp;)V
-	METHOD b untrackEntity (Ldj;)V
+	FIELD d field_912_d I
+	METHOD a func_607_a ()V
+	METHOD a func_611_a (Lea;)V
+	METHOD a func_6187_a (Lea;II)V
+	METHOD a func_6186_a (Lea;IIZ)V
+	METHOD a func_12021_a (Lea;Lit;)V
+	METHOD a func_9238_a (Let;)V
+	METHOD b func_610_b (Lea;)V
+	METHOD b func_609_a (Lea;Lit;)V

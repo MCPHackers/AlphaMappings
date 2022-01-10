@@ -1,10 +1,6 @@
-CLASS gs net/minecraft/src/ChunkPosition
-	FIELD a x I
-	FIELD b y I
-	FIELD c z I
-	METHOD <init> (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
+CLASS hs net/minecraft/src/ChunkPosition
+	FIELD a field_846_a I
+	FIELD b field_845_b I
+	FIELD c field_847_c I
 	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 object
+	METHOD hashCode ()I

@@ -1,3 +1,3 @@
-CLASS jz net/minecraft/src/TextureFlamesFX
-	FIELD g currentFireFrame [F
-	FIELD h lastFireFrame [F
+CLASS ln net/minecraft/src/TextureFlamesFX
+	FIELD g field_1133_g [F
+	FIELD h field_1132_h [F

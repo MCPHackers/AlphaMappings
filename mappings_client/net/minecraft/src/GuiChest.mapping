@@ -1,4 +1,4 @@
-CLASS ea net/minecraft/src/GuiChest
-	FIELD j upperChestInventory Lgh;
-	FIELD l lowerChestInventory Lgh;
-	FIELD m inventoryRows I
+CLASS er net/minecraft/src/GuiChest
+	FIELD j field_982_j Lhi;
+	FIELD l field_981_l Lhi;
+	FIELD m field_980_m I

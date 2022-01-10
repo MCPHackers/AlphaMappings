@@ -1,0 +1,4 @@
+CLASS a net/minecraft/src/Packet7
+	FIELD a field_9019_a I
+	FIELD b field_9018_b I
+	FIELD c field_9020_c I

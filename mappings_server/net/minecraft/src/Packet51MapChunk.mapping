@@ -1,17 +1,9 @@
-CLASS cz net/minecraft/src/Packet51MapChunk
+CLASS do net/minecraft/src/Packet51MapChunk
 	FIELD a xPosition I
 	FIELD b yPosition I
 	FIELD c zPosition I
 	FIELD d xSize I
 	FIELD e ySize I
 	FIELD f zSize I
-	FIELD g chunkData [B
-	FIELD h tempLength I
-	METHOD <init> (IIIIIILdy;)V
-		ARG 1 xPosition
-		ARG 2 yPosition
-		ARG 3 zPosition
-		ARG 4 xSize
-		ARG 5 ySize
-		ARG 6 zSize
-		ARG 7 world
+	FIELD g chunk [B
+	FIELD h chunkSize I

@@ -1,7 +1,2 @@
-CLASS fc net/minecraft/src/BlockBreakable
-	FIELD a localFlag Z
-	METHOD <init> (IILgb;Z)V
-		ARG 1 blockID
-		ARG 2 tex
-		ARG 3 material
-		ARG 4 localFlag
+CLASS fy net/minecraft/src/BlockBreakable
+	FIELD a field_6363_a Z

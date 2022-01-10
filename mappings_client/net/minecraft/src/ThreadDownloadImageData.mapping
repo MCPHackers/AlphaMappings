@@ -1,4 +1,4 @@
-CLASS cc net/minecraft/src/ThreadDownloadImageData
+CLASS cl net/minecraft/src/ThreadDownloadImageData
 	FIELD a image Ljava/awt/image/BufferedImage;
 	FIELD b referenceCount I
 	FIELD c textureName I

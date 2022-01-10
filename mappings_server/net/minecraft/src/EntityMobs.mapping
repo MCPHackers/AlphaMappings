@@ -1,2 +1,2 @@
-CLASS fg net/minecraft/src/EntityMobs
-	FIELD af attackStrength I
+CLASS gd net/minecraft/src/EntityMobs
+	FIELD f field_404_af I

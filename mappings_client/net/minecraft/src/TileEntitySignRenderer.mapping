@@ -1,3 +1,2 @@
-CLASS in net/minecraft/src/TileEntitySignRenderer
-	FIELD b modelSign Ljk;
-	METHOD a renderTileEntitySignAt (Lob;DDDF)V
+CLASS jx net/minecraft/src/TileEntitySignRenderer
+	FIELD b signModel Lkx;

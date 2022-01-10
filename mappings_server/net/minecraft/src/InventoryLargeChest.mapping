@@ -1,8 +1,4 @@
-CLASS ah net/minecraft/src/InventoryLargeChest
+CLASS ao net/minecraft/src/InventoryLargeChest
 	FIELD a name Ljava/lang/String;
-	FIELD b upperChest Liw;
-	FIELD c lowerChest Liw;
-	METHOD <init> (Ljava/lang/String;Liw;Liw;)V
-		ARG 1 name
-		ARG 2 upperChest
-		ARG 3 lowerChest
+	FIELD b upperChest Lke;
+	FIELD c lowerChest Lke;

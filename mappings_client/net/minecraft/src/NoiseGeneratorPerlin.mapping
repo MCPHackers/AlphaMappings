@@ -1,10 +1,11 @@
-CLASS v net/minecraft/src/NoiseGeneratorPerlin
+CLASS z net/minecraft/src/NoiseGeneratorPerlin
 	FIELD a xCoord D
 	FIELD b yCoord D
 	FIELD c zCoord D
 	FIELD d permutations [I
-	METHOD a generateNoise (DD)D
+	METHOD a func_801_a (DD)D
 	METHOD a generateNoise (DDD)D
+	METHOD a func_4110_a (IDD)D
 	METHOD a grad (IDDD)D
-	METHOD a populateNoiseArray ([DDDDIIIDDDD)V
+	METHOD a func_805_a ([DDDDIIIDDDD)V
 	METHOD b lerp (DDD)D

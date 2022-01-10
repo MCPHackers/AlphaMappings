@@ -1,2 +1,2 @@
-CLASS av net/minecraft/src/ItemBlock
+CLASS bc net/minecraft/src/ItemBlock
 	FIELD a blockID I

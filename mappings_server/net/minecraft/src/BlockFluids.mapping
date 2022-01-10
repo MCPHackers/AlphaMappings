@@ -1,0 +1,7 @@
+CLASS db net/minecraft/src/BlockFluids
+	METHOD b setFluidHeight (I)F
+	METHOD b func_303_b (Liv;III)I
+	METHOD c func_298_c (Liv;III)Lbd;
+	METHOD g func_301_g (Leq;III)I
+	METHOD h func_300_h (Leq;III)V
+	METHOD i func_302_i (Leq;III)V

@@ -1,4 +1,1 @@
-CLASS i net/minecraft/src/BlockOreBlock
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
+CLASS j net/minecraft/src/BlockOreBlock

@@ -1,6 +1,6 @@
-CLASS ex net/minecraft/src/TileEntitySpecialRenderer
-	FIELD a tileEntityRenderer Lfz;
-	METHOD a getFontRenderer ()Lkd;
-	METHOD a setTileEntityRenderer (Lfz;)V
-	METHOD a renderTileEntityAt (Lic;DDDF)V
+CLASS fr net/minecraft/src/TileEntitySpecialRenderer
+	FIELD a tileEntityRenderer Lgz;
+	METHOD a getFontRenderer ()Lls;
+	METHOD a setTileEntityRenderer (Lgz;)V
 	METHOD a bindTextureByName (Ljava/lang/String;)V
+	METHOD a renderTileEntityAt (Lji;DDDF)V

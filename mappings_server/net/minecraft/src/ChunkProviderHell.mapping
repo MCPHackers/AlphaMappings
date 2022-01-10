@@ -1,0 +1,23 @@
+CLASS by net/minecraft/src/ChunkProviderHell
+	FIELD a field_4248_a Lfr;
+	FIELD b field_4247_b Lfr;
+	FIELD c field_4246_c [D
+	FIELD d field_4245_d [D
+	FIELD e field_4244_e [D
+	FIELD f field_4243_f [D
+	FIELD g field_4242_g [D
+	FIELD h field_4241_h Ljava/util/Random;
+	FIELD i field_4240_i Lfr;
+	FIELD j field_4239_j Lfr;
+	FIELD k field_4238_k Lfr;
+	FIELD l field_4237_l Lfr;
+	FIELD m field_4236_m Lfr;
+	FIELD n field_4235_n Leq;
+	FIELD o field_4234_o [D
+	FIELD p field_4233_p [D
+	FIELD q field_4232_q [D
+	FIELD r field_4231_r [D
+	FIELD s field_4230_s Lfg;
+	METHOD a func_4062_a (II[B)V
+	METHOD a func_4060_a ([DIIIIII)[D
+	METHOD b func_4061_b (II[B)V

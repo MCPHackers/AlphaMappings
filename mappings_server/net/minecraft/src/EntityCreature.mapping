@@ -1,12 +1,7 @@
-CLASS gh net/minecraft/src/EntityCreature
-	FIELD a pathToEntity Lcd;
-	FIELD ag entityToAttack Ldj;
-	FIELD ah hasAttacked Z
-	METHOD a getBlockPathWeight (III)F
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a attackEntity (Ldj;F)V
-		ARG 1 entity
-		ARG 2 damage
-	METHOD i findPlayerToAttack ()Ldj;
+CLASS hf net/minecraft/src/EntityCreature
+	FIELD a field_388_a Lcq;
+	FIELD aj field_389_ag Lea;
+	FIELD ak field_387_ah Z
+	METHOD a func_159_a (III)F
+	METHOD a func_157_a (Lea;F)V
+	METHOD k func_158_i ()Lea;

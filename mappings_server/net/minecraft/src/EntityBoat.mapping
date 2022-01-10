@@ -1,4 +1,10 @@
-CLASS es net/minecraft/src/EntityBoat
-	FIELD a damageTaken I
-	FIELD ad forwardDirection I
-	FIELD b timeSinceHit I
+CLASS fm net/minecraft/src/EntityBoat
+	FIELD a field_9178_a I
+	FIELD aj field_9175_aj D
+	FIELD ak field_9173_ak D
+	FIELD al field_9171_al D
+	FIELD b field_9177_b I
+	FIELD c field_436_ad I
+	FIELD d field_9176_d I
+	FIELD e field_9174_e D
+	FIELD f field_9172_f D

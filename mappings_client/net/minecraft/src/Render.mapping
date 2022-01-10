@@ -1,18 +1,18 @@
-CLASS ak net/minecraft/src/Render
-	FIELD a renderManager Lkx;
-	FIELD b shadowSize F
-	FIELD c shadowOpaque F
-	FIELD d modelBase Lfo;
-	FIELD e renderBlocks Lbc;
-	METHOD a getFontRendererFromRenderManager ()Lkd;
-	METHOD a renderAABB (Lcf;)V
-	METHOD a renderOffsetAABB (Lcf;DDD)V
+CLASS aq net/minecraft/src/Render
+	FIELD a unusedModelBiped Lgm;
+	FIELD b renderManager Lmn;
+	FIELD c field_9246_c F
+	FIELD d field_194_c F
+	FIELD e unusedRenderBlocks Lbk;
+	METHOD a getFontRendererFromRenderManager ()Lls;
+	METHOD a renderAABB (Lco;)V
+	METHOD a renderOffsetAABB (Lco;DDD)V
 	METHOD a loadTexture (Ljava/lang/String;)V
-	METHOD a loadDownloadableImageTexture (Ljava/lang/String;Ljava/lang/String;)V
-	METHOD a renderEntityOnFire (Lkh;DDDF)V
-	METHOD a doRender (Lkh;DDDFF)V
-	METHOD a setRenderManager (Lkx;)V
-	METHOD a renderShadowOnBlock (Lly;DDDIIIFFDDD)V
-	METHOD b getWorldFromRenderManager ()Lcn;
-	METHOD b doRenderShadowAndFire (Lkh;DDDFF)V
-	METHOD c renderShadow (Lkh;DDDFF)V
+	METHOD a func_140_a (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a renderEntityOnFire (Llw;DDDF)V
+	METHOD a doRender (Llw;DDDFF)V
+	METHOD a setRenderManager (Lmn;)V
+	METHOD a renderShadowOnBlock (Lnq;DDDIIIFFDDD)V
+	METHOD b getWorldFromRenderManager ()Lcy;
+	METHOD b doRenderShadowAndFire (Llw;DDDFF)V
+	METHOD c renderShadow (Llw;DDDFF)V

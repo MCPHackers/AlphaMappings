@@ -1,9 +1,13 @@
-CLASS dc net/minecraft/src/EntityBoat
-	FIELD a damageTaken I
-	FIELD b timeSinceHit I
-	FIELD c forwardDirection I
-	METHOD <init> (Lcn;DDD)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
+CLASS dp net/minecraft/src/EntityBoat
+	FIELD a field_807_a I
+	FIELD b field_806_b I
+	FIELD c field_808_c I
+	FIELD d field_9394_d I
+	FIELD e field_9393_e D
+	FIELD f field_9392_f D
+	FIELD g field_9391_g D
+	FIELD h field_9390_h D
+	FIELD i field_9389_i D
+	FIELD j field_9388_j D
+	FIELD k field_9387_k D
+	FIELD l field_9386_l D

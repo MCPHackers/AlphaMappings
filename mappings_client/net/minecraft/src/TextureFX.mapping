@@ -1,9 +1,9 @@
-CLASS z net/minecraft/src/TextureFX
-	FIELD a imageData [B
-	FIELD b iconIndex I
-	FIELD c anaglyphEnabled Z
-	FIELD d textureId I
-	FIELD e tileSize I
-	FIELD f tileImage I
-	METHOD a onTick ()V
-	METHOD a bindImage (Ley;)V
+CLASS ad net/minecraft/src/TextureFX
+	FIELD a field_1127_a [B
+	FIELD b field_1126_b I
+	FIELD c field_1131_c Z
+	FIELD d field_1130_d I
+	FIELD e field_1129_e I
+	FIELD f field_1128_f I
+	METHOD a func_783_a ()V
+	METHOD a func_782_a (Lfu;)V

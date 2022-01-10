@@ -1,6 +1,6 @@
-CLASS kl net/minecraft/src/Frustrum
-	FIELD a clippingHelper Lbt;
-	FIELD b xPosition D
-	FIELD c yPosition D
-	FIELD d zPosition D
-	METHOD a isBoxInFrustum (DDDDDD)Z
+CLASS ma net/minecraft/src/Frustrum
+	FIELD a field_593_a Lcc;
+	FIELD b field_592_b D
+	FIELD c field_595_c D
+	FIELD d field_594_d D
+	METHOD a func_344_a (DDDDDD)Z

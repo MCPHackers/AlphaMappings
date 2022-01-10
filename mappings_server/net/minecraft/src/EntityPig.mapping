@@ -1,2 +1,2 @@
-CLASS gu net/minecraft/src/EntityPig
-	FIELD a saddled Z
+CLASS hu net/minecraft/src/EntityPig
+	FIELD a rideable Z

@@ -1,2 +1,3 @@
-CLASS io net/minecraft/src/NBTTagInt
+CLASS jy net/minecraft/src/NBTTagInt
 	FIELD a intValue I
+	METHOD toString ()Ljava/lang/String;

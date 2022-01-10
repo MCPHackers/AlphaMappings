@@ -1,16 +1,19 @@
-CLASS hq net/minecraft/src/PlayerController
+CLASS iv net/minecraft/src/PlayerController
 	FIELD a mc Lnet/minecraft/client/Minecraft;
-	FIELD b isInTestMode Z
-	METHOD a resetBlockRemoving ()V
-	METHOD a setPartialTime (F)V
+	FIELD b field_1064_b Z
+	METHOD a func_6468_a ()V
+	METHOD a func_6467_a (F)V
 	METHOD a clickBlock (IIII)V
-	METHOD a onWorldChange (Lcn;)V
-	METHOD a flipPlayer (Ldm;)V
-	METHOD a onPlayerRightClick (Ldm;Lcn;Lev;IIII)Z
+	METHOD a func_717_a (Lcy;)V
+	METHOD a flipPlayer (Leb;)V
+	METHOD a sendUseItem (Leb;Lcy;Lfp;)Z
+	METHOD a sendPlaceBlock (Leb;Lcy;Lfp;IIII)Z
+	METHOD a func_6475_a (Leb;Llw;)V
 	METHOD b getBlockReachDistance ()F
 	METHOD b sendBlockRemoved (IIII)Z
-	METHOD b createPlayer (Lcn;)Ldm;
-	METHOD b onRespawn (Ldm;)V
-	METHOD c onUpdate ()V
+	METHOD b func_4087_b (Lcy;)Leb;
+	METHOD b func_6473_b (Leb;)V
+	METHOD b func_6472_b (Leb;Llw;)V
+	METHOD c func_6474_c ()V
 	METHOD c sendBlockRemoving (IIII)V
-	METHOD d shouldDrawHUD ()Z
+	METHOD d func_6469_d ()Z

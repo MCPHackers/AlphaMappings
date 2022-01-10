@@ -1,0 +1,2 @@
+CLASS x net/minecraft/src/BlockPortal
+	METHOD a_ tryToCreatePortal (Lcy;III)Z

@@ -1,9 +1,2 @@
-CLASS hu net/minecraft/src/BlockButton
-	METHOD <init> (II)V
-		ARG 1 blockID
-		ARG 2 tex
-	METHOD h checkIfAttachedToBlock (Lcn;III)Z
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS iy net/minecraft/src/BlockButton
+	METHOD h func_305_h (Lcy;III)Z

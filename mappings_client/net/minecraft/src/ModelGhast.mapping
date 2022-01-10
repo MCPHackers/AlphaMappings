@@ -1,0 +1,3 @@
+CLASS hc net/minecraft/src/ModelGhast
+	FIELD a body Lka;
+	FIELD b tentacles [Lka;

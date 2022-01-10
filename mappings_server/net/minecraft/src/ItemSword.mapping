@@ -1,5 +1,2 @@
-CLASS bh net/minecraft/src/ItemSword
-	FIELD a weaponDamage I
-	METHOD <init> (II)V
-		ARG 1 itemID
-		ARG 2 maxDamage
+CLASS bs net/minecraft/src/ItemSword
+	FIELD a field_4210_a I

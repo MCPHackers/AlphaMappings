@@ -1,11 +1,11 @@
-CLASS cr net/minecraft/src/ModelBiped
-	FIELD a bipedHead Lip;
-	FIELD b bipedHeadwear Lip;
-	FIELD c bipedBody Lip;
-	FIELD d bipedRightArm Lip;
-	FIELD e bipedLeftArm Lip;
-	FIELD f bipedRightLeg Lip;
-	FIELD g bipedLeftLeg Lip;
-	FIELD h heldItemLeft Z
-	FIELD i heldItemRight Z
-	FIELD j isSneak Z
+CLASS dc net/minecraft/src/ModelBiped
+	FIELD a bipedHead Lka;
+	FIELD b field_1285_b Lka;
+	FIELD c field_1284_c Lka;
+	FIELD d bipedRightArm Lka;
+	FIELD e bipedLeftArm Lka;
+	FIELD f bipedRightLeg Lka;
+	FIELD g bipedLeftLeg Lka;
+	FIELD h field_1279_h Z
+	FIELD i field_1278_i Z
+	FIELD j field_1277_j Z

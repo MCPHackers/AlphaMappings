@@ -1,12 +1,7 @@
-CLASS go net/minecraft/src/ItemArmor
-	FIELD a armorLevel I
-	FIELD aX armorType I
-	FIELD aY damageReduceAmount I
-	FIELD aZ renderIndex I
-	FIELD ba damageReduceAmountArray [I
-	FIELD bb maxDamageArray [I
-	METHOD <init> (IIII)V
-		ARG 1 itemID
-		ARG 2 armorLevel
-		ARG 3 renderIndex
-		ARG 4 armorType
+CLASS hl net/minecraft/src/ItemArmor
+	FIELD a field_254_a I
+	FIELD bb field_257_aX I
+	FIELD bc field_256_aY I
+	FIELD bd field_255_aZ I
+	FIELD be field_259_ba [I
+	FIELD bf field_258_bb [I

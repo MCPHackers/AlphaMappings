@@ -1,0 +1,3 @@
+CLASS et net/minecraft/src/TexturePortalFX
+	FIELD g field_4227_g I
+	FIELD h field_4226_h [[B

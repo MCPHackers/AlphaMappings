@@ -1,6 +1,3 @@
-CLASS ce net/minecraft/src/Packet22Collect
+CLASS cs net/minecraft/src/Packet22Collect
 	FIELD a collectedEntityId I
 	FIELD b collectorEntityId I
-	METHOD <init> (II)V
-		ARG 1 collectedEntityID
-		ARG 2 collectorEntityID

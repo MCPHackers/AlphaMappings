@@ -1,5 +1,5 @@
-CLASS ed net/minecraft/src/PositionTexureVertex
-	FIELD a vector3D Laj;
+CLASS ew net/minecraft/src/PositionTexureVertex
+	FIELD a vector3D Lao;
 	FIELD b texturePositionX F
 	FIELD c texturePositionY F
-	METHOD a setTexturePosition (FF)Led;
+	METHOD a setTexturePosition (FF)Lew;

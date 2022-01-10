@@ -1,6 +1,3 @@
-CLASS al net/minecraft/src/ItemPickaxe
-	FIELD aX blocksEffectiveAgainst [Lff;
-	FIELD aY harvestLevel I
-	METHOD <init> (II)V
-		ARG 1 itemID
-		ARG 2 harvestLevelAndMaterial
+CLASS aq net/minecraft/src/ItemPickaxe
+	FIELD bb field_4209_bb [Lgc;
+	FIELD bc field_4208_bc I

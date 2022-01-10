@@ -1,29 +1,17 @@
-CLASS nq net/minecraft/src/EntityFX
-	FIELD b particleTextureIndex I
-	FIELD c particleTextureJitterX F
-	FIELD d particleTextureJitterY F
-	FIELD e particleAge I
-	FIELD f particleMaxAge I
-	FIELD g particleScale F
-	FIELD h particleGravity F
-	FIELD i particleRed F
-	FIELD j particleGreen F
-	FIELD k particleBlue F
-	FIELD l interpPosX D
-	FIELD m interpPosY D
-	FIELD n interpPosZ D
-	METHOD <init> (Lcn;DDDDDD)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 motionX
-		ARG 10 motionY
-		ARG 12 motionZ
-	METHOD a renderParticle (Lho;FFFFFF)V
-		ARG 1 tessellator
-	METHOD b multiplyVelocity (F)Lnq;
-		ARG 1 velocityMultiplier
-	METHOD c getFXLayer ()I
-	METHOD d multipleParticleScaleBy (F)Lnq;
-		ARG 1 particleScaleMultiplier
+CLASS pp net/minecraft/src/EntityFX
+	FIELD b field_670_b I
+	FIELD c field_669_c F
+	FIELD d field_668_d F
+	FIELD f field_666_f I
+	FIELD g field_665_g F
+	FIELD h field_664_h F
+	FIELD i field_663_i F
+	FIELD j field_662_j F
+	FIELD k field_661_k F
+	FIELD l field_660_l D
+	FIELD m field_659_m D
+	FIELD n field_658_n D
+	METHOD a func_406_a (Lis;FFFFFF)V
+	METHOD b func_407_b (F)Lpp;
+	METHOD d func_405_d (F)Lpp;
+	METHOD l_ func_404_c ()I

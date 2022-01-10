@@ -1,4 +1,4 @@
-CLASS fg net/minecraft/src/Packet14BlockDig
+CLASS gc net/minecraft/src/Packet14BlockDig
 	FIELD a xPosition I
 	FIELD b yPosition I
 	FIELD c zPosition I

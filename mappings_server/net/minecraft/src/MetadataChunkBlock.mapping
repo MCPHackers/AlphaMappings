@@ -1,25 +1,10 @@
-CLASS dp net/minecraft/src/MetadataChunkBlock
-	FIELD a skyBlock Lcy;
-	FIELD b x I
-	FIELD c y I
-	FIELD d z I
-	FIELD e maxX I
-	FIELD f maxY I
-	FIELD g maxZ I
-	METHOD <init> (Lcy;IIIIII)V
-		ARG 1 skyBlock
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 maxX
-		ARG 6 maxY
-		ARG 7 maxZ
-	METHOD a getLightUpdated (IIIIII)Z
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 maxX
-		ARG 5 maxY
-		ARG 6 maxZ
-	METHOD a updateLight (Ldy;)V
-		ARG 1 world
+CLASS eg net/minecraft/src/MetadataChunkBlock
+	FIELD a field_957_a Ldn;
+	FIELD b field_956_b I
+	FIELD c field_962_c I
+	FIELD d field_961_d I
+	FIELD e field_960_e I
+	FIELD f field_959_f I
+	FIELD g field_958_g I
+	METHOD a func_692_a (IIIIII)Z
+	METHOD a func_4107_a (Leq;)V

@@ -1,0 +1,5 @@
+CLASS ng net/minecraft/src/NoiseGeneratorOctaves2
+	FIELD a field_4234_a [Law;
+	FIELD b field_4233_b I
+	METHOD a func_4112_a ([DDDIIDDD)[D
+	METHOD a func_4111_a ([DDDIIDDDD)[D

@@ -1,9 +1,5 @@
-CLASS gt net/minecraft/src/NibbleArray
+CLASS ht net/minecraft/src/NibbleArray
 	FIELD a data [B
-	METHOD <init> (I)V
-		ARG 1 data
-	METHOD <init> ([B)V
-		ARG 1 data
 	METHOD a isValid ()Z
-	METHOD a get (III)I
-	METHOD a set (IIII)V
+	METHOD a getNibble (III)I
+	METHOD a setNibble (IIII)V

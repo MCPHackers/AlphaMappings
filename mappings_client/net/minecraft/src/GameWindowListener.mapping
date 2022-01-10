@@ -1,3 +1,4 @@
-CLASS fp net/minecraft/src/GameWindowListener
+CLASS gn net/minecraft/src/GameWindowListener
 	FIELD a mc Lnet/minecraft/client/Minecraft;
-	FIELD b thread Ljava/lang/Thread;
+	FIELD b mcThread Ljava/lang/Thread;
+	METHOD windowClosing (Ljava/awt/event/WindowEvent;)V

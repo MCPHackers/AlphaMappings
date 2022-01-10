@@ -1,5 +1,5 @@
-CLASS fi net/minecraft/src/MCHashTable
-	FIELD a slots [Lmx;
+CLASS ge net/minecraft/src/MCHashTable
+	FIELD a slots [Lor;
 	FIELD b count I
 	FIELD c threshold I
 	FIELD d growFactor F
@@ -9,9 +9,9 @@ CLASS fi net/minecraft/src/MCHashTable
 	METHOD a getSlotIndex (II)I
 	METHOD a insert (IILjava/lang/Object;I)V
 	METHOD a addKey (ILjava/lang/Object;)V
-	METHOD a copyTo ([Lmx;)V
+	METHOD a copyTo ([Lor;)V
 	METHOD b removeObject (I)Ljava/lang/Object;
-	METHOD c removeEntry (I)Lmx;
+	METHOD c removeEntry (I)Lor;
 	METHOD d getHash (I)I
 	METHOD e computeHash (I)I
 	METHOD f grow (I)V

@@ -1,4 +1,1 @@
-CLASS hy net/minecraft/src/BlockCactus
-	METHOD <init> (II)V
-		ARG 1 blockID
-		ARG 2 tex
+CLASS je net/minecraft/src/BlockCactus

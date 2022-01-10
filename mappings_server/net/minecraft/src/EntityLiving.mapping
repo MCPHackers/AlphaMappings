@@ -1,83 +1,75 @@
-CLASS is net/minecraft/src/EntityLiving
-	FIELD aA prevRotationUnused F
-	FIELD aB unusedBool1 Z
-	FIELD aC texture Ljava/lang/String;
-	FIELD aD unusedBool2 Z
-	FIELD aE unusedRotation F
-	FIELD aF entityType Ljava/lang/String;
-	FIELD aG unusedFloat1 F
-	FIELD aH scoreValue I
-	FIELD a livingSoundTime I
-	FIELD aI unusedFloat2 F
-	FIELD aJ isAIEnabled Z
-	FIELD aK prevSwingProgress F
-	FIELD aL swingProgress F
-	FIELD aM health I
-	FIELD aN prevHealth I
-	FIELD aO hurtTime I
-	FIELD aP maxHurtTime I
-	FIELD aQ attackedAtYaw F
-	FIELD aR deathTime I
-	FIELD aS attackTime I
-	FIELD aT prevCameraPitch F
-	FIELD aU cameraPitch F
-	FIELD aV dead Z
-	FIELD aW unusedInt I
-	FIELD aX unusedFloat4 F
-	FIELD aY prevLimbYaw F
-	FIELD aZ limbYaw F
-	FIELD ad newPosX D
-	FIELD ae newPosY D
-	FIELD af newPosZ D
-	FIELD ag newRotationYaw D
-	FIELD ah newRotationPitch D
-	FIELD ai currentTarget Ldj;
-	FIELD aj numTicksToChaseTarget I
-	FIELD ar heartsHalvesLife I
-	FIELD as unusedRotationPitch2 F
-	FIELD at unusedFloat F
-	FIELD au unusedRotationPitch F
-	FIELD av renderYawOffset F
-	FIELD aw prevRenderYawOffset F
-	FIELD ax ridingRotUnused F
-	FIELD ay prevRidingRotUnused F
-	FIELD az rotationUnused F
-	FIELD b newPosRotationIncrements I
-	FIELD ba limbSwing F
-	FIELD bb unusedFloat3 F
-	FIELD bc entityAge I
-	FIELD bd moveStrafing F
-	FIELD be moveForward F
-	FIELD bf randomYawVelocity F
-	FIELD bg isJumping Z
-	FIELD bh defaultPitch F
-	FIELD bi moveSpeed F
-	METHOD D spawnExplosionParticle ()V
-	METHOD G onEntityDeath ()V
+CLASS ka net/minecraft/src/EntityLiving
+	FIELD aA field_9095_az F
+	FIELD aB field_9125_aA F
+	FIELD aC field_9124_aB F
+	FIELD aD field_9123_aC F
+	FIELD aE field_9122_aD F
+	FIELD aF field_9121_aE F
+	FIELD aG field_9120_aF Z
+	FIELD aH field_9119_aG Ljava/lang/String;
+	FIELD aI field_9118_aH Z
+	FIELD aJ field_9117_aI F
+	FIELD aK field_9116_aJ Ljava/lang/String;
+	FIELD aL field_9115_aK F
+	FIELD aM field_9114_aL I
+	FIELD aN field_9113_aM F
+	FIELD aO field_9112_aN Z
+	FIELD aP field_9111_aO F
+	FIELD aQ field_9110_aP F
+	FIELD aR field_9109_aQ I
+	FIELD aS field_9108_aR I
+	FIELD aT field_9107_aS I
+	FIELD aU field_9106_aT I
+	FIELD aV field_9105_aU F
+	FIELD aW field_9104_aV I
+	FIELD aX field_9103_aW I
+	FIELD aY field_9102_aX F
+	FIELD aZ field_9101_aY F
+	FIELD aw field_9099_av I
+	FIELD ax field_9098_aw F
+	FIELD ay field_9097_ax F
+	FIELD az field_9096_ay F
+	FIELD ba field_9100_aZ Z
+	FIELD bb field_9144_ba I
+	FIELD bc field_9143_bb F
+	FIELD bd field_9142_bc F
+	FIELD be field_9141_bd F
+	FIELD bf field_386_ba F
+	FIELD bg field_9140_bf I
+	FIELD bh field_9139_bg D
+	FIELD bi field_9138_bh D
+	FIELD bj field_9137_bi D
+	FIELD bk field_9136_bj D
+	FIELD bl field_9135_bk D
+	FIELD bm field_9134_bl F
+	FIELD bn field_9133_bm I
+	FIELD bo field_9132_bn I
+	FIELD bp field_9131_bo F
+	FIELD bq field_9130_bp F
+	FIELD br field_9129_bq F
+	FIELD bs field_9128_br Z
+	FIELD bt field_9127_bs F
+	FIELD bu field_9126_bt F
+	METHOD E onLivingUpdate ()V
+	METHOD J func_156_D ()V
+	METHOD K func_154_F ()V
+	METHOD L func_6101_K ()V
 	METHOD a getCanSpawnHere ()Z
-	METHOD a rayTrace (DF)Lfr;
 	METHOD a heal (I)V
-		ARG 1 health
-	METHOD a (Ldj;IDD)V
-		ARG 1 entity
-		ARG 2 x
-		ARG 3 y
-		ARG 5 z
-	METHOD b getTalkInterval ()I
-	METHOD b updateRotation (FFF)F
-	METHOD b faceEntity (Ldj;F)V
-		ARG 1 entity
-	METHOD c getLivingSound ()Ljava/lang/String;
-	METHOD c getPosition (F)Law;
-	METHOD c handleMovement (FF)V
-	METHOD d getHurtSound ()Ljava/lang/String;
-	METHOD d getLook (F)Law;
-	METHOD d_ updateEntityActionState ()V
-	METHOD e getDeathSound ()Ljava/lang/String;
-	METHOD f getSoundVolume ()F
-	METHOD f onDeath (Ldj;)V
-		ARG 1 entity
+	METHOD a func_143_a (Lea;IDD)V
+	METHOD b func_146_b ()I
+	METHOD b func_140_b (FFF)F
+	METHOD b func_147_b (Lea;F)V
+	METHOD c func_152_d_ ()V
+	METHOD c func_141_d (F)Lbd;
+	METHOD c func_148_c (FF)V
+	METHOD c func_6099_c (I)V
+	METHOD d getLivingSound ()Ljava/lang/String;
+	METHOD d_ func_144_E ()Z
+	METHOD e getHurtSound ()Ljava/lang/String;
+	METHOD f getDeathSound ()Ljava/lang/String;
+	METHOD f onDeath (Lea;)V
 	METHOD g getDropItemId ()I
-	METHOD g canEntityBeSeen (Ldj;)Z
-		ARG 1 entity
-	METHOD y onLivingUpdate ()V
+	METHOD h getSoundVolume ()F
+	METHOD i func_4045_i ()I
+	METHOD i func_145_g (Lea;)Z

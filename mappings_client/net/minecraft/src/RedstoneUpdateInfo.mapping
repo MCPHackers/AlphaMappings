@@ -1,4 +1,4 @@
-CLASS np net/minecraft/src/RedstoneUpdateInfo
+CLASS pn net/minecraft/src/RedstoneUpdateInfo
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I

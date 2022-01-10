@@ -1,5 +1,5 @@
-CLASS fo net/minecraft/src/ModelBase
-	FIELD k swingProgress F
-	FIELD l isRiding Z
+CLASS gm net/minecraft/src/ModelBase
+	FIELD k field_1244_k F
+	FIELD l field_1243_l Z
 	METHOD a setRotationAngles (FFFFFF)V
 	METHOD b render (FFFFFF)V

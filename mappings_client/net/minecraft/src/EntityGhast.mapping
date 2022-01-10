@@ -1,0 +1,10 @@
+CLASS am net/minecraft/src/EntityGhast
+	FIELD a field_4121_a I
+	FIELD b field_4120_b D
+	FIELD c field_4127_c D
+	FIELD d field_4126_d D
+	FIELD e field_4125_e I
+	FIELD f field_4124_f I
+	FIELD g field_4123_g Llw;
+	FIELD h field_4122_h I
+	METHOD a func_4050_a (DDDD)Z

@@ -1,8 +1,4 @@
-CLASS cb net/minecraft/src/Packet6SpawnPosition
+CLASS co net/minecraft/src/Packet6SpawnPosition
 	FIELD a xPosition I
 	FIELD b yPosition I
 	FIELD c zPosition I
-	METHOD <init> (III)V
-		ARG 1 xPosition
-		ARG 2 yPosition
-		ARG 3 zPosition

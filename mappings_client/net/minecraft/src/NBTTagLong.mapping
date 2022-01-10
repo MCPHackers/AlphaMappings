@@ -1,2 +1,3 @@
-CLASS gn net/minecraft/src/NBTTagLong
+CLASS hq net/minecraft/src/NBTTagLong
 	FIELD a longValue J
+	METHOD toString ()Ljava/lang/String;

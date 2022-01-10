@@ -1,19 +1,10 @@
-CLASS gr net/minecraft/src/EntityList
-	FIELD a stringToClassMapping Ljava/util/Map;
-	FIELD b classToStringMapping Ljava/util/Map;
-	FIELD c IDtoClassMapping Ljava/util/Map;
-	FIELD d classToIDMapping Ljava/util/Map;
-	METHOD a getEntityID (Ldj;)I
-		ARG 0 entity
-	METHOD a addMapping (Ljava/lang/Class;Ljava/lang/String;I)V
-		ARG 0 clazz
-		ARG 1 entityName
-		ARG 2 entityID
-	METHOD a createEntityByName (Ljava/lang/String;Ldy;)Ldj;
-		ARG 0 entityName
-		ARG 1 world
-	METHOD a createEntityFromNBT (Ls;Ldy;)Ldj;
-		ARG 0 nbttagcompound
-		ARG 1 world
-	METHOD b getEntityString (Ldj;)Ljava/lang/String;
-		ARG 0 entity
+CLASS hp net/minecraft/src/EntityList
+	FIELD a field_849_a Ljava/util/Map;
+	FIELD b field_848_b Ljava/util/Map;
+	FIELD c field_851_c Ljava/util/Map;
+	FIELD d field_850_d Ljava/util/Map;
+	METHOD a func_565_a (Lea;)I
+	METHOD a func_563_a (Ljava/lang/Class;Ljava/lang/String;I)V
+	METHOD a func_567_a (Ljava/lang/String;Leq;)Lea;
+	METHOD a func_566_a (Lv;Leq;)Lea;
+	METHOD b func_564_b (Lea;)Ljava/lang/String;

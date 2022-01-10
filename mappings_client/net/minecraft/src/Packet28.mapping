@@ -1,0 +1,5 @@
+CLASS dv net/minecraft/src/Packet28
+	FIELD a field_6367_a I
+	FIELD b field_6366_b I
+	FIELD c field_6369_c I
+	FIELD d field_6368_d I

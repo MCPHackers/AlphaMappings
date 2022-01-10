@@ -1,2 +1,2 @@
-CLASS cl net/minecraft/src/ModelBoat
-	FIELD a boatSides [Lip;
+CLASS cv net/minecraft/src/ModelBoat
+	FIELD a field_1287_a [Lka;

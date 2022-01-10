@@ -1,8 +1,8 @@
-CLASS mf net/minecraft/src/MovingObjectPosition
+CLASS nx net/minecraft/src/MovingObjectPosition
 	FIELD a typeOfHit I
 	FIELD b blockX I
 	FIELD c blockY I
 	FIELD d blockZ I
 	FIELD e sideHit I
-	FIELD f hitVec Laj;
-	FIELD g entityHit Lkh;
+	FIELD f hitVec Lao;
+	FIELD g entityHit Llw;

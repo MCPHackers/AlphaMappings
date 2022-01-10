@@ -1,11 +1,3 @@
-CLASS x net/minecraft/src/BlockStationary
-	METHOD i setNotStationary (Ldy;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD j isFlammable (Ldy;III)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS z net/minecraft/src/BlockStationary
+	METHOD i func_15002_i (Leq;III)V
+	METHOD j func_4033_j (Leq;III)Z

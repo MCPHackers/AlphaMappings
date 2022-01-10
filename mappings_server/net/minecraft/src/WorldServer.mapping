@@ -1,8 +1,7 @@
-CLASS ee net/minecraft/src/WorldServer
-	FIELD A levelSaving Z
-	FIELD B monsters Z
-	FIELD C monsterSpawner Lbl;
-	FIELD D animalSpawner Lbl;
-	FIELD y chunkProviderServer Lij;
-	FIELD z disableSpawnProtection Z
-	METHOD d getTileEntityList (IIIIII)Ljava/util/List;
+CLASS ex net/minecraft/src/WorldServer
+	FIELD B field_819_z Z
+	FIELD C field_816_A Z
+	FIELD D field_6160_D Lnet/minecraft/server/MinecraftServer;
+	METHOD a func_6158_a (I)Lea;
+	METHOD b func_12017_b (Lea;Z)V
+	METHOD d func_532_d (IIIIII)Ljava/util/List;

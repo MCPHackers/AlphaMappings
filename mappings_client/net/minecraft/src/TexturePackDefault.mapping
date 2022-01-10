@@ -1,0 +1,3 @@
+CLASS jm net/minecraft/src/TexturePackDefault
+	FIELD e texturePackName I
+	FIELD f field_6490_f Ljava/awt/image/BufferedImage;

@@ -1,22 +1,22 @@
-CLASS fz net/minecraft/src/TileEntityRenderer
-	FIELD a instance Lfz;
+CLASS gz net/minecraft/src/TileEntityRenderer
+	FIELD a instance Lgz;
 	FIELD b staticPlayerX D
 	FIELD c staticPlayerY D
 	FIELD d staticPlayerZ D
-	FIELD e renderEngine Ley;
-	FIELD f worldObj Lcn;
-	FIELD g entityPlayer Ldm;
+	FIELD e renderEngine Lfu;
+	FIELD f worldObj Lcy;
+	FIELD g entityPlayer Leb;
 	FIELD h playerYaw F
 	FIELD i playerPitch F
 	FIELD j playerX D
 	FIELD k playerY D
 	FIELD l playerZ D
 	FIELD m specialRendererMap Ljava/util/Map;
-	FIELD n fontRenderer Lkd;
-	METHOD a getFontRenderer ()Lkd;
-	METHOD a cacheActiveRenderInfo (Lcn;Ley;Lkd;Ldm;F)V
-	METHOD a hasSpecialRenderer (Lic;)Z
-	METHOD a renderTileEntityAt (Lic;DDDF)V
-	METHOD a renderTileEntity (Lic;F)V
-	METHOD a getSpecialRendererForClass (Ljava/lang/Class;)Lex;
-	METHOD b getSpecialRendererForEntity (Lic;)Lex;
+	FIELD n fontRenderer Lls;
+	METHOD a getFontRenderer ()Lls;
+	METHOD a setRenderingContext (Lcy;Lfu;Lls;Leb;F)V
+	METHOD a getSpecialRendererForClass (Ljava/lang/Class;)Lfr;
+	METHOD a hasSpecialRenderer (Lji;)Z
+	METHOD a renderTileEntityAt (Lji;DDDF)V
+	METHOD a renderTileEntity (Lji;F)V
+	METHOD b getSpecialRendererForEntity (Lji;)Lfr;

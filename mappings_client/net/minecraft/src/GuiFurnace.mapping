@@ -1,2 +1,2 @@
-CLASS id net/minecraft/src/GuiFurnace
-	FIELD j furnaceInventory Lke;
+CLASS jj net/minecraft/src/GuiFurnace
+	FIELD j field_978_j Llt;

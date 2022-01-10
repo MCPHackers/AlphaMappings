@@ -1,37 +1,31 @@
-CLASS er net/minecraft/src/EnumArt
-	FIELD A sizeY I
-	FIELD B offsetX I
-	FIELD C offsetY I
-	FIELD a Kebab Ler;
-	FIELD b Aztec Ler;
-	FIELD c Alban Ler;
-	FIELD d Aztec2 Ler;
-	FIELD e Bomb Ler;
-	FIELD f Plant Ler;
-	FIELD g Wasteland Ler;
-	FIELD h Pool Ler;
-	FIELD i Courbet Ler;
-	FIELD j Sea Ler;
-	FIELD k Sunset Ler;
-	FIELD l Creebet Ler;
-	FIELD m Wanderer Ler;
-	FIELD n Graham Ler;
-	FIELD o Match Ler;
-	FIELD p Bust Ler;
-	FIELD q Stage Ler;
-	FIELD r Void Ler;
-	FIELD s SkullAndRoses Ler;
-	FIELD t Fighters Ler;
-	FIELD u Pointer Ler;
-	FIELD v Pigscene Ler;
-	FIELD w Skeleton Ler;
-	FIELD x DonkeyKong Ler;
-	FIELD y title Ljava/lang/String;
-	FIELD z sizeX I
-	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
-		ARG 3 title
-		ARG 4 sizeX
-		ARG 5 sizeY
-		ARG 6 offsetX
-		ARG 7 offsetY
-	METHOD values ()[Ler;
+CLASS fl net/minecraft/src/EnumArt
+	FIELD A field_1636_A I
+	FIELD B field_1634_B I
+	FIELD C field_1632_C I
+	FIELD D field_1630_D [Lfl;
+	FIELD a Kebab Lfl;
+	FIELD b Aztec Lfl;
+	FIELD c Alban Lfl;
+	FIELD d Aztec2 Lfl;
+	FIELD e Bomb Lfl;
+	FIELD f Plant Lfl;
+	FIELD g Wasteland Lfl;
+	FIELD h Pool Lfl;
+	FIELD i Courbet Lfl;
+	FIELD j Sea Lfl;
+	FIELD k Sunset Lfl;
+	FIELD l Creebet Lfl;
+	FIELD m Wanderer Lfl;
+	FIELD n Graham Lfl;
+	FIELD o Match Lfl;
+	FIELD p Bust Lfl;
+	FIELD q Stage Lfl;
+	FIELD r Void Lfl;
+	FIELD s SkullAndRoses Lfl;
+	FIELD t Fighters Lfl;
+	FIELD u Pointer Lfl;
+	FIELD v Pigscene Lfl;
+	FIELD w Skeleton Lfl;
+	FIELD x DonkeyKong Lfl;
+	FIELD y field_1624_y Ljava/lang/String;
+	FIELD z field_1623_z I

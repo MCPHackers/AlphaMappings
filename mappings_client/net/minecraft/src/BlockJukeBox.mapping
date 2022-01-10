@@ -1,9 +1,2 @@
-CLASS cv net/minecraft/src/BlockJukeBox
-	METHOD <init> (II)V
-		ARG 1 blockID
-		ARG 2 tex
-	METHOD e ejectRecord (Lcn;IIII)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS dg net/minecraft/src/BlockJukeBox
+	METHOD e ejectRecord (Lcy;IIII)V

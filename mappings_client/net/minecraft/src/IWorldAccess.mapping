@@ -1,10 +1,10 @@
-CLASS im net/minecraft/src/IWorldAccess
-	METHOD a markBlockAndNeighborsNeedsUpdate (III)V
-	METHOD a doNothingWithTileEntity (IIILic;)V
+CLASS jv net/minecraft/src/IWorldAccess
+	METHOD a func_934_a (III)V
+	METHOD a func_935_a (IIILji;)V
 	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a playSound (Ljava/lang/String;DDDFF)V
 	METHOD a playRecord (Ljava/lang/String;III)V
-	METHOD a obtainEntitySkin (Lkh;)V
-	METHOD b markBlockRangeNeedsUpdate (IIIIII)V
-	METHOD b releaseEntitySkin (Lkh;)V
-	METHOD e updateAllRenderers ()V
+	METHOD a obtainEntitySkin (Llw;)V
+	METHOD b func_937_b (IIIIII)V
+	METHOD b releaseEntitySkin (Llw;)V
+	METHOD e func_936_e ()V

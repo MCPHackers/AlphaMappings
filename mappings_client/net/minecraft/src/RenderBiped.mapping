@@ -1,0 +1,2 @@
+CLASS m net/minecraft/src/RenderBiped
+	FIELD a field_4013_a Ldc;

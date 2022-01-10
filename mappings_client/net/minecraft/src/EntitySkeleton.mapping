@@ -1,1 +1,2 @@
-CLASS cw net/minecraft/src/EntitySkeleton
+CLASS dh net/minecraft/src/EntitySkeleton
+	FIELD a defaultHeldItem Lfp;

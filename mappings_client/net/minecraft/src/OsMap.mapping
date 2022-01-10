@@ -1,2 +1,2 @@
-CLASS fq net/minecraft/src/OSMap
-	FIELD a osValues [I
+CLASS nd net/minecraft/src/OsMap
+	FIELD a field_1193_a [I

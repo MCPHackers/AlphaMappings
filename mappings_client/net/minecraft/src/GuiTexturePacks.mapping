@@ -1,0 +1,11 @@
+CLASS dk net/minecraft/src/GuiTexturePacks
+	FIELD a field_6461_a Lbp;
+	FIELD h field_6460_h I
+	FIELD i field_6459_i I
+	FIELD j field_6458_j I
+	FIELD l field_6457_l I
+	FIELD m field_6456_m I
+	FIELD n field_6455_n I
+	FIELD o field_6454_o I
+	FIELD p field_6453_p Ljava/lang/String;
+	METHOD a func_6452_a (IIII)V

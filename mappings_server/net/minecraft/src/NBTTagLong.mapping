@@ -1,4 +1,3 @@
-CLASS d net/minecraft/src/NBTTagLong
+CLASS e net/minecraft/src/NBTTagLong
 	FIELD a longValue J
-	METHOD <init> (J)V
-		ARG 1 longValue
+	METHOD toString ()Ljava/lang/String;

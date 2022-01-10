@@ -1,4 +1,4 @@
-CLASS df net/minecraft/src/GLAllocation
+CLASS ds net/minecraft/src/GLAllocation
 	FIELD a displayLists Ljava/util/List;
 	FIELD b textureNames Ljava/util/List;
 	METHOD a deleteTexturesAndDisplayLists ()V

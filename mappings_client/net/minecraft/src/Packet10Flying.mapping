@@ -1,4 +1,4 @@
-CLASS eh net/minecraft/src/Packet10Flying
+CLASS fa net/minecraft/src/Packet10Flying
 	FIELD a xPosition D
 	FIELD b yPosition D
 	FIELD c zPosition D

@@ -1,2 +1,2 @@
-CLASS dw net/minecraft/src/IUpdatePlayerListBox
-	METHOD a addAllPlayers ()V
+CLASS en net/minecraft/src/IUpdatePlayerListBox
+	METHOD a update ()V

@@ -1,5 +1,6 @@
-CLASS hk net/minecraft/src/MusInputStream
+CLASS in net/minecraft/src/MusInputStream
 	FIELD a buffer [B
-	FIELD b codec Lep;
+	FIELD b codec Lfj;
 	FIELD c hash I
 	FIELD d inputStream Ljava/io/InputStream;
+	METHOD read ([BII)I

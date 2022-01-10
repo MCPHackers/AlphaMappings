@@ -1,3 +1,3 @@
-CLASS et net/minecraft/src/CraftingInventoryWorkbenchCB
-	FIELD a craftMatrix Lgu;
-	FIELD b craftResult Lgh;
+CLASS fn net/minecraft/src/CraftingInventoryWorkbenchCB
+	FIELD a craftMatrix Lhx;
+	FIELD b craftResult Lhi;

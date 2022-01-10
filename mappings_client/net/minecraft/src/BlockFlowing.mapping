@@ -1,40 +1,11 @@
-CLASS hv net/minecraft/src/BlockFlowing
-	FIELD a numAdjacentSources I
-	FIELD b isOptimalFlowDirection [Z
-	FIELD c flowCost [I
-	METHOD a calculateFlowCost (Lcn;IIIII)I
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD f getSmallestFlowDecay (Lcn;IIII)I
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD g flowIntoBlock (Lcn;IIII)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 metadata
-	METHOD j updateFlow (Lcn;III)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD k getOptimalFlowDirections (Lcn;III)[Z
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD l blockBlocksFlow (Lcn;III)Z
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD m liquidCanDisplaceBlock (Lcn;III)Z
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS ja net/minecraft/src/BlockFlowing
+	FIELD a field_460_a I
+	FIELD b field_459_b [Z
+	FIELD c field_461_c [I
+	METHOD a func_300_a (Lcy;IIIII)I
+	METHOD f func_296_f (Lcy;IIII)I
+	METHOD g func_299_g (Lcy;IIII)V
+	METHOD j func_15233_j (Lcy;III)V
+	METHOD k func_297_k (Lcy;III)[Z
+	METHOD l func_295_l (Lcy;III)Z
+	METHOD m func_298_m (Lcy;III)Z

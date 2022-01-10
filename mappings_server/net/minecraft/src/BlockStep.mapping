@@ -1,5 +1,2 @@
-CLASS ip net/minecraft/src/BlockStep
-	FIELD a blockType Z
-	METHOD <init> (IZ)V
-		ARG 1 id
-		ARG 2 blockType
+CLASS jx net/minecraft/src/BlockStep
+	FIELD a field_666_a Z

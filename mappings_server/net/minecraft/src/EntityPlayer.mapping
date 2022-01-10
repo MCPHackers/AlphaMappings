@@ -1,34 +1,27 @@
-CLASS fc net/minecraft/src/EntityPlayer
-	FIELD a damageRemainder I
-	FIELD aj inventory Lgm;
-	FIELD ak unusedMiningCooldown B
-	FIELD al score I
-	FIELD am prevCameraYaw F
-	FIELD an cameraYaw F
-	FIELD ao isSwinging Z
-	FIELD ap swingProgressInt I
-	FIELD aq username Ljava/lang/String;
-	METHOD A displayWorkbenchGUI ()V
-	METHOD B getCurrentEquippedItem ()Lgp;
-	METHOD C destroyCurrentEquippedItem ()V
-	METHOD a displayGUIFurnace (Ldf;)V
-		ARG 1 tileEntityFurnace
-	METHOD a getCurrentPlayerStrVsBlock (Lff;)F
-		ARG 1 block
-	METHOD a joinEntityItemWithWorld (Lfn;)V
-		ARG 1 entityItem
-	METHOD a dropPlayerItem (Lgp;)V
-		ARG 1 stack
-	METHOD a dropPlayerItemWithRandomChoice (Lgp;Z)V
-		ARG 1 stack
-	METHOD a displayGUIEditSign (Lig;)V
-		ARG 1 tileEntitySign
-	METHOD a displayGUIChest (Liw;)V
-		ARG 1 inventory
-	METHOD b canHarvestBlock (Lff;)Z
-		ARG 1 block
-	METHOD c onItemPickup (Ldj;I)V
-		ARG 1 entity
-	METHOD h collideWithPlayer (Ldj;)V
-		ARG 1 entity
-	METHOD z swingItem ()V
+CLASS fz net/minecraft/src/EntityPlayer
+	FIELD am inventory Lhk;
+	FIELD an field_9152_am B
+	FIELD ao field_9151_an I
+	FIELD ap field_9150_ao F
+	FIELD aq field_9149_ap F
+	FIELD ar field_9148_aq Z
+	FIELD as field_9147_ar I
+	FIELD at username Ljava/lang/String;
+	FIELD au field_4110_as I
+	FIELD av field_6124_at Lkg;
+	METHOD F func_168_z ()V
+	METHOD G func_174_A ()V
+	METHOD H func_172_B ()Lhn;
+	METHOD I func_164_C ()V
+	METHOD a func_170_a (Ldv;)V
+	METHOD a getCurrentPlayerStrVsBlock (Lgc;)F
+	METHOD a func_162_a (Lgl;)V
+	METHOD a func_161_a (Lhn;)V
+	METHOD a func_169_a (Lhn;Z)V
+	METHOD a func_4048_a (Ljn;)V
+	METHOD a func_166_a (Lke;)V
+	METHOD b func_167_b (Lgc;)Z
+	METHOD c func_163_c (Lea;I)V
+	METHOD g func_9145_g (Lea;)V
+	METHOD h func_9146_h (Lea;)V
+	METHOD j func_171_h (Lea;)V

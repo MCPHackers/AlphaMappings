@@ -1,2 +1,3 @@
-CLASS w net/minecraft/src/ServerGuiFocusadapter
-	FIELD a mcServerGui Lfo;
+CLASS aa net/minecraft/src/ServerGuiFocusAdapter
+	FIELD a mcServerGui Lgm;
+	METHOD focusGained (Ljava/awt/event/FocusEvent;)V

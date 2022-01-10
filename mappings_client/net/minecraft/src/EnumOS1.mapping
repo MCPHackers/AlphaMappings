@@ -1,0 +1,7 @@
+CLASS fw net/minecraft/src/EnumOS1
+	FIELD a linux Lfw;
+	FIELD b solaris Lfw;
+	FIELD c windows Lfw;
+	FIELD d macos Lfw;
+	FIELD e unknown Lfw;
+	FIELD f field_6525_f [Lfw;

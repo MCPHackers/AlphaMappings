@@ -1,2 +1,2 @@
-CLASS iu net/minecraft/src/ItemSword
+CLASS kg net/minecraft/src/ItemSword
 	FIELD a weaponDamage I

@@ -1,12 +1,10 @@
-CLASS dn net/minecraft/src/RenderLiving
-	FIELD d mainModel Lfo;
-	FIELD e renderPassModel Lfo;
-	METHOD a setRenderPassModel (Lfo;)V
-	METHOD a getDeathMaxRotation (Lge;)F
-	METHOD a doRenderLiving (Lge;DDDFF)V
-	METHOD a preRenderCallback (Lge;F)V
-	METHOD a getColorMultiplier (Lge;FF)I
-	METHOD a shouldRenderPass (Lge;I)Z
-	METHOD b renderEquippedItems (Lge;F)V
-	METHOD c renderSwingProgress (Lge;F)F
-	METHOD d handleRotationFloat (Lge;F)F
+CLASS ec net/minecraft/src/RenderLiving
+	FIELD f field_6332_f Lgm;
+	METHOD a func_4013_a (Lgm;)V
+	METHOD a func_172_a (Lhf;)F
+	METHOD a func_6330_a (Lhf;F)V
+	METHOD a func_173_a (Lhf;FF)I
+	METHOD a func_166_a (Lhf;I)Z
+	METHOD b func_6331_b (Lhf;F)V
+	METHOD c func_167_c (Lhf;F)F
+	METHOD d func_170_d (Lhf;F)F

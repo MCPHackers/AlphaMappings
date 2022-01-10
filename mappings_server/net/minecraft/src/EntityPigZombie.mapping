@@ -1,0 +1,5 @@
+CLASS ja net/minecraft/src/EntityPigZombie
+	FIELD a field_4106_a I
+	FIELD b field_4105_b I
+	FIELD c field_4107_c Lhn;
+	METHOD g func_4047_h (Lea;)V

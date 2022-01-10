@@ -1,2 +1,3 @@
-CLASS ni net/minecraft/src/NetworkReaderThread
-	FIELD a netManager Lii;
+CLASS pf net/minecraft/src/NetworkReaderThread
+	FIELD a netManager Ljq;
+	METHOD run ()V

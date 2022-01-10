@@ -1,16 +1,6 @@
-CLASS eo net/minecraft/src/ChunkLoader
-	FIELD a saveDir Ljava/io/File;
-	FIELD b createIfNecessary Z
-	METHOD <init> (Ljava/io/File;Z)V
-		ARG 1 saveDir
-		ARG 2 createIfNecessary
-	METHOD a chunkFileForXZ (II)Ljava/io/File;
-		ARG 1 x
-		ARG 2 z
-	METHOD a loadChunkIntoWorldFromCompound (Ldy;Ls;)Lim;
-		ARG 0 world
-		ARG 1 nbttagcompound
-	METHOD a storeChunkInCompound (Lim;Ldy;Ls;)V
-		ARG 1 chunk
-		ARG 2 world
-		ARG 3 nbttagcompound
+CLASS fj net/minecraft/src/ChunkLoader
+	FIELD a field_945_a Ljava/io/File;
+	FIELD b field_944_b Z
+	METHOD a func_665_a (II)Ljava/io/File;
+	METHOD a func_664_a (Leq;Lv;)Lju;
+	METHOD a func_663_a (Lju;Leq;Lv;)V

@@ -1,7 +1,7 @@
-CLASS ho net/minecraft/src/Tessellator
+CLASS is net/minecraft/src/Tessellator
 	FIELD A vboCount I
 	FIELD B bufferSize I
-	FIELD a instance Lho;
+	FIELD a instance Lis;
 	FIELD b convertQuadsToTriangles Z
 	FIELD c tryVBO Z
 	FIELD d byteBuffer Ljava/nio/ByteBuffer;
@@ -34,6 +34,7 @@ CLASS ho net/minecraft/src/Tessellator
 	METHOD a setColorOpaque_F (FFF)V
 	METHOD a setColorRGBA_F (FFFF)V
 	METHOD a startDrawing (I)V
+	METHOD a setColorRGBA_I (II)V
 	METHOD a setColorOpaque (III)V
 	METHOD a setColorRGBA (IIII)V
 	METHOD b startDrawingQuads ()V

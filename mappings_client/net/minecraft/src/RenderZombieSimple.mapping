@@ -1,0 +1,2 @@
+CLASS pz net/minecraft/src/RenderZombieSimple
+	FIELD a field_204_f F

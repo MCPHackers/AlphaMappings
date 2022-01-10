@@ -1,12 +1,12 @@
-CLASS hm net/minecraft/src/NBTTagCompound
+CLASS iq net/minecraft/src/NBTTagCompound
 	FIELD a tagMap Ljava/util/Map;
 	METHOD a setByte (Ljava/lang/String;B)V
 	METHOD a setDouble (Ljava/lang/String;D)V
 	METHOD a setFloat (Ljava/lang/String;F)V
 	METHOD a setInteger (Ljava/lang/String;I)V
 	METHOD a setLong (Ljava/lang/String;J)V
-	METHOD a setTag (Ljava/lang/String;Lel;)V
-	METHOD a setCompoundTag (Ljava/lang/String;Lhm;)V
+	METHOD a setTag (Ljava/lang/String;Lfd;)V
+	METHOD a setCompoundTag (Ljava/lang/String;Liq;)V
 	METHOD a setString (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD a setShort (Ljava/lang/String;S)V
 	METHOD a setBoolean (Ljava/lang/String;Z)V
@@ -20,6 +20,7 @@ CLASS hm net/minecraft/src/NBTTagCompound
 	METHOD h getDouble (Ljava/lang/String;)D
 	METHOD i getString (Ljava/lang/String;)Ljava/lang/String;
 	METHOD j getByteArray (Ljava/lang/String;)[B
-	METHOD k getCompoundTag (Ljava/lang/String;)Lhm;
-	METHOD l getTagList (Ljava/lang/String;)Lki;
+	METHOD k getCompoundTag (Ljava/lang/String;)Liq;
+	METHOD l getTagList (Ljava/lang/String;)Lly;
 	METHOD m getBoolean (Ljava/lang/String;)Z
+	METHOD toString ()Ljava/lang/String;

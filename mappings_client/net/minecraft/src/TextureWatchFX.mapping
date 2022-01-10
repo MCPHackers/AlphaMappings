@@ -1,0 +1,6 @@
+CLASS gp net/minecraft/src/TextureWatchFX
+	FIELD g field_4225_g Lnet/minecraft/client/Minecraft;
+	FIELD h field_4224_h [I
+	FIELD i field_4223_i [I
+	FIELD j field_4222_j D
+	FIELD k field_4221_k D

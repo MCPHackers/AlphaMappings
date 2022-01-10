@@ -1,2 +1,2 @@
-CLASS hx net/minecraft/src/GuiCrafting
-	FIELD j craftingInventory Let;
+CLASS jc net/minecraft/src/GuiCrafting
+	FIELD j field_979_j Lfn;

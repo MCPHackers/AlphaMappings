@@ -1,4 +1,4 @@
-CLASS lo net/minecraft/src/GuiInventory
-	FIELD j craftingInventory Ln;
+CLASS ne net/minecraft/src/GuiInventory
+	FIELD j field_977_j Lq;
 	FIELD l xSize_lo F
 	FIELD m ySize_lo F

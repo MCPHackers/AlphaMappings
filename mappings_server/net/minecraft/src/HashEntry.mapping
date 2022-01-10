@@ -1,0 +1,10 @@
+CLASS hw net/minecraft/src/HashEntry
+	FIELD a field_841_a I
+	FIELD b field_840_b Ljava/lang/Object;
+	FIELD c field_843_c Lhw;
+	FIELD d field_842_d I
+	METHOD a func_559_a ()I
+	METHOD b func_558_b ()Ljava/lang/Object;
+	METHOD equals (Ljava/lang/Object;)Z
+	METHOD hashCode ()I
+	METHOD toString ()Ljava/lang/String;

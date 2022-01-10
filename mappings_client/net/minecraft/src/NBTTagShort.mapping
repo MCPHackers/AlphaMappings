@@ -1,2 +1,3 @@
-CLASS ls net/minecraft/src/NBTTagShort
+CLASS nj net/minecraft/src/NBTTagShort
 	FIELD a shortValue S
+	METHOD toString ()Ljava/lang/String;

@@ -1,2 +1,3 @@
-CLASS fl net/minecraft/src/ThreadSleepForever
+CLASS gi net/minecraft/src/ThreadSleepForever
 	FIELD a mc Lnet/minecraft/client/Minecraft;
+	METHOD run ()V

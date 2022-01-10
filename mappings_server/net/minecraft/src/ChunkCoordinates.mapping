@@ -1,8 +1,5 @@
-CLASS ir net/minecraft/src/ChunkCoordinates
-	FIELD a posX I
-	FIELD b posZ I
-	METHOD <init> (II)V
-		ARG 1 posX
-		ARG 2 posZ
+CLASS jz net/minecraft/src/ChunkCoordinates
+	FIELD a field_529_a I
+	FIELD b field_528_b I
 	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 object
+	METHOD hashCode ()I

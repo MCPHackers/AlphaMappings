@@ -1,18 +1,17 @@
-CLASS bh net/minecraft/src/GuiScreen
-	FIELD a selectedButton Lfk;
+CLASS bp net/minecraft/src/GuiScreen
+	FIELD a selectedButton Lgh;
 	FIELD b mc Lnet/minecraft/client/Minecraft;
 	FIELD c width I
 	FIELD d height I
 	FIELD e controlList Ljava/util/List;
-	FIELD f allowUserInput Z
-	FIELD g fontRenderer Lkd;
+	FIELD f field_948_f Z
+	FIELD g fontRenderer Lls;
 	METHOD a initGui ()V
 	METHOD a keyTyped (CI)V
-	METHOD a drawWorldBackground (I)V
+	METHOD a func_567_a (I)V
 	METHOD a drawScreen (IIF)V
 	METHOD a mouseClicked (III)V
-	METHOD a actionPerformed (Lfk;)V
-		ARG 1 button
+	METHOD a actionPerformed (Lgh;)V
 	METHOD a setWorldAndResolution (Lnet/minecraft/client/Minecraft;II)V
 	METHOD a deleteWorld (ZI)V
 	METHOD b doesGuiPauseGame ()Z

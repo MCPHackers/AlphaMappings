@@ -1,0 +1,2 @@
+CLASS ai net/minecraft/src/BlockPortal
+	METHOD a_ tryToCreatePortal (Leq;III)Z

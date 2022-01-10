@@ -1,0 +1,6 @@
+CLASS js net/minecraft/src/EnumCreatureType
+	FIELD a monster Ljs;
+	FIELD b creature Ljs;
+	FIELD c field_4221_c Ljava/lang/Class;
+	FIELD d field_4220_d I
+	FIELD e field_6155_e [Ljs;

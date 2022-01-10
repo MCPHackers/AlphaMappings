@@ -1,22 +1,22 @@
-CLASS ip net/minecraft/src/ModelRenderer
-	FIELD a rotationPointX F
-	FIELD b rotationPointY F
-	FIELD c rotationPointZ F
+CLASS ka net/minecraft/src/ModelRenderer
+	FIELD a offsetX F
+	FIELD b offsetY F
+	FIELD c offsetZ F
 	FIELD d rotateAngleX F
 	FIELD e rotateAngleY F
 	FIELD f rotateAngleZ F
 	FIELD g mirror Z
-	FIELD h showModel Z
-	FIELD i isHidden Z
-	FIELD j corners [Led;
-	FIELD k faces [Lll;
+	FIELD h field_1403_h Z
+	FIELD i field_1402_i Z
+	FIELD j corners [Lew;
+	FIELD k faces [Lnc;
 	FIELD l textureOffsetX I
 	FIELD m textureOffsetY I
 	FIELD n compiled Z
 	FIELD o displayList I
 	METHOD a render (F)V
-	METHOD a setRotationPoint (FFF)V
-	METHOD a addBox (FFFIII)V
+	METHOD a setPosition (FFF)V
+	METHOD a func_921_a (FFFIII)V
 	METHOD a addBox (FFFIIIF)V
-	METHOD b renderWithRotation (F)V
+	METHOD b func_926_b (F)V
 	METHOD c compileDisplayList (F)V

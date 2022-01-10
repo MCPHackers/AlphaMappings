@@ -1,0 +1,4 @@
+CLASS gg net/minecraft/src/WorldChunkManagerHell
+	FIELD e field_4262_e Lio;
+	FIELD f field_4261_f D
+	FIELD g field_4260_g D

@@ -1,0 +1,11 @@
+CLASS aw net/minecraft/src/NoiseGenerator2
+	FIELD a field_4292_a D
+	FIELD b field_4291_b D
+	FIELD c field_4297_c D
+	FIELD d field_4296_d [[I
+	FIELD e field_4295_e [I
+	FIELD f field_4294_f D
+	FIELD g field_4293_g D
+	METHOD a func_4155_a (D)I
+	METHOD a func_4157_a ([DDDIIDDD)V
+	METHOD a func_4156_a ([IDD)D

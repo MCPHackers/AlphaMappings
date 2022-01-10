@@ -1,3 +1,1 @@
-CLASS ec net/minecraft/src/BlockWorkbench
-	METHOD <init> (I)V
-		ARG 1 id
+CLASS ev net/minecraft/src/BlockWorkbench

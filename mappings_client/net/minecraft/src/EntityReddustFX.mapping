@@ -1,2 +1,2 @@
-CLASS en net/minecraft/src/EntityReddustFX
-	FIELD a reddustParticleScale F
+CLASS fh net/minecraft/src/EntityReddustFX
+	FIELD a field_673_a F

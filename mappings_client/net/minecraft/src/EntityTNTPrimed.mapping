@@ -1,3 +1,3 @@
-CLASS jd net/minecraft/src/EntityTNTPrimed
+CLASS kr net/minecraft/src/EntityTNTPrimed
 	FIELD a fuse I
-	METHOD i explode ()V
+	METHOD k explode ()V

@@ -1,34 +1,25 @@
-CLASS gm net/minecraft/src/InventoryPlayer
-	FIELD a mainInventory [Lgp;
-	FIELD b armorInventory [Lgp;
-	FIELD c craftingInventory [Lgp;
+CLASS hk net/minecraft/src/InventoryPlayer
+	FIELD a mainInventory [Lhn;
+	FIELD b armorInventory [Lhn;
+	FIELD c craftingInventory [Lhn;
 	FIELD d currentItem I
-	FIELD e inventoryChanged Z
-	FIELD f player Lfc;
-	METHOD <init> (Lfc;)V
-		ARG 1 entityPlayer
-	METHOD a storePartialItemStack (II)I
-		ARG 1 itemID
-	METHOD a setInventorySlotContents (ILgp;)V
-		ARG 1 slots
-		ARG 2 stack
-	METHOD a writeToNBT (Ldm;)Ldm;
-		ARG 1 nbttaglist
-	METHOD a getStrVsBlock (Lff;)F
-		ARG 1 block
-	METHOD a addItemStackToInventory (Lgp;)Z
-		ARG 1 stack
-	METHOD b getCurrentItem ()Lgp;
-	METHOD b damageArmor (I)V
-		ARG 1 damage
-	METHOD b readFromNBT (Ldm;)V
-		ARG 1 nbttaglist
-	METHOD b canHarvestBlock (Lff;)Z
-		ARG 1 block
+	FIELD e field_498_e Z
+	FIELD f player Lfz;
+	METHOD a addItemsToInventory (II)I
+	METHOD a setInventorySlotContents (ILhn;)V
+	METHOD a func_9157_a (Lea;)I
+	METHOD a writeToNBT (Led;)Led;
+	METHOD a getStrVsBlock (Lgc;)F
+	METHOD a addItemStackToInventory (Lhn;)Z
+	METHOD b getCurrentItem ()Lhn;
+	METHOD b func_6127_b (I)Z
+	METHOD b readFromNBT (Led;)V
+	METHOD b canHarvestBlock (Lgc;)Z
 	METHOD c decrementAnimations ()V
-	METHOD c storeItemStack (I)I
-		ARG 1 itemID
+	METHOD c damageArmor (I)V
 	METHOD d getInventoryStackLimit ()I
+	METHOD d func_6126_d (I)I
 	METHOD e getTotalArmorValue ()I
+	METHOD e getFirstPartialMatchingStack (I)I
 	METHOD f dropAllItems ()V
 	METHOD g getFirstEmptyStack ()I

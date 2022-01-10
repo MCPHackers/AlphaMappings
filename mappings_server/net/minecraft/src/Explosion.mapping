@@ -1,8 +1,12 @@
-CLASS bw net/minecraft/src/Explosion
-	METHOD a doExplosion (Ldy;Ldj;DDDF)V
-		ARG 1 world
-		ARG 2 entity
-		ARG 3 x
-		ARG 5 y
-		ARG 7 z
-		ARG 9 power
+CLASS ci net/minecraft/src/Explosion
+	FIELD a field_12031_a Z
+	FIELD b field_12030_b D
+	FIELD c field_12029_c D
+	FIELD d field_12028_d D
+	FIELD e field_12027_e Lea;
+	FIELD f field_12026_f F
+	FIELD g field_12025_g Ljava/util/Set;
+	FIELD h field_12024_h Ljava/util/Random;
+	FIELD i field_4310_a Leq;
+	METHOD a func_12023_a ()V
+	METHOD b func_732_a ()V

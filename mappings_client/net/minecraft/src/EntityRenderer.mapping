@@ -1,32 +1,31 @@
-CLASS iq net/minecraft/src/EntityRenderer
-	FIELD a itemRenderer Ljh;
-	FIELD b unusedInt1 I
-	FIELD c unusedInt2 I
-	FIELD d fogColorBuffer Ljava/nio/FloatBuffer;
-	FIELD e fogColorRed F
-	FIELD f fogColorGreen F
-	FIELD g fogColorBlue F
+CLASS kb net/minecraft/src/EntityRenderer
+	FIELD a field_1395_a Lku;
+	FIELD b field_1394_b I
+	FIELD c field_1393_c I
+	FIELD d field_1392_d Ljava/nio/FloatBuffer;
+	FIELD e field_4270_e F
+	FIELD f field_4269_f F
+	FIELD g field_4268_g F
 	FIELD h mc Lnet/minecraft/client/Minecraft;
-	FIELD i farPlaneDistance F
-	FIELD j rendererUpdateCount I
-	FIELD k pointedEntity Lkh;
-	FIELD l prevFrameTime J
-	FIELD m random Ljava/util/Random;
-	FIELD n prevFogColor F
-	FIELD o fogColor F
-	METHOD a updateRenderer ()V
-	METHOD a getMouseOver (F)V
-	METHOD a setFogColorBuffer (FFFF)Ljava/nio/FloatBuffer;
+	FIELD i field_1387_i F
+	FIELD j field_1386_j I
+	FIELD k field_1385_k Llw;
+	FIELD l field_1384_l J
+	FIELD m field_1383_m Ljava/util/Random;
+	FIELD n field_1382_n F
+	FIELD o field_1381_o F
+	METHOD a func_911_a ()V
+	METHOD a func_910_a (F)V
+	METHOD a func_908_a (FFFF)Ljava/nio/FloatBuffer;
 	METHOD a setupCameraTransform (FI)V
-	METHOD a setupFog (I)V
-	METHOD b setupOverlayRendering ()V
-	METHOD b updateCameraAndRender (F)V
-	METHOD b renderHand (FI)V
-	METHOD c addRainParticles ()V
-	METHOD c renderWorld (F)V
-	METHOD d getFOVModifier (F)F
+	METHOD a func_4140_a (I)V
+	METHOD b func_905_b ()V
+	METHOD b func_4136_b (F)V
+	METHOD b func_4135_b (FI)V
+	METHOD c func_916_c ()V
+	METHOD c func_4134_c (F)V
+	METHOD d func_914_d (F)F
 	METHOD e hurtCameraEffect (F)V
-	METHOD f setupViewBobbing (F)V
+	METHOD f func_917_f (F)V
 	METHOD g orientCamera (F)V
-	METHOD h renderSnow (F)V
-	METHOD i updateFogColor (F)V
+	METHOD h updateFogColor (F)V

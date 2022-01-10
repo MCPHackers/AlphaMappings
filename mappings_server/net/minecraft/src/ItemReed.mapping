@@ -1,5 +1,2 @@
-CLASS iv net/minecraft/src/ItemReed
-	FIELD a spawnID I
-	METHOD <init> (ILff;)V
-		ARG 1 itemID
-		ARG 2 reed
+CLASS kc net/minecraft/src/ItemReed
+	FIELD a field_253_a I

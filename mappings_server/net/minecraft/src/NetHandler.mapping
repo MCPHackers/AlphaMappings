@@ -1,57 +1,36 @@
-CLASS ej net/minecraft/src/NetHandler
-	METHOD a handleChat (Lba;)V
-		ARG 1 packet
-	METHOD a handleNamedEntitySpawn (Lc;)V
-		ARG 1 packet
-	METHOD a handleSpawnPosition (Lcb;)V
-		ARG 1 packet
-	METHOD a handleCollect (Lce;)V
-		ARG 1 packet
-	METHOD a handleEntityTeleport (Lcf;)V
-		ARG 1 packet
-	METHOD a handleDestroyEntity (Lct;)V
-		ARG 1 packet
-	METHOD a handleMapChunk (Lcz;)V
-		ARG 1 packet
-	METHOD a handlePreChunk (Lda;)V
-		ARG 1 packet
-	METHOD a handleVehicleSpawn (Ldl;)V
-		ARG 1 packet
-	METHOD a handleHandshake (Le;)V
-		ARG 1 packet
-	METHOD a handleAddToInventory (Len;)V
-		ARG 1 packet
-	METHOD a handleBlockChange (Let;)V
-		ARG 1 packet
-	METHOD a handleEntity (Lex;)V
-		ARG 1 packet
-	METHOD a handlePlace (Lfe;)V
-		ARG 1 packet
-	METHOD a handleUpdateTime (Lfl;)V
-		ARG 1 packet
-	METHOD a handleBlockItemSwitch (Lfv;)V
-		ARG 1 packet
-	METHOD a handleFlying (Lgf;)V
-		ARG 1 packet
-	METHOD a handleMobSpawn (Lgv;)V
-		ARG 1 packet
-	METHOD a handleBlockDig (Lhd;)V
-		ARG 1 packet
-	METHOD a handleMultiBlockChange (Lhh;)V
-		ARG 1 packet
-	METHOD a registerPacket (Lhp;)V
-		ARG 1 packet
-	METHOD a handleComplexEntity (Lib;)V
-		ARG 1 packet
-	METHOD a handleKickDisconnect (Lio;)V
-		ARG 1 packet
+CLASS fc net/minecraft/src/NetHandler
+	METHOD a func_6006_a (La;)V
+	METHOD a handleLogin (Lad;)V
+	METHOD a func_9002_a (Laz;)V
+	METHOD a handleChat (Lbh;)V
+	METHOD a handleSpawnPosition (Lco;)V
+	METHOD a handleEntityTeleport (Lcr;)V
+	METHOD a handleCollect (Lcs;)V
+	METHOD a func_12001_a (Lcz;)V
+	METHOD a handleNamedEntitySpawn (Ld;)V
+	METHOD a handleDestroyEntity (Ldi;)V
+	METHOD a handleMapChunk (Ldo;)V
+	METHOD a handlePreChunk (Ldq;)V
+	METHOD a handleVehicleSpawn (Lec;)V
+	METHOD a func_9003_a (Lef;)V
+	METHOD a handleHandshake (Lf;)V
+	METHOD a handleAddToInventory (Lfh;)V
+	METHOD a handleBlockChange (Lfn;)V
+	METHOD a handleEntity (Lft;)V
+	METHOD a func_6002_a (Lfu;)V
+	METHOD a handlePlace (Lgb;)V
+	METHOD a handleUpdateTime (Lgj;)V
+	METHOD a handleBlockItemSwitch (Lgt;)V
+	METHOD a handleFlying (Lhd;)V
+	METHOD a func_9001_a (Lhq;)V
+	METHOD a handleMobSpawn (Lhv;)V
+	METHOD a handleBlockDig (Lie;)V
+	METHOD a handleMultiBlockChange (Lij;)V
+	METHOD a func_6001_a (Lit;)V
 	METHOD a handleErrorMessage (Ljava/lang/String;)V
-		ARG 1 message
-	METHOD a handlePickupSpawn (Lk;)V
-		ARG 1 packet
-	METHOD a handleArmAnimation (Lo;)V
-		ARG 1 packet
-	METHOD a handlePlayerInventory (Lr;)V
-		ARG 1 packet
-	METHOD a handleLogin (Lz;)V
-		ARG 1 packet
+	METHOD a handleComplexEntity (Ljh;)V
+	METHOD a handleKickDisconnect (Ljw;)V
+	METHOD a handlePickupSpawn (Ll;)V
+	METHOD a handleArmAnimation (Lq;)V
+	METHOD a func_6003_a (Ls;)V
+	METHOD a handlePlayerInventory (Lu;)V

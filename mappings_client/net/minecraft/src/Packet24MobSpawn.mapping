@@ -1,4 +1,4 @@
-CLASS ez net/minecraft/src/Packet24MobSpawn
+CLASS fv net/minecraft/src/Packet24MobSpawn
 	FIELD a entityId I
 	FIELD b type B
 	FIELD c xPosition I

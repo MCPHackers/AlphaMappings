@@ -1,25 +1,8 @@
-CLASS nm net/minecraft/src/IBlockAccess
+CLASS pk net/minecraft/src/IBlockAccess
+	METHOD a func_4075_a ()Lpo;
 	METHOD a getBlockId (III)I
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
-	METHOD b getBlockTileEntity (III)Lic;
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
-	METHOD c getBrightness (III)F
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
+	METHOD b getBlockTileEntity (III)Lji;
+	METHOD c getLightBrightness (III)F
 	METHOD e getBlockMetadata (III)I
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
-	METHOD f getBlockMaterial (III)Lgb;
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
-	METHOD g isBlockNormalCube (III)Z
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
+	METHOD f getBlockMaterial (III)Lhb;
+	METHOD g isBlockOpaqueCube (III)Z

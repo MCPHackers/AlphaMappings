@@ -1,7 +1,7 @@
-CLASS hg net/minecraft/src/ModelQuadraped
-	FIELD d head Lip;
-	FIELD e body Lip;
-	FIELD f leg1 Lip;
-	FIELD g leg2 Lip;
-	FIELD h leg3 Lip;
-	FIELD i leg4 Lip;
+CLASS ij net/minecraft/src/ModelQuadraped
+	FIELD d head Lka;
+	FIELD e body Lka;
+	FIELD f leg1 Lka;
+	FIELD g leg2 Lka;
+	FIELD h leg3 Lka;
+	FIELD i leg4 Lka;

@@ -1,4 +1,5 @@
-CLASS cr net/minecraft/src/EnumMobType
-	FIELD a everything Lcr;
-	FIELD b mobs Lcr;
-	FIELD c players Lcr;
+CLASS df net/minecraft/src/EnumMobType
+	FIELD a everything Ldf;
+	FIELD b mobs Ldf;
+	FIELD c players Ldf;
+	FIELD d field_990_d [Ldf;

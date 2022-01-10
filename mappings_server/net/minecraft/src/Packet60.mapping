@@ -1,0 +1,6 @@
+CLASS cz net/minecraft/src/Packet60
+	FIELD a field_12003_a D
+	FIELD b field_12002_b D
+	FIELD c field_12006_c D
+	FIELD d field_12005_d F
+	FIELD e field_12004_e Ljava/util/Set;

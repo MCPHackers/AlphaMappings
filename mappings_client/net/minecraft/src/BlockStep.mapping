@@ -1,5 +1,2 @@
-CLASS oi net/minecraft/src/BlockStep
-	FIELD a blockType Z
-	METHOD <init> (IZ)V
-		ARG 1 blockID
-		ARG 2 blockType
+CLASS qj net/minecraft/src/BlockStep
+	FIELD a field_469_a Z

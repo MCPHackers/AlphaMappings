@@ -1,0 +1,23 @@
+CLASS hj net/minecraft/src/EntityFish
+	FIELD a field_4098_a I
+	FIELD b field_4097_b Leb;
+	FIELD c field_4096_c Llw;
+	FIELD d field_4095_d I
+	FIELD e field_4094_e I
+	FIELD f field_4093_f I
+	FIELD g field_4092_g I
+	FIELD h field_4091_h Z
+	FIELD i field_4090_i I
+	FIELD j field_4089_j I
+	FIELD k field_4088_k I
+	FIELD l field_6388_l I
+	FIELD m field_6387_m D
+	FIELD n field_6386_n D
+	FIELD o field_6385_o D
+	FIELD p field_6384_p D
+	FIELD q field_6383_q D
+	FIELD r velocityX D
+	FIELD s velocityY D
+	FIELD t velocityZ D
+	METHOD a func_4042_a (DDDFF)V
+	METHOD k func_4043_i ()I

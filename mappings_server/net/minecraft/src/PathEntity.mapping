@@ -1,10 +1,7 @@
-CLASS cd net/minecraft/src/PathEntity
+CLASS cq net/minecraft/src/PathEntity
 	FIELD a pathLength I
-	FIELD b points [La;
+	FIELD b points [Lb;
 	FIELD c pathIndex I
-	METHOD <init> ([La;)V
-		ARG 1 points
 	METHOD a incrementPathIndex ()V
-	METHOD a getPosition (Ldj;)Law;
-		ARG 1 entity
+	METHOD a getPosition (Lea;)Lbd;
 	METHOD b isFinished ()Z

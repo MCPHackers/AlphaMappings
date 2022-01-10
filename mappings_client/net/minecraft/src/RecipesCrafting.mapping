@@ -1,2 +1,2 @@
-CLASS fj net/minecraft/src/RecipesCrafting
-	METHOD a addRecipes (Ldw;)V
+CLASS gf net/minecraft/src/RecipesCrafting
+	METHOD a func_1051_a (Len;)V

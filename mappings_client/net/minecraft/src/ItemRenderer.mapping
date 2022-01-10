@@ -1,15 +1,15 @@
-CLASS jh net/minecraft/src/ItemRenderer
+CLASS ku net/minecraft/src/ItemRenderer
 	FIELD a mc Lnet/minecraft/client/Minecraft;
-	FIELD b itemToRender Lev;
-	FIELD c equippedProgress F
-	FIELD d prevEquippedProgress F
-	FIELD e renderBlocksInstance Lbc;
-	METHOD a updateEquippedItem ()V
+	FIELD b field_9451_b Lfp;
+	FIELD c field_9453_c F
+	FIELD d field_9452_d F
+	FIELD e field_1357_e Lbk;
+	METHOD a func_895_a ()V
 	METHOD a renderItemInFirstPerson (F)V
 	METHOD a renderInsideOfBlock (FI)V
-	METHOD a renderItem (Lev;)V
-	METHOD b resetEquippedProgress ()V
+	METHOD a renderItem (Lfp;)V
+	METHOD b func_9449_b ()V
 	METHOD b renderOverlays (F)V
-	METHOD c resetEquippedProgress2 ()V
+	METHOD c func_9450_c ()V
 	METHOD c renderWarpedTextureOverlay (F)V
 	METHOD d renderFireInFirstPerson (F)V

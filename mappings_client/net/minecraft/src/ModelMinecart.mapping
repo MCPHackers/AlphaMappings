@@ -1,2 +1,2 @@
-CLASS hj net/minecraft/src/ModelMinecart
-	FIELD a sideModels [Lip;
+CLASS im net/minecraft/src/ModelMinecart
+	FIELD a field_1256_a [Lka;

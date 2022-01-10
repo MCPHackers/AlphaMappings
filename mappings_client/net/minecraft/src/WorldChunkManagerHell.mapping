@@ -1,0 +1,4 @@
+CLASS ei net/minecraft/src/WorldChunkManagerHell
+	FIELD e field_4201_e Lgg;
+	FIELD f field_4200_f D
+	FIELD g field_4199_g D

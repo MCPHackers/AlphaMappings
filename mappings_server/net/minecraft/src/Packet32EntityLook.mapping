@@ -1,5 +1,1 @@
-CLASS cx net/minecraft/src/Packet32EntityLook
-	METHOD <init> (IBB)V
-		ARG 1 entityID
-		ARG 2 yaw
-		ARG 3 pitch
+CLASS dm net/minecraft/src/Packet32EntityLook

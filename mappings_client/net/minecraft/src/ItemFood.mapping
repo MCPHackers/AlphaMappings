@@ -1,2 +1,2 @@
-CLASS oj net/minecraft/src/ItemFood
+CLASS qk net/minecraft/src/ItemFood
 	FIELD a healAmount I

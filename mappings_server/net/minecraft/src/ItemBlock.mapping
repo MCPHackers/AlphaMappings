@@ -1,2 +1,2 @@
-CLASS bi net/minecraft/src/ItemBlock
-	FIELD a blockID I
+CLASS bt net/minecraft/src/ItemBlock
+	FIELD a field_272_a I

@@ -1,7 +1,7 @@
-CLASS bs net/minecraft/src/TileEntityMobSpawner
+CLASS cf net/minecraft/src/TileEntityMobSpawner
 	FIELD e delay I
-	FIELD f mobID Ljava/lang/String;
-	FIELD g yaw D
-	FIELD h prevYaw D
-	METHOD a anyPlayerInRange ()Z
+	FIELD f entityID Ljava/lang/String;
+	FIELD g field_491_g D
+	FIELD h field_490_h D
+	METHOD a func_195_a ()Z
 	METHOD d updateDelay ()V

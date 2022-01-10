@@ -1,9 +1,9 @@
-CLASS kv net/minecraft/src/ModelChicken
-	FIELD a head Lip;
-	FIELD b body Lip;
-	FIELD c rightLeg Lip;
-	FIELD d leftLeg Lip;
-	FIELD e rightWing Lip;
-	FIELD f leftWing Lip;
-	FIELD g bill Lip;
-	FIELD h chin Lip;
+CLASS mk net/minecraft/src/ModelChicken
+	FIELD a field_1289_a Lka;
+	FIELD b field_1288_b Lka;
+	FIELD c field_1295_c Lka;
+	FIELD d field_1294_d Lka;
+	FIELD e field_1293_e Lka;
+	FIELD f field_1292_f Lka;
+	FIELD g field_1291_g Lka;
+	FIELD h field_1290_h Lka;

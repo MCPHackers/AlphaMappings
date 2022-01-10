@@ -1,5 +1,3 @@
-CLASS dg net/minecraft/src/GuiDownloadTerrain
-	FIELD a netHandler Lgy;
+CLASS du net/minecraft/src/GuiDownloadTerrain
+	FIELD a netHandler Lib;
 	FIELD h updateCounter I
-	METHOD <init> (Lgy;)V
-		ARG 1 netHandler

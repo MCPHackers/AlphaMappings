@@ -1,12 +1,12 @@
-CLASS nj net/minecraft/src/PlayerControllerMP
-	FIELD c currentBlockX I
-	FIELD d currentBlockY I
-	FIELD e currentBlockZ I
-	FIELD f curBlockDamageMP F
-	FIELD g prevBlockDamageMP F
-	FIELD h stepSoundTickCounter F
-	FIELD i blockHitDelay I
-	FIELD j isHittingBlock Z
-	FIELD k netClientHandler Lgy;
-	FIELD l currentPlayerItem I
-	METHOD e syncCurrentPlayItem ()V
+CLASS pg net/minecraft/src/PlayerControllerMP
+	FIELD c field_9445_c I
+	FIELD d field_9444_d I
+	FIELD e field_9443_e I
+	FIELD f field_9442_f F
+	FIELD g field_1080_g F
+	FIELD h field_9441_h F
+	FIELD i field_9440_i I
+	FIELD j field_9439_j Z
+	FIELD k field_9438_k Lib;
+	FIELD l field_1075_l I
+	METHOD e func_730_e ()V

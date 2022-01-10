@@ -1,0 +1,8 @@
+CLASS ld net/minecraft/src/BlockFluids
+	METHOD a func_293_a (Lpk;IIILhb;)D
+	METHOD b func_288_b (I)F
+	METHOD c func_289_b (Lpk;III)I
+	METHOD e func_291_e (Lpk;III)Lao;
+	METHOD h func_290_h (Lcy;III)I
+	METHOD i func_292_i (Lcy;III)V
+	METHOD j checkForHarden (Lcy;III)V

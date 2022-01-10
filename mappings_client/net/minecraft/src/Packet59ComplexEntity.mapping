@@ -1,6 +1,6 @@
-CLASS ny net/minecraft/src/Packet59ComplexEntity
-	FIELD a xCoord I
-	FIELD b yCoord I
-	FIELD c zCoord I
-	FIELD d compressedNBT [B
-	FIELD e tileEntityNBT Lhm;
+CLASS py net/minecraft/src/Packet59ComplexEntity
+	FIELD a xPosition I
+	FIELD b yPosition I
+	FIELD c zPosition I
+	FIELD d entityData [B
+	FIELD e entityNBT Liq;

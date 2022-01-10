@@ -1,4 +1,4 @@
-CLASS eo net/minecraft/src/MathHelper
+CLASS fi net/minecraft/src/MathHelper
 	FIELD a SIN_TABLE [F
 	METHOD a sqrt_double (D)F
 	METHOD a abs_max (DD)D

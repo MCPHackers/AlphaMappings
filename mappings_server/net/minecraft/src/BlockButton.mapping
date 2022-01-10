@@ -1,9 +1,2 @@
-CLASS ak net/minecraft/src/BlockButton
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 blockIndex
-	METHOD g checkIfAttachedToBlock (Ldy;III)Z
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS ap net/minecraft/src/BlockButton
+	METHOD g func_322_g (Leq;III)Z

@@ -1,38 +1,30 @@
-CLASS dm net/minecraft/src/EntityPlayer
-	FIELD a damageRemainder I
-	FIELD b inventory Leu;
-	FIELD c unusedMiningCooldown B
-	FIELD d score I
-	FIELD e prevCameraYaw F
-	FIELD f cameraYaw F
-	FIELD g isSwinging Z
-	FIELD h swingProgressInt I
-	FIELD i username Ljava/lang/String;
-	METHOD a joinEntityItemWithWorld (Ldx;)V
-		ARG 1 entityItem
-	METHOD a dropPlayerItem (Lev;)V
-		ARG 1 itemStack
-	METHOD a dropPlayerItemWithRandomChoice (Lev;Z)V
-		ARG 1 itemStack
-		ARG 2 isRandom
-	METHOD a displayGUIChest (Lgh;)V
-		ARG 1 inventory
-	METHOD a displayGUIFurnace (Lke;)V
-		ARG 1 furnaceTileEntity
-	METHOD a getCurrentPlayerStrVsBlock (Lly;)F
-		ARG 1 block
-	METHOD a displayGUIEditSign (Lob;)V
-		ARG 1 signTileEntity
-	METHOD a_ interactWithEntity (Lkh;)V
-		ARG 1 entity
-	METHOD a_ onItemPickup (Lkh;I)V
-		ARG 1 entity
-	METHOD b canHarvestBlock (Lly;)Z
-		ARG 1 block
-	METHOD h collideWithPlayer (Lkh;)V
-		ARG 1 entity
-	METHOD l displayWorkbenchGUI ()V
-	METHOD r getScore ()I
-	METHOD t getCurrentEquippedItem ()Lev;
-	METHOD u destroyCurrentEquippedItem ()V
-	METHOD w swingItem ()V
+CLASS eb net/minecraft/src/EntityPlayer
+	FIELD a field_781_a I
+	FIELD e inventory Lfo;
+	FIELD f field_9371_f B
+	FIELD g score I
+	FIELD h field_775_e F
+	FIELD i field_774_f F
+	FIELD j field_9369_j Z
+	FIELD k field_9368_k I
+	FIELD l field_771_i Ljava/lang/String;
+	FIELD m dimension I
+	FIELD n fishEntity Lhj;
+	METHOD a joinEntityItemWithWorld (Leo;)V
+	METHOD a dropPlayerItem (Lfp;)V
+	METHOD a dropPlayerItemWithRandomChoice (Lfp;Z)V
+	METHOD a displayGUIChest (Lhi;)V
+	METHOD a displayGUIFurnace (Llt;)V
+	METHOD a getCurrentPlayerStrVsBlock (Lnq;)F
+	METHOD a displayGUIEditSign (Lqc;)V
+	METHOD a_ func_6415_a_ (Llw;)V
+	METHOD b func_443_a_ (Llw;I)V
+	METHOD b canHarvestBlock (Lnq;)Z
+	METHOD c attackTargetEntityWithCurrentItem (Llw;)V
+	METHOD i func_451_h (Llw;)V
+	METHOD m displayWorkbenchGUI ()V
+	METHOD r func_9367_r ()V
+	METHOD u func_6417_t ()I
+	METHOD w getCurrentEquippedItem ()Lfp;
+	METHOD x destroyCurrentEquippedItem ()V
+	METHOD z func_457_w ()V

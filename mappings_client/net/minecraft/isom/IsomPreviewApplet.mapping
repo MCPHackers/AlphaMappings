@@ -1,4 +1,4 @@
 CLASS net/minecraft/isom/IsomPreviewApplet net/minecraft/isom/IsomPreviewApplet
-	FIELD a isomPreview Lad;
+	FIELD a field_15231_a Lah;
 	METHOD start ()V
 	METHOD stop ()V

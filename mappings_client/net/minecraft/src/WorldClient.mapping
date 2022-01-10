@@ -1,14 +1,11 @@
-CLASS gs net/minecraft/src/WorldClient
-	FIELD A sendQueue Lgy;
-	FIELD B clientChunkProvider Llz;
-	FIELD C noTileEntityUpdates Z
-	FIELD D entityHashTable Lfi;
-	FIELD E entityList Ljava/util/Set;
-	FIELD F entitySpawnQueue Ljava/util/Set;
-	FIELD z blocksToReceive Ljava/util/LinkedList;
-	METHOD a doPreChunk (IIZ)V
-	METHOD a addEntityToWorld (ILkh;)V
-	METHOD b getEntityByID (I)Lkh;
-	METHOD c removeEntityFromWorld (I)Lkh;
-	METHOD c handleBlockChange (IIIII)Z
-	METHOD c invalidateBlockReceiveRegion (IIIIII)V
+CLASS hv net/minecraft/src/WorldClient
+	FIELD A field_1057_z Ljava/util/LinkedList;
+	FIELD B sendQueue Lib;
+	FIELD E field_1055_D Lge;
+	FIELD G field_1053_F Ljava/util/Set;
+	METHOD a func_713_a (IIZ)V
+	METHOD a func_712_a (ILlw;)V
+	METHOD b func_709_b (I)Llw;
+	METHOD c func_710_c (I)Llw;
+	METHOD c func_714_c (IIIII)Z
+	METHOD c func_711_c (IIIIII)V

@@ -1,2 +1,2 @@
-CLASS nl net/minecraft/src/EntitySmokeFX
-	FIELD a smokeParticleScale F
+CLASS pi net/minecraft/src/EntitySmokeFX
+	FIELD a field_671_a F

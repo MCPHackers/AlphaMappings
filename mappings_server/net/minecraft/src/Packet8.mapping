@@ -1,0 +1,2 @@
+CLASS ef net/minecraft/src/Packet8
+	FIELD a field_9017_a I

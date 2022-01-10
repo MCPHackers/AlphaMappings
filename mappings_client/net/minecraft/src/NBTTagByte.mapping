@@ -1,2 +1,3 @@
-CLASS ix net/minecraft/src/NBTTagByte
+CLASS kk net/minecraft/src/NBTTagByte
 	FIELD a byteValue B
+	METHOD toString ()Ljava/lang/String;

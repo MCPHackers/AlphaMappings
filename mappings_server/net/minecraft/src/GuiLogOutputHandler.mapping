@@ -1,11 +1,8 @@
-CLASS co net/minecraft/src/GuiLogOutputHandler
-	FIELD a formatter Ljava/util/logging/Formatter;
-	FIELD b allNums [I
-	FIELD c currentNum I
-	FIELD d textArea Ljavax/swing/JTextArea;
-	METHOD <init> (Ljavax/swing/JTextArea;)V
-		ARG 1 textArea
+CLASS dd net/minecraft/src/GuiLogOutputHandler
+	FIELD a field_999_a Ljava/util/logging/Formatter;
+	FIELD b field_998_b [I
+	FIELD c field_1001_c I
+	FIELD d field_1000_d Ljavax/swing/JTextArea;
 	METHOD close ()V
 	METHOD flush ()V
 	METHOD publish (Ljava/util/logging/LogRecord;)V
-		ARG 1 logRecord

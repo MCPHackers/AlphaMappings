@@ -1,16 +1,4 @@
-CLASS dv net/minecraft/src/BlockFurnace
-	FIELD a isActive Z
-	METHOD <init> (IZ)V
-		ARG 1 id
-		ARG 2 isActive
-	METHOD a updateFurnaceBlockState (ZLdy;III)V
-		ARG 0 isActive
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD g setDefaultDirection (Ldy;III)V
-		ARG 1 world
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS em net/minecraft/src/BlockFurnace
+	FIELD a field_655_a Z
+	METHOD a func_295_a (ZLeq;III)V
+	METHOD g func_296_g (Leq;III)V

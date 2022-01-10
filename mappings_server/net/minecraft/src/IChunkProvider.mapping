@@ -1,16 +1,7 @@
-CLASS bj net/minecraft/src/IChunkProvider
-	METHOD a unload100OldestChunks ()Z
+CLASS bu net/minecraft/src/IChunkProvider
+	METHOD a func_361_a ()Z
 	METHOD a chunkExists (II)Z
-		ARG 1 x
-		ARG 2 z
-	METHOD a populate (Lbj;II)V
-		ARG 1 chunkProvider
-		ARG 2 x
-		ARG 3 z
-	METHOD a saveChunks (ZLhw;)Z
-		ARG 1 flag
-		ARG 2 progressUpdate
-	METHOD b canSave ()Z
-	METHOD b provideChunk (II)Lim;
-		ARG 1 x
-		ARG 2 z
+	METHOD a populate (Lbu;II)V
+	METHOD a saveWorld (ZLjc;)Z
+	METHOD b func_364_b ()Z
+	METHOD b func_363_b (II)Lju;

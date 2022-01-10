@@ -1,0 +1,5 @@
+CLASS fu net/minecraft/src/Packet28
+	FIELD a field_6040_a I
+	FIELD b field_6039_b I
+	FIELD c field_6042_c I
+	FIELD d field_6041_d I

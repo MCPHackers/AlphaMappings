@@ -1,4 +1,4 @@
-CLASS ar net/minecraft/src/CraftingInventoryCB
-	FIELD c list Ljava/util/List;
-	METHOD a onCraftGuiClosed (Ldm;)V
-	METHOD a onCraftMatrixChanged (Lgh;)V
+CLASS ax net/minecraft/src/CraftingInventoryCB
+	FIELD c unusedList Ljava/util/List;
+	METHOD a onCraftGuiClosed (Leb;)V
+	METHOD a onCraftMatrixChanged (Lhi;)V

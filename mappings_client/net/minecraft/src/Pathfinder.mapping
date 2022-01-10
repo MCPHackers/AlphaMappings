@@ -1,14 +1,14 @@
-CLASS cz net/minecraft/src/Pathfinder
-	FIELD a worldMap Lnm;
-	FIELD b path Lfx;
-	FIELD c pointMap Lfi;
-	FIELD d pathOptions [La;
-	METHOD a openPoint (III)La;
-	METHOD a createEntityPath (La;La;)Lbl;
-	METHOD a createEntityPathTo (Lkh;DDDF)Lbl;
-	METHOD a createEntityPathTo (Lkh;IIIF)Lbl;
-	METHOD a getVerticalOffset (Lkh;IIILa;)I
-	METHOD a getSafePoint (Lkh;IIILa;I)La;
-	METHOD a addToPath (Lkh;La;La;La;F)Lbl;
-	METHOD a createEntityPathTo (Lkh;Lkh;F)Lbl;
-	METHOD b findPathOptions (Lkh;La;La;La;F)I
+CLASS dm net/minecraft/src/Pathfinder
+	FIELD a worldMap Lpk;
+	FIELD b path Lgw;
+	FIELD c pointMap Lge;
+	FIELD d pathOptions [Lb;
+	METHOD a openPoint (III)Lb;
+	METHOD a createEntityPath (Lb;Lb;)Lbt;
+	METHOD a createEntityPathTo (Llw;DDDF)Lbt;
+	METHOD a createEntityPathTo (Llw;IIIF)Lbt;
+	METHOD a getVerticalOffset (Llw;IIILb;)I
+	METHOD a getSafePoint (Llw;IIILb;I)Lb;
+	METHOD a addToPath (Llw;Lb;Lb;Lb;F)Lbt;
+	METHOD a createEntityPathTo (Llw;Llw;F)Lbt;
+	METHOD b findPathOptions (Llw;Lb;Lb;Lb;F)I

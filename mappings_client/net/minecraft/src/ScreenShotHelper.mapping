@@ -1,0 +1,6 @@
+CLASS em net/minecraft/src/ScreenShotHelper
+	FIELD a field_4287_a Ljava/text/DateFormat;
+	FIELD b field_4286_b Ljava/nio/ByteBuffer;
+	FIELD c field_4289_c [B
+	FIELD d field_4288_d [I
+	METHOD a func_4148_a (Ljava/io/File;II)Ljava/lang/String;

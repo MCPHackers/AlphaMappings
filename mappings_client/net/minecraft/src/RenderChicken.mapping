@@ -1,3 +1,1 @@
-CLASS eq net/minecraft/src/RenderChicken
-	METHOD a renderChicken (Lmz;DDDFF)V
-	METHOD a getWingRotation (Lmz;F)F
+CLASS fk net/minecraft/src/RenderChicken

@@ -1,20 +1,2 @@
-CLASS km net/minecraft/src/BlockStairs
-	FIELD a modelBlock Lly;
-	METHOD <init> (ILly;)V
-		ARG 1 blockID
-		ARG 2 modelBlock
-	METHOD h updateState (Lcn;III)V
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD i isBlockSolid (Lcn;III)Z
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD j isBlockStair (Lcn;III)Z
-		ARG 1 worldObj
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+CLASS mb net/minecraft/src/BlockStairs
+	FIELD a modelBlock Lnq;

@@ -1,2 +1,2 @@
-CLASS an net/minecraft/src/SlotCrafting
-	FIELD c craftMatrix Lgh;
+CLASS ar net/minecraft/src/SlotCrafting
+	FIELD c craftMatrix Lhi;

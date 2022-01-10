@@ -1,6 +1,3 @@
-CLASS r net/minecraft/src/Packet5PlayerInventory
-	FIELD a inventoryType I
-	FIELD b inventory [Lgp;
-	METHOD <init> (I[Lgp;)V
-		ARG 1 inventoryType
-		ARG 2 stacks
+CLASS u net/minecraft/src/Packet5PlayerInventory
+	FIELD a type I
+	FIELD b stacks [Lhn;

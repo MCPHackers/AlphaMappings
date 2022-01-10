@@ -1,9 +1,9 @@
-CLASS mp net/minecraft/src/MouseHelper
-	FIELD a deltaX I
-	FIELD b deltaY I
-	FIELD c windowComponent Ljava/awt/Component;
-	FIELD d cursor Lorg/lwjgl/input/Cursor;
-	FIELD e mouseInt I
-	METHOD a grabMouseCursor ()V
-	METHOD b ungrabMouseCursor ()V
-	METHOD c mouseXYChange ()V
+CLASS oi net/minecraft/src/MouseHelper
+	FIELD a field_1114_a I
+	FIELD b field_1113_b I
+	FIELD c field_1117_c Ljava/awt/Component;
+	FIELD d field_1116_d Lorg/lwjgl/input/Cursor;
+	FIELD e field_1115_e I
+	METHOD a func_774_a ()V
+	METHOD b func_773_b ()V
+	METHOD c func_772_c ()V

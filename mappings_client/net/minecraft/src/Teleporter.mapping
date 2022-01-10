@@ -1,0 +1,5 @@
+CLASS no net/minecraft/src/Teleporter
+	FIELD a field_4232_a Ljava/util/Random;
+	METHOD a func_4107_a (Lcy;Llw;)V
+	METHOD b func_4106_b (Lcy;Llw;)Z
+	METHOD c func_4108_c (Lcy;Llw;)Z

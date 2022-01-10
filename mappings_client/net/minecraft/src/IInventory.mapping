@@ -1,13 +1,8 @@
-CLASS gh net/minecraft/src/IInventory
-	METHOD a decrStackSize (II)Lev;
-		ARG 1 slot
-		ARG 2 stackSize
-	METHOD a setInventorySlotContents (ILev;)V
-		ARG 1 slot
-		ARG 2 itemStack
+CLASS hi net/minecraft/src/IInventory
+	METHOD a decrStackSize (II)Lfp;
+	METHOD a setInventorySlotContents (ILfp;)V
 	METHOD c getSizeInventory ()I
-	METHOD c getStackInSlot (I)Lev;
-		ARG 1 slot
+	METHOD c getStackInSlot (I)Lfp;
 	METHOD d getInvName ()Ljava/lang/String;
-	METHOD e getInventoryStackLimit ()I
-	METHOD j_ onInventoryChanged ()V
+	METHOD h onInventoryChanged ()V
+	METHOD o_ getInventoryStackLimit ()I

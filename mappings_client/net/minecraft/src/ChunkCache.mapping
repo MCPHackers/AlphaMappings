@@ -1,17 +1,7 @@
-CLASS ci net/minecraft/src/ChunkCache
-	FIELD a chunkX I
-	FIELD b chunkZ I
-	FIELD c chunkArray [[Lga;
-	FIELD d worldObj Lcn;
-	METHOD <init> (Lcn;IIIIII)V
-		ARG 1 worldObj
-		ARG 2 chunkX
-		ARG 4 chunkZ
-	METHOD a getLightValueExt (IIIZ)I
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
-	METHOD d getLightValue (III)I
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
+CLASS cs net/minecraft/src/ChunkCache
+	FIELD a field_1060_a I
+	FIELD b field_1059_b I
+	FIELD c field_1062_c [[Lha;
+	FIELD d worldObj Lcy;
+	METHOD a func_716_a (IIIZ)I
+	METHOD d func_4086_d (III)I

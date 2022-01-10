@@ -1,134 +1,37 @@
-CLASS bc net/minecraft/src/RenderBlocks
-	FIELD a blockAccess Lnm;
+CLASS bk net/minecraft/src/RenderBlocks
+	FIELD a blockAccess Lpk;
 	FIELD b overrideBlockTexture I
 	FIELD c flipTexture Z
 	FIELD d renderAllFaces Z
-	METHOD <init> (Lnm;)V
-		ARG 1 blockAccess
-	METHOD a renderItemIn3d (I)Z
-	METHOD a getFluidHeight (IIILgb;)F
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 material
-	METHOD a renderBlockOnInventory (Lly;)V
-	METHOD a renderTorchAtAngle (Lly;DDDDD)V
-		ARG 1 block
-	METHOD a renderBottomFace (Lly;DDDI)V
-		ARG 1 block
-	METHOD a renderBlockAsItem (Lly;F)V
-	METHOD a renderCrossedSquares (Lly;IDDD)V
-		ARG 1 block
-		ARG 2 metadata
-		ARG 3 x
-		ARG 5 y
-		ARG 7 z
-	METHOD a renderBlockByRenderType (Lly;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD a renderStandardBlockWithColorMultiplier (Lly;IIIFFF)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD a renderBlockUsingTexture (Lly;IIII)V
-		ARG 1 block
-	METHOD a renderBlockFallingSand (Lly;Lcn;III)V
-		ARG 1 block
-		ARG 2 worldObj
-		ARG 3 x
-		ARG 4 y
-		ARG 5 z
-	METHOD b renderTopFace (Lly;DDDI)V
-		ARG 1 block
-	METHOD b renderBlockCropsImpl (Lly;IDDD)V
-		ARG 1 block
-		ARG 2 metadata
-		ARG 3 x
-		ARG 5 y
-		ARG 7 z
-	METHOD b renderBlockTorch (Lly;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD b renderBlockCactusImpl (Lly;IIIFFF)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD c renderEastFace (Lly;DDDI)V
-		ARG 1 block
-	METHOD c renderBlockLever (Lly;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD d renderWestFace (Lly;DDDI)V
-		ARG 1 block
-	METHOD d renderBlockFire (Lly;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD e renderNorthFace (Lly;DDDI)V
-		ARG 1 block
-	METHOD e renderBlockRedstoneWire (Lly;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD f renderSouthFace (Lly;DDDI)V
-		ARG 1 block
-	METHOD f renderBlockMinecartTrack (Lly;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD g renderBlockLadder (Lly;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD h renderBlockReed (Lly;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD i renderBlockCrops (Lly;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD j renderBlockFluids (Lly;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD k renderStandardBlock (Lly;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD l renderBlockCactus (Lly;III)Z
-		ARG 1 blocki
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD m renderBlockFence (Lly;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD n renderBlockStairs (Lly;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD o renderBlockDoor (Lly;III)Z
-		ARG 1 block
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
+	METHOD a func_1219_a (I)Z
+	METHOD a func_1224_a (IIILhb;)F
+	METHOD a func_1227_a (Lnq;)V
+	METHOD a renderTorchAtAngle (Lnq;DDDDD)V
+	METHOD a renderBottomFace (Lnq;DDDI)V
+	METHOD a func_1238_a (Lnq;F)V
+	METHOD a func_1239_a (Lnq;IDDD)V
+	METHOD a renderBlockByRenderType (Lnq;III)Z
+	METHOD a renderStandardBlockWithColorMultiplier (Lnq;IIIFFF)Z
+	METHOD a renderBlockUsingTexture (Lnq;IIII)V
+	METHOD a func_1243_a (Lnq;Lcy;III)V
+	METHOD b renderTopFace (Lnq;DDDI)V
+	METHOD b func_1245_b (Lnq;IDDD)V
+	METHOD b renderBlockTorch (Lnq;III)Z
+	METHOD b func_1230_b (Lnq;IIIFFF)Z
+	METHOD c renderEastFace (Lnq;DDDI)V
+	METHOD c renderBlockLever (Lnq;III)Z
+	METHOD d renderWestFace (Lnq;DDDI)V
+	METHOD d renderBlockFire (Lnq;III)Z
+	METHOD e renderNorthFace (Lnq;DDDI)V
+	METHOD e renderBlockRedstoneWire (Lnq;III)Z
+	METHOD f renderSouthFace (Lnq;DDDI)V
+	METHOD f renderBlockMinecartTrack (Lnq;III)Z
+	METHOD g renderBlockLadder (Lnq;III)Z
+	METHOD h renderBlockReed (Lnq;III)Z
+	METHOD i renderBlockCrops (Lnq;III)Z
+	METHOD j renderBlockFluids (Lnq;III)Z
+	METHOD k renderStandardBlock (Lnq;III)Z
+	METHOD l renderBlockCactus (Lnq;III)Z
+	METHOD m renderBlockFence (Lnq;III)Z
+	METHOD n renderBlockStairs (Lnq;III)Z
+	METHOD o renderBlockDoor (Lnq;III)Z

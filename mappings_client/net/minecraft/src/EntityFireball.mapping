@@ -1,0 +1,13 @@
+CLASS az net/minecraft/src/EntityFireball
+	FIELD a field_9406_a I
+	FIELD b field_9405_b D
+	FIELD c field_9404_c D
+	FIELD d field_9403_d D
+	FIELD e field_9402_e I
+	FIELD f field_9401_f I
+	FIELD g field_9400_g I
+	FIELD h field_9399_h I
+	FIELD i field_9398_i Z
+	FIELD j field_9397_j Lhf;
+	FIELD k field_9396_k I
+	FIELD l field_9395_l I

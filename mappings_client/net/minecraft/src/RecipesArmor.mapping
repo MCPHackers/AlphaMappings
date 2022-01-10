@@ -1,4 +1,4 @@
-CLASS l net/minecraft/src/RecipesArmor
-	FIELD a recipePatterns [[Ljava/lang/String;
-	FIELD b recipeItems [[Ljava/lang/Object;
-	METHOD a addRecipes (Ldw;)V
+CLASS o net/minecraft/src/RecipesArmor
+	FIELD a field_1681_a [[Ljava/lang/String;
+	FIELD b field_1680_b [[Ljava/lang/Object;
+	METHOD a func_1148_a (Len;)V

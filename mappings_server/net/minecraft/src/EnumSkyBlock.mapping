@@ -1,4 +1,5 @@
-CLASS cy net/minecraft/src/EnumSkyBlock
-	FIELD a Sky Lcy;
-	FIELD b Block Lcy;
-	FIELD c defaultLightValue I
+CLASS dn net/minecraft/src/EnumSkyBlock
+	FIELD a Sky Ldn;
+	FIELD b Block Ldn;
+	FIELD c field_984_c I
+	FIELD d field_983_d [Ldn;

@@ -1,2 +1,3 @@
-CLASS kr net/minecraft/src/NBTTagDouble
+CLASS mh net/minecraft/src/NBTTagDouble
 	FIELD a doubleValue D
+	METHOD toString ()Ljava/lang/String;

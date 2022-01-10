@@ -1,3 +1,1 @@
-CLASS mg net/minecraft/src/BlockLog
-	METHOD <init> (I)V
-		ARG 1 blockID
+CLASS ny net/minecraft/src/BlockLog

@@ -1,4 +1,4 @@
-CLASS hs net/minecraft/src/InventoryLargeChest
+CLASS ix net/minecraft/src/InventoryLargeChest
 	FIELD a name Ljava/lang/String;
-	FIELD b upperChest Lgh;
-	FIELD c lowerChest Lgh;
+	FIELD b upperChest Lhi;
+	FIELD c lowerChest Lhi;

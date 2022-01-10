@@ -1,22 +1,22 @@
-CLASS of net/minecraft/src/SoundManager
+CLASS qg net/minecraft/src/SoundManager
 	FIELD a sndSystem Lpaulscode/sound/SoundSystem;
-	FIELD b soundPoolSounds Leb;
-	FIELD c soundPoolStreaming Leb;
-	FIELD d soundPoolMusic Leb;
-	FIELD e playedSoundsCount I
-	FIELD f options Lfr;
+	FIELD b soundPoolSounds Les;
+	FIELD c soundPoolStreaming Les;
+	FIELD d soundPoolMusic Les;
+	FIELD e field_587_e I
+	FIELD f options Lgq;
 	FIELD g loaded Z
 	FIELD h rand Ljava/util/Random;
-	FIELD i ticksBeforeMusic I
+	FIELD i field_583_i I
 	METHOD a onSoundOptionsChanged ()V
-	METHOD a loadSoundSettings (Lfr;)V
-	METHOD a setListener (Lge;F)V
-	METHOD a playSoundFX (Ljava/lang/String;FF)V
-	METHOD a playStreaming (Ljava/lang/String;FFFFF)V
-	METHOD a addSound (Ljava/lang/String;Ljava/io/File;)V
+	METHOD a func_340_a (Lgq;)V
+	METHOD a func_338_a (Lhf;F)V
+	METHOD a func_337_a (Ljava/lang/String;FF)V
+	METHOD a func_331_a (Ljava/lang/String;FFFFF)V
+	METHOD a func_6372_a (Ljava/lang/String;Ljava/io/File;)V
 	METHOD b closeMinecraft ()V
-	METHOD b playSound (Ljava/lang/String;FFFFF)V
+	METHOD b func_336_b (Ljava/lang/String;FFFFF)V
 	METHOD b addStreaming (Ljava/lang/String;Ljava/io/File;)V
-	METHOD c playRandomMusicIfReady ()V
+	METHOD c func_4033_c ()V
 	METHOD c addMusic (Ljava/lang/String;Ljava/io/File;)V
 	METHOD d tryToSetLibraryAndCodecs ()V

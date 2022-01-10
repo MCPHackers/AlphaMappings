@@ -1,4 +1,2 @@
-CLASS ct net/minecraft/src/Packet29DestroyEntity
+CLASS di net/minecraft/src/Packet29DestroyEntity
 	FIELD a entityId I
-	METHOD <init> (I)V
-		ARG 1 entityID

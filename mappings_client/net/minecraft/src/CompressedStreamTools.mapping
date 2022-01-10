@@ -1,7 +1,7 @@
-CLASS x net/minecraft/src/CompressedStreamTools
-	METHOD a compress (Lhm;)[B
-	METHOD a write (Lhm;Ljava/io/DataOutput;)V
-	METHOD a writeCompressed (Lhm;Ljava/io/OutputStream;)V
-	METHOD a read (Ljava/io/DataInput;)Lhm;
-	METHOD a readCompressed (Ljava/io/InputStream;)Lhm;
-	METHOD a decompress ([B)Lhm;
+CLASS ab net/minecraft/src/CompressedStreamTools
+	METHOD a func_1142_a (Liq;)[B
+	METHOD a func_1139_a (Liq;Ljava/io/DataOutput;)V
+	METHOD a writeGzippedCompoundToOutputStream (Liq;Ljava/io/OutputStream;)V
+	METHOD a func_1141_a (Ljava/io/DataInput;)Liq;
+	METHOD a func_1138_a (Ljava/io/InputStream;)Liq;
+	METHOD a func_1140_a ([B)Liq;

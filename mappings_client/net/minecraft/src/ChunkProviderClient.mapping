@@ -1,13 +1,7 @@
-CLASS lz net/minecraft/src/ChunkProviderClient
-	FIELD a blankChunk Lga;
+CLASS nr net/minecraft/src/ChunkProviderClient
+	FIELD a blankChunk Lha;
 	FIELD b chunkMapping Ljava/util/Map;
-	FIELD c chunkListing Ljava/util/List;
-	FIELD d worldObj Lcn;
-	METHOD <init> (Lcn;)V
-		ARG 1 worldObj
-	METHOD c unloadChunk (II)V
-		ARG 1 chunkX
-		ARG 2 chunkZ
-	METHOD d loadChunk (II)Lga;
-		ARG 1 chunkX
-		ARG 2 chunkZ
+	FIELD c unusedChunkList Ljava/util/List;
+	FIELD d worldObj Lcy;
+	METHOD c func_539_c (II)V
+	METHOD d func_538_d (II)Lha;

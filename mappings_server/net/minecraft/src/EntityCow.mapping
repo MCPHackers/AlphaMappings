@@ -1,2 +1,2 @@
-CLASS ay net/minecraft/src/EntityCow
-	FIELD a unusedBool2 Z
+CLASS bf net/minecraft/src/EntityCow
+	FIELD a unusedBoolean Z

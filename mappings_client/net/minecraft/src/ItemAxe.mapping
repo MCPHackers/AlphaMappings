@@ -1,2 +1,2 @@
-CLASS ks net/minecraft/src/ItemAxe
-	FIELD aX blocksEffectiveAgainst [Lly;
+CLASS mg net/minecraft/src/ItemAxe
+	FIELD bb blocksEffectiveAgainst [Lnq;

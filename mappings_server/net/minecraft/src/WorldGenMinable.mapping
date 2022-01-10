@@ -1,6 +1,3 @@
-CLASS eg net/minecraft/src/WorldGenMinable
+CLASS ez net/minecraft/src/WorldGenMinable
 	FIELD a minableBlockId I
 	FIELD b numberOfBlocks I
-	METHOD <init> (II)V
-		ARG 1 minableBlockID
-		ARG 2 numberOfBlocks

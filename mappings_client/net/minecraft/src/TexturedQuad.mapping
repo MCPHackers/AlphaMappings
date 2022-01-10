@@ -1,6 +1,6 @@
-CLASS ll net/minecraft/src/TexturedQuad
-	FIELD a vertexPositions [Led;
-	FIELD b nVertices I
-	FIELD c invertNormal Z
-	METHOD a flipFace ()V
-	METHOD a draw (Lho;F)V
+CLASS nc net/minecraft/src/TexturedQuad
+	FIELD a field_1195_a [Lew;
+	FIELD b field_1194_b I
+	FIELD c field_1196_c Z
+	METHOD a func_809_a ()V
+	METHOD a func_808_a (Lis;F)V

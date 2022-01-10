@@ -1,3 +1,3 @@
-CLASS n net/minecraft/src/CraftingInventoryPlayerCB
-	FIELD a craftMatrix Lgu;
-	FIELD b craftResult Lgh;
+CLASS q net/minecraft/src/CraftingInventoryPlayerCB
+	FIELD a craftMatrix Lhx;
+	FIELD b craftResult Lhi;

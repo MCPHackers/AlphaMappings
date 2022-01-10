@@ -1,0 +1,3 @@
+CLASS gx net/minecraft/src/BlockSoil
+	METHOD g func_282_g (Leq;III)Z
+	METHOD h func_283_h (Leq;III)Z
