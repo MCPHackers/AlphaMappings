@@ -11,12 +11,12 @@ CLASS cr net/minecraft/src/ChunkCache
 		ARG 5 xOffset
 		ARG 6 yOffset
 		ARG 7 zOffset
-	METHOD a func_716_a (IIIZ)I
+	METHOD a getLightValueExt (IIIZ)I
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord
 		ARG 4 boolean4
-	METHOD d func_4086_d (III)I
+	METHOD d getLightValue (III)I
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord

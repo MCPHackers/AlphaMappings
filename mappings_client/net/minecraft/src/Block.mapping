@@ -108,10 +108,10 @@ CLASS no net/minecraft/src/Block
 	FIELD l soundSandFootstep Lbi;
 	FIELD m blocksList [Lno;
 	FIELD n tickOnLoad [Z
-	FIELD o allowsAttachmentLookup [Z
+	FIELD o opaqueCubeLookup [Z
 	FIELD p isBlockContainer [Z
 	FIELD q lightOpacity [I
-	FIELD r nothing [Z
+	FIELD r canBlockGrass [Z
 	FIELD s lightValue [I
 	FIELD t stone Lno;
 	FIELD u grass Loq;
@@ -129,7 +129,7 @@ CLASS no net/minecraft/src/Block
 		ARG 2 material
 	METHOD a isOpaqueCube ()Z
 	METHOD a setLightValue (F)Lno;
-		ARG 1 float1
+		ARG 1 lightValue
 	METHOD a setBlockBounds (FFFFFF)V
 		ARG 1 minX
 		ARG 2 minY
@@ -183,7 +183,7 @@ CLASS no net/minecraft/src/Block
 		ARG 3 yCoord
 		ARG 4 zCoord
 		ARG 5 axisalignedbb
-		ARG 6 arraylist
+		ARG 6 boundingBoxes
 	METHOD a blockActivated (Lcx;IIILea;)Z
 		ARG 1 world
 		ARG 2 xCoord
@@ -240,7 +240,7 @@ CLASS no net/minecraft/src/Block
 		ARG 5 blockMetadata
 	METHOD b renderAsNormalBlock ()Z
 	METHOD b setResistance (F)Lno;
-		ARG 1 float1
+		ARG 1 resistanceValue
 	METHOD b isVecInsideXZBounds (Lao;)Z
 		ARG 1 vec3d
 	METHOD b onBlockRemoval (Lcx;III)V
@@ -284,7 +284,7 @@ CLASS no net/minecraft/src/Block
 		ARG 4 zCoord
 		ARG 5 blockSide
 	METHOD b setTickOnLoad (Z)V
-		ARG 1 boolean1
+		ARG 1 doesTickOnLoad
 	METHOD b_ dropBlockAsItem (Lcx;IIII)V
 		ARG 1 world
 		ARG 2 xCoord
@@ -293,7 +293,7 @@ CLASS no net/minecraft/src/Block
 		ARG 5 blockMetadata
 	METHOD c getRenderBlockPass ()I
 	METHOD c setHardness (F)Lno;
-		ARG 1 float1
+		ARG 1 hardnessValue
 	METHOD c isVecInsideXYBounds (Lao;)Z
 		ARG 1 vec3d
 	METHOD c onBlockDestroyedByExplosion (Lcx;III)V
@@ -315,7 +315,7 @@ CLASS no net/minecraft/src/Block
 		ARG 5 blockSide
 	METHOD d tickRate ()I
 	METHOD d setLightOpacity (I)Lno;
-		ARG 1 integer
+		ARG 1 opacityValue
 	METHOD d getCollisionBoundingBoxFromPool (Lcx;III)Lcn;
 		ARG 1 world
 		ARG 2 xCoord

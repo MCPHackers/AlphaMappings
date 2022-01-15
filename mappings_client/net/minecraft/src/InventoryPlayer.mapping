@@ -14,11 +14,11 @@ CLASS fn net/minecraft/src/InventoryPlayer
 	METHOD a setCurrentItem (IZ)V
 		ARG 1 integer
 		ARG 2 boolean2
-	METHOD a func_500_a (Lfn;)Z
+	METHOD a compareInventory (Lfn;)Z
 		ARG 1 inventoryplayer
-	METHOD a func_504_a (Lfo;)Z
+	METHOD a addItemStackToInventory (Lfo;)Z
 		ARG 1 itemstack
-	METHOD a func_501_a (Lfo;Lfo;)Z
+	METHOD a compareItemStack (Lfo;Lfo;)Z
 		ARG 1 itemstack1
 		ARG 2 itemstack2
 	METHOD a getDamageVsEntity (Llu;)I
@@ -46,5 +46,5 @@ CLASS fn net/minecraft/src/InventoryPlayer
 		ARG 1 integer
 	METHOD g dropAllItems ()V
 	METHOD g getFirstPartialMatchingStack (I)I
-	METHOD i func_512_i ()Lfn;
+	METHOD i copyInventory ()Lfn;
 	METHOD j getFirstEmptyStack ()I

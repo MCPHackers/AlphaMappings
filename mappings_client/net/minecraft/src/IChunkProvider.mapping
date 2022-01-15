@@ -1,5 +1,5 @@
 CLASS bd net/minecraft/src/IChunkProvider
-	METHOD a alwaysReturnsFalse ()Z
+	METHOD a alwaysReturnFalse ()Z
 	METHOD a chunkExists (II)Z
 		ARG 1 chunkXPos
 		ARG 2 chunkZPos

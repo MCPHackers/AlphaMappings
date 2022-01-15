@@ -10,7 +10,7 @@ CLASS oa net/minecraft/src/MinecartTrackLogic
 	METHOD a func_784_a (III)Z
 	METHOD a func_791_a (Loa;)I
 	METHOD a func_795_a (Lol;)Loa;
-	METHOD a func_792_a (Z)V
+	METHOD a place (Z)V
 	METHOD b func_785_b ()V
 	METHOD b func_794_b (III)Z
 	METHOD b func_793_b (Loa;)Z

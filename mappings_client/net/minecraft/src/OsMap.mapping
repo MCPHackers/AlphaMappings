@@ -1,2 +1,2 @@
-CLASS nb net/minecraft/src/OsMap
+CLASS nb net/minecraft/src/OSMap
 	FIELD a osMapArray [I

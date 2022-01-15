@@ -1,10 +1,10 @@
 CLASS ea net/minecraft/src/EntityPlayer
 	FIELD a damageRemainder I
 	FIELD e inventory Lfn;
-	FIELD f field_9371_f B
+	FIELD f unusedMiningCooldown B
 	FIELD g score I
-	FIELD h prevViewBobbingFloatThing F
-	FIELD i viewBobbingFloatThing F
+	FIELD h prevCameraYaw F
+	FIELD i cameraYaw F
 	FIELD j isSwinging Z
 	FIELD k swingProgressInt I
 	FIELD l username Ljava/lang/String;
@@ -16,7 +16,7 @@ CLASS ea net/minecraft/src/EntityPlayer
 		ARG 1 itemstack
 	METHOD a dropPlayerItemWithRandomChoice (Lfo;Z)V
 		ARG 1 itemstack
-		ARG 2 boolean2
+		ARG 2 randomizeDirection
 	METHOD a displayGUIChest (Lhh;)V
 		ARG 1 iinventory
 	METHOD a displayGUIFurnace (Llr;)V

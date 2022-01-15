@@ -1,23 +1,23 @@
 CLASS lb net/minecraft/src/BlockFluids
-	METHOD a func_293_a (Lpi;IIILha;)D
+	METHOD a getFlowDirection (Lpi;IIILha;)D
 		ARG 0 iblockaccess
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord
-		ARG 4 material
-	METHOD b setFluidHeight (I)F
-		ARG 0 integer
-	METHOD c getFlowingMetadata (Lpi;III)I
+		ARG 4 fluidMaterial
+	METHOD b getFluidHeight (I)F
+		ARG 0 fluidMetadata
+	METHOD c getEffectiveFlowDecay (Lpi;III)I
 		ARG 1 iblockaccess
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-	METHOD e func_291_e (Lpi;III)Lao;
+	METHOD e getFlowVector (Lpi;III)Lao;
 		ARG 1 iblockaccess
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-	METHOD h getFluidMetadata (Lcx;III)I
+	METHOD h getFlowDecay (Lcx;III)I
 		ARG 1 world
 		ARG 2 xCoord
 		ARG 3 yCoord

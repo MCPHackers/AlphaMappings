@@ -14,7 +14,7 @@ CLASS bk net/minecraft/src/RenderBlocks
 		ARG 4 material
 	METHOD a renderBlockAsItem (Lno;)V
 		ARG 1 block
-	METHOD a renderBlockTorchImplicit (Lno;DDDDD)V
+	METHOD a renderTorchAtAngle (Lno;DDDDD)V
 		ARG 1 block
 		ARG 2 xDoublePos
 		ARG 4 yDoublePos

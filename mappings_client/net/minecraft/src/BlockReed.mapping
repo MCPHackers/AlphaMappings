@@ -2,7 +2,7 @@ CLASS ky net/minecraft/src/BlockReed
 	METHOD <init> (II)V
 		ARG 1 blockID
 		ARG 2 blockTextureIndex
-	METHOD h func_303_h (Lcx;III)V
+	METHOD h checkBlockCoordValid (Lcx;III)V
 		ARG 1 world
 		ARG 2 xCoord
 		ARG 3 yCoord

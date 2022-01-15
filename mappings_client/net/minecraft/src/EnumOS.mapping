@@ -1,8 +1,7 @@
-CLASS fv net/minecraft/src/EnumOS1
+CLASS fv net/minecraft/src/EnumOS
 	FIELD a linux Lfv;
 	FIELD b solaris Lfv;
 	FIELD c windows Lfv;
 	FIELD d macos Lfv;
 	FIELD e unknown Lfv;
 	FIELD f field_6525_f [Lfv;
-	METHOD values ()[Lfv;

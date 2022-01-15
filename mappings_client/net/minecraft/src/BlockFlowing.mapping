@@ -1,42 +1,42 @@
 CLASS iz net/minecraft/src/BlockFlowing
 	FIELD a neighborSourceBlocks I
-	FIELD b field_459_b [Z
-	FIELD c field_461_c [I
-	METHOD a func_300_a (Lcx;IIIII)I
+	FIELD b isOptimalFlowDirection [Z
+	FIELD c flowCost [I
+	METHOD a calculateFlowCost (Lcx;IIIII)I
 		ARG 1 world
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
 		ARG 5 integer5
 		ARG 6 integer6
-	METHOD f func_296_f (Lcx;IIII)I
+	METHOD f getSmallestFlowDecay (Lcx;IIII)I
 		ARG 1 world
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
 		ARG 5 integer5
-	METHOD g func_299_g (Lcx;IIII)V
+	METHOD g flowIntoBlock (Lcx;IIII)V
 		ARG 1 world
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
 		ARG 5 blockMetadata
-	METHOD j func_9271_j (Lcx;III)V
+	METHOD j updateFlow (Lcx;III)V
 		ARG 1 world
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-	METHOD k func_297_k (Lcx;III)[Z
+	METHOD k getOptimalFlowDirections (Lcx;III)[Z
 		ARG 1 world
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-	METHOD l func_295_l (Lcx;III)Z
+	METHOD l blockBlocksFlow (Lcx;III)Z
 		ARG 1 world
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-	METHOD m func_298_m (Lcx;III)Z
+	METHOD m liquidCanDisplaceBlock (Lcx;III)Z
 		ARG 1 world
 		ARG 2 xCoord
 		ARG 3 yCoord

@@ -1,8 +1,7 @@
-CLASS jo net/minecraft/src/EnumOS2
+CLASS jo net/minecraft/src/EnumOSIsom
 	FIELD a linux Ljo;
 	FIELD b solaris Ljo;
 	FIELD c windows Ljo;
 	FIELD d macos Ljo;
 	FIELD e unknown Ljo;
 	FIELD f field_6511_f [Ljo;
-	METHOD values ()[Ljo;

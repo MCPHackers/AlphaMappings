@@ -9,7 +9,7 @@ CLASS mh net/minecraft/src/BlockFurnace
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-	METHOD h func_284_h (Lcx;III)V
+	METHOD h setDefaultDirection (Lcx;III)V
 		ARG 1 world
 		ARG 2 xCoord
 		ARG 3 yCoord

@@ -29,7 +29,7 @@ CLASS cn net/minecraft/src/AxisAlignedBB
 	METHOD a isVecInside (Lao;)Z
 	METHOD a func_1169_a (Lao;Lao;)Lnv;
 	METHOD a intersectsWith (Lcn;)Z
-	METHOD a func_1163_a (Lcn;D)D
+	METHOD a calculateXOffset (Lcn;D)D
 		ARG 1 axisalignedbb
 		ARG 2 double2
 	METHOD b getAverageEdgeLength ()D
@@ -46,7 +46,7 @@ CLASS cn net/minecraft/src/AxisAlignedBB
 		ARG 10 zMax
 	METHOD b isVecInYZ (Lao;)Z
 	METHOD b setBB (Lcn;)V
-	METHOD b func_1172_b (Lcn;D)D
+	METHOD b calculateYOffset (Lcn;D)D
 	METHOD c copy ()Lcn;
 	METHOD c getOffsetBoundingBox (DDD)Lcn;
 		ARG 1 xOffset
@@ -60,6 +60,6 @@ CLASS cn net/minecraft/src/AxisAlignedBB
 		ARG 9 yMax
 		ARG 11 zMax
 	METHOD c isVecInXZ (Lao;)Z
-	METHOD c func_1162_c (Lcn;D)D
+	METHOD c calculateZOffset (Lcn;D)D
 	METHOD d offset (DDD)Lcn;
 	METHOD d isVecInXY (Lao;)Z

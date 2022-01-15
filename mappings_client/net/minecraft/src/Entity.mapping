@@ -12,7 +12,7 @@ CLASS lu net/minecraft/src/Entity
 	FIELD aJ isCollidedVertically Z
 	FIELD aK isCollided Z
 	FIELD aL beenAttacked Z
-	FIELD aM field_9293_aM Z
+	FIELD aM surfaceCollision Z
 	FIELD aN isDead Z
 	FIELD aO yOffset F
 	FIELD aP width F
@@ -49,7 +49,7 @@ CLASS lu net/minecraft/src/Entity
 	FIELD bg fire I
 	FIELD bh maxAir I
 	FIELD bi inWater Z
-	FIELD bj field_9306_bj I
+	FIELD bj heartsLife I
 	FIELD bk air I
 	FIELD bl skinUrl Ljava/lang/String;
 	FIELD bm isImmuneToFire Z
@@ -67,21 +67,21 @@ CLASS lu net/minecraft/src/Entity
 	FIELD e entityRiderYawDelta D
 	METHOD <init> (Lcx;)V
 		ARG 1 world
-	METHOD A func_6376_z ()Ljava/lang/String;
+	METHOD A getTexture ()Ljava/lang/String;
 	METHOD B onEntityUpdate ()V
 	METHOD E isEntityAlive ()Z
 	METHOD H kill ()V
 	METHOD I getLookVec ()Lao;
 	METHOD J setEntityDead ()V
-	METHOD K func_4038_J ()V
+	METHOD K attackIfCanBurn ()V
 	METHOD L handleLavaMovement ()Z
 	METHOD M setBeenAttacked ()V
 	METHOD N getEntityString ()Ljava/lang/String;
-	METHOD O func_345_I ()Z
+	METHOD O isEntityInsideOpaqueBlock ()Z
 	METHOD a handleHealthUpdate (B)V
 		ARG 1 byte1
 	METHOD a isInRangeToRenderDist (D)Z
-		ARG 1 double1
+		ARG 1 someDistance
 	METHOD a setVelocity (DDD)V
 		ARG 1 motionX
 		ARG 3 motionY
@@ -97,22 +97,24 @@ CLASS lu net/minecraft/src/Entity
 		ARG 1 yOffset
 		ARG 3 isOnGround
 	METHOD a getEntityBrightness (F)F
-		ARG 1 float1
+		ARG 1 renderPartialTicks
 	METHOD a setSize (FF)V
-		ARG 1 float1
-		ARG 2 float2
+		ARG 1 width
+		ARG 2 height
 	METHOD a moveFlying (FFF)V
 		ARG 1 moveStrafing
 		ARG 2 moveForward
+		ARG 3 float3
 	METHOD a damageEntityFromFire (I)V
 		ARG 1 damageTaken
 	METHOD a dropItemWithOffset (IIF)Len;
 		ARG 1 itemID
 		ARG 2 itemCount
 		ARG 3 yOffset
-	METHOD a func_390_a (Lao;)Z
+	METHOD a isInRangeToRenderVec3D (Lao;)Z
 		ARG 1 vec3d
 	METHOD a setWorld (Lcx;)V
+		ARG 1 world
 	METHOD a interact (Lea;)Z
 		ARG 1 entityplayer
 	METHOD a isInsideOfMaterial (Lha;)Z
@@ -124,15 +126,20 @@ CLASS lu net/minecraft/src/Entity
 	METHOD a attackEntityFrom (Llu;I)Z
 		ARG 1 entity
 		ARG 2 damageAmount
-	METHOD a func_375_a ([D)Llw;
+	METHOD a newDoubleNBTList ([D)Llw;
 		ARG 1 arr
-	METHOD a func_377_a ([F)Llw;
+	METHOD a newFloatNBTList ([F)Llw;
 		ARG 1 arr
 	METHOD b setPosition (DDD)V
-		ARG 1 double1
-		ARG 3 double2
-		ARG 5 double3
+		ARG 1 xPos
+		ARG 3 yPos
+		ARG 5 zPos
 	METHOD b setPositionAndRotation (DDDFF)V
+		ARG 1 xPos
+		ARG 3 yPos
+		ARG 5 zPos
+		ARG 7 rotYaw
+		ARG 8 rotPitch
 	METHOD b dropItem (II)Len;
 		ARG 1 itemID
 		ARG 2 itemCount
@@ -141,13 +148,21 @@ CLASS lu net/minecraft/src/Entity
 	METHOD b readEntityFromNBT (Lip;)V
 		ARG 1 nbttagcompound
 	METHOD c isOffsetPositionInLiquid (DDD)Z
+		ARG 1 xOffset
+		ARG 3 yOffset
+		ARG 5 zOffset
 	METHOD c setLocationAndAngles (DDDFF)V
+		ARG 1 xPos
+		ARG 3 yPos
+		ARG 5 zPos
+		ARG 7 rotYaw
+		ARG 8 rotPitch
 	METHOD c fall (F)V
 		ARG 1 fallDistance
 	METHOD c setRotation (FF)V
-		ARG 1 float1
-		ARG 2 float2
-	METHOD c func_358_c (Lip;)Z
+		ARG 1 rotYaw
+		ARG 2 rotPitch
+	METHOD c addEntityID (Lip;)Z
 		ARG 1 nbttagcompound
 	METHOD c addToPlayerScore (Llu;I)V
 		ARG 1 entity
@@ -156,27 +171,39 @@ CLASS lu net/minecraft/src/Entity
 		ARG 1 xOffset
 		ARG 3 yOffset
 		ARG 5 zOffset
-	METHOD d func_346_d (FF)V
-		ARG 1 float1
-		ARG 2 float2
+	METHOD d setAngles (FF)V
+		ARG 1 yawOffset
+		ARG 2 pitchOffset
 	METHOD d writeToNBT (Lip;)V
 		ARG 1 nbttagcompound
 	METHOD d_ canBePushed ()Z
 	METHOD e getBoundingBox ()Lcn;
 	METHOD e getDistanceSq (DDD)D
+		ARG 1 xPos
+		ARG 3 yPos
+		ARG 5 zPos
 	METHOD e readFromNBT (Lip;)V
 		ARG 1 nbttagcompound
 	METHOD e getDistanceToEntity (Llu;)F
+		ARG 1 entity
 	METHOD e_ onUpdate ()V
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 object
 	METHOD f getDistance (DDD)D
+		ARG 1 xPos
+		ARG 3 yPos
+		ARG 5 zPos
 	METHOD f getDistanceSqToEntity (Llu;)D
+		ARG 1 entity
 	METHOD g performHurtAnimation ()V
 	METHOD g addVelocity (DDD)V
+		ARG 1 newMotX
+		ARG 3 newMotY
+		ARG 5 newMotZ
 	METHOD g applyEntityCollision (Llu;)V
 		ARG 1 entity
 	METHOD h mountEntity (Llu;)V
+		ARG 1 entity
 	METHOD h_ handleWaterMovement ()Z
 	METHOD i_ getShadowSize ()F
 	METHOD j getMountedYOffset ()D

@@ -76,7 +76,7 @@ CLASS dw net/minecraft/src/Item
 	FIELD aw bucketLava Ldw;
 	FIELD ax minecartEmpty Ldw;
 	FIELD ay saddle Ldw;
-	FIELD az doorSteel Ldw;
+	FIELD az doorIron Ldw;
 	FIELD b itemRand Ljava/util/Random;
 	FIELD ba bFull3D Z
 	FIELD c itemsList [Ldw;

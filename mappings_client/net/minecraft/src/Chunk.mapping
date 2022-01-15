@@ -90,7 +90,7 @@ CLASS gz net/minecraft/src/Chunk
 		ARG 6 maxYCoord
 		ARG 7 maxZCoord
 		ARG 8 maybeArrayIndex
-	METHOD b generateHeightMap ()V
+	METHOD b generateHeightMapSimple ()V
 	METHOD b getHeightValue (II)I
 		ARG 1 xCoord
 		ARG 2 zCoord
@@ -105,8 +105,8 @@ CLASS gz net/minecraft/src/Chunk
 		ARG 4 blockMetadata
 	METHOD b removeEntity (Llu;)V
 		ARG 1 entity
-	METHOD c maybeUpdateHeightMap ()V
-	METHOD c compareHeightMapNeighbors (II)V
+	METHOD c generateHeightMap ()V
+	METHOD c updateSkylight_do (II)V
 		ARG 1 xCoord
 		ARG 2 zCoord
 	METHOD c canBlockSeeTheSky (III)Z
@@ -129,12 +129,12 @@ CLASS gz net/minecraft/src/Chunk
 		ARG 2 yCoord
 		ARG 3 zCoord
 	METHOD f onChunkUnload ()V
-	METHOD f compareHeightMapNeighborForLighting (III)V
+	METHOD f checkSkylightNeighborHeight (III)V
 		ARG 1 xCoord
 		ARG 2 zCoord
 		ARG 3 oldYCoord
 	METHOD g setChunkModified ()V
-	METHOD g func_1003_g (III)V
+	METHOD g updateHeightMapAndLight (III)V
 		ARG 1 xCoord
 		ARG 2 yCoord
 		ARG 3 zCoord

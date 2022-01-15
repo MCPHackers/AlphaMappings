@@ -1,7 +1,7 @@
 CLASS he net/minecraft/src/EntityLiving
 	FIELD A field_9355_A Z
-	FIELD B field_9353_B F
-	FIELD C field_9351_C Ljava/lang/String;
+	FIELD B unusedRotation F
+	FIELD C entityType Ljava/lang/String;
 	FIELD D field_9349_D F
 	FIELD E scoreValue I
 	FIELD F field_9345_F F
@@ -15,24 +15,24 @@ CLASS he net/minecraft/src/EntityLiving
 	FIELD N attackedAtYaw F
 	FIELD O deathTime I
 	FIELD P attackTime I
-	FIELD Q field_9329_Q F
-	FIELD R field_9328_R F
-	FIELD S field_9327_S Z
+	FIELD Q prevCameraPitch F
+	FIELD R cameraPitch F
+	FIELD S dead Z
 	FIELD T field_9326_T I
 	FIELD U field_9325_U F
-	FIELD V field_705_Q F
-	FIELD W field_704_R F
-	FIELD X field_703_S F
+	FIELD V prevLimbYaw F
+	FIELD W limbYaw F
+	FIELD X limbSwing F
 	FIELD Y someServerMovementCounterThing I
 	FIELD Z serverClientPosX D
-	FIELD a idleSoundCompareInt I
+	FIELD a livingSoundTime I
 	FIELD aa serverClientPosY D
 	FIELD ab serverClientPosZ D
 	FIELD ac serverClientYaw D
 	FIELD ad serverClientPitch D
 	FIELD ae field_9348_ae F
-	FIELD af field_9346_af I
-	FIELD ag mobDespawnTimer I
+	FIELD af prevDamageAmount I
+	FIELD ag entityAge I
 	FIELD ah moveStrafing F
 	FIELD ai moveForward F
 	FIELD aj randomYawVelocity F
@@ -41,26 +41,26 @@ CLASS he net/minecraft/src/EntityLiving
 	FIELD am moveSpeed F
 	FIELD b entityToBeLookedAt Llu;
 	FIELD c timeLookingAtEntity I
-	FIELD o field_9366_o I
+	FIELD o heartsHalvesLife I
 	FIELD p field_9365_p F
 	FIELD q field_9364_q F
 	FIELD r field_9363_r F
 	FIELD s renderYawOffset F
 	FIELD t prevRenderYawOffset F
-	FIELD u field_9362_u F
-	FIELD v field_9361_v F
-	FIELD w field_9360_w F
-	FIELD x field_9359_x F
+	FIELD u ridingRotUnused F
+	FIELD v prevRidingRotUnused F
+	FIELD w rotationUnused F
+	FIELD x prevRotationUnused F
 	FIELD y field_9358_y Z
 	FIELD z texture Ljava/lang/String;
 	METHOD C spawnExplosionParticle ()V
 	METHOD D isOnLadder ()Z
 	METHOD F jump ()V
-	METHOD G func_6392_F ()V
+	METHOD G onEntityDeath ()V
 	METHOD a getCanSpawnHere ()Z
 	METHOD a rayTrace (DF)Lnv;
 		ARG 1 double1
-		ARG 3 float2
+		ARG 3 renderPartialTicks
 	METHOD a knockBack (Llu;IDD)V
 		ARG 1 entity
 		ARG 2 damageTaken
@@ -86,14 +86,14 @@ CLASS he net/minecraft/src/EntityLiving
 		ARG 1 healAmount
 	METHOD d getLivingSound ()Ljava/lang/String;
 	METHOD d getSwingProgress (F)F
-		ARG 1 float1
+		ARG 1 renderPartialTicks
 	METHOD d canMobSeePlayer (Llu;)Z
 		ARG 1 entity
 	METHOD e getPosition (F)Lao;
-		ARG 1 float1
+		ARG 1 renderPartialTicks
 	METHOD f getDeathSound ()Ljava/lang/String;
 	METHOD f getLook (F)Lao;
-		ARG 1 float1
+		ARG 1 renderPartialTicks
 	METHOD f_ getHurtSound ()Ljava/lang/String;
 	METHOD g_ getDropItemId ()I
 	METHOD h getSoundVolume ()F

@@ -2,7 +2,7 @@ CLASS jm net/minecraft/src/BlockMinecartTrack
 	METHOD <init> (II)V
 		ARG 1 blockID
 		ARG 2 blockTextureIndex
-	METHOD h func_4031_h (Lcx;III)V
+	METHOD h refreshTrackShape (Lcx;III)V
 		ARG 1 world
 		ARG 2 xCoord
 		ARG 3 yCoord

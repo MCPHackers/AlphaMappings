@@ -4,8 +4,8 @@ CLASS pe net/minecraft/src/PlayerControllerMP
 	FIELD e currentZCoord I
 	FIELD f currentBlockDamage F
 	FIELD g prevBlockDamage F
-	FIELD h field_9441_h F
-	FIELD i field_9440_i I
+	FIELD h miningSoundTimer F
+	FIELD i miningDelay I
 	FIELD j isPlayerClickingBlock Z
 	FIELD k netClientHandler Lia;
 	FIELD l currentHeldItemID I

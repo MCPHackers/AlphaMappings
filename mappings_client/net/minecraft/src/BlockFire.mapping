@@ -13,7 +13,7 @@ CLASS qf net/minecraft/src/BlockFire
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-		ARG 5 integer5
+		ARG 5 fireChanceInt
 		ARG 6 random
 	METHOD c canBlockCatchFire (Lpi;III)Z
 		ARG 1 iblockaccess
@@ -25,7 +25,7 @@ CLASS qf net/minecraft/src/BlockFire
 		ARG 2 xCoord
 		ARG 3 yCoord
 		ARG 4 zCoord
-		ARG 5 integer5
+		ARG 5 fireChance
 	METHOD h canNeighboringBlocksCatchFire (Lcx;III)Z
 		ARG 1 world
 		ARG 2 xCoord

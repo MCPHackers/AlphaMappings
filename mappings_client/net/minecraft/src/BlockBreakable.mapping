@@ -1,5 +1,5 @@
 CLASS fx net/minecraft/src/BlockBreakable
-	FIELD a field_6363_a Z
+	FIELD a wutIsDis Z
 	METHOD <init> (IILha;Z)V
 		ARG 1 blockID
 		ARG 2 blockTextureIndex
