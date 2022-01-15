@@ -1,0 +1,6 @@
+CLASS ma net/minecraft/src/Frustum
+	FIELD a clippingHelper Lcc;
+	FIELD b xPosition D
+	FIELD c yPosition D
+	FIELD d zPosition D
+	METHOD a isBoxInFrustum (DDDDDD)Z

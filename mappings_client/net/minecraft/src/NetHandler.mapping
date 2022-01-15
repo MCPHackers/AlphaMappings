@@ -1,5 +1,5 @@
 CLASS mo net/minecraft/src/NetHandler
-	METHOD a func_6499_a (La;)V
+	METHOD a handleAttackEntity (La;)V
 	METHOD a handleCollect (Lbu;)V
 	METHOD a handleMapChunk (Lci;)V
 	METHOD a handleHealth (Lcq;)V
@@ -8,17 +8,17 @@ CLASS mo net/minecraft/src/NetHandler
 	METHOD a handleUpdateTime (Lek;)V
 	METHOD a handleBlockItemSwitch (Leq;)V
 	METHOD a handleFlying (Lfa;)V
-	METHOD a func_9447_a (Lfs;)V
+	METHOD a handleEntityStatus (Lfs;)V
 	METHOD a handleMobSpawn (Lfv;)V
 	METHOD a handleBlockDig (Lgc;)V
 	METHOD a handleNamedEntitySpawn (Lhs;)V
 	METHOD a handleHandshake (Lhw;)V
 	METHOD a handlePickupSpawn (Lid;)V
 	METHOD a handleArmAnimation (Lii;)V
-	METHOD a func_6497_a (Lio;)V
+	METHOD a handleEntityAndVehicleId (Lio;)V
 	METHOD a handleLogin (Liu;)V
 	METHOD a handleErrorMessage (Ljava/lang/String;)V
-	METHOD a func_9448_a (Ljk;)V
+	METHOD a lizzieSlappedTimsButt (Ljk;)V
 	METHOD a handleChat (Ljr;)V
 	METHOD a handleSpawnPosition (Lkv;)V
 	METHOD a handleEntityTeleport (Lky;)V

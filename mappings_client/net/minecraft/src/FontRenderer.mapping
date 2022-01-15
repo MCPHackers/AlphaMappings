@@ -1,7 +1,7 @@
 CLASS ls net/minecraft/src/FontRenderer
-	FIELD a field_1308_a I
+	FIELD a fontTextureName I
 	FIELD b charWidth [I
-	FIELD c field_1310_c I
+	FIELD c fontDisplayLists I
 	FIELD d buffer Ljava/nio/IntBuffer;
 	METHOD a getStringWidth (Ljava/lang/String;)I
 	METHOD a drawStringWithShadow (Ljava/lang/String;III)V

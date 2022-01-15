@@ -12,7 +12,7 @@ CLASS dx net/minecraft/src/Item
 	FIELD K gunpowder Ldx;
 	FIELD L hoeWood Ldx;
 	FIELD M hoeStone Ldx;
-	FIELD N hoeSteel Ldx;
+	FIELD N hoeIron Ldx;
 	FIELD O hoeDiamond Ldx;
 	FIELD P hoeGold Ldx;
 	FIELD Q seeds Ldx;
@@ -42,7 +42,7 @@ CLASS dx net/minecraft/src/Item
 	FIELD aO compass Ldx;
 	FIELD aP fishingRod Ldx;
 	FIELD aQ pocketSundial Ldx;
-	FIELD aR lightStoneDust Ldx;
+	FIELD aR glowstoneDust Ldx;
 	FIELD aS fishRaw Ldx;
 	FIELD aT fishCooked Ldx;
 	FIELD aU record13 Ldx;
@@ -52,10 +52,10 @@ CLASS dx net/minecraft/src/Item
 	FIELD aY maxDamage I
 	FIELD aZ iconIndex I
 	FIELD aa bootsChain Ldx;
-	FIELD ab helmetSteel Ldx;
-	FIELD ac plateSteel Ldx;
-	FIELD ad legsSteel Ldx;
-	FIELD ae bootsSteel Ldx;
+	FIELD ab helmetIron Ldx;
+	FIELD ac plateIron Ldx;
+	FIELD ad legsIron Ldx;
+	FIELD ae bootsIron Ldx;
 	FIELD af helmetDiamond Ldx;
 	FIELD ag plateDiamond Ldx;
 	FIELD ah legsDiamond Ldx;
@@ -76,13 +76,13 @@ CLASS dx net/minecraft/src/Item
 	FIELD aw bucketLava Ldx;
 	FIELD ax minecartEmpty Ldx;
 	FIELD ay saddle Ldx;
-	FIELD az doorSteel Ldx;
+	FIELD az doorIron Ldx;
 	FIELD b itemRand Ljava/util/Random;
 	FIELD ba bFull3D Z
 	FIELD c itemsList [Ldx;
-	FIELD d shovelSteel Ldx;
-	FIELD e pickaxeSteel Ldx;
-	FIELD f axeSteel Ldx;
+	FIELD d shovelIron Ldx;
+	FIELD e pickaxeIron Ldx;
+	FIELD f axeIron Ldx;
 	FIELD g flintAndSteel Ldx;
 	FIELD h appleRed Ldx;
 	FIELD i bow Ldx;
@@ -91,7 +91,7 @@ CLASS dx net/minecraft/src/Item
 	FIELD l diamond Ldx;
 	FIELD m ingotIron Ldx;
 	FIELD n ingotGold Ldx;
-	FIELD o swordSteel Ldx;
+	FIELD o swordIron Ldx;
 	FIELD p swordWood Ldx;
 	FIELD q shovelWood Ldx;
 	FIELD r pickaxeWood Ldx;
@@ -114,7 +114,7 @@ CLASS dx net/minecraft/src/Item
 	METHOD a getDamageVsEntity (Llw;)I
 	METHOD a canHarvestBlock (Lnq;)Z
 	METHOD b shouldRotateAroundWhenRendering ()Z
-	METHOD b func_4019_b (Lfp;Lhf;)V
+	METHOD b saddleEntity (Lfp;Lhf;)V
 	METHOD c getItemStackLimit ()I
 	METHOD d getMaxDamage ()I
 	METHOD e setFull3D ()Ldx;

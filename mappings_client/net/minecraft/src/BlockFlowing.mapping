@@ -1,11 +1,43 @@
 CLASS ja net/minecraft/src/BlockFlowing
-	FIELD a field_460_a I
-	FIELD b field_459_b [Z
-	FIELD c field_461_c [I
-	METHOD a func_300_a (Lcy;IIIII)I
-	METHOD f func_296_f (Lcy;IIII)I
-	METHOD g func_299_g (Lcy;IIII)V
-	METHOD j func_15233_j (Lcy;III)V
-	METHOD k func_297_k (Lcy;III)[Z
-	METHOD l func_295_l (Lcy;III)Z
-	METHOD m func_298_m (Lcy;III)Z
+	FIELD a neighborSourceBlocks I
+	FIELD b isOptimalFlowDirection [Z
+	FIELD c flowCost [I
+	METHOD a calculateFlowCost (Lcy;IIIII)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 integer5
+		ARG 6 integer6
+	METHOD f getSmallestFlowDecay (Lcy;IIII)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 integer5
+	METHOD g flowIntoBlock (Lcy;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 blockMetadata
+	METHOD j updateFlow (Lcy;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD k getOptimalFlowDirections (Lcy;III)[Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD l blockBlocksFlow (Lcy;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD m liquidCanDisplaceBlock (Lcy;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

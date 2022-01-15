@@ -22,11 +22,11 @@ CLASS hb net/minecraft/src/Material
 	FIELD u cactus Lhb;
 	FIELD v clay Lhb;
 	FIELD w pumpkin Lhb;
-	FIELD x field_4260_x Lhb;
+	FIELD x portal Lhb;
 	FIELD y canBurn Z
-	METHOD a func_878_a ()Z
+	METHOD a isMaterialOpaque ()Z
 	METHOD b getCanBlockGrass ()Z
-	METHOD c func_880_c ()Z
+	METHOD c isSolid2 ()Z
 	METHOD d getIsLiquid ()Z
-	METHOD e getBurning ()Z
+	METHOD e isFlammable ()Z
 	METHOD f setBurning ()Lhb;

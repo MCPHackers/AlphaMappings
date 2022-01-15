@@ -1,5 +1,18 @@
 CLASS bo net/minecraft/src/BlockRedstoneTorch
 	FIELD a torchActive Z
 	FIELD b torchUpdates Ljava/util/List;
+	METHOD <init> (IIZ)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+		ARG 3 isLit
 	METHOD a checkForBurnout (Lcy;IIIZ)Z
-	METHOD h func_15232_h (Lcy;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 addTorchUpdate
+	METHOD h isTorchAcceptingPower (Lcy;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

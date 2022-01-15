@@ -1,4 +1,4 @@
-CLASS hj net/minecraft/src/EntityFish
+CLASS hj net/minecraft/src/EntityFishingBobber
 	FIELD a field_4098_a I
 	FIELD b field_4097_b Leb;
 	FIELD c field_4096_c Llw;

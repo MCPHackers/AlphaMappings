@@ -9,13 +9,13 @@ CLASS bk net/minecraft/src/RenderBlocks
 	METHOD a renderTorchAtAngle (Lnq;DDDDD)V
 	METHOD a renderBottomFace (Lnq;DDDI)V
 	METHOD a func_1238_a (Lnq;F)V
-	METHOD a func_1239_a (Lnq;IDDD)V
+	METHOD a renderBlockPlantsImplicit (Lnq;IDDD)V
 	METHOD a renderBlockByRenderType (Lnq;III)Z
 	METHOD a renderStandardBlockWithColorMultiplier (Lnq;IIIFFF)Z
 	METHOD a renderBlockUsingTexture (Lnq;IIII)V
 	METHOD a func_1243_a (Lnq;Lcy;III)V
 	METHOD b renderTopFace (Lnq;DDDI)V
-	METHOD b func_1245_b (Lnq;IDDD)V
+	METHOD b renderBlockCropsImplicit (Lnq;IDDD)V
 	METHOD b renderBlockTorch (Lnq;III)Z
 	METHOD b func_1230_b (Lnq;IIIFFF)Z
 	METHOD c renderEastFace (Lnq;DDDI)V

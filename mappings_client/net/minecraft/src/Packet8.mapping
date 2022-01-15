@@ -1,2 +1,0 @@
-CLASS cq net/minecraft/src/Packet8
-	FIELD a healthMP I

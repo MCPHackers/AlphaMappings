@@ -1,2 +1,2 @@
-CLASS nd net/minecraft/src/OsMap
-	FIELD a field_1193_a [I
+CLASS nd net/minecraft/src/OSMap
+	FIELD a osMapArray [I

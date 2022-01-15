@@ -1,69 +1,72 @@
 CLASS hf net/minecraft/src/EntityLiving
 	FIELD A field_9355_A Z
-	FIELD B field_9353_B F
-	FIELD C field_9351_C Ljava/lang/String;
+	FIELD B unusedRotation F
+	FIELD C entityType Ljava/lang/String;
 	FIELD D field_9349_D F
-	FIELD E field_9347_E I
+	FIELD E scoreValue I
 	FIELD F field_9345_F F
 	FIELD G field_9343_G Z
 	FIELD H prevSwingProgress F
 	FIELD I swingProgress F
 	FIELD J health I
-	FIELD K field_9335_K I
+	FIELD K prevHealth I
 	FIELD L hurtTime I
-	FIELD M field_9332_M I
-	FIELD N field_9331_N F
+	FIELD M maxHurtTime I
+	FIELD N attackedAtYaw F
 	FIELD O deathTime I
 	FIELD P attackTime I
-	FIELD Q field_9329_Q F
-	FIELD R field_9328_R F
-	FIELD S field_9327_S Z
+	FIELD Q prevCameraPitch F
+	FIELD R cameraPitch F
+	FIELD S dead Z
 	FIELD T field_9326_T I
 	FIELD U field_9325_U F
-	FIELD V field_705_Q F
-	FIELD W field_704_R F
-	FIELD X field_703_S F
-	FIELD Y field_9324_Y I
-	FIELD Z field_9323_Z D
-	FIELD aa field_9356_aa D
-	FIELD ab field_9354_ab D
-	FIELD ac field_9352_ac D
-	FIELD ad field_9350_ad D
+	FIELD V prevLimbYaw F
+	FIELD W limbYaw F
+	FIELD X limbSwing F
+	FIELD Y serverMovementCounterIntThingIDK I
+	FIELD Z serverClientPosX D
+	FIELD a livingSoundTime I
+	FIELD aa serverClientPosY D
+	FIELD ab serverClientPosZ D
+	FIELD ac serverClientYaw D
+	FIELD ad serverClientPitch D
 	FIELD ae field_9348_ae F
-	FIELD af field_9346_af I
-	FIELD ag field_9344_ag I
-	FIELD ah field_9342_ah F
-	FIELD ai field_9340_ai F
-	FIELD aj field_9338_aj F
+	FIELD af prevDamageAmount I
+	FIELD ag entityAge I
+	FIELD ah moveStrafing F
+	FIELD ai moveForward F
+	FIELD aj randomYawVelocity F
 	FIELD ak isJumping Z
-	FIELD al field_9334_al F
-	FIELD am field_9333_am F
-	FIELD o field_9366_o I
+	FIELD al defaultPitch F
+	FIELD am moveSpeed F
+	FIELD b entityToBeLookedAt Llw;
+	FIELD c timeLookingAtEntity I
+	FIELD o heartsHalvesLife I
 	FIELD p field_9365_p F
 	FIELD q field_9364_q F
 	FIELD r field_9363_r F
-	FIELD s field_735_n F
-	FIELD t field_734_o F
-	FIELD u field_9362_u F
-	FIELD v field_9361_v F
-	FIELD w field_9360_w F
-	FIELD x field_9359_x F
+	FIELD s renderYawOffset F
+	FIELD t prevRenderYawOffset F
+	FIELD u ridingRotUnused F
+	FIELD v prevRidingRotUnused F
+	FIELD w rotationUnused F
+	FIELD x prevRotationUnused F
 	FIELD y field_9358_y Z
 	FIELD z texture Ljava/lang/String;
 	METHOD C spawnExplosionParticle ()V
 	METHOD D isOnLadder ()Z
-	METHOD F func_424_C ()V
-	METHOD G func_6392_F ()V
+	METHOD F jump ()V
+	METHOD G onEntityDeath ()V
 	METHOD a getCanSpawnHere ()Z
 	METHOD a rayTrace (DF)Lnx;
-	METHOD a func_434_a (Llw;IDD)V
+	METHOD a knockBack (Llw;IDD)V
 	METHOD b func_421_b ()I
-	METHOD b func_435_b (FF)V
+	METHOD b moveEntityWithHeading (FF)V
 	METHOD b updateRotation (FFF)F
 	METHOD b damageEntity (I)V
 	METHOD b onDeath (Llw;)V
 	METHOD b faceEntity (Llw;F)V
-	METHOD b_ func_418_b_ ()V
+	METHOD b_ updatePlayerActionState ()V
 	METHOD c heal (I)V
 	METHOD d getLivingSound ()Ljava/lang/String;
 	METHOD d getSwingProgress (F)F
@@ -74,6 +77,6 @@ CLASS hf net/minecraft/src/EntityLiving
 	METHOD f_ getHurtSound ()Ljava/lang/String;
 	METHOD g_ getDropItemId ()I
 	METHOD h getSoundVolume ()F
-	METHOD i func_6391_i ()I
+	METHOD i getMaxSpawnedInChunk ()I
 	METHOD k onLivingUpdate ()V
 	METHOD l getHeldItem ()Lfp;

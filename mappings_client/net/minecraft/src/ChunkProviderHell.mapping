@@ -6,18 +6,18 @@ CLASS kj net/minecraft/src/ChunkProviderHell
 	FIELD e field_4173_e [D
 	FIELD f field_4172_f [D
 	FIELD g field_4171_g [D
-	FIELD h field_4170_h Ljava/util/Random;
-	FIELD i field_4169_i Lnf;
-	FIELD j field_4168_j Lnf;
-	FIELD k field_4167_k Lnf;
-	FIELD l field_4166_l Lnf;
+	FIELD h rand Ljava/util/Random;
+	FIELD i highNoise Lnf;
+	FIELD j lowNoise Lnf;
+	FIELD k selectorNoise Lnf;
+	FIELD l netherBeachNoise Lnf;
 	FIELD m field_4165_m Lnf;
-	FIELD n field_4164_n Lcy;
+	FIELD n worldObj Lcy;
 	FIELD o field_4163_o [D
-	FIELD p field_4162_p [D
-	FIELD q field_4161_q [D
+	FIELD p soulSandNoiseArray [D
+	FIELD q gravelNoiseArray [D
 	FIELD r field_4160_r [D
-	FIELD s field_4159_s Ldl;
-	METHOD a func_4059_a (II[B)V
+	FIELD s netherChunkCaveGen Ldl;
+	METHOD a generateTerrain (II[B)V
 	METHOD a func_4057_a ([DIIIIII)[D
-	METHOD b func_4058_b (II[B)V
+	METHOD b replaceBlocksForSurface (II[B)V

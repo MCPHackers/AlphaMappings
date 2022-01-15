@@ -1,15 +1,15 @@
 CLASS eb net/minecraft/src/EntityPlayer
-	FIELD a field_781_a I
+	FIELD a damageRemainder I
 	FIELD e inventory Lfo;
-	FIELD f field_9371_f B
+	FIELD f unusedMiningCooldown B
 	FIELD g score I
-	FIELD h field_775_e F
-	FIELD i field_774_f F
-	FIELD j field_9369_j Z
-	FIELD k field_9368_k I
-	FIELD l field_771_i Ljava/lang/String;
+	FIELD h prevCameraYaw F
+	FIELD i cameraYaw F
+	FIELD j isSwinging Z
+	FIELD k swingProgressInt I
+	FIELD l username Ljava/lang/String;
 	FIELD m dimension I
-	FIELD n fishEntity Lhj;
+	FIELD n fishingBobberEntity Lhj;
 	METHOD a joinEntityItemWithWorld (Leo;)V
 	METHOD a dropPlayerItem (Lfp;)V
 	METHOD a dropPlayerItemWithRandomChoice (Lfp;Z)V
@@ -17,14 +17,14 @@ CLASS eb net/minecraft/src/EntityPlayer
 	METHOD a displayGUIFurnace (Llt;)V
 	METHOD a getCurrentPlayerStrVsBlock (Lnq;)F
 	METHOD a displayGUIEditSign (Lqc;)V
-	METHOD a_ func_6415_a_ (Llw;)V
-	METHOD b func_443_a_ (Llw;I)V
+	METHOD a_ useCurrentItemOnEntity (Llw;)V
+	METHOD b onItemPickup (Llw;I)V
 	METHOD b canHarvestBlock (Lnq;)Z
 	METHOD c attackTargetEntityWithCurrentItem (Llw;)V
-	METHOD i func_451_h (Llw;)V
+	METHOD i collideWithEntity (Llw;)V
 	METHOD m displayWorkbenchGUI ()V
-	METHOD r func_9367_r ()V
-	METHOD u func_6417_t ()I
+	METHOD r respawnPlayer ()V
+	METHOD u getScore ()I
 	METHOD w getCurrentEquippedItem ()Lfp;
 	METHOD x destroyCurrentEquippedItem ()V
-	METHOD z func_457_w ()V
+	METHOD z swingItem ()V

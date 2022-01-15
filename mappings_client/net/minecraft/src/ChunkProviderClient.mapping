@@ -3,5 +3,7 @@ CLASS nr net/minecraft/src/ChunkProviderClient
 	FIELD b chunkMapping Ljava/util/Map;
 	FIELD c unusedChunkList Ljava/util/List;
 	FIELD d worldObj Lcy;
-	METHOD c func_539_c (II)V
-	METHOD d func_538_d (II)Lha;
+	METHOD <init> (Lcy;)V
+		ARG 1 world
+	METHOD c removeChunkMapping (II)V
+	METHOD d addChunkMapping (II)Lha;

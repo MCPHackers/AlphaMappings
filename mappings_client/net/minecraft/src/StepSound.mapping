@@ -2,7 +2,7 @@ CLASS bi net/minecraft/src/StepSound
 	FIELD a field_1678_a Ljava/lang/String;
 	FIELD b field_1677_b F
 	FIELD c field_1679_c F
-	METHOD a func_1146_a ()Ljava/lang/String;
-	METHOD b func_1147_b ()F
-	METHOD c func_1144_c ()F
-	METHOD d func_1145_d ()Ljava/lang/String;
+	METHOD a getSoundName ()Ljava/lang/String;
+	METHOD b getSoundVolume ()F
+	METHOD c getSoundPitch ()F
+	METHOD d getSoundNameAgain ()Ljava/lang/String;

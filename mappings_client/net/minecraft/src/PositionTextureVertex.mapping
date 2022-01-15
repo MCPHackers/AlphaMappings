@@ -1,4 +1,4 @@
-CLASS ew net/minecraft/src/PositionTexureVertex
+CLASS ew net/minecraft/src/PositionTextureVertex
 	FIELD a vector3D Lao;
 	FIELD b texturePositionX F
 	FIELD c texturePositionY F

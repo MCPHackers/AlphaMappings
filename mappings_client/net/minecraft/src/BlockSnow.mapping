@@ -1,2 +1,9 @@
 CLASS fz net/minecraft/src/BlockSnow
-	METHOD h func_314_h (Lcy;III)Z
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+	METHOD h canSnowStay (Lcy;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

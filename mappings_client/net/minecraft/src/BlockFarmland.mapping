@@ -1,0 +1,13 @@
+CLASS oa net/minecraft/src/BlockFarmland
+	METHOD <init> (I)V
+		ARG 1 blockID
+	METHOD h areCropsOnTop (Lcy;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD i isWaterNearby (Lcy;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

@@ -2,10 +2,10 @@ CLASS oz net/minecraft/src/WorldProvider
 	FIELD a worldObj Lcy;
 	FIELD b worldChunkMgr Lpo;
 	FIELD c field_4220_c Z
-	FIELD d field_6479_d Z
-	FIELD e field_6478_e Z
+	FIELD d isHellWorld Z
+	FIELD e noSkyLight Z
 	FIELD f lightBrightnessTable [F
-	FIELD g field_4218_e I
+	FIELD g worldType I
 	FIELD h field_4217_f [F
 	METHOD a registerWorldChunkManager ()V
 	METHOD a func_4096_a (FF)Lao;

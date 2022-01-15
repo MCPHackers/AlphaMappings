@@ -1,4 +1,0 @@
-CLASS a net/minecraft/src/Packet7
-	FIELD a field_9277_a I
-	FIELD b field_9276_b I
-	FIELD c field_9278_c I

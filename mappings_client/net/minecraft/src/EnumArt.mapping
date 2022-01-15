@@ -1,7 +1,7 @@
 CLASS fl net/minecraft/src/EnumArt
-	FIELD A field_1636_A I
-	FIELD B field_1634_B I
-	FIELD C field_1632_C I
+	FIELD A sizeY I
+	FIELD B artImagePosX I
+	FIELD C artImagePosY I
 	FIELD D field_1630_D [Lfl;
 	FIELD a Kebab Lfl;
 	FIELD b Aztec Lfl;
@@ -27,5 +27,5 @@ CLASS fl net/minecraft/src/EnumArt
 	FIELD v Pigscene Lfl;
 	FIELD w Skeleton Lfl;
 	FIELD x DonkeyKong Lfl;
-	FIELD y field_1624_y Ljava/lang/String;
-	FIELD z field_1623_z I
+	FIELD y title Ljava/lang/String;
+	FIELD z sizeX I

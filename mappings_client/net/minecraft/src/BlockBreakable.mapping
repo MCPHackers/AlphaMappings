@@ -1,2 +1,7 @@
 CLASS fy net/minecraft/src/BlockBreakable
-	FIELD a field_6363_a Z
+	FIELD a theTwoAnnabelles Z
+	METHOD <init> (IILhb;Z)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+		ARG 3 material
+		ARG 4 boolean4

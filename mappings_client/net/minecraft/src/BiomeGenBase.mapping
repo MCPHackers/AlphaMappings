@@ -1,4 +1,4 @@
-CLASS gg net/minecraft/src/MobSpawnerBase
+CLASS gg net/minecraft/src/BiomeGenBase
 	FIELD a rainforest Lgg;
 	FIELD b swampland Lgg;
 	FIELD c seasonalForest Lgg;

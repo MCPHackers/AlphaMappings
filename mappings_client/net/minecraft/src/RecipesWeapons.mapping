@@ -1,4 +1,4 @@
 CLASS pa net/minecraft/src/RecipesWeapons
 	FIELD a field_1100_a [[Ljava/lang/String;
 	FIELD b field_1099_b [[Ljava/lang/Object;
-	METHOD a func_766_a (Len;)V
+	METHOD a addRecipes (Len;)V

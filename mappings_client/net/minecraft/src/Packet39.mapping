@@ -1,3 +1,0 @@
-CLASS io net/minecraft/src/Packet39
-	FIELD a field_6365_a I
-	FIELD b field_6364_b I

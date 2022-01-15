@@ -1,7 +1,7 @@
 CLASS cs net/minecraft/src/ChunkCache
-	FIELD a field_1060_a I
-	FIELD b field_1059_b I
-	FIELD c field_1062_c [[Lha;
+	FIELD a chunkX I
+	FIELD b chunkZ I
+	FIELD c chunkArray [[Lha;
 	FIELD d worldObj Lcy;
-	METHOD a func_716_a (IIIZ)I
-	METHOD d func_4086_d (III)I
+	METHOD a getLightValueExt (IIIZ)I
+	METHOD d getLightValue (III)I

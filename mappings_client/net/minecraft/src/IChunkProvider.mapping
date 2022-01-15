@@ -1,7 +1,16 @@
 CLASS bd net/minecraft/src/IChunkProvider
-	METHOD a func_532_a ()Z
+	METHOD a alwaysReturnFalse ()Z
 	METHOD a chunkExists (II)Z
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos
 	METHOD a populate (Lbd;II)V
+		ARG 1 ichunkprovider
+		ARG 2 chunkXPos
+		ARG 3 chunkZPos
 	METHOD a saveChunks (ZLpu;)Z
-	METHOD b func_536_b ()Z
+		ARG 1 boolean1
+		ARG 2 iprogressupdate
+	METHOD b isWorldLocal ()Z
 	METHOD b provideChunk (II)Lha;
+		ARG 1 chunkXPos
+		ARG 2 chunkZPos

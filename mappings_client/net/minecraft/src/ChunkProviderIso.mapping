@@ -1,5 +1,5 @@
 CLASS cu net/minecraft/src/ChunkProviderIso
-	FIELD a field_899_a [B
+	FIELD a chunkBlockArray [B
 	FIELD b chunks [Lha;
 	FIELD c worldObj Lcy;
 	FIELD d chunkLoader Lai;

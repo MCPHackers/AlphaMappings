@@ -1,0 +1,6 @@
+CLASS lc net/minecraft/src/Packet60Explosion
+	FIELD a explosionX D
+	FIELD b explosionY D
+	FIELD c explosionZ D
+	FIELD d explosionSize F
+	FIELD e destroyedBlockPositions Ljava/util/Set;

@@ -1,13 +1,13 @@
 CLASS bq net/minecraft/src/EntityPlayerSP
-	FIELD a field_787_a Lnn;
-	FIELD b field_9373_b I
+	FIELD a movementInput Lnn;
+	FIELD b somethingAboutPortals I
 	FIELD bx mc Lnet/minecraft/client/Minecraft;
-	FIELD by field_9374_bx Z
+	FIELD by inPortal Z
 	FIELD c field_4134_c F
 	FIELD d field_4133_d F
-	METHOD a func_460_a (IZ)V
+	METHOD a handleKeyPress (IZ)V
 	METHOD a sendChatMessage (Ljava/lang/String;)V
 	METHOD a_ setHealth (I)V
-	METHOD m_ func_458_k ()V
+	METHOD m_ resetPlayerKeyState ()V
 	METHOD n getPlayerArmorValue ()I
-	METHOD o func_6420_o ()V
+	METHOD o absolutelyNothing ()V

@@ -1,4 +1,16 @@
 CLASS mj net/minecraft/src/BlockFurnace
 	FIELD a isActive Z
+	METHOD <init> (IZ)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
 	METHOD a updateFurnaceBlockState (ZLcy;III)V
-	METHOD h func_284_h (Lcy;III)V
+		ARG 0 isFurnaceActivated
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD h setDefaultDirection (Lcy;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

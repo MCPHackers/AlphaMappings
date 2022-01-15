@@ -1,5 +1,5 @@
 CLASS ch net/minecraft/src/EnumSkyBlock
 	FIELD a Sky Lch;
 	FIELD b Block Lch;
-	FIELD c field_1722_c I
+	FIELD c skyBrightness I
 	FIELD d field_1721_d [Lch;

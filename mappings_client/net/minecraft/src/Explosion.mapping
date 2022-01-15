@@ -1,12 +1,12 @@
 CLASS ks net/minecraft/src/Explosion
 	FIELD a field_12257_a Z
-	FIELD b field_12256_b D
-	FIELD c field_12255_c D
-	FIELD d field_12254_d D
-	FIELD e field_12253_e Llw;
-	FIELD f field_12252_f F
-	FIELD g field_12251_g Ljava/util/Set;
-	FIELD h field_12250_h Ljava/util/Random;
-	FIELD i field_12249_i Lcy;
+	FIELD b explosionX D
+	FIELD c explosionY D
+	FIELD d explosionZ D
+	FIELD e exploder Llw;
+	FIELD f explosionSize F
+	FIELD g destoyedBlockPositions Ljava/util/Set;
+	FIELD h explosionRand Ljava/util/Random;
+	FIELD i world Lcy;
 	METHOD a func_12248_a ()V
 	METHOD b func_12247_b ()V

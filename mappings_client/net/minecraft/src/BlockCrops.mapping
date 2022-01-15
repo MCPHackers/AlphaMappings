@@ -1,2 +1,6 @@
 CLASS ig net/minecraft/src/BlockCrops
 	METHOD i getGrowthRate (Lcy;III)F
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

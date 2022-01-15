@@ -1,4 +1,4 @@
-CLASS fw net/minecraft/src/EnumOS1
+CLASS fw net/minecraft/src/EnumOS
 	FIELD a linux Lfw;
 	FIELD b solaris Lfw;
 	FIELD c windows Lfw;

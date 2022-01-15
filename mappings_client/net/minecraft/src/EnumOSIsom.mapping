@@ -1,0 +1,7 @@
+CLASS jp net/minecraft/src/EnumOSIsom
+	FIELD a linux Ljp;
+	FIELD b solaris Ljp;
+	FIELD c windows Ljp;
+	FIELD d macos Ljp;
+	FIELD e unknown Ljp;
+	FIELD f field_6511_f [Ljp;

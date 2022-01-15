@@ -1,3 +1,7 @@
 CLASS qf net/minecraft/src/ICamera
-	METHOD a func_343_a (DDD)V
-	METHOD a func_342_a (Lco;)Z
+	METHOD a setPosition (DDD)V
+		ARG 1 posX
+		ARG 3 posY
+		ARG 5 posZ
+	METHOD a isBoundingBoxInFrustum (Lco;)Z
+		ARG 1 axisalignedbb

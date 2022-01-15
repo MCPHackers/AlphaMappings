@@ -1,4 +1,4 @@
-CLASS kx net/minecraft/src/SignModel
+CLASS kx net/minecraft/src/ModelSign
 	FIELD a field_1346_a Lka;
 	FIELD b field_1345_b Lka;
 	METHOD a func_887_a ()V

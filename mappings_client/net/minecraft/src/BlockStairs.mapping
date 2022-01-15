@@ -1,2 +1,5 @@
 CLASS mb net/minecraft/src/BlockStairs
 	FIELD a modelBlock Lnq;
+	METHOD <init> (ILnq;)V
+		ARG 1 blockID
+		ARG 2 stairTypeBlock

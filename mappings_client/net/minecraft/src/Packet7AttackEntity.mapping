@@ -1,0 +1,4 @@
+CLASS a net/minecraft/src/Packet7AttackEntity
+	FIELD a playerEntityId I
+	FIELD b targetEntityId I
+	FIELD c isLeftClick I

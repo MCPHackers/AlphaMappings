@@ -9,4 +9,4 @@ CLASS gs net/minecraft/src/ChunkProviderLoadOrGenerate
 	FIELD h lastQueriedChunk Lha;
 	METHOD a saveExtraChunkData (Lha;)V
 	METHOD b saveChunk (Lha;)V
-	METHOD c func_542_c (II)Lha;
+	METHOD c loadChunk (II)Lha;

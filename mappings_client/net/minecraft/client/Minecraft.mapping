@@ -31,10 +31,10 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD c displayWidth I
 	FIELD d displayHeight I
 	FIELD e theWorld Lcy;
-	FIELD f field_6323_f Lf;
+	FIELD f renderGlobal Lf;
 	FIELD g thePlayer Lbq;
-	FIELD h field_6321_h Lbz;
-	FIELD i field_6320_i Lea;
+	FIELD h effectRenderer Lbz;
+	FIELD i session Lea;
 	FIELD j field_6319_j Ljava/lang/String;
 	FIELD k mcCanvas Ljava/awt/Canvas;
 	FIELD l field_6317_l Z
@@ -88,7 +88,6 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD p respawn ()V
 	METHOD q loadScreen ()V
 	METHOD r getOs ()Ljp;
-	METHOD run ()V
 	METHOD s func_6248_s ()V
 	METHOD t clickMiddleMouseButton ()V
 	METHOD u forceReload ()V

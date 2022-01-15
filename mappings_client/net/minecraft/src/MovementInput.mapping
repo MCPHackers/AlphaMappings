@@ -1,9 +1,9 @@
 CLASS nn net/minecraft/src/MovementInput
-	FIELD a field_1174_a F
-	FIELD b field_1173_b F
+	FIELD a moveStrafe F
+	FIELD b moveForward F
 	FIELD c field_1177_c Z
-	FIELD d field_1176_d Z
-	FIELD e field_1175_e Z
-	METHOD a func_798_a ()V
-	METHOD a func_796_a (IZ)V
+	FIELD d jump Z
+	FIELD e sneak Z
+	METHOD a resetKeyState ()V
+	METHOD a checkKeyForMovementInput (IZ)V
 	METHOD a func_797_a (Leb;)V

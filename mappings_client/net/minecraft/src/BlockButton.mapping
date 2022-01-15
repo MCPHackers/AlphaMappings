@@ -1,2 +1,9 @@
 CLASS iy net/minecraft/src/BlockButton
-	METHOD h func_305_h (Lcy;III)Z
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+	METHOD h checkIfAttachedToBlock (Lcy;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

@@ -1,8 +1,34 @@
 CLASS ld net/minecraft/src/BlockFluids
-	METHOD a func_293_a (Lpk;IIILhb;)D
-	METHOD b func_288_b (I)F
-	METHOD c func_289_b (Lpk;III)I
-	METHOD e func_291_e (Lpk;III)Lao;
-	METHOD h func_290_h (Lcy;III)I
-	METHOD i func_292_i (Lcy;III)V
+	METHOD a getFlowDirection (Lpk;IIILhb;)D
+		ARG 0 iblockaccess
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
+		ARG 4 fluidMaterial
+	METHOD b getFluidHeight (I)F
+		ARG 0 fluidMetadata
+	METHOD c getEffectiveFlowDecay (Lpk;III)I
+		ARG 1 iblockaccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD e getFlowVector (Lpk;III)Lao;
+		ARG 1 iblockaccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD h getFlowDecay (Lcy;III)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD i extraHardenEffects (Lcy;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD j checkForHarden (Lcy;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

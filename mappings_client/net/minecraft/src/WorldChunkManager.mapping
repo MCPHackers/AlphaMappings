@@ -6,8 +6,8 @@ CLASS po net/minecraft/src/WorldChunkManager
 	FIELD e field_4194_e Lng;
 	FIELD f field_4193_f Lng;
 	FIELD g field_4192_g Lng;
-	METHOD a func_4073_a (II)Lgg;
-	METHOD a func_4069_a (IIII)[Lgg;
+	METHOD a getBiomeAtChunkCorner (II)Lgg;
+	METHOD a getBiomeGenArray (IIII)[Lgg;
 	METHOD a func_4074_a (Lqm;)Lgg;
 	METHOD a getTemperatures ([DIIII)[D
 	METHOD a loadBlockGeneratorData ([Lgg;IIII)[Lgg;

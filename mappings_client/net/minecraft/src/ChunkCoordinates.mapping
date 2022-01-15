@@ -1,5 +1,3 @@
 CLASS if net/minecraft/src/ChunkCoordinates
-	FIELD a field_1518_a I
-	FIELD b field_1517_b I
-	METHOD equals (Ljava/lang/Object;)Z
-	METHOD hashCode ()I
+	FIELD a chunkXPos I
+	FIELD b chunkZPos I

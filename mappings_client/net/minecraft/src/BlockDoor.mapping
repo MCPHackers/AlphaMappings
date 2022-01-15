@@ -1,4 +1,11 @@
 CLASS gv net/minecraft/src/BlockDoor
-	METHOD a func_311_a (Lcy;IIIZ)V
-	METHOD b func_313_b (I)V
-	METHOD c func_312_c (I)I
+	METHOD a setDoorState (Lcy;IIIZ)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 isActivated
+	METHOD b setDoorBoundsBasedOnState (I)V
+		ARG 1 doorState
+	METHOD c getDoorStateFromMetadata (I)I
+		ARG 1 blockMetadata

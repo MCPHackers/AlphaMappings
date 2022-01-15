@@ -8,10 +8,10 @@ CLASS pp net/minecraft/src/EntityFX
 	FIELD i field_663_i F
 	FIELD j field_662_j F
 	FIELD k field_661_k F
-	FIELD l field_660_l D
-	FIELD m field_659_m D
-	FIELD n field_658_n D
-	METHOD a func_406_a (Lis;FFFFFF)V
+	FIELD l interpPosX D
+	FIELD m interpPosY D
+	FIELD n interpPosZ D
+	METHOD a renderParticle (Lis;FFFFFF)V
 	METHOD b func_407_b (F)Lpp;
 	METHOD d func_405_d (F)Lpp;
-	METHOD l_ func_404_c ()I
+	METHOD l_ getFXLayer ()I

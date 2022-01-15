@@ -1,4 +1,4 @@
 CLASS eg net/minecraft/src/RecipesTools
 	FIELD a field_1665_a [[Ljava/lang/String;
 	FIELD b field_1664_b [[Ljava/lang/Object;
-	METHOD a func_1122_a (Len;)V
+	METHOD a addRecipes (Len;)V

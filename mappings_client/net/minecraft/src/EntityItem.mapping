@@ -1,7 +1,7 @@
 CLASS eo net/minecraft/src/EntityItem
 	FIELD a item Lfp;
 	FIELD b age I
-	FIELD c field_805_c I
+	FIELD c pickupDelay I
 	FIELD d field_804_d F
 	FIELD e field_803_e I
 	FIELD f health I

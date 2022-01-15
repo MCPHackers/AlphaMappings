@@ -1,2 +1,2 @@
 CLASS iw net/minecraft/src/RecipesFood
-	METHOD a func_976_a (Len;)V
+	METHOD a addRecipes (Len;)V

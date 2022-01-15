@@ -7,7 +7,7 @@ CLASS fp net/minecraft/src/ItemStack
 	METHOD a splitStack (I)Lfp;
 	METHOD a hitBlock (IIII)V
 	METHOD a useItemRightClick (Lcy;Leb;)Lfp;
-	METHOD a func_1097_a (Leb;)V
+	METHOD a doNothingWhenStackSizeHitsZero (Leb;)V
 	METHOD a useItem (Leb;Lcy;IIII)Z
 	METHOD a hitEntity (Lhf;)V
 	METHOD a writeToNBT (Liq;)Liq;

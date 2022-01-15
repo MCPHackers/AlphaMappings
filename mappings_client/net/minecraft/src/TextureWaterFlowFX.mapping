@@ -1,4 +1,4 @@
-CLASS iz net/minecraft/src/TexureWaterFlowFX
+CLASS iz net/minecraft/src/TextureWaterFlowFX
 	FIELD g field_1138_g [F
 	FIELD h field_1137_h [F
 	FIELD i field_1136_i [F

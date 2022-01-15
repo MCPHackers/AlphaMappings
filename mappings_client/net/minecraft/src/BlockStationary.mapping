@@ -1,3 +1,11 @@
 CLASS ir net/minecraft/src/BlockStationary
-	METHOD j func_15234_j (Lcy;III)V
-	METHOD k func_301_k (Lcy;III)Z
+	METHOD j setFlowing (Lcy;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD k isNeighborFlammable (Lcy;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

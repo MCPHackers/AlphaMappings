@@ -1,6 +1,0 @@
-CLASS lc net/minecraft/src/Packet60
-	FIELD a field_12236_a D
-	FIELD b field_12235_b D
-	FIELD c field_12239_c D
-	FIELD d field_12238_d F
-	FIELD e field_12237_e Ljava/util/Set;

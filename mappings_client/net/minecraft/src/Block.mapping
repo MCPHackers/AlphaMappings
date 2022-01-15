@@ -1,8 +1,8 @@
 CLASS nq net/minecraft/src/Block
-	FIELD A waterStill Lnq;
-	FIELD B waterMoving Lnq;
-	FIELD C lavaStill Lnq;
-	FIELD D lavaMoving Lnq;
+	FIELD A waterFlowing Lnq;
+	FIELD B waterStill Lnq;
+	FIELD C lavaFlowing Lnq;
+	FIELD D lavaStill Lnq;
 	FIELD E sand Lnq;
 	FIELD F gravel Lnq;
 	FIELD G oreGold Lnq;
@@ -12,22 +12,22 @@ CLASS nq net/minecraft/src/Block
 	FIELD K leaves Lkm;
 	FIELD L sponge Lnq;
 	FIELD M glass Lnq;
-	FIELD N field_9267_N Lnq;
-	FIELD O field_9266_O Lnq;
-	FIELD P field_9265_P Lnq;
-	FIELD Q field_9264_Q Lnq;
-	FIELD R field_9263_R Lnq;
-	FIELD S field_9262_S Lnq;
-	FIELD T field_9261_T Lnq;
-	FIELD U field_9260_U Lnq;
-	FIELD V field_9259_V Lnq;
-	FIELD W field_9258_W Lnq;
-	FIELD X field_9257_X Lnq;
-	FIELD Y field_9256_Y Lnq;
-	FIELD Z field_9255_Z Lnq;
+	FIELD N unusedClassicRedCloth Lnq;
+	FIELD O unusedClassicOrangeCloth Lnq;
+	FIELD P unusedClassicYellowCloth Lnq;
+	FIELD Q unusedClassicLimeCloth Lnq;
+	FIELD R unusedClassicGreenCloth Lnq;
+	FIELD S unusedClassicAquamarineCloth Lnq;
+	FIELD T unusedClassicCyanCloth Lnq;
+	FIELD U unusedClassicBlueCloth Lnq;
+	FIELD V unusedClassicBluePurpleCloth Lnq;
+	FIELD W unusedClassicPurpleCloth Lnq;
+	FIELD X unusedClassicLavenderCloth Lnq;
+	FIELD Y unusedClassicMagentaCloth Lnq;
+	FIELD Z unusedClassicFuchsiaCloth Lnq;
 	FIELD aA tilledField Lnq;
-	FIELD aB stoneOvenIdle Lnq;
-	FIELD aC stoneOvenActive Lnq;
+	FIELD aB furnaceIdle Lnq;
+	FIELD aC furnaceActive Lnq;
 	FIELD aD signPost Lnq;
 	FIELD aE doorWood Lnq;
 	FIELD aF ladder Lnq;
@@ -36,7 +36,7 @@ CLASS nq net/minecraft/src/Block
 	FIELD aI signWall Lnq;
 	FIELD aJ lever Lnq;
 	FIELD aK pressurePlateStone Lnq;
-	FIELD aL doorSteel Lnq;
+	FIELD aL doorIron Lnq;
 	FIELD aM pressurePlatePlanks Lnq;
 	FIELD aN oreRedstone Lnq;
 	FIELD aO oreRedstoneGlowing Lnq;
@@ -51,17 +51,17 @@ CLASS nq net/minecraft/src/Block
 	FIELD aX reed Lnq;
 	FIELD aY jukebox Lnq;
 	FIELD aZ fence Lnq;
-	FIELD aa field_9269_aa Lnq;
+	FIELD aa unusedClassicBlackCloth Lnq;
 	FIELD ab cloth Lnq;
-	FIELD ac field_9268_ac Lnq;
+	FIELD ac unusedClassicWhiteCloth Lnq;
 	FIELD ad plantYellow Lok;
 	FIELD ae plantRed Lok;
 	FIELD af mushroomBrown Lok;
 	FIELD ag mushroomRed Lok;
 	FIELD ah blockGold Lnq;
-	FIELD ai blockSteel Lnq;
-	FIELD aj stairDouble Lnq;
-	FIELD ak stairSingle Lnq;
+	FIELD ai blockIron Lnq;
+	FIELD aj slabDouble Lnq;
+	FIELD ak slabSingle Lnq;
 	FIELD al brick Lnq;
 	FIELD am tnt Lnq;
 	FIELD an bookShelf Lnq;
@@ -71,30 +71,30 @@ CLASS nq net/minecraft/src/Block
 	FIELD ar fire Lqh;
 	FIELD as mobSpawner Lnq;
 	FIELD at stairCompactPlanks Lnq;
-	FIELD au crate Lnq;
+	FIELD au chest Lnq;
 	FIELD av redstoneWire Lnq;
 	FIELD aw oreDiamond Lnq;
 	FIELD ax blockDiamond Lnq;
 	FIELD ay workbench Lnq;
 	FIELD az crops Lnq;
 	FIELD ba pumpkin Lnq;
-	FIELD bb bloodStone Lnq;
-	FIELD bc slowSand Lnq;
-	FIELD bd lightStone Lnq;
+	FIELD bb netherrack Lnq;
+	FIELD bc soulSand Lnq;
+	FIELD bd glowstone Lnq;
 	FIELD be portal Lx;
-	FIELD bf pumpkinLantern Lnq;
+	FIELD bf jackOLantern Lnq;
 	FIELD bg blockIndexInTexture I
 	FIELD bh blockID I
 	FIELD bi blockHardness F
 	FIELD bj blockResistance F
-	FIELD bk field_370_bf D
+	FIELD bk minX D
 	FIELD bl minY D
 	FIELD bm minZ D
 	FIELD bn maxX D
 	FIELD bo maxY D
 	FIELD bp maxZ D
 	FIELD bq stepSound Lbi;
-	FIELD br field_357_bm F
+	FIELD br blockParticleGravity F
 	FIELD bs blockMaterial Lhb;
 	FIELD bt slipperiness F
 	FIELD d soundPowderFootstep Lbi;
@@ -111,7 +111,7 @@ CLASS nq net/minecraft/src/Block
 	FIELD o opaqueCubeLookup [Z
 	FIELD p isBlockContainer [Z
 	FIELD q lightOpacity [I
-	FIELD r field_340_s [Z
+	FIELD r canBlockGrass [Z
 	FIELD s lightValue [I
 	FIELD t stone Lnq;
 	FIELD u grass Los;
@@ -120,59 +120,235 @@ CLASS nq net/minecraft/src/Block
 	FIELD x planks Lnq;
 	FIELD y sapling Lnq;
 	FIELD z bedrock Lnq;
+	METHOD <init> (IILhb;)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+		ARG 3 material
+	METHOD <init> (ILhb;)V
+		ARG 1 blockID
+		ARG 2 material
 	METHOD a isOpaqueCube ()Z
 	METHOD a setLightValue (F)Lnq;
+		ARG 1 lightValue
 	METHOD a setBlockBounds (FFFFFF)V
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
 	METHOD a getBlockTextureFromSide (I)I
+		ARG 1 blockSide
 	METHOD a getBlockTextureFromSideAndMetadata (II)I
+		ARG 1 blockSide
+		ARG 2 blockMetadata
 	METHOD a idDropped (ILjava/util/Random;)I
+		ARG 1 blockMetadata
+		ARG 2 random
 	METHOD a canCollideCheck (IZ)Z
+		ARG 1 integer
+		ARG 2 boolean2
 	METHOD a isVecInsideYZBounds (Lao;)Z
+		ARG 1 vec3d
 	METHOD a setStepSound (Lbi;)Lnq;
+		ARG 1 stepsound
 	METHOD a canPlaceBlockAt (Lcy;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD a onNeighborBlockChange (Lcy;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 neighborBlockID
 	METHOD a dropBlockAsItemWithChance (Lcy;IIIIF)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 blockMetadata
+		ARG 6 dropChance
 	METHOD a collisionRayTrace (Lcy;IIILao;Lao;)Lnx;
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 vec3d1
+		ARG 6 vec3d2
 	METHOD a getCollidingBoundingBoxes (Lcy;IIILco;Ljava/util/ArrayList;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 axisalignedbb
+		ARG 6 boundingBoxes
 	METHOD a blockActivated (Lcy;IIILeb;)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 entityplayer
 	METHOD a onBlockPlacedBy (Lcy;IIILhf;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 entityliving
 	METHOD a updateTick (Lcy;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 random
 	METHOD a onEntityCollidedWithBlock (Lcy;IIILlw;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 entity
 	METHOD a velocityToAddToEntity (Lcy;IIILlw;Lao;)V
-	METHOD a func_225_a (Leb;)F
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 entity
+		ARG 6 vec3d
+	METHOD a blockStrength (Leb;)F
+		ARG 1 entityplayer
 	METHOD a quantityDropped (Ljava/util/Random;)I
-	METHOD a func_227_a (Llw;)F
+		ARG 1 random
+	METHOD a getExplosionResistance (Llw;)F
+		ARG 1 entity
 	METHOD a setBlockBoundsBasedOnState (Lpk;III)V
+		ARG 1 iblockaccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD a getBlockTexture (Lpk;IIII)I
+		ARG 1 iblockaccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 blockSide
 	METHOD a_ harvestBlock (Lcy;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 blockMetadata
 	METHOD b renderAsNormalBlock ()Z
 	METHOD b setResistance (F)Lnq;
+		ARG 1 resistanceValue
 	METHOD b isVecInsideXZBounds (Lao;)Z
+		ARG 1 vec3d
 	METHOD b onBlockRemoval (Lcy;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD b onBlockDestroyedByPlayer (Lcy;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 blockMetadata
 	METHOD b onBlockClicked (Lcy;IIILeb;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 entityplayer
 	METHOD b randomDisplayTick (Lcy;IIILjava/util/Random;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 random
 	METHOD b onEntityWalking (Lcy;IIILlw;)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 entity
 	METHOD b colorMultiplier (Lpk;III)I
+		ARG 1 iblockaccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD b shouldSideBeRendered (Lpk;IIII)Z
+		ARG 1 iblockaccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 blockSide
 	METHOD b setTickOnLoad (Z)V
+		ARG 1 doesTickOnLoad
 	METHOD b_ dropBlockAsItem (Lcy;IIII)V
-	METHOD c func_234_g ()I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 blockMetadata
+	METHOD c getRenderBlockPass ()I
 	METHOD c setHardness (F)Lnq;
+		ARG 1 hardnessValue
 	METHOD c isVecInsideXYBounds (Lao;)Z
+		ARG 1 vec3d
 	METHOD c onBlockDestroyedByExplosion (Lcy;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD c isIndirectlyPoweringTo (Lcy;IIII)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 blockSide
 	METHOD c isPoweringTo (Lpk;IIII)Z
+		ARG 1 iblockaccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 blockSide
 	METHOD d tickRate ()I
 	METHOD d setLightOpacity (I)Lnq;
+		ARG 1 opacityValue
 	METHOD d getCollisionBoundingBoxFromPool (Lcy;III)Lco;
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD d onBlockPlaced (Lcy;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 blockSide
 	METHOD d getBlockBrightness (Lpk;III)F
+		ARG 1 iblockaccess
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD e canProvidePower ()Z
 	METHOD e onBlockAdded (Lcy;III)V
-	METHOD f func_237_e ()V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD f updateBlockBoundsForRendering ()V
 	METHOD f getSelectedBoundingBoxFromPool (Lcy;III)Lco;
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD g getRenderType ()I
 	METHOD g canBlockStay (Lcy;III)Z
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
 	METHOD h isCollidable ()Z
 	METHOD i unusedMethod ()Z

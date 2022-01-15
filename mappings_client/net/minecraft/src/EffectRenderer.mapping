@@ -1,13 +1,13 @@
 CLASS bz net/minecraft/src/EffectRenderer
 	FIELD a worldObj Lcy;
-	FIELD b field_1728_b [Ljava/util/List;
-	FIELD c field_1731_c Lfu;
+	FIELD b fxLayers [Ljava/util/List;
+	FIELD c renderEngine Lfu;
 	FIELD d rand Ljava/util/Random;
-	METHOD a func_1193_a ()V
-	METHOD a func_1186_a (III)V
-	METHOD a func_1191_a (IIII)V
-	METHOD a func_1188_a (Lcy;)V
-	METHOD a func_1189_a (Llw;F)V
-	METHOD a func_1192_a (Lpp;)V
-	METHOD b func_1190_b ()Ljava/lang/String;
-	METHOD b func_1187_b (Llw;F)V
+	METHOD a updateEffects ()V
+	METHOD a addBlockDestroyEffects (III)V
+	METHOD a addBlockHitEffects (IIII)V
+	METHOD a clearEffects (Lcy;)V
+	METHOD a renderParticles (Llw;F)V
+	METHOD a addEffect (Lpp;)V
+	METHOD b getStatistics ()Ljava/lang/String;
+	METHOD b renderLitParticles (Llw;F)V

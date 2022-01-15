@@ -1,4 +1,16 @@
 CLASS an net/minecraft/src/BlockRedstoneOre
-	FIELD a field_468_a Z
-	METHOD h func_320_h (Lcy;III)V
-	METHOD i func_319_i (Lcy;III)V
+	FIELD a isGlowing Z
+	METHOD <init> (IIZ)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+		ARG 3 isLit
+	METHOD h activateRedstoneOre (Lcy;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD i spawnRedstoneOreParticles (Lcy;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

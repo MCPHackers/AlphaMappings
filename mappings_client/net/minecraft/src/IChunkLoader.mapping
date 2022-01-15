@@ -1,6 +1,13 @@
 CLASS ai net/minecraft/src/IChunkLoader
-	METHOD a func_814_a ()V
+	METHOD a doLiterallyNothing ()V
 	METHOD a loadChunk (Lcy;II)Lha;
+		ARG 1 world
+		ARG 2 chunkXPos
+		ARG 3 chunkZPos
 	METHOD a saveChunk (Lcy;Lha;)V
+		ARG 1 world
+		ARG 2 chunk
 	METHOD b saveExtraData ()V
 	METHOD b saveExtraChunkData (Lcy;Lha;)V
+		ARG 1 world
+		ARG 2 chunk

@@ -1,12 +1,12 @@
 CLASS pg net/minecraft/src/PlayerControllerMP
-	FIELD c field_9445_c I
-	FIELD d field_9444_d I
-	FIELD e field_9443_e I
-	FIELD f field_9442_f F
-	FIELD g field_1080_g F
-	FIELD h field_9441_h F
-	FIELD i field_9440_i I
-	FIELD j field_9439_j Z
-	FIELD k field_9438_k Lib;
-	FIELD l field_1075_l I
-	METHOD e func_730_e ()V
+	FIELD c currentXCoord I
+	FIELD d currentYCoord I
+	FIELD e currentZCoord I
+	FIELD f currentBlockDamage F
+	FIELD g prevBlockDamage F
+	FIELD h miningSoundTimer F
+	FIELD i miningDelay I
+	FIELD j isPlayerClickingBlock Z
+	FIELD k netClientHandler Lib;
+	FIELD l currentHeldItemID I
+	METHOD e checkCurrentHeldItem ()V

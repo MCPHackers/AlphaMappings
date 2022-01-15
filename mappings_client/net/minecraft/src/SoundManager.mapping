@@ -11,12 +11,12 @@ CLASS qg net/minecraft/src/SoundManager
 	METHOD a onSoundOptionsChanged ()V
 	METHOD a func_340_a (Lgq;)V
 	METHOD a func_338_a (Lhf;F)V
-	METHOD a func_337_a (Ljava/lang/String;FF)V
+	METHOD a playSoundNoPosition (Ljava/lang/String;FF)V
 	METHOD a func_331_a (Ljava/lang/String;FFFFF)V
 	METHOD a func_6372_a (Ljava/lang/String;Ljava/io/File;)V
 	METHOD b closeMinecraft ()V
-	METHOD b func_336_b (Ljava/lang/String;FFFFF)V
+	METHOD b playSound (Ljava/lang/String;FFFFF)V
 	METHOD b addStreaming (Ljava/lang/String;Ljava/io/File;)V
-	METHOD c func_4033_c ()V
+	METHOD c playRandomMusicIfReady ()V
 	METHOD c addMusic (Ljava/lang/String;Ljava/io/File;)V
 	METHOD d tryToSetLibraryAndCodecs ()V

@@ -1,2 +1,6 @@
 CLASS cx net/minecraft/src/BlockPumpkin
-	FIELD a field_4072_a Z
+	FIELD a isLitUp Z
+	METHOD <init> (IIZ)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
+		ARG 3 isLit

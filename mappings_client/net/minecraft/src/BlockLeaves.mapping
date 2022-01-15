@@ -1,8 +1,30 @@
 CLASS km net/minecraft/src/BlockLeaves
 	FIELD b baseIndexInPNG I
-	FIELD c field_464_c I
+	FIELD c leafUpdatesCount I
+	METHOD <init> (II)V
+		ARG 1 blockID
+		ARG 2 blockTextureIndex
 	METHOD a setGraphicsLevel (Z)V
-	METHOD f func_6361_f (Lcy;IIII)V
-	METHOD g func_6362_g (Lcy;IIII)I
-	METHOD h func_308_h (Lcy;III)V
-	METHOD i func_6360_i (Lcy;III)V
+		ARG 1 graphicsLevel
+	METHOD f checkIfLeafNeedsUpdating (Lcy;IIII)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 leafMetadata
+	METHOD g getHighestPotentialMetadata (Lcy;IIII)I
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+		ARG 5 leafMetadata
+	METHOD h updateLeafMetadata (Lcy;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord
+	METHOD i eradicateLeaf (Lcy;III)V
+		ARG 1 world
+		ARG 2 xCoord
+		ARG 3 yCoord
+		ARG 4 zCoord

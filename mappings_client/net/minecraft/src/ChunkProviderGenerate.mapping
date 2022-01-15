@@ -1,7 +1,7 @@
 CLASS px net/minecraft/src/ChunkProviderGenerate
 	FIELD a field_922_a Lnf;
 	FIELD b field_921_b Lnf;
-	FIELD c field_920_c Lnf;
+	FIELD c treeNoise Lnf;
 	FIELD d field_4185_d [D
 	FIELD e field_4184_e [D
 	FIELD f field_4183_f [D
@@ -9,19 +9,22 @@ CLASS px net/minecraft/src/ChunkProviderGenerate
 	FIELD h field_4181_h [D
 	FIELD i field_914_i [[I
 	FIELD j rand Ljava/util/Random;
-	FIELD k field_912_k Lnf;
-	FIELD l field_911_l Lnf;
-	FIELD m field_910_m Lnf;
-	FIELD n field_909_n Lnf;
-	FIELD o field_908_o Lnf;
+	FIELD k highNoise Lnf;
+	FIELD l lowNoise Lnf;
+	FIELD m selectorNoise Lnf;
+	FIELD n beachNoise Lnf;
+	FIELD o dirtThicknessNoise Lnf;
 	FIELD p worldObj Lcy;
 	FIELD q field_4180_q [D
-	FIELD r field_905_r [D
-	FIELD s field_904_s [D
-	FIELD t field_903_t [D
-	FIELD u field_902_u Ldl;
+	FIELD r sandNoiseArray [D
+	FIELD s gravelNoiseArray [D
+	FIELD t stoneNoiseArray [D
+	FIELD u chunkCaveGen Ldl;
 	FIELD v biomesForGeneration [Lgg;
-	FIELD w field_4178_w [D
+	FIELD w generatedTemperatures [D
+	METHOD <init> (Lcy;J)V
+		ARG 1 world
+		ARG 2 worldSeed
 	METHOD a replaceBlocksForBiome (II[B[Lgg;)V
 	METHOD a generateTerrain (II[B[Lgg;[D)V
 	METHOD a func_4061_a ([DIIIIII)[D

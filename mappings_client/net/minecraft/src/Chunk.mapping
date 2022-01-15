@@ -1,5 +1,5 @@
 CLASS ha net/minecraft/src/Chunk
-	FIELD a field_1540_a Z
+	FIELD a isLit Z
 	FIELD b blocks [B
 	FIELD c isChunkLoaded Z
 	FIELD d worldObj Lcy;
@@ -7,7 +7,7 @@ CLASS ha net/minecraft/src/Chunk
 	FIELD f skylightMap Loo;
 	FIELD g blocklightMap Loo;
 	FIELD h heightMap [B
-	FIELD i field_1532_i I
+	FIELD i lowestHeightMapValue I
 	FIELD j xPosition I
 	FIELD k zPosition I
 	FIELD l chunkTileEntityMap Ljava/util/Map;
@@ -15,39 +15,39 @@ CLASS ha net/minecraft/src/Chunk
 	FIELD n isTerrainPopulated Z
 	FIELD o isModified Z
 	FIELD p neverSave Z
-	FIELD q field_1524_q Z
+	FIELD q notReadyForEntities Z
 	FIELD r hasEntities Z
 	FIELD s lastSaveTime J
-	METHOD a func_1014_a ()V
+	METHOD a punchNotch ()V
 	METHOD a isAtLocation (II)Z
 	METHOD a getBlockID (III)I
 	METHOD a setBlockID (IIII)Z
 	METHOD a setBlockIDWithMetadata (IIIII)Z
 	METHOD a setChunkBlockTileEntity (IIILji;)V
-	METHOD a func_997_a (J)Ljava/util/Random;
+	METHOD a getSlimeChunkRandom (J)Ljava/util/Random;
 	METHOD a getSavedLightValue (Lch;III)I
 	METHOD a setLightValue (Lch;IIII)V
 	METHOD a getEntitiesOfTypeWithinAAAB (Ljava/lang/Class;Lco;Ljava/util/List;)V
-	METHOD a func_1001_a (Lji;)V
+	METHOD a setChunkBlockTileEntityIndirectly (Lji;)V
 	METHOD a addEntity (Llw;)V
-	METHOD a func_1016_a (Llw;I)V
+	METHOD a removeEntityFromChunkSection (Llw;I)V
 	METHOD a getEntitiesWithinAABBForEntity (Llw;Lco;Ljava/util/List;)V
 	METHOD a needsSaving (Z)Z
-	METHOD a func_1004_a ([BIIIIIII)I
-	METHOD b generateHeightMap ()V
+	METHOD a setChunkData ([BIIIIIII)I
+	METHOD b generateHeightMapSimple ()V
 	METHOD b getHeightValue (II)I
 	METHOD b getBlockMetadata (III)I
 	METHOD b setBlockMetadata (IIII)V
-	METHOD b func_1015_b (Llw;)V
-	METHOD c func_1024_c ()V
-	METHOD c func_996_c (II)V
+	METHOD b removeEntity (Llw;)V
+	METHOD c generateHeightMap ()V
+	METHOD c updateSkylight_do (II)V
 	METHOD c canBlockSeeTheSky (III)Z
 	METHOD c getBlockLightValue (IIII)I
-	METHOD d func_4143_d ()V
+	METHOD d updateBlockLight ()V
 	METHOD d getChunkBlockTileEntity (III)Lji;
 	METHOD e onChunkLoad ()V
 	METHOD e removeChunkBlockTileEntity (III)V
 	METHOD f onChunkUnload ()V
-	METHOD f func_1020_f (III)V
+	METHOD f checkSkylightNeighborHeight (III)V
 	METHOD g setChunkModified ()V
-	METHOD g func_1003_g (III)V
+	METHOD g updateHeightMapAndLight (III)V

@@ -20,7 +20,7 @@ CLASS cy net/minecraft/src/World
 	FIELD f skylightSubtracted I
 	FIELD g field_9437_g I
 	FIELD h field_9436_h I
-	FIELD i field_1043_h Z
+	FIELD i ignoreNeighborBlockChange Z
 	FIELD j autosavePeriod I
 	FIELD k difficultySetting I
 	FIELD l rand Ljava/util/Random;
@@ -56,11 +56,11 @@ CLASS cy net/minecraft/src/World
 	METHOD a func_675_a (Lao;Lco;)F
 	METHOD a getSavedLightValue (Lch;III)I
 	METHOD a neighborLightPropagationChanged (Lch;IIII)V
-	METHOD a func_616_a (Lch;IIIIII)V
+	METHOD a scheduleLightingUpdate (Lch;IIIIII)V
 	METHOD a func_627_a (Lch;IIIIIIZ)V
 	METHOD a checkIfAABBIsClear (Lco;)Z
-	METHOD a func_689_a (Lco;Lhb;)Z
-	METHOD a func_682_a (Lco;Lhb;Llw;)Z
+	METHOD a isMaterialInBB (Lco;Lhb;)Z
+	METHOD a handleMaterialAcceleration (Lco;Lhb;Llw;)Z
 	METHOD a func_608_a (Leb;)V
 	METHOD a func_6466_a (Leb;III)Z
 	METHOD a func_4081_a (Ljava/io/File;)Lbd;
@@ -69,10 +69,10 @@ CLASS cy net/minecraft/src/World
 	METHOD a getEntitiesWithinAABB (Ljava/lang/Class;Lco;)Ljava/util/List;
 	METHOD a spawnParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a playRecord (Ljava/lang/String;III)V
-	METHOD a func_636_a (Ljava/util/List;)V
+	METHOD a addEntitiesToLoadedList (Ljava/util/List;)V
 	METHOD a addWorldAccess (Ljv;)V
 	METHOD a entityJoinedWorld (Llw;)Z
-	METHOD a func_9425_a (Llw;B)V
+	METHOD a doNothingInvolvingDamage (Llw;B)V
 	METHOD a getClosestPlayerToEntity (Llw;D)Leb;
 	METHOD a func_12243_a (Llw;DDDF)Lks;
 	METHOD a func_12244_a (Llw;DDDFZ)Lks;
@@ -91,14 +91,14 @@ CLASS cy net/minecraft/src/World
 	METHOD b getChunkFromBlockCoords (II)Lha;
 	METHOD b setBlockMetadataWithNotify (IIII)V
 	METHOD b setBlockAndMetadataWithNotify (IIIII)Z
-	METHOD b func_701_b (IIIIII)V
+	METHOD b markBlocksDirty (IIIIII)V
 	METHOD b func_698_b (IIILji;)V
 	METHOD b setLightValue (Lch;IIII)V
 	METHOD b getIsAnyLiquid (Lco;)Z
 	METHOD b func_707_b (Lco;Lhb;)Z
 	METHOD b deleteWorld (Ljava/io/File;Ljava/lang/String;)V
 	METHOD b countEntities (Ljava/lang/Class;)I
-	METHOD b func_632_b (Ljava/util/List;)V
+	METHOD b addEntitiesToUnloadedList (Ljava/util/List;)V
 	METHOD b removeWorldAccess (Ljv;)V
 	METHOD b obtainEntitySkin (Llw;)V
 	METHOD b getEntitiesWithinAABBExcludingEntity (Llw;Lco;)Ljava/util/List;
@@ -116,18 +116,18 @@ CLASS cy net/minecraft/src/World
 	METHOD d setEntityDead (Llw;)V
 	METHOD e func_633_c ()V
 	METHOD e func_679_f (F)F
-	METHOD e func_4083_e (II)I
+	METHOD e findTopSolidBlock (II)I
 	METHOD e notifyBlockChange (IIII)V
 	METHOD e func_667_e (Llw;)V
 	METHOD f func_687_d ()Ljava/lang/String;
 	METHOD f func_696_e (II)I
-	METHOD f func_680_f (IIII)V
+	METHOD f markBlocksDirtyVertical (IIII)V
 	METHOD f func_705_f (Llw;)V
 	METHOD g func_6465_g ()Z
 	METHOD g chunkExists (II)Z
 	METHOD g notifyBlocksOfNeighborChange (IIII)V
 	METHOD h calculateInitialSkylight ()V
-	METHOD h func_665_h (III)V
+	METHOD h markBlockNeedsUpdate (III)V
 	METHOD h scheduleBlockUpdate (IIII)V
 	METHOD i tick ()V
 	METHOD i canBlockSeeTheSky (III)Z
@@ -143,7 +143,7 @@ CLASS cy net/minecraft/src/World
 	METHOD l notifyBlockOfNeighborChange (IIII)V
 	METHOD m sendQuittingDisconnectingPacket ()V
 	METHOD m randomDisplayUpdates (III)V
-	METHOD n func_663_l ()V
+	METHOD n checkSessionLock ()V
 	METHOD n isBlockGettingPowered (III)Z
 	METHOD o func_9424_o ()V
 	METHOD o isBlockIndirectlyGettingPowered (III)Z

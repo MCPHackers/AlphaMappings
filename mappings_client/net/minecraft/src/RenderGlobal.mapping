@@ -26,7 +26,7 @@ CLASS f net/minecraft/src/RenderGlobal
 	FIELD f field_1453_f D
 	FIELD g field_1452_g D
 	FIELD h field_1451_h D
-	FIELD i field_1450_i F
+	FIELD i blockCurrentDamage F
 	FIELD j field_1449_j I
 	FIELD k worldObj Lcy;
 	FIELD l renderEngine Lfu;

@@ -1,8 +1,26 @@
 CLASS pk net/minecraft/src/IBlockAccess
-	METHOD a func_4075_a ()Lpo;
+	METHOD a getWorldChunkManager ()Lpo;
 	METHOD a getBlockId (III)I
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD b getBlockTileEntity (III)Lji;
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD c getLightBrightness (III)F
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD e getBlockMetadata (III)I
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD f getBlockMaterial (III)Lhb;
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord
 	METHOD g isBlockOpaqueCube (III)Z
+		ARG 1 xCoord
+		ARG 2 yCoord
+		ARG 3 zCoord

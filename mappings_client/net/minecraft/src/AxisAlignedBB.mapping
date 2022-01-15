@@ -13,17 +13,17 @@ CLASS co net/minecraft/src/AxisAlignedBB
 	METHOD a isVecInside (Lao;)Z
 	METHOD a func_1169_a (Lao;Lao;)Lnx;
 	METHOD a intersectsWith (Lco;)Z
-	METHOD a func_1163_a (Lco;D)D
+	METHOD a calculateXOffset (Lco;D)D
 	METHOD b getAverageEdgeLength ()D
-	METHOD b expands (DDD)Lco;
+	METHOD b expand (DDD)Lco;
 	METHOD b getBoundingBoxFromPool (DDDDDD)Lco;
 	METHOD b isVecInYZ (Lao;)Z
 	METHOD b setBB (Lco;)V
-	METHOD b func_1172_b (Lco;D)D
+	METHOD b calculateYOffset (Lco;D)D
 	METHOD c copy ()Lco;
 	METHOD c getOffsetBoundingBox (DDD)Lco;
 	METHOD c setBounds (DDDDDD)Lco;
 	METHOD c isVecInXZ (Lao;)Z
-	METHOD c func_1162_c (Lco;D)D
+	METHOD c calculateZOffset (Lco;D)D
 	METHOD d offset (DDD)Lco;
 	METHOD d isVecInXY (Lao;)Z

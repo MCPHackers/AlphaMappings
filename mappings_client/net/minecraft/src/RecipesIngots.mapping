@@ -1,3 +1,3 @@
 CLASS mv net/minecraft/src/RecipesIngots
 	FIELD a field_1198_a [[Ljava/lang/Object;
-	METHOD a func_810_a (Len;)V
+	METHOD a addRecipes (Len;)V
