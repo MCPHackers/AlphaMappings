@@ -123,7 +123,7 @@ CLASS ff net/minecraft/src/Block
 		ARG 2 material
 	METHOD a getRenderType ()I
 	METHOD a setLightValue (F)Lff;
-		ARG 1 lightValue
+		ARG 1 value
 	METHOD a setBlockBounds (FFFFFF)V
 		ARG 1 minX
 		ARG 2 minY
@@ -255,7 +255,7 @@ CLASS ff net/minecraft/src/Block
 	METHOD c setHardness (F)Lff;
 		ARG 1 hardness
 	METHOD c setLightOpacity (I)Lff;
-		ARG 1 opacityValue
+		ARG 1 opacity
 	METHOD c isVecInsideXYBounds (Law;)Z
 		ARG 1 vector
 	METHOD c onBlockDestroyedByExplosion (Ldy;III)V
