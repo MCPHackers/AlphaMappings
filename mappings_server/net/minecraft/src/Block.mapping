@@ -132,7 +132,7 @@ CLASS ff net/minecraft/src/Block
 		ARG 5 maxY
 		ARG 6 maxZ
 	METHOD a getBlockTextureFromSide (I)I
-		ARG 1 unusedSide
+		ARG 1 side
 	METHOD a idDropped (ILjava/util/Random;)I
 		ARG 1 count
 		ARG 2 random

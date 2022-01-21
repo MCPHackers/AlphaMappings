@@ -1,2 +1,5 @@
 CLASS gf net/minecraft/src/ItemReed
 	FIELD a spawnID I
+	METHOD <init> (ILly;)V
+		ARG 1 id
+		ARG 2 block

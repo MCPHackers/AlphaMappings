@@ -1,2 +1,10 @@
 CLASS g net/minecraft/src/MinecraftAppletImpl
 	FIELD a mainFrame Lnet/minecraft/client/MinecraftApplet;
+	METHOD <init> (Lnet/minecraft/client/MinecraftApplet;Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 frame
+		ARG 2 component
+		ARG 3 canvas
+		ARG 4 mcApplet
+		ARG 5 width
+		ARG 6 height
+		ARG 7 fullscreen

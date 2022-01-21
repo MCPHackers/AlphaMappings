@@ -7,6 +7,14 @@ CLASS ft net/minecraft/src/ChunkProviderLoadOrGenerate
 	FIELD f chunks [Lga;
 	FIELD g worldObj Lcn;
 	FIELD h lastQueriedChunk Lga;
+	METHOD <init> (Lcn;Laf;Law;)V
+		ARG 1 world
+		ARG 2 chunkLoader
+		ARG 3 chunkProvider
 	METHOD a saveExtraChunkData (Lga;)V
+		ARG 1 chunk
 	METHOD b saveChunk (Lga;)V
+		ARG 1 chunk
 	METHOD c getChunkAt (II)Lga;
+		ARG 1 posX
+		ARG 2 posZ

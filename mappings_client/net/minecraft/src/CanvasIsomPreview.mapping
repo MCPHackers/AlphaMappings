@@ -13,12 +13,15 @@ CLASS ad net/minecraft/src/CanvasIsomPreview
 	FIELD l yPosition I
 	METHOD a getWorkingDirectory ()Ljava/io/File;
 	METHOD a setBrightness (I)V
-		ARG 1 brightnessValue
+		ARG 1 brightness
 	METHOD a getZone (II)Ljj;
+		ARG 1 x
+		ARG 2 z
 	METHOD a isRunning (Lad;)Z
 	METHOD a render (Ljava/awt/Graphics2D;)V
 		ARG 1 graphics2D
 	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 name
 	METHOD b start ()V
 	METHOD b loadLevel (Ljava/lang/String;)V
 		ARG 1 levelName
@@ -47,6 +50,5 @@ CLASS ad net/minecraft/src/CanvasIsomPreview
 		ARG 1 mouseEvent
 	METHOD paint (Ljava/awt/Graphics;)V
 		ARG 1 graphics
-	METHOD run ()V
 	METHOD update (Ljava/awt/Graphics;)V
 		ARG 1 graphics

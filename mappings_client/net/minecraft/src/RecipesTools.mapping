@@ -2,3 +2,4 @@ CLASS dr net/minecraft/src/RecipesTools
 	FIELD a recipePatterns [[Ljava/lang/String;
 	FIELD b recipeItems [[Ljava/lang/Object;
 	METHOD a addRecipes (Ldw;)V
+		ARG 1 craftingManager

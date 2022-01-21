@@ -2,7 +2,7 @@ CLASS bg net/minecraft/src/BlockRedstoneTorch
 	FIELD a torchActive Z
 	FIELD b torchUpdates Ljava/util/List;
 	METHOD <init> (IIZ)V
-		ARG 1 blockID
+		ARG 1 id
 		ARG 2 tex
 		ARG 3 torchActive
 	METHOD a checkForBurnout (Lcn;IIIZ)Z

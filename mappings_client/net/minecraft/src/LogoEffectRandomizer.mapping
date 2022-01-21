@@ -3,4 +3,6 @@ CLASS kc net/minecraft/src/LogoEffectRandomizer
 	FIELD b prevHeight D
 	FIELD c dropSpeed D
 	FIELD d mainMenu Lcx;
+	METHOD <init> (Lcx;II)V
+		ARG 1 mainMenu
 	METHOD a updateLogoEffects ()V

@@ -26,7 +26,7 @@ CLASS kh net/minecraft/src/Entity
 	FIELD aX air I
 	FIELD aY skinUrl Ljava/lang/String;
 	FIELD aZ addedToChunk Z
-	FIELD ab entityId I
+	FIELD ab entityID I
 	FIELD ac renderDistanceWeight D
 	FIELD ad preventEntitySpawning Z
 	FIELD ae riddenByEntity Lkh;
@@ -70,6 +70,7 @@ CLASS kh net/minecraft/src/Entity
 	METHOD H getEntityString ()Ljava/lang/String;
 	METHOD I isEntityInsideOpaqueBlock ()Z
 	METHOD a isInRangeToRenderDist (D)Z
+		ARG 1 distance
 	METHOD a setPosition (DDD)V
 		ARG 1 posX
 		ARG 3 posY
@@ -82,20 +83,21 @@ CLASS kh net/minecraft/src/Entity
 		ARG 8 rotationPitch
 		ARG 9 newPosRotationIncrements
 	METHOD a getBrightness (F)F
+		ARG 1 renderPartialTick
 	METHOD a setSize (FF)V
 		ARG 1 width
 		ARG 2 height
 	METHOD a moveFlying (FFF)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
+		ARG 1 moveX
+		ARG 2 moveZ
+		ARG 3 moveY
 	METHOD a dealFireDamage (I)V
 		ARG 1 damage
 	METHOD a entityDropItem (IIF)Ldx;
 	METHOD a isInRangeToRenderVec3D (Laj;)Z
 		ARG 1 vector
 	METHOD a setWorld (Lcn;)V
-		ARG 1 worldObj
+		ARG 1 world
 	METHOD a interact (Ldm;)Z
 		ARG 1 entityPlayer
 	METHOD a isInsideOfMaterial (Lgb;)Z
@@ -130,9 +132,9 @@ CLASS kh net/minecraft/src/Entity
 	METHOD b_ getCollisionBox (Lkh;)Lcf;
 		ARG 1 entity
 	METHOD c moveEntity (DDD)V
-		ARG 1 offsetX
-		ARG 3 offsetY
-		ARG 5 offsetZ
+		ARG 1 moveX
+		ARG 3 moveY
+		ARG 5 moveZ
 	METHOD c setLocationAndAngles (DDDFF)V
 		ARG 1 posX
 		ARG 3 posY
@@ -140,6 +142,7 @@ CLASS kh net/minecraft/src/Entity
 		ARG 7 rotationYaw
 		ARG 8 rotationPitch
 	METHOD c fall (F)V
+		ARG 1 distance
 	METHOD c setRotation (FF)V
 		ARG 1 rotationYaw
 		ARG 2 rotationPitch
@@ -151,6 +154,8 @@ CLASS kh net/minecraft/src/Entity
 		ARG 3 y
 		ARG 5 z
 	METHOD d setAngles (FF)V
+		ARG 1 yaw
+		ARG 2 pitch
 	METHOD d writeToNBT (Lhm;)V
 		ARG 1 nbtCompound
 	METHOD d getDistanceToEntity (Lkh;)F

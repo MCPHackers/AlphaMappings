@@ -2,6 +2,6 @@ CLASS lr net/minecraft/src/BlockSign
 	FIELD a signEntityClass Ljava/lang/Class;
 	FIELD b isFreestanding Z
 	METHOD <init> (ILjava/lang/Class;Z)V
-		ARG 1 blockID
+		ARG 1 id
 		ARG 2 signEntityClass
 		ARG 3 isFreestanding

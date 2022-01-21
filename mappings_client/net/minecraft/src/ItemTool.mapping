@@ -3,3 +3,8 @@ CLASS bs net/minecraft/src/ItemTool
 	FIELD aX blocksEffectiveAgainst [Lly;
 	FIELD aY efficiencyOnProperMaterial F
 	FIELD aZ damageVsEntity I
+	METHOD <init> (III[Lly;)V
+		ARG 1 id
+		ARG 2 attackDmg
+		ARG 3 strength
+		ARG 4 blocks

@@ -2,3 +2,7 @@ CLASS kz net/minecraft/src/ThreadDownloadImage
 	FIELD a location Ljava/lang/String;
 	FIELD b buffer Lhb;
 	FIELD c imageData Lcc;
+	METHOD <init> (Lcc;Ljava/lang/String;Lhb;)V
+		ARG 1 downloadImageData
+		ARG 2 location
+		ARG 3 imageBuffer

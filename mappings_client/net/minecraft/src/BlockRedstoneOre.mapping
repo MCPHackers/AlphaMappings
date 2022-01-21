@@ -1,7 +1,7 @@
 CLASS ai net/minecraft/src/BlockRedstoneOre
 	FIELD a glowing Z
 	METHOD <init> (IIZ)V
-		ARG 1 blockID
+		ARG 1 id
 		ARG 2 tex
 		ARG 3 glowing
 	METHOD h glow (Lcn;III)V

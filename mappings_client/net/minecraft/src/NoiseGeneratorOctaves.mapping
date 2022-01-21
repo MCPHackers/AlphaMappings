@@ -1,5 +1,8 @@
 CLASS lp net/minecraft/src/NoiseGeneratorOctaves
 	FIELD a generatorCollection [Lv;
 	FIELD b octaves I
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 random
+		ARG 2 octaves
 	METHOD a generateNoiseOctaves (DD)D
 	METHOD a generateNoiseOctaves ([DDDDIIIDDD)[D

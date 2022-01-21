@@ -1,1 +1,7 @@
 CLASS s net/minecraft/src/Packet11PlayerPosition
+	METHOD <init> (DDDDZ)V
+		ARG 1 x
+		ARG 3 minY
+		ARG 5 y
+		ARG 7 z
+		ARG 9 onGround

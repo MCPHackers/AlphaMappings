@@ -4,3 +4,8 @@ CLASS ny net/minecraft/src/Packet59ComplexEntity
 	FIELD c zCoord I
 	FIELD d compressedNBT [B
 	FIELD e tileEntityNBT Lhm;
+	METHOD <init> (IIILic;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileEntity

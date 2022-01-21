@@ -5,8 +5,12 @@ CLASS ke net/minecraft/src/TileEntityFurnace
 	FIELD d furnaceCookTime I
 	METHOD a isBurning ()Z
 	METHOD a getCookProgressScaled (I)I
+		ARG 1 scale
 	METHOD a getItemBurnTime (Lev;)I
+		ARG 1 itemStack
 	METHOD b getBurnTimeRemainingScaled (I)I
+		ARG 1 scale
 	METHOD d getCookedItem (I)I
+		ARG 1 id
 	METHOD i smeltItem ()V
 	METHOD j canSmelt ()Z

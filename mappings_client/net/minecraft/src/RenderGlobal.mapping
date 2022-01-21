@@ -46,11 +46,15 @@ CLASS e net/minecraft/src/RenderGlobal
 	FIELD z glSkyList I
 	METHOD a loadRenderers ()V
 	METHOD a renderSky (F)V
+		ARG 1 renderPartialTick
 	METHOD a renderAllRenderLists (ID)V
 	METHOD a checkOcclusionQueryResult (II)V
 	METHOD a renderSortedRenderers (IIID)I
 	METHOD a markBlocksForUpdate (IIIIII)V
 	METHOD a renderEntities (Laj;Loe;F)V
+		ARG 1 vector
+		ARG 2 camera
+		ARG 3 renderPartialTick
 	METHOD a drawOutlinedBoundingBox (Lcf;)V
 	METHOD a changeWorld (Lcn;)V
 	METHOD a sortAndRender (Ldm;ID)I

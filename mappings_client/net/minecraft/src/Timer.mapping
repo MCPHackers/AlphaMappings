@@ -8,4 +8,6 @@ CLASS ir net/minecraft/src/Timer
 	FIELD g lastSyncSysClock J
 	FIELD h lastSyncHRClock J
 	FIELD i timeSyncAdjustment D
+	METHOD <init> (F)V
+		ARG 1 ticksPerSecond
 	METHOD a updateTimer ()V

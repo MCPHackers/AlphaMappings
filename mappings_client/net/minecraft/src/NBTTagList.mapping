@@ -2,5 +2,7 @@ CLASS ki net/minecraft/src/NBTTagList
 	FIELD a tagList Ljava/util/List;
 	FIELD b tagType B
 	METHOD a tagAt (I)Lel;
+		ARG 1 index
 	METHOD a setTag (Lel;)V
+		ARG 1 tag
 	METHOD c tagCount ()I

@@ -1,7 +1,7 @@
 CLASS dh net/minecraft/src/BlockSand
 	FIELD a fallInstantly Z
 	METHOD <init> (II)V
-		ARG 1 blockID
+		ARG 1 id
 		ARG 2 tex
 	METHOD a_ canFallBelow (Lcn;III)Z
 		ARG 0 worldObj

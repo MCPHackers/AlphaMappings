@@ -35,7 +35,8 @@ CLASS bn net/minecraft/src/WorldRenderer
 	METHOD a getGLCallListForPass (I)I
 	METHOD a setPosition (III)V
 	METHOD a distanceToEntitySquared (Lkh;)F
-	METHOD a updateInFrustrum (Loe;)V
+		ARG 1 entity
+	METHOD a updateInFrustum (Loe;)V
 	METHOD b setDontDraw ()V
 	METHOD c stopRendering ()V
 	METHOD d callOcclusionQueryList ()V

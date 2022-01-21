@@ -2,7 +2,7 @@ CLASS ol net/minecraft/src/ChunkCoordIntPair
 	FIELD a chunkXPos I
 	FIELD b chunkZPos I
 	METHOD <init> (II)V
-		ARG 1 chunkXPOs
-		ARG 2 chunkZPos
+		ARG 1 posX
+		ARG 2 posZ
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 chunkCoordIntPair

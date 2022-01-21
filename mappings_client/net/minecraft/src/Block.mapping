@@ -115,11 +115,11 @@ CLASS ly net/minecraft/src/Block
 	FIELD y planks Lly;
 	FIELD z sapling Lly;
 	METHOD <init> (IILgb;)V
-		ARG 1 blockID
+		ARG 1 id
 		ARG 2 tex
 		ARG 3 material
 	METHOD <init> (ILgb;)V
-		ARG 1 blockID
+		ARG 1 id
 		ARG 2 material
 	METHOD a tickRate ()I
 	METHOD a setLightValue (F)Lly;
@@ -140,6 +140,7 @@ CLASS ly net/minecraft/src/Block
 		ARG 1 metadata
 		ARG 2 rand
 	METHOD a canCollideCheck (IZ)Z
+		ARG 1 metadata
 	METHOD a isVecInsideYZBounds (Laj;)Z
 		ARG 1 vector
 	METHOD a setStepSound (Lbb;)Lly;
@@ -154,7 +155,7 @@ CLASS ly net/minecraft/src/Block
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-		ARG 5 unused
+		ARG 5 id
 	METHOD a dropBlockAsItemWithChance (Lcn;IIIIF)V
 		ARG 1 worldObj
 		ARG 2 x
@@ -213,7 +214,7 @@ CLASS ly net/minecraft/src/Block
 		ARG 3 y
 		ARG 4 z
 	METHOD a getBlockTexture (Lnm;IIII)I
-		ARG 1 blockAcess
+		ARG 1 blockAccess
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
@@ -226,7 +227,7 @@ CLASS ly net/minecraft/src/Block
 		ARG 5 metadata
 	METHOD b isOpaqueCube ()Z
 	METHOD b setResistance (F)Lly;
-		ARG 1 resistanceValue
+		ARG 1 resistance
 	METHOD b isVecInsideXZBounds (Laj;)Z
 		ARG 1 vector
 	METHOD b onBlockRemoval (Lcn;III)V
@@ -274,7 +275,7 @@ CLASS ly net/minecraft/src/Block
 		ARG 5 metadata
 	METHOD c renderAsNormalBlock ()Z
 	METHOD c setHardness (F)Lly;
-		ARG 1 hardnessValue
+		ARG 1 hardness
 	METHOD c isVecInsideXYBounds (Laj;)Z
 		ARG 1 vector
 	METHOD c onBlockDestroyedByExplosion (Lcn;III)V
@@ -287,7 +288,7 @@ CLASS ly net/minecraft/src/Block
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-		ARG 5 metadata
+		ARG 5 side
 	METHOD c getBlockBrightness (Lnm;III)F
 		ARG 1 blockAccess
 		ARG 2 x

@@ -4,6 +4,7 @@ CLASS ee net/minecraft/src/GuiContainer
 	FIELD i inventorySlots Ljava/util/List;
 	FIELD j itemRenderer Lab;
 	METHOD a drawGuiContainerBackgroundLayer (F)V
+		ARG 1 renderPartialTick
 	METHOD a getSlotAtPosition (II)Ldk;
 	METHOD a drawSlotInventory (Lmm;)V
 		ARG 1 slotInventory

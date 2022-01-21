@@ -3,6 +3,10 @@ CLASS gr net/minecraft/src/LoadingScreenRenderer
 	FIELD b mc Lnet/minecraft/client/Minecraft;
 	FIELD c currentlyDisplayedText Ljava/lang/String;
 	FIELD d systemTime J
-	FIELD e printText Z
-	METHOD a printText (Ljava/lang/String;)V
+	FIELD e noError Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a resetProgressAndMessage (Ljava/lang/String;)V
+		ARG 1 msg
 	METHOD c drawScreen (Ljava/lang/String;)V
+		ARG 1 msg

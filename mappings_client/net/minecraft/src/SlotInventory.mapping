@@ -2,4 +2,12 @@ CLASS mm net/minecraft/src/SlotInventory
 	FIELD c guiContainer Lee;
 	FIELD e xDisplayPosition I
 	FIELD f yDisplayPosition I
+	METHOD <init> (Lee;Lgh;III)V
+		ARG 1 guiContainer
+		ARG 2 inventory
+		ARG 3 slotIndex
+		ARG 4 x
+		ARG 5 y
 	METHOD a getIsMouseOverSlot (II)Z
+		ARG 1 x
+		ARG 2 y

@@ -1,2 +1,5 @@
 CLASS nk net/minecraft/src/NetworkWriterThread
 	FIELD a netManager Lii;
+	METHOD <init> (Lii;Ljava/lang/String;)V
+		ARG 1 networkManager
+		ARG 2 name

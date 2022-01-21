@@ -6,7 +6,7 @@ CLASS do net/minecraft/src/Packet15Place
 	FIELD e direction I
 	METHOD <init> (IIIII)V
 		ARG 1 id
-		ARG 2 xPosition
-		ARG 3 yPosition
-		ARG 4 zPosition
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 		ARG 5 direction

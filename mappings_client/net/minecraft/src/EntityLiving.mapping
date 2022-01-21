@@ -57,6 +57,7 @@ CLASS ge net/minecraft/src/EntityLiving
 	METHOD D onEntityDeath ()V
 	METHOD a getCanSpawnHere ()Z
 	METHOD a rayTrace (DF)Lmf;
+		ARG 3 renderPartialTick
 	METHOD a knockBack (Lkh;IDD)V
 		ARG 1 entity
 		ARG 2 x
@@ -64,8 +65,8 @@ CLASS ge net/minecraft/src/EntityLiving
 		ARG 5 z
 	METHOD b getTalkInterval ()I
 	METHOD b moveEntityWithHeading (FF)V
-		ARG 1 x
-		ARG 2 y
+		ARG 1 moveX
+		ARG 2 moveZ
 	METHOD b updateRotation (FFF)F
 	METHOD b heal (I)V
 		ARG 1 health
@@ -79,10 +80,13 @@ CLASS ge net/minecraft/src/EntityLiving
 		ARG 1 entity
 	METHOD d getHurtSound ()Ljava/lang/String;
 	METHOD d getSwingProgress (F)F
+		ARG 1 renderPartialTick
 	METHOD e getDeathSound ()Ljava/lang/String;
 	METHOD e getPosition (F)Laj;
+		ARG 1 renderPartialTick
 	METHOD f getSoundVolume ()F
 	METHOD f getLook (F)Laj;
+		ARG 1 renderPartialTick
 	METHOD g getDropItemId ()I
 	METHOD j onLivingUpdate ()V
 	METHOD z spawnExplosionParticle ()V

@@ -24,5 +24,11 @@ CLASS nw net/minecraft/src/ChunkProviderGenerate
 		ARG 1 worldObj
 		ARG 2 seed
 	METHOD a generateTerrain (II[B)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 blocks
 	METHOD a initializeNoiseField ([DIIIIII)[D
 	METHOD b replaceSurfaceBlocks (II[B)V
+		ARG 1 chunkX
+		ARG 2 chunkZ
+		ARG 3 blocks

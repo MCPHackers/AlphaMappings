@@ -28,6 +28,10 @@ CLASS ev net/minecraft/src/ItemStack
 	METHOD a splitStack (I)Lev;
 		ARG 1 stackSize
 	METHOD a onDestroyBlock (IIII)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD a useItemRightClick (Lcn;Ldm;)Lev;
 		ARG 1 worldObj
 		ARG 2 entityPlayer
@@ -36,6 +40,10 @@ CLASS ev net/minecraft/src/ItemStack
 	METHOD a useItem (Ldm;Lcn;IIII)Z
 		ARG 1 entityPlayer
 		ARG 2 worldObj
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 side
 	METHOD a hitEntity (Lge;)V
 		ARG 1 entityLiving
 	METHOD a writeToNBT (Lhm;)Lhm;

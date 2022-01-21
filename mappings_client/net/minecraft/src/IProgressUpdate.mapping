@@ -1,4 +1,7 @@
 CLASS nu net/minecraft/src/IProgressUpdate
 	METHOD a setLoadingProgress (I)V
+		ARG 1 progress
 	METHOD b displayProgressMessage (Ljava/lang/String;)V
+		ARG 1 msg
 	METHOD d displayLoadingString (Ljava/lang/String;)V
+		ARG 1 string

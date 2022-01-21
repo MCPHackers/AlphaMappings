@@ -2,5 +2,12 @@ CLASS ex net/minecraft/src/TileEntitySpecialRenderer
 	FIELD a tileEntityRenderer Lfz;
 	METHOD a getFontRenderer ()Lkd;
 	METHOD a setTileEntityRenderer (Lfz;)V
+		ARG 1 tileEntityRenderer
 	METHOD a renderTileEntityAt (Lic;DDDF)V
+		ARG 1 tileEntity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 renderPartialTick
 	METHOD a bindTextureByName (Ljava/lang/String;)V
+		ARG 1 name

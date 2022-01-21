@@ -8,8 +8,13 @@ CLASS bh net/minecraft/src/GuiScreen
 	FIELD g fontRenderer Lkd;
 	METHOD a initGui ()V
 	METHOD a keyTyped (CI)V
+		ARG 1 character
+		ARG 2 key
 	METHOD a drawWorldBackground (I)V
 	METHOD a drawScreen (IIF)V
+		ARG 1 mouseX
+		ARG 2 mouseY
+		ARG 3 renderPartialTick
 	METHOD a mouseClicked (III)V
 	METHOD a actionPerformed (Lfk;)V
 		ARG 1 button

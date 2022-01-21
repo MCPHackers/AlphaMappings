@@ -3,8 +3,13 @@ CLASS fx net/minecraft/src/Path
 	FIELD b count I
 	METHOD a clearPath ()V
 	METHOD a sortBack (I)V
+		ARG 1 index
 	METHOD a addPoint (La;)La;
+		ARG 1 pathPoint
 	METHOD a changeDistance (La;F)V
+		ARG 1 pathPoint
+		ARG 2 distance
 	METHOD b dequeue ()La;
 	METHOD b sortForward (I)V
+		ARG 1 index
 	METHOD c isPathEmpty ()Z

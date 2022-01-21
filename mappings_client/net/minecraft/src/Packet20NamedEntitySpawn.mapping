@@ -7,3 +7,5 @@ CLASS gp net/minecraft/src/Packet20NamedEntitySpawn
 	FIELD f rotation B
 	FIELD g pitch B
 	FIELD h currentItem I
+	METHOD <init> (Ldm;)V
+		ARG 1 entityPlayer

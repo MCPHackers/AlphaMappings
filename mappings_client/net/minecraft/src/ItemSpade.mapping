@@ -1,2 +1,5 @@
 CLASS ms net/minecraft/src/ItemSpade
 	FIELD aX blocksEffectiveAgainst [Lly;
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 strength

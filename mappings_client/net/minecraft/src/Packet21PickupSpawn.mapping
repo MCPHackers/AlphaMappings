@@ -8,3 +8,5 @@ CLASS ha net/minecraft/src/Packet21PickupSpawn
 	FIELD g roll B
 	FIELD h itemID I
 	FIELD i count I
+	METHOD <init> (Ldx;)V
+		ARG 1 entityItem

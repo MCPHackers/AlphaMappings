@@ -8,4 +8,5 @@ CLASS ek net/minecraft/src/EntityCreature
 		ARG 3 z
 	METHOD a attackEntity (Lkh;F)V
 		ARG 1 entity
+		ARG 2 distance
 	METHOD i findPlayerToAttack ()Lkh;

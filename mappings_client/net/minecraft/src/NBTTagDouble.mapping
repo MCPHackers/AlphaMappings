@@ -1,2 +1,4 @@
 CLASS kr net/minecraft/src/NBTTagDouble
 	FIELD a doubleValue D
+	METHOD <init> (D)V
+		ARG 1 value

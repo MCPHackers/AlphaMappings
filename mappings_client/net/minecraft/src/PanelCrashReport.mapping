@@ -1,1 +1,3 @@
 CLASS aq net/minecraft/src/PanelCrashReport
+	METHOD <init> (Lgo;)V
+		ARG 1 throwable

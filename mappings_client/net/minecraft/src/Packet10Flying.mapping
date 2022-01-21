@@ -8,3 +8,5 @@ CLASS eh net/minecraft/src/Packet10Flying
 	FIELD g onGround Z
 	FIELD h moving Z
 	FIELD i rotating Z
+	METHOD <init> (Z)V
+		ARG 1 onGround

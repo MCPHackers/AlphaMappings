@@ -3,3 +3,7 @@ CLASS hk net/minecraft/src/MusInputStream
 	FIELD b codec Lep;
 	FIELD c hash I
 	FIELD d inputStream Ljava/io/InputStream;
+	METHOD <init> (Lep;Ljava/net/URL;Ljava/io/InputStream;)V
+		ARG 1 codec
+		ARG 2 url
+		ARG 3 inputStream

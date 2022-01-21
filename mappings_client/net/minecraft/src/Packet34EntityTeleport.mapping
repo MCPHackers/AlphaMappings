@@ -5,3 +5,5 @@ CLASS jl net/minecraft/src/Packet34EntityTeleport
 	FIELD d zPosition I
 	FIELD e yaw B
 	FIELD f pitch B
+	METHOD <init> (Lkh;)V
+		ARG 1 entity

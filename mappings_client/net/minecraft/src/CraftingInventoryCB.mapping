@@ -1,4 +1,6 @@
 CLASS ar net/minecraft/src/CraftingInventoryCB
 	FIELD c list Ljava/util/List;
 	METHOD a onCraftGuiClosed (Ldm;)V
+		ARG 1 entityPlayer
 	METHOD a onCraftMatrixChanged (Lgh;)V
+		ARG 1 inventory

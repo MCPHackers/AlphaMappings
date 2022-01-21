@@ -1,7 +1,7 @@
 CLASS km net/minecraft/src/BlockStairs
 	FIELD a modelBlock Lly;
 	METHOD <init> (ILly;)V
-		ARG 1 blockID
+		ARG 1 id
 		ARG 2 modelBlock
 	METHOD h updateState (Lcn;III)V
 		ARG 1 worldObj

@@ -1,10 +1,25 @@
 CLASS kn net/minecraft/src/MetadataChunkBlock
 	FIELD a skyBlock Lby;
-	FIELD b x I
-	FIELD c y I
-	FIELD d z I
+	FIELD b minX I
+	FIELD c minY I
+	FIELD d minZ I
 	FIELD e maxX I
 	FIELD f maxY I
 	FIELD g maxZ I
+	METHOD <init> (Lby;IIIIII)V
+		ARG 1 skyBlock
+		ARG 2 minX
+		ARG 3 minY
+		ARG 4 minZ
+		ARG 5 maxX
+		ARG 6 maxY
+		ARG 7 maxZ
 	METHOD a getLightUpdated (IIIIII)Z
+		ARG 1 minX
+		ARG 2 minY
+		ARG 3 minZ
+		ARG 4 maxX
+		ARG 5 maxY
+		ARG 6 maxZ
 	METHOD a updateLight (Lcn;)V
+		ARG 1 world

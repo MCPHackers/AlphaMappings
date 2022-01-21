@@ -2,6 +2,9 @@ CLASS bl net/minecraft/src/PathEntity
 	FIELD a pathLength I
 	FIELD b points [La;
 	FIELD c pathIndex I
+	METHOD <init> ([La;)V
+		ARG 1 pathPoints
 	METHOD a incrementPathIndex ()V
 	METHOD a getPosition (Lkh;)Laj;
+		ARG 1 entity
 	METHOD b isFinished ()Z

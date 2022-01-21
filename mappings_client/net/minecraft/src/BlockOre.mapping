@@ -1,4 +1,4 @@
 CLASS gw net/minecraft/src/BlockOre
 	METHOD <init> (II)V
-		ARG 1 blockID
+		ARG 1 id
 		ARG 2 tex

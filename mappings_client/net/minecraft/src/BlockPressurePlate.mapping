@@ -1,7 +1,7 @@
 CLASS al net/minecraft/src/BlockPressurePlate
 	FIELD a triggerMobType Ljs;
 	METHOD <init> (IILjs;)V
-		ARG 1 blockID
+		ARG 1 id
 		ARG 2 tex
 		ARG 3 triggerMobType
 	METHOD h setStateIfMobInteractsWithPlate (Lcn;III)V

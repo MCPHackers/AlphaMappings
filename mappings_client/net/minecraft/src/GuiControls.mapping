@@ -3,3 +3,6 @@ CLASS lw net/minecraft/src/GuiControls
 	FIELD h parentScreen Lbh;
 	FIELD i options Lfr;
 	FIELD j buttonId I
+	METHOD <init> (Lbh;Lfr;)V
+		ARG 1 prevScreen
+		ARG 2 gameSettings

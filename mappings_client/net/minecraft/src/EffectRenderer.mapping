@@ -8,13 +8,22 @@ CLASS bq net/minecraft/src/EffectRenderer
 		ARG 2 renderEngine
 	METHOD a updateEffects ()V
 	METHOD a addBlockDestroyEffects (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a addBlockHitEffects (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
 	METHOD a clearEffects (Lcn;)V
 		ARG 1 worldObj
 	METHOD a renderParticles (Lkh;F)V
-		ARG 1 entity
+		ARG 1 viewerEntity
+		ARG 2 renderPartialTick
 	METHOD a addEffect (Lnq;)V
 		ARG 1 entityFX
 	METHOD b getStatistics ()Ljava/lang/String;
 	METHOD b renderLitParticles (Lkh;F)V
 		ARG 1 entity
+		ARG 2 renderPartialTick

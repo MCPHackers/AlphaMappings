@@ -5,13 +5,17 @@ CLASS ci net/minecraft/src/ChunkCache
 	FIELD d worldObj Lcn;
 	METHOD <init> (Lcn;IIIIII)V
 		ARG 1 worldObj
-		ARG 2 chunkX
-		ARG 4 chunkZ
+		ARG 2 minX
+		ARG 3 minY
+		ARG 4 minZ
+		ARG 5 maxX
+		ARG 6 maxY
+		ARG 7 maxZ
 	METHOD a getLightValueExt (IIIZ)I
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD d getLightValue (III)I
-		ARG 1 blockX
-		ARG 2 blockY
-		ARG 3 blockZ
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

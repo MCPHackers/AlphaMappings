@@ -9,6 +9,10 @@ CLASS fk net/minecraft/src/GuiButton
 	FIELD h visible Z
 	METHOD a mouseReleased (II)V
 	METHOD a drawButton (Lnet/minecraft/client/Minecraft;II)V
+		ARG 1 minecraft
+		ARG 2 mouseX
+		ARG 3 mouseY
 	METHOD a getHoverState (Z)I
+		ARG 1 mousePointerHovered
 	METHOD b mouseDragged (Lnet/minecraft/client/Minecraft;II)V
 	METHOD c mousePressed (Lnet/minecraft/client/Minecraft;II)Z

@@ -6,5 +6,7 @@ CLASS lv net/minecraft/src/MovementInput
 	FIELD e sneak Z
 	METHOD a resetKeyState ()V
 	METHOD a checkKeyForMovementInput (IZ)V
+		ARG 1 key
+		ARG 2 state
 	METHOD a updatePlayerMoveState (Ldm;)V
 		ARG 1 entityPlayer

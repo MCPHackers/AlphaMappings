@@ -1,2 +1,4 @@
 CLASS lh net/minecraft/src/ThreadRunIsoClient
 	FIELD a isomPreview Lad;
+	METHOD <init> (Lad;)V
+		ARG 1 canvas

@@ -5,4 +5,4 @@ CLASS hc net/minecraft/src/ChunkCoordinates
 		ARG 1 posX
 		ARG 2 posZ
 	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 chunkCoordinate
+		ARG 1 chunkCoordinates

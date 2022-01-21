@@ -1,4 +1,4 @@
-CLASS kl net/minecraft/src/Frustrum
+CLASS kl net/minecraft/src/Frustum
 	FIELD a clippingHelper Lbt;
 	FIELD b xPosition D
 	FIELD c yPosition D

@@ -3,6 +3,8 @@ CLASS v net/minecraft/src/NoiseGeneratorPerlin
 	FIELD b yCoord D
 	FIELD c zCoord D
 	FIELD d permutations [I
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 random
 	METHOD a generateNoise (DD)D
 	METHOD a generateNoise (DDD)D
 	METHOD a grad (IDDD)D

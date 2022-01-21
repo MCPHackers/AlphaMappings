@@ -1,1 +1,9 @@
 CLASS ch net/minecraft/src/Packet13PlayerLookMove
+	METHOD <init> (DDDDFFZ)V
+		ARG 1 x
+		ARG 3 minY
+		ARG 5 y
+		ARG 7 z
+		ARG 9 yaw
+		ARG 10 pitch
+		ARG 11 onGround

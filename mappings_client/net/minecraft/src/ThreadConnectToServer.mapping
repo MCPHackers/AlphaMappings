@@ -3,3 +3,8 @@ CLASS nc net/minecraft/src/ThreadConnectToServer
 	FIELD b ip Ljava/lang/String;
 	FIELD c port I
 	FIELD d connectingGui Lmn;
+	METHOD <init> (Lmn;Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 guiConnecting
+		ARG 2 minecraft
+		ARG 3 ip
+		ARG 4 port

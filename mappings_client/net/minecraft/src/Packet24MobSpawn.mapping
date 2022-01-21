@@ -6,3 +6,5 @@ CLASS ez net/minecraft/src/Packet24MobSpawn
 	FIELD e zPosition I
 	FIELD f yaw B
 	FIELD g pitch B
+	METHOD <init> (Lge;)V
+		ARG 1 entityLiving

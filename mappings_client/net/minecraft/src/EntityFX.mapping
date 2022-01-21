@@ -22,6 +22,12 @@ CLASS nq net/minecraft/src/EntityFX
 		ARG 12 motionZ
 	METHOD a renderParticle (Lho;FFFFFF)V
 		ARG 1 tessellator
+		ARG 2 renderPartialTick
+		ARG 3 xOffset
+		ARG 4 yOffset
+		ARG 5 zOffset
+		ARG 6 xOffset2
+		ARG 7 zOffset2
 	METHOD b multiplyVelocity (F)Lnq;
 		ARG 1 velocityMultiplier
 	METHOD c getFXLayer ()I

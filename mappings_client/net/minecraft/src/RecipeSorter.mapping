@@ -1,3 +1,5 @@
 CLASS fs net/minecraft/src/RecipeSorter
 	FIELD a craftingManager Ldw;
+	METHOD <init> (Ldw;)V
+		ARG 1 craftingManager
 	METHOD a compareRecipes (Lbv;Lbv;)I

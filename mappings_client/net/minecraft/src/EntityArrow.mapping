@@ -9,9 +9,11 @@ CLASS kg net/minecraft/src/EntityArrow
 	FIELD h ticksInGround I
 	FIELD i ticksInAir I
 	METHOD <init> (Lcn;Lge;)V
-		ARG 1 worldObj
+		ARG 1 world
 		ARG 2 entityLiving
 	METHOD a setArrowHeading (DDDFF)V
-		ARG 1 motionX
-		ARG 3 motionY
-		ARG 5 motionZ
+		ARG 1 moveX
+		ARG 3 moveY
+		ARG 5 moveZ
+		ARG 7 arrowSpeed
+		ARG 8 arrowSpread

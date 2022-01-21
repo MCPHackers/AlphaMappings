@@ -5,4 +5,5 @@ CLASS cx net/minecraft/src/GuiMainMenu
 	FIELD j updateCounter F
 	FIELD l splashString Ljava/lang/String;
 	METHOD a drawLogo (F)V
+		ARG 1 renderPartialTick
 	METHOD j getRandom ()Ljava/util/Random;

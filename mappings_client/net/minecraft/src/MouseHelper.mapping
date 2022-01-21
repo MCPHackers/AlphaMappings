@@ -4,6 +4,8 @@ CLASS mp net/minecraft/src/MouseHelper
 	FIELD c windowComponent Ljava/awt/Component;
 	FIELD d cursor Lorg/lwjgl/input/Cursor;
 	FIELD e mouseInt I
+	METHOD <init> (Ljava/awt/Component;)V
+		ARG 1 component
 	METHOD a grabMouseCursor ()V
 	METHOD b ungrabMouseCursor ()V
 	METHOD c mouseXYChange ()V
