@@ -123,7 +123,7 @@ CLASS ly net/minecraft/src/Block
 		ARG 2 material
 	METHOD a tickRate ()I
 	METHOD a setLightValue (F)Lly;
-		ARG 1 lightValue
+		ARG 1 value
 	METHOD a setBlockBounds (FFFFFF)V
 		ARG 1 minX
 		ARG 2 minY
@@ -302,7 +302,7 @@ CLASS ly net/minecraft/src/Block
 		ARG 5 side
 	METHOD d canProvidePower ()Z
 	METHOD d setLightOpacity (I)Lly;
-		ARG 1 lightOpacity
+		ARG 1 opacity
 	METHOD d getCollisionBoundingBoxFromPool (Lcn;III)Lcf;
 		ARG 1 worldObj
 		ARG 2 x
